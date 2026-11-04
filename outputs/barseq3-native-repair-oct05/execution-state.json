@@ -1,0 +1,14 @@
+{
+  "stage": "ready_for_interpretation",
+  "updated_utc": "2026-10-06T01:51:11.413730+00:00",
+  "pid": 52037,
+  "execute_sha256": "d59067a02f314e6aaac6e01cfcb615c2add8597fae3390269b37ef5fd917be18",
+  "status": "completed",
+  "started_utc": "2026-10-06T00:52:55.813696+00:00",
+  "child_pid": null,
+  "command": [
+    "external-originals/2026-09-25/can-y/work/merlin-venv.nosync/bin/python",
+    "submission/refresh_delivery.py"
+  ],
+  "exit_code": 0
+}

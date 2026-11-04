@@ -1,0 +1,70 @@
+{
+  "stage": "complete",
+  "case": "culture_4_color",
+  "source": "culture",
+  "field": 4,
+  "kind": "color",
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c",
+  "candidates": 40,
+  "incumbent": 0,
+  "rows": [
+    {
+      "decoder": "source_spot",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "actual_consistency_error": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "failed_consistency": false,
+      "risk": {
+        "abstained": true,
+        "reason": "Insufficient incumbent calls"
+      },
+      "baseline_fit_loss": 0.3306454489433252,
+      "baseline_fit_gap": 0.0,
+      "baseline_decoder_confidence": null,
+      "baseline_quality": {
+        "full_catalog_calls": 48,
+        "negative": 0,
+        "blank_proxy": 0.0,
+        "source_abstentions": 112,
+        "source_unsupported": null,
+        "central_coding": 0,
+        "central_negative": 0
+      }
+    },
+    {
+      "decoder": "correlation",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "actual_consistency_error": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "failed_consistency": false,
+      "risk": {
+        "abstained": true,
+        "reason": "Insufficient incumbent calls"
+      },
+      "baseline_fit_loss": 0.3306454489433252,
+      "baseline_fit_gap": 0.0,
+      "baseline_decoder_confidence": null,
+      "baseline_quality": {
+        "full_catalog_calls": 100,
+        "negative": 0,
+        "blank_proxy": 0.0,
+        "source_abstentions": 60,
+        "source_unsupported": null,
+        "central_coding": 0,
+        "central_negative": 0
+      }
+    }
+  ],
+  "runtime_s": 32.20319491700502,
+  "development": true,
+  "independent_confirmation": false,
+  "independent_RNA_truth": false
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "url": "https://zenodo.org/api/records/19024678/files/adata_adult_cb_fig3.h5ad.zip/content",
+    "status": 200,
+    "bytes": 10854055,
+    "md5": "e5910852f285db59c8eb7e72051d3100",
+    "expected_md5": "md5:e5910852f285db59c8eb7e72051d3100",
+    "content_type": "application/octet-stream, application/octet-stream",
+    "prefix_hex": "504b03041400080008001809",
+    "zip_members": [
+      "adata_adult_cb_fig3.h5ad",
+      "__MACOSX/._adata_adult_cb_fig3.h5ad"
+    ]
+  },
+  {
+    "url": "https://zenodo.org/records/19024678/files/adata_adult_cb_fig3.h5ad.zip?download=1",
+    "status": 200,
+    "bytes": 10854055,
+    "md5": "e5910852f285db59c8eb7e72051d3100",
+    "expected_md5": "md5:e5910852f285db59c8eb7e72051d3100",
+    "content_type": "application/octet-stream, application/octet-stream",
+    "prefix_hex": "504b03041400080008001809",
+    "zip_members": [
+      "adata_adult_cb_fig3.h5ad",
+      "__MACOSX/._adata_adult_cb_fig3.h5ad"
+    ]
+  }
+]

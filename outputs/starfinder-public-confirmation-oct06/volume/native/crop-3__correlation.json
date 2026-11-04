@@ -1,0 +1,22 @@
+{
+  "status": "completed",
+  "crop": 3,
+  "decoder": "correlation",
+  "xyz": [],
+  "words": [],
+  "coding": 0,
+  "negative": 0,
+  "support": 1.0,
+  "runtime": {
+    "candidates": 1,
+    "unsupported_candidates": 0,
+    "candidate_trace_s": 0.16861120899557136,
+    "absolute_cut": 0.775,
+    "density_max": 0.6921089291572571,
+    "density_sha256": "504b13901f20b66bcf62828afb480a5bed47cfacb76f884646fd98f1399ae79a",
+    "multiple_calls_per_object": 0,
+    "elapsed_s": 0.1917349169962108
+  },
+  "input_sha256": "5e959d62c0bd18edcd80438f2a2763a4395406eca8074b5340ba097b77a5d71e",
+  "freeze_sha256": "48de0b6594b09dd935d93f81d3c9dcf9ab9653c4e4a6a864736ab3c19e941588"
+}

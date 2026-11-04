@@ -1,0 +1,13 @@
+{
+  "python": "3.10.16",
+  "packages": {
+    "numpy": "1.23.5",
+    "scipy": "1.10.1",
+    "scikit-image": "0.21.0",
+    "opencv-python-headless": "4.8.1.78",
+    "SimpleITK": "2.4.1",
+    "h5py": "3.10.0"
+  },
+  "threads": 2,
+  "seed": 503
+}

@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "synthetic": [
+    {
+      "decoder": "source_spot",
+      "identity_f1": 1.0,
+      "coding": 60,
+      "negative": 0,
+      "runtime": {
+        "candidates": 60,
+        "unsupported_candidates": 0,
+        "duplicate_candidate_coordinates": 0,
+        "elapsed_s": 0.1619361659977585
+      }
+    },
+    {
+      "decoder": "correlation",
+      "identity_f1": 1.0,
+      "coding": 60,
+      "negative": 0,
+      "runtime": {
+        "candidates": 60,
+        "unsupported_candidates": 0,
+        "duplicate_candidate_coordinates": 0,
+        "elapsed_s": 0.38982362500973977
+      }
+    },
+    {
+      "decoder": "regression",
+      "identity_f1": 1.0,
+      "coding": 60,
+      "negative": 0,
+      "runtime": {
+        "candidates": 60,
+        "unsupported_candidates": 0,
+        "duplicate_candidate_coordinates": 0,
+        "elapsed_s": 1.2248060830170289
+      }
+    }
+  ],
+  "ambiguity": [
+    {
+      "decoder": "source_spot",
+      "accepted": 0,
+      "reason": "symmetric equal-color ambiguity"
+    },
+    {
+      "decoder": "correlation",
+      "accepted": 0,
+      "reason": "symmetric equal-color ambiguity"
+    },
+    {
+      "decoder": "regression",
+      "accepted": 0,
+      "reason": "symmetric equal-color ambiguity"
+    }
+  ],
+  "seed": 61009,
+  "count_preserving_corruption": {
+    "identity_f1": 0.0,
+    "composition_tv": 0.0,
+    "yield_unchanged": true,
+    "negative_proxy_unchanged": true
+  },
+  "geometric_oracle_exact": true,
+  "supported_object_target": true,
+  "development": true,
+  "independent_confirmation": false,
+  "script_sha256": "df95e88a7e24519834f7185be1825f0e0ce672a14bae368667e4f17cc91512d9",
+  "quality_script_sha256": "7b24e3954b523b159058edbcf94e8b882ac112ddd3f304e7c9f37a9b0a2f085e"
+}

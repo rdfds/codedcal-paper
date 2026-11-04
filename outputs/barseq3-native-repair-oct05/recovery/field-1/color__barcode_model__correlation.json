@@ -1,0 +1,298 @@
+{
+  "status": "completed",
+  "kind": "color",
+  "policy": "barcode_model",
+  "decoder": "correlation",
+  "source_index": 1,
+  "xy": [
+    [
+      57.0,
+      88.0
+    ],
+    [
+      24.0,
+      46.0
+    ],
+    [
+      87.0,
+      73.0
+    ],
+    [
+      87.0,
+      66.0
+    ],
+    [
+      82.0,
+      45.0
+    ],
+    [
+      46.0,
+      45.0
+    ],
+    [
+      101.0,
+      57.0
+    ],
+    [
+      103.0,
+      57.0
+    ],
+    [
+      58.0,
+      25.0
+    ],
+    [
+      45.0,
+      43.0
+    ],
+    [
+      102.0,
+      90.0
+    ]
+  ],
+  "words": [
+    163,
+    178,
+    697,
+    820,
+    885,
+    899,
+    1242,
+    1242,
+    1293,
+    1343,
+    1422
+  ],
+  "metrics": {
+    "1.5": {
+      "gene_class_identity_f1": 0.014705882352941176,
+      "sequence_identity_f1": 0.014705882352941176,
+      "spatial_f1": 0.058823529411764705,
+      "label_constrained_f1": 0.014705882352941176,
+      "composition_tv": 0.9359999999999999,
+      "reference_calls": 125,
+      "predicted_calls": 11,
+      "correct_gene_classes": 1,
+      "matching": {
+        "ambiguous_reference": 1,
+        "ambiguous_prediction": 0,
+        "skipped_components": 0,
+        "candidate_edges": 5
+      }
+    },
+    "3": {
+      "gene_class_identity_f1": 0.029411764705882353,
+      "sequence_identity_f1": 0.029411764705882353,
+      "spatial_f1": 0.10294117647058823,
+      "label_constrained_f1": 0.029411764705882353,
+      "composition_tv": 0.9359999999999999,
+      "reference_calls": 125,
+      "predicted_calls": 11,
+      "correct_gene_classes": 2,
+      "matching": {
+        "ambiguous_reference": 2,
+        "ambiguous_prediction": 2,
+        "skipped_components": 0,
+        "candidate_edges": 12
+      }
+    },
+    "5": {
+      "gene_class_identity_f1": 0.058823529411764705,
+      "sequence_identity_f1": 0.058823529411764705,
+      "spatial_f1": 0.16176470588235295,
+      "label_constrained_f1": 0.10294117647058823,
+      "composition_tv": 0.9359999999999999,
+      "reference_calls": 125,
+      "predicted_calls": 11,
+      "correct_gene_classes": 4,
+      "matching": {
+        "ambiguous_reference": 6,
+        "ambiguous_prediction": 9,
+        "skipped_components": 0,
+        "candidate_edges": 30
+      }
+    }
+  },
+  "quality": {
+    "nonblank": 11,
+    "blanks": 0,
+    "proxy": 0.0,
+    "support": 1.0,
+    "qualified": false
+  },
+  "runtime": {
+    "kernel_s": 0.03488866699626669,
+    "peaks_s": 0.2754834170045797,
+    "density_max": 0.8511375784873962,
+    "absolute_cut": 0.7749999761581421,
+    "density_sha256": "49a80f5d72e6a4434af77b9e942edc71e714e7b9eaf125a324aea41827c40ab5",
+    "exact_reference_kernel_reused": false,
+    "warp_s": 0.02383391698822379
+  },
+  "applied_integer_maps": [
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -7,
+      -3
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "residual_added_rms": 3.1622776601683795,
+  "geometry_sha256": "33f880927acf1324cc51a257754624feb52248951985c5755b52ef877073d506",
+  "reference_sha256": "4515c38fa2b7a0b030460e03dc63f7f57f9cb93c474339fe31ce57d693e4de98",
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955"
+}

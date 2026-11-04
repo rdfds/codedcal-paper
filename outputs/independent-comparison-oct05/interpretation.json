@@ -1,0 +1,2603 @@
+{
+  "studies": {
+    "development": {
+      "correlation": {
+        "cases": [
+          {
+            "condition": "color-d1-s501",
+            "kind": "color",
+            "feature": 1.3681650245874901,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8043478260869565,
+              "common_round": 0.8216216216216217,
+              "common_iterative": 0.8404255319148937,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.8730964467005076
+            },
+            "composition_tv": {
+              "none": 0.14047619047619048,
+              "common_round": 0.10647058823529411,
+              "common_iterative": 0.0840909090909091,
+              "population_template": 0.08416666666666664,
+              "barcode_model": 0.08834951456310682,
+              "oracle": 0.08731958762886599
+            },
+            "calls": {
+              "none": 84,
+              "common_round": 85,
+              "common_iterative": 88,
+              "population_template": 96,
+              "barcode_model": 103,
+              "oracle": 97
+            },
+            "gain": 0.01671732522796343,
+            "radius_gains": {
+              "1.5": -0.06643508467216674,
+              "3": 0.018019973947025703,
+              "5": 0.01671732522796343
+            },
+            "constrained_gain": 0.026921406860616504,
+            "decision_core_s": 1.6651561670587398,
+            "always_template_core_s": 1.0478261250536889,
+            "model_core_s": 8.780387667007744
+          },
+          {
+            "condition": "color-d1-s502",
+            "kind": "color",
+            "feature": 1.1647549643416504,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8172043010752689,
+              "common_round": 0.8524590163934426,
+              "common_iterative": 0.8387096774193549,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.8514851485148515,
+              "oracle": 0.8629441624365483
+            },
+            "composition_tv": {
+              "none": 0.12116279069767442,
+              "common_round": 0.0944578313253012,
+              "common_iterative": 0.11465116279069767,
+              "population_template": 0.09458333333333332,
+              "barcode_model": 0.08392156862745098,
+              "oracle": 0.09010309278350516
+            },
+            "calls": {
+              "none": 86,
+              "common_round": 83,
+              "common_iterative": 86,
+              "population_template": 96,
+              "barcode_model": 102,
+              "oracle": 97
+            },
+            "gain": 0.018433179723502224,
+            "radius_gains": {
+              "1.5": -0.09578670177748516,
+              "3": 0.02062760588106216,
+              "5": 0.018433179723502224
+            },
+            "constrained_gain": 0.018433179723502224,
+            "decision_core_s": 1.751645250042202,
+            "always_template_core_s": 1.1959015429893043,
+            "model_core_s": 12.189283418061677
+          },
+          {
+            "condition": "color-d2-s501",
+            "kind": "color",
+            "feature": 2.3249993814227126,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.4461538461538462,
+              "common_round": 0.54421768707483,
+              "common_iterative": 0.7664670658682635,
+              "population_template": 0.8629441624365483,
+              "barcode_model": 0.8472906403940886,
+              "oracle": 0.8730964467005076
+            },
+            "composition_tv": {
+              "none": 0.3666666666666667,
+              "common_round": 0.33723404255319145,
+              "common_iterative": 0.1664179104477612,
+              "population_template": 0.09855670103092784,
+              "barcode_model": 0.08834951456310682,
+              "oracle": 0.08731958762886599
+            },
+            "calls": {
+              "none": 30,
+              "common_round": 47,
+              "common_iterative": 67,
+              "population_template": 97,
+              "barcode_model": 103,
+              "oracle": 97
+            },
+            "gain": 0.09647709656828474,
+            "radius_gains": {
+              "1.5": 0.015805951548679253,
+              "3": 0.1139244353931731,
+              "5": 0.09647709656828474
+            },
+            "constrained_gain": 0.09647709656828474,
+            "decision_core_s": 1.9063672090123873,
+            "always_template_core_s": 1.5475695409986656,
+            "model_core_s": 11.95987320804852
+          },
+          {
+            "condition": "color-d2-s502",
+            "kind": "color",
+            "feature": 2.0877992016599762,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.4444444444444444,
+              "common_round": 0.46616541353383456,
+              "common_iterative": 0.7428571428571429,
+              "population_template": 0.8629441624365483,
+              "barcode_model": 0.845771144278607,
+              "oracle": 0.8717948717948718
+            },
+            "composition_tv": {
+              "none": 0.46285714285714286,
+              "common_round": 0.26848484848484844,
+              "common_iterative": 0.16999999999999998,
+              "population_template": 0.08824742268041239,
+              "barcode_model": 0.07732673267326734,
+              "oracle": 0.09894736842105264
+            },
+            "calls": {
+              "none": 35,
+              "common_round": 33,
+              "common_iterative": 75,
+              "population_template": 97,
+              "barcode_model": 101,
+              "oracle": 95
+            },
+            "gain": 0.12008701957940537,
+            "radius_gains": {
+              "1.5": 0.027556200145032683,
+              "3": 0.13534445250181293,
+              "5": 0.12008701957940537
+            },
+            "constrained_gain": 0.11881073241479323,
+            "decision_core_s": 1.3225206659990363,
+            "always_template_core_s": 1.0081295410054736,
+            "model_core_s": 8.744696041016141
+          },
+          {
+            "condition": "color-d4-s501",
+            "kind": "color",
+            "feature": 4.305948277548176,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.0196078431372549,
+              "common_round": 0.019801980198019802,
+              "common_iterative": 0.3114754098360656,
+              "population_template": 0.8629441624365483,
+              "barcode_model": 0.8514851485148515,
+              "oracle": 0.8673469387755102
+            },
+            "composition_tv": {
+              "none": 0.88,
+              "common_round": 0.9800000000000001,
+              "common_iterative": 0.49272727272727274,
+              "population_template": 0.09855670103092784,
+              "barcode_model": 0.09117647058823529,
+              "oracle": 0.09291666666666668
+            },
+            "calls": {
+              "none": 2,
+              "common_round": 1,
+              "common_iterative": 22,
+              "population_template": 97,
+              "barcode_model": 102,
+              "oracle": 96
+            },
+            "gain": 0.5514687526004827,
+            "radius_gains": {
+              "1.5": 0.5068652741948906,
+              "3": 0.6521594407922111,
+              "5": 0.5514687526004827
+            },
+            "constrained_gain": 0.5350753099775318,
+            "decision_core_s": 1.4820037479803432,
+            "always_template_core_s": 1.1660058739944361,
+            "model_core_s": 8.4814853760181
+          },
+          {
+            "condition": "color-d4-s502",
+            "kind": "color",
+            "feature": 3.960160771582333,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.12962962962962962,
+              "common_round": 0.018867924528301886,
+              "common_iterative": 0.2644628099173554,
+              "population_template": 0.8556701030927835,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.8673469387755102
+            },
+            "composition_tv": {
+              "none": 0.81,
+              "common_round": 0.77,
+              "common_iterative": 0.4019047619047619,
+              "population_template": 0.1051063829787234,
+              "barcode_model": 0.09776699029126215,
+              "oracle": 0.09291666666666668
+            },
+            "calls": {
+              "none": 8,
+              "common_round": 6,
+              "common_iterative": 21,
+              "population_template": 94,
+              "barcode_model": 103,
+              "oracle": 96
+            },
+            "gain": 0.5912072931754281,
+            "radius_gains": {
+              "1.5": 0.5917184970605776,
+              "3": 0.7131294197835903,
+              "5": 0.5912072931754281
+            },
+            "constrained_gain": 0.541620516315924,
+            "decision_core_s": 1.4599040409957524,
+            "always_template_core_s": 0.9758724989951588,
+            "model_core_s": 8.79072416498093
+          },
+          {
+            "condition": "round-d1-s501",
+            "kind": "round",
+            "feature": 0.6328882319711552,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8469387755102041,
+              "common_round": 0.8704663212435233,
+              "common_iterative": 0.8686868686868687,
+              "population_template": 0.8527918781725888,
+              "barcode_model": 0.8374384236453202,
+              "oracle": 0.8686868686868687
+            },
+            "composition_tv": {
+              "none": 0.12583333333333332,
+              "common_round": 0.09064516129032259,
+              "common_iterative": 0.08142857142857143,
+              "population_template": 0.08824742268041239,
+              "barcode_model": 0.09572815533980583,
+              "oracle": 0.08306122448979592
+            },
+            "calls": {
+              "none": 96,
+              "common_round": 93,
+              "common_iterative": 98,
+              "population_template": 97,
+              "barcode_model": 103,
+              "oracle": 98
+            },
+            "gain": -0.015894990514279894,
+            "radius_gains": {
+              "1.5": -0.037481413115930895,
+              "3": -0.01604881300312766,
+              "5": -0.015894990514279894
+            },
+            "constrained_gain": -0.005742706250320473,
+            "decision_core_s": 1.6331637080293149,
+            "always_template_core_s": 0.9564552090305369,
+            "model_core_s": 8.249756501056254
+          },
+          {
+            "condition": "round-d1-s502",
+            "kind": "round",
+            "feature": 0.6380892055025962,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8465608465608465,
+              "common_round": 0.8677248677248677,
+              "common_iterative": 0.8686868686868687,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.8333333333333334,
+              "oracle": 0.8673469387755102
+            },
+            "composition_tv": {
+              "none": 0.10786516853932583,
+              "common_round": 0.09539325842696629,
+              "common_iterative": 0.08142857142857143,
+              "population_template": 0.08416666666666664,
+              "barcode_model": 0.09115384615384615,
+              "oracle": 0.09291666666666668
+            },
+            "calls": {
+              "none": 89,
+              "common_round": 89,
+              "common_iterative": 98,
+              "population_template": 96,
+              "barcode_model": 104,
+              "oracle": 96
+            },
+            "gain": -0.011544011544011634,
+            "radius_gains": {
+              "1.5": -0.03452896310039166,
+              "3": -0.022057307771593426,
+              "5": -0.011544011544011634
+            },
+            "constrained_gain": -0.0013399299113585617,
+            "decision_core_s": 1.424037293967558,
+            "always_template_core_s": 0.9826147920393851,
+            "model_core_s": 8.168911918037338
+          },
+          {
+            "condition": "round-d2-s501",
+            "kind": "round",
+            "feature": 0.6621985885439836,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.7314285714285714,
+              "common_round": 0.8421052631578947,
+              "common_iterative": 0.864321608040201,
+              "population_template": 0.8629441624365483,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.8673469387755102
+            },
+            "composition_tv": {
+              "none": 0.16333333333333333,
+              "common_round": 0.09666666666666668,
+              "common_iterative": 0.07595959595959598,
+              "population_template": 0.08824742268041239,
+              "barcode_model": 0.08834951456310683,
+              "oracle": 0.09291666666666668
+            },
+            "calls": {
+              "none": 75,
+              "common_round": 90,
+              "common_iterative": 99,
+              "population_template": 97,
+              "barcode_model": 103,
+              "oracle": 96
+            },
+            "gain": -0.001377445603652716,
+            "radius_gains": {
+              "1.5": -0.04443537484376203,
+              "3": -0.0016835446266866283,
+              "5": -0.001377445603652716
+            },
+            "constrained_gain": 0.008774838660306594,
+            "decision_core_s": 1.371729707956547,
+            "always_template_core_s": 0.9619708330137655,
+            "model_core_s": 8.59620958394953
+          },
+          {
+            "condition": "round-d2-s502",
+            "kind": "round",
+            "feature": 0.6519439727431537,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.6585365853658537,
+              "common_round": 0.8615384615384616,
+              "common_iterative": 0.8730964467005076,
+              "population_template": 0.8469387755102041,
+              "barcode_model": 0.8415841584158416,
+              "oracle": 0.8673469387755102
+            },
+            "composition_tv": {
+              "none": 0.21562499999999998,
+              "common_round": 0.09894736842105264,
+              "common_iterative": 0.08731958762886599,
+              "population_template": 0.08416666666666665,
+              "barcode_model": 0.08235294117647059,
+              "oracle": 0.09291666666666668
+            },
+            "calls": {
+              "none": 64,
+              "common_round": 95,
+              "common_iterative": 97,
+              "population_template": 96,
+              "barcode_model": 102,
+              "oracle": 96
+            },
+            "gain": -0.026157671190303433,
+            "radius_gains": {
+              "1.5": -0.037760281777685756,
+              "3": -0.03651714492903757,
+              "5": -0.026157671190303433
+            },
+            "constrained_gain": -0.01595358955765047,
+            "decision_core_s": 1.4423211269895546,
+            "always_template_core_s": 0.9716108329885174,
+            "model_core_s": 8.219201291998615
+          },
+          {
+            "condition": "round-d4-s501",
+            "kind": "round",
+            "feature": 0.6780391257590491,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.11320754716981132,
+              "common_round": 0.770949720670391,
+              "common_iterative": 0.8686868686868687,
+              "population_template": 0.841025641025641,
+              "barcode_model": 0.8472906403940886,
+              "oracle": 0.8629441624365483
+            },
+            "composition_tv": {
+              "none": 0.6600000000000001,
+              "common_round": 0.12556962025316457,
+              "common_iterative": 0.08142857142857143,
+              "population_template": 0.08000000000000002,
+              "barcode_model": 0.08689320388349517,
+              "oracle": 0.08948453608247423
+            },
+            "calls": {
+              "none": 6,
+              "common_round": 79,
+              "common_iterative": 98,
+              "population_template": 95,
+              "barcode_model": 103,
+              "oracle": 97
+            },
+            "gain": -0.027661227661227694,
+            "radius_gains": {
+              "1.5": -0.052059052059052036,
+              "3": -0.017871017871017858,
+              "5": -0.027661227661227694
+            },
+            "constrained_gain": -0.017404817404817474,
+            "decision_core_s": 1.3934358750120737,
+            "always_template_core_s": 0.948378873988986,
+            "model_core_s": 7.9815084589936305
+          },
+          {
+            "condition": "round-d4-s502",
+            "kind": "round",
+            "feature": 0.6577300749275781,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.09433962264150944,
+              "common_round": 0.8586387434554974,
+              "common_iterative": 0.8629441624365483,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.864321608040201,
+              "oracle": 0.8629441624365483
+            },
+            "composition_tv": {
+              "none": 0.54,
+              "common_round": 0.10241758241758242,
+              "common_iterative": 0.08731958762886599,
+              "population_template": 0.08416666666666664,
+              "barcode_model": 0.0868686868686869,
+              "oracle": 0.08948453608247423
+            },
+            "calls": {
+              "none": 6,
+              "common_round": 91,
+              "common_iterative": 97,
+              "population_template": 96,
+              "barcode_model": 99,
+              "oracle": 97
+            },
+            "gain": -0.005801305293691161,
+            "radius_gains": {
+              "1.5": -0.047808971304257764,
+              "3": -0.005956697399772115,
+              "5": -0.005801305293691161
+            },
+            "constrained_gain": 0.004402776338961911,
+            "decision_core_s": 1.4022315409674775,
+            "always_template_core_s": 0.951920333027374,
+            "model_core_s": 8.005636955989758
+          }
+        ],
+        "threshold": 2,
+        "confusion": {
+          "tp": 4,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "radius_sensitivity": {
+          "1.5": {
+            "tp": 2,
+            "tn": 8,
+            "fp": 2,
+            "fn": 0,
+            "balanced_accuracy": 0.9
+          },
+          "3": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          },
+          "5": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          }
+        },
+        "constrained_matching_confusion": {
+          "tp": 4,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "mean_identity_f1": {
+          "none": 0.4960333199336831,
+          "common_round": 0.6495464184283904,
+          "common_iterative": 0.747568371754245,
+          "population_template": 0.8563978730099033,
+          "barcode_model": 0.8492857347466463,
+          "oracle": 0.8676868179224959,
+          "selected": 0.8608383852478783
+        },
+        "selected_minus_model": 0.011552650501231998,
+        "harms_vs_common": 0,
+        "mean_workflow_core_s": {
+          "decision_core_s": 1.5212096945009155,
+          "always_template_core_s": 1.0595213330937743,
+          "model_core_s": 9.01397288209652
+        },
+        "native": {
+          "none": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 99,
+            "correct_labels": 86,
+            "spatial_matches": 87,
+            "identity_f1": 0.864321608040201,
+            "spatial_f1": 0.8743718592964824,
+            "label_constrained_f1": 0.864321608040201,
+            "wrong_label_fraction": 0.011494252873563218,
+            "composition_tv": 0.07646464646464649,
+            "matching": {
+              "ambiguous_reference": 37,
+              "ambiguous_prediction": 38,
+              "skipped_components": 0,
+              "candidate_edges": 139
+            }
+          },
+          "common_round": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 99,
+            "correct_labels": 86,
+            "spatial_matches": 86,
+            "identity_f1": 0.864321608040201,
+            "spatial_f1": 0.864321608040201,
+            "label_constrained_f1": 0.864321608040201,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.07626262626262628,
+            "matching": {
+              "ambiguous_reference": 35,
+              "ambiguous_prediction": 35,
+              "skipped_components": 0,
+              "candidate_edges": 136
+            }
+          },
+          "common_iterative": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 100,
+            "correct_labels": 86,
+            "spatial_matches": 87,
+            "identity_f1": 0.86,
+            "spatial_f1": 0.87,
+            "label_constrained_f1": 0.86,
+            "wrong_label_fraction": 0.011494252873563218,
+            "composition_tv": 0.07000000000000002,
+            "matching": {
+              "ambiguous_reference": 36,
+              "ambiguous_prediction": 36,
+              "skipped_components": 0,
+              "candidate_edges": 137
+            }
+          },
+          "population_template": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 97,
+            "correct_labels": 84,
+            "spatial_matches": 85,
+            "identity_f1": 0.8527918781725888,
+            "spatial_f1": 0.8629441624365483,
+            "label_constrained_f1": 0.8629441624365483,
+            "wrong_label_fraction": 0.011764705882352941,
+            "composition_tv": 0.08824742268041239,
+            "matching": {
+              "ambiguous_reference": 25,
+              "ambiguous_prediction": 26,
+              "skipped_components": 0,
+              "candidate_edges": 124
+            }
+          },
+          "barcode_model": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 103,
+            "correct_labels": 86,
+            "spatial_matches": 88,
+            "identity_f1": 0.8472906403940886,
+            "spatial_f1": 0.8669950738916257,
+            "label_constrained_f1": 0.8571428571428571,
+            "wrong_label_fraction": 0.022727272727272728,
+            "composition_tv": 0.08834951456310682,
+            "matching": {
+              "ambiguous_reference": 32,
+              "ambiguous_prediction": 33,
+              "skipped_components": 0,
+              "candidate_edges": 136
+            }
+          },
+          "oracle": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 99,
+            "correct_labels": 86,
+            "spatial_matches": 87,
+            "identity_f1": 0.864321608040201,
+            "spatial_f1": 0.8743718592964824,
+            "label_constrained_f1": 0.864321608040201,
+            "wrong_label_fraction": 0.011494252873563218,
+            "composition_tv": 0.07646464646464649,
+            "matching": {
+              "ambiguous_reference": 37,
+              "ambiguous_prediction": 38,
+              "skipped_components": 0,
+              "candidate_edges": 139
+            }
+          }
+        }
+      },
+      "regression": {
+        "cases": [
+          {
+            "condition": "color-d1-s501",
+            "kind": "color",
+            "feature": 1.3681650245874901,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8279569892473119,
+              "common_round": 0.782608695652174,
+              "common_iterative": 0.819672131147541,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.850828729281768
+            },
+            "composition_tv": {
+              "none": 0.12279069767441861,
+              "common_round": 0.1461904761904762,
+              "common_iterative": 0.14060240963855422,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11962962962962963
+            },
+            "calls": {
+              "none": 86,
+              "common_round": 84,
+              "common_iterative": 83,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 81
+            },
+            "gain": 0.031156598134226998,
+            "radius_gains": {
+              "1.5": 0.030432026084593833,
+              "3": 0.020227636385593106,
+              "5": 0.031156598134226998
+            },
+            "constrained_gain": 0.020227636385593106,
+            "decision_core_s": 21.212547544040717,
+            "always_template_core_s": 13.80623462505173,
+            "model_core_s": 22.54178654102725
+          },
+          {
+            "condition": "color-d1-s502",
+            "kind": "color",
+            "feature": 1.1647549643416504,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.776595744680851,
+              "common_round": 0.7845303867403315,
+              "common_iterative": 0.8108108108108109,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.17272727272727276,
+              "common_round": 0.11320987654320988,
+              "common_iterative": 0.11352941176470588,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 88,
+              "common_round": 81,
+              "common_iterative": 85,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.04001791847095715,
+            "radius_gains": {
+              "1.5": 0.06020606241600712,
+              "3": 0.04001791847095715,
+              "5": 0.04001791847095715
+            },
+            "constrained_gain": 0.007585486038524714,
+            "decision_core_s": 14.271514291060157,
+            "always_template_core_s": 14.676020917017013,
+            "model_core_s": 25.3245030840626
+          },
+          {
+            "condition": "color-d2-s501",
+            "kind": "color",
+            "feature": 2.3249993814227126,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.36666666666666664,
+              "common_round": 0.5263157894736842,
+              "common_iterative": 0.6052631578947368,
+              "population_template": 0.8397790055248618,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.45000000000000007,
+              "common_round": 0.3204587155963302,
+              "common_iterative": 0.3421875,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 200,
+              "common_round": 109,
+              "common_iterative": 128,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.234515847630125,
+            "radius_gains": {
+              "1.5": 0.3108461762140157,
+              "3": 0.24556557138703117,
+              "5": 0.234515847630125
+            },
+            "constrained_gain": 0.1929339924396627,
+            "decision_core_s": 12.812273085030029,
+            "always_template_core_s": 12.453475417016307,
+            "model_core_s": 22.866805000056047
+          },
+          {
+            "condition": "color-d2-s502",
+            "kind": "color",
+            "feature": 2.0877992016599762,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.36678200692041524,
+              "common_round": 0.5633802816901409,
+              "common_iterative": 0.6857142857142857,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.850828729281768
+            },
+            "composition_tv": {
+              "none": 0.4284656084656085,
+              "common_round": 0.27362831858407083,
+              "common_iterative": 0.25363636363636366,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11962962962962963
+            },
+            "calls": {
+              "none": 189,
+              "common_round": 113,
+              "common_iterative": 110,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 81
+            },
+            "gain": 0.16511444356748228,
+            "radius_gains": {
+              "1.5": 0.27024467245461725,
+              "3": 0.17463825309129177,
+              "5": 0.16511444356748228
+            },
+            "constrained_gain": 0.1555906340436728,
+            "decision_core_s": 11.838331542006927,
+            "always_template_core_s": 11.523940417013364,
+            "model_core_s": 20.842315624991897
+          },
+          {
+            "condition": "color-d4-s501",
+            "kind": "color",
+            "feature": 4.305948277548176,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.02977667493796526,
+              "common_round": 0.00997506234413965,
+              "common_iterative": 0.2188679245283019,
+              "population_template": 0.8397790055248618,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.850828729281768
+            },
+            "composition_tv": {
+              "none": 0.6985808580858086,
+              "common_round": 0.7108305647840532,
+              "common_iterative": 0.4945454545454545,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11962962962962963
+            },
+            "calls": {
+              "none": 303,
+              "common_round": 301,
+              "common_iterative": 165,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 81
+            },
+            "gain": 0.6209110809965599,
+            "radius_gains": {
+              "1.5": 0.76943604711769,
+              "3": 0.790451370791202,
+              "5": 0.6209110809965599
+            },
+            "constrained_gain": 0.42064005003648497,
+            "decision_core_s": 11.092620872950647,
+            "always_template_core_s": 10.77662299896474,
+            "model_core_s": 18.041596542025218
+          },
+          {
+            "condition": "color-d4-s502",
+            "kind": "color",
+            "feature": 3.960160771582333,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.05555555555555555,
+              "common_round": 0.05,
+              "common_iterative": 0.21940928270042195,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.613781512605042,
+              "common_round": 0.6790909090909092,
+              "common_iterative": 0.5196350364963503,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 476,
+              "common_round": 220,
+              "common_iterative": 137,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.6314194465813461,
+            "radius_gains": {
+              "1.5": 0.7760915681749306,
+              "3": 0.8170734550201646,
+              "5": 0.6314194465813461
+            },
+            "constrained_gain": 0.4457654381425275,
+            "decision_core_s": 13.241163291007979,
+            "always_template_core_s": 12.757131749007385,
+            "model_core_s": 25.001683540991507
+          },
+          {
+            "condition": "round-d1-s501",
+            "kind": "round",
+            "feature": 0.6328882319711552,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8369565217391305,
+              "common_round": 0.8461538461538461,
+              "common_iterative": 0.850828729281768,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.12095238095238095,
+              "common_round": 0.12414634146341463,
+              "common_iterative": 0.11962962962962963,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 84,
+              "common_round": 82,
+              "common_iterative": 81,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.0,
+            "radius_gains": {
+              "1.5": 0.03314917127071826,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "constrained_gain": 0.0,
+            "decision_core_s": 18.98155854298966,
+            "always_template_core_s": 10.9379998340155,
+            "model_core_s": 17.78950571003952
+          },
+          {
+            "condition": "round-d1-s502",
+            "kind": "round",
+            "feature": 0.6380892055025962,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.7936507936507936,
+              "common_round": 0.8306010928961749,
+              "common_iterative": 0.850828729281768,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.13314606741573035,
+              "common_round": 0.11650602409638555,
+              "common_iterative": 0.11962962962962963,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 89,
+              "common_round": 83,
+              "common_iterative": 81,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.0,
+            "radius_gains": {
+              "1.5": 0.022099447513812098,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "constrained_gain": 0.0,
+            "decision_core_s": 19.250810543977423,
+            "always_template_core_s": 10.493142750987317,
+            "model_core_s": 17.60177837597439
+          },
+          {
+            "condition": "round-d2-s501",
+            "kind": "round",
+            "feature": 0.6621985885439836,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.6666666666666666,
+              "common_round": 0.8415300546448088,
+              "common_iterative": 0.850828729281768,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.850828729281768
+            },
+            "composition_tv": {
+              "none": 0.2754545454545455,
+              "common_round": 0.11855421686746989,
+              "common_iterative": 0.11962962962962963,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11962962962962963
+            },
+            "calls": {
+              "none": 110,
+              "common_round": 83,
+              "common_iterative": 81,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 81
+            },
+            "gain": 0.0,
+            "radius_gains": {
+              "1.5": 0.022099447513812098,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "constrained_gain": 0.0,
+            "decision_core_s": 18.76158608397236,
+            "always_template_core_s": 10.63771275000181,
+            "model_core_s": 20.39418008294888
+          },
+          {
+            "condition": "round-d2-s502",
+            "kind": "round",
+            "feature": 0.6519439727431537,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.46511627906976744,
+              "common_round": 0.8524590163934426,
+              "common_iterative": 0.850828729281768,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.3832911392405063,
+              "common_round": 0.11650602409638555,
+              "common_iterative": 0.11962962962962963,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 158,
+              "common_round": 83,
+              "common_iterative": 81,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.0,
+            "radius_gains": {
+              "1.5": 0.03314917127071826,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "constrained_gain": 0.0,
+            "decision_core_s": 18.816771418991266,
+            "always_template_core_s": 10.450080375012476,
+            "model_core_s": 17.88059591705678
+          },
+          {
+            "condition": "round-d4-s501",
+            "kind": "round",
+            "feature": 0.6780391257590491,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.13747228381374724,
+              "common_round": 0.7628865979381443,
+              "common_iterative": 0.850828729281768,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.8571428571428571
+            },
+            "composition_tv": {
+              "none": 0.5865527065527066,
+              "common_round": 0.15574468085106383,
+              "common_iterative": 0.11962962962962963,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11195121951219514
+            },
+            "calls": {
+              "none": 351,
+              "common_round": 94,
+              "common_iterative": 81,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 82
+            },
+            "gain": 0.0,
+            "radius_gains": {
+              "1.5": 0.022099447513812098,
+              "3": 0.0,
+              "5": 0.0
+            },
+            "constrained_gain": 0.0,
+            "decision_core_s": 18.846714167040773,
+            "always_template_core_s": 10.279361124004936,
+            "model_core_s": 17.980680666980334
+          },
+          {
+            "condition": "round-d4-s502",
+            "kind": "round",
+            "feature": 0.6577300749275781,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.04036697247706422,
+              "common_round": 0.8524590163934426,
+              "common_iterative": 0.8461538461538461,
+              "population_template": 0.850828729281768,
+              "barcode_model": 0.850828729281768,
+              "oracle": 0.850828729281768
+            },
+            "composition_tv": {
+              "none": 0.6532584269662922,
+              "common_round": 0.11650602409638555,
+              "common_iterative": 0.11195121951219514,
+              "population_template": 0.11962962962962963,
+              "barcode_model": 0.11962962962962963,
+              "oracle": 0.11962962962962963
+            },
+            "calls": {
+              "none": 445,
+              "common_round": 83,
+              "common_iterative": 82,
+              "population_template": 81,
+              "barcode_model": 81,
+              "oracle": 81
+            },
+            "gain": 0.004674883127921858,
+            "radius_gains": {
+              "1.5": 0.037277639487584224,
+              "3": 0.004674883127921858,
+              "5": 0.004674883127921858
+            },
+            "constrained_gain": 0.004674883127921858,
+            "decision_core_s": 19.28503545897547,
+            "always_template_core_s": 11.253219915990485,
+            "model_core_s": 18.446160581021104
+          }
+        ],
+        "threshold": 2,
+        "confusion": {
+          "tp": 4,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "radius_sensitivity": {
+          "1.5": {
+            "tp": 4,
+            "tn": 7,
+            "fp": 0,
+            "fn": 1,
+            "balanced_accuracy": 0.9
+          },
+          "3": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          },
+          "5": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          }
+        },
+        "constrained_matching_confusion": {
+          "tp": 4,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "mean_identity_f1": {
+          "none": 0.4469635962854946,
+          "common_round": 0.6419083200266942,
+          "common_iterative": 0.7050029237798987,
+          "population_template": 0.8489871086556168,
+          "barcode_model": 0.8508287292817679,
+          "oracle": 0.85451197053407,
+          "selected": 0.8426663253445249
+        },
+        "selected_minus_model": -0.00816240393724299,
+        "harms_vs_common": 0,
+        "mean_workflow_core_s": {
+          "decision_core_s": 16.53424390350362,
+          "always_template_core_s": 11.67041190617359,
+          "model_core_s": 20.392632638931293
+        },
+        "native": {
+          "none": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 82,
+            "correct_labels": 78,
+            "spatial_matches": 78,
+            "identity_f1": 0.8571428571428571,
+            "spatial_f1": 0.8571428571428571,
+            "label_constrained_f1": 0.8571428571428571,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.11195121951219514,
+            "matching": {
+              "ambiguous_reference": 25,
+              "ambiguous_prediction": 34,
+              "skipped_components": 0,
+              "candidate_edges": 119
+            }
+          },
+          "common_round": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 82,
+            "correct_labels": 78,
+            "spatial_matches": 78,
+            "identity_f1": 0.8571428571428571,
+            "spatial_f1": 0.8571428571428571,
+            "label_constrained_f1": 0.8571428571428571,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.11195121951219514,
+            "matching": {
+              "ambiguous_reference": 25,
+              "ambiguous_prediction": 34,
+              "skipped_components": 0,
+              "candidate_edges": 119
+            }
+          },
+          "common_iterative": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 83,
+            "correct_labels": 78,
+            "spatial_matches": 78,
+            "identity_f1": 0.8524590163934426,
+            "spatial_f1": 0.8524590163934426,
+            "label_constrained_f1": 0.8524590163934426,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.10445783132530122,
+            "matching": {
+              "ambiguous_reference": 25,
+              "ambiguous_prediction": 35,
+              "skipped_components": 0,
+              "candidate_edges": 121
+            }
+          },
+          "population_template": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 81,
+            "correct_labels": 77,
+            "spatial_matches": 77,
+            "identity_f1": 0.850828729281768,
+            "spatial_f1": 0.850828729281768,
+            "label_constrained_f1": 0.850828729281768,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.11962962962962963,
+            "matching": {
+              "ambiguous_reference": 23,
+              "ambiguous_prediction": 35,
+              "skipped_components": 0,
+              "candidate_edges": 119
+            }
+          },
+          "barcode_model": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 82,
+            "correct_labels": 78,
+            "spatial_matches": 78,
+            "identity_f1": 0.8571428571428571,
+            "spatial_f1": 0.8571428571428571,
+            "label_constrained_f1": 0.8571428571428571,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.11195121951219514,
+            "matching": {
+              "ambiguous_reference": 25,
+              "ambiguous_prediction": 34,
+              "skipped_components": 0,
+              "candidate_edges": 119
+            }
+          },
+          "oracle": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 100,
+            "calls": 82,
+            "correct_labels": 78,
+            "spatial_matches": 78,
+            "identity_f1": 0.8571428571428571,
+            "spatial_f1": 0.8571428571428571,
+            "label_constrained_f1": 0.8571428571428571,
+            "wrong_label_fraction": 0.0,
+            "composition_tv": 0.11195121951219514,
+            "matching": {
+              "ambiguous_reference": 25,
+              "ambiguous_prediction": 34,
+              "skipped_components": 0,
+              "candidate_edges": 119
+            }
+          }
+        }
+      }
+    },
+    "validation": {
+      "correlation": {
+        "cases": [
+          {
+            "condition": "color-d1-s501",
+            "kind": "color",
+            "feature": 1.5423142246855033,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8414634146341463,
+              "common_round": 0.8711656441717791,
+              "common_iterative": 0.8588235294117647,
+              "population_template": 0.7461139896373057,
+              "barcode_model": 0.7184466019417476,
+              "oracle": 0.729064039408867
+            },
+            "composition_tv": {
+              "none": 0.13988095238095238,
+              "common_round": 0.08644578313253011,
+              "common_iterative": 0.09027777777777778,
+              "population_template": 0.14292035398230088,
+              "barcode_model": 0.14742063492063492,
+              "oracle": 0.1665650406504065
+            },
+            "calls": {
+              "none": 84,
+              "common_round": 83,
+              "common_iterative": 90,
+              "population_template": 113,
+              "barcode_model": 126,
+              "oracle": 123
+            },
+            "gain": -0.11270953977445897,
+            "radius_gains": {
+              "1.5": -0.18213959158793053,
+              "3": -0.14379762267601337,
+              "5": -0.11270953977445897
+            },
+            "constrained_gain": -0.1023468454739408,
+            "decision_core_s": 2.7493739979399834,
+            "always_template_core_s": 2.186345914960839,
+            "model_core_s": 21.057127580977976
+          },
+          {
+            "condition": "color-d1-s502",
+            "kind": "color",
+            "feature": 1.2628523038102968,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8121212121212121,
+              "common_round": 0.7953216374269005,
+              "common_iterative": 0.8352941176470589,
+              "population_template": 0.7282051282051282,
+              "barcode_model": 0.7087378640776699,
+              "oracle": 0.7589743589743589
+            },
+            "composition_tv": {
+              "none": 0.12352941176470589,
+              "common_round": 0.1479395604395604,
+              "common_iterative": 0.125,
+              "population_template": 0.15000000000000002,
+              "barcode_model": 0.13293650793650794,
+              "oracle": 0.16032608695652176
+            },
+            "calls": {
+              "none": 85,
+              "common_round": 91,
+              "common_iterative": 90,
+              "population_template": 115,
+              "barcode_model": 126,
+              "oracle": 115
+            },
+            "gain": -0.10708898944193068,
+            "radius_gains": {
+              "1.5": -0.1149321266968325,
+              "3": -0.12609351432880844,
+              "5": -0.10708898944193068
+            },
+            "constrained_gain": -0.09683257918552035,
+            "decision_core_s": 2.714607914997032,
+            "always_template_core_s": 1.9090546250226907,
+            "model_core_s": 14.873633957031416
+          },
+          {
+            "condition": "color-d2-s501",
+            "kind": "color",
+            "feature": 2.6451302865345023,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.34951456310679613,
+              "common_round": 0.6178861788617886,
+              "common_iterative": 0.7703703703703704,
+              "population_template": 0.75,
+              "barcode_model": 0.7317073170731707,
+              "oracle": 0.7326732673267327
+            },
+            "composition_tv": {
+              "none": 0.557608695652174,
+              "common_round": 0.29767441860465116,
+              "common_iterative": 0.2511363636363636,
+              "population_template": 0.15714285714285714,
+              "barcode_model": 0.14550000000000002,
+              "oracle": 0.15348360655737706
+            },
+            "calls": {
+              "none": 23,
+              "common_round": 43,
+              "common_iterative": 55,
+              "population_template": 112,
+              "barcode_model": 125,
+              "oracle": 122
+            },
+            "gain": -0.020370370370370372,
+            "radius_gains": {
+              "1.5": -0.1282407407407407,
+              "3": -0.036805555555555536,
+              "5": -0.020370370370370372
+            },
+            "constrained_gain": -0.009953703703703742,
+            "decision_core_s": 2.176585831970442,
+            "always_template_core_s": 1.4102359989774413,
+            "model_core_s": 10.35257687504054
+          },
+          {
+            "condition": "color-d2-s502",
+            "kind": "color",
+            "feature": 2.204009690941403,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.37037037037037035,
+              "common_round": 0.65625,
+              "common_iterative": 0.8378378378378378,
+              "population_template": 0.7513227513227513,
+              "barcode_model": 0.736318407960199,
+              "oracle": 0.7708333333333334
+            },
+            "composition_tv": {
+              "none": 0.6535714285714285,
+              "common_round": 0.2833333333333333,
+              "common_iterative": 0.14705882352941174,
+              "population_template": 0.13876146788990826,
+              "barcode_model": 0.14163223140495868,
+              "oracle": 0.14642857142857146
+            },
+            "calls": {
+              "none": 28,
+              "common_round": 48,
+              "common_iterative": 68,
+              "population_template": 109,
+              "barcode_model": 121,
+              "oracle": 112
+            },
+            "gain": -0.08651508651508655,
+            "radius_gains": {
+              "1.5": -0.05669955669955673,
+              "3": -0.08065208065208074,
+              "5": -0.08651508651508655
+            },
+            "constrained_gain": -0.06535106535106538,
+            "decision_core_s": 3.0927787919645198,
+            "always_template_core_s": 1.4671838749782182,
+            "model_core_s": 10.1681550850044
+          },
+          {
+            "condition": "color-d4-s501",
+            "kind": "color",
+            "feature": 5.834091664775005,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.0,
+              "common_round": 0.047619047619047616,
+              "common_iterative": 0.32323232323232326,
+              "population_template": 0.7346938775510204,
+              "barcode_model": 0.7219512195121951,
+              "oracle": 0.7474747474747475
+            },
+            "composition_tv": {
+              "none": null,
+              "common_round": 0.8,
+              "common_iterative": 0.7473684210526315,
+              "population_template": 0.14568965517241378,
+              "barcode_model": 0.1395,
+              "oracle": 0.14512711864406783
+            },
+            "calls": {
+              "none": 0,
+              "common_round": 4,
+              "common_iterative": 19,
+              "population_template": 116,
+              "barcode_model": 125,
+              "oracle": 118
+            },
+            "gain": 0.4114615543186972,
+            "radius_gains": {
+              "1.5": 0.3179756751185322,
+              "3": 0.4312512883941455,
+              "5": 0.4114615543186972
+            },
+            "constrained_gain": 0.42166563595135026,
+            "decision_core_s": 3.8395793339877855,
+            "always_template_core_s": 1.4897507920104545,
+            "model_core_s": 11.941017249017023
+          },
+          {
+            "condition": "color-d4-s502",
+            "kind": "color",
+            "feature": 4.678457951368784,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.13953488372093023,
+              "common_round": 0.0,
+              "common_iterative": 0.13793103448275862,
+              "population_template": 0.7888888888888889,
+              "barcode_model": 0.7087378640776699,
+              "oracle": 0.7389162561576355
+            },
+            "composition_tv": {
+              "none": 0.8625,
+              "common_round": null,
+              "common_iterative": 0.7124999999999999,
+              "population_template": 0.1175,
+              "barcode_model": 0.15912698412698412,
+              "oracle": 0.15091463414634146
+            },
+            "calls": {
+              "none": 6,
+              "common_round": 0,
+              "common_iterative": 7,
+              "population_template": 100,
+              "barcode_model": 126,
+              "oracle": 123
+            },
+            "gain": 0.6509578544061303,
+            "radius_gains": {
+              "1.5": 0.38505747126436785,
+              "3": 0.6517241379310346,
+              "5": 0.6509578544061303
+            },
+            "constrained_gain": 0.6620689655172414,
+            "decision_core_s": 4.1631616649683565,
+            "always_template_core_s": 2.4447415409667883,
+            "model_core_s": 12.33795045799343
+          },
+          {
+            "condition": "round-d1-s501",
+            "kind": "round",
+            "feature": 0.805423400622593,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.7807486631016043,
+              "common_round": 0.7422680412371134,
+              "common_iterative": 0.7474747474747475,
+              "population_template": 0.7263681592039801,
+              "barcode_model": 0.6944444444444444,
+              "oracle": 0.736318407960199
+            },
+            "composition_tv": {
+              "none": 0.14521028037383177,
+              "common_round": 0.16513157894736843,
+              "common_iterative": 0.15572033898305088,
+              "population_template": 0.15351239669421488,
+              "barcode_model": 0.175,
+              "oracle": 0.1791322314049587
+            },
+            "calls": {
+              "none": 107,
+              "common_round": 114,
+              "common_iterative": 118,
+              "population_template": 121,
+              "barcode_model": 136,
+              "oracle": 121
+            },
+            "gain": -0.02110658827076739,
+            "radius_gains": {
+              "1.5": -0.10779436152570482,
+              "3": -0.040856324438413916,
+              "5": -0.02110658827076739
+            },
+            "constrained_gain": -0.01115633951454853,
+            "decision_core_s": 1.9457340820808895,
+            "always_template_core_s": 0.9950462490378413,
+            "model_core_s": 8.127638956008013
+          },
+          {
+            "condition": "round-d1-s502",
+            "kind": "round",
+            "feature": 0.8110291331655262,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8255813953488372,
+              "common_round": 0.7724867724867724,
+              "common_iterative": 0.7772020725388601,
+              "population_template": 0.7272727272727273,
+              "barcode_model": 0.7317073170731707,
+              "oracle": 0.7564766839378239
+            },
+            "composition_tv": {
+              "none": 0.11086956521739133,
+              "common_round": 0.14208715596330274,
+              "common_iterative": 0.14192477876106194,
+              "population_template": 0.13156779661016949,
+              "barcode_model": 0.159,
+              "oracle": 0.14977876106194687
+            },
+            "calls": {
+              "none": 92,
+              "common_round": 109,
+              "common_iterative": 113,
+              "population_template": 118,
+              "barcode_model": 125,
+              "oracle": 113
+            },
+            "gain": -0.049929345266132796,
+            "radius_gains": {
+              "1.5": -0.05427330297796612,
+              "3": -0.05950698696812684,
+              "5": -0.049929345266132796
+            },
+            "constrained_gain": -0.03982833516512274,
+            "decision_core_s": 1.6953130830370355,
+            "always_template_core_s": 0.9953497900278307,
+            "model_core_s": 10.769141750992276
+          },
+          {
+            "condition": "round-d2-s501",
+            "kind": "round",
+            "feature": 0.8212260348696708,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.7702702702702703,
+              "common_round": 0.7802197802197802,
+              "common_iterative": 0.751269035532995,
+              "population_template": 0.7346938775510204,
+              "barcode_model": 0.6952380952380952,
+              "oracle": 0.736318407960199
+            },
+            "composition_tv": {
+              "none": 0.20514705882352938,
+              "common_round": 0.16348039215686277,
+              "common_iterative": 0.17264957264957267,
+              "population_template": 0.15344827586206897,
+              "barcode_model": 0.1528846153846154,
+              "oracle": 0.16725206611570248
+            },
+            "calls": {
+              "none": 68,
+              "common_round": 102,
+              "common_iterative": 117,
+              "population_template": 116,
+              "barcode_model": 130,
+              "oracle": 121
+            },
+            "gain": -0.01657515798197451,
+            "radius_gains": {
+              "1.5": -0.07878379778307265,
+              "3": -0.036983321247280654,
+              "5": -0.01657515798197451
+            },
+            "constrained_gain": 0.0038330052833315253,
+            "decision_core_s": 1.7209102509950753,
+            "always_template_core_s": 1.0036737080081366,
+            "model_core_s": 8.133079459017608
+          },
+          {
+            "condition": "round-d2-s502",
+            "kind": "round",
+            "feature": 0.8124634029240686,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.8108108108108109,
+              "common_round": 0.7724867724867724,
+              "common_iterative": 0.7539267015706806,
+              "population_template": 0.7357512953367875,
+              "barcode_model": 0.7254901960784313,
+              "oracle": 0.7461139896373057
+            },
+            "composition_tv": {
+              "none": 0.20955882352941174,
+              "common_round": 0.1378440366972477,
+              "common_iterative": 0.14639639639639643,
+              "population_template": 0.13871681415929202,
+              "barcode_model": 0.16088709677419355,
+              "oracle": 0.1445796460176991
+            },
+            "calls": {
+              "none": 68,
+              "common_round": 109,
+              "common_iterative": 111,
+              "population_template": 113,
+              "barcode_model": 124,
+              "oracle": 113
+            },
+            "gain": -0.018175406233893132,
+            "radius_gains": {
+              "1.5": -0.005425494398177078,
+              "3": -0.028429590646447678,
+              "5": -0.018175406233893132
+            },
+            "constrained_gain": -0.007921221821338476,
+            "decision_core_s": 2.181950997997774,
+            "always_template_core_s": 1.161719956959132,
+            "model_core_s": 8.858412082045106
+          },
+          {
+            "condition": "round-d4-s501",
+            "kind": "round",
+            "feature": 0.8333472981586231,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.04878048780487805,
+              "common_round": 0.7912087912087912,
+              "common_iterative": 0.7263681592039801,
+              "population_template": 0.7171717171717171,
+              "barcode_model": 0.7227722772277227,
+              "oracle": 0.7336683417085427
+            },
+            "composition_tv": {
+              "none": 0.7749999999999999,
+              "common_round": 0.15465686274509804,
+              "common_iterative": 0.15454545454545454,
+              "population_template": 0.13644067796610168,
+              "barcode_model": 0.15922131147540983,
+              "oracle": 0.1539915966386555
+            },
+            "calls": {
+              "none": 2,
+              "common_round": 102,
+              "common_iterative": 121,
+              "population_template": 118,
+              "barcode_model": 122,
+              "oracle": 119
+            },
+            "gain": -0.009196442032262997,
+            "radius_gains": {
+              "1.5": -0.05246494798733603,
+              "3": -0.019448213478064136,
+              "5": -0.009196442032262997
+            },
+            "constrained_gain": 0.011005578169757224,
+            "decision_core_s": 1.6922273329983,
+            "always_template_core_s": 1.0978307489713188,
+            "model_core_s": 8.43737675002194
+          },
+          {
+            "condition": "round-d4-s502",
+            "kind": "round",
+            "feature": 0.8230362093485327,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.09523809523809523,
+              "common_round": 0.8021978021978022,
+              "common_iterative": 0.7643979057591623,
+              "population_template": 0.7473684210526316,
+              "barcode_model": 0.7437185929648241,
+              "oracle": 0.7564766839378239
+            },
+            "composition_tv": {
+              "none": 0.6624999999999999,
+              "common_round": 0.11372549019607846,
+              "common_iterative": 0.14842342342342343,
+              "population_template": 0.12954545454545452,
+              "barcode_model": 0.12184873949579833,
+              "oracle": 0.15696902654867254
+            },
+            "calls": {
+              "none": 4,
+              "common_round": 102,
+              "common_iterative": 111,
+              "population_template": 110,
+              "barcode_model": 119,
+              "oracle": 113
+            },
+            "gain": -0.017029484706530762,
+            "radius_gains": {
+              "1.5": -0.03923945990631028,
+              "3": -0.038082116285478085,
+              "5": -0.017029484706530762
+            },
+            "constrained_gain": -0.0064480573160651256,
+            "decision_core_s": 2.3367999990005046,
+            "always_template_core_s": 1.4041144160437398,
+            "model_core_s": 13.723840499005746
+          }
+        ],
+        "threshold": 2,
+        "confusion": {
+          "tp": 2,
+          "tn": 8,
+          "fp": 2,
+          "fn": 0,
+          "balanced_accuracy": 0.9
+        },
+        "radius_sensitivity": {
+          "1.5": {
+            "tp": 2,
+            "tn": 8,
+            "fp": 2,
+            "fn": 0,
+            "balanced_accuracy": 0.9
+          },
+          "3": {
+            "tp": 2,
+            "tn": 8,
+            "fp": 2,
+            "fn": 0,
+            "balanced_accuracy": 0.9
+          },
+          "5": {
+            "tp": 2,
+            "tn": 8,
+            "fp": 2,
+            "fn": 0,
+            "balanced_accuracy": 0.9
+          }
+        },
+        "constrained_matching_confusion": {
+          "tp": 2,
+          "tn": 8,
+          "fp": 2,
+          "fn": 0,
+          "balanced_accuracy": 0.9
+        },
+        "mean_identity_f1": {
+          "none": 0.48703618054399583,
+          "common_round": 0.6374258723263789,
+          "common_iterative": 0.6903439862552117,
+          "population_template": 0.7406542360994965,
+          "barcode_model": 0.7199391831391116,
+          "oracle": 0.7452757098181308,
+          "selected": 0.769971815575159
+        },
+        "selected_minus_model": 0.050032632436047386,
+        "harms_vs_common": 1,
+        "mean_workflow_core_s": {
+          "decision_core_s": 2.525751940161475,
+          "always_template_core_s": 1.463753967997036,
+          "model_core_s": 11.564995891846289
+        },
+        "native": {
+          "none": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 136,
+            "correct_labels": 77,
+            "spatial_matches": 78,
+            "identity_f1": 0.7129629629629629,
+            "spatial_f1": 0.7222222222222222,
+            "label_constrained_f1": 0.7129629629629629,
+            "wrong_label_fraction": 0.01282051282051282,
+            "composition_tv": 0.1463235294117647,
+            "matching": {
+              "ambiguous_reference": 45,
+              "ambiguous_prediction": 28,
+              "skipped_components": 0,
+              "candidate_edges": 155
+            }
+          },
+          "common_round": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 118,
+            "correct_labels": 73,
+            "spatial_matches": 76,
+            "identity_f1": 0.7373737373737373,
+            "spatial_f1": 0.7676767676767676,
+            "label_constrained_f1": 0.7373737373737373,
+            "wrong_label_fraction": 0.039473684210526314,
+            "composition_tv": 0.14237288135593223,
+            "matching": {
+              "ambiguous_reference": 33,
+              "ambiguous_prediction": 20,
+              "skipped_components": 0,
+              "candidate_edges": 130
+            }
+          },
+          "common_iterative": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 135,
+            "correct_labels": 75,
+            "spatial_matches": 78,
+            "identity_f1": 0.6976744186046512,
+            "spatial_f1": 0.7255813953488373,
+            "label_constrained_f1": 0.6976744186046512,
+            "wrong_label_fraction": 0.038461538461538464,
+            "composition_tv": 0.14444444444444446,
+            "matching": {
+              "ambiguous_reference": 41,
+              "ambiguous_prediction": 25,
+              "skipped_components": 0,
+              "candidate_edges": 150
+            }
+          },
+          "population_template": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 126,
+            "correct_labels": 73,
+            "spatial_matches": 78,
+            "identity_f1": 0.7087378640776699,
+            "spatial_f1": 0.7572815533980582,
+            "label_constrained_f1": 0.7184466019417476,
+            "wrong_label_fraction": 0.0641025641025641,
+            "composition_tv": 0.13948412698412696,
+            "matching": {
+              "ambiguous_reference": 38,
+              "ambiguous_prediction": 24,
+              "skipped_components": 0,
+              "candidate_edges": 137
+            }
+          },
+          "barcode_model": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 141,
+            "correct_labels": 74,
+            "spatial_matches": 78,
+            "identity_f1": 0.669683257918552,
+            "spatial_f1": 0.7058823529411765,
+            "label_constrained_f1": 0.669683257918552,
+            "wrong_label_fraction": 0.05128205128205128,
+            "composition_tv": 0.14140070921985815,
+            "matching": {
+              "ambiguous_reference": 50,
+              "ambiguous_prediction": 27,
+              "skipped_components": 0,
+              "candidate_edges": 157
+            }
+          },
+          "oracle": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 136,
+            "correct_labels": 77,
+            "spatial_matches": 78,
+            "identity_f1": 0.7129629629629629,
+            "spatial_f1": 0.7222222222222222,
+            "label_constrained_f1": 0.7129629629629629,
+            "wrong_label_fraction": 0.01282051282051282,
+            "composition_tv": 0.1463235294117647,
+            "matching": {
+              "ambiguous_reference": 45,
+              "ambiguous_prediction": 28,
+              "skipped_components": 0,
+              "candidate_edges": 155
+            }
+          }
+        }
+      },
+      "regression": {
+        "cases": [
+          {
+            "condition": "color-d1-s501",
+            "kind": "color",
+            "feature": 1.5423142246855033,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.6892655367231638,
+              "common_round": 0.8053691275167785,
+              "common_iterative": 0.8163265306122449,
+              "population_template": 0.8211920529801324,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8181818181818182
+            },
+            "composition_tv": {
+              "none": 0.23801546391752582,
+              "common_round": 0.12916666666666665,
+              "common_iterative": 0.1345149253731343,
+              "population_template": 0.10105633802816899,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.08175675675675678
+            },
+            "calls": {
+              "none": 97,
+              "common_round": 69,
+              "common_iterative": 67,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 74
+            },
+            "gain": 0.004865522367887509,
+            "radius_gains": {
+              "1.5": 0.0073883858179032424,
+              "3": 0.005225931432175535,
+              "5": 0.004865522367887509
+            },
+            "constrained_gain": 0.01811055548047036,
+            "decision_core_s": 25.82387833093526,
+            "always_template_core_s": 28.901722622948,
+            "model_core_s": 35.104283997934544
+          },
+          {
+            "condition": "color-d1-s502",
+            "kind": "color",
+            "feature": 1.2628523038102968,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.7037037037037037,
+              "common_round": 0.7468354430379747,
+              "common_iterative": 0.7870967741935484,
+              "population_template": 0.8211920529801324,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.1457317073170732,
+              "common_round": 0.1298076923076923,
+              "common_iterative": 0.11,
+              "population_template": 0.10105633802816899,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 82,
+              "common_round": 78,
+              "common_iterative": 75,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.03409527878658403,
+            "radius_gains": {
+              "1.5": 0.04460585345011747,
+              "3": 0.02085024567400129,
+              "5": 0.03409527878658403
+            },
+            "constrained_gain": 0.021533860286263695,
+            "decision_core_s": 24.82216291601071,
+            "always_template_core_s": 15.023892833007267,
+            "model_core_s": 27.90587212299579
+          },
+          {
+            "condition": "color-d2-s501",
+            "kind": "color",
+            "feature": 2.6451302865345023,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.15432098765432098,
+              "common_round": 0.31007751937984496,
+              "common_iterative": 0.6363636363636364,
+              "population_template": 0.8157894736842105,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.6288934426229509,
+              "common_round": 0.5616573033707865,
+              "common_iterative": 0.2611486486486487,
+              "population_template": 0.09444444444444443,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 244,
+              "common_round": 178,
+              "common_iterative": 74,
+              "population_template": 72,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.17942583732057416,
+            "radius_gains": {
+              "1.5": 0.21719070403280938,
+              "3": 0.1922419685577581,
+              "5": 0.17942583732057416
+            },
+            "constrained_gain": 0.14063568010936434,
+            "decision_core_s": 14.869939832977252,
+            "always_template_core_s": 14.103589999984251,
+            "model_core_s": 22.588298084010603
+          },
+          {
+            "condition": "color-d2-s502",
+            "kind": "color",
+            "feature": 2.204009690941403,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.2736842105263158,
+              "common_round": 0.3659574468085106,
+              "common_iterative": 0.5492227979274611,
+              "population_template": 0.8344370860927153,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.5318181818181819,
+              "common_round": 0.507258064516129,
+              "common_iterative": 0.3992256637168141,
+              "population_template": 0.10422535211267606,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 110,
+              "common_round": 155,
+              "common_iterative": 113,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.2852142881652542,
+            "radius_gains": {
+              "1.5": 0.28288096626977316,
+              "3": 0.2823319493531894,
+              "5": 0.2852142881652542
+            },
+            "constrained_gain": 0.23340081666266344,
+            "decision_core_s": 17.82213850095286,
+            "always_template_core_s": 16.19654358396656,
+            "model_core_s": 50.42725271001109
+          },
+          {
+            "condition": "color-d4-s501",
+            "kind": "color",
+            "feature": 5.834091664775005,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.022435897435897436,
+              "common_round": 0.04316546762589928,
+              "common_iterative": 0.11428571428571428,
+              "population_template": 0.8104575163398693,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.7172794117647059,
+              "common_round": 0.657307121661721,
+              "common_iterative": 0.6171296296296297,
+              "population_template": 0.09863013698630135,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 544,
+              "common_round": 337,
+              "common_iterative": 270,
+              "population_template": 73,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.696171802054155,
+            "radius_gains": {
+              "1.5": 0.6863118580765639,
+              "3": 0.7002427637721755,
+              "5": 0.696171802054155
+            },
+            "constrained_gain": 0.6178151260504201,
+            "decision_core_s": 18.994124583958182,
+            "always_template_core_s": 16.64429604198085,
+            "model_core_s": 27.408931082987692
+          },
+          {
+            "condition": "color-d4-s502",
+            "kind": "color",
+            "feature": 4.678457951368784,
+            "selected": "population_template",
+            "identity_f1": {
+              "none": 0.09090909090909091,
+              "common_round": 0.06918238993710692,
+              "common_iterative": 0.09210526315789473,
+              "population_template": 0.8211920529801324,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.657142857142857,
+              "common_round": 0.7114495798319328,
+              "common_iterative": 0.6625000000000001,
+              "population_template": 0.10422535211267606,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 140,
+              "common_round": 238,
+              "common_iterative": 224,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.7290867898222377,
+            "radius_gains": {
+              "1.5": 0.688915998605786,
+              "3": 0.7487364935517602,
+              "5": 0.7290867898222377
+            },
+            "constrained_gain": 0.6238236319275008,
+            "decision_core_s": 21.077956956985872,
+            "always_template_core_s": 19.359536832984304,
+            "model_core_s": 27.21944641697337
+          },
+          {
+            "condition": "round-d1-s501",
+            "kind": "round",
+            "feature": 0.805423400622593,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.7654320987654321,
+              "common_round": 0.8079470198675497,
+              "common_iterative": 0.8181818181818182,
+              "population_template": 0.8211920529801324,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8181818181818182
+            },
+            "composition_tv": {
+              "none": 0.10182926829268293,
+              "common_round": 0.09947183098591549,
+              "common_iterative": 0.08175675675675678,
+              "population_template": 0.10105633802816899,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.08175675675675678
+            },
+            "calls": {
+              "none": 82,
+              "common_round": 71,
+              "common_iterative": 74,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 74
+            },
+            "gain": 0.003010234798314193,
+            "radius_gains": {
+              "1.5": -0.012040939193257105,
+              "3": -0.010234798314268545,
+              "5": 0.003010234798314193
+            },
+            "constrained_gain": 0.003268254923884051,
+            "decision_core_s": 31.50614275006228,
+            "always_template_core_s": 11.025077373022214,
+            "model_core_s": 18.194225957005983
+          },
+          {
+            "condition": "round-d1-s502",
+            "kind": "round",
+            "feature": 0.8110291331655262,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.76,
+              "common_round": 0.8104575163398693,
+              "common_iterative": 0.8104575163398693,
+              "population_template": 0.8157894736842105,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.13035714285714284,
+              "common_round": 0.09212328767123287,
+              "common_iterative": 0.09212328767123287,
+              "population_template": 0.10555555555555554,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 70,
+              "common_round": 73,
+              "common_iterative": 73,
+              "population_template": 72,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.0053319573443412205,
+            "radius_gains": {
+              "1.5": -0.008341933264533807,
+              "3": -0.007825937392500815,
+              "5": 0.0053319573443412205
+            },
+            "constrained_gain": 0.005417956656346812,
+            "decision_core_s": 32.75023095699726,
+            "always_template_core_s": 10.78795037503005,
+            "model_core_s": 20.417549375008093
+          },
+          {
+            "condition": "round-d2-s501",
+            "kind": "round",
+            "feature": 0.8212260348696708,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.4716981132075472,
+              "common_round": 0.8104575163398693,
+              "common_iterative": 0.8181818181818182,
+              "population_template": 0.8211920529801324,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8181818181818182
+            },
+            "composition_tv": {
+              "none": 0.4003787878787879,
+              "common_round": 0.10582191780821917,
+              "common_iterative": 0.08175675675675678,
+              "population_template": 0.10105633802816899,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.08175675675675678
+            },
+            "calls": {
+              "none": 132,
+              "common_round": 73,
+              "common_iterative": 74,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 74
+            },
+            "gain": 0.003010234798314193,
+            "radius_gains": {
+              "1.5": 0.0012040939193256328,
+              "3": -0.010234798314268545,
+              "5": 0.003010234798314193
+            },
+            "constrained_gain": 0.003268254923884051,
+            "decision_core_s": 30.625379334000172,
+            "always_template_core_s": 10.744685626006685,
+            "model_core_s": 19.714086124993628
+          },
+          {
+            "condition": "round-d2-s502",
+            "kind": "round",
+            "feature": 0.8124634029240686,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.4397905759162304,
+              "common_round": 0.8104575163398693,
+              "common_iterative": 0.8104575163398693,
+              "population_template": 0.8344370860927153,
+              "barcode_model": 0.8104575163398693,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.43704954954954955,
+              "common_round": 0.09212328767123287,
+              "common_iterative": 0.09212328767123287,
+              "population_template": 0.10422535211267606,
+              "barcode_model": 0.09863013698630135,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 111,
+              "common_round": 73,
+              "common_iterative": 73,
+              "population_template": 71,
+              "barcode_model": 73,
+              "oracle": 73
+            },
+            "gain": 0.023979569752845986,
+            "radius_gains": {
+              "1.5": 0.022940743626368887,
+              "3": 0.010734536640263137,
+              "5": 0.023979569752845986
+            },
+            "constrained_gain": 0.010907674328009431,
+            "decision_core_s": 33.060106998018455,
+            "always_template_core_s": 11.103711706993636,
+            "model_core_s": 18.97192670707591
+          },
+          {
+            "condition": "round-d4-s501",
+            "kind": "round",
+            "feature": 0.8333472981586231,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.05063291139240506,
+              "common_round": 0.8266666666666667,
+              "common_iterative": 0.8181818181818182,
+              "population_template": 0.8344370860927153,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8181818181818182
+            },
+            "composition_tv": {
+              "none": 0.6762684989429176,
+              "common_round": 0.11249999999999999,
+              "common_iterative": 0.08175675675675678,
+              "population_template": 0.10422535211267606,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.08175675675675678
+            },
+            "calls": {
+              "none": 473,
+              "common_round": 70,
+              "common_iterative": 74,
+              "population_template": 71,
+              "barcode_model": 72,
+              "oracle": 74
+            },
+            "gain": 0.016255267910897042,
+            "radius_gains": {
+              "1.5": 0.014449127031908482,
+              "3": 0.003010234798314193,
+              "5": 0.016255267910897042
+            },
+            "constrained_gain": 0.003268254923884051,
+            "decision_core_s": 44.41128670796752,
+            "always_template_core_s": 14.91657474898966,
+            "model_core_s": 24.420918666000944
+          },
+          {
+            "condition": "round-d4-s502",
+            "kind": "round",
+            "feature": 0.8230362093485327,
+            "selected": "common_iterative",
+            "identity_f1": {
+              "none": 0.11550151975683891,
+              "common_round": 0.8157894736842105,
+              "common_iterative": 0.8157894736842105,
+              "population_template": 0.8157894736842105,
+              "barcode_model": 0.8157894736842105,
+              "oracle": 0.8104575163398693
+            },
+            "composition_tv": {
+              "none": 0.7183734939759037,
+              "common_round": 0.09444444444444443,
+              "common_iterative": 0.09444444444444443,
+              "population_template": 0.09444444444444443,
+              "barcode_model": 0.09444444444444443,
+              "oracle": 0.09212328767123287
+            },
+            "calls": {
+              "none": 249,
+              "common_round": 72,
+              "common_iterative": 72,
+              "population_template": 72,
+              "barcode_model": 72,
+              "oracle": 73
+            },
+            "gain": 0.0,
+            "radius_gains": {
+              "1.5": -0.02631578947368418,
+              "3": -0.013157894736842035,
+              "5": 0.0
+            },
+            "constrained_gain": 0.0,
+            "decision_core_s": 37.092250749032246,
+            "always_template_core_s": 27.270791082031792,
+            "model_core_s": 38.72915595895029
+          }
+        ],
+        "threshold": 2,
+        "confusion": {
+          "tp": 4,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "radius_sensitivity": {
+          "1.5": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          },
+          "3": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          },
+          "5": {
+            "tp": 4,
+            "tn": 8,
+            "fp": 0,
+            "fn": 0,
+            "balanced_accuracy": 1.0
+          }
+        },
+        "constrained_matching_confusion": {
+          "tp": 4,
+          "tn": 8,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "mean_identity_f1": {
+          "none": 0.3781145538325789,
+          "common_round": 0.6018635919620124,
+          "common_iterative": 0.6572208897874919,
+          "population_template": 0.8222581217142756,
+          "barcode_model": 0.8153451439055154,
+          "oracle": 0.8130322836205189,
+          "selected": 0.8147124495676771
+        },
+        "selected_minus_model": -0.0006326943378383021,
+        "harms_vs_common": 0,
+        "mean_workflow_core_s": {
+          "decision_core_s": 27.737966551491507,
+          "always_template_core_s": 16.33986440224544,
+          "model_core_s": 27.591828933662327
+        },
+        "native": {
+          "none": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 80,
+            "correct_labels": 65,
+            "spatial_matches": 66,
+            "identity_f1": 0.8125,
+            "spatial_f1": 0.825,
+            "label_constrained_f1": 0.8125,
+            "wrong_label_fraction": 0.015151515151515152,
+            "composition_tv": 0.0625,
+            "matching": {
+              "ambiguous_reference": 26,
+              "ambiguous_prediction": 25,
+              "skipped_components": 0,
+              "candidate_edges": 104
+            }
+          },
+          "common_round": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 71,
+            "correct_labels": 61,
+            "spatial_matches": 63,
+            "identity_f1": 0.8079470198675497,
+            "spatial_f1": 0.8344370860927153,
+            "label_constrained_f1": 0.8211920529801324,
+            "wrong_label_fraction": 0.031746031746031744,
+            "composition_tv": 0.09947183098591547,
+            "matching": {
+              "ambiguous_reference": 20,
+              "ambiguous_prediction": 21,
+              "skipped_components": 0,
+              "candidate_edges": 91
+            }
+          },
+          "common_iterative": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 76,
+            "correct_labels": 64,
+            "spatial_matches": 66,
+            "identity_f1": 0.8205128205128205,
+            "spatial_f1": 0.8461538461538461,
+            "label_constrained_f1": 0.8333333333333334,
+            "wrong_label_fraction": 0.030303030303030304,
+            "composition_tv": 0.0644736842105263,
+            "matching": {
+              "ambiguous_reference": 23,
+              "ambiguous_prediction": 23,
+              "skipped_components": 0,
+              "candidate_edges": 99
+            }
+          },
+          "population_template": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 73,
+            "correct_labels": 62,
+            "spatial_matches": 64,
+            "identity_f1": 0.8104575163398693,
+            "spatial_f1": 0.8366013071895425,
+            "label_constrained_f1": 0.8235294117647058,
+            "wrong_label_fraction": 0.03125,
+            "composition_tv": 0.09863013698630135,
+            "matching": {
+              "ambiguous_reference": 21,
+              "ambiguous_prediction": 21,
+              "skipped_components": 0,
+              "candidate_edges": 93
+            }
+          },
+          "barcode_model": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 72,
+            "correct_labels": 62,
+            "spatial_matches": 64,
+            "identity_f1": 0.8157894736842105,
+            "spatial_f1": 0.8421052631578947,
+            "label_constrained_f1": 0.8289473684210527,
+            "wrong_label_fraction": 0.03125,
+            "composition_tv": 0.09444444444444443,
+            "matching": {
+              "ambiguous_reference": 22,
+              "ambiguous_prediction": 23,
+              "skipped_components": 0,
+              "candidate_edges": 94
+            }
+          },
+          "oracle": {
+            "reference_kind": "author_hand_curated",
+            "n_reference": 80,
+            "calls": 80,
+            "correct_labels": 65,
+            "spatial_matches": 66,
+            "identity_f1": 0.8125,
+            "spatial_f1": 0.825,
+            "label_constrained_f1": 0.8125,
+            "wrong_label_fraction": 0.015151515151515152,
+            "composition_tv": 0.0625,
+            "matching": {
+              "ambiguous_reference": 26,
+              "ambiguous_prediction": 25,
+              "skipped_components": 0,
+              "candidate_edges": 104
+            }
+          }
+        }
+      }
+    }
+  },
+  "independence": "Two author-annotated crops; independent animal/preparation provenance not established.",
+  "runtime_scope": "Calibration, preprocessing, warp and kernel only; excludes network, peak/sensitivity analysis; concurrent local hardware. Decision includes both calibration fits, conservatively double counts shared phase initialization.",
+  "interpretation": "Controlled digital offsets and author annotation agreement; not prospective guidance, independent physical molecular truth or randomized-readout validation."
+}

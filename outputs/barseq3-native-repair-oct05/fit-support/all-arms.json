@@ -1,0 +1,842 @@
+[
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "none",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "common_iterative",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "population_template",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 61,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "barcode_model",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "oracle",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "none",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 1,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "common_iterative",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "population_template",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 52,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "barcode_model",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 75,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "oracle",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "none",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 10,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "common_iterative",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 10,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "population_template",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 49,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "barcode_model",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "oracle",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 70,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "none",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "common_iterative",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "population_template",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 142,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "barcode_model",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "zero",
+    "policy": "oracle",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "none",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 870,
+      "blanks": 6,
+      "proxy": 1.5189655172413792,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "common_iterative",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "population_template",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 185,
+      "blanks": 2,
+      "proxy": 2.3810810810810814,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "barcode_model",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 129,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "common",
+    "policy": "oracle",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "none",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 538,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "common_iterative",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 538,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "population_template",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 134,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "barcode_model",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 137,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 0,
+    "kind": "color",
+    "policy": "oracle",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 141,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "none",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 125,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "common_iterative",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 125,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "population_template",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 116,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "barcode_model",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 129,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "oracle",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 125,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "none",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 22,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "common_iterative",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 125,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "population_template",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 115,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "barcode_model",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 122,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "oracle",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 125,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "none",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 8,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "common_iterative",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 8,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "population_template",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 5,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "barcode_model",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 8,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "oracle",
+    "decoder": "correlation",
+    "status": "completed",
+    "quality": {
+      "nonblank": 125,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "none",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 66,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "common_iterative",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 66,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "population_template",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 67,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "barcode_model",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 69,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "zero",
+    "policy": "oracle",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 66,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "none",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 786,
+      "blanks": 7,
+      "proxy": 1.9615139949109415,
+      "support": 1.0,
+      "qualified": false
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "common_iterative",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 66,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "population_template",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 69,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "barcode_model",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 73,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "common",
+    "policy": "oracle",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 66,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "none",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 437,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "common_iterative",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 437,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "population_template",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 421,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "barcode_model",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 437,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  },
+  {
+    "field": 1,
+    "kind": "color",
+    "policy": "oracle",
+    "decoder": "regression",
+    "status": "completed",
+    "quality": {
+      "nonblank": 66,
+      "blanks": 0,
+      "proxy": 0.0,
+      "support": 1.0,
+      "qualified": true
+    }
+  }
+]

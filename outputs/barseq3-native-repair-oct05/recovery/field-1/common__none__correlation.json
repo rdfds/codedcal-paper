@@ -1,0 +1,353 @@
+{
+  "status": "completed",
+  "kind": "common",
+  "policy": "none",
+  "decoder": "correlation",
+  "source_index": 1,
+  "xy": [
+    [
+      93.0,
+      76.0
+    ],
+    [
+      96.0,
+      57.0
+    ],
+    [
+      97.0,
+      70.0
+    ],
+    [
+      91.0,
+      90.0
+    ],
+    [
+      88.0,
+      67.0
+    ],
+    [
+      37.0,
+      101.0
+    ],
+    [
+      27.0,
+      27.0
+    ],
+    [
+      32.0,
+      31.0
+    ],
+    [
+      101.0,
+      89.0
+    ],
+    [
+      69.0,
+      103.0
+    ],
+    [
+      24.0,
+      43.0
+    ],
+    [
+      33.0,
+      44.0
+    ],
+    [
+      52.0,
+      25.0
+    ],
+    [
+      29.0,
+      48.0
+    ],
+    [
+      25.0,
+      46.0
+    ],
+    [
+      53.0,
+      45.0
+    ],
+    [
+      61.0,
+      31.0
+    ],
+    [
+      88.0,
+      58.0
+    ],
+    [
+      84.0,
+      60.0
+    ],
+    [
+      77.0,
+      25.0
+    ],
+    [
+      83.0,
+      60.0
+    ],
+    [
+      82.0,
+      88.0
+    ]
+  ],
+  "words": [
+    163,
+    168,
+    206,
+    550,
+    820,
+    883,
+    892,
+    927,
+    939,
+    999,
+    1037,
+    1037,
+    1239,
+    1276,
+    1279,
+    1286,
+    1293,
+    1311,
+    1367,
+    1571,
+    1649,
+    1740
+  ],
+  "metrics": {
+    "1.5": {
+      "gene_class_identity_f1": 0.013605442176870748,
+      "sequence_identity_f1": 0.013605442176870748,
+      "spatial_f1": 0.04081632653061224,
+      "label_constrained_f1": 0.013605442176870748,
+      "composition_tv": 0.856,
+      "reference_calls": 125,
+      "predicted_calls": 22,
+      "correct_gene_classes": 1,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 1,
+        "skipped_components": 0,
+        "candidate_edges": 5
+      }
+    },
+    "3": {
+      "gene_class_identity_f1": 0.013605442176870748,
+      "sequence_identity_f1": 0.013605442176870748,
+      "spatial_f1": 0.1360544217687075,
+      "label_constrained_f1": 0.013605442176870748,
+      "composition_tv": 0.856,
+      "reference_calls": 125,
+      "predicted_calls": 22,
+      "correct_gene_classes": 1,
+      "matching": {
+        "ambiguous_reference": 1,
+        "ambiguous_prediction": 5,
+        "skipped_components": 0,
+        "candidate_edges": 16
+      }
+    },
+    "5": {
+      "gene_class_identity_f1": 0.027210884353741496,
+      "sequence_identity_f1": 0.027210884353741496,
+      "spatial_f1": 0.272108843537415,
+      "label_constrained_f1": 0.08163265306122448,
+      "composition_tv": 0.856,
+      "reference_calls": 125,
+      "predicted_calls": 22,
+      "correct_gene_classes": 2,
+      "matching": {
+        "ambiguous_reference": 5,
+        "ambiguous_prediction": 12,
+        "skipped_components": 0,
+        "candidate_edges": 47
+      }
+    }
+  },
+  "quality": {
+    "nonblank": 22,
+    "blanks": 0,
+    "proxy": 0.0,
+    "support": 1.0,
+    "qualified": false
+  },
+  "runtime": {
+    "kernel_s": 0.047181000001728535,
+    "peaks_s": 0.31367750000208616,
+    "density_max": 0.8695281744003296,
+    "absolute_cut": 0.7749999761581421,
+    "density_sha256": "22af1554e7eb4570beaf6903700adcde1f2f6eb8a9ea9c50881b877f414878e9",
+    "exact_reference_kernel_reused": false,
+    "warp_s": 0.025622834014939144
+  },
+  "applied_integer_maps": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "residual_added_rms": 4.47213595499958,
+  "geometry_sha256": "aaab54d20fac65ee50b113cac17eac617c06e070588df0d04ca4d0a5b181c6a7",
+  "reference_sha256": "4515c38fa2b7a0b030460e03dc63f7f57f9cb93c474339fe31ce57d693e4de98",
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955"
+}

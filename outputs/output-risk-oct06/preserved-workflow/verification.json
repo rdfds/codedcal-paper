@@ -1,0 +1,131 @@
+{
+  "passed": true,
+  "decoder_records": 20,
+  "forecast_statistics": 40,
+  "native_assignments_recounted": true,
+  "workflow_choice_by_label_not_truth": true,
+  "confidence_comparator_not_recomputed": true,
+  "independent_RNA_truth": false,
+  "records": [
+    {
+      "case": "bar_0_color",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 73
+    },
+    {
+      "case": "bar_0_common",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 66
+    },
+    {
+      "case": "bar_0_zero",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 70
+    },
+    {
+      "case": "bar_1_color",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 8
+    },
+    {
+      "case": "bar_1_common",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 120
+    },
+    {
+      "case": "bar_1_zero",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 125
+    },
+    {
+      "case": "culture_4_color",
+      "decoder": "correlation",
+      "incumbent": 1,
+      "coding": 79
+    },
+    {
+      "case": "culture_4_color",
+      "decoder": "source_spot",
+      "incumbent": 1,
+      "coding": 39
+    },
+    {
+      "case": "culture_4_common",
+      "decoder": "correlation",
+      "incumbent": 1,
+      "coding": 53
+    },
+    {
+      "case": "culture_4_common",
+      "decoder": "source_spot",
+      "incumbent": 1,
+      "coding": 54
+    },
+    {
+      "case": "culture_4_zero",
+      "decoder": "correlation",
+      "incumbent": 0,
+      "coding": 64
+    },
+    {
+      "case": "culture_4_zero",
+      "decoder": "source_spot",
+      "incumbent": 0,
+      "coding": 69
+    },
+    {
+      "case": "tissue_4_color",
+      "decoder": "correlation",
+      "incumbent": 7,
+      "coding": 137
+    },
+    {
+      "case": "tissue_4_color",
+      "decoder": "source_spot",
+      "incumbent": 7,
+      "coding": 96
+    },
+    {
+      "case": "tissue_4_common",
+      "decoder": "correlation",
+      "incumbent": 3,
+      "coding": 138
+    },
+    {
+      "case": "tissue_4_common",
+      "decoder": "source_spot",
+      "incumbent": 3,
+      "coding": 100
+    },
+    {
+      "case": "tissue_4_outclass",
+      "decoder": "correlation",
+      "incumbent": 3,
+      "coding": 133
+    },
+    {
+      "case": "tissue_4_outclass",
+      "decoder": "source_spot",
+      "incumbent": 3,
+      "coding": 97
+    },
+    {
+      "case": "tissue_4_zero",
+      "decoder": "correlation",
+      "incumbent": 2,
+      "coding": 131
+    },
+    {
+      "case": "tissue_4_zero",
+      "decoder": "source_spot",
+      "incumbent": 2,
+      "coding": 97
+    }
+  ]
+}

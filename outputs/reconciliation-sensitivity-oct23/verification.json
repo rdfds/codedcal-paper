@@ -1,0 +1,135 @@
+{
+  "passed": true,
+  "distinct_acquisitions": 8,
+  "views": 9,
+  "arms": 81,
+  "response_images": 36,
+  "dependency_hashes_checked": 143,
+  "additional_dependency_hashes_checked": 12,
+  "raw_input_checks": 36,
+  "unique_raw_paths": 32,
+  "raw_inputs_freshly_verified": true,
+  "singleton_diagnostic_recount": [
+    65,
+    12,
+    4
+  ],
+  "checks": [
+    {
+      "tag": "npc",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "edf10rep1",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "edf10rep2",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "fig4untreated",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "rtx_rep1",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "rtx_rep2",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "rtx_rep3",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "sdc_corrected",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "sdc_raw",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    }
+  ],
+  "artifact_sha256": {
+    "EXECUTION_NOTES.md": "fae5dbe73526fade8226cb18f72155abb545e4858b5457ad8019cd2f7bc6dcda",
+    "INTERPRETATION.md": "d88e4fe776a0cb4eaee259b2cda685143253310e57ba8a93c20e0a833e8b23a4",
+    "PROTOCOL.md": "d151fd7c7b536fb73376d3039f76f0cf136164fafa39a3b77d9469f994073c1f",
+    "README.md": "9bd4a085d235cfa5dbf39f101bdcbdc6d833a4c406bc9b613a45634cce865df2",
+    "RESULTS.md": "244f33ed38b5109cc9f82038b6496750179c6063c7d7671666447f43920986ea",
+    "additional-dependencies.json": "46938e60b70f9546ca081ef1b43f35e9b0241b82249f9d3305a23af78c1f00aa",
+    "all-arms.csv": "a325e7e603a6d0de60623d50f6ca4ff36907e8db01217ec74a79d224468a3266",
+    "dependency-manifest.json": "a6b418bcb2ab1c17d6888efe4e7d7a285cef30547b372a08164821647e385dd0",
+    "dependency-revisions.json": "9cfdafe68c96561b311df501d28c1da8c1427881b36b8d075dc7fcce53579241",
+    "execution-state.json": "3ee832f27c83c8997917f5526be15e31d55e21cc97a8c19157d36f56891b6d5a",
+    "groups-edf10rep1.npz": "b2da0df7ddeb5e830fd278ad01ed122635da901e75bce189917bdee97214dcf4",
+    "groups-edf10rep2.npz": "50acf86beb8e614fd7a9b71e5d1d189f6ddd6ff1506cd59ef5634fbbaa913062",
+    "groups-fig4untreated.npz": "314b67d2ad191938c437dd37a98f60bf3b9022d137a2abf4a3fd663ad41dd6ff",
+    "groups-npc.npz": "f5a14bbc4f7fc8175f088224275e50d1b01be7beb3d9995b388ca3f8b1f28ea1",
+    "groups-rtx_rep1.npz": "cb52e0ca41822e71f03aaa9b734bd5be2e11f285899e0ab976e5148c468ae226",
+    "groups-rtx_rep2.npz": "b3f31baccadbfa87c05371672e594309486c54d691886360728a2fbd5de4b223",
+    "groups-rtx_rep3.npz": "3ed273a82c8455c57feaabfad8c7900cfb45dfcd79092d6c538e40e9081471ff",
+    "groups-sdc_corrected.npz": "cebf4c787c324167eee041d24f9310c13a9382c5735874bcfb187ad8caed12c3",
+    "groups-sdc_raw.npz": "23c3fdfb83a9d98a44396c025ec90cd425bbadcc3fb560c7365f932fb7976e4b",
+    "plot.py": "f4b0aef7c6fdaf12f47744897101333a6f8ea79d9de8432d54b84a98d58277ae",
+    "pr-before.json": "dc8a6467defb2b10d880b630a20038a1850c516e0ff4f78cb9af7f2778b56173",
+    "report.py": "bc308466794ce16bfaddcd21106487a841cd846a1977f15b0d410fe466603c48",
+    "response-uncertainty.json": "cde791e99e1defa5bfc80126398fabb8e15d6c6f80ea6e0f5e5f7686f92f9917",
+    "response_uncertainty.py": "43930e2c68a16f173d0e759bb0f07734f559ec3267501ce1b778c1d7c734daaf",
+    "result-edf10rep1.json": "4ca896f5792d1bd0ad43feef03b227ff1f6f3a8962f32aa4325ee5a2b77c548b",
+    "result-edf10rep2.json": "d74b6a896f8108cf399935402034cfe06ab972661f6ed617e86fc7d929cea603",
+    "result-fig4untreated.json": "9fdf107102dcc7286646816d95541473a677995c01942954729d7328912e0715",
+    "result-npc.json": "c6a062908ce3f2faf8386bda8f1ed212b00c3a3560de0aa990ece395539807d5",
+    "result-rtx_rep1.json": "d530e7f68c8b78ed31de0e65e2a73c21adf6b73a129d9821e45203ed1bae3c09",
+    "result-rtx_rep2.json": "dd00ac7b3f3d78c3fb3744ae39528c80fc555345c5b3f77f8e3060e59e7ed9b0",
+    "result-rtx_rep3.json": "b3a9c52025905b3d38ef6c2b4bda8781d91a513336ad1b380079c1003434a212",
+    "result-sdc_corrected.json": "8d8a2f328c981ee177b1c293011088c56fb4696f4ecdb538d6515ec3c4db055c",
+    "result-sdc_raw.json": "95bb561e772d86d3d961d07689617c79a561c9b22e59657ec1e65fa48b160e02",
+    "run_remaining.py": "57189758f43507aa5a2279586c02de7952bd87d192f7afe740f0f08896df1ce1",
+    "sensitivity-initial.py": "90098559480499ea0c186018927602a6d2db76a94c9e452513e5fe3f5d853ba7",
+    "sensitivity.pdf": "9289a91c47b63e9e1ad5332585680a4823c8f956f4c0cc650ef912e9251214da",
+    "sensitivity.png": "80882393e0c989e5a6b80c5dfdcd9e6190ee39d77ada71088655f9a92dbc2bfa",
+    "sensitivity.py": "b800a114ed690921265f7499f71868f6c7503cdfd7d479e595bc1830c3a762be",
+    "singleton-diagnostic.json": "4b11dfa52493cd126517dfe8d0c5e72118924730eb620edbe96e58808fbb8389",
+    "singleton_diagnostic.py": "1819510ac59595ba15d56ea56e5265033dc68353873a7570f0453ad0ec319b07",
+    "summary.json": "6b7103f185c148b08b46e636abc19dcdcaff115965a0da17d421ac6c80ab818e",
+    "test_cache_revision.py": "a7b878a8f6dc2eaae2e1a49528d90eade9b13650ffc61e39d4185ffda3d621f8",
+    "test_reporting.py": "0e5b33e99dbe84a1e32ebba38e98a9229fce05d1ebca9382cc8febc417ad4632",
+    "test_sensitivity.py": "c898d6a2af5cc820149bbfb538c9d09e5882d74171fd5990cbc6cbe5eb000fd9",
+    "test_singleton.py": "8c3f71c32bf6cfcab52f32ba73094a68eebc892e9b7c324837133fe51f6d9b81",
+    "test_verifier_readonly.py": "2fcaecf5cae1dd2fbbb290abac0bb6a1c202142d94479db8ceb817d9f4837b02",
+    "verification-partial.json": "ae01d6e52b5e93a25adec6a57f29012985a07ccc835ffddf1885872ce51bfdc1",
+    "verify.py": "3cbb5c1f73bf8a63383ed6bdbd90a33175f015a0b12fa5145b50f8f51d3518d4"
+  },
+  "physical_validation": false,
+  "independent_confirmation": false,
+  "scope": "Retained input identity and independent aggregation/rectangle recounts; not physical source truth."
+}

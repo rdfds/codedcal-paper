@@ -1,0 +1,78 @@
+{
+  "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+  "candidate": 30,
+  "decoder": "correlation",
+  "catalog": {
+    "xyz": [
+      [
+        34.0,
+        34.0,
+        0.0
+      ],
+      [
+        103.0,
+        76.0,
+        0.0
+      ],
+      [
+        88.0,
+        67.0,
+        0.0
+      ],
+      [
+        102.0,
+        55.0,
+        0.0
+      ],
+      [
+        103.0,
+        89.0,
+        0.0
+      ],
+      [
+        81.0,
+        27.0,
+        0.0
+      ],
+      [
+        69.0,
+        90.0,
+        0.0
+      ]
+    ],
+    "words": [
+      266,
+      754,
+      820,
+      1242,
+      1422,
+      1590,
+      1702
+    ],
+    "negative_ids": [
+      1743,
+      1744,
+      1745,
+      1746,
+      1747,
+      1748,
+      1749,
+      1750
+    ]
+  },
+  "quality": {
+    "full_catalog_calls": 7,
+    "central_coding": 7,
+    "central_negative": 0,
+    "blank_proxy": 0.0,
+    "source_abstentions": null,
+    "source_unsupported": null,
+    "runtime": {
+      "kernel_s": 0.022168249997776,
+      "peaks_s": 0.27863083299598657,
+      "density_max": 0.8076654672622681,
+      "absolute_cut": 0.7749999761581421,
+      "density_sha256": "60459c0eb5f79e23f45475090712dac307d1424751c7ede068e416144d52dfba"
+    }
+  }
+}

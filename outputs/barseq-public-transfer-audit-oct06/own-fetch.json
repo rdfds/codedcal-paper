@@ -1,0 +1,6 @@
+{
+  "url": "https://api.brainimagelibrary.org/retrieve?bildid=ace-dim-own",
+  "status": 200,
+  "bytes": 5555,
+  "sha256": "88afe3ccff330c82bc9f699af0afb5c1d73fa3f43b1d67a98bad559f34aff498"
+}

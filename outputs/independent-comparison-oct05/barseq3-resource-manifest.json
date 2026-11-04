@@ -1,0 +1,159 @@
+{
+  "source_repository": "https://github.com/kebschulllab/BARseq3",
+  "source_commit": "32df2c4793b8ab0534b73cc56a506ae16d4048a8",
+  "dataset": "https://zenodo.org/records/19024678",
+  "supplement": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13192599.1/media-1.xlsx?md5=96f6d9a8478c6c9be9806edcc5c89bae",
+  "local_untracked_source_cache": "external-originals/2026-09-25/can-y/work/barseq3-inputs-oct05.nosync/source-audit",
+  "files": [
+    {
+      "name": "barseq3-BARseq3_pipeline__README.md",
+      "sha256": "2fdf9b675771b530835901cde73bebda0a79901b5a65f57261cb6bfbc30dabef",
+      "bytes": 215,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-BARseq3_pipeline__gene_barcode_raw_image_pipeline__BARseq3_gene_codebook.csv",
+      "sha256": "f007cbaaada69a7fc104e1e5ee85088185bd05cfeb59da3b2f5556670d4c2cb9",
+      "bytes": 91,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-BARseq3_pipeline__gene_only_raw_image_pipeline__README.md",
+      "sha256": "a27cceada286e1afd978fe747a81ea8cab2428343194c750ccecc9d986eec527",
+      "bytes": 8061,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-BARseq3_pipeline__gene_only_raw_image_pipeline__config.json",
+      "sha256": "0ac3acc38e040e06fc06e1d6e391c22fd181f001ff0a6e55155ef3ee2cd83bec",
+      "bytes": 1073,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-Figure2__Specificity_experiments__README.md",
+      "sha256": "42fbaac42a4909c529c923f9945e1a988568a9ed14c484929743c16f93c86e07",
+      "bytes": 637,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-Figure3__README.md",
+      "sha256": "3a5b07c07c906dc75d59c13a78cb5753468af7b372cc8e935e60a683740290c7",
+      "bytes": 77,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-Snakefile_nopatch.txt",
+      "sha256": "31c8aa07c82e5e51968de0ca3d5111dd45c0849326b1c1c49b966b65ad9d5a94",
+      "bytes": 74636,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-adult-codebook.csv",
+      "sha256": "fc900afb73f20dfab928aa237ff9e4525066840f763410e3256d5a5cacb7bd11",
+      "bytes": 30219,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-anndata-schema.json",
+      "sha256": "439acb5a7feb9cc21159d25db3fe757bcca7c8c24cd4f8e135ab5a323fbcc980",
+      "bytes": 692,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-article-metadata.json",
+      "sha256": "02ea4601bca522af5f2f86c9977aeb1fa2e7784c9264bbfa61346a4f403d8e61",
+      "bytes": 308,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-bioc.xml",
+      "sha256": "c75f87e72c32f6e49201c4e8ac895343a9f0c8773696c48dd51d127c0310ec29",
+      "bytes": 72061,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-codebook-mapping-audit.json",
+      "sha256": "e6537145b0eac29bb204977d131cd2f55a37efdd6b23dcb57010d2d2168c61a7",
+      "bytes": 58616,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-codebook-qualification.json",
+      "sha256": "e2ba48260349f8f0e743c48d60c58286e63122607e3eb2692dd737e40e5f6814",
+      "bytes": 468,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-oa-current.xml",
+      "sha256": "80210a79456fd1c7770628896cb3424040fda148a5c28fcd85f560ca00488c4c",
+      "bytes": 48716,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-oa.xml",
+      "sha256": "59ac6669f1249e6d879a98bc10f09a912bbd448769f51e5e4ecc728c5906fbb9",
+      "bytes": 1588,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-pmc-cloud-metadata.json",
+      "sha256": "d4ca79017ef17215a30cf3996bfc5fcf121f92f95efd84d6aab0cda2ba24f3bc",
+      "bytes": 1328,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-probe-table-schema.json",
+      "sha256": "ee346423e9ffd6371533a85725371bbb7fe9dd875b1933e74d7ce6d161d3a0c1",
+      "bytes": 15096,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-raw-header.json",
+      "sha256": "f3e74532b22026aa2690fbfce983241449166ef8244f27d86d2b7ce58c5f17e5",
+      "bytes": 875,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-remote-schema.json",
+      "sha256": "108a0007361f4989348950f0467a1fa19e0c00c02736db0865142f690f546aba",
+      "bytes": 1081,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-schema.log",
+      "sha256": "e756aa471b5bbbd4c707a1b3ca7a833c26a1f6a9244f950d1d7fe51c0664d11e",
+      "bytes": 453,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-small-download-verification.json",
+      "sha256": "a585466dc8ce992fbb7f063901dafa31c99eb483877dab7530104ce2ee16b474",
+      "bytes": 962,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-supplement-access.json",
+      "sha256": "42efc11094697d5aefdfbe4b49766ef64df3a47cdca01ade46cb49c951b87518",
+      "bytes": 12630,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-supplement1-probe.json",
+      "sha256": "a7a8f3c7cd50493d7bd92f3e551f2eb322020fb18ad2af375594d48aaf01bec2",
+      "bytes": 274,
+      "retained_in_repo": false
+    },
+    {
+      "name": "barseq3-tree.json",
+      "sha256": "172a0e1756ca442c8af0a4ca963f1fcf69d033f93ef4f7a6627cfa4b12c33517",
+      "bytes": 38934,
+      "retained_in_repo": true
+    },
+    {
+      "name": "barseq3-zenodo.json",
+      "sha256": "61f2cf5854b7672d08bb4311d8c5c9faa304e970ee12338909447b8da16acbe1",
+      "bytes": 9487,
+      "retained_in_repo": true
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "input": "barseq3-0-correlation.json",
+      "native_calls": 70,
+      "source_sha256": "e40d02d0c1d3eb314bf79f571f47b9fe4be54e06752f5527ce446069f1040670",
+      "passed": true,
+      "count_preserving_label_permutation": {
+        "supported": true,
+        "identity_loss": 0.9857142857142858,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 1.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 42
+        },
+        "reference_calls": 70,
+        "predicted_calls": 70,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "known_geometric_displacement": {
+        "supported": true,
+        "identity_loss": 1.0,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 1.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 10
+        },
+        "reference_calls": 70,
+        "predicted_calls": 70,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "composition_corruption": {
+        "supported": true,
+        "identity_loss": 0.9857142857142858,
+        "composition_tv": 0.9857142857142854,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.9857142857142858,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 42
+        },
+        "reference_calls": 70,
+        "predicted_calls": 70,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "oracle_correction": {
+        "supported": true,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 42
+        },
+        "reference_calls": 70,
+        "predicted_calls": 70,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      }
+    },
+    {
+      "input": "barseq3-1-correlation.json",
+      "native_calls": 125,
+      "source_sha256": "b0a156fbb27a824774c46cae04693b70073e42e9a75809f361c22d8a7445c2ad",
+      "passed": true,
+      "count_preserving_label_permutation": {
+        "supported": true,
+        "identity_loss": 0.984,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.984,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 53
+        },
+        "reference_calls": 125,
+        "predicted_calls": 125,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "known_geometric_displacement": {
+        "supported": true,
+        "identity_loss": 0.992,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 1.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 13
+        },
+        "reference_calls": 125,
+        "predicted_calls": 125,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "composition_corruption": {
+        "supported": true,
+        "identity_loss": 0.992,
+        "composition_tv": 0.9920000000000002,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.992,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 53
+        },
+        "reference_calls": 125,
+        "predicted_calls": 125,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "oracle_correction": {
+        "supported": true,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 53
+        },
+        "reference_calls": 125,
+        "predicted_calls": 125,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      }
+    },
+    {
+      "input": "starfinder-tissue-correlation.json",
+      "native_calls": 131,
+      "source_sha256": "412c5aa082cc81362a0a70c91d800961888007cf8624f8c4364ea88d9af72699",
+      "passed": true,
+      "count_preserving_label_permutation": {
+        "supported": true,
+        "identity_loss": 0.8931297709923665,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.9007633587786259,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 10
+        },
+        "reference_calls": 131,
+        "predicted_calls": 131,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "known_geometric_displacement": {
+        "supported": true,
+        "identity_loss": 0.9770992366412213,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.9770992366412213,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 2
+        },
+        "reference_calls": 131,
+        "predicted_calls": 131,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "composition_corruption": {
+        "supported": true,
+        "identity_loss": 0.8396946564885497,
+        "composition_tv": 0.8396946564885496,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.8396946564885497,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 10
+        },
+        "reference_calls": 131,
+        "predicted_calls": 131,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "oracle_correction": {
+        "supported": true,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 10
+        },
+        "reference_calls": 131,
+        "predicted_calls": 131,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      }
+    },
+    {
+      "input": "starfinder-tissue-regression.json",
+      "native_calls": 150,
+      "source_sha256": "fb6f7dd7284c6e6e44c791fe8a72f84cf186737a30eff9dd29190a8330b68bc2",
+      "passed": true,
+      "count_preserving_label_permutation": {
+        "supported": true,
+        "identity_loss": 0.92,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.92,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 22
+        },
+        "reference_calls": 150,
+        "predicted_calls": 150,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "known_geometric_displacement": {
+        "supported": true,
+        "identity_loss": 0.98,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.98,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 4
+        },
+        "reference_calls": 150,
+        "predicted_calls": 150,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "composition_corruption": {
+        "supported": true,
+        "identity_loss": 0.84,
+        "composition_tv": 0.84,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.84,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 22
+        },
+        "reference_calls": 150,
+        "predicted_calls": 150,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      },
+      "oracle_correction": {
+        "supported": true,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "unresolved_identity_components": 0,
+        "spatial_first_identity_loss": 0.0,
+        "matching": {
+          "unresolved_components": 0,
+          "ambiguous_reference": 22
+        },
+        "reference_calls": 150,
+        "predicted_calls": 150,
+        "blank_calls": 0,
+        "yield_ratio": 1.0,
+        "empty_prediction": false
+      }
+    }
+  ],
+  "uses_actual_native_catalogs": true,
+  "additional_workflow_executions": 0,
+  "selection_of_endpoint_preceded_comparative_outcomes": true
+}

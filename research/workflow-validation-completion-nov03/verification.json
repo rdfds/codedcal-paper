@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "prior_manifests_verified": {
+    "workflow-validation-controller-nov02/closure-manifest.json": 216,
+    "workflow-validation-nov02/completion-manifest.json": 49,
+    "workflow-memory-repair-nov02/repair-manifest.json": 30,
+    "workflow-validation-memory-nov02/stopped-manifest.json": 36,
+    "workflow-validation-checkpoint-nov02/stopped-manifest.json": 46
+  },
+  "inherited_checkpoint_files_verified": 91,
+  "original_scientific_design_unchanged": true,
+  "recovery_reservation": 1151,
+  "no_new_data_or_thresholds": true,
+  "physical_validation_added": false,
+  "worker_stage": "completed",
+  "completed_pairs": 24,
+  "missing_pairs": 0,
+  "full_chain_dispatches": 64,
+  "completed_actual_workflows": 29,
+  "exact_cache_hits": 34,
+  "failed_or_partial_dispatches": 1,
+  "new_dispatches": 6,
+  "complete_integer_matrix": true,
+  "adequate_cases": 0,
+  "failed_cases": 2,
+  "comparative_benefit_established": false,
+  "general_utility_supported": false,
+  "new_sealed_files_verified": 136
+}

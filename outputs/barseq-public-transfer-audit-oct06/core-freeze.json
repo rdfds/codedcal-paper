@@ -1,0 +1,35 @@
+{
+  "calibration_policy": "global_group",
+  "optional_local_refinement": false,
+  "core_sha256": {
+    "outputs/barseq3-native-repair-oct05/global_repair.py": "82407386fccc55da8b745fd5a31c83ed27d41e4c4fcb2eb1b3267d5c14df4fdc",
+    "outputs/barseq3-native-repair-oct05/GLOBAL_REPAIR.md": "0d7c7457880edc03635be1702fe21e074199dca78153cccb49a9f726c371b55c",
+    "outputs/barseq3-native-repair-oct05/recovery.py": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955",
+    "outputs/barseq3-native-repair-oct05/REPAIR_SUMMARY.json": "ed19d3ac9f65224e4f49ab9b9d122b9253a64f7ed8d031185dfd40b61a40b357",
+    "outputs/barseq3-native-repair-oct05/repair-verification.json": "45b7b5d7f7597fc89a93ed2c152538c6df411d2cb838d64fbe045e45f5d302ec"
+  },
+  "candidate_preparations": [
+    "ace-dim-owl",
+    "ace-dim-out"
+  ],
+  "raw_candidate_intensities_examined": false,
+  "full_workflow_frozen": false,
+  "adapter_qualified": false,
+  "scientific_transfer_result_available": false,
+  "blocker": "BIL announced October 5\u201316, 2026 physical data-center move; image filesystem unavailable on all systems while metadata remains accessible",
+  "source_adapter_specification_frozen": true,
+  "source_adapter_freeze": "outputs/barseq-transfer-adapter-oct06/adapter-freeze.json",
+  "source_adapter_numerical_controls_passed": true,
+  "source_adapter_real_native_qualified": false,
+  "source_rounds": 7,
+  "full_multiset_matching_proposal_withdrawn": true,
+  "operator_migration_notice": {
+    "url": "https://www.brainimagelibrary.org/datacentermove.html",
+    "source_commit": "b328d4225d64dd4e5f3fa205bec81be7c46a18cd",
+    "window_start": "2026-10-05",
+    "expected_latest_restoration": "2026-10-16",
+    "expectation_not_guarantee": true,
+    "metadata_remains_available": true,
+    "image_filesystem_unavailable_all_systems": true
+  }
+}

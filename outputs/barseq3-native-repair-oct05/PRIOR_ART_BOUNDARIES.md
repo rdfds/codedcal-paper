@@ -1,0 +1,11 @@
+# What this comparison can add beyond prior work
+
+The [BarDensr paper](https://doi.org/10.1371/journal.pcbi.1008256) already evaluates barcode misidentification separately from spot detection, compares correlation with nonnegative demixing, tests simulated density/resolution changes, and discusses registration as a preprocessing requirement. Decoder-dependent recovery, dense-mixture difficulty and the importance of registration are therefore not new claims here. The pinned author registration optimizer is a strong alternative, not a novelty claim for this project.
+
+The current study asks a more specific question: at exactly the same full distribution of residual geometric offsets, how does assigning offsets by round versus readout color change recovery, and does an observation-based recommendation select a successful workflow? It uses fixed codebooks, actual decoder kernels, a matched iterative geometric comparator, the author barcode model, integer inverse controls and explicit failures. These distinctions define the additional comparison; they do not establish its editorial importance automatically.
+
+The author-annotated CSHL endpoint and external BARseq3 endpoint must remain distinct. The former is agreement with incomplete annotations. The latter is consistency with native algorithm outputs after controlled displacement. Neither supplies independent physical RNA truth. Two BARseq3 fields are one preparation; the two older benchmark crop names do not establish independent animals. The external spatial holdout is on an exposed preparation.
+
+A useful conclusion must retain an author-method win or tie, unnecessary zero-case corrections, all quality misses, matching ambiguity and the post-hoc interior-fit sensitivity. An image-template rule that detects additional degrees of freedom but selects an inferior implementation is not validated deployment guidance. Matching a marginal offset distribution does not match the temporal contrast T or validate the randomized MERFISH proposal.
+
+Literature checked 6 October 2026 against the primary BarDensr article. Related blank-proxy and readout-error precedents are retained in READOUT_STRUCTURE_ANALYSIS.md. This document states interpretation boundaries and does not change a frozen experiment or acceptance criterion.

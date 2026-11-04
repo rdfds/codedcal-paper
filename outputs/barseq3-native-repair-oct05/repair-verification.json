@@ -1,0 +1,2739 @@
+{
+  "verified_arms": 60,
+  "radii": [
+    1.5,
+    3,
+    5
+  ],
+  "native_array_hashes": 20,
+  "checks": [
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "exact_reference": false
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "exact_reference": false
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "exact_reference": false
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "exact_reference": false
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "exact_reference": false
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "exact_reference": false
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "exact_reference": true
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "exact_reference": true
+    }
+  ],
+  "assignments": [
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9787234042553191,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9787234042553191,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9787234042553191,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.8185053380782918,
+      "global_f1": 0.8185053380782918,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.8398576512455516,
+      "global_f1": 0.8256227758007118,
+      "tied_identity_difference": -2
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.8113879003558719,
+      "global_f1": 0.8113879003558719,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9787234042553191,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9787234042553191,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9787234042553191,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.8185053380782918,
+      "global_f1": 0.8185053380782918,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.8398576512455516,
+      "global_f1": 0.8256227758007118,
+      "tied_identity_difference": -2
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.8113879003558719,
+      "global_f1": 0.8113879003558719,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 0,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.5656565656565656,
+      "global_f1": 0.5656565656565656,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.5589225589225589,
+      "global_f1": 0.5589225589225589,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.5656565656565656,
+      "global_f1": 0.5656565656565656,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9420289855072463,
+      "global_f1": 0.9420289855072463,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9710144927536232,
+      "global_f1": 0.9710144927536232,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9710144927536232,
+      "global_f1": 0.9710144927536232,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9716312056737588,
+      "tied_identity_difference": -1
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9787234042553191,
+      "global_f1": 0.9716312056737588,
+      "tied_identity_difference": -1
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9716312056737588,
+      "global_f1": 0.9716312056737588,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.7058823529411765,
+      "global_f1": 0.6911764705882353,
+      "tied_identity_difference": -1
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.7794117647058824,
+      "global_f1": 0.7647058823529411,
+      "tied_identity_difference": -1
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.75,
+      "global_f1": 0.7647058823529411,
+      "tied_identity_difference": 1
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "zero",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "common",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "objective-diagnosis",
+      "index": 1,
+      "kind": "color",
+      "policy": "oracle_started",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.007952286282306162,
+      "global_f1": 0.011928429423459244,
+      "tied_identity_difference": 1
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.015037593984962405,
+      "global_f1": 0.015037593984962405,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.03007518796992481,
+      "global_f1": 0.03007518796992481,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.007952286282306162,
+      "global_f1": 0.011928429423459244,
+      "tied_identity_difference": 1
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.015037593984962405,
+      "global_f1": 0.015037593984962405,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "structured-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.03007518796992481,
+      "global_f1": 0.03007518796992481,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    },
+    {
+      "cohort": "global-repair",
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "tied_identity_difference": 0
+    }
+  ],
+  "direct_losses": [
+    {
+      "index": 0,
+      "kind": "zero",
+      "direct_numpy_loss": 0.3481428325056276,
+      "accelerated_loss": 0.34814284031080867,
+      "error": 7.805181057030097e-09
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "direct_numpy_loss": 0.36389868647603074,
+      "accelerated_loss": 0.36389869430720634,
+      "error": 7.831175596884066e-09
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "direct_numpy_loss": 0.35579336543612106,
+      "accelerated_loss": 0.35579337341652917,
+      "error": 7.980408112118198e-09
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "direct_numpy_loss": 0.3819473983760485,
+      "accelerated_loss": 0.38194740536205196,
+      "error": 6.986003442399635e-09
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "direct_numpy_loss": 0.3914982133504007,
+      "accelerated_loss": 0.3914982204426076,
+      "error": 7.092206932846068e-09
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "direct_numpy_loss": 0.3855863209153937,
+      "accelerated_loss": 0.38558632999010856,
+      "error": 9.074714868440026e-09
+    }
+  ],
+  "files": [
+    {
+      "path": "outputs/barseq3-native-repair-oct05/objective-diagnosis/field-0/zero.json",
+      "sha256": "0e77bb66acf2819da0f52fa824acf3306616136a30bf7fe13b145d8aa24f3ca5"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured__regression.json",
+      "sha256": "82b05a54554fcf56be6c8ebcaa7d965c8663b14dac2085ca40ce63b001dc47d7"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured_author__correlation.json",
+      "sha256": "157247b417f4db3abd1b217abb9c85f57eaa0f86e9b2ab1c8f9d7798248083bc"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured_author__regression.json",
+      "sha256": "08659e275293d832d3d3132bf2c0eb3fef1a88cb308bc2b7f5d2bd76bbca8814"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured__correlation.json",
+      "sha256": "3bfcc01bab5fd3d98a51b6035a60df31e24733d1a4b1211d31a155d52d6443aa"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_group__regression.json",
+      "sha256": "93c5a3b5228116011f29ab53d8757e5ca56c6679d3ce64af865ccbab3c19fcf1"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_author__regression.json",
+      "sha256": "3b7ea4699f0b7081d343594c88a69729df65f7631da5d2022e5d970a5430b36d"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_author__correlation.json",
+      "sha256": "f9e251be117703a23b4950398c553051ec0d4bf11d6d5cd6080b9ec42a322515"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_group__correlation.json",
+      "sha256": "4e839da8ba215d2304d6d3ffa55de6c8fe8bec923247ff8096c529c4b1390be7"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/objective-diagnosis/field-0/common.json",
+      "sha256": "339976ce6d96ebe3e277add4681db76190b487ef4b1885adb643e0dd3bcc66b4"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured_author__correlation.json",
+      "sha256": "272d763d131a6d21f088572d80c61b775f5b25af22237c28673adecd848096b3"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured__regression.json",
+      "sha256": "75f992f0395007776ed7a920731cd23e203315a0252db53e4dc8c4464b7a1ecb"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured__correlation.json",
+      "sha256": "da61629852adc71c4b4e9c4ee49b19500ee26c397d758d15fdea9f6899a38db3"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured_author__regression.json",
+      "sha256": "38eb14427b01f0cb70a7501c521df103501888f2afa6c65631f556844c4d7528"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_author__correlation.json",
+      "sha256": "6b1a3867447c7bca6f41c6ff6f32486776332f8683cb014d228380f9cd867e19"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_group__correlation.json",
+      "sha256": "64198ee59db092a9fcae5ee5f02478e8e0b225bab3695ef3766a38d81fbe1513"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_group__regression.json",
+      "sha256": "2b31585ba5b2046f3f4a584ec6b34c1a2a450c52f0781ffdc3f765ebc91a5d01"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_author__regression.json",
+      "sha256": "6da1627664e4e376a6bbf6139eb89ec03c7912a54a7dbac53834912f854acd43"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/objective-diagnosis/field-0/color.json",
+      "sha256": "b4a5d2010683bb792948cf97838a1898f8158716cfc115655bd59a9d742e0677"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured__regression.json",
+      "sha256": "f356eab64c7d89c67a1fcdb776dd9ffde7e42d902e2b60fd3fba2c57765158ed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured_author__correlation.json",
+      "sha256": "11bc66cb58e0489bfdfc0c1a23c8b083f988299bbcdae517197fb890ad22448a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured_author__regression.json",
+      "sha256": "4ab8d54fad9f78c94377dc79363dbee2359ed669919b47ad61ca12200485c162"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured__correlation.json",
+      "sha256": "2ed08bf393f5b069aa724f5a68544835bef572de01c8cb3b746b384bec017f4f"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_group__regression.json",
+      "sha256": "70835153fb8d3f0edf18accb9c938d2ff67c403f3fbf77924aee671c699184f9"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_author__regression.json",
+      "sha256": "d4c48ae8f3e0a391597b519fd0103acddbc04464e11fab5d681d492a6834ac31"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_group__correlation.json",
+      "sha256": "09ac45e6eacaeb524aec7f050c96ca15ba0da720cd769fecf092794393864550"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_author__correlation.json",
+      "sha256": "68071a94e72e181758951e2e78af752fe6ea59c1c0edc703faaf27052263fd42"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/objective-diagnosis/field-1/zero.json",
+      "sha256": "3617c67084224ff6b96bdbeb26136e894f8c8b774262e66f537d378eeb67f161"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured__regression.json",
+      "sha256": "72cec056b79852ff873497413ade05b3e74fb36c170341624a0c4dfdcf32903d"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured_author__correlation.json",
+      "sha256": "87fee1a99b130aa336e043612fc8459201caf6490922c56ee9414de399822818"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured_author__regression.json",
+      "sha256": "543be5a9c823272233f833af306bfe02ba3c26d3b38bad7edd29f99759db0d1f"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured__correlation.json",
+      "sha256": "4024a5bdf8c95e11b3dc53a0a22bd0d59577cb74c921f503e109ddc36c805d14"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_group__regression.json",
+      "sha256": "38108589aa608ff1d98c6d7c64feabc278897d41c075ae1bebd4a394ee377e20"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_author__regression.json",
+      "sha256": "bc08527ecd50788f9f8be3fc6fd952deb53e727b4ea6d2f5dd0b33dbf0481d7c"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_author__correlation.json",
+      "sha256": "c191e85d1c5d080d780f321eaef349adb0abe8f59fa1766f32ddb50eef25e649"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_group__correlation.json",
+      "sha256": "6fd51a4198c8971e92dabfcf5f08f97c701cc706789294d34f7b9c1879f06e32"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/objective-diagnosis/field-1/common.json",
+      "sha256": "9a6aa0269615fbcf6e1848304ba4a8ab156f054b1ccc4b5b5e76745d9c352355"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured_author__correlation.json",
+      "sha256": "1b2371c13263c99c124ec403066eb08753d5bec4a20a1966a2b09b2854a5a2a9"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured__regression.json",
+      "sha256": "7fdb0c9e2783aa8789beeb6a3a2a974e7d32e32415d5280aed5ec5775418ca94"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured__correlation.json",
+      "sha256": "ef05e04b53dacf318aab560a6996d85da6028c4543ffaf70bb35eb1c6e86fcf0"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured_author__regression.json",
+      "sha256": "209c2de588bf3b9bf145ce8b7fc885b4e5ca92ddd5b139d9e114e29a43882ed4"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_author__correlation.json",
+      "sha256": "36182bd14c2510c8be4786e476917a6914fb08395135b39a0c11fb7110d29a9c"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_group__correlation.json",
+      "sha256": "987ea9742b6b2da26b2514e3315af9f38b6520130e4c06135459b2437774fde4"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_group__regression.json",
+      "sha256": "76e77e2e1880189942a17a4d28e30d5f495b915c7a3815b2a301fafa6d2108a1"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_author__regression.json",
+      "sha256": "396d7a928d75154c3e9f200655b3a0592b9e7087261aa83d834fadd2cd150ebb"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/objective-diagnosis/field-1/color.json",
+      "sha256": "9f331bfbc417aa61596205bfccd6760b71ff8f6fef726b079b10a6028947bbfd"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured__regression.json",
+      "sha256": "00bb5e8c1fb3f8594de0a46d32c76dbd2d5f50d581efba7af0d2c8debd03598e"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured_author__correlation.json",
+      "sha256": "68ca09850a3234aa67580d1b287b2518ed269755990c0d16a0a5ac523de60987"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured_author__regression.json",
+      "sha256": "1f100eec6c8a815a00f06b66e9b22703ea10055157faa8f12f8d4bd831513123"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured__correlation.json",
+      "sha256": "bca6ca6b9761f73714a51c6d5fdbd02e2fc38989afee1accd2a8f6615ed655bc"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_group__regression.json",
+      "sha256": "fb2e8e80ca28e2b1b9ceab061be2e803db8abfecc3eedf7a2a4ede491f864c0c"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_author__regression.json",
+      "sha256": "72c190d90ecde9ad97f33c2edade19c00676b7877e89a45f069aef15b3c90e23"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_group__correlation.json",
+      "sha256": "83b4d803dd98a6ed49a6b72bd0c4ce039208f7b3e89b28c208163beb09777df7"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_author__correlation.json",
+      "sha256": "f48c3146513723626827fc453f7e234ca1cca40b103827a06f391e3560d5a68f"
+    }
+  ],
+  "script_sha256": "4cde20f17efb8a4e9ce0a74b9fee27a5aca00c0ed5b83b04aa5159ad6c1beb9a",
+  "equal_cost_identity_differences": 9,
+  "largest_observed_equal_cost_f1_change": 0.014705882352941235,
+  "note": "Numerical/provenance verification; not independent biological confirmation. Two equal-cost assignments are not an exhaustive identity bound."
+}

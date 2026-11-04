@@ -1,0 +1,56 @@
+{
+  "noise_shift": {
+    "arithmetic": {
+      "cases": 864,
+      "available_cases": 863,
+      "usable_joint_coverage": 0.7256944444444444,
+      "median_abs_mean_bias": 0.029154504683296,
+      "bad_errors": 727,
+      "quiet_bad": 57
+    },
+    "geometric": {
+      "cases": 864,
+      "available_cases": 862,
+      "usable_joint_coverage": 0.96875,
+      "median_abs_mean_bias": 0.004258148371100612,
+      "bad_errors": 601,
+      "quiet_bad": 57
+    }
+  },
+  "source_noise_shift": {
+    "arithmetic": {
+      "cases": 864,
+      "available_cases": 864,
+      "usable_joint_coverage": 0.29861111111111116,
+      "median_abs_mean_bias": 0.11717961422658457,
+      "bad_errors": 841,
+      "quiet_bad": 26
+    },
+    "geometric": {
+      "cases": 864,
+      "available_cases": 858,
+      "usable_joint_coverage": 0.8344907407407408,
+      "median_abs_mean_bias": 0.04149241770479151,
+      "bad_errors": 772,
+      "quiet_bad": 26
+    }
+  },
+  "code_offset": {
+    "arithmetic": {
+      "cases": 864,
+      "available_cases": 864,
+      "usable_joint_coverage": 0.9259259259259258,
+      "median_abs_mean_bias": 0.0038824682174742886,
+      "bad_errors": 539,
+      "quiet_bad": 480
+    },
+    "geometric": {
+      "cases": 864,
+      "available_cases": 862,
+      "usable_joint_coverage": 0.949074074074074,
+      "median_abs_mean_bias": 0.003587231924653045,
+      "bad_errors": 543,
+      "quiet_bad": 490
+    }
+  }
+}

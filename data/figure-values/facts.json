@@ -1,0 +1,19 @@
+{
+  "views": 9,
+  "distinct_acquisitions": 8,
+  "original_narrowed": 7,
+  "sensitivity_narrowed": 68,
+  "sensitivity_widened": 13,
+  "both_frequencies_usable": 78,
+  "selected_coverage_min": 0.0005283111793636849,
+  "selected_coverage_max": 0.6109194673829126,
+  "singleton": {
+    "narrowed": 65,
+    "worsened": 12,
+    "unavailable": 4
+  },
+  "covariance_worlds": 126,
+  "covariance_applicable": 108,
+  "covariance_excluded": 18,
+  "finite_frequency_variant_cases": 259200
+}

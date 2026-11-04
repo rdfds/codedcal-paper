@@ -1,0 +1,40 @@
+{
+  "status": "POPULATION_SCOPE_CORRECTION",
+  "true_T": 9.0,
+  "q": [
+    0.1,
+    0.15
+  ],
+  "result": "For psi_B=c psi_A, real-valued contrasts give rA=Re(c)*exp(-q\u00b2T), rB=Re(c)/|c|\u00b2*exp(-q\u00b2T). Their geometric mean carries |Re(c)|/|c|. Exact recovery with positive contrasts requires c real and positive, not arbitrary complex c.",
+  "cases": {
+    "positive_real": {
+      "D": [
+        0.8607079764250577,
+        0.7135519747065026
+      ],
+      "geometric_T": [
+        9.000000000000007,
+        9.000000000000002
+      ],
+      "bias": [
+        7.105427357601002e-15,
+        1.7763568394002505e-15
+      ]
+    },
+    "complex_mean_shift": {
+      "D": [
+        1.0,
+        1.0
+      ],
+      "geometric_T": [
+        22.058424044372288,
+        22.884439906626888
+      ],
+      "bias": [
+        13.058424044372288,
+        13.884439906626888
+      ]
+    }
+  },
+  "implication": "Stationary cancellation and the existing Gaussian variance-drift simulations are unchanged. General robustness language must state the positive-real multiplicative-factor condition."
+}

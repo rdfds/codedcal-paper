@@ -1,0 +1,565 @@
+{
+  "files": [
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0000.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0000.json",
+      "bytes": 73928,
+      "sha256": "ab8727ef1e4f99b580d3dc970e1751237ffc4ca2076e2eea8692c90756ad94b8"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0001.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0001.json",
+      "bytes": 51265,
+      "sha256": "5df7904d1939611ec51ba6d2f0fcb10c18480d542abde712ced28ed756244cca"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0002.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0002.json",
+      "bytes": 51224,
+      "sha256": "9f6f13fefee9da06b3732a72a6511804f50cd694454bc45a343d09e2681a0dec"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0003.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0003.json",
+      "bytes": 51224,
+      "sha256": "d6f815ad5b2b49b680f21954e2319f9365100fc05e84bd57bc1096305f7c4e6c"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0004.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0004.json",
+      "bytes": 44763,
+      "sha256": "a3cccad9f913f752981e12b1dfe9cf950bb05d23582132960dac72ef7f50452e"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0005.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0005.json",
+      "bytes": 50204,
+      "sha256": "e7644d5f44448c02f6364c02ce32cf45f1f2d856505346151cd670534012668b"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0006.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0006.json",
+      "bytes": 50154,
+      "sha256": "85e895300ef8e62d96e71dedaba186a6e0895fbea49e635469147de2ada79544"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0007.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0007.json",
+      "bytes": 50156,
+      "sha256": "c896ef6520d4cd8e5584874c52419bbd6f6456c685b3b4dd27f09ee2fce083a1"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0008.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0008.json",
+      "bytes": 43252,
+      "sha256": "b613f1b152b347ea9a1207c31e90ef17929b327e81324051a5be67266ec54461"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0009.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0009.json",
+      "bytes": 92037,
+      "sha256": "1a18fde534fa086caac4817d8ea7955819ad252b1132362e53437983dadb0134"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0010.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0010.json",
+      "bytes": 92039,
+      "sha256": "be1bfeba020296747e89169659cd222557cdab4c965d39827dcc9d0a7126aeec"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0011.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0011.json",
+      "bytes": 92038,
+      "sha256": "9a5853de63aee85cc3847188fc01eeab176ed72931753ae831f4d20710e02584"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0012.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0012.json",
+      "bytes": 73221,
+      "sha256": "c8ff345ddc8fd697572ae7185819110507a5490f69c3bf721a738f53d684d56c"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0013.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0013.json",
+      "bytes": 73932,
+      "sha256": "d707e6b7cdb2fe50799cd0254b53427ead39472e297afb2f4f3bb9c32063e60f"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0014.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0014.json",
+      "bytes": 73448,
+      "sha256": "3ed1e6430693dc4443a8e0d89b78b4bfa3dcfd4662b5562a2d7d2458a0f89405"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0015.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0015.json",
+      "bytes": 73993,
+      "sha256": "aa45ed6587d94f64f746387fb14832adf386af3c3e76bd015d5ca04c2954e8be"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0016.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0016.json",
+      "bytes": 73239,
+      "sha256": "07363ecdcd57d02720c814f767eda36dc714e1c4986ff8f374401d20c48a7eca"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0017.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0017.json",
+      "bytes": 73992,
+      "sha256": "be34f0fedc9f890c2bdd5321ab69e730a977eb652f23cfdc868f1265d5634709"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0018.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0018.json",
+      "bytes": 74071,
+      "sha256": "66345b6b580185890868346cc10acee85bc3f8e188038e17d692905b884d3e28"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0019.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0019.json",
+      "bytes": 73992,
+      "sha256": "ea6aeb1c5a04a130ac01f6dd59baa6a703082ae9c588266f235321e51c9a69ec"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0020.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0020.json",
+      "bytes": 75646,
+      "sha256": "c606c0ba1721fda2c8ba5ae5376222f909613904039f1bc5f30c6b6f6e876077"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0021.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0021.json",
+      "bytes": 73993,
+      "sha256": "0dd9195ac2ff8beac9847ca1511e2807cd7ebdf1c8d93ddb83b8c83871825d9b"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0022.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0022.json",
+      "bytes": 69715,
+      "sha256": "06b731fd4f7b1ffbfa5d29374f5128fe5bac1f33b49e82d2d4d837cf7ed7bd7e"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0023.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0023.json",
+      "bytes": 73994,
+      "sha256": "91bea06a91c7997d976a43b83a6d00afeffe07ea618268858ed6d48c0ff2810f"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0024.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0024.json",
+      "bytes": 75020,
+      "sha256": "415efa91f4fe7e6097032f5fed06e9f42759cac41947787ac7e2fc2569321276"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0025.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0025.json",
+      "bytes": 73995,
+      "sha256": "2c1a63b5c5667a8fa050bb3924ce75bff645cc079244dacc1b3ae231623c16c6"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0026.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0026.json",
+      "bytes": 73522,
+      "sha256": "e3e9b94bf06417c9ed87f3f62853d5c88d6ad6c333e8ac3f5c8ea47b9114b6d6"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0027.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0027.json",
+      "bytes": 73994,
+      "sha256": "01ac746792ef70e18afb729f6239d6d0c4ac617174c75c11d8d8c7e1f79e3e43"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0028.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0028.json",
+      "bytes": 74952,
+      "sha256": "12e80de2f2cbb460b240c35d3256086f841715257d0e07e02fa04df91716cce8"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0029.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0029.json",
+      "bytes": 73994,
+      "sha256": "ab00bc7e3352aad7016ccd86c547f7403652b788c62c41a265bd2b0c861517e4"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0030.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0030.json",
+      "bytes": 73448,
+      "sha256": "a0ec6a5f5c4c3d011c8e94cacf8330ea516d1f7594caa7b8aa6a1e721ad0b5ce"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0031.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0031.json",
+      "bytes": 73995,
+      "sha256": "59243102b55cf31244fd05a616e0de352a270d82114a244b2d008c0e1c558541"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0032.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0032.json",
+      "bytes": 74773,
+      "sha256": "cd1405742ddfcaf06a32fdfe6b064caea6f66751586fe47e24e10f20c70a73ee"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0033.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0033.json",
+      "bytes": 73991,
+      "sha256": "ac9696a804e4b7027bf8728ea1d9e422c64c619001567b5c91fbf10ca317aec4"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0034.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0034.json",
+      "bytes": 74580,
+      "sha256": "b65c89ecc47de199dd4c072109ffba84f4f40b04de458223b313b5b62f2fecba"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0035.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0035.json",
+      "bytes": 73996,
+      "sha256": "b96a39a0243c8b9ef6f2a5d63e16cc3e62ee38bce228325dd6ae726e1b0a9e21"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0036.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0036.json",
+      "bytes": 74679,
+      "sha256": "a384e2db766dc536c361ee4090c1c089a819fbb15ae17312f577497b66d71f0e"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0037.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0037.json",
+      "bytes": 73994,
+      "sha256": "4997b315e9ef73683e4ca1776e5d35eca092450a2c209ac4461747d04c713ee4"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0038.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0038.json",
+      "bytes": 92040,
+      "sha256": "6ae29274dcf3ef00ac7e248015fd2c15a13907f1b2aa596e9d12abd5d60221fe"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0039.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0039.json",
+      "bytes": 92157,
+      "sha256": "5e46506f380aa9d999fc4947be68c07042f801bedda9e1f702979dc7b849be3c"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0040.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0040.json",
+      "bytes": 92102,
+      "sha256": "e43fd6a762b9ebc0600fbfb3410e21f5591716494009c00c034ec96d325338e0"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0041.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0041.json",
+      "bytes": 92151,
+      "sha256": "2a2466885d211f3f444c0b58ea59aabc2a8a916a32d6b21c25f0e1a31db1685a"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0042.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0042.json",
+      "bytes": 92104,
+      "sha256": "60ab4aa743cddef1ec8b1ab7d627ef118b71e127410afab8fd5b758eaba60617"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0043.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0043.json",
+      "bytes": 174446,
+      "sha256": "c79cc7b5181467c9084009f2128c1b7c12aafa32a77c02f8948391d1a6f36acf"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0044.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0044.json",
+      "bytes": 92103,
+      "sha256": "7478a531b3dee783b6347662b54fc4baafd149fb15db6321c566e31ab2729f89"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0045.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0045.json",
+      "bytes": 90625,
+      "sha256": "b834e259ce8adbc1bdbd5b30458d8c35728466d8a5e7448ff06bcf09a13f68a1"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0046.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0046.json",
+      "bytes": 92102,
+      "sha256": "956d39f9a79c9106d3fea5c64295f435cda9a42f7b908c2d59499dea2856b70c"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0047.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0047.json",
+      "bytes": 90717,
+      "sha256": "4120dc7dce37c2afff12eadee8cb82f39e2943b9653ef6a7a6143cc53527ff64"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0048.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0048.json",
+      "bytes": 92102,
+      "sha256": "172cfc0cb05e4899dd30c3d86bb2dd5458b4171b774a4c27a62666b731b7e412"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0049.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0049.json",
+      "bytes": 92153,
+      "sha256": "1644e5c1cb2e7575dd49bb6d5de2f1eb6cd33d7fe939f89c5effdef7ea5a576d"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0050.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0050.json",
+      "bytes": 92102,
+      "sha256": "86169d9cb541810290cc4132f3603bd4029210b1b317a950e49760bc7c4833a5"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0051.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0051.json",
+      "bytes": 102677,
+      "sha256": "a552e05082f3e0f07f9edd5e06461e73e229b2cecacc38ce38308c855d2470ef"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0052.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0052.json",
+      "bytes": 92104,
+      "sha256": "70b928eb1a93b3a9264dad53f67ec820000f1297b503c0ae497dc574cd72c7a5"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0053.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0053.json",
+      "bytes": 94569,
+      "sha256": "3578d4a3d092cbc1704566b358708376eb4c8b536350b2a80b61dd272c960058"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0054.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0054.json",
+      "bytes": 92103,
+      "sha256": "579ccd6bddf1888ac5a45c67feec093b6c24e571f48cdae5a3966763ed1d3cda"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0055.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0055.json",
+      "bytes": 103999,
+      "sha256": "96ccafa9bc00433533567158c8cca9fd3151c2139fae93d67783f7f21ad4d038"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0056.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0056.json",
+      "bytes": 92102,
+      "sha256": "87495963e8224939496786026dd6ec52f5954cfce3bfe2bcbe62ff8f53b32218"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/calls/0057.json",
+      "source": "research/workflow-validation-controller-nov02/run/calls/0057.json",
+      "bytes": 1694,
+      "sha256": "7d476c7450536c61ceb0ab4d2e44bb3f910a68b426a3693df58e709546e38dd4"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/qualification/barcode_model.json",
+      "source": "research/workflow-validation-controller-nov02/run/qualification/barcode_model.json",
+      "bytes": 393564,
+      "sha256": "94d3fc568f6c61c56ae70d2d868bf18158257f2cee88cc26e8f7a20a43caf396"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/qualification/frame_template.json",
+      "source": "research/workflow-validation-controller-nov02/run/qualification/frame_template.json",
+      "bytes": 277057,
+      "sha256": "8d5b4f92475cf4d558e3e0970b25107db761e47395a80533d0eade4cab38dc4b"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/qualification/group_search.json",
+      "source": "research/workflow-validation-controller-nov02/run/qualification/group_search.json",
+      "bytes": 500739,
+      "sha256": "0464c5e62b02d056c10342ec679370923e7a86caef531a2b223ed7d9ce27e6a8"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/qualification/round.json",
+      "source": "research/workflow-validation-controller-nov02/run/qualification/round.json",
+      "bytes": 283193,
+      "sha256": "d568c4b41e982eb15f027dddac2ee6a985166d4f56ceedb5c4b866551bdad636"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "bytes": 192611,
+      "sha256": "8eb8db4406a43517985b1727dedcaa8e2690256adf6e0f701e491147830ff1c9"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "bytes": 194726,
+      "sha256": "31502597d6ce5babca70958c85ed18c858810a5c05bce5534d9fe15f37e12e0d"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "bytes": 192392,
+      "sha256": "4363ea5fab869f75c44233dab3f92c51465900994da1e934e7282ff6c7855038"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "bytes": 192753,
+      "sha256": "ba3dac8ca6d9574c54bf3c8ea12dd288f6067f1101c5b1cd8431aede3cef4042"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 1275,
+      "sha256": "e7e2fddfe3881c823d81cc48bc5966a9b6551b9a9aac5c09c1af897a9b0437c8"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b.json",
+      "bytes": 194258,
+      "sha256": "b32917a3fc5cd39629e8320c9e71e5ea04a391c9aca50b993e961dd5e3d0eab6"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 192626,
+      "sha256": "ba68057a030bb28b8b9be5c5301340f2134aa8749d4377da4c117c8418e5c56c"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d.json",
+      "bytes": 194177,
+      "sha256": "87671230fd0477ae48973b77202bca079978ebb9562f67d69db47cdfae9826ae"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "bytes": 193490,
+      "sha256": "e9f06d79e01363a42d7fd061ad18e8e33f462cd5f836e65011e770adb5e154b7"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 194681,
+      "sha256": "3691b123278f1b679c1f20cd16ae80bbfbd68acc6303a28aaf99b937f85915d0"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5.json",
+      "bytes": 194403,
+      "sha256": "63c9bb8b31f74f9d9a9ccc3732974d7e327ac3610742dd2d554532bc3336b306"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "bytes": 195557,
+      "sha256": "1feacbf30a0b291c875971460f157c73f234b68b5cd57e5c60841dd0cbf22b5a"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be.json",
+      "bytes": 1267,
+      "sha256": "8655d703808f7db72364a2a792541d0b82a3376a63726a9d3d0b30071046db2a"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "bytes": 187817,
+      "sha256": "b6fa368e7cf4ddb3b14649b336f33e636413911c3ea2cd40c55add62e08e06be"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/barcode_model/native.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/barcode_model/native.json",
+      "bytes": 73663,
+      "sha256": "df0ef2e17eea6c8ef1b8b57796b2aa398a6004ec1c63bd6b2a36cc6ac9c57251"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/frame_template/exclusion.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/frame_template/exclusion.json",
+      "bytes": 161,
+      "sha256": "99936e0e61c137a862ff5dda50044745d6372c44bce3b0fe8c7b35eb6d87ffea"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "bytes": 240322,
+      "sha256": "1ebc663b56450f7660a6c433fecdebf049ac3be50fb2ce3065c27885286a714a"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "bytes": 240337,
+      "sha256": "13abe73781bdf927d46f27e257481696294bb59e23a3970ac2a870521bda7e00"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "bytes": 240332,
+      "sha256": "9d800be79451618ca17bc8d0441a5ad045ad0d693b11873949a4a7dbe2861517"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "bytes": 253844,
+      "sha256": "b028164667e64e1e9ba82da92c3d04c4a4589f046e5ced97119954954ab9545a"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 1274,
+      "sha256": "0fa568ec1ee697edeacd45970df38ac6796af2d34312fb9e4ca3500926b90151"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 255758,
+      "sha256": "517e820da02d5837e6e0f96f028c003ddc094a5fb987278649d2a4bd9b85c41d"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "bytes": 353498,
+      "sha256": "96446dd079bce5f0dd1015d843a3fb4b3e0897d00476695b4f0294783ba0cc69"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 244268,
+      "sha256": "cdae12a568c5f57eb9ca7e6aa6f6d9cfce93b96824fcd39e6a3c3f16dd636a9e"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "bytes": 238428,
+      "sha256": "2d18a4d353a4b1046f0aea210b825ec6acd79f9d8ab720ba578d5cdd9e3fcd9c"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be.json",
+      "bytes": 1266,
+      "sha256": "416317a0c269e91ac9e21a0d1f8c4cb946a6c6125a485f91cfeccd44f36873b7"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "bytes": 238580,
+      "sha256": "98f05ab34a7027aa40bd6ccd7a486b6069fdee9663198793b3ef5929b1ce1ea1"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/group_search/native.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/group_search/native.json",
+      "bytes": 91773,
+      "sha256": "5d08fce9cf7dbf8d085c9017270fe14aa5eb8fdebb8d06458e75f209beffaea8"
+    },
+    {
+      "path": "research/workflow-validation-completion-nov03/run/trials/round/exclusion.json",
+      "source": "research/workflow-validation-controller-nov02/run/trials/round/exclusion.json",
+      "bytes": 161,
+      "sha256": "a80812f2ebd06b289143aa729232bf7d61066f35ca3ea133615b9b2d210711f0"
+    }
+  ],
+  "inherited_dispatches": 58,
+  "inherited_complete_calls": 57,
+  "inherited_pairs": 21,
+  "inherited_actual_workflows": 26,
+  "inherited_exact_cache_hits": 31,
+  "inherited_interrupted_calibrations": 1,
+  "new_fits": 0,
+  "previous_sealed_files_verified": {
+    "workflow-validation-controller-nov02/closure-manifest.json": 216,
+    "workflow-validation-nov02/completion-manifest.json": 49,
+    "workflow-memory-repair-nov02/repair-manifest.json": 30,
+    "workflow-validation-memory-nov02/stopped-manifest.json": 36,
+    "workflow-validation-checkpoint-nov02/stopped-manifest.json": 46
+  },
+  "original_closure_manifest_sha256": "bfaab841214b21a2de5831af4aac4774b6b53458a6969ae143ba9ae6b08af9d0"
+}

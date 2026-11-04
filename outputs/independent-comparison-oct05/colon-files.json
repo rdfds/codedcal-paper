@@ -1,0 +1,83 @@
+{
+  "_links": {
+    "self": {
+      "href": "/api/v2/versions/343851/files"
+    },
+    "first": {
+      "href": "/api/v2/versions/343851/files"
+    },
+    "last": {
+      "href": "/api/v2/versions/343851/files?page=1"
+    }
+  },
+  "count": 2,
+  "total": 2,
+  "_embedded": {
+    "stash:files": [
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/3843564"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p8cz8wb1m"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/343851"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/343851/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/3843564/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "example_merfish_data.zip",
+        "size": 79277852292,
+        "mimeType": "application/x-zip-compressed",
+        "status": "copied",
+        "digest": "84fef978a542a4d3d378e0b94fc65c256696d284f4cf002b5836c3f43a67c9d8",
+        "digestType": "sha-256"
+      },
+      {
+        "_links": {
+          "self": {
+            "href": "/api/v2/files/3843567"
+          },
+          "stash:dataset": {
+            "href": "/api/v2/datasets/doi%3A10.5061%2Fdryad.p8cz8wb1m"
+          },
+          "stash:version": {
+            "href": "/api/v2/versions/343851"
+          },
+          "stash:files": {
+            "href": "/api/v2/versions/343851/files"
+          },
+          "stash:download": {
+            "href": "/api/v2/files/3843567/download"
+          },
+          "curies": [
+            {
+              "name": "stash",
+              "href": "https://github.com/datadryad/dryad-app/blob/main/documentation/apis/link_relations.md#{rel}",
+              "templated": "true"
+            }
+          ]
+        },
+        "path": "README.md",
+        "size": 3643,
+        "mimeType": "text/markdown",
+        "status": "created",
+        "digest": "170ffe7d2d9a8904ed7630dba31cdeca72586c134ddfefe3a4e071aeb5a01729",
+        "digestType": "sha-256"
+      }
+    ]
+  }
+}

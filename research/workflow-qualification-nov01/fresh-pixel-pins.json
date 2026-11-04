@@ -1,0 +1,74 @@
+[
+  {
+    "round": 1,
+    "name": "merFISH_merged_01_000.tiff",
+    "id": 12555727,
+    "md5": "940f522dd601a480acc418de93e308c0",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555727"
+  },
+  {
+    "round": 2,
+    "name": "merFISH_merged_02_000.tiff",
+    "id": 12555679,
+    "md5": "3c88677d80c83998864f26912dd664cd",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555679"
+  },
+  {
+    "round": 3,
+    "name": "merFISH_merged_03_000.tiff",
+    "id": 12555622,
+    "md5": "cc312eb920ef9aba556c62563dcd7892",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555622"
+  },
+  {
+    "round": 4,
+    "name": "merFISH_merged_04_000.tiff",
+    "id": 12555714,
+    "md5": "931b109bb53fc94a1651a7740bbe4386",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555714"
+  },
+  {
+    "round": 5,
+    "name": "merFISH_merged_05_000.tiff",
+    "id": 12555621,
+    "md5": "2719e62d65d2208741cffe8e8d802425",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555621"
+  },
+  {
+    "round": 6,
+    "name": "merFISH_merged_06_000.tiff",
+    "id": 12555702,
+    "md5": "ba93704256ee43183bc96efd1725f33c",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555702"
+  },
+  {
+    "round": 7,
+    "name": "merFISH_merged_07_000.tiff",
+    "id": 12555643,
+    "md5": "6c54d000f617b645d658214f02f01166",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555643"
+  },
+  {
+    "round": 8,
+    "name": "merFISH_merged_08_000.tiff",
+    "id": 12555709,
+    "md5": "e312605a9e1f8bed3c523ef424b7006b",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555709"
+  },
+  {
+    "round": 9,
+    "name": "merFISH_merged_09_000.tiff",
+    "id": 12555720,
+    "md5": "0221b4d3489e62ca0c0f43e4605242c5",
+    "bytes": 232717320,
+    "url": "https://dataverse.harvard.edu/api/access/datafile/12555720"
+  }
+]

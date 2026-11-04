@@ -1,0 +1,29 @@
+{
+  "seed": 505,
+  "common_covariance": [
+    [
+      16.0,
+      8.0
+    ],
+    [
+      8.0,
+      4.0
+    ]
+  ],
+  "color_covariance": [
+    [
+      16.0,
+      8.0
+    ],
+    [
+      8.0,
+      4.0
+    ]
+  ],
+  "rms": 4.47213595499958,
+  "exact_complete_offset_multiset_match": true,
+  "exact_covariance_match": true,
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955",
+  "before_recovery_outcomes": true,
+  "unrun_covariance_only_design_commit": "a8e3c42"
+}

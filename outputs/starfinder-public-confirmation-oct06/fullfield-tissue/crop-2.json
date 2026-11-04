@@ -1,0 +1,100 @@
+{
+  "crop": 2,
+  "array_sha256": "ce5cafbb1842893fac0e81a17b78dd2a41431873e35313d66aa82ef6e191d897",
+  "local": [
+    {
+      "identity": true
+    },
+    {
+      "levels": [
+        {
+          "factor": 8,
+          "iterations": 10,
+          "metric": 9.085288345549145e-05,
+          "rms_change": 2.116449235139894
+        },
+        {
+          "factor": 4,
+          "iterations": 10,
+          "metric": 0.0002619046888557832,
+          "rms_change": 0.9148378848759442
+        },
+        {
+          "factor": 2,
+          "iterations": 10,
+          "metric": 0.0004365040812809789,
+          "rms_change": 0.45000381356469793
+        },
+        {
+          "factor": 1,
+          "iterations": 10,
+          "metric": 0.0009050708430975358,
+          "rms_change": 0.22009252733292056
+        }
+      ],
+      "maximum_displacement": 6.5049218599783485,
+      "field_sha256": "b4324e4939aa80bd112130133f8ae24bc16cc4a736d740efbf40e5b965754cec"
+    },
+    {
+      "levels": [
+        {
+          "factor": 8,
+          "iterations": 10,
+          "metric": 0.0003028835089961515,
+          "rms_change": 2.2331372257865203
+        },
+        {
+          "factor": 4,
+          "iterations": 10,
+          "metric": 0.0005050682668030033,
+          "rms_change": 1.0162212399682644
+        },
+        {
+          "factor": 2,
+          "iterations": 10,
+          "metric": 0.000770257790767275,
+          "rms_change": 0.5003907897181198
+        },
+        {
+          "factor": 1,
+          "iterations": 10,
+          "metric": 0.0013477807495420728,
+          "rms_change": 0.23170103869767786
+        }
+      ],
+      "maximum_displacement": 5.181222955108573,
+      "field_sha256": "2e4fa345e827e4d23c25e22ca90bf1d9f278d7d2ea0c8f8b5e30040853961508"
+    },
+    {
+      "levels": [
+        {
+          "factor": 8,
+          "iterations": 10,
+          "metric": 0.00042827632475630855,
+          "rms_change": 2.492140654884001
+        },
+        {
+          "factor": 4,
+          "iterations": 10,
+          "metric": 0.0007108963672649394,
+          "rms_change": 1.1167157032353472
+        },
+        {
+          "factor": 2,
+          "iterations": 10,
+          "metric": 0.001196685348453696,
+          "rms_change": 0.5246428826251757
+        },
+        {
+          "factor": 1,
+          "iterations": 10,
+          "metric": 0.0021701191290551965,
+          "rms_change": 0.23247913505760154
+        }
+      ],
+      "maximum_displacement": 9.51346946728149,
+      "field_sha256": "33000e300c4a1852be4a0413e0ab29f67c6474c2d65eb4c79bf4d6d431e866b3"
+    }
+  ],
+  "source_geometry_sha256": "ebe9b319d5f935187812ec7eaad972f1835b86eb62e146c4b1f969d6c91cfb2f"
+}

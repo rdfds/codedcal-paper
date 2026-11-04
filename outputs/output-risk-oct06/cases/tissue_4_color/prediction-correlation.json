@@ -1,0 +1,202 @@
+{
+  "decoder": "correlation",
+  "incumbent": 7,
+  "incumbent_labels": [
+    "author_volume_selected",
+    "author_volume_template_3d_multistart_refined",
+    "author_volume_author_multistart_refined"
+  ],
+  "risk": {
+    "abstained": false,
+    "identity_risk": 0.5675675675675675,
+    "composition_risk": 0.5069597069597069,
+    "flagged": true,
+    "compatible_candidates": 6,
+    "incumbent_compatible": true,
+    "ordinary_multistart_identity_disagreement": 0.6052631578947368,
+    "ordinary_multistart_composition_disagreement": 0.5069597069597069,
+    "unfiltered_bank_identity_disagreement": 0.6052631578947368,
+    "unfiltered_bank_composition_disagreement": 0.5069597069597069,
+    "comparisons": [
+      {
+        "index": 0,
+        "identity_loss": 0.5675675675675675,
+        "composition_tv": 0.5069597069597069,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 5,
+        "identity_loss": 0.07894736842105265,
+        "composition_tv": 0.08593208593208593,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 7,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 9,
+        "identity_loss": 0.09589041095890416,
+        "composition_tv": 0.0904977375565611,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 20,
+        "identity_loss": 0.1466666666666666,
+        "composition_tv": 0.08760683760683759,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 22,
+        "identity_loss": 0.038961038961038974,
+        "composition_tv": 0.04251012145748986,
+        "composition_undefined": false,
+        "empty_both": false
+      }
+    ],
+    "molecular_correctness_certified": false
+  },
+  "tolerance_sensitivities": {
+    "0.0": {
+      "abstained": false,
+      "identity_risk": 0.1466666666666666,
+      "composition_risk": 0.08760683760683759,
+      "flagged": true,
+      "compatible_candidates": 2,
+      "incumbent_compatible": false,
+      "ordinary_multistart_identity_disagreement": 0.6052631578947368,
+      "ordinary_multistart_composition_disagreement": 0.5069597069597069,
+      "unfiltered_bank_identity_disagreement": 0.6052631578947368,
+      "unfiltered_bank_composition_disagreement": 0.5069597069597069,
+      "comparisons": [
+        {
+          "index": 5,
+          "identity_loss": 0.07894736842105265,
+          "composition_tv": 0.08593208593208593,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 20,
+          "identity_loss": 0.1466666666666666,
+          "composition_tv": 0.08760683760683759,
+          "composition_undefined": false,
+          "empty_both": false
+        }
+      ],
+      "molecular_correctness_certified": false
+    },
+    "0.005": {
+      "abstained": false,
+      "identity_risk": 0.5675675675675675,
+      "composition_risk": 0.5069597069597069,
+      "flagged": true,
+      "compatible_candidates": 11,
+      "incumbent_compatible": true,
+      "ordinary_multistart_identity_disagreement": 0.6052631578947368,
+      "ordinary_multistart_composition_disagreement": 0.5069597069597069,
+      "unfiltered_bank_identity_disagreement": 0.6052631578947368,
+      "unfiltered_bank_composition_disagreement": 0.5069597069597069,
+      "comparisons": [
+        {
+          "index": 0,
+          "identity_loss": 0.5675675675675675,
+          "composition_tv": 0.5069597069597069,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 5,
+          "identity_loss": 0.07894736842105265,
+          "composition_tv": 0.08593208593208593,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 7,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 9,
+          "identity_loss": 0.09589041095890416,
+          "composition_tv": 0.0904977375565611,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 14,
+          "identity_loss": 0.052631578947368474,
+          "composition_tv": 0.06167706167706172,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 15,
+          "identity_loss": 0.050000000000000044,
+          "composition_tv": 0.059412132582864305,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 17,
+          "identity_loss": 0.02631578947368418,
+          "composition_tv": 0.04573804573804579,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 18,
+          "identity_loss": 0.06666666666666665,
+          "composition_tv": 0.07692307692307693,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 20,
+          "identity_loss": 0.1466666666666666,
+          "composition_tv": 0.08760683760683759,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 22,
+          "identity_loss": 0.038961038961038974,
+          "composition_tv": 0.04251012145748986,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 24,
+          "identity_loss": 0.012987012987012991,
+          "composition_tv": 0.024291497975708502,
+          "composition_undefined": false,
+          "empty_both": false
+        }
+      ],
+      "molecular_correctness_certified": false
+    }
+  },
+  "baseline_fit_loss": 0.2589267612298561,
+  "baseline_fit_gap": 0.005999233660384629,
+  "baseline_decoder_confidence": 0.22524216771125793,
+  "baseline_quality": {
+    "full_catalog_calls": 130,
+    "negative": null,
+    "blank_proxy": null,
+    "source_abstentions": 42,
+    "source_unsupported": 2,
+    "central_coding": 39,
+    "central_negative": 0
+  },
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c"
+}

@@ -1,0 +1,17 @@
+{
+  "source_index": 0,
+  "bbox_y0_y1_x0_x1": [
+    23,
+    2014,
+    133,
+    2251
+  ],
+  "roi_origin_yx": [
+    1088,
+    1088
+  ],
+  "condition_sha256": "b2de44c6f89e6f48a2bda88bfdf6c27b62ecfae4e0dff174dc2c566cd9707f0e",
+  "source_sha256": "31c8aa07c82e5e51968de0ca3d5111dd45c0849326b1c1c49b966b65ad9d5a94",
+  "full_input_verification_sha256": "e141ab204708d70c0d6e6b4d8566d2525e634bda0e4af1ff4d5425e6e18b3fde",
+  "previous_selective_context_exact": true
+}

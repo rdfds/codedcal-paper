@@ -1,0 +1,72 @@
+{
+  "fixed_output_tolerance": 0.05,
+  "minimum_native": 50,
+  "minimum_reference": 10,
+  "minimum_coverage": 0.99,
+  "native_qc_union": {
+    "supported": false,
+    "reason": "insufficient_adequate_training_or_feature_coverage"
+  },
+  "scalar_rules": {
+    "native_blank_proxy": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "native_fit_loss": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "native_inverse_yield": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "conventional_geometric": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "conventional_yield": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "mixed_conventional_geometric": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "mixed_conventional_yield": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "balanced_random_geometric": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "balanced_random_yield": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "readout_aware_geometric": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    },
+    "readout_aware_yield": {
+      "supported": false,
+      "reason": "fewer_than_five_adequate_training_workflows",
+      "adequate_training": 1
+    }
+  },
+  "training_preparations": [
+    "barseq3-adult-cb",
+    "starfinder-tissue"
+  ],
+  "confirmation_outcomes_examined": false
+}

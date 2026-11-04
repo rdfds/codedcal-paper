@@ -1,0 +1,41 @@
+{
+  "decoder": "correlation",
+  "incumbent": 0,
+  "incumbent_labels": [
+    "none",
+    "common_iterative",
+    "author_zero",
+    "author_round",
+    "image_zero",
+    "image_round",
+    "group_zero_2",
+    "group_round_2"
+  ],
+  "risk": {
+    "abstained": true,
+    "reason": "Insufficient incumbent calls"
+  },
+  "tolerance_sensitivities": {
+    "0.0": {
+      "abstained": true,
+      "reason": "Insufficient incumbent calls"
+    },
+    "0.005": {
+      "abstained": true,
+      "reason": "Insufficient incumbent calls"
+    }
+  },
+  "baseline_fit_loss": 0.3306454489433252,
+  "baseline_fit_gap": 0.0,
+  "baseline_decoder_confidence": null,
+  "baseline_quality": {
+    "full_catalog_calls": 100,
+    "negative": 0,
+    "blank_proxy": 0.0,
+    "source_abstentions": 60,
+    "source_unsupported": null,
+    "central_coding": 0,
+    "central_negative": 0
+  },
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c"
+}

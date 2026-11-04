@@ -1,0 +1,6 @@
+{
+  "stage": "Initial smoke harness before installed CLI could execute",
+  "error": "Resolving the virtual-environment executable symlink launched base Python without numpy",
+  "repair": "Keep sys.executable in the pinned environment; do not resolve its symlink",
+  "package_or_scientific_code_changed_for_repair": false
+}

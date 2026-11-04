@@ -1,0 +1,25 @@
+{
+  "pid": 2759,
+  "python": "3.10.16",
+  "numpy": "1.23.5",
+  "scientific_source_sha256": "90098559480499ea0c186018927602a6d2db76a94c9e452513e5fe3f5d853ba7",
+  "protocol_sha256": "d151fd7c7b536fb73376d3039f76f0cf136164fafa39a3b77d9469f994073c1f",
+  "baseline_commit": "f7f6c5754d19f5c345ae9ce3b2f368beb45cb1cb",
+  "completed": [
+    "npc",
+    "edf10rep1",
+    "edf10rep2",
+    "fig4untreated",
+    "rtx_rep1",
+    "rtx_rep2",
+    "rtx_rep3",
+    "sdc_corrected",
+    "sdc_raw"
+  ],
+  "stage": "scientific_analysis_complete",
+  "current": null,
+  "primary_arms": 81,
+  "secondary_post_hoc": true,
+  "interpretation": "INTERPRETATION.md",
+  "d076_candidate_images": 0
+}

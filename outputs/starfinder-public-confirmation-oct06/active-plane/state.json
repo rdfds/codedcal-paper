@@ -1,0 +1,36 @@
+{
+  "stage": "partial_or_native_gate_failure",
+  "planned": 15,
+  "completed": 10,
+  "failed": 0,
+  "not_run": 5,
+  "groups": {
+    "source_spot": {
+      "completed": true,
+      "coding": 46,
+      "negative": 0,
+      "scaled_proxy": 0.0,
+      "support": 1.0,
+      "qualified": false
+    },
+    "correlation": {
+      "completed": true,
+      "coding": 122,
+      "negative": 1,
+      "scaled_proxy": 0.31462799495586385,
+      "support": 1.0,
+      "qualified": false
+    },
+    "regression": {
+      "completed": false,
+      "coding": 0,
+      "negative": 0,
+      "scaled_proxy": null,
+      "support": 0,
+      "qualified": false
+    }
+  },
+  "development": true,
+  "adapter_qualified": false,
+  "independent_comparison_completed": false
+}

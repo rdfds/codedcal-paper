@@ -1,0 +1,129 @@
+{
+  "tag": "sdc_raw",
+  "groups": 1014,
+  "nonempty_groups": 1014,
+  "inferred_sources": 137868,
+  "supported_covariance_sources": 11962,
+  "fallback_sources": 125906,
+  "events": 2635295,
+  "localizations": 6619336,
+  "reported_event_variance_quantiles": [
+    0.027388458306033564,
+    4.286810627096859,
+    9.762975730016782,
+    22.767324756738326,
+    143.99962234596114
+  ],
+  "multiplicity_quantiles": [
+    1.0,
+    1.0,
+    2.0,
+    3.0,
+    216.0
+  ],
+  "median_axis_variance": 78.70371649049832,
+  "factor_normalizer": 1.6852479228895192,
+  "fallback_cov": [
+    [
+      70.11052943618377,
+      0.7102805606974285
+    ],
+    [
+      0.7102805606974293,
+      87.29690354481286
+    ]
+  ],
+  "source_triple_supported": 12809,
+  "empirical_sha256": "9a722eaedcd916abe86352870b58f5235084c630360fb035eea350a391aaaa74",
+  "reference_sha256": "abb57b045dd700a32a50ecc3e86d72174f572c8ae8f161f2032b2cd35e0595f2",
+  "historical_characterization_sha256": "95de8219eb9471f14255865de85ceb0403e869e8ff5e1a34f4e709fe8f965ba3",
+  "panels": {
+    "1": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ],
+    "2": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ],
+    "3": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ],
+    "4": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ]
+  },
+  "frames": {
+    "1": 17000,
+    "2": 17000,
+    "3": 17000,
+    "4": 17000
+  },
+  "qc": {
+    "min_events": 30,
+    "min_per_panel": 3,
+    "max_rms": 12.0,
+    "max_split": 0.85,
+    "min_sep": 30.0,
+    "max_zsd": null
+  },
+  "cluster_radius": 8.0
+}

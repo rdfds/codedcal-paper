@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "observable_false_consensus_identity_loss": 1.0,
+  "observable_false_consensus_flagged": true,
+  "ordinary_consensus_disagreement": 0.0,
+  "false_consensus_is_constructed_fit_bank_not_reexecution_of_all_methods": true,
+  "exact_inverse_identity_loss": 0.0,
+  "global_gain_invariant": true,
+  "first_frame_gauge_invariant": true,
+  "common_support_checked": true,
+  "block_resampling_deterministic": true,
+  "unsupported_abstention": true,
+  "invisible_label_permutation_identity_loss": 1.0,
+  "invisible_label_permutation_composition_tv": 0.0,
+  "invisible_label_permutation_flagged": false,
+  "RNA_correctness_certification": false,
+  "script_sha256": "2ebb0e1066d6c320aaa24978d252db7055ec880c12176c7687b468795baa4662",
+  "core_sha256": "e319915e4f2e9c1a63245e2ff57e20c15a650f01830ac4e157261e194e2a56d8",
+  "protocol_sha256": "f826df89eb0cad6ee5990e70f0c27aa3cc63993527337cdb528333938c5e2107"
+}

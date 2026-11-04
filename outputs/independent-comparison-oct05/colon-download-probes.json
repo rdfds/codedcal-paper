@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://datadryad.org/api/v2/files/3843564/download",
+    "status": 401,
+    "final_url": "https://datadryad.org/api/v2/files/3843564/download",
+    "content_range": null,
+    "content_type": "application/json; charset=utf-8",
+    "bytes_read": 56,
+    "head_hex": "7b226572726f72223a22556e"
+  },
+  {
+    "url": "https://datadryad.org/downloads/file_stream/3843564",
+    "status": 403,
+    "final_url": "https://datadryad.org/downloads/file_stream/3843564",
+    "content_range": null,
+    "content_type": "text/html",
+    "bytes_read": 118,
+    "head_hex": "3c68746d6c3e0d0a3c686561"
+  },
+  {
+    "url": "https://datadryad.org/api/v2/files/3843567/download",
+    "status": 401,
+    "final_url": "https://datadryad.org/api/v2/files/3843567/download",
+    "content_range": null,
+    "content_type": "application/json; charset=utf-8",
+    "bytes_read": 56,
+    "head_hex": "7b226572726f72223a22556e"
+  }
+]

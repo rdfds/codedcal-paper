@@ -1,0 +1,16 @@
+{
+  "status": "completed",
+  "crop": 0,
+  "decoder": "source_spot",
+  "xy": [],
+  "words": [],
+  "coding": 0,
+  "negative": 0,
+  "support": 1.0,
+  "runtime": {
+    "kernel_s": 0.13333074998809025,
+    "candidates": 0
+  },
+  "input_sha256": "b1e6e9817884a24995a4b263d708e59bdfb0e7e904073b41cc10cf06fa64eb76",
+  "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+}

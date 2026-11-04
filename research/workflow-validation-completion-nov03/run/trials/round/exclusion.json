@@ -1,0 +1,8 @@
+{
+  "status": "native_gate_excluded",
+  "qualification": {
+    "nonblank_calls": 580,
+    "blank_calls": 0,
+    "blank_proxy_upper95": 0.11535290938397548
+  }
+}

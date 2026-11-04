@@ -1,0 +1,401 @@
+{
+  "n_groups": 8,
+  "q": [
+    0.1,
+    0.15
+  ],
+  "T_pooled": 4.025426727370226e-08,
+  "pooled": {
+    "ratio": [
+      1.0,
+      1.0
+    ],
+    "reference": [
+      1.0,
+      1.0
+    ],
+    "boundary": false
+  },
+  "split": {
+    "total_arithmetic": 4.025426727370226e-08,
+    "total_geometric": -3.507353570547947e-08,
+    "boundary": {
+      "arithmetic": false,
+      "geometric": false
+    },
+    "ratio_A": [
+      1.0,
+      1.0
+    ],
+    "ratio_B": [
+      1.0,
+      1.0
+    ],
+    "D": [
+      1.0,
+      1.0
+    ],
+    "logD": [
+      0.0,
+      0.0
+    ],
+    "logD_se": [
+      0.0,
+      0.0
+    ],
+    "D_z": [
+      null,
+      null
+    ],
+    "drift_estimate_nm2": [
+      -0.0,
+      -0.0
+    ],
+    "negative_ratio": false,
+    "orientation_ratio": {
+      "A": [
+        1.0,
+        1.0
+      ],
+      "B": [
+        1.0,
+        1.0
+      ]
+    },
+    "orientation_se": {
+      "A": [
+        0.0,
+        0.0
+      ],
+      "B": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "uncertainty": {
+    "method": "pointwise approximate Fieller, Student critical value",
+    "confidence_level": 0.9,
+    "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+    "target": "ratio of expected matched-count cross and reference moments",
+    "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+    "assumptions": [
+      "independent groups",
+      "physical source-code exogeneity",
+      "conditionally independent temporal panels",
+      "stable source kernels",
+      "common displacement law for a common variance interpretation"
+    ],
+    "limitations": [
+      "approximate pointwise coverage, not simultaneous or exact",
+      "concentrated group contributions can defeat the approximation",
+      "a finite set or quiet D does not validate physical assumptions",
+      "source heterogeneity changes the weighted attenuation target"
+    ],
+    "all_frequencies_usable": true,
+    "physical_assumptions_verified": false,
+    "per_frequency": [
+      {
+        "confidence_level": 0.9,
+        "n_groups": 8,
+        "kind": "bounded",
+        "intervals": [
+          {
+            "lower": 1.0,
+            "upper": 1.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "ratio": 1.0,
+        "numerator": 1.0,
+        "reference": 1.0,
+        "positive_reference": true,
+        "usable": true,
+        "contains_one": true,
+        "reason": null,
+        "group_concentration": {
+          "numerator": {
+            "largest_absolute_fraction": 0.125,
+            "effective_absolute_contributions": 8.0
+          },
+          "reference": {
+            "largest_absolute_fraction": 0.125,
+            "effective_absolute_contributions": 8.0
+          }
+        },
+        "q": 0.1,
+        "gaussian_equivalent_T_intervals": [
+          {
+            "lower": -0.0,
+            "upper": -0.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "unit_attenuation_excluded": false,
+        "positive_motion_resolved": false,
+        "attenuation_model_compatible": true
+      },
+      {
+        "confidence_level": 0.9,
+        "n_groups": 8,
+        "kind": "bounded",
+        "intervals": [
+          {
+            "lower": 1.0,
+            "upper": 1.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "ratio": 1.0,
+        "numerator": 1.0,
+        "reference": 1.0,
+        "positive_reference": true,
+        "usable": true,
+        "contains_one": true,
+        "reason": null,
+        "group_concentration": {
+          "numerator": {
+            "largest_absolute_fraction": 0.125,
+            "effective_absolute_contributions": 8.0
+          },
+          "reference": {
+            "largest_absolute_fraction": 0.125,
+            "effective_absolute_contributions": 8.0
+          }
+        },
+        "q": 0.15,
+        "gaussian_equivalent_T_intervals": [
+          {
+            "lower": -0.0,
+            "upper": -0.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "unit_attenuation_excluded": false,
+        "positive_motion_resolved": false,
+        "attenuation_model_compatible": true
+      }
+    ]
+  },
+  "geometric_uncertainty": {
+    "method": "pointwise conservative geometric Fieller product set, Bonferroni rectangle",
+    "confidence_level": 0.9,
+    "window_confidence_level": 0.95,
+    "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+    "target": "sqrt((E C_A/E R_A)*(E C_B/E R_B)) with positive window ratios and references",
+    "interpretation": "geometric attenuation; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+    "assumptions": [
+      "independent groups; paired windows may be dependent",
+      "physical source-code exogeneity and conditionally independent temporal panels",
+      "stable source kernels, or the specified source-uniform positive kernel change under common motion",
+      "common displacement law for a common variance interpretation"
+    ],
+    "limitations": [
+      "approximate marginal coverage; conservative joint rectangle, not exact coverage",
+      "pointwise in frequency, not simultaneous across frequencies or variants",
+      "concentrated contributions and source-dependent or code-dependent violations can defeat inference",
+      "conservatism can lose small-motion resolution",
+      "heterogeneous motion and window weights can change the target relative to arithmetic",
+      "no automatic variant selector or physical validation follows"
+    ],
+    "all_frequencies_usable": true,
+    "physical_assumptions_verified": false,
+    "per_frequency": [
+      {
+        "confidence_level": 0.9,
+        "window_confidence_level": 0.95,
+        "n_groups": 8,
+        "ratio": 1.0,
+        "usable": true,
+        "kind": "bounded",
+        "intervals": [
+          {
+            "lower": 1.0,
+            "upper": 1.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "positive_reference": true,
+        "contains_one": true,
+        "reason": null,
+        "windows": [
+          {
+            "confidence_level": 0.95,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0,
+                "upper": 1.0,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.0,
+            "numerator": 1.0,
+            "reference": 1.0,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              }
+            }
+          },
+          {
+            "confidence_level": 0.95,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0,
+                "upper": 1.0,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.0,
+            "numerator": 1.0,
+            "reference": 1.0,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              }
+            }
+          }
+        ],
+        "q": 0.1,
+        "gaussian_equivalent_T_intervals": [
+          {
+            "lower": -0.0,
+            "upper": -0.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "unit_attenuation_excluded": false,
+        "positive_motion_resolved": false,
+        "attenuation_model_compatible": true
+      },
+      {
+        "confidence_level": 0.9,
+        "window_confidence_level": 0.95,
+        "n_groups": 8,
+        "ratio": 1.0,
+        "usable": true,
+        "kind": "bounded",
+        "intervals": [
+          {
+            "lower": 1.0,
+            "upper": 1.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "positive_reference": true,
+        "contains_one": true,
+        "reason": null,
+        "windows": [
+          {
+            "confidence_level": 0.95,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0,
+                "upper": 1.0,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.0,
+            "numerator": 1.0,
+            "reference": 1.0,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              }
+            }
+          },
+          {
+            "confidence_level": 0.95,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0,
+                "upper": 1.0,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.0,
+            "numerator": 1.0,
+            "reference": 1.0,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.125,
+                "effective_absolute_contributions": 8.0
+              }
+            }
+          }
+        ],
+        "q": 0.15,
+        "gaussian_equivalent_T_intervals": [
+          {
+            "lower": -0.0,
+            "upper": -0.0,
+            "lower_closed": true,
+            "upper_closed": true
+          }
+        ],
+        "unit_attenuation_excluded": false,
+        "positive_motion_resolved": false,
+        "attenuation_model_compatible": true
+      }
+    ]
+  },
+  "reported_uncertainty_variants": [
+    "arithmetic",
+    "geometric"
+  ],
+  "reported_uncertainty_usable": true
+}

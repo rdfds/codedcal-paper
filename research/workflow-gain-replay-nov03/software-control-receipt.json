@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "actual_native_decoder_predictions": 4,
+  "registration_optimizations": 0,
+  "gain_optimizations": 0,
+  "source_predict_path_reproduced": true
+}

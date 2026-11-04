@@ -1,0 +1,4223 @@
+{
+  "rows": [
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__barcode_model__correlation.json",
+      "sha256": "12746eb88e7b6804b27bf3f250c3f8c24b707e564b253d93c735c5974ac61077",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__barcode_model__regression.json",
+      "sha256": "f0c56849a5be8a41d258b7fcfe2996af6ab3f8603a9e546793aff64a726f2023",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured__correlation.json",
+      "sha256": "3bfcc01bab5fd3d98a51b6035a60df31e24733d1a4b1211d31a155d52d6443aa",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured__regression.json",
+      "sha256": "82b05a54554fcf56be6c8ebcaa7d965c8663b14dac2085ca40ce63b001dc47d7",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured_author__correlation.json",
+      "sha256": "157247b417f4db3abd1b217abb9c85f57eaa0f86e9b2ab1c8f9d7798248083bc",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/zero__structured_author__regression.json",
+      "sha256": "08659e275293d832d3d3132bf2c0eb3fef1a88cb308bc2b7f5d2bd76bbca8814",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_group__correlation.json",
+      "sha256": "4e839da8ba215d2304d6d3ffa55de6c8fe8bec923247ff8096c529c4b1390be7",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_group__regression.json",
+      "sha256": "93c5a3b5228116011f29ab53d8757e5ca56c6679d3ce64af865ccbab3c19fcf1",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_author__correlation.json",
+      "sha256": "f9e251be117703a23b4950398c553051ec0d4bf11d6d5cd6080b9ec42a322515",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "zero",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/zero__global_author__regression.json",
+      "sha256": "3b7ea4699f0b7081d343594c88a69729df65f7631da5d2022e5d970a5430b36d",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9787234042553191,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.027565392354124724,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 69,
+          "matching": {
+            "ambiguous_reference": 25,
+            "ambiguous_prediction": 25,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9787234042553191,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.027565392354124724,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 69,
+          "matching": {
+            "ambiguous_reference": 43,
+            "ambiguous_prediction": 43,
+            "skipped_components": 0,
+            "candidate_edges": 155
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9787234042553191,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.027565392354124724,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 69,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 58,
+            "skipped_components": 0,
+            "candidate_edges": 214
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 71,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.15811388300841897,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__barcode_model__correlation.json",
+      "sha256": "fab41c15e40138759105124fc30f4078ec17f23a0a207e00a560eb12ade4a50b",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.8185053380782918,
+          "sequence_identity_f1": 0.8185053380782918,
+          "spatial_f1": 0.9679715302491103,
+          "label_constrained_f1": 0.9466192170818505,
+          "composition_tv": 0.05663627152988855,
+          "reference_calls": 141,
+          "predicted_calls": 140,
+          "correct_gene_classes": 115,
+          "matching": {
+            "ambiguous_reference": 114,
+            "ambiguous_prediction": 114,
+            "skipped_components": 0,
+            "candidate_edges": 685
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.8398576512455516,
+          "sequence_identity_f1": 0.8398576512455516,
+          "spatial_f1": 0.9679715302491103,
+          "label_constrained_f1": 0.9466192170818505,
+          "composition_tv": 0.05663627152988855,
+          "reference_calls": 141,
+          "predicted_calls": 140,
+          "correct_gene_classes": 118,
+          "matching": {
+            "ambiguous_reference": 119,
+            "ambiguous_prediction": 119,
+            "skipped_components": 0,
+            "candidate_edges": 861
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.8113879003558719,
+          "sequence_identity_f1": 0.8113879003558719,
+          "spatial_f1": 0.9822064056939501,
+          "label_constrained_f1": 0.9466192170818505,
+          "composition_tv": 0.05663627152988855,
+          "reference_calls": 141,
+          "predicted_calls": 140,
+          "correct_gene_classes": 114,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1262
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 140,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.15811388300841897,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__barcode_model__regression.json",
+      "sha256": "42f8e632fc0b1eccdd95428b60f6113ce9f05dcc501a2cc823a05bf84840acf5",
+      "development_target_met": false
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured__correlation.json",
+      "sha256": "da61629852adc71c4b4e9c4ee49b19500ee26c397d758d15fdea9f6899a38db3",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured__regression.json",
+      "sha256": "75f992f0395007776ed7a920731cd23e203315a0252db53e4dc8c4464b7a1ecb",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured_author__correlation.json",
+      "sha256": "272d763d131a6d21f088572d80c61b775f5b25af22237c28673adecd848096b3",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/common__structured_author__regression.json",
+      "sha256": "38eb14427b01f0cb70a7501c521df103501888f2afa6c65631f556844c4d7528",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_group__correlation.json",
+      "sha256": "64198ee59db092a9fcae5ee5f02478e8e0b225bab3695ef3766a38d81fbe1513",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_group__regression.json",
+      "sha256": "2b31585ba5b2046f3f4a584ec6b34c1a2a450c52f0781ffdc3f765ebc91a5d01",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9787234042553191,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.027565392354124724,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 69,
+          "matching": {
+            "ambiguous_reference": 25,
+            "ambiguous_prediction": 25,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9787234042553191,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.027565392354124724,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 69,
+          "matching": {
+            "ambiguous_reference": 43,
+            "ambiguous_prediction": 43,
+            "skipped_components": 0,
+            "candidate_edges": 155
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9787234042553191,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.027565392354124724,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 69,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 58,
+            "skipped_components": 0,
+            "candidate_edges": 214
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 71,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.15811388300841897,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_author__correlation.json",
+      "sha256": "6b1a3867447c7bca6f41c6ff6f32486776332f8683cb014d228380f9cd867e19",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.8185053380782918,
+          "sequence_identity_f1": 0.8185053380782918,
+          "spatial_f1": 0.9679715302491103,
+          "label_constrained_f1": 0.9466192170818505,
+          "composition_tv": 0.05663627152988855,
+          "reference_calls": 141,
+          "predicted_calls": 140,
+          "correct_gene_classes": 115,
+          "matching": {
+            "ambiguous_reference": 114,
+            "ambiguous_prediction": 114,
+            "skipped_components": 0,
+            "candidate_edges": 685
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.8398576512455516,
+          "sequence_identity_f1": 0.8398576512455516,
+          "spatial_f1": 0.9679715302491103,
+          "label_constrained_f1": 0.9466192170818505,
+          "composition_tv": 0.05663627152988855,
+          "reference_calls": 141,
+          "predicted_calls": 140,
+          "correct_gene_classes": 118,
+          "matching": {
+            "ambiguous_reference": 119,
+            "ambiguous_prediction": 119,
+            "skipped_components": 0,
+            "candidate_edges": 861
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.8113879003558719,
+          "sequence_identity_f1": 0.8113879003558719,
+          "spatial_f1": 0.9822064056939501,
+          "label_constrained_f1": 0.9466192170818505,
+          "composition_tv": 0.05663627152988855,
+          "reference_calls": 141,
+          "predicted_calls": 140,
+          "correct_gene_classes": 114,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1262
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 140,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.15811388300841897,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/common__global_author__regression.json",
+      "sha256": "6da1627664e4e376a6bbf6139eb89ec03c7912a54a7dbac53834912f854acd43",
+      "development_target_met": false
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.8936170212765957,
+          "sequence_identity_f1": 0.8936170212765957,
+          "spatial_f1": 0.9078014184397163,
+          "label_constrained_f1": 0.8936170212765957,
+          "composition_tv": 0.09778672032193156,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 63,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 25,
+            "skipped_components": 0,
+            "candidate_edges": 97
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.9078014184397163,
+          "sequence_identity_f1": 0.9078014184397163,
+          "spatial_f1": 0.9219858156028369,
+          "label_constrained_f1": 0.9078014184397163,
+          "composition_tv": 0.09778672032193156,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 64,
+          "matching": {
+            "ambiguous_reference": 41,
+            "ambiguous_prediction": 40,
+            "skipped_components": 0,
+            "candidate_edges": 144
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.9078014184397163,
+          "sequence_identity_f1": 0.9078014184397163,
+          "spatial_f1": 0.9219858156028369,
+          "label_constrained_f1": 0.9078014184397163,
+          "composition_tv": 0.09778672032193156,
+          "reference_calls": 70,
+          "predicted_calls": 71,
+          "correct_gene_classes": 64,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 56,
+            "skipped_components": 0,
+            "candidate_edges": 209
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 71,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.7071067811865476,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__barcode_model__correlation.json",
+      "sha256": "88b199e414340837538509b5f92e89f3ce263c9ea30811538a34c55693edb710",
+      "development_target_met": false
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.6275862068965518,
+          "sequence_identity_f1": 0.6275862068965518,
+          "spatial_f1": 0.903448275862069,
+          "label_constrained_f1": 0.8,
+          "composition_tv": 0.2128611547432053,
+          "reference_calls": 141,
+          "predicted_calls": 149,
+          "correct_gene_classes": 91,
+          "matching": {
+            "ambiguous_reference": 115,
+            "ambiguous_prediction": 123,
+            "skipped_components": 0,
+            "candidate_edges": 703
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.6344827586206897,
+          "sequence_identity_f1": 0.6344827586206897,
+          "spatial_f1": 0.903448275862069,
+          "label_constrained_f1": 0.8068965517241379,
+          "composition_tv": 0.2128611547432053,
+          "reference_calls": 141,
+          "predicted_calls": 149,
+          "correct_gene_classes": 92,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 132,
+            "skipped_components": 0,
+            "candidate_edges": 939
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.6275862068965518,
+          "sequence_identity_f1": 0.6275862068965518,
+          "spatial_f1": 0.9241379310344827,
+          "label_constrained_f1": 0.8068965517241379,
+          "composition_tv": 0.2128611547432053,
+          "reference_calls": 141,
+          "predicted_calls": 149,
+          "correct_gene_classes": 91,
+          "matching": {
+            "ambiguous_reference": 130,
+            "ambiguous_prediction": 143,
+            "skipped_components": 0,
+            "candidate_edges": 1443
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 149,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.7071067811865476,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__barcode_model__regression.json",
+      "sha256": "4a41c32741f6651085b9fef797b579f8afa6129669c7b6ffd8f519bfdb297503",
+      "development_target_met": false
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.7058823529411765,
+          "sequence_identity_f1": 0.7058823529411765,
+          "spatial_f1": 0.8088235294117647,
+          "label_constrained_f1": 0.7941176470588235,
+          "composition_tv": 0.1787878787878788,
+          "reference_calls": 70,
+          "predicted_calls": 66,
+          "correct_gene_classes": 48,
+          "matching": {
+            "ambiguous_reference": 18,
+            "ambiguous_prediction": 21,
+            "skipped_components": 0,
+            "candidate_edges": 82
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.7794117647058824,
+          "sequence_identity_f1": 0.7794117647058824,
+          "spatial_f1": 0.8676470588235294,
+          "label_constrained_f1": 0.8382352941176471,
+          "composition_tv": 0.1787878787878788,
+          "reference_calls": 70,
+          "predicted_calls": 66,
+          "correct_gene_classes": 53,
+          "matching": {
+            "ambiguous_reference": 44,
+            "ambiguous_prediction": 38,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.75,
+          "sequence_identity_f1": 0.75,
+          "spatial_f1": 0.8676470588235294,
+          "label_constrained_f1": 0.8382352941176471,
+          "composition_tv": 0.1787878787878788,
+          "reference_calls": 70,
+          "predicted_calls": 66,
+          "correct_gene_classes": 51,
+          "matching": {
+            "ambiguous_reference": 55,
+            "ambiguous_prediction": 52,
+            "skipped_components": 0,
+            "candidate_edges": 187
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.5,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured__correlation.json",
+      "sha256": "2ed08bf393f5b069aa724f5a68544835bef572de01c8cb3b746b384bec017f4f",
+      "development_target_met": false
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.5656565656565656,
+          "sequence_identity_f1": 0.5656565656565656,
+          "spatial_f1": 0.9090909090909091,
+          "label_constrained_f1": 0.835016835016835,
+          "composition_tv": 0.19967266775777415,
+          "reference_calls": 141,
+          "predicted_calls": 156,
+          "correct_gene_classes": 84,
+          "matching": {
+            "ambiguous_reference": 114,
+            "ambiguous_prediction": 124,
+            "skipped_components": 0,
+            "candidate_edges": 705
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.5589225589225589,
+          "sequence_identity_f1": 0.5589225589225589,
+          "spatial_f1": 0.9292929292929293,
+          "label_constrained_f1": 0.835016835016835,
+          "composition_tv": 0.19967266775777415,
+          "reference_calls": 141,
+          "predicted_calls": 156,
+          "correct_gene_classes": 83,
+          "matching": {
+            "ambiguous_reference": 117,
+            "ambiguous_prediction": 132,
+            "skipped_components": 0,
+            "candidate_edges": 929
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.5656565656565656,
+          "sequence_identity_f1": 0.5656565656565656,
+          "spatial_f1": 0.9427609427609428,
+          "label_constrained_f1": 0.835016835016835,
+          "composition_tv": 0.19967266775777415,
+          "reference_calls": 141,
+          "predicted_calls": 156,
+          "correct_gene_classes": 84,
+          "matching": {
+            "ambiguous_reference": 130,
+            "ambiguous_prediction": 146,
+            "skipped_components": 0,
+            "candidate_edges": 1396
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 156,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.5,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured__regression.json",
+      "sha256": "f356eab64c7d89c67a1fcdb776dd9ffde7e42d902e2b60fd3fba2c57765158ed",
+      "development_target_met": false
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.9420289855072463,
+          "sequence_identity_f1": 0.9420289855072463,
+          "spatial_f1": 0.9420289855072463,
+          "label_constrained_f1": 0.9420289855072463,
+          "composition_tv": 0.04159663865546219,
+          "reference_calls": 70,
+          "predicted_calls": 68,
+          "correct_gene_classes": 65,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 96
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.9710144927536232,
+          "sequence_identity_f1": 0.9710144927536232,
+          "spatial_f1": 0.9710144927536232,
+          "label_constrained_f1": 0.9710144927536232,
+          "composition_tv": 0.04159663865546219,
+          "reference_calls": 70,
+          "predicted_calls": 68,
+          "correct_gene_classes": 67,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 147
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.9710144927536232,
+          "sequence_identity_f1": 0.9710144927536232,
+          "spatial_f1": 0.9710144927536232,
+          "label_constrained_f1": 0.9710144927536232,
+          "composition_tv": 0.04159663865546219,
+          "reference_calls": 70,
+          "predicted_calls": 68,
+          "correct_gene_classes": 67,
+          "matching": {
+            "ambiguous_reference": 55,
+            "ambiguous_prediction": 55,
+            "skipped_components": 0,
+            "candidate_edges": 204
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 68,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.15811388300841897,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured_author__correlation.json",
+      "sha256": "11bc66cb58e0489bfdfc0c1a23c8b083f988299bbcdae517197fb890ad22448a",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9858156028368794,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.021276595744680847,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 138,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 665
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.9787234042553191,
+          "sequence_identity_f1": 0.9787234042553191,
+          "spatial_f1": 0.9858156028368794,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.021276595744680847,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 138,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 861
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.9716312056737588,
+          "sequence_identity_f1": 0.9716312056737588,
+          "spatial_f1": 0.9858156028368794,
+          "label_constrained_f1": 0.9787234042553191,
+          "composition_tv": 0.021276595744680847,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 137,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1289
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.15811388300841897,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-0/color__structured_author__regression.json",
+      "sha256": "4ab8d54fad9f78c94377dc79363dbee2359ed669919b47ad61ca12200485c162",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_group__correlation.json",
+      "sha256": "09ac45e6eacaeb524aec7f050c96ca15ba0da720cd769fecf092794393864550",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_group__regression.json",
+      "sha256": "70835153fb8d3f0edf18accb9c938d2ff67c403f3fbf77924aee671c699184f9",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 24,
+            "ambiguous_prediction": 24,
+            "skipped_components": 0,
+            "candidate_edges": 100
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 42,
+            "ambiguous_prediction": 42,
+            "skipped_components": 0,
+            "candidate_edges": 152
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 70,
+          "predicted_calls": 70,
+          "correct_gene_classes": 70,
+          "matching": {
+            "ambiguous_reference": 57,
+            "ambiguous_prediction": 57,
+            "skipped_components": 0,
+            "candidate_edges": 210
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_author__correlation.json",
+      "sha256": "68071a94e72e181758951e2e78af752fe6ea59c1c0edc703faaf27052263fd42",
+      "development_target_met": true
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 113,
+            "ambiguous_prediction": 113,
+            "skipped_components": 0,
+            "candidate_edges": 671
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 120,
+            "ambiguous_prediction": 120,
+            "skipped_components": 0,
+            "candidate_edges": 867
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 141,
+          "predicted_calls": 141,
+          "correct_gene_classes": 141,
+          "matching": {
+            "ambiguous_reference": 131,
+            "ambiguous_prediction": 131,
+            "skipped_components": 0,
+            "candidate_edges": 1293
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-0/color__global_author__regression.json",
+      "sha256": "d4c48ae8f3e0a391597b519fd0103acddbc04464e11fab5d681d492a6834ac31",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__barcode_model__correlation.json",
+      "sha256": "b84280577a9479c9059b4c4d08e65af8a414edba5c0afaf653492d57d5454022",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__barcode_model__regression.json",
+      "sha256": "5542cb4f57fa1c01ab8bb3b713777a28b10ea79e8b410b5e75f831b001f8aa7a",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured__correlation.json",
+      "sha256": "4024a5bdf8c95e11b3dc53a0a22bd0d59577cb74c921f503e109ddc36c805d14",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured__regression.json",
+      "sha256": "72cec056b79852ff873497413ade05b3e74fb36c170341624a0c4dfdcf32903d",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured_author__correlation.json",
+      "sha256": "87fee1a99b130aa336e043612fc8459201caf6490922c56ee9414de399822818",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/zero__structured_author__regression.json",
+      "sha256": "543be5a9c823272233f833af306bfe02ba3c26d3b38bad7edd29f99759db0d1f",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_group__correlation.json",
+      "sha256": "6fd51a4198c8971e92dabfcf5f08f97c701cc706789294d34f7b9c1879f06e32",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_group__regression.json",
+      "sha256": "38108589aa608ff1d98c6d7c64feabc278897d41c075ae1bebd4a394ee377e20",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_author__correlation.json",
+      "sha256": "c191e85d1c5d080d780f321eaef349adb0abe8f59fa1766f32ddb50eef25e649",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/zero__global_author__regression.json",
+      "sha256": "bc08527ecd50788f9f8be3fc6fd952deb53e727b4ea6d2f5dd0b33dbf0481d7c",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__barcode_model__correlation.json",
+      "sha256": "3794cfcb0cd5afe8abb80fefc476aee095ed515c79742455224315f322661d30",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__barcode_model__regression.json",
+      "sha256": "a15675a1cfd148d234dda770a726e5231755ae79e50b8a77252da5efa88ece6f",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured__correlation.json",
+      "sha256": "ef05e04b53dacf318aab560a6996d85da6028c4543ffaf70bb35eb1c6e86fcf0",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured__regression.json",
+      "sha256": "7fdb0c9e2783aa8789beeb6a3a2a974e7d32e32415d5280aed5ec5775418ca94",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured_author__correlation.json",
+      "sha256": "1b2371c13263c99c124ec403066eb08753d5bec4a20a1966a2b09b2854a5a2a9",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/common__structured_author__regression.json",
+      "sha256": "209c2de588bf3b9bf145ce8b7fc885b4e5ca92ddd5b139d9e114e29a43882ed4",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_group__correlation.json",
+      "sha256": "987ea9742b6b2da26b2514e3315af9f38b6520130e4c06135459b2437774fde4",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_group__regression.json",
+      "sha256": "76e77e2e1880189942a17a4d28e30d5f495b915c7a3815b2a301fafa6d2108a1",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_author__correlation.json",
+      "sha256": "36182bd14c2510c8be4786e476917a6914fb08395135b39a0c11fb7110d29a9c",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/common__global_author__regression.json",
+      "sha256": "396d7a928d75154c3e9f200655b3a0592b9e7087261aa83d834fadd2cd150ebb",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.014705882352941176,
+          "sequence_identity_f1": 0.014705882352941176,
+          "spatial_f1": 0.058823529411764705,
+          "label_constrained_f1": 0.014705882352941176,
+          "composition_tv": 0.9359999999999999,
+          "reference_calls": 125,
+          "predicted_calls": 11,
+          "correct_gene_classes": 1,
+          "matching": {
+            "ambiguous_reference": 1,
+            "ambiguous_prediction": 0,
+            "skipped_components": 0,
+            "candidate_edges": 5
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.029411764705882353,
+          "sequence_identity_f1": 0.029411764705882353,
+          "spatial_f1": 0.10294117647058823,
+          "label_constrained_f1": 0.029411764705882353,
+          "composition_tv": 0.9359999999999999,
+          "reference_calls": 125,
+          "predicted_calls": 11,
+          "correct_gene_classes": 2,
+          "matching": {
+            "ambiguous_reference": 2,
+            "ambiguous_prediction": 2,
+            "skipped_components": 0,
+            "candidate_edges": 12
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.058823529411764705,
+          "sequence_identity_f1": 0.058823529411764705,
+          "spatial_f1": 0.16176470588235295,
+          "label_constrained_f1": 0.10294117647058823,
+          "composition_tv": 0.9359999999999999,
+          "reference_calls": 125,
+          "predicted_calls": 11,
+          "correct_gene_classes": 4,
+          "matching": {
+            "ambiguous_reference": 6,
+            "ambiguous_prediction": 9,
+            "skipped_components": 0,
+            "candidate_edges": 30
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 11,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "residual_added_rms": 3.1622776601683795,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__barcode_model__correlation.json",
+      "sha256": "9dc7ef7efe80872a27be30d704559b39e74026c0e909c39611c30e3684d024c4",
+      "development_target_met": false
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "barcode_model",
+      "label": "Original author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.05467625899280575,
+          "label_constrained_f1": 0.0,
+          "composition_tv": 0.8913738019169329,
+          "reference_calls": 66,
+          "predicted_calls": 629,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 11,
+            "ambiguous_prediction": 7,
+            "skipped_components": 0,
+            "candidate_edges": 51
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.008633093525179856,
+          "sequence_identity_f1": 0.008633093525179856,
+          "spatial_f1": 0.1553956834532374,
+          "label_constrained_f1": 0.025899280575539568,
+          "composition_tv": 0.8913738019169329,
+          "reference_calls": 66,
+          "predicted_calls": 629,
+          "correct_gene_classes": 3,
+          "matching": {
+            "ambiguous_reference": 47,
+            "ambiguous_prediction": 86,
+            "skipped_components": 0,
+            "candidate_edges": 388
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.011510791366906475,
+          "sequence_identity_f1": 0.011510791366906475,
+          "spatial_f1": 0.18992805755395684,
+          "label_constrained_f1": 0.12661870503597122,
+          "composition_tv": 0.8913738019169329,
+          "reference_calls": 66,
+          "predicted_calls": 629,
+          "correct_gene_classes": 4,
+          "matching": {
+            "ambiguous_reference": 63,
+            "ambiguous_prediction": 288,
+            "skipped_components": 0,
+            "candidate_edges": 1168
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 626,
+        "blanks": 3,
+        "proxy": 1.055511182108626,
+        "support": 1.0,
+        "qualified": false
+      },
+      "residual_added_rms": 3.1622776601683795,
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__barcode_model__regression.json",
+      "sha256": "960e9fb990028af31ac0cf0e93b70e55059cefcf3fceaa0f1fcf635e77e50e24",
+      "development_target_met": false
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.03007518796992481,
+          "label_constrained_f1": 0.0,
+          "composition_tv": 0.9600000000000001,
+          "reference_calls": 125,
+          "predicted_calls": 8,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 0,
+            "ambiguous_prediction": 0,
+            "skipped_components": 0,
+            "candidate_edges": 2
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.015037593984962405,
+          "sequence_identity_f1": 0.015037593984962405,
+          "spatial_f1": 0.09022556390977443,
+          "label_constrained_f1": 0.015037593984962405,
+          "composition_tv": 0.9600000000000001,
+          "reference_calls": 125,
+          "predicted_calls": 8,
+          "correct_gene_classes": 1,
+          "matching": {
+            "ambiguous_reference": 1,
+            "ambiguous_prediction": 2,
+            "skipped_components": 0,
+            "candidate_edges": 9
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.03007518796992481,
+          "sequence_identity_f1": 0.03007518796992481,
+          "spatial_f1": 0.10526315789473684,
+          "label_constrained_f1": 0.07518796992481203,
+          "composition_tv": 0.9600000000000001,
+          "reference_calls": 125,
+          "predicted_calls": 8,
+          "correct_gene_classes": 2,
+          "matching": {
+            "ambiguous_reference": 7,
+            "ambiguous_prediction": 7,
+            "skipped_components": 0,
+            "candidate_edges": 23
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 8,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "residual_added_rms": 4.47213595499958,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured__correlation.json",
+      "sha256": "bca6ca6b9761f73714a51c6d5fdbd02e2fc38989afee1accd2a8f6615ed655bc",
+      "development_target_met": false
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "structured",
+      "label": "Pooling",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.04771371769383698,
+          "label_constrained_f1": 0.003976143141153081,
+          "composition_tv": 0.8764302059496567,
+          "reference_calls": 66,
+          "predicted_calls": 437,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 4,
+            "ambiguous_prediction": 2,
+            "skipped_components": 0,
+            "candidate_edges": 24
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.1312127236580517,
+          "label_constrained_f1": 0.003976143141153081,
+          "composition_tv": 0.8764302059496567,
+          "reference_calls": 66,
+          "predicted_calls": 437,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 28,
+            "ambiguous_prediction": 20,
+            "skipped_components": 0,
+            "candidate_edges": 108
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.007952286282306162,
+          "sequence_identity_f1": 0.007952286282306162,
+          "spatial_f1": 0.2544731610337972,
+          "label_constrained_f1": 0.13518886679920478,
+          "composition_tv": 0.8764302059496567,
+          "reference_calls": 66,
+          "predicted_calls": 437,
+          "correct_gene_classes": 2,
+          "matching": {
+            "ambiguous_reference": 60,
+            "ambiguous_prediction": 195,
+            "skipped_components": 0,
+            "candidate_edges": 783
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 437,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 4.47213595499958,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured__regression.json",
+      "sha256": "00bb5e8c1fb3f8594de0a46d32c76dbd2d5f50d581efba7af0d2c8debd03598e",
+      "development_target_met": false
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.03007518796992481,
+          "label_constrained_f1": 0.0,
+          "composition_tv": 0.9600000000000001,
+          "reference_calls": 125,
+          "predicted_calls": 8,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 0,
+            "ambiguous_prediction": 0,
+            "skipped_components": 0,
+            "candidate_edges": 2
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.015037593984962405,
+          "sequence_identity_f1": 0.015037593984962405,
+          "spatial_f1": 0.09022556390977443,
+          "label_constrained_f1": 0.015037593984962405,
+          "composition_tv": 0.9600000000000001,
+          "reference_calls": 125,
+          "predicted_calls": 8,
+          "correct_gene_classes": 1,
+          "matching": {
+            "ambiguous_reference": 1,
+            "ambiguous_prediction": 2,
+            "skipped_components": 0,
+            "candidate_edges": 9
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.03007518796992481,
+          "sequence_identity_f1": 0.03007518796992481,
+          "spatial_f1": 0.10526315789473684,
+          "label_constrained_f1": 0.07518796992481203,
+          "composition_tv": 0.9600000000000001,
+          "reference_calls": 125,
+          "predicted_calls": 8,
+          "correct_gene_classes": 2,
+          "matching": {
+            "ambiguous_reference": 7,
+            "ambiguous_prediction": 7,
+            "skipped_components": 0,
+            "candidate_edges": 23
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 8,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "residual_added_rms": 4.47213595499958,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured_author__correlation.json",
+      "sha256": "68ca09850a3234aa67580d1b287b2518ed269755990c0d16a0a5ac523de60987",
+      "development_target_met": false
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.04771371769383698,
+          "label_constrained_f1": 0.003976143141153081,
+          "composition_tv": 0.8764302059496567,
+          "reference_calls": 66,
+          "predicted_calls": 437,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 4,
+            "ambiguous_prediction": 2,
+            "skipped_components": 0,
+            "candidate_edges": 24
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 0.0,
+          "sequence_identity_f1": 0.0,
+          "spatial_f1": 0.1312127236580517,
+          "label_constrained_f1": 0.003976143141153081,
+          "composition_tv": 0.8764302059496567,
+          "reference_calls": 66,
+          "predicted_calls": 437,
+          "correct_gene_classes": 0,
+          "matching": {
+            "ambiguous_reference": 28,
+            "ambiguous_prediction": 20,
+            "skipped_components": 0,
+            "candidate_edges": 108
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 0.007952286282306162,
+          "sequence_identity_f1": 0.007952286282306162,
+          "spatial_f1": 0.2544731610337972,
+          "label_constrained_f1": 0.13518886679920478,
+          "composition_tv": 0.8764302059496567,
+          "reference_calls": 66,
+          "predicted_calls": 437,
+          "correct_gene_classes": 2,
+          "matching": {
+            "ambiguous_reference": 60,
+            "ambiguous_prediction": 195,
+            "skipped_components": 0,
+            "candidate_edges": 783
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 437,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 4.47213595499958,
+      "path": "outputs/barseq3-native-repair-oct05/structured-repair/field-1/color__structured_author__regression.json",
+      "sha256": "1f100eec6c8a815a00f06b66e9b22703ea10055157faa8f12f8d4bd831513123",
+      "development_target_met": false
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_group__correlation.json",
+      "sha256": "83b4d803dd98a6ed49a6b72bd0c4ce039208f7b3e89b28c208163beb09777df7",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "global_group",
+      "label": "Global search",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_group__regression.json",
+      "sha256": "fb2e8e80ca28e2b1b9ceab061be2e803db8abfecc3eedf7a2a4ede491f864c0c",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "correlation",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 19,
+            "ambiguous_prediction": 19,
+            "skipped_components": 0,
+            "candidate_edges": 149
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 53,
+            "ambiguous_prediction": 53,
+            "skipped_components": 0,
+            "candidate_edges": 195
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 125,
+          "predicted_calls": 125,
+          "correct_gene_classes": 125,
+          "matching": {
+            "ambiguous_reference": 96,
+            "ambiguous_prediction": 96,
+            "skipped_components": 0,
+            "candidate_edges": 325
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_author__correlation.json",
+      "sha256": "f48c3146513723626827fc453f7e234ca1cca40b103827a06f391e3560d5a68f",
+      "development_target_met": true
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "policy": "global_author",
+      "label": "Global + author",
+      "decoder": "regression",
+      "metrics": {
+        "1.5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 32,
+            "ambiguous_prediction": 32,
+            "skipped_components": 0,
+            "candidate_edges": 136
+          }
+        },
+        "3": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 35,
+            "ambiguous_prediction": 35,
+            "skipped_components": 0,
+            "candidate_edges": 142
+          }
+        },
+        "5": {
+          "gene_class_identity_f1": 1.0,
+          "sequence_identity_f1": 1.0,
+          "spatial_f1": 1.0,
+          "label_constrained_f1": 1.0,
+          "composition_tv": 0.0,
+          "reference_calls": 66,
+          "predicted_calls": 66,
+          "correct_gene_classes": 66,
+          "matching": {
+            "ambiguous_reference": 48,
+            "ambiguous_prediction": 48,
+            "skipped_components": 0,
+            "candidate_edges": 170
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "residual_added_rms": 0.0,
+      "path": "outputs/barseq3-native-repair-oct05/global-repair/field-1/color__global_author__regression.json",
+      "sha256": "72c190d90ecde9ad97f33c2edade19c00676b7877e89a45f069aef15b3c90e23",
+      "development_target_met": true
+    }
+  ],
+  "policies": [
+    {
+      "policy": "barcode_model",
+      "label": "Original author",
+      "records": 12,
+      "targets_met": 7,
+      "mean_nonzero_identity_f1": 0.6744791563407663
+    },
+    {
+      "policy": "structured",
+      "label": "Pooling",
+      "records": 12,
+      "targets_met": 8,
+      "mean_nonzero_identity_f1": 0.6692105049885996
+    },
+    {
+      "policy": "structured_author",
+      "label": "Pooling + author",
+      "records": 12,
+      "targets_met": 10,
+      "mean_nonzero_identity_f1": 0.7475841465849515
+    },
+    {
+      "policy": "global_group",
+      "label": "Global search",
+      "records": 12,
+      "targets_met": 12,
+      "mean_nonzero_identity_f1": 1.0
+    },
+    {
+      "policy": "global_author",
+      "label": "Global + author",
+      "records": 12,
+      "targets_met": 11,
+      "mean_nonzero_identity_f1": 0.9737639130763989
+    }
+  ],
+  "global_group_records": 12,
+  "global_group_exact_native_recovery": 12,
+  "global_group_development_target_met": true,
+  "planned_global_arms": 24,
+  "completed_global_arms": 24,
+  "failed_global_arms": 0,
+  "planned_pooling_arms": 24,
+  "completed_pooling_arms": 24,
+  "failed_pooling_arms": 0,
+  "oracle_start_cases": 6,
+  "synthetic_global_controls": 22,
+  "synthetic_global_controls_exact": 22,
+  "independent_transfer_established": false,
+  "temporal_intervention_validated": false,
+  "runtime": [
+    {
+      "index": 0,
+      "kind": "zero",
+      "calibration_search_s": 26.99334870799794,
+      "candidate_entries": 540,
+      "selected_round_initialization": "round",
+      "selected_partition": 1,
+      "selected_shift_yx": [
+        0,
+        0
+      ],
+      "optional_author_refinement_s": null,
+      "note": "Refinement time was not separately instrumented; no speed ratio."
+    },
+    {
+      "index": 0,
+      "kind": "common",
+      "calibration_search_s": 24.30521437502466,
+      "candidate_entries": 540,
+      "selected_round_initialization": "round",
+      "selected_partition": 1,
+      "selected_shift_yx": [
+        0,
+        0
+      ],
+      "optional_author_refinement_s": null,
+      "note": "Refinement time was not separately instrumented; no speed ratio."
+    },
+    {
+      "index": 0,
+      "kind": "color",
+      "calibration_search_s": 32.24809320800705,
+      "candidate_entries": 540,
+      "selected_round_initialization": "round",
+      "selected_partition": 1,
+      "selected_shift_yx": [
+        -4,
+        -2
+      ],
+      "optional_author_refinement_s": null,
+      "note": "Refinement time was not separately instrumented; no speed ratio."
+    },
+    {
+      "index": 1,
+      "kind": "zero",
+      "calibration_search_s": 21.494646333012497,
+      "candidate_entries": 540,
+      "selected_round_initialization": "round",
+      "selected_partition": 0,
+      "selected_shift_yx": [
+        0,
+        0
+      ],
+      "optional_author_refinement_s": null,
+      "note": "Refinement time was not separately instrumented; no speed ratio."
+    },
+    {
+      "index": 1,
+      "kind": "common",
+      "calibration_search_s": 23.114182958001038,
+      "candidate_entries": 540,
+      "selected_round_initialization": "round",
+      "selected_partition": 0,
+      "selected_shift_yx": [
+        0,
+        0
+      ],
+      "optional_author_refinement_s": null,
+      "note": "Refinement time was not separately instrumented; no speed ratio."
+    },
+    {
+      "index": 1,
+      "kind": "color",
+      "calibration_search_s": 22.770429541997146,
+      "candidate_entries": 540,
+      "selected_round_initialization": "round",
+      "selected_partition": 1,
+      "selected_shift_yx": [
+        -4,
+        -2
+      ],
+      "optional_author_refinement_s": null,
+      "note": "Refinement time was not separately instrumented; no speed ratio."
+    }
+  ],
+  "script_sha256": "4afcc4e75cb142691669b538aa333eb9452ae0b691d14f226f806fd77b65e2fc",
+  "verification_sha256": "45b7b5d7f7597fc89a93ed2c152538c6df411d2cb838d64fbe045e45f5d302ec"
+}

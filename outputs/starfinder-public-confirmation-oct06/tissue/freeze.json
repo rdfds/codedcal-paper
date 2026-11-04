@@ -1,0 +1,20 @@
+{
+  "files": {
+    "outputs/starfinder-public-confirmation-oct06/tissue.py": "24b40de332e721abbb4e5b4814655652bd3c0490895d92838cafa3da1169813d",
+    "outputs/starfinder-public-confirmation-oct06/check_tissue.py": "5276105be1a3baa2b56b95cefc662d7dc3fae8ab6c1505b980c6e504474866ae",
+    "outputs/starfinder-public-confirmation-oct06/TISSUE_STUDY_PROTOCOL.md": "b34bb4e7294903433920c298cfb39e1abaf237e35bc728f702e6b0b85d3f2f0c",
+    "outputs/starfinder-public-confirmation-oct06/initialization.py": "8a300e16352a0d912c977d4d89f0a2b96b4c118c1fa03504d05c7af33800c263",
+    "outputs/starfinder-public-confirmation-oct06/probe.py": "c46ba504c229eafc7f8924204f459c1b79899c14638ff3ca0855f229ca3ced09",
+    "outputs/starfinder-public-confirmation-oct06/local_trace.py": "8e3dc4d0fc045de67b83b734885c8c9682e953629d8bd9bfeac33ab3da438e18",
+    "outputs/starfinder-public-confirmation-oct06/volume_native.py": "7a477d0c6177be46d9fd28110a10c92a53fc2e5be274bdf09477df7c8c6c09ac",
+    "outputs/starfinder-public-confirmation-oct06/adapter.py": "f27aa31649ac6d7eeacadc0598300ed7271614f6a1fb7c5e82cebd8685e838f6",
+    "outputs/starfinder-public-confirmation-oct06/tissue/controls.json": "037a2425cba67786bb9ae2bc2767cdd685bc7840fc1483fd1dd3b8da33a77957",
+    "outputs/starfinder-public-confirmation-oct06/freeze.json": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e",
+    "outputs/barseq-public-substitute-oct06/starfinder-color-codebooks.json": "d37eadc98bca8661fae28340f5355ff67b4616d0db924d7296d1ce28f3bd22e7",
+    "outputs/barseq3-native-repair-oct05/global_repair.py": "82407386fccc55da8b745fd5a31c83ed27d41e4c4fcb2eb1b3267d5c14df4fdc"
+  },
+  "tissue_pixels_unopened": true,
+  "scope": "conditional native catalog; no RNA truth or absent-code proxy",
+  "full_comparative_workflow_frozen": true,
+  "protocol_sha256": "b34bb4e7294903433920c298cfb39e1abaf237e35bc728f702e6b0b85d3f2f0c"
+}

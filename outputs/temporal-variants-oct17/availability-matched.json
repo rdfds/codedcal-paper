@@ -1,0 +1,30 @@
+{
+  "post_hoc": true,
+  "scope": "observed coded; identical available paired draws",
+  "conditions": {
+    "noise_shift": {
+      "common_available": 862,
+      "total": 864,
+      "median_absolute_sample_mean_bias": {
+        "arithmetic": 0.029154504683295973,
+        "geometric": 0.004258148371100626
+      }
+    },
+    "source_noise_shift": {
+      "common_available": 858,
+      "total": 864,
+      "median_absolute_sample_mean_bias": {
+        "arithmetic": 0.12672754429622404,
+        "geometric": 0.04149241770479151
+      }
+    },
+    "code_offset": {
+      "common_available": 862,
+      "total": 864,
+      "median_absolute_sample_mean_bias": {
+        "arithmetic": 0.0037854744579658797,
+        "geometric": 0.0035872319246530496
+      }
+    }
+  }
+}

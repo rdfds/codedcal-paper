@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955",
+  "synthetic_source_only": true,
+  "known_integer_translation_max_error": 0.0008692641751615326,
+  "pixel_controls": {
+    "common": {
+      "exact_oracle_decoder_window": true,
+      "covariance": [
+        [
+          16.0,
+          8.0
+        ],
+        [
+          8.0,
+          4.0
+        ]
+      ]
+    },
+    "color": {
+      "exact_oracle_decoder_window": true,
+      "covariance": [
+        [
+          16.0,
+          8.0
+        ],
+        [
+          8.0,
+          4.0
+        ]
+      ]
+    }
+  },
+  "label_corruption_detected": true,
+  "spatial_and_composition_invariant": true,
+  "synonymous_barcodes_grouped": true
+}

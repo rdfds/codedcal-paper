@@ -1,0 +1,79 @@
+{
+  "stage": "Initial original-moment check before original SDC phase replay",
+  "reconcile_sha256": "9ac323e731a4ebe48b2eb2945c135aaed4b54f8e3e768131a33596836c240e26",
+  "checks": [
+    {
+      "view": "npc",
+      "original_moment_check": {
+        "max_abs_difference": 9.313225746154785e-10,
+        "relative_l2": 3.278667727544112e-16,
+        "passed": true
+      }
+    },
+    {
+      "view": "edf10rep1",
+      "original_moment_check": {
+        "max_abs_difference": 0.0,
+        "relative_l2": 0.0,
+        "passed": true
+      }
+    },
+    {
+      "view": "edf10rep2",
+      "original_moment_check": {
+        "max_abs_difference": 0.0,
+        "relative_l2": 0.0,
+        "passed": true
+      }
+    },
+    {
+      "view": "fig4untreated",
+      "original_moment_check": {
+        "max_abs_difference": 0.0,
+        "relative_l2": 0.0,
+        "passed": true
+      }
+    },
+    {
+      "view": "rtx_rep1",
+      "original_moment_check": {
+        "max_abs_difference": 0.0,
+        "relative_l2": 0.0,
+        "passed": true
+      }
+    },
+    {
+      "view": "rtx_rep2",
+      "original_moment_check": {
+        "max_abs_difference": 0.0,
+        "relative_l2": 0.0,
+        "passed": true
+      }
+    },
+    {
+      "view": "rtx_rep3",
+      "original_moment_check": {
+        "max_abs_difference": 0.0,
+        "relative_l2": 0.0,
+        "passed": true
+      }
+    },
+    {
+      "view": "sdc_corrected",
+      "original_moment_check": {
+        "max_abs_difference": 40.37819851189852,
+        "relative_l2": 1.1174087571445314e-07,
+        "passed": false
+      }
+    },
+    {
+      "view": "sdc_raw",
+      "original_moment_check": {
+        "max_abs_difference": 32.20310405641794,
+        "relative_l2": 1.0749859503283521e-07,
+        "passed": false
+      }
+    }
+  ],
+  "diagnosis": "SDC original per-angle scalar operations retain float32 phases; vectorized centered target-matching diagnostics promote to float64. Re-execute original function; retain this numerical sensitivity separately. No tolerance relaxation."
+}

@@ -1,0 +1,20 @@
+{
+  "crop": 0,
+  "decoder": "source_spot",
+  "status": "completed",
+  "catalog": {
+    "xyz": [],
+    "words": [],
+    "coding": 0,
+    "negative": null,
+    "candidate_objects": 2,
+    "unsupported_candidates": 193,
+    "abstained": 2,
+    "coverage": 0.010256410256410256,
+    "runtime": {
+      "elapsed_s": 0.20535891701001674
+    },
+    "negative_proxy_unavailable": true
+  },
+  "input_sha256": "c06de335e5f147f834f3f7b8092e156378b873b0c1bcf362bbad2fbc0bfc6970"
+}

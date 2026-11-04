@@ -1,0 +1,1760 @@
+{
+  "scope": "Frozen raw development outputs before software repairs; no refits",
+  "files": [
+    {
+      "path": "research/workflow-qualification-nov01/development-worker.log",
+      "bytes": 22907,
+      "sha256": "7b95db120501a813a1ac785932d76b9bf27b43f1e48429f8deb666553a25c7fb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 27270,
+      "sha256": "504403b2a469f3d57808d658862d618494633f29d2a2d7a3df126ca6e0d49b51"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/17041b8d0d9e19405d6f0190929f1eab9c016c857659fda230516717b6a0d0e5.json",
+      "bytes": 27350,
+      "sha256": "7178d2d7dd0b36fe71e88431601e1a6823eeaa22be5d95b6f6adaa7a2ad30b86"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 27308,
+      "sha256": "b3bf65de868573b29f508fb1cbd5231fa8e1b3af55b722e62fa8f31e0f444ce8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 27525,
+      "sha256": "01d25208169ac66ff678f3496c92da546aa6f1da06d83e929d22eec4b10d899d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 27131,
+      "sha256": "526311398ade07b8f5414bbb1f40c617e1a82d6b08bb891368913ad0d9c3ec71"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 27313,
+      "sha256": "2d3da057403b22846b604b82db3c402d264498994cbabdc378aa7c829a7c6d8f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 27390,
+      "sha256": "88c17d2eddbfe2bf8030d3cbd65a8e820561395311852d7ea33539bb04b23714"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 27316,
+      "sha256": "8db7e67e29cd4e2b488d8a59dc3a993dd103072a0cdf63966b3cc0b06119171e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 27350,
+      "sha256": "0bd6d87028f590d88891831404ddded534716623c91d7b18a3749ac271ea0344"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/7b1fde9ec1c7676abeb86b12a64eedbbd6326d952bbb339ec15c70f6dc7488d3.json",
+      "bytes": 27680,
+      "sha256": "465d348772015430f8432447634e231b4f759d8492797ea838a49d069aee1aa1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 27602,
+      "sha256": "e4486367e0bb7fdffb44ded2347723f587a438aa7abf9379a5152a53d8a98184"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 25939,
+      "sha256": "0b6e22f425ba3392150f8e48ae79a8565cde8f7ce696e7e1eb5d741a0b795549"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 27548,
+      "sha256": "73f6555ae82b92c4571ca8a0e80caa8da029223959de123697a7710e8a99d5a0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 27238,
+      "sha256": "3323086b74abf6fe465a666c583676ec66c43baf1c1e2502214c54df84fa8575"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/a56a3c7d2a45b1285a671a96f1cccf0d331caf1906daec60934b16747115109e.json",
+      "bytes": 27358,
+      "sha256": "75f886f36d34fee558dc93ee29cf49248cddfaa9ca3cf87a8079e36369e0f343"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 27362,
+      "sha256": "d414a736cbc4fd561ee4227019c631b155520e643011b22eebd5e0eb098ef4ea"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/adab9cdc04673a4e9f1847ad93e787b9cab451fe07b251fcc20800567bd35498.json",
+      "bytes": 27532,
+      "sha256": "2f8b7c6ac2c661fb5aee2e14056a1dfa5dfbcea8712193016412ce8ff8ee95b5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 27564,
+      "sha256": "ef59d135d6bf670d06ccbbbb75727d830715f5421010c702a6227fae7fff48a5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 27337,
+      "sha256": "3df0cf9af03b26bc6603144abc17b30acd3f028653f1586bb3d29404a7f8ee7c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 26222,
+      "sha256": "50bd1d3c0ffed7bb6c32bc0c6ada3ee6cdf8820fdb2e4a661307d59430806fb8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 27306,
+      "sha256": "c07754f6084be45cc1e21ae7dd86fda38845968bb95308154ee59b0d101f42a7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/barcode_model/native.json",
+      "bytes": 8799,
+      "sha256": "a3c73abee52c9a247eb43e15be0e27f3f3f693f81d4cad606708bc924a56ab64"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 26432,
+      "sha256": "fa108c1e85a666a8b86c67711d4a08a3c87436e46f4266fb6f2db80b80f36c04"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/17041b8d0d9e19405d6f0190929f1eab9c016c857659fda230516717b6a0d0e5.json",
+      "bytes": 26443,
+      "sha256": "f6c7768750e6e70f72c1583e5c585e57b2db418ee70293863185909c40cf95e8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 26294,
+      "sha256": "7338c194b2e48206e4904db39fc5e19c23068a703d124f93ee023584cb25e425"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 26609,
+      "sha256": "855f584bcd20e34b8e847065792195cd38f61c1c39812154d67d56f623edf46c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 26319,
+      "sha256": "5735cc53ff4ae5276142c8d95b084a8aa92177f6e2d9cf13e0a9ea80d9744b0b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 25836,
+      "sha256": "ab03b25eb1abf0dfb82707cfa46b73faef6a095b72c7fe64233c280bb78b44f9"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 26308,
+      "sha256": "61c9015282d1b35a93633b1f798821a0737f8f894a8187019d9121b37536433f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 25401,
+      "sha256": "e8947d14b9ff21d88c8b14fe08cc0bf1d6b4194713e95981dd94315b804545c7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 26435,
+      "sha256": "9ac6ae080a11d3a665f2864440e9c683fe1674fcc656ef7b000fc2d2e56b5ddf"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/7b1fde9ec1c7676abeb86b12a64eedbbd6326d952bbb339ec15c70f6dc7488d3.json",
+      "bytes": 26413,
+      "sha256": "a6d6a5f4daa515cb444505eca775c11a4b25d46a89870093f7bba19560521744"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 26013,
+      "sha256": "512cf65f73befc315c03fe71fa8e487d9562b7bdfd1006ffde7d0b63eb8c7ad2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 25409,
+      "sha256": "7a00e2da4888ade5475f0f208a331fb05927e66b28eb45bd4abfb400b0a6c6b3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 26405,
+      "sha256": "196bc06945b37f823cc69d09043d12554c68703f1f2450a55a0a8695f312df31"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 25849,
+      "sha256": "b641a2bdcbc49427bbfa0846648adc421bc3e4e1f5a9d30d89d2cf6c690ae9d2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/a56a3c7d2a45b1285a671a96f1cccf0d331caf1906daec60934b16747115109e.json",
+      "bytes": 26282,
+      "sha256": "a71595917bcc5906198cbd0f90c331ff647039d6f19e03c943cd5a306962aa8b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 26105,
+      "sha256": "ff60e0bed55e587aef5c8e25f95d0c9da09fc6a02dbdf8930bb76c346648672d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/adab9cdc04673a4e9f1847ad93e787b9cab451fe07b251fcc20800567bd35498.json",
+      "bytes": 26224,
+      "sha256": "e8b2a77b6f72bbd41f9b749a2b190562cc78c1fb652dab9a5af89768b8c5e0d6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 26453,
+      "sha256": "3d64afa8f47b2c3646b6c8d1fecdb811f9218460ab5b642151bb281a6e56f2cc"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 26049,
+      "sha256": "fee87dd5168730775d646d479482fbd3c2ca12956ef666e46cd4c6e26cb8e685"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 25322,
+      "sha256": "e8bd1ecdb351c35987478589826588f99a9c5642b2310251a87047e37aad62ce"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 26408,
+      "sha256": "1f4d083e29a82f7c0147ad073aad5f22e6106f9d4fe915b55ffe66d3c167e28d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/frame_template/native.json",
+      "bytes": 8505,
+      "sha256": "56ac9fa62c59892e9f6a02a5f904a982c9f56301fcfb37b8cc5aecb242dfecba"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 21769,
+      "sha256": "9b84c0d3f4428861d5b83188adae5c0c07f586e4fd5bf3c8e324466e9b2bd683"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/17041b8d0d9e19405d6f0190929f1eab9c016c857659fda230516717b6a0d0e5.json",
+      "bytes": 24889,
+      "sha256": "de7d5d9109133ab43389102a5b5ab95526c43b9007482b67f0db3d5aca0f20e4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 19125,
+      "sha256": "bac3e334c92ef8d9ea1a8c78b0246caa70e08cac54ed2b5daf0273e590966d1e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 24887,
+      "sha256": "831ebf4c6a67921f8e9167c4121cbcac918efbd5332020dabbe31330f085f2da"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 19583,
+      "sha256": "3acc1bfbc7404f8e61e535a203002ee76293ac64d9dfb04dbde08db67fc51351"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 19435,
+      "sha256": "4207b2bddc1f70b664a6fc0ef29ac65399aa46de8fd4c4df864d9d68cccd14c7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 20073,
+      "sha256": "63e27f6d4c427a5baba178bd992cfb614016a1388ca29411b4e8a8a6c48b5cfa"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 24907,
+      "sha256": "1c3e3b2de235b4c87a1e1865efbdd12bc4a3a1075503132e2cd4e82c1fd12113"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 24888,
+      "sha256": "45bf8443e8cc807ae2395cb3da3e18c05ca0cba21432e3a48a1529aeea9c3a1b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/7b1fde9ec1c7676abeb86b12a64eedbbd6326d952bbb339ec15c70f6dc7488d3.json",
+      "bytes": 24906,
+      "sha256": "b5510e1ad49e0b83187a3b5ea4a020ab076cdf978a6083ab628de550ac6f15e2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 19319,
+      "sha256": "559f735db09774b18b6beb9e571832778cc9f32721e9a8322dbb6e1a1e83ec8c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 22853,
+      "sha256": "68426773ff0d102e88a848abd24b104caddceaa37dfb1eead05badf17503e8a1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 24889,
+      "sha256": "d42037f2462eebbfdfb9013d954cf0da19021ab243ef96c1d0fbd0fa2e6c7960"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 21489,
+      "sha256": "550340a04ac60eabd4ecb221868680c76b3c39eac8f21e7661b6bc462001a0bd"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/a56a3c7d2a45b1285a671a96f1cccf0d331caf1906daec60934b16747115109e.json",
+      "bytes": 24908,
+      "sha256": "4795e082b53ad52ae5b572043260df229e6902f7355d1619fae0da05eeca5707"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 24910,
+      "sha256": "d7f01fa14a377fb696e108f7e09d6802faf8546e5dd6a0700bbb3debeefd20b5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/adab9cdc04673a4e9f1847ad93e787b9cab451fe07b251fcc20800567bd35498.json",
+      "bytes": 24887,
+      "sha256": "f9d47889926bbc7cf168af448151a62bb7c942a54d57a176bd18d194db32832a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 24912,
+      "sha256": "4d03377b5f734ceadc9ccd6b36e2085ed289f2440784951e009e77f31270d4fd"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 20907,
+      "sha256": "9db824e3129ab5588c2c6db3b1df2db2424acdc524b7ab54958ab0bcdf95f85e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 22583,
+      "sha256": "37ad865ae2cedf3f1320dd9cb8249912af27ac7eadba69740a425d6cc11f72ff"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 18956,
+      "sha256": "4ea3208e1494967e19582ea096034f24748ab75074437c3bfa5b98b7775e00b6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/group_search/native.json",
+      "bytes": 7563,
+      "sha256": "713a45784b8538c756db75d8914422c7e8cb745e6aaa06b940e829e93b43ca43"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 22803,
+      "sha256": "62c9f7373a77ee1eb52a23dab4d4bb7ccf9066130f093b66d18bed4e56655bf1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/17041b8d0d9e19405d6f0190929f1eab9c016c857659fda230516717b6a0d0e5.json",
+      "bytes": 22976,
+      "sha256": "7cd1e73e836500a9180074c7fa27eb78887f87da471fc261224b5d0f95820fb0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 21195,
+      "sha256": "60b0943a63142108a48043c06b2c882918cb0911eac03a58af7b8c4e0bb7a5e6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 26775,
+      "sha256": "8b1d3463f6420b4a66281f090a82ffae7cc7c47cbcec9595c1d18b3cca9b16da"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 21625,
+      "sha256": "2bcb6bd35c113fdbfa281c0f9fafb99f357bc8d82d344e2a0b684ee21e551e3b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 21417,
+      "sha256": "3312a8fc03c95337e878f073d422c9275d995ddf5ed4be4b77e726d51e03b726"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 21656,
+      "sha256": "cfcb91e4583001077db83d7beb9ad9e8e3f15408505694a9edd7dd6c7c679263"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 21117,
+      "sha256": "4b8692407aa03aefdf6d3237a3a15a44e550cbcedceb77cef694dfa0734f4376"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 22900,
+      "sha256": "06b8815f30474eecbef3b652031ac116488149d75388e2088d4396531bf2cf04"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/7b1fde9ec1c7676abeb86b12a64eedbbd6326d952bbb339ec15c70f6dc7488d3.json",
+      "bytes": 26724,
+      "sha256": "d87c989a08b5289fa89960195b1636ba78c54ae77a889eacee71870c7bf502bc"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 21471,
+      "sha256": "66075661683963e966e96f104841793928ecfd9eed85e8fd4d79f2f5e53a6d18"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 24917,
+      "sha256": "f52528fc3210ad759408d8b6aeb1b1f4ea8d5413dcca4a6007b8296741f10e8c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 21479,
+      "sha256": "77998851ee48b7ea0ab50c43d130379b5dd2843159fbe9be9d8fb3387c40eb7c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 23589,
+      "sha256": "f64b9159dec393ddfe2262e37ade728f32dde1f2c167ec11521c8d06f3ef91fa"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/a56a3c7d2a45b1285a671a96f1cccf0d331caf1906daec60934b16747115109e.json",
+      "bytes": 26831,
+      "sha256": "76a3f1b1b0f54f981878fce4b2bf6e828eab4862cc51d6bb5da2bf8d847f98be"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 21893,
+      "sha256": "f247825761b846c7f0f16da2e07d2d4af06dd7368be295fa8ec2f85a0a5d6a37"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/adab9cdc04673a4e9f1847ad93e787b9cab451fe07b251fcc20800567bd35498.json",
+      "bytes": 26865,
+      "sha256": "c8604d44febb287e90afa127d23dd879f6e8657f4362a3e925614c296061596b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 26958,
+      "sha256": "1be7dec8bf2d624ecd6e120ebae06fc21d0bd6cbdcb9026a80568e88ad3a0c52"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 23096,
+      "sha256": "1dad84448f99949ce61effb52b12868d1d6e3d048f86d05644e22991c102c9ec"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 24697,
+      "sha256": "aba91b22284ac93bf2dbd4f459560fe4a2d2fe4fbe27d3317d487f699fff06e6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 21233,
+      "sha256": "f2a34914a537127a3f53a1642bf64024a3b118ce84898054234b2e9ff06e26b8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-0/correlation/round/native.json",
+      "bytes": 8583,
+      "sha256": "2b320992eb6cb3dd769b8851d1d6081892395833cd4ddd3162ff0bd0b9c0435c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 39619,
+      "sha256": "fb339302c052df9bade05bbcd7beacf94e2dfe451668d4c86011af188922c4eb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 38000,
+      "sha256": "49200b70877103774a9c363ef9794e8035b5962ab90891cdc423a10d74780454"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 38607,
+      "sha256": "6c397167b9a08374f04adce46f28ae2894b6dcb435b787442b25b5d9e4ec3d7b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 38592,
+      "sha256": "647a838eccc2919f601affbf5a09b14de43ad271c059a4de3634d179689099a1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 38577,
+      "sha256": "d3fe787958757f12690d28b88d045eec329ca149edb963a8e08e1273341277c4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/5c7b3fe0d7b199347bec5677240471e63ded8555a5dbca8fe10b6f536657be1a.json",
+      "bytes": 38391,
+      "sha256": "e47614c0c32b501629332fd7ff11012532e05deaaf3521f90eac16dba074cbfa"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 38041,
+      "sha256": "5101116df92b6eec3007e274fe2448256345877efac132003c864f6d5545039f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 39030,
+      "sha256": "fbf27a84a534b83b2931f703750467ef25365eef78df3ac1c423c7356be029ff"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 38315,
+      "sha256": "f019f3c082a84034144869e7e324e43740ccb392d7dd5a9ac1ea2365fe46ab0c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/79fe31436c2f489a2f57b104a8fa0bfaf7f9bd8164dc734f5b8e23a9b38d35d3.json",
+      "bytes": 38165,
+      "sha256": "a44eb7cb4b7a601b001e736825039e79b40b6dc986f42db8236ae5f30fb02051"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 38085,
+      "sha256": "f22eae96300458ad11dc505c5db5ff0b1097bfb8c8390e0dd71004e2cc3a84cb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 37550,
+      "sha256": "8d21c34dd5017c2fd2258d9fd2e458a6f0ea73cb65e39ed98d324d45b2b1a7eb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 38486,
+      "sha256": "7d714c16e1bf646a77cf04e6c938194928831bfab7aafe112c948daf58febdc7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 38945,
+      "sha256": "eece5199c278876cacd041692c4ce15b19448fe8221f9b2d45daa0124f16f045"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 38551,
+      "sha256": "76d79f10def03e42ed1fde73933a93ad433fbd50290c2d615ca6f91743966b54"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/b64f391239ea02df550121d16fdbb713a2620002f5ff5140f17df4ca0e5b33c1.json",
+      "bytes": 38550,
+      "sha256": "b17f11c500f226e70f7e672418efff56d2eb3004f18804d1a474b203707c825f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 39001,
+      "sha256": "c96de0635802ef134274a1f52c2905e534e26fa5922998eb30c5fce295c8255c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 38480,
+      "sha256": "eae5c397cf457a01c84927da051444672e91b0c010372747a89ba62936e91d9b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 37612,
+      "sha256": "aa0db6bf05c4d27ff31a11c76605c1ba7c782d0e75b2a3cff8633a0f7f40cb98"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 38370,
+      "sha256": "3033050bdadfa05978bbf9d53c8fc6e1ce70827aaa240acafcf31e5fffac814c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/barcode_model/native.json",
+      "bytes": 13056,
+      "sha256": "712afd7b04a5e17f7039b55f233bdb859f70ae11e1e2671c86fcc5ca27ed1c19"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 35804,
+      "sha256": "6bf8d099a1fee0557608eda05e8673f34a84b1c00f62b225231a6aaa13aa5c0f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 35783,
+      "sha256": "5607412ec690a4472b9f6f8e0bd3dd7e9310104c23f613667765b3229fce5353"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 35797,
+      "sha256": "21cdca440971a9c7a1cdee605edb894c49399a6c493d2bcd8c2549abe4e8e13e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 36029,
+      "sha256": "515f73e45c160e0cefdee27587aa6b77ae8e570710b5a610d3b0914001ea14c4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 34737,
+      "sha256": "705848369f36084ab2fe1ae9e0904ef85ed4a5c19cd9c45a7560147abae466bd"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/5c7b3fe0d7b199347bec5677240471e63ded8555a5dbca8fe10b6f536657be1a.json",
+      "bytes": 36037,
+      "sha256": "152a8060113bd07d709455af7e2b9cc771382dec299f1004f0ff050b89f776b8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 35700,
+      "sha256": "18f66835ca842ca61f6d9eaab812c337935be66dea1ac8810e5893406c1899ed"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 35871,
+      "sha256": "d172ef350d399e902690e93a7a0137f0fffbc7f5c1c41edda48308cc96c13c6a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 35699,
+      "sha256": "ec068478b7716a9b95b67463c616bd4eef4b3eebe2ee1e0587d55b86afa5cba7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/79fe31436c2f489a2f57b104a8fa0bfaf7f9bd8164dc734f5b8e23a9b38d35d3.json",
+      "bytes": 35856,
+      "sha256": "efe19580141216c88398d0ce9340e22d28f35470fec9f76ab89f047d018c6672"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 35314,
+      "sha256": "a374447bfa5b02730de0cbc89e585713ae1fce1b9f9188fbe4b5e82272d2722d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 35134,
+      "sha256": "c7fd47044b8660eb70490a8792daba3c2726ada4fd33c494d293d59fa4af6842"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 35999,
+      "sha256": "1dfca6d8047070dc1bd044334de5f43aac699d534a16cefd3b66092acd280cd2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 35504,
+      "sha256": "140eb248575bd2b6228a72ce6edbb6433ac2e27791dd3518345f8c488f77b752"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 35867,
+      "sha256": "3a51dc3bdf53ec9b2622cf9e5349d35c14f17e04f87fc97906ab8446b67b6af3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/b64f391239ea02df550121d16fdbb713a2620002f5ff5140f17df4ca0e5b33c1.json",
+      "bytes": 36241,
+      "sha256": "183e8f723bb1ca8acb762aa3a4401cfa660307e6987a1e0c62b35a4c2ac117f1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 36058,
+      "sha256": "4fad29721c76a0c7e481f1ef7e1f8e9ec462be30d8ece2bc9839c47a21f82cd4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 35509,
+      "sha256": "8dc487bcc8b6e209bb829f93f6855e30aa34b008eaf06a50b8cd11fcc111188e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 34807,
+      "sha256": "8bb33323f57d147df706794070e158b1200962b890edebac186546281f71353f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 35759,
+      "sha256": "b7fd641fd05488937df6c4a4130a1909a920c4653a68bcc2116e6c0f56065227"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/frame_template/native.json",
+      "bytes": 11991,
+      "sha256": "58a307a89f2ee2d2748e41bc42ffc3305447bd422df69bb77ff6cdd584a0dc67"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 28657,
+      "sha256": "127f9a3109e56dd7e5b79090e873f8452654dff12cfe63b01a4a9ee1e546cf7b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 24227,
+      "sha256": "582b8c0462b5c521cc9862acf0de9a58a58ae71d074764a0aab4b6ee64ed6a10"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 35190,
+      "sha256": "054d2e5f89e7c97c6fa797e986910947faa6237e8299f8d18d9f88a32f65b174"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 25765,
+      "sha256": "d0947adec9e672c35dfab9beee390a6bd67de75438c0fb7c5ce1be7040705c1d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 25009,
+      "sha256": "8c998ff4bcde183e177ae37065cf2c21a0dcfa90eb0a90786cbf7a76daa9fa07"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/5c7b3fe0d7b199347bec5677240471e63ded8555a5dbca8fe10b6f536657be1a.json",
+      "bytes": 35190,
+      "sha256": "99b891fcaebc5a99a8c2a1801f6924ffbd82a09fbcfa9c60f47fae32faa49092"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 25845,
+      "sha256": "cdc57d286e2cbf2a381bc3388147045c71953de6f1f5b62bc09d4612af6ff903"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 35210,
+      "sha256": "ff6a28fbd87996b50bd5a3d3a5b038e317c7d8cb35948f4e71b72130bedbb3f8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 35192,
+      "sha256": "87408c60c62cd7538603ddc7634caadf10c847865870ccf90069de2459153d05"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/79fe31436c2f489a2f57b104a8fa0bfaf7f9bd8164dc734f5b8e23a9b38d35d3.json",
+      "bytes": 35210,
+      "sha256": "8c71c688d3402f433aaf30a2a533d1ff8c25195ca1b1c44cefba584ce3d07099"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 27515,
+      "sha256": "8fcd558f2dac6a39a8c25c9e398673fd06bbf9a539966ea55bc1c4c07d251f32"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 30995,
+      "sha256": "2270ec5b93333b9aeb305c33bcfd21b3e536ff501ec05f55add19e11978d37b1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 35192,
+      "sha256": "1dc0ccbc8e96ef6d37692b87a4f0dc25542f0f926a9cc1e4c996f523c582005d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 28093,
+      "sha256": "cb427d362fec1ca1252a28b854025e7583220052c54a3a63aaa63533420b2bac"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 35211,
+      "sha256": "f7ce19afd03499b7ba1442824c2d2860197eecd8e0ad38cdc3d3d547ad1e7a1d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/b64f391239ea02df550121d16fdbb713a2620002f5ff5140f17df4ca0e5b33c1.json",
+      "bytes": 35211,
+      "sha256": "fbda7151f1b3dfca82edd12e50692956821a908de17932ebf1a1623cdd5aa0cf"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 35214,
+      "sha256": "686e2a30617567f69f43032636703681296d65fd4d3d88a7a95ea5e010010744"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 26899,
+      "sha256": "1b19cd7dc95215b87d6a354cdbb27b5523df702b338acc13397d1df7754b4894"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 31300,
+      "sha256": "3baee42d38d6fd6c8049e8b34ae280ece0bf93212f9088db29397d48577c41ca"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 24908,
+      "sha256": "96c6327b2aeaa740860e080e8c341e8ff6920ed41dbfdb2b456b5813fb5fdc6c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/group_search/native.json",
+      "bytes": 11392,
+      "sha256": "88e73a62937e982815880e7943097ed87a1232235df44b12dc571e48922b52c6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/04b4751c1d44c9d9779d39035acdf5a85db07b223b513c543f1fb3b4f5f4767e.json",
+      "bytes": 29867,
+      "sha256": "59a968c4a80f1c6b9c009fb96196185f19b9f1249bcc6ec2cf0fe9ddc2b74e4a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/1dcac5782151374ee8a0094f32c94b69ae8004e971b9ec350830e4bdbd547a66.json",
+      "bytes": 26267,
+      "sha256": "58c57f0131051d3e054c1d54d5e9626055536fdd1957843effb43bbe58ddabfb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/27fc25ad6a5c897fd65ee872a90afc7051933baaa39fb83781765c7f8928a3d5.json",
+      "bytes": 36853,
+      "sha256": "637729ab993ed1f074826c50b0f65a6d8914bb9b50698d8fab7e88f17752d7e6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/2ae4f6e2e6d2f1893ac981719c4c52e4fff2cba064cd0933372b243378df7970.json",
+      "bytes": 27783,
+      "sha256": "e9802eb15b47c465723b7780be6a10e0195ab2a87008289b7ded325cb4fccb83"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/570b979cd2a210239e2726ea2b976407479c720218a75a258b5d8a5a3229e22c.json",
+      "bytes": 26810,
+      "sha256": "2f5f6d90575541eb6acf0405d789f8da67aa6ca5ba011f0768e48b76098bc003"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/5c7b3fe0d7b199347bec5677240471e63ded8555a5dbca8fe10b6f536657be1a.json",
+      "bytes": 36965,
+      "sha256": "0646cdc5e998f3273f2ebc76aec9971a78e87b23c8f6a035fc07522f9d37d335"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/615b10288e0193375a2adef1f77a40ea3da13359263fa67a344452eb5cc81522.json",
+      "bytes": 27504,
+      "sha256": "041b8c9eaa4d33873c4ec04a20da1b97edf2c0319281bf1e0c6730cee39a2681"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/67eb3aad9a78f8e0517f9b9a6dc5303f0083c837640ae4cbae5bde1b2b26e915.json",
+      "bytes": 26523,
+      "sha256": "ded8199e72ebeecabdd7e6250c3038d09369378e90a267bf29ea0e9519de9183"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/764c8fe2b3c5fe514c16ed7986cdbf21bde1ec41fd7cb076b4184f02e75fd3b2.json",
+      "bytes": 28648,
+      "sha256": "9ed84df29b8ab8547d1e8d8204f580bc6eca1192fd811b7766c49820ebd27959"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/79fe31436c2f489a2f57b104a8fa0bfaf7f9bd8164dc734f5b8e23a9b38d35d3.json",
+      "bytes": 36840,
+      "sha256": "1e295b33103a953740e7281ac34cfc0f6fb165c03e7ad4c54ade9fc0bae112e9"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/7fd0f31f31f087c08c6ba9bbc500d639a088283ebcd708fb77301874300c7ae4.json",
+      "bytes": 28257,
+      "sha256": "221aa03a6cacf362369ac0f56df7a8ee6290cfaac65513efbcff49d166d538c4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/886a31e026fce662c48ce6fed0bee987a4353c4ed263f37bb78bfc3f3142b274.json",
+      "bytes": 32933,
+      "sha256": "74d1c3d333bef2f23e1b8e5291499a925145f28b2aece462550e219f97c7fe6a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/9c2d9f9ed7f78d8ce974d291a2bfae20f9bf3305537f1b8979f1f162d78f576a.json",
+      "bytes": 26887,
+      "sha256": "72e81d6f9ccd7708367153a58aa7242a3339a61d9cced0c0849d4982c85465c9"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/a05f38cb307e7b0f3ba8166149fa232fedc2c45bde30bb86cba0186f16a120f4.json",
+      "bytes": 30056,
+      "sha256": "a605011cb8c6cd53fb989f7097de6504537e4eafbefafce59c5f30c837a2b4d7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/aacf708f59b8d2f278a1669b930f026d41d2e18534c4d990cbe8c063a604f3c3.json",
+      "bytes": 27465,
+      "sha256": "30eb30c20a170d538b021850167da8a41ec20e61767575c1b2c5b42065268916"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/b64f391239ea02df550121d16fdbb713a2620002f5ff5140f17df4ca0e5b33c1.json",
+      "bytes": 36562,
+      "sha256": "a3e26f87f2bc01f0edf1a37788cca1f2cccc7206ad10b32bf660402c9cc044b6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/d2c31675387418b48b9e7b7eb565d889367ea22b739a9b2a6420f69ec0a82414.json",
+      "bytes": 37127,
+      "sha256": "71bbd90a2e3b0d38518acabf2c918b63e5727a24165b8588050ed47dcfed3759"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/e0e1e65e97d8a4f7afc8ab6b1552ed86a7e1536cd83d9b7a73c3efde6ce7c389.json",
+      "bytes": 28123,
+      "sha256": "35489400bed1a0ef3db54a103db3e5e419196b67115ef80dbba6facaca17ef62"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/e2ebfece9f98e409a658479def0a9856b0613cdfad58ad29a0e368fbbc993216.json",
+      "bytes": 33300,
+      "sha256": "35c2216069cb5889bb293dd7123d74ba93ea6a7cb4048a88ddc85d0307f9cbe7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/eae05d991f7cef7dc1af3e142c05fd0dd4140f512c7250e79025f3b5c40839ab.json",
+      "bytes": 26752,
+      "sha256": "04594956f45c378b35c502b7e4d60b563a703a1b927a7ea93357f1d0da862b7a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/barseq3-1/correlation/round/native.json",
+      "bytes": 12382,
+      "sha256": "ada952f89f78c9be4e7187899402b36ba291e249e1a31ebac790b69e5f86a7d6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/collector.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 30868,
+      "sha256": "8325228bc163905d188140203f69bf1a1ee952d462f9a65aaf713e72f8da9c9e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 30972,
+      "sha256": "f938f9139ca7c8b6a7250d58fa0af88f3a51797b5b0796deea8ef12b656038c1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 30767,
+      "sha256": "e0982c32a4963cbaa25fe8972bf07e2059b13f814d6e5bd3cda7f9a91a9b2bca"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 30590,
+      "sha256": "ca469758fd7ed302ddae1335e055ac2447bac73d9567b1b84b43790c5020df80"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 30600,
+      "sha256": "0c0de44521792742e2528bfc4a922b8981b6debfbc414b6e5479ec699aa0985b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 31132,
+      "sha256": "a6f17315f52d12310873980d0acbec1fe5fd45267a6f6cef5e83e1d855a7ead7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 31147,
+      "sha256": "b2d2f23e8e39da33235949d3a59b86e4d583b664db1b669b44abda99ef12736a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 30783,
+      "sha256": "1dcbe47ce0c725c8a5a305b227f3ebaebbf2b8d2d501a013361ff4fe8c38e5fd"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 30956,
+      "sha256": "a32207f9e9d3bb26ea7b6048f5efacbf1354a80aa7fea9a7f6765478307743b7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 30758,
+      "sha256": "1216d6042e398e2373ec832012a8e3119f4e3550ba3d890dcca5ec2760ca76c2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 30684,
+      "sha256": "d9abf85c660785e29540287d39d672133854182982ba9b8140fb7f1d676d3435"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 30876,
+      "sha256": "441a48a5232b635e673c1415474286e15d4c15624c909a8613c8b20a68b659f5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 30954,
+      "sha256": "a80f742b646faa1c9bb7f6b379fe8619d57fd2eafe962671642bcc2edc7f651d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 30681,
+      "sha256": "3da61bae34f9f7662565ca1b49886de9fc5610172267a09234ad6cf76e80e171"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 30597,
+      "sha256": "7ea6f952d7c829d95740941381ca5415d643929e79d3627e8441bdc00aca3c32"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 30588,
+      "sha256": "8d855dbcd6289f7f6e42b3508bd75eddd37e73e881cde93e2e7026631eaaf59c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 30865,
+      "sha256": "5da8cdaf6f457ec46a9e0b14f90cb79ed77fa4bf2ba489cfa3ac456390d78bc1"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 31065,
+      "sha256": "59fb422c4e083a4b1fc16331a46631bd96672d6dd13d9f8e22efd028e56e026e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 30682,
+      "sha256": "86472111d4e9d647cd60fd7a8dbcb1a581a436ac7f1186bf434963766d097bdd"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 30768,
+      "sha256": "e9e10d1213beff82dfe8018261713e7d95cfc72e0e11984340494830b519dc3d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 30862,
+      "sha256": "8fd3f4ffa64ac5d1a90e20741787f296c041acff7ef4a0d1f7735d5e301d0f80"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/barcode_model/native.json",
+      "bytes": 10982,
+      "sha256": "612938b1b7e6040299ad22a0267710313782ce98d9e0cc38298a3c730a766140"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 31037,
+      "sha256": "c3435a84da129fffc3735c0ac4733095b1f9cea63722dc9bda8f0f913e5479c3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 31033,
+      "sha256": "138cf5e818b07aafd2ad858506b786eced20fe05fcf93ca7c590c49231c8b98c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 30175,
+      "sha256": "c08d3e15eea55536084514a78637404b08acd6a62ca2aa3aa2adbce5d0a37734"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 30930,
+      "sha256": "3c1e221ee9257f0f03bb30e3ac5ed33bebf77843b04cf2b84df0002669f0ddd0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 31043,
+      "sha256": "94140e239e2e87d358394c2eb561938d7e974d22cf72d83bdba526d6e544556a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 30839,
+      "sha256": "5c3be0aba9f2da9efa92cb0be2bd246f6758a960235c933a22efed260fe33989"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 30754,
+      "sha256": "9d2ab5af2bd3fafe7ea7d60d51c4d11707a300ed271787c7427933db1c9bbdb0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 30658,
+      "sha256": "2fa004ea65f21f9790a4257cb6707aced1894d0b930fecad4c52d9581f751623"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 30733,
+      "sha256": "888d20f2abe2106ecdc6d0aead30ebe70ed4166981cd4e929f53bfb991f17b9f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 30558,
+      "sha256": "0b29f453d5a3a0c374706dec6386fc624ba835ca21c553b8fefd0d5a73496829"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 30829,
+      "sha256": "59fc577b1737530c6ab11e1dab350dab8a69c8a0d33a38c5e2a2ea65e42fa82d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 31029,
+      "sha256": "0ff68652f6a9b154a0d7caefdfb08f71648328fa83fd07f5479b686158a18410"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 31015,
+      "sha256": "4a97661f20b3ff16e2b113e0b6953ad005738dc504eba44974d540dd539e3c31"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 30842,
+      "sha256": "4b2c65e28c2f1cf73452b97fd7ae16a3017ee19b135a40465273b02871b65baf"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 30926,
+      "sha256": "e5e51c3190d17a58595bc8ba20b1f2a71c8915f2df0a87ffa0605dc4dae500ca"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 30732,
+      "sha256": "22697ef3f64bab2f41933a9930bc633d35808752fbb907fb73c19cf99f48dfa3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 30748,
+      "sha256": "221d5e20f92234beb8ea43e14caccb3258d94296a7ece53020cd9a338c051988"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 31030,
+      "sha256": "818b297715aa92f947356155a81c89877f70d802c82ee34308357c78c313d715"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 31129,
+      "sha256": "270f823d9b71fd86973e83448b71c6dc1344ea328b8c091190b0e00b1473785d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 30928,
+      "sha256": "349523b1548eb8c6e6e8a73165c249bc18a6ffc3262fea11f3cd009e3722711f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 31120,
+      "sha256": "1d96f5a1205721484ada7abbb7805e4a9edfa90e5ba03b86629d7bdcf875f770"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/frame_template/native.json",
+      "bytes": 11141,
+      "sha256": "78cd890c4210274aebcc642b65bb37256ab4c38cf53fe3c52be447cc3b4a419b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 32164,
+      "sha256": "4c4416177ae22b5373ddf2f49b41170b5a2cf4a45b232a3a1a6bc8c2626316e6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 30238,
+      "sha256": "619dd4a72ce0ab305e339cacd4066c36ad425a495b9e56e90047f4fc2fd62168"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 29751,
+      "sha256": "f6234b2cb45d183fe4de8c0a173550388c2d066b5052a6a04018a4c1c1b1609e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 32163,
+      "sha256": "adde4ff0fd5b3eabaa19905086d844fc8a4f1d6eca4140b8d333aaab892ad111"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 30139,
+      "sha256": "aea9777c92370a0d6e3853b494771c5df1f3698e82c4008c545048c054014649"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 32172,
+      "sha256": "e15cfc26a85e71913f2e83608d24f1d12b2a8b9c3adfe611ac89f46a291cb8d4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 31444,
+      "sha256": "ff39f19e9799f229f2192dc3cc42a9b2b640a13b3db416626560d6eaf6ab9ac8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 29121,
+      "sha256": "4b4a6bc19615528c83976a46c61e4e86bfecc0cdf197dd816e11e79f5ff9d09d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 30504,
+      "sha256": "6c3084c18f8e745f28abe179eebc0f7820cfefb349e4deae3b7fbec8e44c3350"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 30113,
+      "sha256": "cb3a5e33749831e80e1441b5be17efea0114a6d36ec6519fe666c9b6e3d0b332"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 32172,
+      "sha256": "1efc0dba22fbd39f307227d227a3e2710e2215423b3feb05a921be7ba3a8ad0a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 30047,
+      "sha256": "27d23dc4a9cfb3404e19b245034354f34a9f87f9abef4d8e364312d4d9493459"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 32171,
+      "sha256": "61214b7311c803a7eaf438a7d1a3cfb9981a941016f24ee4bd13d9c7bb44630d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 32166,
+      "sha256": "3c3ad702164f6432e7a4b3802e2a0a7b48b508307fdf76e72a80aa84ae1a5bb9"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 32165,
+      "sha256": "944906e9066f528fcde9b3cd2a1756658bf5e082e70c1ea84556be78e4ff5f2e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 32173,
+      "sha256": "b06834d227b3239e13a3e52c2000f7773284b677dba63e826b09c4dec6bb0b5c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 28016,
+      "sha256": "0783271d75d0cc51a9d88d03cf301db920d1d97745a7854a0e686637f2ebf150"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 29389,
+      "sha256": "0293b2cda94e1bc201aba604751280439bc6907017a6c7c81bf0596334ed9b2d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 32165,
+      "sha256": "eb9051068ae074959ac7ea4b9f17c21c9d88e4caf5def689f8737187cddeba38"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 29913,
+      "sha256": "fd2c8298dbf9bb2c38e94cbca0f345182fad438db63f71465c8a85521a53fa6a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 32165,
+      "sha256": "78133e5a72f823ac827c44b9b4e4457c6c47501280998821eb6c4e58da9aefd6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/group_search/native.json",
+      "bytes": 10852,
+      "sha256": "0e2ac77f4d9e5e32826094394b8497f2400d653fd6d2cd10015ff6f6e3a3e9fe"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 31288,
+      "sha256": "dca2fae559bdbdf049f1aa625e904d49596d887c0d99b242489f39a8bde99bca"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 31124,
+      "sha256": "57f876794b10693d7703dca19d9c8245a0f2f1b91bb286074ff0fec1698edfe6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 30930,
+      "sha256": "ccbd848b1bf6847881bc79f4413fa52be357e1cd23d5c05dab7a5964f19bb743"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 30364,
+      "sha256": "fc938e93e2ce83db3d98883d9c5988b5c5bdb4c86a30b832061d03ba1ddfd661"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 31284,
+      "sha256": "18f0b8d0504e12148133391466d5905e03e61982fa9f59fe5380987a44fbf4ff"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 31263,
+      "sha256": "fbba056101ad741ea62ef5281d4509f25791ce9dea5777654ac84b6d6705ba8a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 30734,
+      "sha256": "741955f27a9a32ac5caf633a652f977bf112cfb1882ec196430fc8c5a436a8fa"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 29344,
+      "sha256": "7a58f165cebd91ea41bfc9e672e71662e92732b1ea1c798016714ee5603ec1df"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 30181,
+      "sha256": "934de5c226f855916f86773795da61101db7f47fbef4cd89faa2170521217c7e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 29718,
+      "sha256": "f5f6c52335bd1ec9292a21878a0162b02fa736cf5b61c392eddb49e0a2429521"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 30248,
+      "sha256": "411a2e2e7bed20ffce7397c58206622beb8dc9c270d5d34ce87737aa0bed24d7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 31088,
+      "sha256": "6967889a757c4cf4642162975aea2278d3a533ca537f73dba7e56297888e8b4c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 31270,
+      "sha256": "f7358467e40f62a979b95db172f5e5a79922237270788c2aae2d8955aa708358"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 30728,
+      "sha256": "6d49f34d4a3c775b97a6725c5ea6fb539cd2523c2cc06ed8a0de35f83bc3fcd0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 28887,
+      "sha256": "f179eac7537e9ff3798be040b84ae46f478e1e5fefae1bc177b69e79e1df459f"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 28509,
+      "sha256": "c8a7e0bfb24ec741e7fcb8638499b96e15176faf32b70302b5bd7baa42dd1120"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 27316,
+      "sha256": "850790ab963f5c0d34da57e9e7cdfb9f7459d676abda394c2f288f26d5fa0ddc"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 30552,
+      "sha256": "e2ee033289f4bbe1e02d2124627e1b8f72a91e51c26465fed6ac23f47aa737d6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 31285,
+      "sha256": "6e9dfbe7ba6d7be2bc28b12eaba318e0045aa656ff7d6f06efd9f49d965f7776"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 30344,
+      "sha256": "80ceef3385bdcc54c6e34d48e0c3315ec69348b5e753f9cf945eb26f0f0b63a3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 31281,
+      "sha256": "ef8262fd7258c5d9af8575a31c52a4672e3dd9b8ec45950df8f527565a01979d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/correlation/round/native.json",
+      "bytes": 11180,
+      "sha256": "42c7a4cf085ff8a59af87948dc2012141da29893f74d8425335103ca84a4606e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 34445,
+      "sha256": "5474088a75ef1793ff2c14e5253e5965ed59e524335f1302baaaff126f1a7de4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 34269,
+      "sha256": "8c1f8117438acc0b9f3e304de9fb33d3cdc72ffb5b30a1dbeb672eb277e779bb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 33606,
+      "sha256": "7307a135802d8be4d537282470382e5875477acce56cbc0a4fc64cef7bbb88c3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 34162,
+      "sha256": "b55601806f8bfbc26dbfb7ba749b54170d5e552d5e16470af4a009102b6ba804"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 34083,
+      "sha256": "0143aaa3cad3476ed9d9540c1ddbda4e55342ecde783be9aa644e436b1a875c2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 34156,
+      "sha256": "b43d8b5cfb09ea0e1e5a3742d295a8f14ea4bb23b25c51eced1f4eca2f721c07"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 34247,
+      "sha256": "f2e5b9538ea5fdef4f33fa3618e81f750d55020cc2c94a28a9a544f27ae1a561"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 34169,
+      "sha256": "7c71f8ed3130b6e4814d4835428b1ef9b5cdf86c3d837270c71d7d9765d45a13"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 34348,
+      "sha256": "2e44e8c19a6c73df9db95157b563c4f2a4efc5bfc0312b6858e35b504d96fab6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 34144,
+      "sha256": "464148a99b21023913282ac6bc2f1b5b6a4d3bf8ce034f5498641bd048e8e919"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 34167,
+      "sha256": "f198ec9b28a3c4debd0b420f103e9d07477d860c448713334027202dd8dc49ec"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 34360,
+      "sha256": "5c0d3d0045ae5ac4b2fe3f52231a466562e9118d7ce7cf9a73566a232f8b54e6"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 34157,
+      "sha256": "ff813f8a748b6b9cd69dabe58f28316a826cb491085ca0703d86ea3245f03bbd"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 34162,
+      "sha256": "60317cd41b0b8e095cdb9f4deedf88a049fb10e57b658cdeef8a539e76843d8e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 34172,
+      "sha256": "3b2b6e7ddf992fa2dcbf30b367103c054a48f66f319ee233949b07cc366a3f41"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 34069,
+      "sha256": "70a0dd0b405458b6c2b1476ce1647c565b75be87b20ea654bd8c7034b0ed845d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 34253,
+      "sha256": "178d84319a7085f0791476e15ca279c206f083692fcf4fcc4548681db891e171"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 34457,
+      "sha256": "6049980ed2e2251a64f7086f13921634502ecb915189ccdf4c1e26f022bef4c5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 34166,
+      "sha256": "7f59d62d83724d0f37a6a606f4349acacb0a4846c42a64baa7d332e641279b25"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 34343,
+      "sha256": "acafdd842e5b7bdafd5cfc41f2b63f635572a71926dce25339098eefcc4346d5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 34165,
+      "sha256": "2c9137ccb2054ef235bc49531dd74b98affeb8692040d079273c2374f73f9318"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/barcode_model/native.json",
+      "bytes": 12262,
+      "sha256": "af1a96c04b04d3fc9a340e5b5dcd5a2775668572ed7f5185539937457011d547"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 34152,
+      "sha256": "1d66dbc47865a3c83b87d715529461a533be9e08d426a0b7e822f6cbe56fd8f9"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 34331,
+      "sha256": "1963265680dbb7194550421f557c5abbd6b2fa9ffce06bdcf8a272e9213ed43a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 33003,
+      "sha256": "7cf6db8b60cacf5a51317128b86d5d45049c887be24e14649b412d999330e467"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 34048,
+      "sha256": "5b7666d34621ddd836e2ed41c1366a262d94235cbb5581f368342e7c86eca729"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 34249,
+      "sha256": "609ccf6f6cd04ec52d268a1986e29ccf6b633ea135800b04c19cd555c27d3194"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 34135,
+      "sha256": "f26549f6c57f76c8e453b43a353a62e5feb9584254198644ad4b63f816e86b1b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 33398,
+      "sha256": "77e407e47aa21aed2375eda5b505ef8051d8ce94bfe01f47b2d3285543779e91"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 34326,
+      "sha256": "73a06fb2cf05e19d2984fce66835aa2c46b38945be4584df5b34bf295c43e1df"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 33943,
+      "sha256": "a7bdd0fb9bc234e0062eb3649e41f0b791a56a534bf2ecf5634e9f7996d2e104"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 34039,
+      "sha256": "d1379191806d4ccd3483a25960e834d285fae61f13f667e40b95ed7bb6b413b0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 34035,
+      "sha256": "25417c2fe47f0fe52d032ccbd6445d0f8db899ca40c6d3e7856b7b983586e3be"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 34235,
+      "sha256": "b92969df8fe27ff07cc380741117a65625f162253ff2b16cbd3934cf45614304"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 34128,
+      "sha256": "191626eff3012eaf8c38e10ba319cb10b77036b6d8b38d74e9b9276f6d461111"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 34049,
+      "sha256": "25cec3290acd148a8e753021a44ef75f1bc7d6fdf0d2e3dd5ff64bbdbbb0cc12"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 34223,
+      "sha256": "a8a4cf954588d9770c571d752a32f3d8e7db0a1bcecdb7e16afb46ed73c6825a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 34215,
+      "sha256": "9a26197e963f73a523dd03e687eacdba48a732b7a8892cfd14710db891aed784"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 34228,
+      "sha256": "ee8f80283e04f57a5f0b844ec824305530f860279f3ede524c951a7a8e550b91"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 34145,
+      "sha256": "901e0731031abc9955cdb93dfa7cf3e1ab534ea906bf7b2e4b8d908f5e032ba5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 34150,
+      "sha256": "d9bcb62945f0d09b503a072a52e1e39368d82a648b7ff5b86c857947ec1a775e"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 34137,
+      "sha256": "86b03800789db535d51b56be754e66ba3826b518bc4a39db5d5a4b783dd1d5ad"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 34144,
+      "sha256": "af593aed4d3375e9576c9c60d195eb10aceb1f187d9852b3a93b425fb03f06ea"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/frame_template/native.json",
+      "bytes": 12282,
+      "sha256": "0253fee6bbbf8eff075ac2555da00839ac5c3e7a562222a1be8cb24b02c9d89b"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 35644,
+      "sha256": "00f0a55c7310799f474756112ec864422bdaed0d08ccfbe1eecfababa836e502"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 33904,
+      "sha256": "e8120f556ae3bc6def50cbda6e056426f856948a90cfdcdca0520706f0f365bb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 33486,
+      "sha256": "2c4eff92d531836661ebb6a8bdedc87ec663087e31c47d0bef30fe893fb85470"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 35644,
+      "sha256": "618e36a9e35973ec20d06722472be21a026be161fb83208e7476357e92adb7b7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 34062,
+      "sha256": "880bb23cb75a87fad720545d94915ae2f45a323f06b82048e7c7c4e184d4a8c2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 35654,
+      "sha256": "b3bc6bb9749b8f7a2733dd0da83b16bcc29fa67372e42932abd0fb23299ad4f5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 35465,
+      "sha256": "47f48a26209c103de4f005ddfed9619521a1e6b61b7e7e04989c4c826ed13139"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 32779,
+      "sha256": "ebc1382e495bf249a6d17d39feb346964e05f0b17fb5689572d0064e01625d1a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 35371,
+      "sha256": "86a5eed570c57672ce300662135277bf093ff20c6947f58d48761e1d10720f0c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 34974,
+      "sha256": "e6bcef0c25a5fe3541e09473fc83e23569dd35301b717089342d3148d0fc1c28"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 35653,
+      "sha256": "ae5a9974fb23a5152c319d8b2889c6c55299b355645e2710aa7b9710b8a9efbb"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 33717,
+      "sha256": "007bffb72a857dbf05cc22bfd6f6100a1ddd20d13ec555c0b2cafafdccc2b794"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 35653,
+      "sha256": "5d2d009f8a2ab04131e766865044e6cda796c739afc7649d84e8827bf4c4041c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 35647,
+      "sha256": "20a06b400bcce32335cfc646cd52136072e92ae6971f145b4fef85bbaa5dcf82"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 35647,
+      "sha256": "d621519678cb808fe81d832a4072fc17b3e6d63fd79a78fb5efb3822b6d80a16"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 35652,
+      "sha256": "b29aed06cd83fe95b5e5cdefa52617df592547041b6f22e80b79da5e7272aa97"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 33440,
+      "sha256": "228fbfc631c2d062095dd1fa4f7a209a60f625e9d66c7732d5670185e4b22874"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 33337,
+      "sha256": "09f3335268f521f538a68df60b483e78f05fcbb0f9dc3566fc2f5f7cea9b4877"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 35647,
+      "sha256": "986ed6e1a9a6409377b4c9f5ff80096cbf66aa26b48b5fc7b5e7cb480c4e9301"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 33717,
+      "sha256": "f3ee9391931af657802f6ddc8caa7477ec37e10a3b2b495e8f559824562b24bf"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 35646,
+      "sha256": "02a215d014f443c1a5ff1a8a3f106c54f57b5a6ea9a7230b1a9afad0566cbed3"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/group_search/native.json",
+      "bytes": 12131,
+      "sha256": "b1377f1276b86ca004a5f5c0ceeb94bb29e7745abf52832649fea9356e32af8d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/013f95033fdadf97b175ca2d27f798a08d12b58a70eaf3e4e4471d9069f7e246.json",
+      "bytes": 34766,
+      "sha256": "0ab7d85a8323fc8adbcefba3a1e43f5d6a3045a1a3ef6ab49ae3c2523e00b254"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/0b0ac1839cb5b8526952d49ff30709e558ccbd929fc6eb681dba9cf076854f98.json",
+      "bytes": 34967,
+      "sha256": "56bc032d78cecdefd7110a771e88f9e902adbe8ded08df6195e6c20be28c1fb0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/0b2e484456f90c28eb110ca588877c371ebae697e540a0366599140f22297947.json",
+      "bytes": 34766,
+      "sha256": "354c24d903603edc1e3e17639995ed5fa5c41432e1810ccf4cb6ee196842484d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/3cbdcfa0c9da52d7f75d361725797c5126b10b7e82c66a2465a1a5a6b5c9e309.json",
+      "bytes": 35321,
+      "sha256": "d0f95baba0ee316fc9130b5b0a3e6d841c4c5b57c6d8adbc5e75ecbfe2eb753a"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/4bb961827cae2ec4069aed0fbf47472ada3044b78eb64a207ce268d8b48e9446.json",
+      "bytes": 35401,
+      "sha256": "d264cdecb4217432dda58e8bba8f13505bcf597af2c98222f80e45b84234c39d"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/4cf4ded4a94a15c319569b77d7d645ec2f3a0ef5aa84f197ca3a3179fd543602.json",
+      "bytes": 34742,
+      "sha256": "e98e41bc501fc34e43043baf149e7adb55920f91ce436285c704f33f04fa2e44"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b.json",
+      "bytes": 34849,
+      "sha256": "fcddea14689847697cb02e6db3cc2019519d7fd6a6585bdcf4da4f46a506c2c2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/594d31e2a07b40e42f2d7fcf05dd6bd854cc2af85bea12b4abf624eb22672208.json",
+      "bytes": 34480,
+      "sha256": "edbd1a36c9862926f5ef9791f67098200a3bbc1c63bc70b2fc2a9049abece20c"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/5ea5364045ad7f37d706e05ec6f5da249ebef5e8fa1f3e712495bfe6aa492557.json",
+      "bytes": 35040,
+      "sha256": "eca73eb66c0c7a42bbc894359ec842d031d0e32f77bc68f12fb11eb0481c10f7"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/61e7461097bb3498d881252d3d4a53b5817bfa8b6cfce5ab4eaecee6f40c530f.json",
+      "bytes": 35038,
+      "sha256": "bb4acd6b1d84e0741f33b7fa31a1202ee696bd1eb08496b04485ca155f6f6a76"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/72f7419c22131e435aeb174d6aeca6787e98c4a245a8c4b02ddb691474a6f926.json",
+      "bytes": 34281,
+      "sha256": "c83bfd1d9b4e71c09ca7b82beed851b212bfb170ae8dc3f37b2880ce57d0c9db"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 34656,
+      "sha256": "484b17596c11d23b1bf08bca985999b0ee901f154e113d293f2e678be9c8fcd2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/904eca8533015eeec188583fd6d61885ccb69bf70c1b23d564cd2547b3b68f1d.json",
+      "bytes": 34749,
+      "sha256": "9db3ea97b68480746c65f2482b546e4ddb470cb4386410ace4ea98ceaaae5913"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/92d480dcf395d42c019c66e3f65866dfed6d4fc8efa1e8583a78323165f7cbb5.json",
+      "bytes": 34944,
+      "sha256": "eb831dd878646e4417fe85bc8fc341e735e60a771e2ae2d0af8e7bde30f0e3d5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/a01634f6d338448c1e020e36d3a0f3d4c3fcc1fa2f1ad9ed3e286a34eff37786.json",
+      "bytes": 34857,
+      "sha256": "970883f99140eb12cc0c95e3c7f2f8070729181fd649de837c623593a2c239e5"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/c7d6d5217ad91265baf94d37d20b8b98507fbad95a5eed08077b59208357ca4a.json",
+      "bytes": 33838,
+      "sha256": "b8698a6c0a779894a052a643821516997f6115f395fe13fee2ae2c5b99c1d4d0"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 34485,
+      "sha256": "eba22a67fd8d47803baa31dc4ec376f2fa9b5ef6424b89d0078ddc9f9cef19bf"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/dbf9bb068f231093c59c78f3ed9003292e214b989c6e1982791d6173fbf795e5.json",
+      "bytes": 34856,
+      "sha256": "f67468cd6179ffe03293c1069e6632c7345c20f78fa64b18395b4a19ef0bfdf4"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/e97858be977207ae6822269d164fe3883f7a73117d7cfb37033ba55aedf13579.json",
+      "bytes": 34762,
+      "sha256": "7637a637d92de5ebf0762a0196b3ff61b48780312806d7362fa3a116371715b8"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/eda2ab8431444bed4460d54dd9ce71394b5537fe72f890efe6a098fd5af040b0.json",
+      "bytes": 34374,
+      "sha256": "0244cd4dc508e91dc9dc5c2abd6e30bd564939c3cdca63bc4329abb5bea94eac"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/eff1ce432f91802667adbdaf4eb6d882b315997eff5fb729c96e3388bec7c197.json",
+      "bytes": 34761,
+      "sha256": "2590ca984c98b5f881afa4ea2a49908b06ceadb27f5f7b18a865d4dd6c5a4ca2"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/starfinder-tissue/regression/round/native.json",
+      "bytes": 12454,
+      "sha256": "cea0b6cabd93150e20042c308666827e8c891d35b9e37c6c0278e650e34758e9"
+    },
+    {
+      "path": "research/workflow-qualification-nov01/development/state.json",
+      "bytes": 617,
+      "sha256": "7e2bcf48e739ca1f8b49845fe87f18afff950e801bcce82052d0c3a99c2cea36"
+    }
+  ]
+}

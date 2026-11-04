@@ -1,0 +1,613 @@
+{
+  "scope": "Exact subset coverage of the preserved historical source catalog. The current paper uses the retained numerical inputs; wider studies remain in the source archive.",
+  "sources": {
+    "1": {
+      "catalog_paths": [
+        "outputs/hardening-sep15",
+        "outputs/oracle-crossval-sep15"
+      ],
+      "original_numbered_files": 25,
+      "included_numbered_files": 2,
+      "complete_numbered_source": false
+    },
+    "2": {
+      "catalog_paths": [
+        "outputs/authors-baselines-sep15"
+      ],
+      "original_numbered_files": 26,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "3": {
+      "catalog_paths": [
+        "outputs/edf10-replication-sep15",
+        "outputs/field-survey-sep16",
+        "outputs/replication-cd20-sep15",
+        "outputs/replication-edf1112-sep15"
+      ],
+      "original_numbered_files": 105,
+      "included_numbered_files": 5,
+      "complete_numbered_source": false
+    },
+    "4": {
+      "catalog_paths": [
+        "outputs/baseline-shaw-sep15"
+      ],
+      "original_numbered_files": 4,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "5": {
+      "catalog_paths": [
+        "outputs/count-balanced-calibration-sep14",
+        "outputs/identifiability-theorem-sep16"
+      ],
+      "original_numbered_files": 50,
+      "included_numbered_files": 1,
+      "complete_numbered_source": false
+    },
+    "6": {
+      "catalog_paths": [
+        "outputs/d-limit-sep18"
+      ],
+      "original_numbered_files": 3,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "7": {
+      "catalog_paths": [
+        "outputs/oracle-crossval-sep15"
+      ],
+      "original_numbered_files": 14,
+      "included_numbered_files": 2,
+      "complete_numbered_source": false
+    },
+    "8": {
+      "catalog_paths": [
+        "outputs/cleanroom-sep16"
+      ],
+      "original_numbered_files": 6,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "9": {
+      "catalog_paths": [
+        "outputs/heldout-nup96-sep30",
+        "outputs/molecular-concordance-sep15"
+      ],
+      "original_numbered_files": 34,
+      "included_numbered_files": 1,
+      "complete_numbered_source": false
+    },
+    "10": {
+      "catalog_paths": [
+        "outputs/steelman-sdc-sep16"
+      ],
+      "original_numbered_files": 21,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "11": {
+      "catalog_paths": [
+        "outputs/codedfish-port-sep16"
+      ],
+      "original_numbered_files": 44,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "12": {
+      "catalog_paths": [
+        "outputs/fallback-fix-sep18",
+        "outputs/prospective-blank-sep16"
+      ],
+      "original_numbered_files": 517,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "13": {
+      "catalog_paths": [
+        "outputs/selfaudit-sep19"
+      ],
+      "original_numbered_files": 10,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "14": {
+      "catalog_paths": [
+        "outputs/identifiability-theorem-sep16",
+        "outputs/novelty-blindcal-sep18"
+      ],
+      "original_numbered_files": 14,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "15": {
+      "catalog_paths": [
+        "outputs/certificate-sep18",
+        "outputs/reliability-audit-sep25"
+      ],
+      "original_numbered_files": 56,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "16": {
+      "catalog_paths": [
+        "outputs/code-design-sep16",
+        "outputs/code-tradeoff-sep23"
+      ],
+      "original_numbered_files": 15,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "17": {
+      "catalog_paths": [
+        "outputs/identifiability-theorem-sep16",
+        "outputs/prospective-package-sep24",
+        "tool/src/codedcal/retrofit.py"
+      ],
+      "original_numbered_files": 14,
+      "included_numbered_files": 1,
+      "complete_numbered_source": false
+    },
+    "18": {
+      "catalog_paths": [
+        "outputs/identifiability-theorem-sep16"
+      ],
+      "original_numbered_files": 11,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "19": {
+      "catalog_paths": [
+        "outputs/merlin-h2h-zhuang-sep23"
+      ],
+      "original_numbered_files": 23,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "20": {
+      "catalog_paths": [
+        "outputs/merlin-h2h-sep19"
+      ],
+      "original_numbered_files": 44,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "21": {
+      "catalog_paths": [
+        "outputs/magnification-estimator-sep19"
+      ],
+      "original_numbered_files": 53,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "22": {
+      "catalog_paths": [
+        "outputs/magnification-tms-sep20"
+      ],
+      "original_numbered_files": 12,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "23": {
+      "catalog_paths": [
+        "outputs/barseq-crosstech-sep21"
+      ],
+      "original_numbered_files": 9,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "24": {
+      "catalog_paths": [
+        "outputs/single-round-qc-sep21"
+      ],
+      "original_numbered_files": 10,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "25": {
+      "catalog_paths": [
+        "outputs/zhuang-release-sep21"
+      ],
+      "original_numbered_files": 20,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "26": {
+      "catalog_paths": [
+        "outputs/downstream-consequence-sep21"
+      ],
+      "original_numbered_files": 15,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "27": {
+      "catalog_paths": [
+        "outputs/zhuang-release-sep21"
+      ],
+      "original_numbered_files": 20,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "28": {
+      "catalog_paths": [
+        "outputs/zhuang-release-mouse2-sep21"
+      ],
+      "original_numbered_files": 63,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "29": {
+      "catalog_paths": [
+        "outputs/zhuang-sagittal-sep24"
+      ],
+      "original_numbered_files": 32,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "30": {
+      "catalog_paths": [
+        "outputs/reliability-audit-sep25",
+        "outputs/zhuang-mechanism-sep25"
+      ],
+      "original_numbered_files": 22,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "31": {
+      "catalog_paths": [
+        "outputs/magnification-estimator-sep19"
+      ],
+      "original_numbered_files": 53,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "32": {
+      "catalog_paths": [
+        "outputs/allen-audit-sep16"
+      ],
+      "original_numbered_files": 14,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "33": {
+      "catalog_paths": [
+        "outputs/atlas-crossanimal-sep17",
+        "outputs/atlas-scale-sep16"
+      ],
+      "original_numbered_files": 252,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "34": {
+      "catalog_paths": [
+        "outputs/robust-tracker-sep18",
+        "outputs/wide-window-sep19"
+      ],
+      "original_numbered_files": 982,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "35": {
+      "catalog_paths": [
+        "outputs/atlas-crossanimal-sep17"
+      ],
+      "original_numbered_files": 66,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "36": {
+      "catalog_paths": [
+        "outputs/robust-tracker-sep18",
+        "outputs/wide-window-sep19"
+      ],
+      "original_numbered_files": 982,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "37": {
+      "catalog_paths": [
+        "outputs/zhuang-wmb-sep18"
+      ],
+      "original_numbered_files": 59,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "38": {
+      "catalog_paths": [
+        "outputs/released-audit-sep19"
+      ],
+      "original_numbered_files": 15,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "39": {
+      "catalog_paths": [
+        "outputs/chromatic-artifact-sep19"
+      ],
+      "original_numbered_files": 14,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "40": {
+      "catalog_paths": [
+        "outputs/mosaic-artifact-sep20",
+        "outputs/mosaic-artifact-v2-sep20"
+      ],
+      "original_numbered_files": 27,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "41": {
+      "catalog_paths": [
+        "outputs/archive-census-sep16"
+      ],
+      "original_numbered_files": 6,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "42": {
+      "catalog_paths": [
+        "outputs/comparator-sep18"
+      ],
+      "original_numbered_files": 3,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "43": {
+      "catalog_paths": [
+        "outputs/count-balanced-calibration-sep14",
+        "outputs/phase-preserving-oct24",
+        "outputs/stationarity-diagnostic-sep15",
+        "tool/src/codedcal/phase_attenuation.py",
+        "tool/src/codedcal/reporting.py",
+        "tool/tests/test_phase_attenuation.py",
+        "tool/tests/test_reporting.py"
+      ],
+      "original_numbered_files": 90,
+      "included_numbered_files": 6,
+      "complete_numbered_source": false
+    },
+    "44": {
+      "catalog_paths": [
+        "outputs/oracle-crossval-sep15"
+      ],
+      "original_numbered_files": 14,
+      "included_numbered_files": 2,
+      "complete_numbered_source": false
+    },
+    "45": {
+      "catalog_paths": [
+        "outputs/molecular-concordance-sep15"
+      ],
+      "original_numbered_files": 11,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "46": {
+      "catalog_paths": [
+        "outputs/atlas-crossanimal-sep17",
+        "outputs/atlas-scale-sep16",
+        "outputs/codedfish-port-sep16",
+        "outputs/zhuang-wmb-sep18"
+      ],
+      "original_numbered_files": 355,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "47": {
+      "catalog_paths": [
+        "outputs/magnification-estimator-sep19"
+      ],
+      "original_numbered_files": 53,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "48": {
+      "catalog_paths": [
+        "outputs/iss-pilot-sep16"
+      ],
+      "original_numbered_files": 37,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "49": {
+      "catalog_paths": [
+        "outputs/full-evidence-audit-sep26"
+      ],
+      "original_numbered_files": 21,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "50": {
+      "catalog_paths": [
+        "tool/src/codedcal"
+      ],
+      "original_numbered_files": 39,
+      "included_numbered_files": 39,
+      "complete_numbered_source": true
+    },
+    "51": {
+      "catalog_paths": [
+        "outputs/shaw-sensitivity-sep26"
+      ],
+      "original_numbered_files": 51,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "52": {
+      "catalog_paths": [
+        "outputs/native-comparison-sep26"
+      ],
+      "original_numbered_files": 309,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "53": {
+      "catalog_paths": [
+        "outputs/early-comparator-sep27"
+      ],
+      "original_numbered_files": 64,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "54": {
+      "catalog_paths": [
+        "outputs/early-transfer-sep27"
+      ],
+      "original_numbered_files": 149,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "55": {
+      "catalog_paths": [
+        "outputs/reference-envelope-sep27"
+      ],
+      "original_numbered_files": 8,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "56": {
+      "catalog_paths": [
+        "outputs/augmented-design-sep27"
+      ],
+      "original_numbered_files": 3,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "57": {
+      "catalog_paths": [
+        "outputs/bead-reference-sep27"
+      ],
+      "original_numbered_files": 46,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "58": {
+      "catalog_paths": [
+        "outputs/early-task-comparison-sep27"
+      ],
+      "original_numbered_files": 204,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "59": {
+      "catalog_paths": [
+        "outputs/bead-confirmation-sep28",
+        "outputs/bead-repair-oct04"
+      ],
+      "original_numbered_files": 123,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "60": {
+      "catalog_paths": [
+        "outputs/overlap-panel-sep28",
+        "outputs/overlap-reference-sep28",
+        "outputs/overlap-resolution-sep28"
+      ],
+      "original_numbered_files": 653,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "61": {
+      "catalog_paths": [
+        "outputs/joint-error-model-sep29"
+      ],
+      "original_numbered_files": 10,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "62": {
+      "catalog_paths": [
+        "outputs/landmark-decoding-sep29"
+      ],
+      "original_numbered_files": 127,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "63": {
+      "catalog_paths": [
+        "outputs/native-composition-oct05"
+      ],
+      "original_numbered_files": 18,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    },
+    "64": {
+      "catalog_paths": [
+        "outputs/independent-comparison-oct05"
+      ],
+      "original_numbered_files": 1079,
+      "included_numbered_files": 1066,
+      "complete_numbered_source": false
+    },
+    "65": {
+      "catalog_paths": [
+        "outputs/barseq3-native-repair-oct05"
+      ],
+      "original_numbered_files": 385,
+      "included_numbered_files": 344,
+      "complete_numbered_source": false
+    },
+    "66": {
+      "catalog_paths": [
+        "outputs/barseq-public-transfer-audit-oct06",
+        "outputs/barseq3-native-repair-oct05"
+      ],
+      "original_numbered_files": 411,
+      "included_numbered_files": 370,
+      "complete_numbered_source": false
+    },
+    "67": {
+      "catalog_paths": [
+        "outputs/starfinder-public-confirmation-oct06"
+      ],
+      "original_numbered_files": 506,
+      "included_numbered_files": 469,
+      "complete_numbered_source": false
+    },
+    "68": {
+      "catalog_paths": [
+        "outputs/output-risk-oct06"
+      ],
+      "original_numbered_files": 1949,
+      "included_numbered_files": 1938,
+      "complete_numbered_source": false
+    },
+    "69": {
+      "catalog_paths": [
+        "outputs/reconciliation-sensitivity-oct23",
+        "outputs/reference-reconciliation-oct07"
+      ],
+      "original_numbered_files": 245,
+      "included_numbered_files": 220,
+      "complete_numbered_source": false
+    },
+    "70": {
+      "catalog_paths": [
+        "outputs/temporal-validation-oct09"
+      ],
+      "original_numbered_files": 7349,
+      "included_numbered_files": 7346,
+      "complete_numbered_source": false
+    },
+    "71": {
+      "catalog_paths": [
+        "outputs/geometric-integration-oct18",
+        "outputs/temporal-variants-oct17"
+      ],
+      "original_numbered_files": 296,
+      "included_numbered_files": 286,
+      "complete_numbered_source": false
+    },
+    "72": {
+      "catalog_paths": [
+        "outputs/public-confirmation-oct17"
+      ],
+      "original_numbered_files": 13,
+      "included_numbered_files": 0,
+      "complete_numbered_source": false
+    }
+  }
+}

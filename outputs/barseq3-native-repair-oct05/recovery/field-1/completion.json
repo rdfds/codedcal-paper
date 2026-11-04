@@ -1,0 +1,7 @@
+{
+  "stage": "complete_with_retained_failures",
+  "planned_arms": 30,
+  "completed_arms": 30,
+  "failed_arms": 0,
+  "reference_qualified": true
+}

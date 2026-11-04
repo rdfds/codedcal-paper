@@ -1,0 +1,178 @@
+{
+  "stage": "complete",
+  "case": "tissue_4_color",
+  "source": "tissue",
+  "field": 4,
+  "kind": "color",
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c",
+  "candidates": 37,
+  "incumbent": 7,
+  "rows": [
+    {
+      "decoder": "source_spot",
+      "reference_calls": 24,
+      "incumbent_calls": 24,
+      "actual_consistency_error": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "failed_consistency": false,
+      "risk": {
+        "abstained": false,
+        "identity_risk": 0.5217391304347826,
+        "composition_risk": 0.3636363636363636,
+        "flagged": true,
+        "compatible_candidates": 6,
+        "incumbent_compatible": true,
+        "ordinary_multistart_identity_disagreement": 0.5217391304347826,
+        "ordinary_multistart_composition_disagreement": 0.3636363636363636,
+        "unfiltered_bank_identity_disagreement": 0.5217391304347826,
+        "unfiltered_bank_composition_disagreement": 0.3636363636363636,
+        "comparisons": [
+          {
+            "index": 0,
+            "identity_loss": 0.5217391304347826,
+            "composition_tv": 0.3636363636363636,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 5,
+            "identity_loss": 0.0,
+            "composition_tv": 0.0,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 7,
+            "identity_loss": 0.0,
+            "composition_tv": 0.0,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 9,
+            "identity_loss": 0.040000000000000036,
+            "composition_tv": 0.054487179487179446,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 20,
+            "identity_loss": 0.020408163265306145,
+            "composition_tv": 0.03499999999999998,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 22,
+            "identity_loss": 0.07999999999999996,
+            "composition_tv": 0.0705128205128205,
+            "composition_undefined": false,
+            "empty_both": false
+          }
+        ],
+        "molecular_correctness_certified": false
+      },
+      "baseline_fit_loss": 0.2589267612298561,
+      "baseline_fit_gap": 0.005999233660384629,
+      "baseline_decoder_confidence": 0.505870521068573,
+      "baseline_quality": {
+        "full_catalog_calls": 94,
+        "negative": null,
+        "blank_proxy": null,
+        "source_abstentions": 78,
+        "source_unsupported": 2,
+        "central_coding": 24,
+        "central_negative": 0
+      }
+    },
+    {
+      "decoder": "correlation",
+      "reference_calls": 37,
+      "incumbent_calls": 39,
+      "actual_consistency_error": {
+        "identity_loss": 0.07894736842105265,
+        "composition_tv": 0.08593208593208593,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "failed_consistency": true,
+      "risk": {
+        "abstained": false,
+        "identity_risk": 0.5675675675675675,
+        "composition_risk": 0.5069597069597069,
+        "flagged": true,
+        "compatible_candidates": 6,
+        "incumbent_compatible": true,
+        "ordinary_multistart_identity_disagreement": 0.6052631578947368,
+        "ordinary_multistart_composition_disagreement": 0.5069597069597069,
+        "unfiltered_bank_identity_disagreement": 0.6052631578947368,
+        "unfiltered_bank_composition_disagreement": 0.5069597069597069,
+        "comparisons": [
+          {
+            "index": 0,
+            "identity_loss": 0.5675675675675675,
+            "composition_tv": 0.5069597069597069,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 5,
+            "identity_loss": 0.07894736842105265,
+            "composition_tv": 0.08593208593208593,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 7,
+            "identity_loss": 0.0,
+            "composition_tv": 0.0,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 9,
+            "identity_loss": 0.09589041095890416,
+            "composition_tv": 0.0904977375565611,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 20,
+            "identity_loss": 0.1466666666666666,
+            "composition_tv": 0.08760683760683759,
+            "composition_undefined": false,
+            "empty_both": false
+          },
+          {
+            "index": 22,
+            "identity_loss": 0.038961038961038974,
+            "composition_tv": 0.04251012145748986,
+            "composition_undefined": false,
+            "empty_both": false
+          }
+        ],
+        "molecular_correctness_certified": false
+      },
+      "baseline_fit_loss": 0.2589267612298561,
+      "baseline_fit_gap": 0.005999233660384629,
+      "baseline_decoder_confidence": 0.22524216771125793,
+      "baseline_quality": {
+        "full_catalog_calls": 130,
+        "negative": null,
+        "blank_proxy": null,
+        "source_abstentions": 42,
+        "source_unsupported": 2,
+        "central_coding": 39,
+        "central_negative": 0
+      }
+    }
+  ],
+  "runtime_s": 22.238631208019797,
+  "development": true,
+  "independent_confirmation": false,
+  "independent_RNA_truth": false
+}

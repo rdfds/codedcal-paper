@@ -1,0 +1,556 @@
+{
+  "complete": true,
+  "worker_stage": "completed",
+  "missing_or_failed": [],
+  "policies": [
+    {
+      "policy": "barcode_model",
+      "preparation": "4t1-culture-NE0WOP",
+      "original_native_eligible": true,
+      "historical": {
+        "native_quality": {
+          "nonblank_calls": 857,
+          "blank_calls": 0,
+          "blank_proxy_upper95": 0.07806848009650616
+        },
+        "native_eligible": true,
+        "native_fixed_reference_compatible": true,
+        "native_assessment": {
+          "status": "scored",
+          "failed": false,
+          "coverage": 1.0,
+          "supported": true,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "unresolved_identity_components": 0,
+          "spatial_first_identity_loss": 0.0,
+          "spatial_first_supported": true,
+          "matching": {
+            "unresolved_components": 0,
+            "ambiguous_reference": 127
+          },
+          "reference_calls": 857,
+          "predicted_calls": 857,
+          "blank_calls": 0,
+          "yield_ratio": 1.0,
+          "empty_prediction": false
+        },
+        "heldout": {
+          "decision": "reject",
+          "score": 0.14814814814814814,
+          "supported_challenges": 5,
+          "planned_challenges": 5,
+          "failures": 4,
+          "tolerance": 0.05,
+          "geometric_score": 0.29253022115373073,
+          "yield_score": 0.06301050175029177
+        },
+        "mixed_conventional": {
+          "decision": "reject",
+          "score": 0.1589861751152074,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 1,
+          "tolerance": 0.05,
+          "geometric_score": 0.29564207251380104,
+          "yield_score": 0.025670945157526326
+        },
+        "mechanism_weighted": {
+          "decision": "reject",
+          "score": 0.14169570267131237,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 2,
+          "tolerance": 0.05,
+          "geometric_score": 0.2941611363655162,
+          "yield_score": 0.011668611435239229
+        },
+        "integer_passes": 5,
+        "integer_failures": 7,
+        "integer_unsupported": 0
+      },
+      "anchored": {
+        "native_quality": {
+          "nonblank_calls": 857,
+          "blank_calls": 0,
+          "blank_proxy_upper95": 0.07806848009650616
+        },
+        "native_eligible": true,
+        "native_fixed_reference_compatible": true,
+        "native_assessment": {
+          "status": "scored",
+          "failed": false,
+          "coverage": 1.0,
+          "supported": true,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "unresolved_identity_components": 0,
+          "spatial_first_identity_loss": 0.0,
+          "spatial_first_supported": true,
+          "matching": {
+            "unresolved_components": 0,
+            "ambiguous_reference": 127
+          },
+          "reference_calls": 857,
+          "predicted_calls": 857,
+          "blank_calls": 0,
+          "yield_ratio": 1.0,
+          "empty_prediction": false
+        },
+        "heldout": {
+          "decision": "reject",
+          "score": 0.14814814814814814,
+          "supported_challenges": 5,
+          "planned_challenges": 5,
+          "failures": 4,
+          "tolerance": 0.05,
+          "geometric_score": 0.29253022115373073,
+          "yield_score": 0.06301050175029177
+        },
+        "mixed_conventional": {
+          "decision": "reject",
+          "score": 0.1589861751152074,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 1,
+          "tolerance": 0.05,
+          "geometric_score": 0.29564207251380104,
+          "yield_score": 0.025670945157526326
+        },
+        "mechanism_weighted": {
+          "decision": "reject",
+          "score": 0.14169570267131237,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 2,
+          "tolerance": 0.05,
+          "geometric_score": 0.2941611363655162,
+          "yield_score": 0.011668611435239229
+        },
+        "integer_passes": 5,
+        "integer_failures": 7,
+        "integer_unsupported": 0
+      },
+      "development_workflow_rescued": false
+    },
+    {
+      "policy": "group_search",
+      "preparation": "4t1-culture-NE0WOP",
+      "original_native_eligible": true,
+      "historical": {
+        "native_quality": {
+          "nonblank_calls": 1081,
+          "blank_calls": 0,
+          "blank_proxy_upper95": 0.061891477745333746
+        },
+        "native_eligible": true,
+        "native_fixed_reference_compatible": true,
+        "native_assessment": {
+          "status": "scored",
+          "failed": false,
+          "coverage": 1.0,
+          "supported": true,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "unresolved_identity_components": 0,
+          "spatial_first_identity_loss": 0.0,
+          "spatial_first_supported": true,
+          "matching": {
+            "unresolved_components": 0,
+            "ambiguous_reference": 157
+          },
+          "reference_calls": 1081,
+          "predicted_calls": 1081,
+          "blank_calls": 0,
+          "yield_ratio": 1.0,
+          "empty_prediction": false
+        },
+        "heldout": {
+          "decision": "reject",
+          "score": 0.9990982867448152,
+          "supported_challenges": 5,
+          "planned_challenges": 5,
+          "failures": 4,
+          "tolerance": 0.05,
+          "geometric_score": 6.0,
+          "yield_score": 0.13043478260869557
+        },
+        "mixed_conventional": {
+          "decision": "reject",
+          "score": 0.9562647754137116,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 2,
+          "tolerance": 0.05,
+          "geometric_score": 4.0,
+          "yield_score": 1.1304347826086958
+        },
+        "mechanism_weighted": {
+          "decision": "reject",
+          "score": 0.9928861788617886,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 2,
+          "tolerance": 0.05,
+          "geometric_score": 4.0,
+          "yield_score": 0.17946345975948197
+        },
+        "integer_passes": 4,
+        "integer_failures": 8,
+        "integer_unsupported": 0
+      },
+      "anchored": {
+        "native_quality": {
+          "nonblank_calls": 1081,
+          "blank_calls": 0,
+          "blank_proxy_upper95": 0.061891477745333746
+        },
+        "native_eligible": true,
+        "native_fixed_reference_compatible": true,
+        "native_assessment": {
+          "status": "scored",
+          "failed": false,
+          "coverage": 1.0,
+          "supported": true,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "unresolved_identity_components": 0,
+          "spatial_first_identity_loss": 0.0,
+          "spatial_first_supported": true,
+          "matching": {
+            "unresolved_components": 0,
+            "ambiguous_reference": 157
+          },
+          "reference_calls": 1081,
+          "predicted_calls": 1081,
+          "blank_calls": 0,
+          "yield_ratio": 1.0,
+          "empty_prediction": false
+        },
+        "heldout": {
+          "decision": "reject",
+          "score": 0.9990982867448152,
+          "supported_challenges": 5,
+          "planned_challenges": 5,
+          "failures": 4,
+          "tolerance": 0.05,
+          "geometric_score": 6.0,
+          "yield_score": 0.13043478260869557
+        },
+        "mixed_conventional": {
+          "decision": "reject",
+          "score": 0.9562647754137116,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 2,
+          "tolerance": 0.05,
+          "geometric_score": 4.0,
+          "yield_score": 1.1304347826086958
+        },
+        "mechanism_weighted": {
+          "decision": "reject",
+          "score": 0.9928861788617886,
+          "supported_challenges": 4,
+          "planned_challenges": 4,
+          "failures": 2,
+          "tolerance": 0.05,
+          "geometric_score": 4.0,
+          "yield_score": 0.17946345975948197
+        },
+        "integer_passes": 4,
+        "integer_failures": 8,
+        "integer_unsupported": 0
+      },
+      "development_workflow_rescued": false
+    }
+  ],
+  "case_changes": [
+    {
+      "policy": "barcode_model",
+      "challenge": "02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf",
+      "role": "heldout",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "barcode_model",
+      "challenge": "4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9",
+      "role": "heldout",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f",
+      "role": "heldout",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5",
+      "role": "probe",
+      "before_failed": false,
+      "after_failed": false,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    },
+    {
+      "policy": "group_search",
+      "challenge": "4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b",
+      "role": "probe",
+      "before_failed": true,
+      "after_failed": true,
+      "identity_loss_change": 0.0
+    }
+  ],
+  "development_workflows_rescued": 0,
+  "failures_to_passes": 0,
+  "passes_to_failures": 0,
+  "strategy_confusion": {
+    "historical": {
+      "mixed_conventional": {
+        "failed_rejected": 2,
+        "failed_accepted": 0,
+        "adequate_rejected": 0,
+        "adequate_accepted": 0,
+        "unsupported_decision": 0,
+        "unsupported_truth": 0,
+        "false_alert_rate": null,
+        "failed_detection_rate": 1.0,
+        "adequate_acceptance_rate": null,
+        "decision_coverage": 1.0
+      },
+      "mechanism_weighted": {
+        "failed_rejected": 2,
+        "failed_accepted": 0,
+        "adequate_rejected": 0,
+        "adequate_accepted": 0,
+        "unsupported_decision": 0,
+        "unsupported_truth": 0,
+        "false_alert_rate": null,
+        "failed_detection_rate": 1.0,
+        "adequate_acceptance_rate": null,
+        "decision_coverage": 1.0
+      }
+    },
+    "anchored": {
+      "mixed_conventional": {
+        "failed_rejected": 2,
+        "failed_accepted": 0,
+        "adequate_rejected": 0,
+        "adequate_accepted": 0,
+        "unsupported_decision": 0,
+        "unsupported_truth": 0,
+        "false_alert_rate": null,
+        "failed_detection_rate": 1.0,
+        "adequate_acceptance_rate": null,
+        "decision_coverage": 1.0
+      },
+      "mechanism_weighted": {
+        "failed_rejected": 2,
+        "failed_accepted": 0,
+        "adequate_rejected": 0,
+        "adequate_accepted": 0,
+        "unsupported_decision": 0,
+        "unsupported_truth": 0,
+        "false_alert_rate": null,
+        "failed_detection_rate": 1.0,
+        "adequate_acceptance_rate": null,
+        "decision_coverage": 1.0
+      }
+    }
+  },
+  "measured_per_policy_union_seconds": {
+    "barcode_model": {
+      "historical": 21.831974249998893,
+      "anchored": 24.136657959996228
+    },
+    "group_search": {
+      "historical": 19.31579920899094,
+      "anchored": 17.68717812500472
+    }
+  },
+  "decoder_attempts": 52,
+  "actual_decoder_predictions_started": 52,
+  "completed_predictions": 52,
+  "fixed_codebook_index_builds": 1,
+  "exact_cache_hits": 0,
+  "registration_optimizations": 0,
+  "gain_optimizations": 0,
+  "software_decoder_predictions": 4,
+  "total_conservative_reservation": 1215,
+  "maximum_total": 1600,
+  "elapsed_wall_seconds": 121.46058583259583,
+  "elapsed_monotonic_seconds": 121.46116808299848,
+  "peak_rss_bytes": 423673856,
+  "independent_preparations": 1,
+  "independent_confirmation": false,
+  "general_utility_supported": false,
+  "physical_validation_added": false,
+  "fractional_panel_excluded": true,
+  "original_native_exclusions": [
+    "round",
+    "frame_template"
+  ],
+  "minimum_general_utility_unchanged": {
+    "adequate": 5,
+    "failed": 5,
+    "preparations": 2
+  },
+  "scope": "Post-hoc causal intervention only on final common gain scale, with saved geometry/relative gains and original native references fixed."
+}

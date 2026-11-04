@@ -1,0 +1,1058 @@
+[
+  {
+    "name": "Image processing code/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/annotation_25_2017.nrrd",
+    "size": 4035363,
+    "compressed": 3511388,
+    "crc32": 1506270947
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/avg_layer_depths.json",
+    "size": 121,
+    "compressed": 90,
+    "crc32": 826899376
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/CCF_ontology.json",
+    "size": 637735,
+    "compressed": 38527,
+    "crc32": 758328836
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/closest_surface_voxel_lookup.h5",
+    "size": 193528755,
+    "compressed": 118644108,
+    "crc32": 1499744902
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/cortical_layers_10_v2.h5",
+    "size": 106277824,
+    "compressed": 22756441,
+    "crc32": 2445164602
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/flatmap_butterfly.h5",
+    "size": 8124096,
+    "compressed": 4662017,
+    "crc32": 3864833264
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/flatmap_butterfly.nrrd",
+    "size": 22708,
+    "compressed": 18314,
+    "crc32": 2839452870
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/m05_make_cubelet_dataset.m",
+    "size": 2931,
+    "compressed": 797,
+    "crc32": 1285034755
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/Match_CCF_Area.m",
+    "size": 5834,
+    "compressed": 1892,
+    "crc32": 2141972010
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/projection_removed_singlets.py",
+    "size": 55555,
+    "compressed": 10056,
+    "crc32": 1332285386
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/Rainbow 2017.json",
+    "size": 116986,
+    "compressed": 17055,
+    "crc32": 1629823986
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/SOP_CCF_Registration.txt",
+    "size": 3673,
+    "compressed": 1541,
+    "crc32": 1431065372
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step1_Prepare_registration_image_and_dataflatfile.m",
+    "size": 2062,
+    "compressed": 821,
+    "crc32": 2857076519
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step2_CCFregistration.ipynb",
+    "size": 8595472,
+    "compressed": 2954676,
+    "crc32": 227233299
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step2_CCFregistration.py",
+    "size": 8892,
+    "compressed": 2678,
+    "crc32": 2242150475
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step3_ccfstreamlines.ipynb",
+    "size": 216498,
+    "compressed": 85288,
+    "crc32": 425609339
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step3_ccfstreamlines.py",
+    "size": 4361,
+    "compressed": 1432,
+    "crc32": 3736125609
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step4_Match_CCF_Area.m",
+    "size": 6037,
+    "compressed": 1993,
+    "crc32": 2368646638
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step5_Add_streamline_coor_to_neurons.m",
+    "size": 2258,
+    "compressed": 902,
+    "crc32": 3503195976
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/surface_paths_10_v3.h5",
+    "size": 474510646,
+    "compressed": 466355292,
+    "crc32": 629794618
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/xc01_fit_polygon.m",
+    "size": 6284,
+    "compressed": 1411,
+    "crc32": 3121914202
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/a00_preprocessbarseq_20230321_change_py_root_for_each_machine.m",
+    "size": 28023,
+    "compressed": 6749,
+    "crc32": 3259493967
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/a01_processbarseq_20230321_update_hybthresh_hybbgn_on_1st_dataset.m",
+    "size": 52673,
+    "compressed": 12595,
+    "crc32": 2302249170
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/a02_add_brain_name_and_filter_20230326.m",
+    "size": 915,
+    "compressed": 389,
+    "crc32": 2607022468
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/bardensrbasecall.py",
+    "size": 5593,
+    "compressed": 1966,
+    "crc32": 1932519607
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/bardensrbasecall_predefinedthresh.py",
+    "size": 3419,
+    "compressed": 1409,
+    "crc32": 294535449
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/Cellsegmentation-v065.py",
+    "size": 1677,
+    "compressed": 752,
+    "crc32": 2256329390
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/codebookforbardensr.mat",
+    "size": 687,
+    "compressed": 687,
+    "crc32": 889431782
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/codebookhyb.mat",
+    "size": 252,
+    "compressed": 245,
+    "crc32": 3693425384
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/codebookM1all.mat",
+    "size": 1481,
+    "compressed": 1468,
+    "crc32": 1813725796
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/config.json",
+    "size": 748,
+    "compressed": 406,
+    "crc32": 2983544008
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/images/events.out.tfevents.1679665689.W10DT713560.19944.18695686.v2",
+    "size": 2147702,
+    "compressed": 2109548,
+    "crc32": 3115909108
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/train/events.out.tfevents.1679665689.W10DT713560.19944.18695728.v2",
+    "size": 30250,
+    "compressed": 9206,
+    "crc32": 3494571133
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/logs/validation/events.out.tfevents.1679665744.W10DT713560.19944.18703984.v2",
+    "size": 30250,
+    "compressed": 9180,
+    "crc32": 396429000
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1251608,
+    "crc32": 2915134788
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323Cy5/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1251621,
+    "crc32": 2300036936
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/config.json",
+    "size": 749,
+    "compressed": 408,
+    "crc32": 460878784
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/images/events.out.tfevents.1679611169.W10DT713560.19944.5512.v2",
+    "size": 2107165,
+    "compressed": 2069226,
+    "crc32": 2866974390
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/train/events.out.tfevents.1679611169.W10DT713560.19944.5554.v2",
+    "size": 30250,
+    "compressed": 9213,
+    "crc32": 3986059841
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/logs/validation/events.out.tfevents.1679611272.W10DT713560.19944.13810.v2",
+    "size": 30250,
+    "compressed": 9203,
+    "crc32": 3632219307
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1252450,
+    "crc32": 2736892773
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323GFP/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1252515,
+    "crc32": 684525041
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/config.json",
+    "size": 749,
+    "compressed": 407,
+    "crc32": 832459239
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/images/events.out.tfevents.1679647523.W10DT713560.19944.12465998.v2",
+    "size": 2142166,
+    "compressed": 2104998,
+    "crc32": 1340323708
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/train/events.out.tfevents.1679647523.W10DT713560.19944.12466040.v2",
+    "size": 30250,
+    "compressed": 9227,
+    "crc32": 3278350856
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/logs/validation/events.out.tfevents.1679647575.W10DT713560.19944.12474296.v2",
+    "size": 30250,
+    "compressed": 9231,
+    "crc32": 49713841
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1250901,
+    "crc32": 41036754
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323TxRed/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1252473,
+    "crc32": 2121838983
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/config.json",
+    "size": 749,
+    "compressed": 407,
+    "crc32": 3312402996
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/images/events.out.tfevents.1679629335.W10DT713560.19944.6236310.v2",
+    "size": 2154994,
+    "compressed": 2118583,
+    "crc32": 1102509589
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/train/events.out.tfevents.1679629335.W10DT713560.19944.6236352.v2",
+    "size": 30250,
+    "compressed": 9220,
+    "crc32": 3452183297
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/logs/validation/events.out.tfevents.1679629387.W10DT713560.19944.6244608.v2",
+    "size": 30250,
+    "compressed": 9220,
+    "crc32": 1171446443
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1250395,
+    "crc32": 1914980658
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_hyb_20230323YFP/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1250506,
+    "crc32": 2244849345
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/config.json",
+    "size": 750,
+    "compressed": 408,
+    "crc32": 1614403381
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/images/events.out.tfevents.1644157559.W10DT713560.39772.19651010.v2",
+    "size": 1451455,
+    "compressed": 1380525,
+    "crc32": 780227865
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/train/events.out.tfevents.1644157560.W10DT713560.39772.19651052.v2",
+    "size": 30250,
+    "compressed": 9274,
+    "crc32": 1683287091
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/logs/validation/events.out.tfevents.1644157639.W10DT713560.39772.19662907.v2",
+    "size": 30250,
+    "compressed": 9738,
+    "crc32": 1902732247
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1252800,
+    "crc32": 3420056810
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_A/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1253070,
+    "crc32": 1940882617
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/config.json",
+    "size": 747,
+    "compressed": 406,
+    "crc32": 3729757842
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/images/events.out.tfevents.1644186222.W10DT713560.39772.29476309.v2",
+    "size": 1630767,
+    "compressed": 1575008,
+    "crc32": 530077103
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/train/events.out.tfevents.1644186222.W10DT713560.39772.29476351.v2",
+    "size": 30250,
+    "compressed": 9277,
+    "crc32": 4010515030
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/logs/validation/events.out.tfevents.1644186303.W10DT713560.39772.29488206.v2",
+    "size": 30250,
+    "compressed": 9800,
+    "crc32": 1010225334
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1252975,
+    "crc32": 986765584
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_C/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1252885,
+    "crc32": 657604438
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/config.json",
+    "size": 748,
+    "compressed": 407,
+    "crc32": 4077187688
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/images/events.out.tfevents.1644100482.W10DT713560.39772.2759.v2",
+    "size": 1704637,
+    "compressed": 1662937,
+    "crc32": 3173516112
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/train/events.out.tfevents.1644100483.W10DT713560.39772.2801.v2",
+    "size": 30250,
+    "compressed": 9293,
+    "crc32": 3397267724
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/logs/validation/events.out.tfevents.1644100569.W10DT713560.39772.14656.v2",
+    "size": 30250,
+    "compressed": 9774,
+    "crc32": 2013934895
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/weights_best.h5",
+    "size": 1430608,
+    "compressed": 1249279,
+    "crc32": 3755223433
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_G/weights_last.h5",
+    "size": 1430608,
+    "compressed": 1249776,
+    "crc32": 808893812
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/config.json",
+    "size": 747,
+    "compressed": 407,
+    "crc32": 359526174
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/images/events.out.tfevents.1644128813.W10DT713560.39772.9825959.v2",
+    "size": 1653006,
+    "compressed": 1580950,
+    "crc32": 1109225040
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/train/events.out.tfevents.1644128813.W10DT713560.39772.9826001.v2",
+    "size": 30250,
+    "compressed": 9273,
+    "crc32": 1797282547
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/logs/validation/events.out.tfevents.1644128892.W10DT713560.39772.9837856.v2",
+    "size": 30250,
+    "compressed": 9772,
+    "crc32": 3916401528
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1253438,
+    "crc32": 2377185408
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_seq_20220204_T/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1253541,
+    "crc32": 1281943211
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/config.json",
+    "size": 750,
+    "compressed": 408,
+    "crc32": 1651393949
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/images/events.out.tfevents.1639976224.W10DT713560.29308.46044961.v2",
+    "size": 1725538,
+    "compressed": 1686972,
+    "crc32": 42305521
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/train/events.out.tfevents.1639976224.W10DT713560.29308.46045003.v2",
+    "size": 30250,
+    "compressed": 9365,
+    "crc32": 1014966083
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/logs/validation/events.out.tfevents.1639976411.W10DT713560.29308.46059681.v2",
+    "size": 30250,
+    "compressed": 9735,
+    "crc32": 882265546
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/weights_best.h5",
+    "size": 1430736,
+    "compressed": 1252510,
+    "crc32": 483334362
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqA/weights_last.h5",
+    "size": 1430736,
+    "compressed": 1252544,
+    "crc32": 3468259984
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/config.json",
+    "size": 749,
+    "compressed": 407,
+    "crc32": 362031246
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/images/events.out.tfevents.1640042665.W10DT713560.29308.58694976.v2",
+    "size": 1744302,
+    "compressed": 1704361,
+    "crc32": 1844845707
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/train/events.out.tfevents.1640042666.W10DT713560.29308.58695018.v2",
+    "size": 30250,
+    "compressed": 9407,
+    "crc32": 2082821434
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/logs/validation/events.out.tfevents.1640042962.W10DT713560.29308.58709696.v2",
+    "size": 30250,
+    "compressed": 9795,
+    "crc32": 1817605871
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/weights_best.h5",
+    "size": 1430736,
+    "compressed": 1252633,
+    "crc32": 1480832435
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqC/weights_last.h5",
+    "size": 1430736,
+    "compressed": 1252855,
+    "crc32": 455084965
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/config.json",
+    "size": 750,
+    "compressed": 410,
+    "crc32": 1765118277
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/images/events.out.tfevents.1639810172.W10DT713560.29308.2759.v2",
+    "size": 2177737,
+    "compressed": 2131475,
+    "crc32": 1308770651
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/images/events.out.tfevents.1639869601.W10DT713560.29308.20745888.v2",
+    "size": 40,
+    "compressed": 40,
+    "crc32": 1762455143
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/images/events.out.tfevents.1639870040.W10DT713560.29308.20748651.v2",
+    "size": 2153479,
+    "compressed": 2107454,
+    "crc32": 2915221579
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/train/events.out.tfevents.1639810172.W10DT713560.29308.2801.v2",
+    "size": 30250,
+    "compressed": 9329,
+    "crc32": 4005129411
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/train/events.out.tfevents.1639870040.W10DT713560.29308.20748693.v2",
+    "size": 30250,
+    "compressed": 9345,
+    "crc32": 3664385713
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/validation/events.out.tfevents.1639810277.W10DT713560.29308.17479.v2",
+    "size": 30250,
+    "compressed": 9782,
+    "crc32": 4290017426
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/logs/validation/events.out.tfevents.1639870224.W10DT713560.29308.20763371.v2",
+    "size": 30250,
+    "compressed": 9625,
+    "crc32": 766460461
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1254158,
+    "crc32": 2573023185
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqG/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1253951,
+    "crc32": 1180117663
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/config.json",
+    "size": 751,
+    "compressed": 410,
+    "crc32": 543740257
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/images/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/images/events.out.tfevents.1639846184.W10DT713560.29308.12649311.v2",
+    "size": 1413644,
+    "compressed": 1383384,
+    "crc32": 3506985077
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/images/events.out.tfevents.1639922719.W10DT713560.29308.33395569.v2",
+    "size": 2212403,
+    "compressed": 2162041,
+    "crc32": 754809754
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/train/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/train/events.out.tfevents.1639846184.W10DT713560.29308.12649353.v2",
+    "size": 19084,
+    "compressed": 5990,
+    "crc32": 1285469876
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/train/events.out.tfevents.1639922720.W10DT713560.29308.33395611.v2",
+    "size": 30250,
+    "compressed": 9371,
+    "crc32": 107022025
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/validation/",
+    "size": 0,
+    "compressed": 0,
+    "crc32": 0
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/validation/events.out.tfevents.1639846283.W10DT713560.29308.12664031.v2",
+    "size": 19084,
+    "compressed": 6246,
+    "crc32": 3191157241
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/logs/validation/events.out.tfevents.1639922902.W10DT713560.29308.33410289.v2",
+    "size": 30250,
+    "compressed": 9653,
+    "crc32": 3020129096
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/weights_best.h5",
+    "size": 1430624,
+    "compressed": 1253496,
+    "crc32": 2884854072
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vmodels/n2v_singleseqT/weights_last.h5",
+    "size": 1430624,
+    "compressed": 1253477,
+    "crc32": 1693406237
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vprocessing.py",
+    "size": 2356,
+    "compressed": 874,
+    "crc32": 1681276593
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vprocessing_bc.py",
+    "size": 3925,
+    "compressed": 962,
+    "crc32": 1497071521
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vprocessing_hyb.py",
+    "size": 1990,
+    "compressed": 769,
+    "crc32": 3918503865
+  }
+]

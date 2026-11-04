@@ -1,0 +1,12 @@
+{
+  "development": true,
+  "posthoc": true,
+  "files": {
+    "tool/src/codedcal/output_risk_weighted.py": "e4f9fd398a95a695c5e1e5093fa4788c71d6dc724cca4441959612ce5372561f",
+    "outputs/output-risk-oct06/WEIGHTED_REPAIR_PROTOCOL.md": "6f18addde470850c84a0ee82e55ed8cdbd56a3f774dbea016ddc66de484c91b4",
+    "outputs/output-risk-oct06/weighted-controls.json": "32000d998671a58020c4d4135db219934bf916c57fa3fdc5497177fb8d3a912b",
+    "outputs/output-risk-oct06/check_weighted.py": "55e223caee0be950de9c3185d6caf5282c7919a723f12ea50fa02fb9bce55139",
+    "outputs/output-risk-oct06/weighted_run.py": "7e97bd294a689b691e1b5afee0c4911b7270bb9cf311cbc0888973388457fd48",
+    "outputs/output-risk-oct06/analyze_weighted.py": "472ee44cec4ba1ffe54c3fdae5070e4d29876182b77953820e8de67c0dbc8eb1"
+  }
+}

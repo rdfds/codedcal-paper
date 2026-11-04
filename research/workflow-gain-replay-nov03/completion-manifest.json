@@ -1,0 +1,424 @@
+{
+  "files": [
+    {
+      "path": "research/workflow-gain-replay-nov03/INTERPRETATION.md",
+      "bytes": 3614,
+      "sha256": "702f1d637740755920f80cbbbdbacf2eb5849318ad86932eb815ffd899e18cd6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/PROTOCOL.md",
+      "bytes": 4168,
+      "sha256": "5894a3b69f1052d6d9988af6419d37738bd86e9912fba6bf54814bf87b54e75d"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/REPRODUCIBILITY.md",
+      "bytes": 3306,
+      "sha256": "c4b16643bc21669ab12decde3510feef4e3a4628cb1f6e62db4ee6b5dabfa5b8"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/RESULTS.md",
+      "bytes": 1722,
+      "sha256": "4825359996298797db9279d75f9dc48cac759f2426110859030efb27d40c87b6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/analyze.py",
+      "bytes": 8989,
+      "sha256": "494bb4cc0d38e151ab93b6efdb3c41c905a0dcf7208708fcd710309bd0ec65b9"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/catalog-set-contrast.json",
+      "bytes": 10979,
+      "sha256": "f73f9c0be88e2fc8a1257d9dbafd709d57c44572d72e6ce4447f90b368d50262"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/catalog-set-contrast.log",
+      "bytes": 407,
+      "sha256": "240426b1edb85c8d17c1f17952567451fbfe7e137706e58d4159ae4fee49c9d7"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/catalog_set_contrast.py",
+      "bytes": 2856,
+      "sha256": "5e7bd5076a5f70cfc9994b633c3c99aa8429b9e11a131b5f0c4807f0527193a6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/contrast.py",
+      "bytes": 2460,
+      "sha256": "d87c31e7078be98864c260d626e9a9c695763e5dda5a778e4bab06db1b0ae6e3"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/fixed_decoder.py",
+      "bytes": 4730,
+      "sha256": "259799c4679c2bd6a9212edfa35399ae6bf854e6f8f5a5de266a281421703979"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/freeze.json",
+      "bytes": 68093,
+      "sha256": "610db3e2e26c444c812f6d067ee42f135624600de4b3f70969326c9712f0c5ce"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/offline-verification.log",
+      "bytes": 1176,
+      "sha256": "25ef5d6274660b30d4c6d3c737842875bed5ed3ca4502bea68cc5a7094519191"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/posthoc-contrast.json",
+      "bytes": 13667,
+      "sha256": "c2ca953c7bb1001469fb11627db3f633ab1d8382b86f0d6f06acd8c1b2d2b495"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/posthoc-contrast.log",
+      "bytes": 311,
+      "sha256": "2399518ab0db7678abc76daab362db749d8dbebf644ffebda877fd70743243ba"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/preceding-reproduction-check.log",
+      "bytes": 800,
+      "sha256": "210964680c68f1416ecb8c9e6f1942c55f5f889b70712aa175fe97b826808ed9"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/prepare.log",
+      "bytes": 844,
+      "sha256": "c0fd4e23344e53ea1f8bc761222cf99428d91afc6ab30693afa84edd34ca5c03"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/prepare.py",
+      "bytes": 5601,
+      "sha256": "e80be20fd95860a5b20e3af03796fb49a6550f56875864721cb49a4545062e17"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/profiles.csv",
+      "bytes": 10004,
+      "sha256": "e1afa184738e09541ef4fa2695c48e6cb5e59c2c144107e285ca46552c47bc52"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/pure-gate-recheck.log",
+      "bytes": 112,
+      "sha256": "90de572c5cd6421fcd2cf92617af1710470949b1bb9662225a994b42b7375531"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/replay_common.py",
+      "bytes": 2003,
+      "sha256": "23f10739af43c1f0d31494a3feb1b5f9b73f6168f5248611fcc4af3b546aa81a"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "bytes": 75635,
+      "sha256": "4f8f8defc0b37770b23e8053559ff0aaf542767768c7cb54b87ee04b13d1a10b"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "bytes": 77285,
+      "sha256": "cee1a401f3b4989f99cf57027ed9ce29a349c94aeed6c249978a14dffcf67bc6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "bytes": 75441,
+      "sha256": "a034100658d7497000f8be30f66525d374294bf2f1d4ea568f545b36f9412aa8"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "bytes": 75677,
+      "sha256": "6a2c9fc9c9d156320aa1efc1b3e175831cfae27e264e4554cbd0d5090e1b802f"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b.json",
+      "bytes": 76833,
+      "sha256": "ffee505bbcbc60906eab2d1f2fefcd27c0121213334ab281bba18d57b9d82dca"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 75644,
+      "sha256": "98fe90b41f5c2bf2cdb052a0873fda7fa99569dea3fc82c7e49f4361da858140"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d.json",
+      "bytes": 76811,
+      "sha256": "be696f82274272471aa70831917d66854790c82d2ad69caafd18b42c3d9c046a"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "bytes": 76220,
+      "sha256": "6512be6833d76332be21b81a28c28e3bbc38def7e50637678796ff2bf34cc64c"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 77240,
+      "sha256": "f10cc98be486bf2d48d57f9399f097d7305cca421893356e8f27520975f7fc8e"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5.json",
+      "bytes": 76946,
+      "sha256": "87de95deb79a6911f9cc413da7ccb1b240c2a00edf4b1f31c6632acbe85cc385"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "bytes": 77878,
+      "sha256": "504a1c65a7b5ced6a13d4e72f0a859bdeab84449316b5531b9228f63e7e306b0"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "bytes": 71900,
+      "sha256": "5858dd7cc63f4bbd9f4211c50442bd6996a6516ae1592dff30b04affa8a30e29"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/barcode_model/native.json",
+      "bytes": 73862,
+      "sha256": "cdbf5395d517920b617155ad5df3deb2f4cd97118911eb5f42d1a58fb55a7449"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "bytes": 93749,
+      "sha256": "e6a0083463ef73a10f4b872c02fdb5b54605980596dbb1a5ac49eaba4d58e6d6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "bytes": 93761,
+      "sha256": "5ffad9319cd822a5443cd001879868715778daed2966be452de95a4b6b40e412"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "bytes": 93757,
+      "sha256": "312d60ac519c197d66f25eb190b19f56d8946b821d40084bcc88c8b5ed53ebc6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "bytes": 104536,
+      "sha256": "a22eec7ad62caf44508a9659a0876d23ab301d79cfd7d070c26b79a55aecb7e8"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b.json",
+      "bytes": 91566,
+      "sha256": "30ea4a2fbd261b4ccda36189fc43c5602284821e4ae21a5b14676bd0a6daa9ba"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 105806,
+      "sha256": "5d87600e4436487c22bd28fcb0ca00f1ad05bf7ab520a9f98f74e46ec772999c"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d.json",
+      "bytes": 77671,
+      "sha256": "711bc162f5fb56dd97d0839d88935f1f0478e819ca31649be6e66e2bfa5dd090"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "bytes": 176243,
+      "sha256": "2156696be142f2602c9dcef400a3c53c3764527c67916e004c57bb868ab9043f"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 96244,
+      "sha256": "001f8bf27546097a89dc2047bb65ce6e55a7ccdc7911266355b16c7304cceca3"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5.json",
+      "bytes": 93749,
+      "sha256": "69e1080205d4e74b646cda035117544280a03fe760f2e3921d80dc2669fc8871"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "bytes": 92498,
+      "sha256": "6fe6f92ba7e9d8dc9c2c186bec681d846054aadc5acdb5b4d1d3a4b2f892728f"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "bytes": 92434,
+      "sha256": "535cbc05e0bf505715ea3d5579858f12bf4658370743f0b6d179f0c1c7963f8d"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/anchored/group_search/native.json",
+      "bytes": 91547,
+      "sha256": "1e257260641d2973409acd91ae82b1ae8d25fe9f49f10d0a985c127c4bfe5a2c"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/collector.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "bytes": 75313,
+      "sha256": "e91d237e68a70d33b4422daea058607427f1c2b26f5e0df5917004f8e29c4820"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "bytes": 76897,
+      "sha256": "ec16751541206622fbc160472e468f38c8e749a0b78489d5a85d45bd1a304e24"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "bytes": 75116,
+      "sha256": "ccc6435919040e459f0aa181a5419bd260ecde5e05591d33cfaa849b3b625744"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "bytes": 75404,
+      "sha256": "85d2b6cbe6be54d5127f37112ebb2f301d2819103a5df198aed6a534feccdd82"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b.json",
+      "bytes": 76551,
+      "sha256": "d102550869f3b7190e476daae2aa2e61a6539e5cc5ad07eac151138bc7665420"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 75326,
+      "sha256": "2862dc3b74ea0dac2b8cbc3687b4b880586f069a0421524126f65d8af3966b62"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d.json",
+      "bytes": 76471,
+      "sha256": "cb974afe085523a779651c2baddada3fa31617d89496a45e9a9b46059c1362b9"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "bytes": 75953,
+      "sha256": "8d0b276df2703f8ab7c9af4405e7ccdbfcaacc9933c45936c1e4b02eed957ea8"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 76825,
+      "sha256": "7d17cb9658f487938235186bf4b81f3c5179ec8c8692c0c3b07d936660a61d6c"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5.json",
+      "bytes": 76651,
+      "sha256": "4636d6ffa77051a0806d88d8d0c376a4dd62c93466c88004d9042b3528a679a6"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "bytes": 77514,
+      "sha256": "b4f0e14c4ad92f65dfa6e549c4a91affef122d628f379459f96ff6b24a02b749"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "bytes": 71602,
+      "sha256": "f001b06ac16ba3be4743bcf4c2fb76dfaeadea43229207a4e6945b426a8e75d3"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/barcode_model/native.json",
+      "bytes": 73545,
+      "sha256": "ca15ca0f958c35a0d2a7a269aec0eb310063dd042f517dd06e91c279c2bfb5ce"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953.json",
+      "bytes": 93409,
+      "sha256": "e86a6afb58499996a7444788630af5bf2cdcbf01258cf924e1a1db646f1820fc"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9.json",
+      "bytes": 93420,
+      "sha256": "b72ce76556ffd013f569d110c732c336b5cc82e448c548f042c6a339cc537f11"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214.json",
+      "bytes": 93417,
+      "sha256": "6399ea65c11f1a9c8ae04fdb5c100f3824616d2289d2efccb1b16a169de1ad1c"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf.json",
+      "bytes": 104145,
+      "sha256": "321d3d6456fb1d41f2b49ac87448281fface2edc05aa1f34ed32cfced51889b4"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b.json",
+      "bytes": 91120,
+      "sha256": "50b01ca398ea3bb0b35a5bdfcd7003b3a484afc2011183235e0cb97f442e3f5c"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f.json",
+      "bytes": 105456,
+      "sha256": "68bfdf841fca7dfe5d62c2097cfddbab5c0a01fa167dc4b7eaf7315d89eba3a5"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d.json",
+      "bytes": 77358,
+      "sha256": "1420ad8d087a24a2602aded18fc8e5c21845df071945c71f626c78d559f9dc47"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640.json",
+      "bytes": 175878,
+      "sha256": "3b9a6e5279b187595d855ac7f18e3730ed8cc47bf3b17587d292fef41008d6f8"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8.json",
+      "bytes": 96006,
+      "sha256": "db561dce3ec4986248c6d091021fe446670e470f159f94432832dd2add54fa84"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5.json",
+      "bytes": 93407,
+      "sha256": "d849e4ea0f956b429ae322c1930bfbcb8106120a2ab06f5c8c92150d505a8e72"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8.json",
+      "bytes": 92089,
+      "sha256": "3a160d6c9c1bb5764ccec2c6e5115bb4e01113e6d9109168c38f53e4eca108a1"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806.json",
+      "bytes": 92176,
+      "sha256": "cc6088c75e77730382c5beea25100da06c7b8aac82ff1003542d026a5b0c1dab"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical/group_search/native.json",
+      "bytes": 91206,
+      "sha256": "acedf24bc81fe4604a2aac4fe3c382a2e8c898c064e0c9cf176b68a430d9ea25"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/historical-gate.json",
+      "bytes": 148,
+      "sha256": "f4acafa09f488928e1b06e34abce42ab13962e87d3a4b3fbc1aa96585199af9b"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run/state.json",
+      "bytes": 781,
+      "sha256": "a37d528c6af86d44701960bee030732ab1662f326843b990e83920dfafd20983"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/run.py",
+      "bytes": 6967,
+      "sha256": "e40d7aa50aab701b4b7e0806ab96c91b4ea1b3c0b9482d6c68b8524b517952f4"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/software-control-receipt.json",
+      "bytes": 167,
+      "sha256": "3ba4e0da9341ed8c56d1fa62d6c1168c4e2a0cb05c8806db52ff3d84a22702f7"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/software-tests-repaired.log",
+      "bytes": 98,
+      "sha256": "c76dbb2cb5633e2f061610df8480983f7ad140913e837e67e4c7a38afe82dfda"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/software-tests.log",
+      "bytes": 856,
+      "sha256": "029537328171df4a4034f14272c18b3dcb9c1ae63445c50e5097fc543489b28e"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/summary.json",
+      "bytes": 17193,
+      "sha256": "c1668147a005b87f489ae275aef939f07ba7ac0c4b5ab0ab72174a515fd01dab"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/supervisor-state.json",
+      "bytes": 373,
+      "sha256": "d8e3785f64d7265f11daa273334c4c66fb0a9655ed58de36a8123994c488e5ae"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/test_replay.py",
+      "bytes": 3704,
+      "sha256": "8e0ee56942182cc3a6100777b5117605080c3712ebfd2fd65c03f158b854a294"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/verify.py",
+      "bytes": 4564,
+      "sha256": "5b99d985bca8ab96cca4212b25b17332ca6eaa2460e40b1c61a6e924ffc2f5d3"
+    },
+    {
+      "path": "research/workflow-gain-replay-nov03/worker.log",
+      "bytes": 5490,
+      "sha256": "272be2ff8642433582b226e7364d28986ca59f5c045d51dd90a928f0154adc5c"
+    }
+  ]
+}

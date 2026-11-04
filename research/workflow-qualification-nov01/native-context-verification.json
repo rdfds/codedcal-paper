@@ -1,0 +1,186 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "file_id": 12555727,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555679,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555622,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555714,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555621,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555702,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555643,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    },
+    {
+      "file_id": 12555709,
+      "all45_ifds_checked": true,
+      "tag_ids": [
+        256,
+        257,
+        258,
+        259,
+        262,
+        270,
+        273,
+        277,
+        278,
+        279,
+        282,
+        283,
+        296,
+        305
+      ],
+      "retained_native_cells_reproduce_range_hashes": true,
+      "source_whole_md5_verified_at_collection": true
+    }
+  ],
+  "requests_including_failed_conditional_request": 32,
+  "received_response_body_bytes": 124246528,
+  "whole_TIFF_hashes_recomputed_offline": false,
+  "metadata_and_selected_pixel_ranges_replayed": true,
+  "physical_validation_added": false
+}

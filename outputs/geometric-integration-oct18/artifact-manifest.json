@@ -1,0 +1,21 @@
+{
+  "scope": "Software integration audit; not a new empirical study",
+  "files": {
+    "RESULTS.md": "1ba1cca7a47d4c5826a05420bef95f88ff54470472ba31af4214c8f60aa74ccc",
+    "assembly.log": "6dc2a48386af8e6792bf5ab2c047ea74db2c9eab014f909f3a3ad8b78070d6de",
+    "bundle.log": "b05a2ba1967bfbd42cd6b09f705f561f9d3f6b153951949d4f62ec2a5b58a47d",
+    "d076-status.log": "432f2d40e5249dfb86ad43cf067aba188547081553b36a06cfb8b3123e8ede03",
+    "freeze-revision.json": "7c55f265a3584bb9dc02e3d96cd2c2976b262df7369672984458b4ff05937b16",
+    "replay.json": "c66628f7d6b1490a7ec13986d9b9cb11a342884bcb248b25a308763df14847c5",
+    "replay.log": "a42342ef957204bebc5265fad002fc2de59f9d2d9d496bea356abcbce941efb8",
+    "replay.py": "c0ca191e55a20455c9d7f609432512bd0a2b96de68c32a3a4159e22f5a3f4676",
+    "tests.log": "6ea460943fe7c8dd31465fa562367ba95aa9efc0d446cd77e9eb10ee9abcc23f",
+    "validation.json": "14d58a2d7dc443c23f2144131c57b1b462d88f0ea9d587f86928ee77c13edd95",
+    "wheel-smoke-initial-error.json": "42886adf04d38081c74a0a63543a53ece48cf799039ed073d95f92a600af0e93",
+    "wheel-smoke.json": "50d060a4374bbd1aeb919889fed805cb11d8c14dd3a8ff1936fc137c7bdebb3d",
+    "wheel-smoke.log": "6f2b035001fb51a7b51cf1eeaac3eafefad592edc68eb6dfac285a13754f1e09",
+    "wheel-supported.json": "c0fe46e0540ea6a74b655fcedf8ea7135d951725de83259c7e0f4f0a27b8cfaf",
+    "wheel-weak.json": "3928d50e9f2f0a3211809931ee8a4fb186c9a18bbb12889f7e263034ae8e7272",
+    "wheel_smoke.py": "13575e219fc8652f792ee76e58ff62d5fcd465dcdd8e1cc75040afe09376c2da"
+  }
+}

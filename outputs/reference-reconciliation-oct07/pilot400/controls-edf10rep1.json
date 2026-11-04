@@ -1,0 +1,474 @@
+{
+  "tag": "edf10rep1",
+  "metadata": {
+    "groups": 4755,
+    "global_fallback_cov": [
+      [
+        10.233470818023415,
+        -0.09728426195142481
+      ],
+      [
+        -0.09728426195142478,
+        11.547173217012599
+      ]
+    ],
+    "fallback_sources": 43742,
+    "inferred_sources": 53509,
+    "empirical_sha256": "a99bde392ac4290d3148650db715f25936871a8649b7fe125da6532040ed9da5"
+  },
+  "qc": {
+    "max_zsd": null
+  },
+  "records": [
+    {
+      "T": 0.0,
+      "model": "gaussian",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 138,
+      "estimate": [
+        0.07398208642486558,
+        0.16431779015235098,
+        0.922107555170631
+      ],
+      "se": [
+        0.3006580070105362,
+        0.30647344641286045,
+        0.7568115756375212
+      ],
+      "rejections": {
+        "size": 4159,
+        "panel_coverage": 115,
+        "rms": 27,
+        "isolation": 23,
+        "split": 8,
+        "zsd": 0
+      },
+      "impure_fraction": 0.09420289855072464,
+      "event_coverage": 0.1423999101577854,
+      "group_records": "control-edf10rep1-gaussian-T0-s2610071101.npz"
+    },
+    {
+      "T": 0.0,
+      "model": "gaussian",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 155,
+      "estimate": [
+        -0.3592535928250043,
+        -0.5250168942385478,
+        -0.2444368669599675
+      ],
+      "se": [
+        0.326671512353845,
+        0.34577690962831287,
+        0.267234392499876
+      ],
+      "rejections": {
+        "size": 3932,
+        "panel_coverage": 132,
+        "rms": 26,
+        "isolation": 10,
+        "split": 13,
+        "zsd": 0
+      },
+      "impure_fraction": 0.05806451612903226,
+      "event_coverage": 0.16035839411866062,
+      "group_records": "control-edf10rep1-gaussian-T0-s2610071102.npz"
+    },
+    {
+      "T": 1.0,
+      "model": "gaussian",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 143,
+      "estimate": [
+        1.0377852877466245,
+        0.8903523011076204,
+        1.708161483959032
+      ],
+      "se": [
+        0.36517912747138437,
+        0.38089462371899996,
+        0.4915514491656088
+      ],
+      "rejections": {
+        "size": 4168,
+        "panel_coverage": 117,
+        "rms": 20,
+        "isolation": 25,
+        "split": 8,
+        "zsd": 0
+      },
+      "impure_fraction": 0.11188811188811189,
+      "event_coverage": 0.14644280981526195,
+      "group_records": "control-edf10rep1-gaussian-T1-s2610071101.npz"
+    },
+    {
+      "T": 1.0,
+      "model": "gaussian",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 152,
+      "estimate": [
+        0.7486188519938973,
+        0.6694582013207369,
+        1.000745073552377
+      ],
+      "se": [
+        0.382183839397858,
+        0.43604828055617834,
+        0.32698853453556476
+      ],
+      "rejections": {
+        "size": 3949,
+        "panel_coverage": 132,
+        "rms": 26,
+        "isolation": 11,
+        "split": 14,
+        "zsd": 0
+      },
+      "impure_fraction": 0.05263157894736842,
+      "event_coverage": 0.15760151628280972,
+      "group_records": "control-edf10rep1-gaussian-T1-s2610071102.npz"
+    },
+    {
+      "T": 3.0,
+      "model": "gaussian",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 146,
+      "estimate": [
+        2.7686515864702503,
+        2.444906591552789,
+        3.365742265562062
+      ],
+      "se": [
+        0.4945252760684351,
+        0.6089995882953827,
+        0.666840858531892
+      ],
+      "rejections": {
+        "size": 4189,
+        "panel_coverage": 119,
+        "rms": 20,
+        "isolation": 24,
+        "split": 7,
+        "zsd": 0
+      },
+      "impure_fraction": 0.1095890410958904,
+      "event_coverage": 0.15026110393621203,
+      "group_records": "control-edf10rep1-gaussian-T3-s2610071101.npz"
+    },
+    {
+      "T": 3.0,
+      "model": "gaussian",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 155,
+      "estimate": [
+        2.801821857932057,
+        2.8337539343801526,
+        3.2307123253528074
+      ],
+      "se": [
+        0.559519786890369,
+        0.6165594585440909,
+        0.5002269208209829
+      ],
+      "rejections": {
+        "size": 3952,
+        "panel_coverage": 133,
+        "rms": 26,
+        "isolation": 10,
+        "split": 12,
+        "zsd": 0
+      },
+      "impure_fraction": 0.07096774193548387,
+      "event_coverage": 0.1602435242088335,
+      "group_records": "control-edf10rep1-gaussian-T3-s2610071102.npz"
+    },
+    {
+      "T": 5.0,
+      "model": "gaussian",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 145,
+      "estimate": [
+        4.533866515635713,
+        4.185733553005503,
+        5.0821609514516135
+      ],
+      "se": [
+        0.6256373846838048,
+        0.8666276247912446,
+        0.9602701899441421
+      ],
+      "rejections": {
+        "size": 4190,
+        "panel_coverage": 122,
+        "rms": 21,
+        "isolation": 22,
+        "split": 8,
+        "zsd": 0
+      },
+      "impure_fraction": 0.1103448275862069,
+      "event_coverage": 0.14908192486944802,
+      "group_records": "control-edf10rep1-gaussian-T5-s2610071101.npz"
+    },
+    {
+      "T": 5.0,
+      "model": "gaussian",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 156,
+      "estimate": [
+        4.706865833353457,
+        4.778444688957626,
+        5.235052072337104
+      ],
+      "se": [
+        0.7292544014099687,
+        0.8100947914377528,
+        0.6858162460002476
+      ],
+      "rejections": {
+        "size": 3969,
+        "panel_coverage": 131,
+        "rms": 26,
+        "isolation": 8,
+        "split": 14,
+        "zsd": 0
+      },
+      "impure_fraction": 0.08333333333333333,
+      "event_coverage": 0.16099017862270978,
+      "group_records": "control-edf10rep1-gaussian-T5-s2610071102.npz"
+    },
+    {
+      "T": 0.0,
+      "model": "residual",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 158,
+      "estimate": [
+        0.09534759838708425,
+        -0.5518680237761425,
+        -0.3080891973120543
+      ],
+      "se": [
+        0.27531641884823926,
+        0.4459336244131573,
+        0.29394626149062353
+      ],
+      "rejections": {
+        "size": 4098,
+        "panel_coverage": 97,
+        "rms": 10,
+        "isolation": 18,
+        "split": 35,
+        "zsd": 0
+      },
+      "impure_fraction": 0.11392405063291139,
+      "event_coverage": 0.1613202084539664,
+      "group_records": "control-edf10rep1-residual-T0-s2610071101.npz"
+    },
+    {
+      "T": 0.0,
+      "model": "residual",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 120,
+      "estimate": [
+        0.6105973095427918,
+        -0.26505754663829645,
+        0.2516077021236446
+      ],
+      "se": [
+        0.6037176377305395,
+        0.4341958575134646,
+        0.8084143853902015
+      ],
+      "rejections": {
+        "size": 4076,
+        "panel_coverage": 125,
+        "rms": 24,
+        "isolation": 13,
+        "split": 29,
+        "zsd": 0
+      },
+      "impure_fraction": 0.11666666666666667,
+      "event_coverage": 0.129716006376572,
+      "group_records": "control-edf10rep1-residual-T0-s2610071102.npz"
+    },
+    {
+      "T": 1.0,
+      "model": "residual",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 156,
+      "estimate": [
+        1.536035590964285,
+        0.5158424462914859,
+        0.3024171732730572
+      ],
+      "se": [
+        0.4499863737310234,
+        0.6387887844484482,
+        0.4667704024291392
+      ],
+      "rejections": {
+        "size": 4092,
+        "panel_coverage": 97,
+        "rms": 10,
+        "isolation": 23,
+        "split": 30,
+        "zsd": 0
+      },
+      "impure_fraction": 0.15384615384615385,
+      "event_coverage": 0.15819339895773016,
+      "group_records": "control-edf10rep1-residual-T1-s2610071101.npz"
+    },
+    {
+      "T": 1.0,
+      "model": "residual",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 119,
+      "estimate": [
+        1.1051945999472166,
+        0.7907907225258096,
+        0.9910735749225437
+      ],
+      "se": [
+        0.6051614381306949,
+        0.5440956415938586,
+        0.818634550419476
+      ],
+      "rejections": {
+        "size": 4094,
+        "panel_coverage": 124,
+        "rms": 24,
+        "isolation": 14,
+        "split": 29,
+        "zsd": 0
+      },
+      "impure_fraction": 0.11764705882352941,
+      "event_coverage": 0.1280628210426876,
+      "group_records": "control-edf10rep1-residual-T1-s2610071102.npz"
+    },
+    {
+      "T": 3.0,
+      "model": "residual",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 156,
+      "estimate": [
+        4.107243974544509,
+        2.64591631105506,
+        2.1162088890312205
+      ],
+      "se": [
+        0.6868809275628952,
+        0.9064785694784888,
+        0.691748660006547
+      ],
+      "rejections": {
+        "size": 4114,
+        "panel_coverage": 99,
+        "rms": 9,
+        "isolation": 24,
+        "split": 31,
+        "zsd": 0
+      },
+      "impure_fraction": 0.17307692307692307,
+      "event_coverage": 0.15819339895773016,
+      "group_records": "control-edf10rep1-residual-T3-s2610071101.npz"
+    },
+    {
+      "T": 3.0,
+      "model": "residual",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 117,
+      "estimate": [
+        2.4189262828518743,
+        2.7244824089248625,
+        2.3828928525683
+      ],
+      "se": [
+        0.6200091305389434,
+        1.1330251252161683,
+        1.0233894209617564
+      ],
+      "rejections": {
+        "size": 4106,
+        "panel_coverage": 127,
+        "rms": 23,
+        "isolation": 15,
+        "split": 28,
+        "zsd": 0
+      },
+      "impure_fraction": 0.1282051282051282,
+      "event_coverage": 0.12611442404203815,
+      "group_records": "control-edf10rep1-residual-T3-s2610071102.npz"
+    },
+    {
+      "T": 5.0,
+      "model": "residual",
+      "seed": 2610071101,
+      "group_draws": 400,
+      "passing_sources": 153,
+      "estimate": [
+        6.012796095566724,
+        4.564610457338623,
+        3.794363863741637
+      ],
+      "se": [
+        0.8799725606877313,
+        1.1468163159307416,
+        0.8982434842097068
+      ],
+      "rejections": {
+        "size": 4147,
+        "panel_coverage": 99,
+        "rms": 8,
+        "isolation": 25,
+        "split": 33,
+        "zsd": 0
+      },
+      "impure_fraction": 0.1830065359477124,
+      "event_coverage": 0.155819339895773,
+      "group_records": "control-edf10rep1-residual-T5-s2610071101.npz"
+    },
+    {
+      "T": 5.0,
+      "model": "residual",
+      "seed": 2610071102,
+      "group_draws": 400,
+      "passing_sources": 119,
+      "estimate": [
+        3.7936332488895546,
+        4.933653782366656,
+        4.013770917663134
+      ],
+      "se": [
+        0.583208108242918,
+        1.6167934049981563,
+        1.2471126265948695
+      ],
+      "rejections": {
+        "size": 4136,
+        "panel_coverage": 127,
+        "rms": 24,
+        "isolation": 16,
+        "split": 26,
+        "zsd": 0
+      },
+      "impure_fraction": 0.14285714285714285,
+      "event_coverage": 0.129656964043219,
+      "group_records": "control-edf10rep1-residual-T5-s2610071102.npz"
+    }
+  ],
+  "complete": true,
+  "runtime_seconds": 6.158024311065674
+}

@@ -1,0 +1,27 @@
+{
+  "kernel_source_sha256": "3d34d0a8dcbb74496917797fa734c58e568e5f0fdd957d0d968c4205f97fa9a1",
+  "scope": "Isolated source; no photons at the evaluated locus in absent readouts. Does not bound evidence from overlapping sources or background. Not a prediction that all real calls vanish.",
+  "evidence_formula": "dot(x,b)/(norm(x)+lowg)/norm(b)",
+  "cauchy_support_bound": "Evidence for an n-readout one-hot word is <= sqrt(k/n) if at most k of its on-readouts carry source photons at that position; positive noise floor only lowers the bound.",
+  "rounds": 10,
+  "threshold": 0.775,
+  "minimum_supported_readouts_even_at_infinite_signal": 7,
+  "gc_readout_count_distribution": {
+    "0": 2,
+    "1": 16,
+    "2": 64,
+    "3": 231,
+    "4": 388,
+    "5": 419,
+    "6": 344,
+    "7": 215,
+    "8": 68,
+    "9": 22,
+    "10": 1
+  },
+  "code_classes": 1770,
+  "classes_below_cut_at_both_separated_camera_loci": 1151,
+  "two_camera_mode": "Native source applies camera homography to channels 1/3 relative to 0/2. Frozen seed505 color grouping is precisely 0/2 versus 1/3.",
+  "prepared_image_scope": "Added displacements occur after native unmixing/conditioning, testing an idealized residual registration mode, not a rerun of the raw-camera production workflow.",
+  "before_external_perturbed_decoding": true
+}

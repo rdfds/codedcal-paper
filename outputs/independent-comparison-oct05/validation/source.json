@@ -1,0 +1,19 @@
+{
+  "name": "bc_L2_MAX_M1-L2_000_002_x1500_y600_v004",
+  "sha256": "520cabe0d7ac2cb7ec869219a7a477c846f69faea3d59c38090ab6048b793b72",
+  "shape": [
+    28,
+    200,
+    200
+  ],
+  "n_words": 67,
+  "n_annotations": 134,
+  "statuses": {
+    "bad": 7,
+    "debatable": 17,
+    "good": 92,
+    "unknown": 18
+  },
+  "good_interior": 80,
+  "good_border_excluded": 12
+}

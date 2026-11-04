@@ -1,0 +1,19 @@
+{
+  "python": "3.10.16",
+  "machine": "arm64",
+  "system": "Darwin",
+  "release": "24.3.0",
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "tensorflow": "2.16.2",
+    "keras": "3.12.4",
+    "h5py": "3.16.0",
+    "scikit-image": "0.25.2",
+    "opencv-python-headless": "4.11.0.86",
+    "SimpleITK": "2.4.1"
+  },
+  "tf_intraop_threads": 2,
+  "tf_interop_threads": 1,
+  "runtime_scope": "Descriptive local measurements, no portable speed superiority; references reused only after exact decoder-domain equality."
+}

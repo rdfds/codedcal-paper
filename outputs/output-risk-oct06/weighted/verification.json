@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "weighted_forecasts_recounted": 20,
+  "independent_tie_weight_and_global_assignment_recount": true,
+  "independent_RNA_truth": false
+}

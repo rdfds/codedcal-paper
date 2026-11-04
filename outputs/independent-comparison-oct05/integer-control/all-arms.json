@@ -1,0 +1,962 @@
+[
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8512820512820513
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.6962025316455697
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8512820512820513
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.0392156862745098
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8656716417910447
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8512820512820513
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.4264705882352941
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.5850340136054422
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.7931034482758621
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8512820512820513
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8686868686868687
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.019801980198019802
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.0
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.32786885245901637
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8601036269430051
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8656716417910447
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.864321608040201
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.6311111111111111
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.03444564047362755
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.25757575757575757
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.4980237154150198
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.6995073891625616
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.017777777777777778
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.02247191011235955
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.19047619047619047
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8066298342541437
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8044692737430168
+  },
+  {
+    "split": "development",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8571428571428571
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.7102803738317757
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.7121951219512195
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.646551724137931
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.656934306569343
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.7102803738317757
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.7184466019417476
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.646551724137931
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.04819277108433735
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.7142857142857143
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.6948356807511737
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.646551724137931
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.5254237288135594
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.6618705035971223
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.782608695652174
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.7024390243902439
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.6666666666666666
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.0
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.18181818181818182
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.33663366336633666
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.7047619047619048
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.646551724137931
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "correlation",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.7129629629629629
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8181818181818182
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8258064516129032
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8366013071895425
+  },
+  {
+    "split": "validation",
+    "condition": "zero-a0",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.3373493975903614
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8181818181818182
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8181818181818182
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8366013071895425
+  },
+  {
+    "split": "validation",
+    "condition": "round-a2",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.04551920341394026
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.8152866242038217
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8205128205128205
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8366013071895425
+  },
+  {
+    "split": "validation",
+    "condition": "round-a4",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.1871345029239766
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.6127167630057804
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.5824175824175825
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8205128205128205
+  },
+  {
+    "split": "validation",
+    "condition": "color-a2",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "none",
+    "status": "completed",
+    "identity_f1": 0.0201765447667087
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "common_round",
+    "status": "completed",
+    "identity_f1": 0.07857142857142857
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "common_iterative",
+    "status": "completed",
+    "identity_f1": 0.2268041237113402
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "population_template",
+    "status": "completed",
+    "identity_f1": 0.8258064516129032
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "barcode_model",
+    "status": "completed",
+    "identity_f1": 0.8366013071895425
+  },
+  {
+    "split": "validation",
+    "condition": "color-a4",
+    "decoder": "regression",
+    "policy": "oracle",
+    "status": "completed",
+    "identity_f1": 0.8227848101265823
+  }
+]

@@ -1,0 +1,3416 @@
+{
+  "passed": true,
+  "tissue_comparison_records": 99,
+  "decision_cases": 8,
+  "records": [
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__regression.json",
+      "sha256": "a18aeb26903949478e46fa2c2fcef6d244e8e422bff6a5f3f1c8f1176bee8fe1"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__source_spot.json",
+      "sha256": "4e98d82a1f22a16d3c961d173a642042b13c222f29e8353473c8e097df66f56f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__regression.json",
+      "sha256": "43a818232bf2db51df339600dc77db52c9bb75c6b958015c85effd30a0d3666d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__source_spot.json",
+      "sha256": "3bed47c62949e98ec59386b763346d92544eea53241d9b9bb721a941a341e335"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__regression.json",
+      "sha256": "c1266ccc17dfaac445bd3f7850e674c9e8de6b20fed306219b617947bcb5ca82"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__source_spot.json",
+      "sha256": "27949863309ee09fb948f2f60468b3d73593042d20c4a2fea5f4f1caa26d811b"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__correlation.json",
+      "sha256": "cab64eb183f4189394f23d24c9370f4e588b8d96fc53373d1a7836c422599a9d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__source_spot.json",
+      "sha256": "65e8c825eff36b07804f40217e667ab69fdbbb1bb280edf6191140fcc2472793"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__source_spot.json",
+      "sha256": "1ee9aa84fa311b9072ac36e54afb2848746b9248bad2c2e62a0fca1953257f3d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__regression.json",
+      "sha256": "652798f4eeec44a139f3fb642fa6ee5e41b0baaa0c6ebc00441310183aeb91f7"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__regression.json",
+      "sha256": "634e8f0788c1c81d0a2c48bb48d6adf389bdf6b0f3b8090fec9de4277f3f9170"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__correlation.json",
+      "sha256": "657620d46cdc69cfed2ea635f7b3288f5c4ce5ed2a2cb126dd401401522601e8"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__source_spot.json",
+      "sha256": "6b85e2e7f0df5040fb826ea5573110d3f7821e3498d4759bf4cd7bc418b307cc"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__source_spot.json",
+      "sha256": "d30a2ffcedba15e47c487140e06507604725a1906f7dd1fbf205b20c4179e74d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__correlation.json",
+      "sha256": "30a529630881c2ad1919352498af02f44073e9ebf474bafe4b2195f0ba6a0705"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__regression.json",
+      "sha256": "126b75af27db3ed91732f8b7879f49a368c6736400172d5a4437ec856dfdf9bf"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__correlation.json",
+      "sha256": "abc443c669bcc43edc221c81e5cfe306cacd94a9af9bc70054092d7cb343b639"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__correlation.json",
+      "sha256": "8ba9a19ed80c32d37343f1d8505ccabb78106bceb91dc5405eeafeed8c087958"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__correlation.json",
+      "sha256": "9b0a71ecceed404248b6b128748a5709e6d6a02cc17bb2a2db70cf97d174c622"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__regression.json",
+      "sha256": "d242fd1a39f63f7157f0122879481399751198d016f08a60161014c5d458e19c"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__source_spot.json",
+      "sha256": "b64913d53c321d47ae4ecb7aad09841777712157c5ace3687da46cfffd028284"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__correlation.json",
+      "sha256": "8942b464d3160a00d06d7fd2175ea398ef767d87ec8f801c12e939af62b2445a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__regression.json",
+      "sha256": "a51c171945cfb4f738d94141cc62c13cadfe647b60b769453beb6fe6947c414c"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__correlation.json",
+      "sha256": "c777738233c81881a64e15e115671cab0d03cf6fc024b5a0e7c5e79bde2a571b"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__regression.json",
+      "sha256": "bc0be64fa2a68a2db086a295db0a2058f49fa7a1b9957b2748e6608066b21d7b"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__correlation.json",
+      "sha256": "8d31c88405d894e2b80c4acdf2fe5ad2221f3426bba085b5ea05a5dd5877f19a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__regression.json",
+      "sha256": "9d489125e46c351fd0bc93f53a43b955803871708c401aa391043b24a9d47baa"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__correlation.json",
+      "sha256": "c7cc682e76fc0c08b493cc6d65239b53c0110f5bf39fbec1e515ed4476407863"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__source_spot.json",
+      "sha256": "1169244b66307f2f1ff9031b3a499fb96c01772081862e885558f45bf9c54246"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__correlation.json",
+      "sha256": "f808569e957d078b408ad248a45dc03cc1ab441107bd059d89c21bca22136f1e"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__regression.json",
+      "sha256": "be66fca161ab5ea137afb21ad64ef5a6bed284cf190c26f2145bc0ecce3c9d8f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__source_spot.json",
+      "sha256": "9ff4fa443992fef65ba4bb861d8c26549255ea92ac3899b9a6c727336135de1f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__regression.json",
+      "sha256": "14d46d9cb6a96078de07e84dd9eb6485c645ce3f2b57a93b3a8a20eb4bed3bd8"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__correlation.json",
+      "sha256": "eaedc252e0b7227f6adf40fc3226560ba08c74c37d2f11737ce063b3a689f435"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__regression.json",
+      "sha256": "cddbafa561d82166d51e8dcbf34545087e631bd1bf1913d26cd72c8721099f22"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__regression.json",
+      "sha256": "8ff620a79dc833f4d11405239ff6a55b33cb85984b3fa187610c0528e90c20b7"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__correlation.json",
+      "sha256": "336d71f066c5d187e79f97d63ab968f93fc33a5512a188f75e700ca0b1c9b7fc"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__source_spot.json",
+      "sha256": "a79d624efaf09790beffd7cf694839b064ffe652e29bfcb87c03ecbf8630c6e8"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__regression.json",
+      "sha256": "529caa46906e1f223733d525a716a1798b9c71443dd5cd7b91ff5a827aa02eb1"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__correlation.json",
+      "sha256": "0b2a4425a87796d369b84afaa5353a53616c4ea5dea8e7a0966a501ab7bc2e23"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__source_spot.json",
+      "sha256": "374a90ed14e910d77a31d0c28b8343b65b4a8de0aed22a9bdf49adb762247608"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__regression.json",
+      "sha256": "d4d8c753e2c9bbe5b2ea3733152351602abd13500a1826b77f579fa9bbe35a28"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__regression.json",
+      "sha256": "1eaaec8cbc12f046290541c1912a99d40d5c511b7ad44a6f8d6f336f1b6c628c"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__regression.json",
+      "sha256": "f530166325a34001b2f4f4fc1863779fcc3e8be53644020765bac683c3ae62c4"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__regression.json",
+      "sha256": "f3eb9c8af8fe50a98b04962bf8177c8449d880a3cb63326d42e55aab1b3be596"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__source_spot.json",
+      "sha256": "44adb2f77ee3c8584955f4631f27c0560d08dbaabe833b06b2970c1d732e04b1"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__source_spot.json",
+      "sha256": "fea23c08717e0c6adf723c6dc40e0a7854a1247f057bea67eedb5dcd2f975e35"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__source_spot.json",
+      "sha256": "efaa167fe009d43e2d2893335c584e5ed4874d30fe70d204801cfef24d8d071e"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__regression.json",
+      "sha256": "ea101575c057951ff29001a973e26989b4b08ca705418080bbdfb2dc05430e0c"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__correlation.json",
+      "sha256": "66bdc8806debfab0b80d7a792fa27f808964bd23e8922d4c8612ae123bdeb338"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__regression.json",
+      "sha256": "2d6649f7172a41b2efbe8324356553aa0464413d4b7e9bdfd62104279dad6e8c"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__regression.json",
+      "sha256": "15252e258ce6b19186333415b910dc183f33d20ffbd2a02c2e9f7e6de8165657"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__regression.json",
+      "sha256": "f8fe8fa4626fde118dd1d466bfa3c10faa290929970c14c700b1698b4d0113cf"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__regression.json",
+      "sha256": "4f92377332b3edb38c91974b7212d357eecd5e48c79ed1d092f2a140ef793cc5"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__correlation.json",
+      "sha256": "222aff8bc394d0b81dda85b0059527fb987b75ff97789d5236a986c15d4c58c2"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__regression.json",
+      "sha256": "ba66d28cea29ff08aecd239f9605e4d14c71d54b1515798e69be42ef1ffb96e8"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__source_spot.json",
+      "sha256": "134f91a3f188f9c188982d16fe7c091101b507e8c76921839ea5c33a7e64ae97"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__source_spot.json",
+      "sha256": "e71dc1fab96005e8edc5cb282957f56c71166b5f6eb100f8838002158d19b88d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__source_spot.json",
+      "sha256": "d75b2abb54b0fd43cacf174fddb65d573608b280f4c485490ecb467f76b6ed53"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__correlation.json",
+      "sha256": "f57881513847fe4844678689d192738fdebf2805b5ad15e64ce85efebef4724a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__correlation.json",
+      "sha256": "698cf22deae67677808ccabbcd4670511deb0d75025f2e73a39369beba2bf3e6"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__correlation.json",
+      "sha256": "ee431ee68bc99d3914fb86edbf0d51f12db3c52db59c6c8052d92e6ad2ac80a9"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__source_spot.json",
+      "sha256": "ca15fb631f63aa40e84a6a18d9ae16f5c8700dc2b6b39ed8ca6767fa3942af4f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__correlation.json",
+      "sha256": "218ca95e76178f83458e9cc3924ada0189bcfc7246e081cb7ab6d29853202abe"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__source_spot.json",
+      "sha256": "fdae557726c04ac226db8e1bcb8096557aa4ff59dcaed7f7315a5f34d0cb1e43"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__source_spot.json",
+      "sha256": "4cbbdabbe29dc26082effa6630209b80050900fbdbd640dfa3f428d72bb9186a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__source_spot.json",
+      "sha256": "e3aaad598b38d82fec45312b4a4733856d17452c81343d78c1b8bba94f3a6607"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__correlation.json",
+      "sha256": "ee341b1508379c2334720a7ac1226f59fb38ca50454d1bcf9320318e642ab244"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__correlation.json",
+      "sha256": "89cdd009370eebce38f41b3bb1997f0faa1f5a23c83128e6f44419c84d868928"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__correlation.json",
+      "sha256": "3f98d02aa26b670b2807a1c299115a11f44aacd8620bd80dc9ac3eda76b86911"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__correlation.json",
+      "sha256": "09fdbcf3ed95cc9496be71e217727ff6ced6a6d93f02d574a768a68f60753fcc"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__source_spot.json",
+      "sha256": "6261422cbb58f5a4135449380dc8a440fcba26f4974356d3eb6af612501eb400"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__regression.json",
+      "sha256": "bf9fa0a15f813941bb44807474c6b9697bc8ebf586d693fe09f666625f1173bd"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__correlation.json",
+      "sha256": "c19285d745ce97ffedc5edd1e0df6d6b82fafbb3ec6eaeff3c7af08999919d63"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__regression.json",
+      "sha256": "eafd292b2e9c3d7efa81cc5e8109c9657e4c122f5846c96856b4d17bfba2e3a6"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__correlation.json",
+      "sha256": "353ecc63f8d3082d4af1cf36f65e62bb9018c8727797eb5ae7d8f887bce9bd56"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__regression.json",
+      "sha256": "c7f0f073052e6e298c654f2730f90bafdfc5bbb585adcde099a8f47e753edfcd"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__correlation.json",
+      "sha256": "eab8a35dd94359b66acc9cb058acf4daa4181c6c46195b0c8e725041b395afa4"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__source_spot.json",
+      "sha256": "76eff2d289076d044569c1f0f2dfe6a92086b77d1f11bf757927fb2388b0d823"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__source_spot.json",
+      "sha256": "ea4e3e4e13aff013edf9d7f1349b8bcd3b87b066d0b1769520f093c260673dc9"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__regression.json",
+      "sha256": "42b5131df163c4984205f31fe862860230b6b0d0b6a9df55528a4c9a51b9d2f2"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__source_spot.json",
+      "sha256": "59610b9e58b88517b678650812f01faec3738e9e9cfb44770529547e97ea2551"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__regression.json",
+      "sha256": "262bd154790a2810010754b12a88c9a649e3aa03d33efbd39e7f44f208ba62e0"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__source_spot.json",
+      "sha256": "6b4a74c5469608208341a99340d0111b9a7eb289128eed47435234ed288ea189"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__source_spot.json",
+      "sha256": "dd1e59ee3dc50be4b9fafb1dac17f28edbacd39282c70a566ba942056dc7c0d7"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__regression.json",
+      "sha256": "88aa31aa2635e9178ff2d5c3be99895fe947bde4a0b3a86093d4743c6eeb8383"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__source_spot.json",
+      "sha256": "52fddc9a3fada3dd03473feea3db7565d986347ce3b93e910f52134483c0350a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__source_spot.json",
+      "sha256": "a4275940d090bfa0437227967216a3fa5836c24536199848d7ed5c5cb4619fca"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__regression.json",
+      "sha256": "0aabaa818b6b9380d5fafdf425dedda743a511c512610b03a938024c55a25a16"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__correlation.json",
+      "sha256": "b42ea74443808c116e5f55dd6435344ce6f2393ae30a8bd237599ce57869bb8b"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__correlation.json",
+      "sha256": "4e537062664b243b326736042c7ec959085b05ce5e2cd2bc8c2b334648171986"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__correlation.json",
+      "sha256": "19de132b34067c1cb20d7950f425a8c98748cd35ce8c1ac289a670e4cec53799"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__source_spot.json",
+      "sha256": "4f91130a85f643b7579bee9ad322ee1f2133e61143dffd702244a6d045642f44"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__correlation.json",
+      "sha256": "56d6779f8eb502939283508c5e3abe2a253beef6ad99382f5564dba7aee9313f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__source_spot.json",
+      "sha256": "48ac9c49389825ed3f44dacdb5df9b8baf43072b2896c2d052238d14ea20aaa1"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__correlation.json",
+      "sha256": "7ba2e1684fc8cc918183390aa93fa0c8ba5b91818a06a19085bed2b5523300fd"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__regression.json",
+      "sha256": "a2383c381b77e46adf9d5f0e96ad7c02eade113c4ce9a61eb93e6b0f10efd136"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__correlation.json",
+      "sha256": "5df45846ca04fd9aa651eed2354e784d3b29797acc1e91cde19da41c71d59a4f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__source_spot.json",
+      "sha256": "cd24a0eb5b69a2660d7137074065408dd4ad51eb035035f65f0a600481bb033f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/object-score/zero.json",
+      "sha256": "685f513b81827de618f22b9c17ac4a153c93abdf5df543fbf1956c47aacc5683"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/object-score/common.json",
+      "sha256": "c7b27f59f95dac475eba28f0e97231f0353a656e2eb7caea5ab2cf881f27c695"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/object-score/color.json",
+      "sha256": "735abf6222a23666f4419ac0bdc838a76c77da0f14e12a8c6f38c3ccbcb2bcb1"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/object-score/outclass.json",
+      "sha256": "e5aa67ed1e32a4dd683aab83bfa3744ee6c1d226c2f90d16d974beaedc8ee8cb"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-anchor-score/zero.json",
+      "sha256": "007890f0a80d8f8041125a66165b95021ed29926e9a2155ec9f32010c8893f94"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-anchor-score/common.json",
+      "sha256": "18be104acc718aa59376ee46ea794915bc311f2236b456c17c71fe29e8742bb4"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-anchor-score/color.json",
+      "sha256": "f11d048ee5a796b569d2d5b8bd24b3b14f8fccb1da75303fc023a77eccf11016"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-anchor-score/outclass.json",
+      "sha256": "ab3e0ee7edd732ac257e04f62bfd2a59394f011616545e9dc5220578088d9755"
+    }
+  ],
+  "frozen_files_verified": 77,
+  "unchanged_core_sha256": "82407386fccc55da8b745fd5a31c83ed27d41e4c4fcb2eb1b3267d5c14df4fdc",
+  "identity_counts_composition_verified": true,
+  "matching_radius_comparisons": 297,
+  "matching_maximum_observed_difference": 0.0,
+  "matching_different_cases": 0,
+  "matching_uncertainty_not_exhaustive": true,
+  "independent_RNA_truth": false,
+  "independent_complete_workflow_confirmation": false,
+  "matching_sensitivity": [
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__regression.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9899665551839465,
+      "global_f1": 0.9899665551839465,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__regression.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9899665551839465,
+      "global_f1": 0.9899665551839465,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__regression.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9899665551839465,
+      "global_f1": 0.9899665551839465,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9375,
+      "global_f1": 0.9375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9375,
+      "global_f1": 0.9375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9375,
+      "global_f1": 0.9375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__regression.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__regression.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__regression.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__source_spot.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__source_spot.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__source_spot.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__regression.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9466666666666667,
+      "global_f1": 0.9466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__regression.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9466666666666667,
+      "global_f1": 0.9466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__regression.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9466666666666667,
+      "global_f1": 0.9466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__source_spot.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.012048192771084338,
+      "global_f1": 0.012048192771084338,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__source_spot.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.03614457831325301,
+      "global_f1": 0.03614457831325301,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__source_spot.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.39759036144578314,
+      "global_f1": 0.39759036144578314,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__correlation.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__correlation.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__correlation.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__source_spot.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.012422360248447204,
+      "global_f1": 0.012422360248447204,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__source_spot.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.36024844720496896,
+      "global_f1": 0.36024844720496896,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__source_spot.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.422360248447205,
+      "global_f1": 0.422360248447205,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.8723404255319149,
+      "global_f1": 0.8723404255319149,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.8723404255319149,
+      "global_f1": 0.8723404255319149,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.8723404255319149,
+      "global_f1": 0.8723404255319149,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__regression.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__regression.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__regression.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9463087248322147,
+      "global_f1": 0.9463087248322147,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9463087248322147,
+      "global_f1": 0.9463087248322147,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9463087248322147,
+      "global_f1": 0.9463087248322147,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__correlation.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__correlation.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__correlation.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__source_spot.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__source_spot.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__source_spot.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__source_spot.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.10778443113772455,
+      "global_f1": 0.10778443113772455,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__source_spot.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.46706586826347307,
+      "global_f1": 0.46706586826347307,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__source_spot.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.49101796407185627,
+      "global_f1": 0.49101796407185627,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__correlation.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.8582375478927203,
+      "global_f1": 0.8582375478927203,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__correlation.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.8582375478927203,
+      "global_f1": 0.8582375478927203,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__correlation.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.8659003831417624,
+      "global_f1": 0.8659003831417624,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__regression.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__regression.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__regression.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.8787878787878788,
+      "global_f1": 0.8787878787878788,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.8787878787878788,
+      "global_f1": 0.8787878787878788,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.8787878787878788,
+      "global_f1": 0.8787878787878788,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__correlation.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.03404255319148936,
+      "global_f1": 0.03404255319148936,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__correlation.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.11063829787234042,
+      "global_f1": 0.11063829787234042,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__correlation.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.4,
+      "global_f1": 0.4,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__correlation.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__correlation.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__correlation.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__regression.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__regression.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__regression.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9895833333333334,
+      "global_f1": 0.9895833333333334,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9895833333333334,
+      "global_f1": 0.9895833333333334,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9895833333333334,
+      "global_f1": 0.9895833333333334,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__correlation.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__correlation.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__correlation.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.8721311475409836,
+      "global_f1": 0.8721311475409836,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.8721311475409836,
+      "global_f1": 0.8721311475409836,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.8721311475409836,
+      "global_f1": 0.8721311475409836,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__correlation.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.8449612403100775,
+      "global_f1": 0.8449612403100775,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__correlation.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.8449612403100775,
+      "global_f1": 0.8449612403100775,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__correlation.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.8449612403100775,
+      "global_f1": 0.8449612403100775,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__regression.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9003436426116839,
+      "global_f1": 0.9003436426116839,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__regression.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9003436426116839,
+      "global_f1": 0.9003436426116839,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__regression.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9003436426116839,
+      "global_f1": 0.9003436426116839,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__correlation.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.03404255319148936,
+      "global_f1": 0.03404255319148936,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__correlation.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.37446808510638296,
+      "global_f1": 0.37446808510638296,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__correlation.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.4340425531914894,
+      "global_f1": 0.4340425531914894,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__regression.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__regression.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__regression.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__correlation.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.08870967741935484,
+      "global_f1": 0.08870967741935484,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__correlation.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.532258064516129,
+      "global_f1": 0.532258064516129,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__correlation.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.5564516129032258,
+      "global_f1": 0.5564516129032258,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__source_spot.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__source_spot.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__source_spot.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__correlation.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__correlation.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__global_group__correlation.json",
+      "kind": "color",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__regression.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.027586206896551724,
+      "global_f1": 0.027586206896551724,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__regression.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.09655172413793103,
+      "global_f1": 0.09655172413793103,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__regression.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.3931034482758621,
+      "global_f1": 0.3931034482758621,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.8601036269430051,
+      "global_f1": 0.8601036269430051,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.8704663212435233,
+      "global_f1": 0.8704663212435233,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.8704663212435233,
+      "global_f1": 0.8704663212435233,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__regression.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.0945945945945946,
+      "global_f1": 0.0945945945945946,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__regression.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.527027027027027,
+      "global_f1": 0.527027027027027,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__global_group__regression.json",
+      "kind": "outclass",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.5405405405405406,
+      "global_f1": 0.5405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__correlation.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.8787878787878788,
+      "global_f1": 0.8787878787878788,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__correlation.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.8787878787878788,
+      "global_f1": 0.8787878787878788,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__correlation.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.8787878787878788,
+      "global_f1": 0.8787878787878788,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__regression.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__regression.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__regression.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__regression.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9003436426116839,
+      "global_f1": 0.9003436426116839,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__regression.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9003436426116839,
+      "global_f1": 0.9003436426116839,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__regression.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9003436426116839,
+      "global_f1": 0.9003436426116839,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__correlation.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__correlation.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__oracle__correlation.json",
+      "kind": "zero",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__regression.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9466666666666667,
+      "global_f1": 0.9466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__regression.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9466666666666667,
+      "global_f1": 0.9466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__regression.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9466666666666667,
+      "global_f1": 0.9466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__correlation.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.015810276679841896,
+      "global_f1": 0.015810276679841896,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__correlation.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.05533596837944664,
+      "global_f1": 0.05533596837944664,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__correlation.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.33992094861660077,
+      "global_f1": 0.33992094861660077,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__source_spot.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__source_spot.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__source_spot.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__regression.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.020689655172413793,
+      "global_f1": 0.020689655172413793,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__regression.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.041379310344827586,
+      "global_f1": 0.041379310344827586,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__none__regression.json",
+      "kind": "color",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.30344827586206896,
+      "global_f1": 0.30344827586206896,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__regression.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.881578947368421,
+      "global_f1": 0.881578947368421,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__regression.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.881578947368421,
+      "global_f1": 0.881578947368421,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_2d_multistart__regression.json",
+      "kind": "common",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.881578947368421,
+      "global_f1": 0.881578947368421,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__regression.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.8712871287128713,
+      "global_f1": 0.8712871287128713,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__regression.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.8712871287128713,
+      "global_f1": 0.8712871287128713,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_3d_multistart__regression.json",
+      "kind": "color",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.8712871287128713,
+      "global_f1": 0.8712871287128713,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__regression.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9133333333333333,
+      "global_f1": 0.9133333333333333,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__regression.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9133333333333333,
+      "global_f1": 0.9133333333333333,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__regression.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9133333333333333,
+      "global_f1": 0.9133333333333333,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__source_spot.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.012345679012345678,
+      "global_f1": 0.012345679012345678,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__source_spot.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.09876543209876543,
+      "global_f1": 0.09876543209876543,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__none__source_spot.json",
+      "kind": "outclass",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.3950617283950617,
+      "global_f1": 0.3950617283950617,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9375,
+      "global_f1": 0.9375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9375,
+      "global_f1": 0.9375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9375,
+      "global_f1": 0.9375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__source_spot.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__source_spot.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__oracle__source_spot.json",
+      "kind": "color",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__regression.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.02054794520547945,
+      "global_f1": 0.02054794520547945,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__regression.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.0410958904109589,
+      "global_f1": 0.0410958904109589,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__regression.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.3013698630136986,
+      "global_f1": 0.3013698630136986,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9769230769230769,
+      "global_f1": 0.9769230769230769,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9769230769230769,
+      "global_f1": 0.9769230769230769,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_3d_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9769230769230769,
+      "global_f1": 0.9769230769230769,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__regression.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__regression.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__none__regression.json",
+      "kind": "zero",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__regression.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__regression.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__template_3d_multistart__regression.json",
+      "kind": "common",
+      "policy": "template_3d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__regression.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.8466666666666667,
+      "global_f1": 0.8466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__regression.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.8466666666666667,
+      "global_f1": 0.8466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__template_2d_multistart__regression.json",
+      "kind": "color",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.8466666666666667,
+      "global_f1": 0.8466666666666667,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__regression.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__regression.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__regression.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__correlation.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__correlation.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.018779342723004695,
+      "global_f1": 0.018779342723004695,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__correlation.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.30985915492957744,
+      "global_f1": 0.30985915492957744,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__regression.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__regression.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__oracle__regression.json",
+      "kind": "outclass",
+      "policy": "oracle",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__source_spot.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9405405405405406,
+      "global_f1": 0.9405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__source_spot.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9405405405405406,
+      "global_f1": 0.9405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__source_spot.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9405405405405406,
+      "global_f1": 0.9405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__source_spot.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.011976047904191617,
+      "global_f1": 0.011976047904191617,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__source_spot.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.03592814371257485,
+      "global_f1": 0.03592814371257485,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__source_spot.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.4431137724550898,
+      "global_f1": 0.4431137724550898,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.84375,
+      "global_f1": 0.84375,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.8541666666666666,
+      "global_f1": 0.8541666666666666,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.8541666666666666,
+      "global_f1": 0.8541666666666666,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__correlation.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9312977099236641,
+      "global_f1": 0.9312977099236641,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__correlation.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9312977099236641,
+      "global_f1": 0.9312977099236641,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__correlation.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9312977099236641,
+      "global_f1": 0.9312977099236641,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.8702290076335878,
+      "global_f1": 0.8702290076335878,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.8702290076335878,
+      "global_f1": 0.8702290076335878,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.8778625954198473,
+      "global_f1": 0.8778625954198473,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__correlation.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9201520912547528,
+      "global_f1": 0.9201520912547528,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__correlation.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9201520912547528,
+      "global_f1": 0.9201520912547528,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__correlation.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9201520912547528,
+      "global_f1": 0.9201520912547528,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9844559585492227,
+      "global_f1": 0.9844559585492227,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9844559585492227,
+      "global_f1": 0.9844559585492227,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9844559585492227,
+      "global_f1": 0.9844559585492227,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__correlation.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.02531645569620253,
+      "global_f1": 0.02531645569620253,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__correlation.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.24472573839662448,
+      "global_f1": 0.24472573839662448,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__correlation.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.41350210970464135,
+      "global_f1": 0.41350210970464135,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__source_spot.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__source_spot.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__source_spot.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__source_spot.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__source_spot.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.024096385542168676,
+      "global_f1": 0.024096385542168676,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__source_spot.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.40963855421686746,
+      "global_f1": 0.40963855421686746,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__source_spot.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__source_spot.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__source_spot.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__correlation.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9176470588235294,
+      "global_f1": 0.9176470588235294,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__correlation.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9176470588235294,
+      "global_f1": 0.9176470588235294,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__correlation.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9176470588235294,
+      "global_f1": 0.9176470588235294,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__correlation.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__correlation.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__correlation.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__correlation.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__correlation.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__correlation.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9312977099236641,
+      "global_f1": 0.9312977099236641,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9312977099236641,
+      "global_f1": 0.9312977099236641,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__correlation.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9312977099236641,
+      "global_f1": 0.9312977099236641,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__source_spot.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__source_spot.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__source_spot.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__regression.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.03484320557491289,
+      "global_f1": 0.03484320557491289,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__regression.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.34843205574912894,
+      "global_f1": 0.34843205574912894,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__source_round_3d__regression.json",
+      "kind": "outclass",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.40418118466898956,
+      "global_f1": 0.40418118466898956,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__correlation.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.01606425702811245,
+      "global_f1": 0.01606425702811245,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__correlation.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.05622489959839357,
+      "global_f1": 0.05622489959839357,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__common_iterative__correlation.json",
+      "kind": "color",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.3373493975903614,
+      "global_f1": 0.3373493975903614,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__regression.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__regression.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__regression.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__correlation.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.921875,
+      "global_f1": 0.921875,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__correlation.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.921875,
+      "global_f1": 0.921875,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__source_round_3d__correlation.json",
+      "kind": "zero",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.921875,
+      "global_f1": 0.921875,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__regression.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.03333333333333333,
+      "global_f1": 0.03333333333333333,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__regression.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.23333333333333334,
+      "global_f1": 0.23333333333333334,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__regression.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.38666666666666666,
+      "global_f1": 0.38666666666666666,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.8461538461538461,
+      "global_f1": 0.8461538461538461,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.8461538461538461,
+      "global_f1": 0.8461538461538461,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.8461538461538461,
+      "global_f1": 0.8461538461538461,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9430051813471503,
+      "global_f1": 0.9430051813471503,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9430051813471503,
+      "global_f1": 0.9430051813471503,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__author_multistart__source_spot.json",
+      "kind": "common",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9430051813471503,
+      "global_f1": 0.9430051813471503,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.8615384615384616,
+      "global_f1": 0.8615384615384616,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.8717948717948718,
+      "global_f1": 0.8717948717948718,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_3d_multistart__source_spot.json",
+      "kind": "outclass",
+      "policy": "template_3d_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.8717948717948718,
+      "global_f1": 0.8717948717948718,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__regression.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.02040816326530612,
+      "global_f1": 0.02040816326530612,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__regression.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.04081632653061224,
+      "global_f1": 0.04081632653061224,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__regression.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.3129251700680272,
+      "global_f1": 0.3129251700680272,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.925531914893617,
+      "global_f1": 0.925531914893617,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.925531914893617,
+      "global_f1": 0.925531914893617,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__author_multistart__source_spot.json",
+      "kind": "color",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.925531914893617,
+      "global_f1": 0.925531914893617,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.8372093023255814,
+      "global_f1": 0.8372093023255814,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.8372093023255814,
+      "global_f1": 0.8372093023255814,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__template_2d_multistart__regression.json",
+      "kind": "outclass",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.8372093023255814,
+      "global_f1": 0.8372093023255814,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__source_spot.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__source_spot.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.015151515151515152,
+      "global_f1": 0.015151515151515152,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__source_spot.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.22727272727272727,
+      "global_f1": 0.22727272727272727,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__source_spot.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__source_spot.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__global_group__source_spot.json",
+      "kind": "common",
+      "policy": "global_group",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__regression.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.0,
+      "global_f1": 0.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__regression.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.02622950819672131,
+      "global_f1": 0.02622950819672131,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__none__regression.json",
+      "kind": "common",
+      "policy": "none",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.28852459016393445,
+      "global_f1": 0.28852459016393445,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9430051813471503,
+      "global_f1": 0.9430051813471503,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9430051813471503,
+      "global_f1": 0.9430051813471503,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__author_multistart__source_spot.json",
+      "kind": "zero",
+      "policy": "author_multistart",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9430051813471503,
+      "global_f1": 0.9430051813471503,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__source_spot.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__source_spot.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__common_iterative__source_spot.json",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__regression.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.881578947368421,
+      "global_f1": 0.881578947368421,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__regression.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.881578947368421,
+      "global_f1": 0.881578947368421,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__template_2d_multistart__regression.json",
+      "kind": "zero",
+      "policy": "template_2d_multistart",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.881578947368421,
+      "global_f1": 0.881578947368421,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__correlation.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__correlation.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__common_iterative__correlation.json",
+      "kind": "common",
+      "policy": "common_iterative",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9538461538461539,
+      "global_f1": 0.9538461538461539,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9538461538461539,
+      "global_f1": 0.9538461538461539,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__author_multistart__correlation.json",
+      "kind": "outclass",
+      "policy": "author_multistart",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9538461538461539,
+      "global_f1": 0.9538461538461539,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__correlation.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__correlation.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__oracle__correlation.json",
+      "kind": "common",
+      "policy": "oracle",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__source_spot.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.0379746835443038,
+      "global_f1": 0.0379746835443038,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__source_spot.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.22784810126582278,
+      "global_f1": 0.22784810126582278,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/outclass__common_iterative__source_spot.json",
+      "kind": "outclass",
+      "policy": "common_iterative",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.3670886075949367,
+      "global_f1": 0.3670886075949367,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__correlation.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__correlation.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/zero__global_group__correlation.json",
+      "kind": "zero",
+      "policy": "global_group",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 1.0,
+      "global_f1": 1.0,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__source_spot.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9405405405405406,
+      "global_f1": 0.9405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__source_spot.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9405405405405406,
+      "global_f1": 0.9405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/common__source_round_3d__source_spot.json",
+      "kind": "common",
+      "policy": "source_round_3d",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9405405405405406,
+      "global_f1": 0.9405405405405406,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__correlation.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.016666666666666666,
+      "global_f1": 0.016666666666666666,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__correlation.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.058333333333333334,
+      "global_f1": 0.058333333333333334,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/outcomes/color__source_round_3d__correlation.json",
+      "kind": "color",
+      "policy": "source_round_3d",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.39166666666666666,
+      "global_f1": 0.39166666666666666,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__regression.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "regression",
+      "radius": 1.5,
+      "primary_f1": 0.9562289562289562,
+      "global_f1": 0.9562289562289562,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__regression.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "regression",
+      "radius": 3,
+      "primary_f1": 0.9562289562289562,
+      "global_f1": 0.9562289562289562,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__regression.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "regression",
+      "radius": 5,
+      "primary_f1": 0.9562289562289562,
+      "global_f1": 0.9562289562289562,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__correlation.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "correlation",
+      "radius": 1.5,
+      "primary_f1": 0.9578544061302682,
+      "global_f1": 0.9578544061302682,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__correlation.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "correlation",
+      "radius": 3,
+      "primary_f1": 0.9578544061302682,
+      "global_f1": 0.9578544061302682,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__correlation.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "correlation",
+      "radius": 5,
+      "primary_f1": 0.9578544061302682,
+      "global_f1": 0.9578544061302682,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__source_spot.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "source_spot",
+      "radius": 1.5,
+      "primary_f1": 0.9789473684210527,
+      "global_f1": 0.9789473684210527,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__source_spot.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "source_spot",
+      "radius": 3,
+      "primary_f1": 0.9789473684210527,
+      "global_f1": 0.9789473684210527,
+      "difference": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__source_spot.json",
+      "kind": "color",
+      "policy": "author_full_volume",
+      "decoder": "source_spot",
+      "radius": 5,
+      "primary_f1": 0.9789473684210527,
+      "global_f1": 0.9789473684210527,
+      "difference": 0.0
+    }
+  ]
+}

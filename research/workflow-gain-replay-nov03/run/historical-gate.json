@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "cases": 26,
+  "all_original_assessments_exact": true,
+  "anchored_predictions_started": 0,
+  "coordinate_tolerance": 1e-12
+}

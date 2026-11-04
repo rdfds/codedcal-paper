@@ -1,0 +1,362 @@
+{
+  "EDF10/rep1/RESI/RESI rounds/RESI_R1_apicked.hdf5": {
+    "field": "edf10rep1",
+    "round": 1,
+    "sha256": "3dd0f6dbc3a3bc4ae27c6bb0c36ec4939032c66f2b93569f93ff10d7c0c00bda",
+    "bytes": 71333824,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      45933154,
+      103404091
+    ],
+    "duplicate_sha256": "3dd0f6dbc3a3bc4ae27c6bb0c36ec4939032c66f2b93569f93ff10d7c0c00bda",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep1/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep1/RESI/RESI rounds/RESI_R2_apicked.hdf5": {
+    "field": "edf10rep1",
+    "round": 2,
+    "sha256": "21caa3a576e6897fbec0e46d0e21fb52a0550514bda471ee801627fd7930ffda",
+    "bytes": 57229072,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      479874048,
+      525858803
+    ],
+    "duplicate_sha256": "21caa3a576e6897fbec0e46d0e21fb52a0550514bda471ee801627fd7930ffda",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep1/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep1/RESI/RESI rounds/RESI_R3_apicked.hdf5": {
+    "field": "edf10rep1",
+    "round": 3,
+    "sha256": "a49d960b5c60688d7b17b29f1ee0e71c286cdfee8c1e405c52263deae2c80864",
+    "bytes": 42159136,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      1754707375,
+      1788463922
+    ],
+    "duplicate_sha256": "a49d960b5c60688d7b17b29f1ee0e71c286cdfee8c1e405c52263deae2c80864",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep1/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep1/RESI/RESI rounds/RESI_R4_apicked.hdf5": {
+    "field": "edf10rep1",
+    "round": 4,
+    "sha256": "c3f29e146c7613d62ee38234b115f2bd99bc4ffaf06d06b0705a46b3361d25f0",
+    "bytes": 57516496,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      29,
+      45930715
+    ],
+    "duplicate_sha256": "c3f29e146c7613d62ee38234b115f2bd99bc4ffaf06d06b0705a46b3361d25f0",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep1/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5": {
+    "field": "edf10rep2",
+    "round": 1,
+    "sha256": "dce40bf8cf2fd862b850feb4ac592322770f5a078d843f673cf150a9b789ef96",
+    "bytes": 21875968,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      2008174796,
+      2025844141
+    ],
+    "duplicate_sha256": "dce40bf8cf2fd862b850feb4ac592322770f5a078d843f673cf150a9b789ef96",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5": {
+    "field": "edf10rep2",
+    "round": 2,
+    "sha256": "f32c301af69e0fbca8f00ae48088de109004d1469f2fd940441caa6956102f97",
+    "bytes": 44102752,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      2712737921,
+      2748332220
+    ],
+    "duplicate_sha256": "f32c301af69e0fbca8f00ae48088de109004d1469f2fd940441caa6956102f97",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5": {
+    "field": "edf10rep2",
+    "round": 3,
+    "sha256": "c8ae530421b282c8509beaf5b3aea332fe504d850c3e08b63ced4f68418bc73c",
+    "bytes": 31261024,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      4494006382,
+      4519134281
+    ],
+    "duplicate_sha256": "c8ae530421b282c8509beaf5b3aea332fe504d850c3e08b63ced4f68418bc73c",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF10/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5": {
+    "field": "edf10rep2",
+    "round": 4,
+    "sha256": "5fa86aa6587f25a5c74d469c5cf5c43161e38d31540f50677a5f04ae68741d0c",
+    "bytes": 38860960,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      1977015664,
+      2008172363
+    ],
+    "duplicate_sha256": "5fa86aa6587f25a5c74d469c5cf5c43161e38d31540f50677a5f04ae68741d0c",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF10/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "Figure4/untreated/RESI/RESI rounds/RESI_R1_apicked.hdf5": {
+    "field": "fig4untreated",
+    "round": 1,
+    "sha256": "704bea8216658a3dd9a3aac43d996424cb7c0b8d259744c2a73a8b5f9cc036b0",
+    "bytes": 31598080,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      12996246248,
+      13021629098
+    ],
+    "duplicate_sha256": "704bea8216658a3dd9a3aac43d996424cb7c0b8d259744c2a73a8b5f9cc036b0",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/Figure4/untreated/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "Figure4/untreated/RESI/RESI rounds/RESI_R2_apicked.hdf5": {
+    "field": "fig4untreated",
+    "round": 2,
+    "sha256": "a53f607797f6d5cdb9a2e173c8e7a6468c201a5358782b6533bad93eab23ffed",
+    "bytes": 94895536,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      13315383500,
+      13391299912
+    ],
+    "duplicate_sha256": "a53f607797f6d5cdb9a2e173c8e7a6468c201a5358782b6533bad93eab23ffed",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/Figure4/untreated/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "Figure4/untreated/RESI/RESI rounds/RESI_R3_apicked.hdf5": {
+    "field": "fig4untreated",
+    "round": 3,
+    "sha256": "4953d3e6cc552ace8e67657fb94d13ae8357258b1fe6bf0a5369bb03f1e3f83a",
+    "bytes": 98820352,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      14642590629,
+      14721309223
+    ],
+    "duplicate_sha256": "4953d3e6cc552ace8e67657fb94d13ae8357258b1fe6bf0a5369bb03f1e3f83a",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/Figure4/untreated/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "Figure4/untreated/RESI/RESI rounds/RESI_R4_apicked.hdf5": {
+    "field": "fig4untreated",
+    "round": 4,
+    "sha256": "147342db1e3bc8294f7434eea5d7d2892364fbd3dad01f7b22eb21593b21bd11",
+    "bytes": 53746720,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      12953112913,
+      12996243907
+    ],
+    "duplicate_sha256": "147342db1e3bc8294f7434eea5d7d2892364fbd3dad01f7b22eb21593b21bd11",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/Figure4/untreated/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R1_apicked.hdf5": {
+    "field": "rtx_rep1",
+    "round": 1,
+    "sha256": "6daa2e9a330d2b14f3cffe051de22566e05e4ea14ba188eb8cc2a0728baba230",
+    "bytes": 30040624,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      5778299370,
+      5802163476
+    ],
+    "duplicate_sha256": "6daa2e9a330d2b14f3cffe051de22566e05e4ea14ba188eb8cc2a0728baba230",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R2_apicked.hdf5": {
+    "field": "rtx_rep1",
+    "round": 2,
+    "sha256": "0b68f27798bc3f0634c36c25df747474b6139efa08a63d2c20fd562754a60220",
+    "bytes": 25489936,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      6185164590,
+      6205337803
+    ],
+    "duplicate_sha256": "0b68f27798bc3f0634c36c25df747474b6139efa08a63d2c20fd562754a60220",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R3_apicked.hdf5": {
+    "field": "rtx_rep1",
+    "round": 3,
+    "sha256": "4452e642d89255c311a7bc09d478f4caafcc070461497aee606a31ded041431e",
+    "bytes": 53277760,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      7345468597,
+      7387682673
+    ],
+    "duplicate_sha256": "4452e642d89255c311a7bc09d478f4caafcc070461497aee606a31ded041431e",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R4_apicked.hdf5": {
+    "field": "rtx_rep1",
+    "round": 4,
+    "sha256": "c9c3e400fccc1a0acd07c7419b80a912900526b999cef05a16fe45f90031296b",
+    "bytes": 51565216,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      5737473147,
+      5778296974
+    ],
+    "duplicate_sha256": "c9c3e400fccc1a0acd07c7419b80a912900526b999cef05a16fe45f90031296b",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep1/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5": {
+    "field": "rtx_rep2",
+    "round": 1,
+    "sha256": "5c47ab41620e08e5dac14c4095718ce7e4cba148bbdec74b08d2d17d49b30d9d",
+    "bytes": 43631872,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      7589024381,
+      7624360695
+    ],
+    "duplicate_sha256": "5c47ab41620e08e5dac14c4095718ce7e4cba148bbdec74b08d2d17d49b30d9d",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5": {
+    "field": "rtx_rep2",
+    "round": 2,
+    "sha256": "cb8456565de89f064144e51cf2d72265efcd54aeb2da03216c18f4ca070c27b5",
+    "bytes": 112697920,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      8023995430,
+      8115251743
+    ],
+    "duplicate_sha256": "cb8456565de89f064144e51cf2d72265efcd54aeb2da03216c18f4ca070c27b5",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5": {
+    "field": "rtx_rep2",
+    "round": 3,
+    "sha256": "8d91c6819d09b0ba124ac8d1e1ba225a981bf0167bffd84e5b6b6435de40c7fd",
+    "bytes": 65880784,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      9152799358,
+      9206123834
+    ],
+    "duplicate_sha256": "8d91c6819d09b0ba124ac8d1e1ba225a981bf0167bffd84e5b6b6435de40c7fd",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5": {
+    "field": "rtx_rep2",
+    "round": 4,
+    "sha256": "ce82fc4a60053b4a59f6b4b30a2a71e08e592c258483349027877ee9b6f46d2c",
+    "bytes": 90632464,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      7515733999,
+      7589021947
+    ],
+    "duplicate_sha256": "ce82fc4a60053b4a59f6b4b30a2a71e08e592c258483349027877ee9b6f46d2c",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R1_apicked.hdf5": {
+    "field": "rtx_rep3",
+    "round": 1,
+    "sha256": "ac29596b061db8628e821579a330e1aa125ad5ee9a22c6abd730b8b78897eaeb",
+    "bytes": 64073824,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      4682163047,
+      4733837488
+    ],
+    "duplicate_sha256": "ac29596b061db8628e821579a330e1aa125ad5ee9a22c6abd730b8b78897eaeb",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R2_apicked.hdf5": {
+    "field": "rtx_rep3",
+    "round": 2,
+    "sha256": "d7969d9175243b552ed4f702e701dba811a0f982a77bd05104150e7d4550139b",
+    "bytes": 81072016,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      4891578109,
+      4956902566
+    ],
+    "duplicate_sha256": "d7969d9175243b552ed4f702e701dba811a0f982a77bd05104150e7d4550139b",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R3_apicked.hdf5": {
+    "field": "rtx_rep3",
+    "round": 3,
+    "sha256": "f32a3d0ac4a0c01f70f5a035d8ea8f299cdd677d5b974b5756f05bd9b1a23d39",
+    "bytes": 47740960,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      5488344784,
+      5526773517
+    ],
+    "duplicate_sha256": "f32a3d0ac4a0c01f70f5a035d8ea8f299cdd677d5b974b5756f05bd9b1a23d39",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "original_hash_matched": true
+  },
+  "EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R4_apicked.hdf5": {
+    "field": "rtx_rep3",
+    "round": 4,
+    "sha256": "d5cba4c64e3e9a74fa16557a19f3e1f17182204eed5d780be523790106e2a91c",
+    "bytes": 64805776,
+    "archive_url": "https://zenodo.org/api/records/7795826/files/resi.rar/content",
+    "range": [
+      4629957270,
+      4682160722
+    ],
+    "duplicate_sha256": "d5cba4c64e3e9a74fa16557a19f3e1f17182204eed5d780be523790106e2a91c",
+    "crc": true,
+    "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep3/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "original_hash_matched": true
+  }
+}

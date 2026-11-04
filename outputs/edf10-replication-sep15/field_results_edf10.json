@@ -1,0 +1,477 @@
+{
+  "field": "EDF10/rep1 (Zenodo 7795826, Reinhardt et al. 2023 RESI)",
+  "frames": 50000,
+  "panels": [
+    [
+      0,
+      12490
+    ],
+    [
+      12510,
+      24990
+    ],
+    [
+      25010,
+      37490
+    ],
+    [
+      37510,
+      50000
+    ]
+  ],
+  "groups": 1215,
+  "recon_center_sources_median": 12,
+  "localizations_per_round": {
+    "round_1": {
+      "total": 1486036,
+      "lp_filtered": 1103024,
+      "assigned": 219329
+    },
+    "round_2": {
+      "total": 1192187,
+      "lp_filtered": 946515,
+      "assigned": 190853
+    },
+    "round_3": {
+      "total": 878230,
+      "lp_filtered": 693024,
+      "assigned": 134832
+    },
+    "round_4": {
+      "total": 1198175,
+      "lp_filtered": 1006625,
+      "assigned": 207358
+    }
+  },
+  "round_centroid_consistency": {
+    "round_1": {
+      "picks": 1205,
+      "median_centroid_offset_nm": 26.886659873745238,
+      "p95_centroid_offset_nm": 64.0371748415349
+    },
+    "round_2": {
+      "picks": 1199,
+      "median_centroid_offset_nm": 26.092418748746653,
+      "p95_centroid_offset_nm": 61.774178045306314
+    },
+    "round_3": {
+      "picks": 1186,
+      "median_centroid_offset_nm": 29.172230524659685,
+      "p95_centroid_offset_nm": 63.54737917770622
+    },
+    "round_4": {
+      "picks": 1203,
+      "median_centroid_offset_nm": 22.4611035265489,
+      "p95_centroid_offset_nm": 59.75196720887118
+    }
+  },
+  "recon_vs_pooled_centroid_median_nm": 14.606686125801335,
+  "pick_note": "NPC centers by union-find clustering (70 nm, >=5 sources) of the merged RESI reconstruction; the apicked group column has only 5 values (region tags) and cannot serve as NPC identity.",
+  "conventions": "Figure2-frozen: px 130 nm, lp<=8 nm, linkage 10 nm, 16x8 nm^2 strata, q={.10,.15}, 4 angles, quarter panels 20-frame guards",
+  "code_split": {
+    "pooled": {
+      "total_arithmetic": 3.6819675202380635,
+      "total_arithmetic_interval": [
+        0.6454934428343202,
+        7.830589581247155
+      ],
+      "total_geometric": 3.707327590016389,
+      "total_geometric_interval": [
+        0.6119662066446745,
+        8.019433079023788
+      ],
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        0.9665878505428015,
+        0.9914215271109937
+      ],
+      "ratio_B": [
+        0.9218776527903481,
+        0.8720905727188818
+      ],
+      "D": [
+        1.0484990580009443,
+        1.136833212197305
+      ],
+      "logD": [
+        0.04735967293401134,
+        0.12824651288885972
+      ],
+      "logD_interval": [
+        [
+          -0.05976831215496358,
+          0.1624445661037735
+        ],
+        [
+          -0.1490371830205325,
+          0.316617078118745
+        ]
+      ],
+      "logD_se_group": [
+        0.0813617080619511,
+        0.10005709044350204
+      ],
+      "D_z_group": [
+        0.5820879878523487,
+        1.2817333816165186
+      ],
+      "drift_estimate_nm2": [
+        -4.735967293401133,
+        -5.699845017282654
+      ],
+      "orientation_ratio": {
+        "A": [
+          0.9009979071190687,
+          0.8219278523521258
+        ],
+        "B": [
+          0.9996275070262217,
+          1.0577933586412052
+        ]
+      },
+      "orientation_se_group": {
+        "A": [
+          0.0591835738562811,
+          0.06471074031515041
+        ],
+        "B": [
+          0.06334614943086402,
+          0.07718753818065002
+        ]
+      },
+      "orientation_A_interval": [
+        [
+          0.8433440584820221,
+          0.9948075194497538
+        ],
+        [
+          0.7532619628687106,
+          0.891499348371568
+        ]
+      ],
+      "orientation_B_interval": [
+        [
+          0.911163999375013,
+          1.116089948640106
+        ],
+        [
+          0.9669634992469118,
+          1.1331085857868681
+        ]
+      ],
+      "negative_ratio": false,
+      "bootstrap_tiles": 8
+    },
+    "stratified": {
+      "total_arithmetic": 0.9877442585902035,
+      "total_arithmetic_interval": [
+        -3.9921477874063154,
+        8.362809642525663
+      ],
+      "total_geometric": 0.9882416670798435,
+      "total_geometric_interval": [
+        -3.9664665701854687,
+        8.446667758616853
+      ],
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        1.011663370788017,
+        1.0263488090143322
+      ],
+      "ratio_B": [
+        0.9567916509050959,
+        0.9374863701880395
+      ],
+      "D": [
+        1.0573497060002708,
+        1.0947879794865378
+      ],
+      "logD": [
+        0.05576549985245006,
+        0.09056071848083094
+      ],
+      "logD_interval": [
+        [
+          -0.05307025706167847,
+          0.21953472998788187
+        ],
+        [
+          -0.20479849212432338,
+          0.273206297052464
+        ]
+      ],
+      "logD_se_group": [
+        0.07648058683124899,
+        0.09829578467249395
+      ],
+      "D_z_group": [
+        0.7291458154667949,
+        0.9213082614128874
+      ],
+      "drift_estimate_nm2": [
+        -5.576549985245005,
+        -4.024920821370264
+      ],
+      "orientation_ratio": {
+        "A": [
+          0.8724887985507171,
+          0.8276025943250019
+        ],
+        "B": [
+          1.0455241739100467,
+          1.0506445732858811
+        ]
+      },
+      "orientation_se_group": {
+        "A": [
+          0.056343447831282215,
+          0.06218590467467026
+        ],
+        "B": [
+          0.06232209294163929,
+          0.07393115093867915
+        ]
+      },
+      "orientation_A_interval": [
+        [
+          0.787281591933271,
+          0.9567694434972929
+        ],
+        [
+          0.7501357873092936,
+          0.918944457991812
+        ]
+      ],
+      "orientation_B_interval": [
+        [
+          0.9160238166315171,
+          1.1456575249530994
+        ],
+        [
+          0.9250768352756883,
+          1.234429063101045
+        ]
+      ],
+      "negative_ratio": false,
+      "bootstrap_tiles": 8
+    },
+    "grid_robustness": {
+      "total_arithmetic": 2.7425551124528984,
+      "total_arithmetic_interval": [
+        0.6538982143105145,
+        4.61745164777361
+      ],
+      "total_geometric": 2.775379070340129,
+      "total_geometric_interval": [
+        0.6745407787598622,
+        4.658948195549635
+      ],
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        0.9608918990579399,
+        0.9312910411205096
+      ],
+      "ratio_B": [
+        0.9144832969912405,
+        0.9821261836844738
+      ],
+      "D": [
+        1.05074844146349,
+        0.9482397034022098
+      ],
+      "logD": [
+        0.04950271164097543,
+        -0.05314795699862158
+      ],
+      "logD_interval": [
+        [
+          -0.05737094237294442,
+          0.16997399019118078
+        ],
+        [
+          -0.18064314226766026,
+          0.029779803663316916
+        ]
+      ],
+      "logD_se_group": [
+        0.05329401702738971,
+        0.060763372943568185
+      ],
+      "D_z_group": [
+        0.9288605813957355,
+        -0.8746709477102406
+      ],
+      "drift_estimate_nm2": [
+        -4.950271164097542,
+        2.3621314221609593
+      ],
+      "orientation_ratio": {
+        "A": [
+          0.9456591464722399,
+          0.9472309716466215
+        ],
+        "B": [
+          1.0217505937457645,
+          1.0898663754968045
+        ]
+      },
+      "orientation_se_group": {
+        "A": [
+          0.04171605004744428,
+          0.04233465387519834
+        ],
+        "B": [
+          0.04053853480904804,
+          0.047743360245957156
+        ]
+      },
+      "orientation_A_interval": [
+        [
+          0.8780444206979334,
+          1.0203528935432455
+        ],
+        [
+          0.8904938581824868,
+          1.0485518799237845
+        ]
+      ],
+      "orientation_B_interval": [
+        [
+          0.9463682970781028,
+          1.1133228897416398
+        ],
+        [
+          1.020353915622427,
+          1.1780720230305095
+        ]
+      ],
+      "negative_ratio": false,
+      "bootstrap_tiles": 9,
+      "config": {
+        "cell_nm": 250.0,
+        "min_locs": 30,
+        "groups": 4050,
+        "note": "Grouping-robustness variant; pooled quality only."
+      }
+    }
+  },
+  "oracle": {
+    "passing_sources": 1739,
+    "calibration": {
+      "unweighted": {
+        "a": 0.09,
+        "b": 0.876,
+        "sys": 0.083
+      },
+      "countweighted": {
+        "a": 0.091,
+        "b": 0.854,
+        "sys": 0.17
+      }
+    },
+    "calibration_note": "Affine calibration fitted on Reinhardt-Figure2-like synthetic fields (oracle-crossval-sep15); applied here as a labeled approximation. No EDF10-specific synthetic validation exists.",
+    "oracle_T": {
+      "unweighted": {
+        "raw": 1.7886123843208188,
+        "raw_interval": [
+          1.4860857113161776,
+          2.1030877938219006
+        ],
+        "calibrated_reinhardt_transfer": 1.9390552332429438,
+        "calibrated_interval": [
+          1.5937051499043124,
+          2.29804542673733
+        ],
+        "systematic": 0.083
+      },
+      "countweighted": {
+        "raw": 2.0608975633641275,
+        "raw_interval": [
+          1.6170414527627572,
+          2.5999754788973277
+        ],
+        "calibrated_reinhardt_transfer": 2.3066716198643182,
+        "calibrated_interval": [
+          1.786933785436484,
+          2.9379103968352784
+        ],
+        "systematic": 0.17
+      }
+    },
+    "reported_precision_inflation": 4.005908133851669,
+    "per_round": {
+      "round_1": {
+        "sources": 1059,
+        "mean_that": 2.3380381692244585,
+        "se_that": 0.21584484840330473
+      },
+      "round_2": {
+        "sources": 553,
+        "mean_that": 0.7330169200745166,
+        "se_that": 0.21618793754226637
+      },
+      "round_3": {
+        "sources": 22,
+        "mean_that": 0.14206994832993114,
+        "se_that": 0.7449614483654038
+      },
+      "round_4": {
+        "sources": 105,
+        "mean_that": 2.1517201853403463,
+        "se_that": 0.8011230083825306
+      }
+    },
+    "rejections": {
+      "size": 49577,
+      "panel_coverage": 1396,
+      "rms": 294,
+      "isolation": 236,
+      "split": 267,
+      "zsd": 0
+    },
+    "rejections_per_round": {
+      "round_1": {
+        "size": 13307,
+        "panel_coverage": 708,
+        "rms": 168,
+        "isolation": 127,
+        "split": 105,
+        "zsd": 0
+      },
+      "round_2": {
+        "size": 12927,
+        "panel_coverage": 484,
+        "rms": 89,
+        "isolation": 92,
+        "split": 98,
+        "zsd": 0
+      },
+      "round_3": {
+        "size": 11833,
+        "panel_coverage": 32,
+        "rms": 6,
+        "isolation": 2,
+        "split": 6,
+        "zsd": 0
+      },
+      "round_4": {
+        "size": 11510,
+        "panel_coverage": 172,
+        "rms": 31,
+        "isolation": 15,
+        "split": 58,
+        "zsd": 0
+      }
+    }
+  },
+  "runtime_s": 19.9
+}

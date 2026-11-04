@@ -1,0 +1,10 @@
+{
+  "exact_64_assignment_source_extraction_max_abs": 2.220446049250313e-15,
+  "persistent_displacement_and_correlated_burst_identity": true,
+  "Gaussian_and_exact_residual_kernel_truth": true,
+  "Fieller_contrast_membership_100_cases_and_degenerate_sets": true,
+  "aggregate_only_estimator_interface": true,
+  "all_pass": true,
+  "validation_code_sha256": "7751a3510d3b7a7af76c99498d5294d3434e3126cbd37c1db3b01d23c7bb4123",
+  "controls_code_sha256": "b9afba14cad6199b9ea4f8fcc2ac5808772cd4bbe55eaa664a61b9ca157a1f25"
+}

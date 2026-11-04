@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codedcal"
+version = "0.5.1"
+description = "Calibration error budgets for coded localization measurements: count-balanced SMLM temporal contrasts, fiducial-free coded-FISH registration traces, assignment-free per-colour magnification (pre-decode) and a design-time codebook certificate"
+readme = "README.md"
+license = {file = "LICENSE"}
+requires-python = ">=3.9"
+authors = [{name = "codedcal authors"}]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+]
+
+[project.optional-dependencies]
+hdf5 = ["h5py"]
+test = ["pytest"]
+
+[project.scripts]
+codedcal = "codedcal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

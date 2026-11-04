@@ -1,0 +1,211 @@
+{
+  "complete": true,
+  "complete_integer_matrix": true,
+  "worker_stage": "completed",
+  "rows": [
+    {
+      "policy": "round",
+      "preparation": "4t1-culture-NE0WOP",
+      "native_eligible": false,
+      "native_quality": {
+        "nonblank_calls": 580,
+        "blank_calls": 0,
+        "blank_proxy_upper95": 0.11535290938397548
+      },
+      "stage": "native_excluded",
+      "truth": {
+        "decision": "unsupported",
+        "reason": "native_gate_excluded"
+      },
+      "mixed_conventional": {
+        "decision": "unsupported",
+        "reason": "native_gate_excluded"
+      },
+      "mechanism_weighted": {
+        "decision": "unsupported",
+        "reason": "native_gate_excluded"
+      }
+    },
+    {
+      "policy": "frame_template",
+      "preparation": "4t1-culture-NE0WOP",
+      "native_eligible": false,
+      "native_quality": {
+        "nonblank_calls": 575,
+        "blank_calls": 0,
+        "blank_proxy_upper95": 0.11635597816122745
+      },
+      "stage": "native_excluded",
+      "truth": {
+        "decision": "unsupported",
+        "reason": "native_gate_excluded"
+      },
+      "mixed_conventional": {
+        "decision": "unsupported",
+        "reason": "native_gate_excluded"
+      },
+      "mechanism_weighted": {
+        "decision": "unsupported",
+        "reason": "native_gate_excluded"
+      }
+    },
+    {
+      "policy": "barcode_model",
+      "preparation": "4t1-culture-NE0WOP",
+      "native_eligible": true,
+      "native_quality": {
+        "nonblank_calls": 857,
+        "blank_calls": 0,
+        "blank_proxy_upper95": 0.07806848009650616
+      },
+      "stage": "measured",
+      "truth": {
+        "decision": "reject",
+        "score": 0.14814814814814814,
+        "supported_challenges": 5,
+        "planned_challenges": 5,
+        "failures": 4,
+        "tolerance": 0.05,
+        "geometric_score": 0.29253022115373073,
+        "yield_score": 0.06301050175029177
+      },
+      "mixed_conventional": {
+        "decision": "reject",
+        "score": 0.1589861751152074,
+        "supported_challenges": 4,
+        "planned_challenges": 4,
+        "failures": 1,
+        "tolerance": 0.05,
+        "geometric_score": 0.29564207251380104,
+        "yield_score": 0.025670945157526326
+      },
+      "mechanism_weighted": {
+        "decision": "reject",
+        "score": 0.14169570267131237,
+        "supported_challenges": 4,
+        "planned_challenges": 4,
+        "failures": 2,
+        "tolerance": 0.05,
+        "geometric_score": 0.2941611363655162,
+        "yield_score": 0.011668611435239229
+      }
+    },
+    {
+      "policy": "group_search",
+      "preparation": "4t1-culture-NE0WOP",
+      "native_eligible": true,
+      "native_quality": {
+        "nonblank_calls": 1081,
+        "blank_calls": 0,
+        "blank_proxy_upper95": 0.061891477745333746
+      },
+      "stage": "measured",
+      "truth": {
+        "decision": "reject",
+        "score": 0.9990982867448152,
+        "supported_challenges": 5,
+        "planned_challenges": 5,
+        "failures": 4,
+        "tolerance": 0.05,
+        "geometric_score": 6.0,
+        "yield_score": 0.13043478260869557
+      },
+      "mixed_conventional": {
+        "decision": "reject",
+        "score": 0.9562647754137116,
+        "supported_challenges": 4,
+        "planned_challenges": 4,
+        "failures": 2,
+        "tolerance": 0.05,
+        "geometric_score": 4.0,
+        "yield_score": 1.1304347826086958
+      },
+      "mechanism_weighted": {
+        "decision": "reject",
+        "score": 0.9928861788617886,
+        "supported_challenges": 4,
+        "planned_challenges": 4,
+        "failures": 2,
+        "tolerance": 0.05,
+        "geometric_score": 4.0,
+        "yield_score": 0.17946345975948197
+      }
+    }
+  ],
+  "missing": [],
+  "confusion": {
+    "mixed_conventional": {
+      "failed_rejected": 2,
+      "failed_accepted": 0,
+      "adequate_rejected": 0,
+      "adequate_accepted": 0,
+      "unsupported_decision": 0,
+      "unsupported_truth": 2,
+      "false_alert_rate": null,
+      "failed_detection_rate": 1.0,
+      "adequate_acceptance_rate": null,
+      "decision_coverage": 1.0
+    },
+    "mechanism_weighted": {
+      "failed_rejected": 2,
+      "failed_accepted": 0,
+      "adequate_rejected": 0,
+      "adequate_accepted": 0,
+      "unsupported_decision": 0,
+      "unsupported_truth": 2,
+      "false_alert_rate": null,
+      "failed_detection_rate": 1.0,
+      "adequate_acceptance_rate": null,
+      "decision_coverage": 1.0
+    }
+  },
+  "supported_heldout_cases": 2,
+  "adequate_cases": 0,
+  "failed_cases": 2,
+  "comparison_rates_estimable": false,
+  "source_panel_strict_increment": false,
+  "general_utility_supported": false,
+  "independent_preparations": 1,
+  "per_policy_measured_query_union": {
+    "barcode_model": {
+      "measured_union_seconds": 1152.7118784169995,
+      "actual_workflows": 12,
+      "actual_calibrations": 12,
+      "actual_decoders": 12,
+      "exact_cache_hits": 14,
+      "failed_or_partial_calls": 0
+    },
+    "round": {
+      "measured_union_seconds": 19.896666125000138,
+      "actual_workflows": 2,
+      "actual_calibrations": 2,
+      "actual_decoders": 2,
+      "exact_cache_hits": 2,
+      "failed_or_partial_calls": 0
+    },
+    "frame_template": {
+      "measured_union_seconds": 32.43366887499974,
+      "actual_workflows": 2,
+      "actual_calibrations": 2,
+      "actual_decoders": 2,
+      "exact_cache_hits": 2,
+      "failed_or_partial_calls": 0
+    },
+    "group_search": {
+      "measured_union_seconds": 792.6251003729999,
+      "actual_workflows": 13,
+      "actual_calibrations": 13,
+      "actual_decoders": 13,
+      "exact_cache_hits": 16,
+      "failed_or_partial_calls": 1
+    }
+  },
+  "new_logical_calls_started": 6,
+  "inherited_logical_dispatches": 58,
+  "full_chain_logical_dispatches": 64,
+  "recorded_call_checkpoints": 64,
+  "conservative_total_reservation": 1151,
+  "inherited_native_controls_are_new_executions": false,
+  "fractional_panel_eligible": false,
+  "scope": "One retrospectively selected/native-qualified public preparation, frozen comparative digital challenges. Native catalog preservation is not independent molecular truth or physical validation."
+}

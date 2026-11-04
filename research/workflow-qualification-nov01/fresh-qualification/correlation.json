@@ -1,0 +1,206 @@
+{
+  "passed": false,
+  "name": "4t1-culture-000",
+  "preparation": "4t1-culture-NE0WOP",
+  "native_nonblank_calls": 3,
+  "minimum_native": 50,
+  "integer_inverse_images_exact": true,
+  "integer_inverse_support_exact": true,
+  "no_effect_and_inverse_catalogs_exact": true,
+  "fractional_composed_operator_exact": true,
+  "calls": [
+    {
+      "role": "native",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            42.0,
+            41.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            43.0,
+            53.0
+          ]
+        ],
+        "classes": [
+          21,
+          87,
+          87
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr correlation",
+        "absolute_cut": 0.7749999761581421,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 4.07919997087447e-05,
+        "decoder_seconds": 0.496328999999605,
+        "fit_loss": 0.447815789262335,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 3,
+        "blank_calls": 0,
+        "actual_calibration_executions": 1,
+        "actual_decoder_executions": 1,
+        "actual_workflow_executions": 1,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": false,
+        "wall_seconds": 0.6642520829991554
+      },
+      "wall_seconds": 0.6649137090007571
+    },
+    {
+      "role": "no_effect",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            42.0,
+            41.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            43.0,
+            53.0
+          ]
+        ],
+        "classes": [
+          21,
+          87,
+          87
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr correlation",
+        "absolute_cut": 0.7749999761581421,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 0.0,
+        "decoder_seconds": 0.0,
+        "fit_loss": 0.447815789262335,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 3,
+        "blank_calls": 0,
+        "actual_calibration_executions": 0,
+        "actual_decoder_executions": 0,
+        "actual_workflow_executions": 0,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": true,
+        "wall_seconds": 0.013169083998946007
+      },
+      "wall_seconds": 0.013185083000280429
+    },
+    {
+      "role": "known_inverse",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            42.0,
+            41.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            43.0,
+            53.0
+          ]
+        ],
+        "classes": [
+          21,
+          87,
+          87
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr correlation",
+        "absolute_cut": 0.7749999761581421,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 0.0,
+        "decoder_seconds": 0.0,
+        "fit_loss": 0.447815789262335,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 3,
+        "blank_calls": 0,
+        "actual_calibration_executions": 0,
+        "actual_decoder_executions": 0,
+        "actual_workflow_executions": 0,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": true,
+        "wall_seconds": 0.015015166000011959
+      },
+      "wall_seconds": 0.015037999999549356
+    },
+    {
+      "role": "fractional_oracle",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            42.0,
+            41.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ]
+        ],
+        "classes": [
+          21,
+          87
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr correlation",
+        "absolute_cut": 0.7749999761581421,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 0.0008325409999088151,
+        "decoder_seconds": 0.35115245900124137,
+        "fit_loss": 0.4392374785153461,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 2,
+        "blank_calls": 0,
+        "actual_calibration_executions": 1,
+        "actual_decoder_executions": 1,
+        "actual_workflow_executions": 1,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": false,
+        "wall_seconds": 0.5790745829999651
+      }
+    }
+  ],
+  "logical_workflow_executions": 4,
+  "actual_workflow_executions": 2,
+  "physical_accuracy_claim": false,
+  "decoder": "correlation",
+  "input_sha256": "db30c61053e6c348dd173de696a002d15a8b2b5e58de11cad21440d57b04164f",
+  "native_blank_proxy_upper95": 22.301562480901925,
+  "blank_proxy_assumptions": "Named blank-codewords as a proxy; not molecular ground truth",
+  "eligible_for_confirmation": false
+}

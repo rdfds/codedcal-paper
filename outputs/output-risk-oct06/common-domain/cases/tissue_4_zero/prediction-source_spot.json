@@ -1,0 +1,88 @@
+{
+  "decoder": "source_spot",
+  "incumbent": 3,
+  "risk": {
+    "abstained": false,
+    "identity_risk": 0.01041666666666663,
+    "composition_risk": 0.0,
+    "flagged": false,
+    "compatible_candidates": 1,
+    "incumbent_compatible": false,
+    "ordinary_multistart_identity_disagreement": 0.0680628272251309,
+    "ordinary_multistart_composition_disagreement": 0.0388745704467354,
+    "unfiltered_bank_identity_disagreement": 0.2737430167597765,
+    "unfiltered_bank_composition_disagreement": 0.16654116465863456,
+    "comparisons": [
+      {
+        "index": 0,
+        "identity_loss": 0.01041666666666663,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      }
+    ],
+    "molecular_correctness_certified": false
+  },
+  "weighted_risk": {
+    "abstained": false,
+    "identity_risk": 0.01041666666666663,
+    "composition_risk": 0.0,
+    "flagged": false,
+    "weighted_geometric_RMS": 0.005208333333333333,
+    "selection_weights": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "molecular_correctness_certified": false,
+    "posterior_RNA_error_probability": false,
+    "ordinary_multistart_identity_disagreement": 0.0680628272251309,
+    "ordinary_multistart_composition_disagreement": 0.0388745704467354,
+    "unfiltered_bank_identity_disagreement": 0.2737430167597765,
+    "unfiltered_bank_composition_disagreement": 0.16654116465863456
+  },
+  "baseline_fit_loss": 0.26050809963155336,
+  "baseline_fit_gap": 0.0032806700529375843,
+  "baseline_decoder_confidence": 0.5351359844207764,
+  "baseline_quality": {
+    "full_catalog_calls": 96,
+    "central_coding": 96,
+    "central_negative": 0,
+    "blank_proxy": null,
+    "source_abstentions": 77,
+    "source_unsupported": 1,
+    "runtime": {
+      "elapsed_s": 0.1523494590073824
+    }
+  },
+  "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8"
+}

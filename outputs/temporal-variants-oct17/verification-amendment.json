@@ -1,0 +1,21 @@
+{
+  "original_verifier_sha256": "7959e6d28f220834e9864f7e360783869eb165b1ce057a7dd00dddb6083ad43b",
+  "amended_verifier_sha256": "b2fc9ed3251296aa7ed883038eb8342b7bfca04b598003d138d76f790c28e82d",
+  "failed_log_sha256": "29079ab4563bb39e5ebfa07f65bb854c35b052cc7084fdf672abbac497903b54",
+  "reason": "Normalized versus raw float64 reductions differ by 1.44e-12 relative when a reference has cancellation condition 7619.35. Longdouble confirms the independent scalar value. The affected geometric call is unusable. Use the same 1e-10 relative point-replay tolerance already specified for arithmetic; no set, observation, gate or output is changed.",
+  "example": {
+    "world": "edf10rep2-gaussian-group_common",
+    "rep": 22,
+    "q": 0.15,
+    "scope": "observed",
+    "method": "coded",
+    "assignment": 0,
+    "estimate": 43.08805880736729,
+    "scalar_and_longdouble": 43.08805880730521,
+    "relative_difference": 1.4407731641146666e-12,
+    "reference_condition": 7619.354938444266,
+    "usable": false
+  },
+  "scientific_results_changed": false,
+  "scientific_thresholds_changed": false
+}

@@ -1,0 +1,33 @@
+{
+  "decoder": "correlation",
+  "incumbent": 0,
+  "risk": {
+    "abstained": true,
+    "reason": "Insufficient incumbent calls"
+  },
+  "weighted_risk": {
+    "abstained": true,
+    "reason": "Insufficient incumbent coding calls"
+  },
+  "baseline_fit_loss": 0.4999682442792542,
+  "baseline_fit_gap": 0.1091075566743131,
+  "baseline_decoder_confidence": null,
+  "baseline_quality": {
+    "full_catalog_calls": 8,
+    "central_coding": 8,
+    "central_negative": 0,
+    "blank_proxy": 0.0,
+    "source_abstentions": null,
+    "source_unsupported": null,
+    "runtime": {
+      "kernel_s": 0.03807991702342406,
+      "peaks_s": 0.27873195899883285,
+      "density_max": 0.8348545432090759,
+      "absolute_cut": 0.7749999761581421,
+      "density_sha256": "71ad3c6f2819830031b9757c1c8272b270a5881c55c580c1834a9ee06f20099c"
+    }
+  },
+  "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+  "incumbent_label": "author_selected",
+  "confidence_comparator_not_recomputed": true
+}

@@ -1,0 +1,11 @@
+{
+  "all_pass": true,
+  "worlds": 126,
+  "cases": 84672,
+  "arithmetic_original_cases": 42336,
+  "geometric_window_formula_checks": 84672,
+  "arithmetic_original_summaries": 1008,
+  "summary_rows": 2016,
+  "independent_physical_validation": false,
+  "freeze_sha256": "e9679962f2c2d42ef108bce4c9b8d7d0f49576c5ac82249e383fdf1ead309637"
+}

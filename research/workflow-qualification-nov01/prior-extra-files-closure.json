@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "baseline": "3789b2973740f6660846b951228095e6f9966496",
+  "additional_preexisting_files_checked": 2357,
+  "additional_bytes_checked": 446645341,
+  "curated_files_checked_separately_in": "historical-closure.json",
+  "all_preexisting_scientific_files_unchanged": true
+}

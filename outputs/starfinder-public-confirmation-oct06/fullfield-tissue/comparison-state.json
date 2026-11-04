@@ -1,0 +1,12 @@
+{
+  "stage": "complete",
+  "planned": 96,
+  "completed": 96,
+  "failed": 0,
+  "source": "exposed tissue source-geometry repair",
+  "workflow_frozen_before_pixels": false,
+  "development": true,
+  "independent_confirmation": false,
+  "negative_proxy_unavailable": true,
+  "native_RNA_truth_unavailable": true
+}

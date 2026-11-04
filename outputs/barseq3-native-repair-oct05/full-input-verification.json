@@ -1,0 +1,16 @@
+{
+  "source": {
+    "id": "a574069b-0f0f-40bd-a493-b82d3df5add9",
+    "key": "adult_cb_raw_FOV20_FOV40_11rds (1)",
+    "size": 934285696,
+    "checksum": "md5:a03d84ad28824b9fef6ff2ffd514eee3",
+    "links": {
+      "self": "https://zenodo.org/api/records/19024678/files/adult_cb_raw_FOV20_FOV40_11rds%20(1)/content"
+    }
+  },
+  "bytes": 934285696,
+  "md5": "a03d84ad28824b9fef6ff2ffd514eee3",
+  "whole_source_verified": true,
+  "path": "external-originals/2026-09-25/can-y/work/barseq3-inputs-oct05.nosync/adult-cb-full.hdf5",
+  "protocol_sha256": "ca032fe1b2f8eba80393f43083fe31521271bcdd9ed8d89d8e9efd17ade9e73d"
+}

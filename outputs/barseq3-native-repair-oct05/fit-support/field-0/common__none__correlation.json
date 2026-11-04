@@ -1,0 +1,254 @@
+{
+  "status": "completed",
+  "kind": "common",
+  "policy": "none",
+  "decoder": "correlation",
+  "source_index": 0,
+  "xy": [
+    [
+      28.0,
+      71.0
+    ]
+  ],
+  "words": [
+    1018
+  ],
+  "metrics": {
+    "1.5": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.0,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 1.0,
+      "reference_calls": 70,
+      "predicted_calls": 1,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 0,
+        "skipped_components": 0,
+        "candidate_edges": 0
+      }
+    },
+    "3": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.028169014084507043,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 1.0,
+      "reference_calls": 70,
+      "predicted_calls": 1,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 1,
+        "skipped_components": 0,
+        "candidate_edges": 2
+      }
+    },
+    "5": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.028169014084507043,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 1.0,
+      "reference_calls": 70,
+      "predicted_calls": 1,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 1,
+        "skipped_components": 0,
+        "candidate_edges": 6
+      }
+    }
+  },
+  "quality": {
+    "nonblank": 1,
+    "blanks": 0,
+    "proxy": 0.0,
+    "support": 1.0,
+    "qualified": false
+  },
+  "runtime": {
+    "kernel_s": 0.04606379201868549,
+    "peaks_s": 0.28151458300999366,
+    "density_max": 0.834173321723938,
+    "absolute_cut": 0.7749999761581421,
+    "density_sha256": "4490084e5a7f9b28a8f044a78e112ddab16b1886cbcf591b8c55516409b42cb4",
+    "exact_reference_kernel_reused": false,
+    "warp_s": 0.02467587499995716,
+    "actual_execution_kernel_s": 0.0
+  },
+  "reused_primary": {
+    "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__none__correlation.json",
+    "sha256": "59305b7f7be10274877578b96e98a066a562df9999b934295437ef57de4f3473",
+    "exact_decoder_input_equality": true
+  },
+  "applied_integer_maps": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "geometry_sha256": "56cd40d8d32d87e1aa2b890776219ca535d1ad8f3dbb7eef2c2410582ff40746",
+  "fit_support_sha256": "80baddc367a41165553150eda6e171407d2131c6763b15db711daa41cbf49023",
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955",
+  "specification_sha256": "ac9a2549e4b3adf0281c765ee7ef91b129de814488d482be269e8fb8938e65c8"
+}

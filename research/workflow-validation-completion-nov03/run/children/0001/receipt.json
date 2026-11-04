@@ -1,0 +1,30 @@
+{
+  "stage": "completed",
+  "policy": "group_search",
+  "input_fingerprint": "89bf1a02e87d1a9704d460b141f363e2c9743cadcec98a675b53772347a8da64",
+  "input_sha256": "53095cd5db8e7acd02080f183359852134d15b258ef96b1824e24e1ffe3503ed",
+  "local_input_bytes": 37904172,
+  "backend": "memory_adapter:make_local_adapter",
+  "started_epoch": 1793676263.287211,
+  "input_removed": true,
+  "pid": 14786,
+  "command": [
+    "external-originals/2026-09-25/can-y/work/decoder-venv.nosync/bin/python",
+    "-m",
+    "codedcal.workflow_isolated",
+    "--backend",
+    "memory_adapter:make_local_adapter",
+    "--input",
+    "research/workflow-validation-completion-nov03/run/children/0001/input.npz",
+    "--config",
+    "research/workflow-validation-completion-nov03/run/children/0001/config.json",
+    "--policy",
+    "group_search",
+    "--output",
+    "research/workflow-validation-completion-nov03/run/children/0001/result.json"
+  ],
+  "exit_code": 0,
+  "result_sha256": "9e7316554ee7a6567f99d98ae2147d44c17147a8d11f23b2a70d10d93e7800a2",
+  "child_peak_rss_bytes": 562249728,
+  "wall_seconds": 69.60076404199935
+}

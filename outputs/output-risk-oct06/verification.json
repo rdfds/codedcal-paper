@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "frozen_files_verified": 9,
+  "case_profiles_verified": 13,
+  "prediction_records_verified": 20,
+  "catalog_records_verified": 860,
+  "common_support_profile_bootstrap_reproduced": true,
+  "global_maximum_cardinality_matching_verified": true,
+  "composition_excludes_absent_codes": true,
+  "independent_RNA_truth": false,
+  "independent_preparation_validation": false,
+  "records": [
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_0_color/evaluation.json",
+      "sha256": "cc693f83ae5ac7187acba182bec46529c99f3f99d2d5d2f9e429a0cf0faad5f6"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_0_common/evaluation.json",
+      "sha256": "a972d59d377d8f12d8af2197723aa60db72ecab54f9f4d0a129b39356197de1e"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_0_zero/evaluation.json",
+      "sha256": "e39df2b69911cf55c4446025ca903944d12eefc1a1b472fc4bf6d2a382c345cb"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_1_color/evaluation.json",
+      "sha256": "551b6482da522bb43fbeba980d76994e44ef6d8a924ce183a9aaf4ac17106e19"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_1_common/evaluation.json",
+      "sha256": "ae642c8336e1a2293fcab67ef70312217683b729ded99318f0e15c68377e845f"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_1_zero/evaluation.json",
+      "sha256": "84c4f9b16ab33c7beb70da33de010e146cd2fb3b4baac91f6fb1e749b473d928"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/culture_4_color/evaluation.json",
+      "sha256": "8b4876c6677d90041896cefe89923180cbee738fcab17facb35e2b10ae22e357"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/culture_4_common/evaluation.json",
+      "sha256": "af5f78224d1ab61a0df9fde8c50d7bb04a83938b35388e0f567867afd78a2f22"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/culture_4_zero/evaluation.json",
+      "sha256": "0b6d5cf4c510947fad726ae1d8da679c79766a32d398532263317f052de0a302"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_color/evaluation.json",
+      "sha256": "f2449e0af5cb7f89583407285723ae22a41c2950cae845a13e882eb36bdb740d"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_common/evaluation.json",
+      "sha256": "bc2c791f84ee3993876ef0bde2b51b1aa34fcf613f7aca2f26d5dbf30e9afd51"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_outclass/evaluation.json",
+      "sha256": "bdb9de5f4a5edbb88e1f545759fb4fb3756d39d8898e0098f4018c99f88b0d0c"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_zero/evaluation.json",
+      "sha256": "fa68667cfd3236c62b178c71ef17396bc221884013972f37c513bee2a0d7a198"
+    }
+  ]
+}

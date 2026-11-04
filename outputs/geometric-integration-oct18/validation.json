@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "package_version": "0.4.0",
+  "tests_passed": 196,
+  "geometric_cases_exactly_replayed": 42336,
+  "geometric_window_sets_exactly_replayed": 84672,
+  "arithmetic_cases_exactly_replayed": 42336,
+  "historical_fits_and_arithmetic_fieller_preserved": true,
+  "isolated_offline_wheel_smoke_passed": true,
+  "source_data_69_70_71_tracked_files_unchanged": true,
+  "manuscript_assembly_passed": true,
+  "main_text_words": 2987,
+  "core_bundle_passed": true,
+  "core_bundle_missing_optional_raw_tables": [
+    "outputs/random-code-reference-search-sep13/resi_examples/Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+    "outputs/random-code-reference-search-sep13/resi_examples/Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+    "outputs/random-code-reference-search-sep13/resi_examples/Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+    "outputs/random-code-reference-search-sep13/resi_examples/Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R1_apicked.hdf5"
+  ],
+  "d076_freeze_guard_passed": true,
+  "d076_completed_arms": 0,
+  "d076_images_acquired": 0,
+  "new_physical_validation": false,
+  "automatic_variant_selection_validated": false
+}

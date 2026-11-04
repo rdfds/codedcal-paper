@@ -1,0 +1,29 @@
+policy,role,challenge,label,status,reason,failed,identity_loss,composition_tv,reference_calls,predicted_calls,yield_ratio,candidate_coverage,reference_coverage,blank_proxy,integer_oracle_native_exact
+barcode_model,probe,02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953,round-0-probe0,scored,,False,0.02639296187683282,0.008155643865172486,857,848,0.9894982497082847,1.0,1.0,0.0,True
+barcode_model,probe,1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214,color-0-probe1,scored,,False,0.04929577464788737,0.005834305717619609,857,847,0.9883313885647608,1.0,1.0,0.0,True
+barcode_model,probe,975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640,interaction-0-0-probe2,scored,,False,0.039067055393586014,0.012816432886444545,857,858,1.0011668611435238,1.0,1.0,0.0,True
+barcode_model,probe,e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8,balanced-1-probe3,scored,,True,0.1589861751152074,0.02485321311610336,857,879,1.0256709451575263,1.0,1.0,0.0,True
+barcode_model,heldout,eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806,round-14-heldout,scored,,True,0.10481927710843375,0.007001166861143536,857,803,0.9369894982497082,1.0,1.0,0.0,True
+barcode_model,heldout,1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9,color-0-heldout,scored,,True,0.14649681528662417,0.014942528735632201,857,870,1.015169194865811,1.0,1.0,0.0,True
+barcode_model,heldout,2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf,interaction-3-0-heldout,scored,,False,0.03690685413005268,0.005786258494062719,857,850,0.9918319719953326,1.0,1.0,0.0,True
+barcode_model,heldout,cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8,balanced-63-heldout,scored,,True,0.14814814814814814,0.014794084509683909,857,871,1.0163360560093349,1.0,1.0,0.0,True
+barcode_model,heldout,766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f,balanced-62-heldout,scored,,True,0.06979472140762466,0.012798320160278294,857,848,0.9894982497082847,1.0,1.0,0.0,True
+barcode_model,fractional,4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b,fractional-frame,not_run,Prior complete composed-native control upper95 .101217 exceeds .10; no new fractional comparisons,,,,,,,,,,
+barcode_model,fractional,ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be,fractional-color,not_run,Prior complete composed-native control upper95 .101217 exceeds .10; no new fractional comparisons,,,,,,,,,,
+barcode_model,probe,dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5,round-7-probe0,scored,,False,0.026682134570765625,0.012593217670073067,857,867,1.0116686114352391,1.0,1.0,0.0,True
+barcode_model,probe,8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d,interaction-2-0-probe2,scored,,True,0.1207897793263647,0.020744497878740872,857,865,1.0093348891481915,1.0,1.0,0.0,True
+barcode_model,probe,4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b,balanced-35-probe3,scored,,True,0.14169570267131237,0.019599220293941122,857,865,1.0093348891481915,1.0,1.0,0.0,True
+group_search,probe,02129ccebb20da97383f75bc4ef54aa8eeef905cb0096aa233e9a21cc386f953,round-0-probe0,scored,,False,0.0,0.0,1081,1081,1.0,1.0,1.0,0.0,True
+group_search,probe,1f3d1eb07993c31e98057306b1e776446209ebb11866ebe107c0ce40f39f2214,color-0-probe1,scored,,False,0.0,0.0,1081,1081,1.0,1.0,1.0,0.0,True
+group_search,probe,975cd71bea8f89afa8af914ca63e1c040d075f89f8ccb49ce323cff78823a640,interaction-0-0-probe2,scored,,True,0.9562647754137116,0.9114576450376635,1081,2303,2.130434782608696,1.0,1.0,0.5527572731220148,True
+group_search,probe,e2a0ed4a7c1384420913d34152b6cf74e2af50bf6282c3beeaedb3992eaec7f8,balanced-1-probe3,scored,,True,0.09354536950420955,0.02127659574468088,1081,1057,0.9777983348751156,1.0,1.0,0.0,True
+group_search,heldout,eee0183025142c3b5a6976d9e49709e67d47ec21d0c17e35540a877da830d806,round-14-heldout,scored,,True,0.08555399719495094,0.011865020311305962,1081,1058,0.9787234042553191,1.0,1.0,0.02110901071203529,True
+group_search,heldout,1070a04fa6aa5fb6aa4e91037036d83ead84b3e2cc134e25173d96818a10dfa9,color-0-heldout,scored,,False,0.0,0.0,1081,1081,1.0,1.0,1.0,0.0,True
+group_search,heldout,2b55ad19defa0ca44def33f8afd8e0894fad7d879b3a2cd758d1a8d4695ddacf,interaction-3-0-heldout,scored,,True,0.5504828797190517,0.018770330080520436,1081,1197,1.1073080481036077,1.0,1.0,0.0,True
+group_search,heldout,cb6f3390b9a4c1380f6f40265ed8307e92ae1f479fbea3f68b48deba94af37b8,balanced-63-heldout,scored,,True,0.9990982867448152,0.9982409850483728,1081,1137,1.051803885291397,1.0,1.0,0.0,True
+group_search,heldout,766415608fec7079255c1c2a721feaf21feabe7719c9373882781d92aab9c46f,balanced-62-heldout,scored,,True,0.5319148936170213,0.01963993453355159,1081,1222,1.1304347826086956,1.0,1.0,0.0,True
+group_search,fractional,4d836e1e4c638d9c9ac4b97b70bc61b65e09eb646c7d426988abac153fa5908b,fractional-frame,not_run,Prior complete composed-native control upper95 .101217 exceeds .10; no new fractional comparisons,,,,,,,,,,
+group_search,fractional,ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be,fractional-color,not_run,Prior complete composed-native control upper95 .101217 exceeds .10; no new fractional comparisons,,,,,,,,,,
+group_search,probe,dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5,round-7-probe0,scored,,False,0.0,0.0,1081,1081,1.0,1.0,1.0,0.0,True
+group_search,probe,8b5807a2723e392fe4d33ebf3a90be58dd8f07acd96fcda5295f10dca2d2416d,interaction-2-0-probe2,scored,,True,0.9928861788617886,0.9925994449583718,1081,887,0.820536540240518,1.0,1.0,0.0,True
+group_search,probe,4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b,balanced-35-probe3,scored,,True,0.09732016925246822,0.021276595744680864,1081,1046,0.967622571692877,1.0,1.0,0.0,True

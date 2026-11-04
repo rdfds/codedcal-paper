@@ -1,0 +1,11 @@
+{
+  "revisions": [
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/sensitivity.py",
+      "original_sha256": "90098559480499ea0c186018927602a6d2db76a94c9e452513e5fe3f5d853ba7",
+      "current_sha256": "b800a114ed690921265f7499f71868f6c7503cdfd7d479e595bc1830c3a762be",
+      "original_copy": "outputs/reconciliation-sensitivity-oct23/sensitivity-initial.py",
+      "reason": "Performance-only: cache empirical events once; NPZ repeated member access decompresses the complete array. Same ndarray values, slicing and scientific operations. Add implementation hash to subsequent result metadata."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "posthoc": true,
+  "files": {
+    "outputs/output-risk-oct06/PRESERVED_WORKFLOW_PROTOCOL.md": "44e1f2db7eee9b08da0f2a71a723c82c72ca11a210c09bdbeefed44447f2f582",
+    "outputs/output-risk-oct06/preserved_workflow.py": "0d27e9df9600c72b68eb423d24bfbe0cb4c6bac0c807e2f81f1b852ebb965887",
+    "outputs/output-risk-oct06/common-domain/freeze.json": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+    "outputs/output-risk-oct06/common-domain/diagnosis.json": "64f025134f335fbac1ccc648a2c02616a5e3b593c20b5cb275deda633ea2f901",
+    "tool/src/codedcal/output_risk.py": "e319915e4f2e9c1a63245e2ff57e20c15a650f01830ac4e157261e194e2a56d8",
+    "tool/src/codedcal/output_risk_weighted.py": "e4f9fd398a95a695c5e1e5093fa4788c71d6dc724cca4441959612ce5372561f"
+  }
+}

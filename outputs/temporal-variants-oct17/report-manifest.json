@@ -1,0 +1,15 @@
+{
+  "RESULTS.md": "59dddbeda321af9c33656f1a6821ef90cace76a65495af7313251919932ae914",
+  "table4.md": "a34c89c9e4e8cd28784576f382e765bec3267728598122b8744ff6eea8b1cbcf",
+  "availability-matched.json": "e19661bfa7c2825ae3d3aeecdcf43cc44d4e551a76b36cceda4f76830ba7f790",
+  "overview.json": "80cca7534930fcc79ddf467ac13cdbc720894b41e6e9ba53d242ea245b002e92",
+  "variants.png": "48bba56ef8578b0a7f62a10b94a939f93d7d6e0fce20a1f07c61cb5fc44a0549",
+  "variants.pdf": "6366a6783a098bd515aebd6c3ce4ffe8d277c1efcd1980ed491a1cedc843c1f2",
+  "variants.svg": "ab539c60c51dde13a56b137229aa9d87425523a889451223e345df7ded646159",
+  "report.py": "fdbe9e9362a17769e4d0143092241df5a275e4af0b82f2ccddfcc2036379e97f",
+  "summary.json": "24a37553e87be661d108a1e538a37b4710220a5447fff735a04461828960f752",
+  "summary.csv": "f963f41d894fc120e5f7712f97f706b7d0ab36694cf1efb2209ac831029357f2",
+  "verification.json": "7b3b76c822e535bf7ed1a7fcd6e28e086590ee08c6488335643cf8283f8bf664",
+  "verification-amendment.json": "8fb14d6d87bb669314b69f7f6aca983879c7d794bead7e7ed8ffc2be101ba970",
+  "verify_v2.py": "b2fc9ed3251296aa7ed883038eb8342b7bfca04b598003d138d76f790c28e82d"
+}

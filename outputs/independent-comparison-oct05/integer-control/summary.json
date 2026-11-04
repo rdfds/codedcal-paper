@@ -1,0 +1,326 @@
+{
+  "arms": {
+    "planned": 120,
+    "completed": 120,
+    "failed_or_missing": 0
+  },
+  "results": {
+    "development": {
+      "correlation": {
+        "cases": [
+          {
+            "condition": "round-a2",
+            "feature": 0.6567699743240111,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.6962025316455697,
+              "common_round": 0.864321608040201,
+              "common_iterative": 0.864321608040201,
+              "population_template": 0.8512820512820513,
+              "barcode_model": 0.864321608040201,
+              "oracle": 0.864321608040201
+            },
+            "complete": true
+          },
+          {
+            "condition": "round-a4",
+            "feature": 0.6558471587907919,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.0392156862745098,
+              "common_round": 0.8656716417910447,
+              "common_iterative": 0.864321608040201,
+              "population_template": 0.8512820512820513,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.864321608040201
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a2",
+            "feature": 2.191041470071542,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.4264705882352941,
+              "common_round": 0.5850340136054422,
+              "common_iterative": 0.7931034482758621,
+              "population_template": 0.8512820512820513,
+              "barcode_model": 0.8686868686868687,
+              "oracle": 0.864321608040201
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a4",
+            "feature": 4.6569516663401025,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.019801980198019802,
+              "common_round": 0.0,
+              "common_iterative": 0.32786885245901637,
+              "population_template": 0.8601036269430051,
+              "barcode_model": 0.8656716417910447,
+              "oracle": 0.864321608040201
+            },
+            "complete": true
+          }
+        ],
+        "oracle_calls_equal_zero": true,
+        "mean_identity_f1": {
+          "none": 0.29542269658834835,
+          "common_round": 0.578756815859172,
+          "common_iterative": 0.7124038792038201,
+          "population_template": 0.8534874451972897,
+          "barcode_model": 0.8639557439152429,
+          "oracle": 0.864321608040201,
+          "selected": 0.8600072235763646
+        },
+        "confusion": {
+          "tp": 2,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "harmful_recommendations": 0
+      },
+      "regression": {
+        "cases": [
+          {
+            "condition": "round-a2",
+            "feature": 0.6567699743240111,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.6311111111111111,
+              "common_round": 0.8571428571428571,
+              "common_iterative": 0.8571428571428571,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.8571428571428571
+            },
+            "complete": true
+          },
+          {
+            "condition": "round-a4",
+            "feature": 0.6558471587907919,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.03444564047362755,
+              "common_round": 0.8571428571428571,
+              "common_iterative": 0.8571428571428571,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.8571428571428571
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a2",
+            "feature": 2.191041470071542,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.25757575757575757,
+              "common_round": 0.4980237154150198,
+              "common_iterative": 0.6995073891625616,
+              "population_template": 0.8571428571428571,
+              "barcode_model": 0.8571428571428571,
+              "oracle": 0.8571428571428571
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a4",
+            "feature": 4.6569516663401025,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.017777777777777778,
+              "common_round": 0.02247191011235955,
+              "common_iterative": 0.19047619047619047,
+              "population_template": 0.8066298342541437,
+              "barcode_model": 0.8044692737430168,
+              "oracle": 0.8571428571428571
+            },
+            "complete": true
+          }
+        ],
+        "oracle_calls_equal_zero": true,
+        "mean_identity_f1": {
+          "none": 0.23522757173456849,
+          "common_round": 0.5586953349532734,
+          "common_iterative": 0.6510673234811166,
+          "population_template": 0.8445146014206787,
+          "barcode_model": 0.843974461292897,
+          "oracle": 0.8571428571428571,
+          "selected": 0.8445146014206787
+        },
+        "confusion": {
+          "tp": 2,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "harmful_recommendations": 0
+      }
+    },
+    "validation": {
+      "correlation": {
+        "cases": [
+          {
+            "condition": "round-a2",
+            "feature": 0.813428446693839,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.656934306569343,
+              "common_round": 0.7102803738317757,
+              "common_iterative": 0.7129629629629629,
+              "population_template": 0.7184466019417476,
+              "barcode_model": 0.646551724137931,
+              "oracle": 0.7129629629629629
+            },
+            "complete": true
+          },
+          {
+            "condition": "round-a4",
+            "feature": 0.8128436589101871,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.04819277108433735,
+              "common_round": 0.7142857142857143,
+              "common_iterative": 0.7129629629629629,
+              "population_template": 0.6948356807511737,
+              "barcode_model": 0.646551724137931,
+              "oracle": 0.7129629629629629
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a2",
+            "feature": 2.197453774158844,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.5254237288135594,
+              "common_round": 0.6618705035971223,
+              "common_iterative": 0.782608695652174,
+              "population_template": 0.7024390243902439,
+              "barcode_model": 0.6666666666666666,
+              "oracle": 0.7129629629629629
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a4",
+            "feature": 4.253301611756615,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.0,
+              "common_round": 0.18181818181818182,
+              "common_iterative": 0.33663366336633666,
+              "population_template": 0.7047619047619048,
+              "barcode_model": 0.646551724137931,
+              "oracle": 0.7129629629629629
+            },
+            "complete": true
+          }
+        ],
+        "oracle_calls_equal_zero": true,
+        "mean_identity_f1": {
+          "none": 0.3076377016168099,
+          "common_round": 0.5670636933831985,
+          "common_iterative": 0.6362920712361091,
+          "population_template": 0.7051208029612674,
+          "barcode_model": 0.6515804597701149,
+          "oracle": 0.7129629629629629,
+          "selected": 0.7082817137695187
+        },
+        "confusion": {
+          "tp": 1,
+          "tn": 2,
+          "fp": 1,
+          "fn": 0,
+          "balanced_accuracy": 0.8333333333333333
+        },
+        "harmful_recommendations": 1
+      },
+      "regression": {
+        "cases": [
+          {
+            "condition": "round-a2",
+            "feature": 0.813428446693839,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.3373493975903614,
+              "common_round": 0.8181818181818182,
+              "common_iterative": 0.8227848101265823,
+              "population_template": 0.8181818181818182,
+              "barcode_model": 0.8366013071895425,
+              "oracle": 0.8227848101265823
+            },
+            "complete": true
+          },
+          {
+            "condition": "round-a4",
+            "feature": 0.8128436589101871,
+            "recommend": "common_iterative",
+            "identity_f1": {
+              "none": 0.04551920341394026,
+              "common_round": 0.8152866242038217,
+              "common_iterative": 0.8227848101265823,
+              "population_template": 0.8205128205128205,
+              "barcode_model": 0.8366013071895425,
+              "oracle": 0.8227848101265823
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a2",
+            "feature": 2.197453774158844,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.1871345029239766,
+              "common_round": 0.6127167630057804,
+              "common_iterative": 0.5824175824175825,
+              "population_template": 0.8227848101265823,
+              "barcode_model": 0.8205128205128205,
+              "oracle": 0.8227848101265823
+            },
+            "complete": true
+          },
+          {
+            "condition": "color-a4",
+            "feature": 4.253301611756615,
+            "recommend": "population_template",
+            "identity_f1": {
+              "none": 0.0201765447667087,
+              "common_round": 0.07857142857142857,
+              "common_iterative": 0.2268041237113402,
+              "population_template": 0.8258064516129032,
+              "barcode_model": 0.8366013071895425,
+              "oracle": 0.8227848101265823
+            },
+            "complete": true
+          }
+        ],
+        "oracle_calls_equal_zero": true,
+        "mean_identity_f1": {
+          "none": 0.14754491217374674,
+          "common_round": 0.5811891584907122,
+          "common_iterative": 0.6136978315955218,
+          "population_template": 0.821821475108531,
+          "barcode_model": 0.832579185520362,
+          "oracle": 0.8227848101265823,
+          "selected": 0.8235402204981626
+        },
+        "confusion": {
+          "tp": 2,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0,
+          "balanced_accuracy": 1.0
+        },
+        "harmful_recommendations": 0
+      }
+    }
+  },
+  "scope": "Post-hoc exposed-crop sensitivity with integer warps and a common prepared decoder window; not independent confirmation"
+}

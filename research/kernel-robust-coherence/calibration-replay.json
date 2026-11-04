@@ -1,0 +1,7 @@
+{
+  "fresh_optimizer_replay": "passed",
+  "all_numeric_results_exactly_match": true,
+  "all_saved_arrays_exactly_match": true,
+  "input_sha256": "f63a8de2a1bcf075e731e6e0462e6ab4296fd816da8a71d7a07e56079f12c2ec",
+  "new_empirical_outcomes_read": false
+}

@@ -1,0 +1,121 @@
+{
+  "scope": "Conditional research extension; no physical claim upgrade",
+  "files": {
+    "FIGURE_CAPTION.md": {
+      "bytes": 1276,
+      "sha256": "cf41f5448defc95ed0e54f3c6a08af5cf0419f0b80fffb3ba8f9485b5a58d454"
+    },
+    "PRIOR_WORK.md": {
+      "bytes": 3167,
+      "sha256": "c98f2208875370efe55b4fbaefbe6d42cc6e88c67ebab8af0eb29c63dbca8a31"
+    },
+    "PROTOCOL.md": {
+      "bytes": 5433,
+      "sha256": "ac9002a6521153d2788ba0caa2609a8542baf2c4671ef6a9cf3fe8c9b2bf306f"
+    },
+    "README.md": {
+      "bytes": 2511,
+      "sha256": "f1a1ec1e4351f0111af27c5cd6ae337ca71a1877c2070b29ffb790792e637dbb"
+    },
+    "REPORT.md": {
+      "bytes": 7780,
+      "sha256": "5fca2cdd5eee0a3d973f4155627beba6024187bb29ff7575177efee25a77f9d9"
+    },
+    "SIMULATION_PLAN.md": {
+      "bytes": 2644,
+      "sha256": "74569beaf0a8ca4858f8b9e0b0358d52d229421cb112b111caab438a0f3db748"
+    },
+    "THEORY.md": {
+      "bytes": 8415,
+      "sha256": "003a12e7132768fa4d3d94646ed7fef2b0f497d3733740b6268f432be98f8a58"
+    },
+    "calibration-feasibility/calibration-group-design.npz": {
+      "bytes": 2833,
+      "sha256": "a1fa6426c50f16f8cc3c5d5b4e017f35acb9fe0f35971a02c3b5807c97cd0104"
+    },
+    "calibration-feasibility/result.json": {
+      "bytes": 7581,
+      "sha256": "035d96e2d982209d6475d082437ecd6225e1db7aa6aad1e52fabf241de6655e0"
+    },
+    "calibration-feasibility.log": {
+      "bytes": 7581,
+      "sha256": "035d96e2d982209d6475d082437ecd6225e1db7aa6aad1e52fabf241de6655e0"
+    },
+    "calibration-replay.json": {
+      "bytes": 254,
+      "sha256": "c21e68a08e93e5cfed59d75697d02513cef1555b863b8976ebabe648e0991144"
+    },
+    "calibration_feasibility.py": {
+      "bytes": 5923,
+      "sha256": "d614395e75a234f8e4f2b8e878adb4c4b34d7384f52375a261ae370bf41c7a50"
+    },
+    "core.py": {
+      "bytes": 5635,
+      "sha256": "ba6010843a0624ec1e7640db48196dcdf1960519e34d7c8522f50c52ad1fb6ce"
+    },
+    "inference.py": {
+      "bytes": 4045,
+      "sha256": "4447caa5212d3557966b54189406c903f3ca74b5587f0e1bb2d3db54d059f578"
+    },
+    "manifest.py": {
+      "bytes": 1291,
+      "sha256": "778a8b11cc51afdcae42d05f04404e72e26fff43611bf7842ac3bc4e563e4b47"
+    },
+    "plot.py": {
+      "bytes": 2399,
+      "sha256": "8423a2a0a58e19fca72f5e427600a7bc4e5febb4869262f859653d261ab9f94d"
+    },
+    "simulation-controls.log": {
+      "bytes": 15232,
+      "sha256": "895d8e46cb9051eaff88616ae958a5db239da89ed5f253001458271e1b06d656"
+    },
+    "simulation-results.json": {
+      "bytes": 29487,
+      "sha256": "a662b0d12a55a2ab6aad7f18cec81481e9b0e290715a777b57924469c859d227"
+    },
+    "simulation_controls.py": {
+      "bytes": 5490,
+      "sha256": "55eabfc7b8c0073e4ee172c5455dde24c758a303e4197ed618df8a0f2c955d3f"
+    },
+    "summary.png": {
+      "bytes": 128826,
+      "sha256": "cacd3d9a2c3db0ba7bbe48dbc2495ae265e4cf6cb7d1994f10399839aa46db55"
+    },
+    "summary.svg": {
+      "bytes": 76702,
+      "sha256": "8daf85ecf2b1c14aa38e0f0754c65897f1833327105177ad4a7415ddfc4a3d99"
+    },
+    "test_coherence.py": {
+      "bytes": 9931,
+      "sha256": "0a5d069aec8bab7b40ff9e5526709b4a3e3301d46e34a1a9f52b4b764937183a"
+    },
+    "tests-complete.log": {
+      "bytes": 99,
+      "sha256": "d14e8f97030393ecb0b7cbfc2297ea461966bc35031766e8f71bef490b1b8f26"
+    },
+    "tests-final.log": {
+      "bytes": 99,
+      "sha256": "585c0acd9d0bc3c1c77b2caabd8f96538ada8248ca8684a3f54a14d17d35ae04"
+    },
+    "tests-initial.log": {
+      "bytes": 35,
+      "sha256": "1ba4d38decd866fb30e09016077777309352aeddf317710dff19295a505bf4b7"
+    },
+    "verification-repaired.log": {
+      "bytes": 1519,
+      "sha256": "f607cf6de33a49ec4fe4f1697d7d71de3c65d70bbaf39f1af5aae5799bb0769c"
+    },
+    "verification.json": {
+      "bytes": 1519,
+      "sha256": "f607cf6de33a49ec4fe4f1697d7d71de3c65d70bbaf39f1af5aae5799bb0769c"
+    },
+    "verification.log": {
+      "bytes": 476,
+      "sha256": "5e9ecb8910d5abd39e5396bf4d6abc1eb488c55fe8446c7c25228d64909f7541"
+    },
+    "verify.py": {
+      "bytes": 4719,
+      "sha256": "56edac1a755793dd89ae5b71e0bebf21ccb9559b7c6839ed00f52ba43c9b1f36"
+    }
+  }
+}

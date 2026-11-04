@@ -1,0 +1,20 @@
+{
+  "url": "https://data.mendeley.com/public-files/datasets/5xfzcb4kn8/files/01424b4f-82fb-4ec8-a99c-3121d631776c/file_downloaded",
+  "final_url": "https://prod-dcd-datasets-public-files-eu-west-1.s3.eu-west-1.amazonaws.com/1ef34829-5483-4b82-83f5-9f3d8d5f9deb",
+  "status": 200,
+  "headers": {
+    "x-amz-id-2": "0ZujXQVEg4iimGX7vP0isgcVYFYd7Vj0s17VsArbOks4ZDU6KWct9iHcLCk3wFNg5nZ2kNDEdZM=",
+    "x-amz-request-id": "1MHR5N6ESRH1C87Z",
+    "Server": "AmazonS3",
+    "Date": "Tue, 06 Oct 2026 04:36:54 GMT",
+    "Last-Modified": "Thu, 29 Jan 2026 13:33:33 GMT",
+    "ETag": "\"50994d03ec9806d119f4fa01ae467869-33\"",
+    "x-amz-storage-class": "INTELLIGENT_TIERING",
+    "x-amz-server-side-encryption": "AES256",
+    "Content-Disposition": "attachment; filename=\"Image processing code.zip\"",
+    "x-amz-version-id": "cs4zat.a9D3wbwlEPuS3suL.fM16z.dP",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "675249132",
+    "Content-Type": "application/x-zip-compressed"
+  }
+}

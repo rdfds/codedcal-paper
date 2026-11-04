@@ -1,0 +1,1016 @@
+{
+  "stage": "complete",
+  "completed": [
+    {
+      "name": "npc-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.127548190211274
+    },
+    {
+      "name": "npc-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04361029111995014
+    },
+    {
+      "name": "npc-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.12046524701753834
+    },
+    {
+      "name": "npc-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.13374518322703619
+    },
+    {
+      "name": "npc-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04111108171634668
+    },
+    {
+      "name": "npc-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0727364695402141
+    },
+    {
+      "name": "npc-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "npc-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07098291568772912
+    },
+    {
+      "name": "npc-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.15507618969488837
+    },
+    {
+      "name": "npc-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.089633130243046
+    },
+    {
+      "name": "npc-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07770149912998872
+    },
+    {
+      "name": "npc-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06823205801205141
+    },
+    {
+      "name": "npc-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.09287136981913588
+    },
+    {
+      "name": "npc-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "edf10rep1-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.15328155968005225
+    },
+    {
+      "name": "edf10rep1-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.13235791674403496
+    },
+    {
+      "name": "edf10rep1-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0908793973571235
+    },
+    {
+      "name": "edf10rep1-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.25011357963899694
+    },
+    {
+      "name": "edf10rep1-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0819100147208302
+    },
+    {
+      "name": "edf10rep1-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.08170294257015044
+    },
+    {
+      "name": "edf10rep1-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "edf10rep1-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07290904281751255
+    },
+    {
+      "name": "edf10rep1-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0892994848129371
+    },
+    {
+      "name": "edf10rep1-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.14942589055508906
+    },
+    {
+      "name": "edf10rep1-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.09602078149231717
+    },
+    {
+      "name": "edf10rep1-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.09583408327445972
+    },
+    {
+      "name": "edf10rep1-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.09696162586185432
+    },
+    {
+      "name": "edf10rep1-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "edf10rep2-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0355068787599849
+    },
+    {
+      "name": "edf10rep2-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1855653394860153
+    },
+    {
+      "name": "edf10rep2-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0512936733326825
+    },
+    {
+      "name": "edf10rep2-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0653893807795039
+    },
+    {
+      "name": "edf10rep2-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07686907719154976
+    },
+    {
+      "name": "edf10rep2-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.03864652565618583
+    },
+    {
+      "name": "edf10rep2-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "edf10rep2-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.051122563934193795
+    },
+    {
+      "name": "edf10rep2-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.24252431783708564
+    },
+    {
+      "name": "edf10rep2-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.10499547357014241
+    },
+    {
+      "name": "edf10rep2-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.08158196375486636
+    },
+    {
+      "name": "edf10rep2-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.023657141787202806
+    },
+    {
+      "name": "edf10rep2-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06454996584015679
+    },
+    {
+      "name": "edf10rep2-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "fig4untreated-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.05552936814561594
+    },
+    {
+      "name": "fig4untreated-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06708756211256983
+    },
+    {
+      "name": "fig4untreated-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.053934420955497234
+    },
+    {
+      "name": "fig4untreated-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.046897441134320886
+    },
+    {
+      "name": "fig4untreated-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.08333589343730867
+    },
+    {
+      "name": "fig4untreated-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07441794136653507
+    },
+    {
+      "name": "fig4untreated-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "fig4untreated-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06382158395402877
+    },
+    {
+      "name": "fig4untreated-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.027947767222163068
+    },
+    {
+      "name": "fig4untreated-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07924089772115091
+    },
+    {
+      "name": "fig4untreated-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1826165831993193
+    },
+    {
+      "name": "fig4untreated-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.041367819191577865
+    },
+    {
+      "name": "fig4untreated-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07911644412812846
+    },
+    {
+      "name": "fig4untreated-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "rtx_rep1-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.05802142284420392
+    },
+    {
+      "name": "rtx_rep1-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.12083992244612866
+    },
+    {
+      "name": "rtx_rep1-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0319328434062549
+    },
+    {
+      "name": "rtx_rep1-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1494485341941589
+    },
+    {
+      "name": "rtx_rep1-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07249673888703279
+    },
+    {
+      "name": "rtx_rep1-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.10555679242570648
+    },
+    {
+      "name": "rtx_rep1-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "rtx_rep1-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.10922671890979699
+    },
+    {
+      "name": "rtx_rep1-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.13807510229718659
+    },
+    {
+      "name": "rtx_rep1-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.08126010315771602
+    },
+    {
+      "name": "rtx_rep1-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04061865796754088
+    },
+    {
+      "name": "rtx_rep1-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1543178177653084
+    },
+    {
+      "name": "rtx_rep1-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0905126965643062
+    },
+    {
+      "name": "rtx_rep1-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "rtx_rep2-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06030489576183092
+    },
+    {
+      "name": "rtx_rep2-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.11658690220844488
+    },
+    {
+      "name": "rtx_rep2-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.17823192413177075
+    },
+    {
+      "name": "rtx_rep2-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.17882479706837368
+    },
+    {
+      "name": "rtx_rep2-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06481601630303409
+    },
+    {
+      "name": "rtx_rep2-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.046365426599938656
+    },
+    {
+      "name": "rtx_rep2-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "rtx_rep2-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0512296845569541
+    },
+    {
+      "name": "rtx_rep2-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.11455123556686116
+    },
+    {
+      "name": "rtx_rep2-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.15462406729631958
+    },
+    {
+      "name": "rtx_rep2-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1330395289383621
+    },
+    {
+      "name": "rtx_rep2-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.10050549546348575
+    },
+    {
+      "name": "rtx_rep2-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.08969610129462964
+    },
+    {
+      "name": "rtx_rep2-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "rtx_rep3-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04050725901789842
+    },
+    {
+      "name": "rtx_rep3-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1406722251445656
+    },
+    {
+      "name": "rtx_rep3-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04141247859522543
+    },
+    {
+      "name": "rtx_rep3-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.19213306633509805
+    },
+    {
+      "name": "rtx_rep3-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.2555109410930871
+    },
+    {
+      "name": "rtx_rep3-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.060336308572841474
+    },
+    {
+      "name": "rtx_rep3-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "rtx_rep3-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.05623785634323439
+    },
+    {
+      "name": "rtx_rep3-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.15393127422946334
+    },
+    {
+      "name": "rtx_rep3-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.28614124458703516
+    },
+    {
+      "name": "rtx_rep3-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1802995957548728
+    },
+    {
+      "name": "rtx_rep3-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.05911977316733926
+    },
+    {
+      "name": "rtx_rep3-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.15830817482925308
+    },
+    {
+      "name": "rtx_rep3-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "sdc_corrected-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0350670922978864
+    },
+    {
+      "name": "sdc_corrected-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.09772773508638623
+    },
+    {
+      "name": "sdc_corrected-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06999621008820699
+    },
+    {
+      "name": "sdc_corrected-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.024466689224121672
+    },
+    {
+      "name": "sdc_corrected-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04771264842590849
+    },
+    {
+      "name": "sdc_corrected-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.045439565806806775
+    },
+    {
+      "name": "sdc_corrected-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "sdc_corrected-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.04995708371602946
+    },
+    {
+      "name": "sdc_corrected-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1441785965443392
+    },
+    {
+      "name": "sdc_corrected-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.06511456839148823
+    },
+    {
+      "name": "sdc_corrected-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07361676875058323
+    },
+    {
+      "name": "sdc_corrected-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.09923615145636247
+    },
+    {
+      "name": "sdc_corrected-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.05131794453716725
+    },
+    {
+      "name": "sdc_corrected-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "sdc_raw-gaussian-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.05748358066446338
+    },
+    {
+      "name": "sdc_raw-gaussian-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.044622654956207354
+    },
+    {
+      "name": "sdc_raw-gaussian-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.03957820518572424
+    },
+    {
+      "name": "sdc_raw-gaussian-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.0655305190389901
+    },
+    {
+      "name": "sdc_raw-gaussian-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.1167315120177415
+    },
+    {
+      "name": "sdc_raw-gaussian-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.10795763841127246
+    },
+    {
+      "name": "sdc_raw-gaussian-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    },
+    {
+      "name": "sdc_raw-residual-zero",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.08523738457299576
+    },
+    {
+      "name": "sdc_raw-residual-homogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.028065053164725875
+    },
+    {
+      "name": "sdc_raw-residual-group_common",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.042147700653840624
+    },
+    {
+      "name": "sdc_raw-residual-heterogeneous",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.10879742720974472
+    },
+    {
+      "name": "sdc_raw-residual-noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.048958837889904024
+    },
+    {
+      "name": "sdc_raw-residual-source_noise_shift",
+      "applicable": true,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": 0.07854371082802933
+    },
+    {
+      "name": "sdc_raw-residual-code_offset",
+      "applicable": false,
+      "prefix_groups": 16,
+      "exact_known": 16,
+      "exact_coded": 32,
+      "relative_mc_error": null
+    }
+  ],
+  "seconds": 440.63742899894714,
+  "implementation_sha256": "29bc49bc2ffe7e5d7580e792495e879c6b94cd811f7241d91b0ef85803bb91c9",
+  "covariance_sha256": "a2192250e034c7440286c1fb98468964dce068b13cdb68db628c61f1c4354307"
+}

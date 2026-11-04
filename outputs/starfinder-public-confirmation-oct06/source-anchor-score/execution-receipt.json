@@ -1,0 +1,9 @@
+{
+  "development": true,
+  "independent_confirmation": false,
+  "protocol_written_before_score_outcomes": true,
+  "controls_passed_before_score_outcomes": true,
+  "protocol_committed_before_score_outcomes": false,
+  "reason": "Attempted staging before the asynchronous control process created controls.json; staging failed. The subsequent command ran the pilot after controls passed. Results are retained as an uncommitted development pilot, not a committed freeze.",
+  "result": "Same selected policies as the unconstrained score; misses the color-case benefit at unchanged 0.005 margin."
+}

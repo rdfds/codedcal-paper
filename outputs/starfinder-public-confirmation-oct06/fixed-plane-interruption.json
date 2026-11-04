@@ -1,0 +1,7 @@
+{
+  "pid": 94795,
+  "signal": "SIGINT",
+  "reason": "Fixed central plane demonstrably misses reference signal; finish light-family gates and retain completed regression; remaining expensive arms stay explicitly unrun/interrupted",
+  "scientific_comparison_started": false,
+  "all_fifteen_native_records_completed": false
+}

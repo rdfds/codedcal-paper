@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "new_actual_native_workflows": 3,
+  "new_exact_cache_hits": 3,
+  "new_dispatches": 6,
+  "all_three_native_results_hash_verified": true,
+  "all_native_configurations_identical_to_freeze": true,
+  "interrupted_input_full_serialization_sha256_identical": true,
+  "old_interruption_preserved": true,
+  "exact_inverse_references_reused_without_fitting": true,
+  "upstream_code_pins_unchanged": true,
+  "children": [
+    {
+      "job": 0,
+      "call": 58,
+      "result_sha256_verified": true,
+      "input_removed_after_hash_check": true,
+      "input_sha256": "e3d8b66ea3a8d006e2da43cf709186711520956e9e73aa266f03cf6f4234038f",
+      "input_fingerprint": "f05445ee258265f013c8e48b0c63a722415fef03ba089a60b05bedebfc21257b",
+      "child_peak_rss_bytes": 623755264
+    },
+    {
+      "job": 1,
+      "call": 60,
+      "result_sha256_verified": true,
+      "input_removed_after_hash_check": true,
+      "input_sha256": "53095cd5db8e7acd02080f183359852134d15b258ef96b1824e24e1ffe3503ed",
+      "input_fingerprint": "89bf1a02e87d1a9704d460b141f363e2c9743cadcec98a675b53772347a8da64",
+      "child_peak_rss_bytes": 562249728
+    },
+    {
+      "job": 2,
+      "call": 62,
+      "result_sha256_verified": true,
+      "input_removed_after_hash_check": true,
+      "input_sha256": "a3f21bd54c385974c9985fa9ba1c99f663013b548cefdf5d17404c7cef8d95ff",
+      "input_fingerprint": "75c441fec67f3e83bdac94eff1fdd91cb9532cc3a5de9ced5026ede6300bfd58",
+      "child_peak_rss_bytes": 597213184
+    }
+  ]
+}

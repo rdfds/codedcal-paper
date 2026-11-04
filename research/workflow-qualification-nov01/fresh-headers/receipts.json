@@ -1,0 +1,213 @@
+{
+  "records": [
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555510",
+      "file_id": 12555510,
+      "publisher": {
+        "id": 12555510,
+        "persistentId": "",
+        "filename": "codebook_0_C1E1_codebook.tab",
+        "contentType": "text/tab-separated-values",
+        "friendlyType": "Tab-Delimited",
+        "filesize": 7994,
+        "storageIdentifier": "s3://dvn-cloud:19a0a66e3d3-4deb19fc82f3",
+        "originalFileFormat": "text/comma-separated-values",
+        "originalFormatLabel": "Comma Separated Values",
+        "originalFileSize": 7575,
+        "originalFileName": "codebook_0_C1E1_codebook.csv",
+        "UNF": "UNF:6:irSwULNY/hqKGAN1mmpyPQ==",
+        "rootDataFileId": -1,
+        "md5": "443f0e9261a44d8fd5c133654e5c3d2b",
+        "checksum": {
+          "type": "MD5",
+          "value": "443f0e9261a44d8fd5c133654e5c3d2b"
+        },
+        "tabularData": true,
+        "creationDate": "2025-10-22",
+        "publicationDate": "2025-10-22",
+        "lastUpdateTime": "2025-10-22T12:17:34Z",
+        "fileAccessRequest": true
+      },
+      "range_requested": false,
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"a9c33c032ad7a2cde6c2609615eb065a\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''codebook_0_C1E1_codebook.tab",
+        "Content-Type": "text/tab-separated-values",
+        "Content-Length": "7994"
+      },
+      "success": true,
+      "file": "12555510.bin",
+      "bytes": 7994,
+      "sha256": "4569ae7ae4ad0916f20ee349b57d5c3c1c00c49b0c0f19a0da2a5e010c74d2ff",
+      "publisher_md5_matches": false
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555511",
+      "file_id": 12555511,
+      "publisher": {
+        "id": 12555511,
+        "persistentId": "",
+        "filename": "dataorganization.tab",
+        "contentType": "text/tab-separated-values",
+        "friendlyType": "Tab-Delimited",
+        "filesize": 5167,
+        "storageIdentifier": "s3://dvn-cloud:19a0a6659b3-a12575db59bd",
+        "originalFileFormat": "text/comma-separated-values",
+        "originalFormatLabel": "Comma Separated Values",
+        "originalFileSize": 4911,
+        "originalFileName": "dataorganization.csv",
+        "UNF": "UNF:6:GAgiwey5Yk6HHtQD4iuHwg==",
+        "rootDataFileId": -1,
+        "md5": "75d231f37d10fa711c3934b1b0f81843",
+        "checksum": {
+          "type": "MD5",
+          "value": "75d231f37d10fa711c3934b1b0f81843"
+        },
+        "tabularData": true,
+        "creationDate": "2025-10-22",
+        "publicationDate": "2025-10-22",
+        "lastUpdateTime": "2025-10-22T12:17:34Z",
+        "fileAccessRequest": true
+      },
+      "range_requested": false,
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:15 GMT",
+        "ETag": "\"12b111bbe20160b1fa0c63ac1d928594\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''dataorganization.tab",
+        "Content-Type": "text/tab-separated-values",
+        "Content-Length": "5167"
+      },
+      "success": true,
+      "file": "12555511.bin",
+      "bytes": 5167,
+      "sha256": "c0bfaf487cfb48b08d048350beeb2908ade8aecc4bc46df85de1cfcc1b8935f4",
+      "publisher_md5_matches": false
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555509",
+      "file_id": 12555509,
+      "publisher": {
+        "id": 12555509,
+        "persistentId": "",
+        "filename": "microscope_parameters.json",
+        "contentType": "application/json",
+        "friendlyType": "JSON",
+        "filesize": 129,
+        "storageIdentifier": "s3://dvn-cloud:19a0a665bbe-61aba8ef6111",
+        "rootDataFileId": -1,
+        "md5": "524f837f9bcf05abeaf815a0476dd0a2",
+        "checksum": {
+          "type": "MD5",
+          "value": "524f837f9bcf05abeaf815a0476dd0a2"
+        },
+        "tabularData": false,
+        "creationDate": "2025-10-22",
+        "publicationDate": "2025-10-22",
+        "lastUpdateTime": "2025-10-22T12:17:34Z",
+        "fileAccessRequest": true
+      },
+      "range_requested": false,
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"524f837f9bcf05abeaf815a0476dd0a2\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''microscope_parameters.json",
+        "Content-Type": "application/json",
+        "Content-Length": "129"
+      },
+      "success": true,
+      "file": "12555509.bin",
+      "bytes": 129,
+      "sha256": "2f7a84699d38a86a670fdd8805d930d343dd4c6d65acee9a8ac5cc18d6ff8463",
+      "publisher_md5_matches": true
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555507",
+      "file_id": 12555507,
+      "publisher": {
+        "id": 12555507,
+        "persistentId": "",
+        "filename": "positions.tab",
+        "contentType": "text/tab-separated-values",
+        "friendlyType": "Tab-Delimited",
+        "filesize": 355,
+        "storageIdentifier": "s3://dvn-cloud:19a0a665db4-1e7988298877",
+        "originalFileFormat": "text/comma-separated-values",
+        "originalFormatLabel": "Comma Separated Values",
+        "originalFileSize": 355,
+        "originalFileName": "positions.csv",
+        "UNF": "UNF:6:qqNNhT8Yo624lSkBRn9oNA==",
+        "rootDataFileId": -1,
+        "md5": "d3e423bcb00a29a85bf13bebd25edcc5",
+        "checksum": {
+          "type": "MD5",
+          "value": "d3e423bcb00a29a85bf13bebd25edcc5"
+        },
+        "tabularData": true,
+        "creationDate": "2025-10-22",
+        "publicationDate": "2025-10-22",
+        "lastUpdateTime": "2025-10-22T12:17:34Z",
+        "fileAccessRequest": true
+      },
+      "range_requested": false,
+      "status": 200,
+      "headers": {
+        "Content-Length": "355",
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:43 GMT",
+        "ETag": "\"5b5ed5a4b0c3e8176e9bb97577fef09e\"",
+        "Content-Type": "text/tab-separated-values",
+        "Content-Disposition": "attachment; filename*=UTF-8''positions.tab"
+      },
+      "success": true,
+      "file": "12555507.bin",
+      "bytes": 355,
+      "sha256": "b944ac05dfad45fb10199bb7ee9d8c6431dc77eee9797f9eafdfb42ea9d1ab70",
+      "publisher_md5_matches": false
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "file_id": 12555727,
+      "publisher": {
+        "id": 12555727,
+        "persistentId": "",
+        "filename": "merFISH_merged_01_000.tiff",
+        "contentType": "image/tiff",
+        "friendlyType": "TIFF Image",
+        "filesize": 232717320,
+        "description": "",
+        "storageIdentifier": "s3://dvn-cloud:19a0a7f1d02-3c6fe7eb185b",
+        "rootDataFileId": -1,
+        "md5": "940f522dd601a480acc418de93e308c0",
+        "checksum": {
+          "type": "MD5",
+          "value": "940f522dd601a480acc418de93e308c0"
+        },
+        "tabularData": false,
+        "creationDate": "2025-10-22",
+        "publicationDate": "2025-10-22",
+        "lastUpdateTime": "2025-10-22T12:17:34Z",
+        "fileAccessRequest": true
+      },
+      "range_requested": true,
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:31 GMT",
+        "ETag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''merFISH_merged_01_000.tiff",
+        "Content-Range": "bytes 0-65535/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "65536"
+      },
+      "success": true,
+      "file": "12555727.bin",
+      "bytes": 65536,
+      "sha256": "789ec328128d3d376a5d1bd2ddf09f8d765435130b2a1f5877e0907cd5391aa5",
+      "publisher_md5_matches": false
+    }
+  ],
+  "full_tiff_hash_verified": false,
+  "pixel_outcomes_examined": false
+}

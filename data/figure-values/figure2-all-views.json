@@ -1,0 +1,304 @@
+{
+  "units": "nm2-equivalent descriptive point fits; not physical accuracy",
+  "interval_scope": "central95% of sign-valid paired spatial-block bootstrap draws; conditional on inferred selection and validity; physical95% coverage unestablished",
+  "distinct_acquisitions": 8,
+  "views": [
+    {
+      "view": "npc",
+      "full": 1.493589731776963,
+      "selected": 1.0516418472768772,
+      "diagonal": 0.8978859708314025,
+      "signed_full_gap": 0.5957037609455605,
+      "signed_selected_gap": 0.15375587644547462,
+      "absolute_full_gap": 0.5957037609455605,
+      "absolute_selected_gap": 0.15375587644547462,
+      "code_input_coverage": 0.16892824135922246,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": -0.6443815419793941,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -2.267793698683861,
+            0.6615992361081936
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 0.31656396370786,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.7159849437168984,
+            1.2459819449322354
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "edf10rep1",
+      "full": 3.6818397301449415,
+      "selected": 2.1328842775430785,
+      "diagonal": 2.0292921112712587,
+      "signed_full_gap": 1.6525476188736827,
+      "signed_selected_gap": 0.10359216627181977,
+      "absolute_full_gap": 1.6525476188736827,
+      "absolute_selected_gap": 0.10359216627181977,
+      "code_input_coverage": 0.13354917953160578,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 0.10517081570007969,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -4.670026278835473,
+            2.576850853049148
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 0.10320195513446961,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -1.3166724942810846,
+            0.897692548626037
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "edf10rep2",
+      "full": 8.53969087012237,
+      "selected": 3.699444984742466,
+      "diagonal": 2.2320261689354566,
+      "signed_full_gap": 6.307664701186914,
+      "signed_selected_gap": 1.4674188158070094,
+      "absolute_full_gap": 6.307664701186914,
+      "absolute_selected_gap": 1.4674188158070094,
+      "code_input_coverage": 0.45811312927728376,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 2.3890130532557188,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            1.3427545758482304,
+            2.970446176748919
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 1.26880022116555,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            0.3681256002582578,
+            1.8821611916238463
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "fig4untreated",
+      "full": 2.54086738328475,
+      "selected": 4.101550505657762,
+      "diagonal": 3.2550892968450125,
+      "signed_full_gap": -0.7142219135602623,
+      "signed_selected_gap": 0.8464612088127499,
+      "absolute_full_gap": 0.7142219135602623,
+      "absolute_selected_gap": 0.8464612088127499,
+      "code_input_coverage": 0.3137735139584752,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 1.4178485190997252,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -1.8715714403729213,
+            3.9424079894839243
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 0.7220606427278171,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -1.362641197321545,
+            3.0848429143498755
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "rtx_rep1",
+      "full": 6.576366964134106,
+      "selected": 3.5497545807360056,
+      "diagonal": 3.531452483721546,
+      "signed_full_gap": 3.04491448041256,
+      "signed_selected_gap": 0.018302097014459395,
+      "absolute_full_gap": 3.04491448041256,
+      "absolute_selected_gap": 0.018302097014459395,
+      "code_input_coverage": 0.23022974273439797,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 0.1381333296206737,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -1.6500810865335813,
+            2.304157490851353
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": -0.007463816696278158,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.8992276718138331,
+            1.2114805456706104
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "rtx_rep2",
+      "full": 1.2884633243078794,
+      "selected": 1.5369027042805858,
+      "diagonal": 1.3373157927586439,
+      "signed_full_gap": -0.04885246845076452,
+      "signed_selected_gap": 0.19958691152194197,
+      "absolute_full_gap": 0.04885246845076452,
+      "absolute_selected_gap": 0.19958691152194197,
+      "code_input_coverage": 0.35966627290051983,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 0.315592521991678,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.7218411134934862,
+            1.1503179952142857
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 0.17571870093141362,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.4642678291322354,
+            1.0210262388254043
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "rtx_rep3",
+      "full": 2.558786327571623,
+      "selected": 1.7167701739632713,
+      "diagonal": 1.4784759760045547,
+      "signed_full_gap": 1.0803103515670684,
+      "signed_selected_gap": 0.23829419795871654,
+      "absolute_full_gap": 1.0803103515670684,
+      "absolute_selected_gap": 0.23829419795871654,
+      "code_input_coverage": 0.25872105335708284,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 1.0895597633578638,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.19015989618690984,
+            2.5736237870570227
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 0.06390646098374408,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.6367678811656454,
+            0.7331645165145362
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "sdc_corrected",
+      "full": 4.409093628169215,
+      "selected": 3.7906682005782684,
+      "diagonal": 3.2191312972453145,
+      "signed_full_gap": 1.1899623309239002,
+      "signed_selected_gap": 0.5715369033329538,
+      "absolute_full_gap": 1.1899623309239002,
+      "absolute_selected_gap": 0.5715369033329538,
+      "code_input_coverage": 0.027344522491749387,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": 0.8080030529865665,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            0.12013140342639342,
+            1.5097388282294268
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": 0.5192943722834555,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.0077942902689683725,
+            1.0797216822272886
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    },
+    {
+      "view": "sdc_raw",
+      "full": 8.363323697836684,
+      "selected": 8.888646734198817,
+      "diagonal": 9.189290811287309,
+      "signed_full_gap": -0.8259671134506252,
+      "signed_selected_gap": -0.30064407708849217,
+      "absolute_full_gap": 0.8259671134506252,
+      "absolute_selected_gap": 0.30064407708849217,
+      "code_input_coverage": 0.019735904840535987,
+      "frequency_differences": [
+        {
+          "q": 0.1,
+          "code_minus_diagonal": -0.5310515535045255,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -1.3961549455342055,
+            0.9091172616559349
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        },
+        {
+          "q": 0.15,
+          "code_minus_diagonal": -0.24308969908400613,
+          "valid_fraction": 1.0,
+          "conditional_interval": [
+            -0.832066506896403,
+            0.3520656209190001
+          ],
+          "note": "Paired spatial-block bootstrap; no equivalence margin or physical-truth claim."
+        }
+      ]
+    }
+  ]
+}

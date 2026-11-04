@@ -1,0 +1,8 @@
+{
+  "stage": "prepared",
+  "source": "tissue-2D",
+  "field": "tile_1",
+  "raw_intensity_pixels_examined": true,
+  "independent_comparative_freeze_sha256": "2d8dae46317ad936655a133cb2107ccdad31905da41b211b9a1d778f191fc14e",
+  "profiles_completed": 16
+}

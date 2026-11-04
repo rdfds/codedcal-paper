@@ -1,0 +1,50 @@
+{
+  "decoder": "source_spot",
+  "incumbent": 0,
+  "incumbent_labels": [
+    "none",
+    "common_iterative",
+    "population_template",
+    "author_multistart",
+    "global_group",
+    "author_zero",
+    "author_round",
+    "author_frame",
+    "image_zero",
+    "image_round",
+    "template3d",
+    "group_zero_0",
+    "group_zero_1",
+    "group_zero_2",
+    "group_round_0",
+    "group_round_1",
+    "group_round_2"
+  ],
+  "risk": {
+    "abstained": true,
+    "reason": "Insufficient incumbent calls"
+  },
+  "tolerance_sensitivities": {
+    "0.0": {
+      "abstained": true,
+      "reason": "Insufficient incumbent calls"
+    },
+    "0.005": {
+      "abstained": true,
+      "reason": "Insufficient incumbent calls"
+    }
+  },
+  "baseline_fit_loss": 0.7058220631840277,
+  "baseline_fit_gap": 0.5886721827712669,
+  "baseline_decoder_confidence": null,
+  "baseline_quality": {
+    "full_catalog_calls": 69,
+    "negative": 0,
+    "blank_proxy": 0.0,
+    "source_abstentions": 98,
+    "source_unsupported": null,
+    "central_coding": 0,
+    "central_negative": 0
+  },
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c"
+}

@@ -1,0 +1,12 @@
+{
+  "valid_input_interior_all_conditions": true,
+  "template_interior_valid_for_bounded_centered_maps": true,
+  "maximum_tested_absolute_map_per_axis": 20,
+  "interior": [
+    24,
+    104
+  ],
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955",
+  "fit_support_sha256": "80baddc367a41165553150eda6e171407d2131c6763b15db711daa41cbf49023",
+  "no_pixel_outcome_used": true
+}

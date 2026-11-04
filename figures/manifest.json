@@ -1,0 +1,304 @@
+{
+  "figures": {
+    "1": {
+      "kind": "schematic and algebra; not experimental data",
+      "layout_seed": 72,
+      "source_code_indices": [
+        0,
+        1,
+        0,
+        2
+      ],
+      "illustrative_counts": [
+        [
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          4,
+          5,
+          6,
+          3
+        ],
+        [
+          5,
+          6,
+          3,
+          4
+        ],
+        [
+          6,
+          3,
+          4,
+          5
+        ]
+      ]
+    },
+    "2": {
+      "kind": "retained data; no new fitting",
+      "views": [
+        "npc",
+        "edf10rep1",
+        "edf10rep2",
+        "fig4untreated",
+        "rtx_rep1",
+        "rtx_rep2",
+        "rtx_rep3",
+        "sdc_corrected",
+        "sdc_raw"
+      ],
+      "point_values": "data/figure2-all-views.json",
+      "omitted_views": 0
+    },
+    "4": {
+      "kind": "retained summaries; no simulations rerun",
+      "component_count": 864,
+      "histogram_counts": [
+        1,
+        1,
+        4,
+        3,
+        0,
+        11,
+        11,
+        14,
+        19,
+        31,
+        22,
+        50,
+        67,
+        55,
+        76,
+        74,
+        83,
+        62,
+        57,
+        48,
+        44,
+        34,
+        14,
+        21,
+        10,
+        26,
+        5,
+        4,
+        6,
+        2,
+        2,
+        2,
+        2,
+        0,
+        3
+      ],
+      "histogram_edges": [
+        0.7211892309346783,
+        0.7387999863285017,
+        0.7564107417223253,
+        0.7740214971161486,
+        0.7916322525099722,
+        0.8092430079037956,
+        0.8268537632976191,
+        0.8444645186914425,
+        0.862075274085266,
+        0.8796860294790894,
+        0.8972967848729129,
+        0.9149075402667363,
+        0.9325182956605598,
+        0.9501290510543832,
+        0.9677398064482066,
+        0.9853505618420301,
+        1.0029613172358536,
+        1.020572072629677,
+        1.0381828280235004,
+        1.0557935834173238,
+        1.0734043388111474,
+        1.0910150942049708,
+        1.1086258495987942,
+        1.1262366049926178,
+        1.1438473603864412,
+        1.1614581157802646,
+        1.179068871174088,
+        1.1966796265679114,
+        1.2142903819617348,
+        1.2319011373555584,
+        1.2495118927493818,
+        1.2671226481432054,
+        1.2847334035370288,
+        1.3023441589308522,
+        1.3199549143246756,
+        1.337565669718499
+      ],
+      "summary": [
+        {
+          "variant": "arithmetic",
+          "K": 4,
+          "supported_conditions": 216,
+          "unsupported_conditions": 0,
+          "median_predicted_variance_factor": 1.0,
+          "variance_improvements": 0,
+          "median_available_rmse_factor": 1.0,
+          "available": 43095,
+          "usable": 41524,
+          "usable_covers": 39552,
+          "total": 43200,
+          "usable_coverage_better": 0,
+          "usable_coverage_worse": 0,
+          "usable_coverage_tied": 216
+        },
+        {
+          "variant": "arithmetic",
+          "K": 8,
+          "supported_conditions": 216,
+          "unsupported_conditions": 0,
+          "median_predicted_variance_factor": 0.7425427365043953,
+          "variance_improvements": 194,
+          "median_available_rmse_factor": 0.8515156386450962,
+          "available": 43090,
+          "usable": 41699,
+          "usable_covers": 39472,
+          "total": 43200,
+          "usable_coverage_better": 90,
+          "usable_coverage_worse": 109,
+          "usable_coverage_tied": 17
+        },
+        {
+          "variant": "arithmetic",
+          "K": 16,
+          "supported_conditions": 216,
+          "unsupported_conditions": 0,
+          "median_predicted_variance_factor": 0.7378108201857803,
+          "variance_improvements": 171,
+          "median_available_rmse_factor": 0.83861183614012,
+          "available": 43020,
+          "usable": 39800,
+          "usable_covers": 37372,
+          "total": 43200,
+          "usable_coverage_better": 48,
+          "usable_coverage_worse": 160,
+          "usable_coverage_tied": 8
+        },
+        {
+          "variant": "geometric",
+          "K": 4,
+          "supported_conditions": 216,
+          "unsupported_conditions": 0,
+          "median_predicted_variance_factor": 1.0,
+          "variance_improvements": 0,
+          "median_available_rmse_factor": 1.0,
+          "available": 42875,
+          "usable": 35860,
+          "usable_covers": 35833,
+          "total": 43200,
+          "usable_coverage_better": 0,
+          "usable_coverage_worse": 0,
+          "usable_coverage_tied": 216
+        },
+        {
+          "variant": "geometric",
+          "K": 8,
+          "supported_conditions": 216,
+          "unsupported_conditions": 0,
+          "median_predicted_variance_factor": 0.7414741738187299,
+          "variance_improvements": 197,
+          "median_available_rmse_factor": 0.8194799434170776,
+          "available": 42933,
+          "usable": 37410,
+          "usable_covers": 37346,
+          "total": 43200,
+          "usable_coverage_better": 91,
+          "usable_coverage_worse": 84,
+          "usable_coverage_tied": 41
+        },
+        {
+          "variant": "geometric",
+          "K": 16,
+          "supported_conditions": 216,
+          "unsupported_conditions": 0,
+          "median_predicted_variance_factor": 0.733753245153941,
+          "variance_improvements": 174,
+          "median_available_rmse_factor": 0.821714718761758,
+          "available": 42849,
+          "usable": 32337,
+          "usable_covers": 32220,
+          "total": 43200,
+          "usable_coverage_better": 45,
+          "usable_coverage_worse": 160,
+          "usable_coverage_tied": 11
+        }
+      ]
+    },
+    "3": {
+      "kind": "complete regenerated selection display",
+      "settings": 81,
+      "views": 9,
+      "code": "analysis/selection_figure.py",
+      "historical_matplotlib": "3.7.5"
+    }
+  },
+  "files": [
+    {
+      "path": "F1.pdf",
+      "bytes": 43726,
+      "sha256": "58dcbe45a226af5cbd18044cf759837adc22db62f079a7906db32867a4f4118f"
+    },
+    {
+      "path": "F1.png",
+      "bytes": 224208,
+      "sha256": "62c595661d8ae47d7f267b8f20228bd39e83ba44110a07133476cb8ccec6f1eb"
+    },
+    {
+      "path": "F1.svg",
+      "bytes": 43514,
+      "sha256": "c5c32928c770142b3b43ed6ded36521a134fb29bed3a5e0dafecff6bfff822f1"
+    },
+    {
+      "path": "F2.pdf",
+      "bytes": 37635,
+      "sha256": "31422e11dd30eadd13f48acc0608dfe667f261037514e6f85696ccaee8b8b0ee"
+    },
+    {
+      "path": "F2.png",
+      "bytes": 183600,
+      "sha256": "2cb1322475a66e982f20ebf6414f678957d990b91183bcd64a931110bf9f5c24"
+    },
+    {
+      "path": "F2.svg",
+      "bytes": 47995,
+      "sha256": "7f86f1646778de7cf6b8c50108dca1e193c7d7491ba4c7a396456b70696ddbc8"
+    },
+    {
+      "path": "F3.pdf",
+      "bytes": 44221,
+      "sha256": "6db043c52acf0bd9fd9da2c9b6c8bc60d1b3bf8fa13fc80767adf036df58e9b3"
+    },
+    {
+      "path": "F3.png",
+      "bytes": 321511,
+      "sha256": "6c2b27e555c00cf979dc6cef625e6fb03b625ec631c2d2db1861976a92506a75"
+    },
+    {
+      "path": "F3.svg",
+      "bytes": 125954,
+      "sha256": "bc064077e9211edeebd385b3b4461d661e7104693fa394576c450d40ec14c0b0"
+    },
+    {
+      "path": "F4.pdf",
+      "bytes": 27395,
+      "sha256": "3e902f63914b6cc7d4263ed56b165ce6d9e8033ee04e56557e4cb2f533936252"
+    },
+    {
+      "path": "F4.png",
+      "bytes": 205344,
+      "sha256": "fac2616577cd7621b403f9b1b72ce56a9911afbdb990bcc55d7c8bbce854b00d"
+    },
+    {
+      "path": "F4.svg",
+      "bytes": 32881,
+      "sha256": "0cfa8af2a1fb4344eb7a312ef8190ddbeef92de937b153ed49540e4009f41d0c"
+    }
+  ],
+  "new_fits": 0,
+  "new_outcome_study": false
+}

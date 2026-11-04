@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "native_loss": 0.0,
+  "gain_invariant_loss": 3.347322419244847e-14,
+  "corrected_loss": 0.0,
+  "wrong_loss": 0.42509748915620155,
+  "missing_loss": 1.0,
+  "zero_flow_identical": true,
+  "incorrect_source_channel_loss": 0.75,
+  "seed": 61014,
+  "script_sha256": "dd2147421425b1b82944c39b968eb0f12f162502592873bdee870491880d30cb",
+  "control_script_sha256": "16087cb627110637bc492a2d0bb1bf02cb4452a64ddaaf42ce4134a5e3e64b76",
+  "protocol_sha256": "a57e6cf5bbd56addd6944df0a6fb4860a25dca843afa0befa4bfc0f9d59d3239",
+  "development": true
+}

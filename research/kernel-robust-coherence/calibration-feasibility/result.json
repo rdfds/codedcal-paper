@@ -1,0 +1,163 @@
+{
+  "stage": "exposed_calibration_only_feasibility",
+  "input": "research/optical-information-resolution/commercial1-group-plan/design.npz",
+  "input_sha256": "f63a8de2a1bcf075e731e6e0462e6ab4296fd816da8a71d7a07e56079f12c2ec",
+  "approved_npz_members": [
+    "calibration_z",
+    "calibration_counts",
+    "prior_groups",
+    "groups",
+    "test_sources"
+  ],
+  "validation_coordinates_or_outcomes_read": false,
+  "q": 0.008,
+  "g0": 0.96,
+  "alpha": 0.05,
+  "common_count_scale": 357.11825998081395,
+  "training_theta": -0.6238175647484179,
+  "training_scale": 0.9750916572417896,
+  "configurations": {
+    "original_groups": {
+      "groups": 139,
+      "sources": 279,
+      "minimum_four_panel_source_count_product": 3.0160872842674947e-05,
+      "total_four_panel_count_mass": 233.74965472022618,
+      "finite_calibration_diagonal_coherence": 0.9954858415466555,
+      "calibration_witness_signal": 7.859604191987588,
+      "methods": [
+        {
+          "method": "ordinary_H4",
+          "conditional_code_witness_variance": 4.892730008309276,
+          "calibration_between_group_scatter": 0.06975382053864396,
+          "scatter_proxy": 4.96248382884792,
+          "expected_signal_to_scatter": 3.5281831647777135,
+          "extra_information": "aggregate code-wise moments only"
+        },
+        {
+          "method": "count_mass_control",
+          "conditional_code_witness_variance": 0.003337583884087615,
+          "calibration_between_group_scatter": 0.06975382053864396,
+          "scatter_proxy": 0.07309140442273157,
+          "expected_signal_to_scatter": 29.071505463732414,
+          "extra_information": "exact current source-count-product mass plus calibration-selected control coefficient"
+        },
+        {
+          "method": "collision_aware",
+          "conditional_code_witness_variance": 0.17204055579071373,
+          "calibration_between_group_scatter": 0.06975382053864396,
+          "scatter_proxy": 0.24179437632935769,
+          "expected_signal_to_scatter": 15.983709498461788,
+          "extra_information": "collision flag known independently from source-code design"
+        },
+        {
+          "method": "source_resolved_oracle",
+          "conditional_code_witness_variance": 0.0,
+          "calibration_between_group_scatter": 0.06975382053864396,
+          "scatter_proxy": 0.06975382053864396,
+          "expected_signal_to_scatter": 29.758886415662328,
+          "extra_information": "source identities resolved on scored readouts"
+        }
+      ],
+      "expected_conditional_code_log_e_for_fitted_training_witness": 0.2910549142612398,
+      "log_nominal_e_threshold": 2.995732273553991,
+      "physical_sampling_coverage_established": false,
+      "note": "Calibration-only design diagnostics. Fitted direction and scatter are not independent confidence or validation results."
+    },
+    "prior_cubic_calibration_groups": {
+      "groups": 139,
+      "sources": 279,
+      "minimum_four_panel_source_count_product": 3.0160872842674947e-05,
+      "total_four_panel_count_mass": 233.7496547202262,
+      "finite_calibration_diagonal_coherence": 0.9954858415466555,
+      "calibration_witness_signal": 7.859604191987584,
+      "methods": [
+        {
+          "method": "ordinary_H4",
+          "conditional_code_witness_variance": 1.2747860141801513,
+          "calibration_between_group_scatter": 0.1150458751673928,
+          "scatter_proxy": 1.389831889347544,
+          "expected_signal_to_scatter": 6.666832432576085,
+          "extra_information": "aggregate code-wise moments only"
+        },
+        {
+          "method": "count_mass_control",
+          "conditional_code_witness_variance": 7.267688405356042e-06,
+          "calibration_between_group_scatter": 0.1150458751673928,
+          "scatter_proxy": 0.11505314285579815,
+          "expected_signal_to_scatter": 23.171355073597596,
+          "extra_information": "exact current source-count-product mass plus calibration-selected control coefficient"
+        },
+        {
+          "method": "collision_aware",
+          "conditional_code_witness_variance": 0.18648680680977195,
+          "calibration_between_group_scatter": 0.1150458751673928,
+          "scatter_proxy": 0.30153268197716476,
+          "expected_signal_to_scatter": 14.313092578146527,
+          "extra_information": "collision flag known independently from source-code design"
+        },
+        {
+          "method": "source_resolved_oracle",
+          "conditional_code_witness_variance": 0.0,
+          "calibration_between_group_scatter": 0.1150458751673928,
+          "scatter_proxy": 0.1150458751673928,
+          "expected_signal_to_scatter": 23.17208695350578,
+          "extra_information": "source identities resolved on scored readouts"
+        }
+      ],
+      "expected_conditional_code_log_e_for_fitted_training_witness": 0.2776187549902,
+      "log_nominal_e_threshold": 2.995732273553991,
+      "physical_sampling_coverage_established": false,
+      "note": "Calibration-only design diagnostics. Fitted direction and scatter are not independent confidence or validation results."
+    },
+    "new_quartic_calibration_groups": {
+      "groups": 139,
+      "sources": 279,
+      "minimum_four_panel_source_count_product": 3.0160872842674947e-05,
+      "total_four_panel_count_mass": 233.74965472022623,
+      "finite_calibration_diagonal_coherence": 0.9954858415466555,
+      "calibration_witness_signal": 7.859604191987585,
+      "methods": [
+        {
+          "method": "ordinary_H4",
+          "conditional_code_witness_variance": 0.003999538389016621,
+          "calibration_between_group_scatter": 0.019898626969863362,
+          "scatter_proxy": 0.023898165358879984,
+          "expected_signal_to_scatter": 50.841504617186125,
+          "extra_information": "aggregate code-wise moments only"
+        },
+        {
+          "method": "count_mass_control",
+          "conditional_code_witness_variance": 7.267688418297824e-06,
+          "calibration_between_group_scatter": 0.019898626969863362,
+          "scatter_proxy": 0.01990589465828166,
+          "expected_signal_to_scatter": 55.707006918714235,
+          "extra_information": "exact current source-count-product mass plus calibration-selected control coefficient"
+        },
+        {
+          "method": "collision_aware",
+          "conditional_code_witness_variance": 0.15477105741059563,
+          "calibration_between_group_scatter": 0.019898626969863362,
+          "scatter_proxy": 0.174669684380459,
+          "expected_signal_to_scatter": 18.805804104754127,
+          "extra_information": "collision flag known independently from source-code design"
+        },
+        {
+          "method": "source_resolved_oracle",
+          "conditional_code_witness_variance": 0.0,
+          "calibration_between_group_scatter": 0.019898626969863362,
+          "scatter_proxy": 0.019898626969863362,
+          "expected_signal_to_scatter": 55.71717908307834,
+          "extra_information": "source identities resolved on scored readouts"
+        }
+      ],
+      "expected_conditional_code_log_e_for_fitted_training_witness": 0.32914287670581394,
+      "log_nominal_e_threshold": 2.995732273553991,
+      "physical_sampling_coverage_established": false,
+      "note": "Calibration-only design diagnostics. Fitted direction and scatter are not independent confidence or validation results."
+    }
+  },
+  "all_sources_and_four_panel_count_weights_retained": true,
+  "ordinary_code_seeds_selected": false,
+  "source_support_assumptions_not_physically_certified": true,
+  "old_physical_failure_unchanged": true
+}

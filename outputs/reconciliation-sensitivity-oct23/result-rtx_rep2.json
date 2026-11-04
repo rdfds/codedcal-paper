@@ -1,0 +1,5492 @@
+{
+  "tag": "rtx_rep2",
+  "distinct_acquisition": true,
+  "arms": [
+    {
+      "name": "r0.8-lenient",
+      "radius_factor": 0.8,
+      "radius_nm": 8.0,
+      "profile": "lenient",
+      "qc": {
+        "min_per_panel": 1,
+        "min_events": 10,
+        "max_rms": 12.0,
+        "min_sep": 24.0,
+        "max_split": 0.8500000000000001,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 4913,
+      "rejection_counts": {
+        "size": 31445,
+        "panel_coverage": 932,
+        "rms": 281,
+        "isolation": 707,
+        "split": 252,
+        "zsd": 0
+      },
+      "event_coverage": 0.5420047967933764,
+      "localization_coverage": 0.5665317983313645,
+      "original_row_jaccard": 0.6090167392439096,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 1.1594068483125317,
+          "total_geometric": 1.1587704117923876,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9815059000933377,
+            1.0029914571577214
+          ],
+          "ratio_B": [
+            0.9903109794536489,
+            0.9486846089666559
+          ],
+          "D": [
+            0.9911087733621121,
+            1.0572443651744479
+          ],
+          "logD": [
+            -0.008930989462440878,
+            0.05566586765604317
+          ],
+          "logD_se": [
+            0.02774797388585397,
+            0.03078104179523783
+          ],
+          "D_z": [
+            -0.32186095817950633,
+            1.8084465115360489
+          ],
+          "drift_estimate_nm2": [
+            0.8930989462440876,
+            -2.474038562490808
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              1.0073257720177513,
+              0.9524437370615626
+            ],
+            "B": [
+              1.0275332093123437,
+              1.0420461430583885
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.021060088211608617,
+              0.021374601404525295
+            ],
+            "B": [
+              0.02311756423848718,
+              0.025093242768262206
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9611112178647878,
+                  "upper": 1.0130301761999183,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9858863028702778,
+              "numerator": 33359884.46684195,
+              "reference": 33837456.073503666,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.3066022401156812,
+                  "effective_absolute_contributions": 5.321698894584618
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.3072629503099294,
+                  "effective_absolute_contributions": 5.31744770669836
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -1.2946013766515403,
+                  "upper": 3.966514531924796,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9408963358558977,
+                  "upper": 1.0184302903034632,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9754170377454771,
+              "numerator": 23772391.11528667,
+              "reference": 24371515.152362738,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.24304718511348883,
+                  "effective_absolute_contributions": 5.76106780278581
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.23996910339965755,
+                  "effective_absolute_contributions": 5.737079031101044
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.8116671489077695,
+                  "upper": 2.7076581899581478,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.4214242518972953,
+          1.1062297072944078
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.8612777385645587,
+            0.5459180748575678
+          ],
+          [
+            1.326092940725719,
+            1.2865926451930707
+          ],
+          [
+            1.43469961173672,
+            1.1758327586158726
+          ],
+          [
+            1.3718950892826238,
+            1.0412942709961635
+          ],
+          [
+            1.3054886700265893,
+            1.115993050207734
+          ],
+          [
+            1.8560741997234447,
+            1.3502844119273885
+          ],
+          [
+            1.1762482075308136,
+            1.0267120132957916
+          ],
+          [
+            1.8872437394628183,
+            1.0643959151338018
+          ],
+          [
+            1.5486003678856066,
+            1.3239863125739173
+          ],
+          [
+            1.425290943423879,
+            1.1085284051772497
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 1.1698140788599514,
+          "total_geometric": 1.1803347926578853,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9973883137349646,
+            0.9938867808983026
+          ],
+          "ratio_B": [
+            0.9768473140748044,
+            0.9551967875474731
+          ],
+          "D": [
+            1.0210278508874389,
+            1.040504735626434
+          ],
+          "logD": [
+            0.020809816858911305,
+            0.039705918140026344
+          ],
+          "logD_se": [
+            0.006744354916008584,
+            0.011740006540312924
+          ],
+          "D_z": [
+            3.085516275176527,
+            3.382103579217257
+          ],
+          "drift_estimate_nm2": [
+            -2.08098168589113,
+            -1.7647074728900598
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.983468510949619,
+              0.9610326100722191
+            ],
+            "B": [
+              1.007659396957121,
+              1.0189309612756872
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.004263030127094517,
+              0.007582368442034758
+            ],
+            "B": [
+              0.0037656761389199917,
+              0.0065607001853426805
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9801345335600737,
+                  "upper": 0.9944128144059449,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9872189115430552,
+              "numerator": 30900081.918149643,
+              "reference": 31300131.66973454,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23832926468368362,
+                  "effective_absolute_contributions": 5.918822128851036
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.23810372195894078,
+                  "effective_absolute_contributions": 5.918602465885394
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.5602852297925817,
+                  "upper": 2.0065437596506324,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9618029944531415,
+                  "upper": 0.9874727891234042,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9745416960686583,
+              "numerator": 19974606.447496824,
+              "reference": 20496410.290165335,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.22883534779073145,
+                  "effective_absolute_contributions": 5.963026966249367
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2282723073889702,
+                  "effective_absolute_contributions": 5.962934760454652
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.5602816846482921,
+                  "upper": 1.7309171892886537,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.2863469265053964,
+          1.1461321692941258
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.1569899727756319,
+            1.0360690960190386
+          ],
+          [
+            1.315954121254705,
+            1.1785699722955847
+          ],
+          [
+            1.3143540895712014,
+            1.1662651078494304
+          ],
+          [
+            1.2796693589023502,
+            1.1381180381141633
+          ],
+          [
+            1.303121932633337,
+            1.1595606607943403
+          ],
+          [
+            1.4440360869885205,
+            1.2699138805988455
+          ],
+          [
+            1.134205067075765,
+            1.0248382943265868
+          ],
+          [
+            1.2793372880135887,
+            1.1357524973253372
+          ],
+          [
+            1.343176941683739,
+            1.2007301046252996
+          ],
+          [
+            1.2903610182393526,
+            1.1497887909344184
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.228029326935277,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0401320190370136,
+                "upper": 1.3434333135003182,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.2280293269352769,
+            "numerator": 603.3308083233015,
+            "reference": 491.29999999999995,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.22473070401469292,
+                "effective_absolute_contributions": 5.972448922449418
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.20537349888052112,
+                "effective_absolute_contributions": 6.295470117369917
+              }
+            }
+          },
+          "effective_sources": 4913.0
+        },
+        "event_count": {
+          "point": 1.417101721499968,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.144798485757155,
+                "upper": 1.8311908316374423,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.4171017214999677,
+            "numerator": 1854417.3288124474,
+            "reference": 1308598.5999999999,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.21967398336776933,
+                "effective_absolute_contributions": 6.344595787652913
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.22446982596496742,
+                "effective_absolute_contributions": 6.150512162363091
+              }
+            }
+          },
+          "effective_sources": 505.10234319113454
+        },
+        "localization_count": {
+          "point": 1.4482076640572736,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0184855678652387,
+                "upper": 1.906189296543611,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.4482076640572736,
+            "numerator": 271166135.773338,
+            "reference": 187242577.5,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.25270386522626537,
+                "effective_absolute_contributions": 5.602105131733364
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.24843578485774687,
+                "effective_absolute_contributions": 5.85869192735247
+              }
+            }
+          },
+          "effective_sources": 455.5380195479691
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.11864924544792799,
+      "selected_to_diagonal_fit_gap": 0.010407230547419655,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": 0.13507732539189887,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -1.2499217310755943,
+            1.430449001574176
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": -0.03990246199971792,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.8123604819203876,
+            0.8613570328744466
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r0.8-original",
+      "radius_factor": 0.8,
+      "radius_nm": 8.0,
+      "profile": "original",
+      "qc": {
+        "min_per_panel": 2,
+        "min_events": 12,
+        "max_rms": 10.0,
+        "min_sep": 30.0,
+        "max_split": 0.8,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 2962,
+      "rejection_counts": {
+        "size": 32197,
+        "panel_coverage": 1453,
+        "rms": 553,
+        "isolation": 1068,
+        "split": 297,
+        "zsd": 0
+      },
+      "event_coverage": 0.3560879850182344,
+      "localization_coverage": 0.36646758838129184,
+      "original_row_jaccard": 0.8681172526404294,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 1.1979066985506952,
+          "total_geometric": 1.2084745290997088,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.0089386490640504,
+            1.0163236964895086
+          ],
+          "ratio_B": [
+            0.9636762200345961,
+            0.9335857715781418
+          ],
+          "D": [
+            1.0469685025825681,
+            1.0886238066498226
+          ],
+          "logD": [
+            0.045898847942633283,
+            0.0849143358306688
+          ],
+          "logD_se": [
+            0.025381213474059843,
+            0.024816333210617915
+          ],
+          "D_z": [
+            1.8083787833683727,
+            3.421711624759187
+          ],
+          "drift_estimate_nm2": [
+            -4.589884794263328,
+            -3.773970481363058
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9992816753957647,
+              0.960514710196312
+            ],
+            "B": [
+              1.0096226036702125,
+              1.0404130869532116
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.017943736644907397,
+              0.016554212459444672
+            ],
+            "B": [
+              0.01833451704307612,
+              0.017282592598615868
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9635557388378585,
+                  "upper": 1.003355659393442,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9862093444433048,
+              "numerator": 22582174.082475066,
+              "reference": 22897951.849383708,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.25661910378126246,
+                  "effective_absolute_contributions": 5.527692634655672
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.25640251894716315,
+                  "effective_absolute_contributions": 5.545215245297074
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.3350041732256662,
+                  "upper": 3.71249424243799,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9417259930555867,
+                  "upper": 1.0013330723225367,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9742566265115276,
+              "numerator": 16712901.8141288,
+              "reference": 17154516.95101306,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23335695346374635,
+                  "effective_absolute_contributions": 5.741764430987808
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.23941730333730388,
+                  "effective_absolute_contributions": 5.7638766162815225
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.05920820313328723,
+                  "upper": 2.6684855368558082,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.3886630035920966,
+          1.1591348058812676
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.1758835902378708,
+            0.8064033275581096
+          ],
+          [
+            1.4177938691031382,
+            1.3623248280062152
+          ],
+          [
+            1.3815271722163394,
+            1.1770366746665084
+          ],
+          [
+            1.3534071120192492,
+            1.074482508520606
+          ],
+          [
+            1.2587864058544904,
+            1.1052214269600942
+          ],
+          [
+            1.786928066089836,
+            1.334083864090083
+          ],
+          [
+            1.0052439181172586,
+            0.9895674915015064
+          ],
+          [
+            1.6768184585364536,
+            1.313235385855672
+          ],
+          [
+            1.4722400937893054,
+            1.2854321895162095
+          ],
+          [
+            1.3881261819876005,
+            1.1577867961256108
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 1.1833983674693118,
+          "total_geometric": 1.1879850539174717,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9930019250316344,
+            0.9869439328867305
+          ],
+          "ratio_B": [
+            0.9818852264231084,
+            0.9611834832395477
+          ],
+          "D": [
+            1.0113217902758582,
+            1.0268007618694825
+          ],
+          "logD": [
+            0.011258178490910325,
+            0.026447911998876243
+          ],
+          "logD_se": [
+            0.00646062134997678,
+            0.011843976559238722
+          ],
+          "D_z": [
+            1.7425844792700609,
+            2.2330263713875667
+          ],
+          "drift_estimate_nm2": [
+            -1.1258178490910322,
+            -1.1754627555056107
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9817964901186959,
+              0.9603685741755317
+            ],
+            "B": [
+              1.0135784983662106,
+              1.0266762477700226
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.0032906470658710645,
+              0.006373745077414233
+            ],
+            "B": [
+              0.0033669512190033137,
+              0.0066231040267547715
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9758456839456833,
+                  "upper": 0.9923922564460137,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9874860134566351,
+              "numerator": 20652927.078265287,
+              "reference": 20914652.761481617,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2444667019561625,
+                  "effective_absolute_contributions": 5.788024876775336
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.24433545581479157,
+                  "effective_absolute_contributions": 5.812045475050234
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.7636830050623088,
+                  "upper": 2.445081578125087,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9538381039315089,
+                  "upper": 0.982409573280184,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9740630844697297,
+              "numerator": 13986701.186778726,
+              "reference": 14359132.801334882,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.24428554595501162,
+                  "effective_absolute_contributions": 5.789595902673536
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.24409963394046796,
+                  "effective_absolute_contributions": 5.833236653424415
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.7887545265901467,
+                  "upper": 2.1005033027911817,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.2592945895382173,
+          1.167964843892132
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.2766644054595155,
+            1.1788972006455938
+          ],
+          [
+            1.3863360707740175,
+            1.2647609851587291
+          ],
+          [
+            1.26864799614855,
+            1.1773215099631973
+          ],
+          [
+            1.2023945271612808,
+            1.111841161303249
+          ],
+          [
+            1.2597369937473029,
+            1.1673232959721633
+          ],
+          [
+            1.298197668353641,
+            1.1971944160113437
+          ],
+          [
+            1.0480844661630615,
+            1.0099942916313391
+          ],
+          [
+            1.3281749737335928,
+            1.225421146094147
+          ],
+          [
+            1.310936475125605,
+            1.2158249638603764
+          ],
+          [
+            1.2600957800667874,
+            1.1679819509500737
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.2042687544453903,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.9512373941323171,
+                "upper": 1.3812076287587305,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.2042687544453903,
+            "numerator": 356.70440506672463,
+            "reference": 296.20000000000005,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.23697021891048242,
+                "effective_absolute_contributions": 5.849831084053317
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.212356515867657,
+                "effective_absolute_contributions": 6.247992810151247
+              }
+            }
+          },
+          "effective_sources": 2962.0
+        },
+        "event_count": {
+          "point": 1.3142656120605771,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0633335079235446,
+                "upper": 1.7547225977187477,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.314265612060577,
+            "numerator": 1104656.9381101879,
+            "reference": 840512.6999999998,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2204408479293337,
+                "effective_absolute_contributions": 6.397020924911891
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.23305394433659363,
+                "effective_absolute_contributions": 6.053243856813588
+              }
+            }
+          },
+          "effective_sources": 398.78924302271275
+        },
+        "localization_count": {
+          "point": 1.4149739178479896,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.1526310086182328,
+                "upper": 1.9234978303074084,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.4149739178479892,
+            "numerator": 166966693.6462776,
+            "reference": 117999838.4,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.23953786066168903,
+                "effective_absolute_contributions": 6.201525601495048
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.24344152745890538,
+                "effective_absolute_contributions": 5.801727266797088
+              }
+            }
+          },
+          "effective_sources": 355.905570284908
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.10506495683856754,
+      "selected_to_diagonal_fit_gap": 0.014508331081383385,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": 0.12936841405387933,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.9826800114011628,
+            1.1283686249899574
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": -0.00883003801086435,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.6309886043053883,
+            0.6558818160481767
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r0.8-stringent",
+      "radius_factor": 0.8,
+      "radius_nm": 8.0,
+      "profile": "stringent",
+      "qc": {
+        "min_per_panel": 3,
+        "min_events": 15,
+        "max_rms": 8.0,
+        "min_sep": 36.0,
+        "max_split": 0.75,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 1504,
+      "rejection_counts": {
+        "size": 33216,
+        "panel_coverage": 1635,
+        "rms": 973,
+        "isolation": 988,
+        "split": 214,
+        "zsd": 0
+      },
+      "event_coverage": 0.1960032197654171,
+      "localization_coverage": 0.19788189485209073,
+      "original_row_jaccard": 0.530076742173857,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 0.926150097279467,
+          "total_geometric": 0.9512979883447189,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.0237370639772285,
+            1.018044178918153
+          ],
+          "ratio_B": [
+            0.9616669888264066,
+            0.9396199767531388
+          ],
+          "D": [
+            1.0645442506314693,
+            1.0834637450302083
+          ],
+          "logD": [
+            0.06254677389226941,
+            0.08016308045632685
+          ],
+          "logD_se": [
+            0.031527426792752854,
+            0.02503762032982696
+          ],
+          "D_z": [
+            1.9838845175479691,
+            3.201705249952597
+          ],
+          "drift_estimate_nm2": [
+            -6.25467738922694,
+            -3.562803575836749
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              1.021876409852067,
+              0.9818294861136749
+            ],
+            "B": [
+              1.0168867949940517,
+              1.036877988562107
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.028964906789193435,
+              0.01649960501657178
+            ],
+            "B": [
+              0.01790467421330705,
+              0.014283086049017266
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9681614590097453,
+                  "upper": 1.0194684533622593,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9926555830568973,
+              "numerator": 11167361.834614055,
+              "reference": 11249986.425527373,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2662539304212613,
+                  "effective_absolute_contributions": 5.8170938586248555
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.26870033225511963,
+                  "effective_absolute_contributions": 5.811236591648907
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -1.9281367309147308,
+                  "upper": 3.2356409116878497,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.967533983687053,
+                  "upper": 0.9945458001446156,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9785345078754503,
+              "numerator": 9138730.109355975,
+              "reference": 9339200.647300186,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.25320983526706,
+                  "effective_absolute_contributions": 5.969967783447701
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2557133718192957,
+                  "effective_absolute_contributions": 5.951054598261018
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.24307236933376564,
+                  "upper": 1.4668768638729637,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          0.7371519958656495,
+          0.9644100742806495
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.40318233944105125,
+            0.8151643797629134
+          ],
+          [
+            0.4380169871118958,
+            0.9243446796811845
+          ],
+          [
+            0.7508118640734257,
+            1.0259134683386981
+          ],
+          [
+            0.9610256810040275,
+            0.9598944452082657
+          ],
+          [
+            0.4726013609306752,
+            0.8841749927301772
+          ],
+          [
+            0.905928299690777,
+            1.0501041043550248
+          ],
+          [
+            0.42381580964652377,
+            0.9600214281730314
+          ],
+          [
+            0.8181503180892707,
+            0.9587063388572817
+          ],
+          [
+            1.4397266411298784,
+            1.0856451534149258
+          ],
+          [
+            0.7341974236928945,
+            0.9615967187517936
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 0.8580673404989976,
+          "total_geometric": 0.8644471017543176,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9984160446927508,
+            0.9956328160421904
+          ],
+          "ratio_B": [
+            0.9841487039260379,
+            0.966188825761198
+          ],
+          "D": [
+            1.0144971392125972,
+            1.0304743643229317
+          ],
+          "logD": [
+            0.014393060380887272,
+            0.030019244108258226
+          ],
+          "logD_se": [
+            0.005224715901931525,
+            0.010299872570221658
+          ],
+          "D_z": [
+            2.754802490900281,
+            2.9145257772458244
+          ],
+          "drift_estimate_nm2": [
+            -1.439306038088727,
+            -1.334188627033699
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9869516308970141,
+              0.9697510131906567
+            ],
+            "B": [
+              1.0152081582208032,
+              1.0299327852648474
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.004266543621598185,
+              0.008380367636285883
+            ],
+            "B": [
+              0.004046412598447746,
+              0.007341911944352968
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9884627858118721,
+                  "upper": 0.99784265295302,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9913538148550258,
+              "numerator": 10666304.921152955,
+              "reference": 10759332.09851296,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2734604474939394,
+                  "effective_absolute_contributions": 5.658917060115665
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.27398449018175414,
+                  "effective_absolute_contributions": 5.647517687574087
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.21596774724147744,
+                  "upper": 1.160428421026079,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9753250212386708,
+                  "upper": 0.9932916164311115,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9809245845189716,
+              "numerator": 7805307.510188868,
+              "reference": 7957092.352840208,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.26873542897485486,
+                  "effective_absolute_contributions": 5.711378347665153
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.26965255868599536,
+                  "effective_absolute_contributions": 5.689172931297525
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.299154929516519,
+                  "upper": 1.1104225963633905,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          0.8683780263520362,
+          0.8559865999708787
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.7962234176706668,
+            0.8002107504285157
+          ],
+          [
+            0.8292956069869323,
+            0.8250572683287363
+          ],
+          [
+            0.8727472973474817,
+            0.8595305754478959
+          ],
+          [
+            0.8620835079801255,
+            0.8496908640903296
+          ],
+          [
+            0.8657929638004233,
+            0.8543050031820205
+          ],
+          [
+            0.8748335324946942,
+            0.8667658904870518
+          ],
+          [
+            0.9749801311650277,
+            0.9497288137186245
+          ],
+          [
+            0.8026992876263673,
+            0.792680078068421
+          ],
+          [
+            0.9116894247981366,
+            0.8862358118528711
+          ],
+          [
+            0.8688669553818742,
+            0.8551150834636271
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.1010667041879882,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.7533522637408294,
+                "upper": 1.2579472439584798,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.1010667041879882,
+            "numerator": 165.60043230987344,
+            "reference": 150.39999999999998,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2450572065127056,
+                "effective_absolute_contributions": 5.425991762627428
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.22340425531914893,
+                "effective_absolute_contributions": 6.300283538606371
+              }
+            }
+          },
+          "effective_sources": 1504.0
+        },
+        "event_count": {
+          "point": 1.0641991949676421,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.6469963156263896,
+                "upper": 1.304714434485422,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.064199194967642,
+            "numerator": 455496.62387149915,
+            "reference": 428018.2,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2580227914838572,
+                "effective_absolute_contributions": 5.324681177011575
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2429543883881573,
+                "effective_absolute_contributions": 6.060574048374076
+              }
+            }
+          },
+          "effective_sources": 389.80392537420755
+        },
+        "localization_count": {
+          "point": 1.092692045680306,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.4217930119075403,
+                "upper": 1.363630581189211,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.0926920456803062,
+            "numerator": 61368910.019493386,
+            "reference": 56163042.699999996,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.28235775766011606,
+                "effective_absolute_contributions": 5.199017903944072
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2769036193973871,
+                "effective_absolute_contributions": 5.617726066801358
+              }
+            }
+          },
+          "effective_sources": 305.7542020517055
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.4303959838088818,
+      "selected_to_diagonal_fit_gap": 0.06808275678046938,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": -0.1312260304863867,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -1.914820049839021,
+            1.6826613843658489
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": 0.10842347430977084,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.3019460732914129,
+            0.5853295914221188
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r1-lenient",
+      "radius_factor": 1.0,
+      "radius_nm": 10.0,
+      "profile": "lenient",
+      "qc": {
+        "min_per_panel": 1,
+        "min_events": 10,
+        "max_rms": 12.0,
+        "min_sep": 24.0,
+        "max_split": 0.8500000000000001,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 4863,
+      "rejection_counts": {
+        "size": 26093,
+        "panel_coverage": 874,
+        "rms": 526,
+        "isolation": 339,
+        "split": 299,
+        "zsd": 0
+      },
+      "event_coverage": 0.5321483720471795,
+      "localization_coverage": 0.5523825595897148,
+      "original_row_jaccard": 0.6511180823081452,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 1.4581943307295673,
+          "total_geometric": 1.4559569417825045,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9808363021213077,
+            1.0147406825578809
+          ],
+          "ratio_B": [
+            0.9860520545398046,
+            0.9248596210807208
+          ],
+          "D": [
+            0.9947104694985589,
+            1.0971834637694873
+          ],
+          "logD": [
+            -0.00530356959660274,
+            0.09274640866759874
+          ],
+          "logD_se": [
+            0.029119008790259776,
+            0.029395055997004427
+          ],
+          "D_z": [
+            -0.18213427643789745,
+            3.155170334666152
+          ],
+          "drift_estimate_nm2": [
+            0.5303569596602739,
+            -4.122062607448833
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9971351035581474,
+              0.9496090544821353
+            ],
+            "B": [
+              1.0294985551753373,
+              1.0388699705587008
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.021708805906332153,
+              0.02246447426064405
+            ],
+            "B": [
+              0.02614572625556603,
+              0.024860425113049926
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9604892860549579,
+                  "upper": 1.016072567139953,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9833953372923364,
+              "numerator": 30215968.17019751,
+              "reference": 30726165.789430756,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.30890697798624256,
+                  "effective_absolute_contributions": 5.461963441902048
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.31215659124073114,
+                  "effective_absolute_contributions": 5.436946635929227
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -1.594477095604021,
+                  "upper": 4.031245138549571,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9335689884863235,
+                  "upper": 0.9974917222308055,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.968686428685909,
+              "numerator": 22527452.093341168,
+              "reference": 23255670.17997892,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.24805280284665887,
+                  "effective_absolute_contributions": 5.819679361834753
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2448860006527202,
+                  "effective_absolute_contributions": 5.846769713740973
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.11161905635709324,
+                  "upper": 3.0551295863413004,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.6744065430693753,
+          1.4139698875306916
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.4496810410651206,
+            1.0106121223218945
+          ],
+          [
+            1.2030839791460148,
+            1.60075324000277
+          ],
+          [
+            1.4625693812768576,
+            1.3475526406040228
+          ],
+          [
+            1.6962436728795611,
+            1.271044378518521
+          ],
+          [
+            1.6832818500267737,
+            1.4601908495056406
+          ],
+          [
+            2.348660796226869,
+            1.6279312131259491
+          ],
+          [
+            1.384761761413584,
+            1.3568204570343996
+          ],
+          [
+            1.9817227221657185,
+            1.4427195801567976
+          ],
+          [
+            1.7741492531728447,
+            1.6280488105485054
+          ],
+          [
+            1.679250044506873,
+            1.4167880091327987
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 1.4218033607220735,
+          "total_geometric": 1.4461737031668394,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9969927455811627,
+            0.9934691516898604
+          ],
+          "ratio_B": [
+            0.9710442447664965,
+            0.9447157596836943
+          ],
+          "D": [
+            1.0267222641548182,
+            1.05160641336447
+          ],
+          "logD": [
+            0.02637146024868126,
+            0.05031891252793828
+          ],
+          "logD_se": [
+            0.007632254589730739,
+            0.013193139985005405
+          ],
+          "D_z": [
+            3.4552647502304596,
+            3.8140209673457552
+          ],
+          "drift_estimate_nm2": [
+            -2.6371460248681253,
+            -2.2363961123528124
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9785087261857597,
+              0.9532034184006258
+            ],
+            "B": [
+              1.0097973454935836,
+              1.0245755978461883
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.005134606499744014,
+              0.008932094046915988
+            ],
+            "B": [
+              0.004334445866415924,
+              0.00744978955246249
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9732375096766095,
+                  "upper": 0.9953089306037085,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9842691587542097,
+              "numerator": 28760899.410606507,
+              "reference": 29220563.45543652,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.24560177158771124,
+                  "effective_absolute_contributions": 5.979416629612613
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.24489748481868343,
+                  "effective_absolute_contributions": 5.9798729206883205
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.4702106994619742,
+                  "upper": 2.7127126196724,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.950418206867848,
+                  "upper": 0.9879591616134163,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9692456385678854,
+              "numerator": 18559695.26132894,
+              "reference": 19148598.170379106,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23534656022962686,
+                  "effective_absolute_contributions": 6.046826491869397
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.23412934169726157,
+                  "effective_absolute_contributions": 6.048818181970945
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.5383962883526769,
+                  "upper": 2.26014104441466,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.5855884014529764,
+          1.3883200996541396
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.327969812453679,
+            1.194984648783501
+          ],
+          [
+            1.67890227666919,
+            1.4590130249236695
+          ],
+          [
+            1.606730599929554,
+            1.4014857651034567
+          ],
+          [
+            1.578285115058289,
+            1.3822606738439671
+          ],
+          [
+            1.6087936726414909,
+            1.4090513969074958
+          ],
+          [
+            1.8033505038389912,
+            1.5538749083250145
+          ],
+          [
+            1.3713382784961348,
+            1.2164392638231454
+          ],
+          [
+            1.5963455296949678,
+            1.3996279591631642
+          ],
+          [
+            1.6923519051220846,
+            1.473499790638022
+          ],
+          [
+            1.590678549547593,
+            1.3927571406427988
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.450546991438923,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.2011844708265227,
+                "upper": 1.7352354034411432,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.4505469914389233,
+            "numerator": 705.4010019367483,
+            "reference": 486.29999999999995,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.21741233435281865,
+                "effective_absolute_contributions": 6.262603058199016
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2052231133045445,
+                "effective_absolute_contributions": 6.306081111890634
+              }
+            }
+          },
+          "effective_sources": 4863.0
+        },
+        "event_count": {
+          "point": 1.7527605523340666,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.2829880867392827,
+                "upper": 2.640059769797467,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.7527605523340655,
+            "numerator": 2175883.0843294426,
+            "reference": 1241403.5000000002,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.19729114271945167,
+                "effective_absolute_contributions": 6.705011561600867
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.23624792422447652,
+                "effective_absolute_contributions": 6.213972260379545
+              }
+            }
+          },
+          "effective_sources": 494.09826497277095
+        },
+        "localization_count": {
+          "point": 1.8567609513081784,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.1830450166526525,
+                "upper": 2.702196125951679,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.8567609513081786,
+            "numerator": 326079484.6425973,
+            "reference": 175617375.2,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.28535057638355726,
+                "effective_absolute_contributions": 5.646605539547389
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.25478334617541876,
+                "effective_absolute_contributions": 5.904923755698396
+              }
+            }
+          },
+          "effective_sources": 433.48561078339736
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.13334003641419412,
+      "selected_to_diagonal_fit_gap": 0.036390970007493806,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": 0.0888181416163989,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -1.6479809887549386,
+            1.2684111865357146
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": 0.025649787876552033,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.5255648341449769,
+            0.7647713341423431
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r1-original",
+      "radius_factor": 1.0,
+      "radius_nm": 10.0,
+      "profile": "original",
+      "qc": {
+        "min_per_panel": 2,
+        "min_events": 12,
+        "max_rms": 10.0,
+        "min_sep": 30.0,
+        "max_split": 0.8,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 2948,
+      "rejection_counts": {
+        "size": 26786,
+        "panel_coverage": 1382,
+        "rms": 900,
+        "isolation": 681,
+        "split": 297,
+        "zsd": 0
+      },
+      "event_coverage": 0.3517100896934652,
+      "localization_coverage": 0.35966627290051983,
+      "original_row_jaccard": 1.0,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 1.5369027042809362,
+          "total_geometric": 1.555073024248638,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.010365854225193,
+            1.0124858413833193
+          ],
+          "ratio_B": [
+            0.954543167565761,
+            0.9231698265359527
+          ],
+          "D": [
+            1.0584810499474726,
+            1.0967492787134419
+          ],
+          "logD": [
+            0.05683490869041306,
+            0.09235060340583634
+          ],
+          "logD_se": [
+            0.02210354911846732,
+            0.02558751292022343
+          ],
+          "D_z": [
+            2.571302390661235,
+            3.6092059315716387
+          ],
+          "drift_estimate_nm2": [
+            -5.683490869041305,
+            -4.104471262481615
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9952707273375899,
+              0.9741998485401088
+            ],
+            "B": [
+              1.0257016928034044,
+              1.0524249332516924
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.018958514701242497,
+              0.022282296118921567
+            ],
+            "B": [
+              0.01911286100144328,
+              0.017044112741748305
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9612527466611235,
+                  "upper": 1.0002706599139601,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9824952014434926,
+              "numerator": 20059653.26079355,
+              "reference": 20417049.601180434,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2626904170696632,
+                  "effective_absolute_contributions": 5.559886817197108
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.26198984968038264,
+                  "effective_absolute_contributions": 5.571591426604566
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.027062329217350776,
+                  "upper": 3.951790078158177,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9265245526411825,
+                  "upper": 0.9977564755717776,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9670316362070999,
+              "numerator": 15418765.45340184,
+              "reference": 15944427.1274076,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23433524576283085,
+                  "effective_absolute_contributions": 5.678239132128073
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.24123281056636758,
+                  "effective_absolute_contributions": 5.715729891133387
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.09982421776374506,
+                  "upper": 3.391765919361655,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.7659819277627116,
+          1.4899585882009487
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.5158944474883929,
+            1.0877621778733515
+          ],
+          [
+            1.8609535364450172,
+            1.7470540834872608
+          ],
+          [
+            1.86276163399587,
+            1.500243333619692
+          ],
+          [
+            1.8381803021211458,
+            1.3915880237697604
+          ],
+          [
+            1.6795416488978685,
+            1.454006691379383
+          ],
+          [
+            2.004901976778286,
+            1.6028881682226481
+          ],
+          [
+            1.305355925908832,
+            1.2592314990812117
+          ],
+          [
+            2.0734186317252625,
+            1.7229003504597977
+          ],
+          [
+            1.7750451556776448,
+            1.6737726030635967
+          ],
+          [
+            1.7659589609715827,
+            1.4887409043541293
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 1.3373157927590165,
+          "total_geometric": 1.3489237702039631,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9949099755714219,
+            0.9904005687222488
+          ],
+          "ratio_B": [
+            0.9760495285962387,
+            0.9512935712979849
+          ],
+          "D": [
+            1.019323247870739,
+            1.0411092838259222
+          ],
+          "logD": [
+            0.019138924614606218,
+            0.04028676378272055
+          ],
+          "logD_se": [
+            0.007018333458675839,
+            0.012669852087002005
+          ],
+          "D_z": [
+            2.7269899225074994,
+            3.179734341496435
+          ],
+          "drift_estimate_nm2": [
+            -1.9138924614606214,
+            -1.7905228347875801
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9833595282404461,
+              0.9622829958550249
+            ],
+            "B": [
+              1.0144493060911888,
+              1.0290615908471503
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.003832567176909238,
+              0.007068720450018475
+            ],
+            "B": [
+              0.004049988896596685,
+              0.007520435970571886
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9687216080554476,
+                  "upper": 0.9933084557103589,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.985600780738589,
+              "numerator": 19226104.298907407,
+              "reference": 19506989.721030615,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.24162208487764888,
+                  "effective_absolute_contributions": 5.751367835430262
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.24083833892555906,
+                  "effective_absolute_contributions": 5.78370061851804
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.6714033051304562,
+                  "upper": 3.1778006557794165,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9414437626032656,
+                  "upper": 0.9836568165226844,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9708625289759267,
+              "numerator": 13151403.301677587,
+              "reference": 13546102.469882928,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23602951850009485,
+                  "effective_absolute_contributions": 5.790472467411988
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.23457043060570024,
+                  "effective_absolute_contributions": 5.852836282086131
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.7323647314908875,
+                  "upper": 2.681807305342093,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.4503894057711124,
+          1.31423988726953
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.5373284807767722,
+            1.3990422520900847
+          ],
+          [
+            1.5536810805406727,
+            1.3890808215667627
+          ],
+          [
+            1.4610622068795982,
+            1.3274698532722884
+          ],
+          [
+            1.3737771540143087,
+            1.2456758807905322
+          ],
+          [
+            1.4566596360229647,
+            1.31923761943363
+          ],
+          [
+            1.5277055566695945,
+            1.3653094155843928
+          ],
+          [
+            1.1142513428431113,
+            1.0579493372600086
+          ],
+          [
+            1.5542195436296122,
+            1.3886283383061797
+          ],
+          [
+            1.5375400268008612,
+            1.3888867539759706
+          ],
+          [
+            1.4515198642886638,
+            1.3144878241469526
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.3469443082954764,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.1137343621129703,
+                "upper": 1.5446633796771516,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.3469443082954764,
+            "numerator": 397.07918208550643,
+            "reference": 294.8,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.23478173758498216,
+                "effective_absolute_contributions": 6.028535770914884
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.21031207598371776,
+                "effective_absolute_contributions": 6.2549600190008725
+              }
+            }
+          },
+          "effective_sources": 2948.0
+        },
+        "event_count": {
+          "point": 1.6302384362124205,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.151810897422512,
+                "upper": 2.7925101784423343,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.6302384362124207,
+            "numerator": 1318453.379000672,
+            "reference": 808748.8,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.17531560833383625,
+                "effective_absolute_contributions": 6.992841842530058
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.23954743425894415,
+                "effective_absolute_contributions": 6.020992736920532
+              }
+            }
+          },
+          "effective_sources": 394.044870911326
+        },
+        "localization_count": {
+          "point": 1.7112692460550405,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.2855957348410145,
+                "upper": 2.7404727156060567,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.7112692460550403,
+            "numerator": 186439838.23656264,
+            "reference": 108948278.39999999,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.21711970080668064,
+                "effective_absolute_contributions": 6.490386723840684
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.24713689096715458,
+                "effective_absolute_contributions": 5.726286425959911
+              }
+            }
+          },
+          "effective_sources": 382.6366885812255
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.04885246845113711,
+      "selected_to_diagonal_fit_gap": 0.19958691152191976,
+      "fit_gap_narrows": false,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": 0.31559252199159915,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.7282881469477632,
+            1.1381856971483204
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": 0.17571870093141873,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.460156618539646,
+            1.041792731171162
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r1-stringent",
+      "radius_factor": 1.0,
+      "radius_nm": 10.0,
+      "profile": "stringent",
+      "qc": {
+        "min_per_panel": 3,
+        "min_events": 15,
+        "max_rms": 8.0,
+        "min_sep": 36.0,
+        "max_split": 0.75,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 1477,
+      "rejection_counts": {
+        "size": 27719,
+        "panel_coverage": 1583,
+        "rms": 1320,
+        "isolation": 702,
+        "split": 193,
+        "zsd": 0
+      },
+      "event_coverage": 0.19287791175214378,
+      "localization_coverage": 0.1939181652418369,
+      "original_row_jaccard": 0.5391613833512623,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 0.6300540833969427,
+          "total_geometric": 0.6563535702860152,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.0261759848509613,
+            1.0214431226221614
+          ],
+          "ratio_B": [
+            0.9642356919051274,
+            0.9494008084932024
+          ],
+          "D": [
+            1.0642377102049114,
+            1.0758818756888333
+          ],
+          "logD": [
+            0.062258777813463693,
+            0.07314067475488885
+          ],
+          "logD_se": [
+            0.028800918663888106,
+            0.02504988667010505
+          ],
+          "D_z": [
+            2.1616941646908843,
+            2.9198006249735307
+          ],
+          "drift_estimate_nm2": [
+            -6.225877781346368,
+            -3.250696655772838
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              1.026294027342554,
+              0.9885848761529569
+            ],
+            "B": [
+              1.024192725131608,
+              1.0458229178121587
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.027956373223943353,
+              0.017136881101582485
+            ],
+            "B": [
+              0.018170046179402512,
+              0.013160569467886095
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9766890937996157,
+                  "upper": 1.0210633590689804,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9952077591434766,
+              "numerator": 11309006.419938158,
+              "reference": 11363462.870980056,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.27256059875962546,
+                  "effective_absolute_contributions": 5.872035177000278
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.27400233856388784,
+                  "effective_absolute_contributions": 5.84723483497455
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -2.084459315232266,
+                  "upper": 2.3586902968017838,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9740920710800031,
+                  "upper": 1.0072594194592124,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.985257010475801,
+              "numerator": 9033171.156690685,
+              "reference": 9168339.895727694,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.25555781772844915,
+                  "effective_absolute_contributions": 5.9516363621057895
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2592209029950393,
+                  "effective_absolute_contributions": 5.911293083137075
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.3214754091232356,
+                  "upper": 1.1666422656710351,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          0.48037604606167206,
+          0.6601221112875121
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.28198558056968054,
+            0.44088997126063223
+          ],
+          [
+            0.21962879813237837,
+            0.6689715135904267
+          ],
+          [
+            0.5238987386764626,
+            0.7302765677507094
+          ],
+          [
+            0.6868475853225273,
+            0.64425678718875
+          ],
+          [
+            0.4659918363345646,
+            0.6167406239323692
+          ],
+          [
+            0.7256659906809368,
+            0.7956003428272014
+          ],
+          [
+            0.31656216220995426,
+            0.6778201488202676
+          ],
+          [
+            0.05295390491649666,
+            0.6100435339902142
+          ],
+          [
+            1.0018362422852607,
+            0.7219879771686515
+          ],
+          [
+            0.47678798771334224,
+            0.656938221300044
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 0.7140790660739327,
+          "total_geometric": 0.7242739294614953,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.0018171795060444,
+            1.000810872125715
+          ],
+          "ratio_B": [
+            0.984621483543501,
+            0.9667907985968436
+          ],
+          "D": [
+            1.0174642705343568,
+            1.0351886608542888
+          ],
+          "logD": [
+            0.017313522764119522,
+            0.034583691124802654
+          ],
+          "logD_se": [
+            0.0059669725673833175,
+            0.010965804716980096
+          ],
+          "D_z": [
+            2.9015589679025426,
+            3.1537759441631525
+          ],
+          "drift_estimate_nm2": [
+            -1.731352276411952,
+            -1.537052938880118
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9881036893091262,
+              0.9694299163328278
+            ],
+            "B": [
+              1.0177022122409833,
+              1.034282037106587
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.004699260956623054,
+              0.008771277830712694
+            ],
+            "B": [
+              0.004082106058003196,
+              0.00742379275939898
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9891926908088033,
+                  "upper": 1.000944797365044,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9933378391566474,
+              "numerator": 10563575.626795707,
+              "reference": 10634423.86908796,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2684650459286082,
+                  "effective_absolute_contributions": 5.768294146283435
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.26872221828042236,
+                  "effective_absolute_contributions": 5.756580574127455
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.09443513249364542,
+                  "upper": 1.0866132354488294,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9765452442433178,
+                  "upper": 0.996929941236747,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9838583785424313,
+              "numerator": 7736571.322158508,
+              "reference": 7863500.978281144,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2647031122327007,
+                  "effective_absolute_contributions": 5.7997980271205885
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.26504488909026586,
+                  "effective_absolute_contributions": 5.779956879570901
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.13665693605731616,
+                  "upper": 1.0548531852565803,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          0.6684452097345391,
+          0.7232585125985838
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.6332838595259263,
+            0.702595275485863
+          ],
+          [
+            0.5957708341895547,
+            0.6785425914381659
+          ],
+          [
+            0.657248871030889,
+            0.7157383383822745
+          ],
+          [
+            0.6500720385247033,
+            0.707590686999213
+          ],
+          [
+            0.6583181226130097,
+            0.7162071563846236
+          ],
+          [
+            0.7671070272199558,
+            0.7826360969153506
+          ],
+          [
+            0.7771305828472185,
+            0.8199664065132253
+          ],
+          [
+            0.5626375403983438,
+            0.6314838797941253
+          ],
+          [
+            0.6910325865017812,
+            0.7387063300753579
+          ],
+          [
+            0.668463833286343,
+            0.7220585739671024
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.168327284863636,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.8153598323913185,
+                "upper": 1.3478125817824664,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.1683272848636364,
+            "numerator": 172.56193997435906,
+            "reference": 147.7,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.24645660535200367,
+                "effective_absolute_contributions": 5.510648014109193
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.21936357481381177,
+                "effective_absolute_contributions": 6.304650900673084
+              }
+            }
+          },
+          "effective_sources": 1477.0
+        },
+        "event_count": {
+          "point": 0.9257534867556428,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.5123192676035504,
+                "upper": 1.3439748644775027,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 0.9257534867556428,
+            "numerator": 393508.83113568835,
+            "reference": 425068.7,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2712306778259151,
+                "effective_absolute_contributions": 5.741116306254314
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.23247018658395688,
+                "effective_absolute_contributions": 6.125676075629803
+              }
+            }
+          },
+          "effective_sources": 373.31535730036046
+        },
+        "localization_count": {
+          "point": 0.9487114710551858,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.318954766920044,
+                "upper": 1.3265312177735102,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 0.9487114710551855,
+            "numerator": 52785436.945189595,
+            "reference": 55639083.70000001,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2674580217362664,
+                "effective_absolute_contributions": 5.640469502583438
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2705209090278386,
+                "effective_absolute_contributions": 5.749854938880454
+              }
+            }
+          },
+          "effective_sources": 278.8244822170231
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.5743842582339467,
+      "selected_to_diagonal_fit_gap": 0.08402498267698999,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": -0.18806916367286708,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -1.7329111082647577,
+            1.0500854797360535
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": -0.06313640131107168,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.503713549714005,
+            0.3522257624558852
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r1.2-lenient",
+      "radius_factor": 1.2,
+      "radius_nm": 12.0,
+      "profile": "lenient",
+      "qc": {
+        "min_per_panel": 1,
+        "min_events": 10,
+        "max_rms": 12.0,
+        "min_sep": 24.0,
+        "max_split": 0.8500000000000001,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 4609,
+      "rejection_counts": {
+        "size": 22526,
+        "panel_coverage": 792,
+        "rms": 812,
+        "isolation": 127,
+        "split": 308,
+        "zsd": 0
+      },
+      "event_coverage": 0.5024107172191741,
+      "localization_coverage": 0.5189612805769017,
+      "original_row_jaccard": 0.6243001435095777,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 1.3684596904830337,
+          "total_geometric": 1.383453636719249,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.0138202988993805,
+            1.0106026721375951
+          ],
+          "ratio_B": [
+            0.9585639120015103,
+            0.9301937789304606
+          ],
+          "D": [
+            1.0576449689019622,
+            1.0864431638100063
+          ],
+          "logD": [
+            0.0560447089749253,
+            0.08290920808053956
+          ],
+          "logD_se": [
+            0.02804163836549929,
+            0.031209200877180484
+          ],
+          "D_z": [
+            1.9986246254384075,
+            2.6565629926513448
+          ],
+          "drift_estimate_nm2": [
+            -5.604470897492528,
+            -3.684853692468425
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9789049182444775,
+              0.9472366782352866
+            ],
+            "B": [
+              1.0078846195740816,
+              1.0375745482546308
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.022452924063891582,
+              0.01866343605627903
+            ],
+            "B": [
+              0.02313333476770209,
+              0.025482222233288266
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9584778941888057,
+                  "upper": 1.0222718293226147,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9862373510942826,
+              "numerator": 25226533.816832926,
+              "reference": 25578562.593317673,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.24871545995822492,
+                  "effective_absolute_contributions": 5.989862811812766
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.25167885228552056,
+                  "effective_absolute_contributions": 5.961437562320648
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -2.2027434226463276,
+                  "upper": 4.240877968486825,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9440772965941825,
+                  "upper": 1.0019890788161214,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9697562818836418,
+              "numerator": 19063200.61721994,
+              "reference": 19657723.258251887,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.21376025582778918,
+                  "effective_absolute_contributions": 6.08825268909938
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.21355609153296748,
+                  "effective_absolute_contributions": 6.064170243251831
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.08831569858515417,
+                  "upper": 2.557654853485348,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.3858232157242856,
+          1.3649108819907787
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.8804463086173769,
+            0.9849503755202597
+          ],
+          [
+            0.9905998301534782,
+            1.376450353001982
+          ],
+          [
+            1.3295863405676394,
+            1.3622906959707812
+          ],
+          [
+            1.4630232824513971,
+            1.2979834278071498
+          ],
+          [
+            1.4912043071493153,
+            1.4871617431469593
+          ],
+          [
+            1.9366806019879983,
+            1.612934232536052
+          ],
+          [
+            0.9812360340798931,
+            1.2460810041584702
+          ],
+          [
+            2.1463746708738953,
+            1.3747016237046734
+          ],
+          [
+            1.1854660591107535,
+            1.5182704791059745
+          ],
+          [
+            1.3910205583177966,
+            1.3678505572985549
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 1.608955377523827,
+          "total_geometric": 1.6335400699270182,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9954185576678303,
+            0.9925461581424253
+          ],
+          "ratio_B": [
+            0.9682098625784556,
+            0.9380096146646539
+          ],
+          "D": [
+            1.028102063551506,
+            1.0581407083948373
+          ],
+          "logD": [
+            0.02771444571509622,
+            0.056513319295210945
+          ],
+          "logD_se": [
+            0.008257695994684885,
+            0.013695282184961311
+          ],
+          "D_z": [
+            3.3561959332160916,
+            4.126480822517685
+          ],
+          "drift_estimate_nm2": [
+            -2.771444571509621,
+            -2.511703079787153
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9714929141501035,
+              0.9427724243266119
+            ],
+            "B": [
+              1.0115951286837903,
+              1.0301447080221533
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.0047272447046632715,
+              0.008448919936926437
+            ],
+            "B": [
+              0.004654641173004694,
+              0.007675998016033936
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.969008148299715,
+                  "upper": 0.994504842360583,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9820500141488681,
+              "numerator": 25738885.40845819,
+              "reference": 26209342.73980516,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2209661895959375,
+                  "effective_absolute_contributions": 6.163846802506605
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.22334222251131441,
+                  "effective_absolute_contributions": 6.167159056365699
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.5510311559106664,
+                  "upper": 3.1482258148691966,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9421922467019578,
+                  "upper": 0.9869011702196623,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9653479825654492,
+              "numerator": 16785441.115688268,
+              "reference": 17387969.33213691,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.21886949672515574,
+                  "effective_absolute_contributions": 6.16762669646551
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.22294831220655,
+                  "effective_absolute_contributions": 6.177161567417989
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.5860167134156279,
+                  "upper": 2.6464862969005516,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.8113041019444724,
+          1.5674061755676147
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.505840630728072,
+            1.334723369716651
+          ],
+          [
+            1.9822106527309913,
+            1.7132492043940937
+          ],
+          [
+            1.8368568922959172,
+            1.5896520404368715
+          ],
+          [
+            1.799284306020648,
+            1.5577355383410143
+          ],
+          [
+            1.8301320456212837,
+            1.5817005371755126
+          ],
+          [
+            2.0101872434256234,
+            1.7226850033813186
+          ],
+          [
+            1.532533236920023,
+            1.3407238114050253
+          ],
+          [
+            1.881999159481348,
+            1.6242270632020166
+          ],
+          [
+            1.9188880574253706,
+            1.6413463067614336
+          ],
+          [
+            1.8177470573429295,
+            1.5729007344216146
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.6505266465213377,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.353423896850428,
+                "upper": 2.068717731990921,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.650526646521338,
+            "numerator": 760.7277313816846,
+            "reference": 460.90000000000003,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.20966150972573455,
+                "effective_absolute_contributions": 6.443638144069787
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2117596007810805,
+                "effective_absolute_contributions": 6.311100712873464
+              }
+            }
+          },
+          "effective_sources": 4609.0
+        },
+        "event_count": {
+          "point": 1.9280435127500208,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.3352769852919626,
+                "upper": 2.937555083308569,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.9280435127500204,
+            "numerator": 2136701.0090042586,
+            "reference": 1108222.4000000001,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.18902569071658037,
+                "effective_absolute_contributions": 6.7745414949020155
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.19477426191710254,
+                "effective_absolute_contributions": 6.480126036574922
+              }
+            }
+          },
+          "effective_sources": 554.5608469560666
+        },
+        "localization_count": {
+          "point": 2.1864534796718904,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.2524103652333496,
+                "upper": 3.247032529230636,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 2.18645347967189,
+            "numerator": 341837196.41425306,
+            "reference": 156343228.7,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.31098925835527297,
+                "effective_absolute_contributions": 5.565066380338661
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.22229732358085813,
+                "effective_absolute_contributions": 6.142263149715457
+              }
+            }
+          },
+          "effective_sources": 497.65109257188004
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.32049205321594765,
+      "selected_to_diagonal_fit_gap": 0.24049568704079327,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": -0.42548088622018687,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -2.620023754422194,
+            0.9821661199721184
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": -0.20249529357683604,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.8643351531134938,
+            0.2377833999539083
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r1.2-original",
+      "radius_factor": 1.2,
+      "radius_nm": 12.0,
+      "profile": "original",
+      "qc": {
+        "min_per_panel": 2,
+        "min_events": 12,
+        "max_rms": 10.0,
+        "min_sep": 30.0,
+        "max_split": 0.8,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 2836,
+      "rejection_counts": {
+        "size": 23153,
+        "panel_coverage": 1279,
+        "rms": 1201,
+        "isolation": 406,
+        "split": 299,
+        "zsd": 0
+      },
+      "event_coverage": 0.33803840720176104,
+      "localization_coverage": 0.3444336970525163,
+      "original_row_jaccard": 0.877269724351813,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 1.6114481349779863,
+          "total_geometric": 1.6323751406168794,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.011317108290669,
+            1.0163798469976044
+          ],
+          "ratio_B": [
+            0.9476939912228928,
+            0.9185109602985498
+          ],
+          "D": [
+            1.0671346633586625,
+            1.106551680850105
+          ],
+          "logD": [
+            0.06497717181504016,
+            0.10124858601572218
+          ],
+          "logD_se": [
+            0.022182479547440723,
+            0.02685856024562403
+          ],
+          "D_z": [
+            2.929211392985904,
+            3.7696952141065805
+          ],
+          "drift_estimate_nm2": [
+            -6.497717181504015,
+            -4.499937156254319
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9910935933418592,
+              0.9456760258268004
+            ],
+            "B": [
+              1.0091289710318843,
+              1.0483223933501045
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.019092968781200606,
+              0.017305698152627027
+            ],
+            "B": [
+              0.01717459060922372,
+              0.015518597981945246
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.955219499864832,
+                  "upper": 1.0050072020081344,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9793141430652467,
+              "numerator": 19048371.81358638,
+              "reference": 19450726.76471832,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2498127896150422,
+                  "effective_absolute_contributions": 5.7219019269245806
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.24936563175348384,
+                  "effective_absolute_contributions": 5.718640886890364
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.4994707662610332,
+                  "upper": 4.581412212081427,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9282884592964683,
+                  "upper": 0.99517437564977,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9665234793947847,
+              "numerator": 14434901.49793581,
+              "reference": 14934868.945940787,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2141187444355377,
+                  "effective_absolute_contributions": 5.8438139586862095
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.21863954838540617,
+                  "effective_absolute_contributions": 5.8842033498697255
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.2149913452910956,
+                  "upper": 3.307233543888007,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          2.090280634471711,
+          1.5133194405001613
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.55323828110818,
+            1.2172997768812972
+          ],
+          [
+            2.1498690467328982,
+            1.5519968780496003
+          ],
+          [
+            2.204955336119025,
+            1.5246070147439132
+          ],
+          [
+            2.092188527500027,
+            1.440165732220964
+          ],
+          [
+            2.1503653484161567,
+            1.5204671301194894
+          ],
+          [
+            2.396329958762852,
+            1.6534093447627882
+          ],
+          [
+            1.6237938205588731,
+            1.243024442724951
+          ],
+          [
+            2.586447101538414,
+            1.8887073120339148
+          ],
+          [
+            2.0443364067337106,
+            1.6123213271600536
+          ],
+          [
+            2.0907710873512784,
+            1.5120360802976411
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 1.5471564082140974,
+          "total_geometric": 1.5640757546704451,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            0.9944137239885893,
+            0.9896276737069452
+          ],
+          "ratio_B": [
+            0.9712685399955779,
+            0.9433742333971907
+          ],
+          "D": [
+            1.0238298503862966,
+            1.049029789740166
+          ],
+          "logD": [
+            0.023550351078793778,
+            0.04786572723797902
+          ],
+          "logD_se": [
+            0.00827312309384422,
+            0.014584691920658553
+          ],
+          "D_z": [
+            2.8466095344715567,
+            3.281915552167365
+          ],
+          "drift_estimate_nm2": [
+            -2.3550351078793774,
+            -2.12736565502129
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9763313436504838,
+              0.9500340610530349
+            ],
+            "B": [
+              1.0146549433564764,
+              1.0298943124207447
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.004684795711038144,
+              0.008230050628942871
+            ],
+            "B": [
+              0.004240255967157041,
+              0.007851271122947586
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9662716153336265,
+                  "upper": 0.9922239126626479,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9830136465469347,
+              "numerator": 18120332.711636543,
+              "reference": 18433449.80539024,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2324803441901887,
+                  "effective_absolute_contributions": 5.956379317585141
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2326681746093731,
+                  "effective_absolute_contributions": 5.986734636230902
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.780647875790455,
+                  "upper": 3.4310308998374417,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9372526760691144,
+                  "upper": 0.9816950364609774,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9665282554460172,
+              "numerator": 12475453.20920273,
+              "reference": 12907489.397136938,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23071487603316404,
+                  "effective_absolute_contributions": 5.95816918372148
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2306885819126272,
+                  "effective_absolute_contributions": 6.017445008239711
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.8210921049535805,
+                  "upper": 2.8801052504477207,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          1.7132276381042488,
+          1.513099819949044
+        ],
+        "leave_one_block_out_T": [
+          [
+            1.6887522510817563,
+            1.5146189024993848
+          ],
+          [
+            1.8436488901989179,
+            1.6097738250735387
+          ],
+          [
+            1.7345851052372196,
+            1.5360488094643712
+          ],
+          [
+            1.638847869251126,
+            1.4458978736179287
+          ],
+          [
+            1.7274221782271786,
+            1.5243324306971364
+          ],
+          [
+            1.822424078386268,
+            1.5907627957696282
+          ],
+          [
+            1.3444077637573093,
+            1.2294866101060729
+          ],
+          [
+            1.8656215814634434,
+            1.6284914093522078
+          ],
+          [
+            1.8057894211664507,
+            1.584484522455835
+          ],
+          [
+            1.7148041528859712,
+            1.5136687140450253
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.5447436646885069,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.1851240688746503,
+                "upper": 1.8769710271542537,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.5447436646885062,
+            "numerator": 438.0893033056605,
+            "reference": 283.6000000000001,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2453364380226333,
+                "effective_absolute_contributions": 5.970163839399514
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2055712270803949,
+                "effective_absolute_contributions": 6.264981858347109
+              }
+            }
+          },
+          "effective_sources": 2836.0
+        },
+        "event_count": {
+          "point": 1.9099503689411341,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.2446071776018819,
+                "upper": 3.136749090844765,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.9099503689411337,
+            "numerator": 1416844.730548945,
+            "reference": 741822.8,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.18350833931566385,
+                "effective_absolute_contributions": 6.667566977187693
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.20344036338597302,
+                "effective_absolute_contributions": 6.319575084132999
+              }
+            }
+          },
+          "effective_sources": 520.7167281097677
+        },
+        "localization_count": {
+          "point": 2.175265644905222,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.4613246181026427,
+                "upper": 3.157445757101229,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 2.1752656449052226,
+            "numerator": 222952967.81154954,
+            "reference": 102494593.4,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2797649243509734,
+                "effective_absolute_contributions": 5.87021740585825
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2337196022283064,
+                "effective_absolute_contributions": 5.96448438621249
+              }
+            }
+          },
+          "effective_sources": 376.82108498567175
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.25869308390621804,
+      "selected_to_diagonal_fit_gap": 0.06429172676388895,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": 0.37705299636746226,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.9875993631526203,
+            1.4346475943028167
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": 0.0002196205511173499,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.6817349786495865,
+            0.5788813084369784
+          ]
+        }
+      ]
+    },
+    {
+      "name": "r1.2-stringent",
+      "radius_factor": 1.2,
+      "radius_nm": 12.0,
+      "profile": "stringent",
+      "qc": {
+        "min_per_panel": 3,
+        "min_events": 15,
+        "max_rms": 8.0,
+        "min_sep": 36.0,
+        "max_split": 0.75,
+        "max_zsd": null,
+        "neighbor_min_events": 5
+      },
+      "sources": 1434,
+      "rejection_counts": {
+        "size": 24006,
+        "panel_coverage": 1465,
+        "rms": 1623,
+        "isolation": 476,
+        "split": 170,
+        "zsd": 0
+      },
+      "event_coverage": 0.18741170286164865,
+      "localization_coverage": 0.18828991615662288,
+      "original_row_jaccard": 0.5121812696508733,
+      "selected_code": {
+        "fit": {
+          "total_arithmetic": 0.6972022267685231,
+          "total_geometric": 0.7154223292480741,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.0385280443984877,
+            1.0307405322256522
+          ],
+          "ratio_B": [
+            0.9545186946926074,
+            0.9370250438113109
+          ],
+          "D": [
+            1.0880122622773087,
+            1.100013856655482
+          ],
+          "logD": [
+            0.08435241884570714,
+            0.09532277668451293
+          ],
+          "logD_se": [
+            0.029416153129272527,
+            0.028232990197370064
+          ],
+          "D_z": [
+            2.8675543833012815,
+            3.3762905033485384
+          ],
+          "drift_estimate_nm2": [
+            -8.435241884570713,
+            -4.2365678526450194
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              1.0271509116000854,
+              0.9749365917797307
+            ],
+            "B": [
+              1.0052901606748397,
+              1.0409816971325931
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.027944411919526353,
+              0.016861582205964294
+            ],
+            "B": [
+              0.016789734792624158,
+              0.011995923265614508
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9799829987568217,
+                  "upper": 1.015448965948567,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9959992674482994,
+              "numerator": 11104544.100485113,
+              "reference": 11149148.863266136,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2508032473216924,
+                  "effective_absolute_contributions": 5.949170360757735
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2519949749076815,
+                  "effective_absolute_contributions": 5.937279380229831
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -1.5330845678049698,
+                  "upper": 2.0220055675326116,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9730123046060688,
+                  "upper": 1.001484022355075,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.983114090965449,
+              "numerator": 8883631.127838887,
+              "reference": 9036215.84664185,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": true,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.23745082775452625,
+                  "effective_absolute_contributions": 5.969460991895315
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.23995007627788506,
+                  "effective_absolute_contributions": 5.938153612569305
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": -0.06590765698313382,
+                  "upper": 1.21593559229733,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": false,
+              "positive_motion_resolved": false,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          0.40087568914848537,
+          0.7568934006892524
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.24168167063162532,
+            0.6109878734852365
+          ],
+          [
+            0.02969311394770628,
+            0.7486749393968527
+          ],
+          [
+            0.5067044351043095,
+            0.8354577823899736
+          ],
+          [
+            0.40700642410825855,
+            0.7576149621369527
+          ],
+          [
+            0.4413557190904178,
+            0.7489933724919934
+          ],
+          [
+            0.6503208177567734,
+            0.898063157923583
+          ],
+          [
+            0.15553304910269028,
+            0.7083263703784937
+          ],
+          [
+            0.34184092466873883,
+            0.6929325849498014
+          ],
+          [
+            0.8112383732274717,
+            0.7865231016859756
+          ],
+          [
+            0.3970095806362592,
+            0.7537652943596883
+          ]
+        ]
+      },
+      "diagonal": {
+        "fit": {
+          "total_arithmetic": 0.7695731748456385,
+          "total_geometric": 0.7834920343272325,
+          "boundary": {
+            "arithmetic": false,
+            "geometric": false
+          },
+          "ratio_A": [
+            1.003383904559378,
+            1.0029218418474555
+          ],
+          "ratio_B": [
+            0.9822044201556394,
+            0.9620585684543355
+          ],
+          "D": [
+            1.0215632143056153,
+            1.0424748292183208
+          ],
+          "logD": [
+            0.021334017164648948,
+            0.041597529764628806
+          ],
+          "logD_se": [
+            0.006403366008124547,
+            0.01185000671075566
+          ],
+          "D_z": [
+            3.331687918132509,
+            3.510338076591366
+          ],
+          "drift_estimate_nm2": [
+            -2.133401716464894,
+            -1.8487791006501693
+          ],
+          "negative_ratio": false,
+          "orientation_ratio": {
+            "A": [
+              0.9845364807674135,
+              0.9655576897583781
+            ],
+            "B": [
+              1.0164369192850617,
+              1.0320756272525091
+            ]
+          },
+          "orientation_se": {
+            "A": [
+              0.004939917116493656,
+              0.008885693385002488
+            ],
+            "B": [
+              0.003489397564234661,
+              0.006294334853409321
+            ]
+          }
+        },
+        "uncertainty": {
+          "method": "pointwise approximate Fieller, Student critical value",
+          "confidence_level": 0.95,
+          "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+          "target": "ratio of expected matched-count cross and reference moments",
+          "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+          "assumptions": [
+            "independent groups",
+            "physical source-code exogeneity",
+            "conditionally independent temporal panels",
+            "stable source kernels",
+            "common displacement law for a common variance interpretation"
+          ],
+          "limitations": [
+            "approximate pointwise coverage, not simultaneous or exact",
+            "concentrated group contributions can defeat the approximation",
+            "a finite set or quiet D does not validate physical assumptions",
+            "source heterogeneity changes the weighted attenuation target"
+          ],
+          "all_frequencies_usable": true,
+          "physical_assumptions_verified": false,
+          "per_frequency": [
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9903183649732509,
+                  "upper": 0.9987325962888768,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9929520657300631,
+              "numerator": 10430040.954225667,
+              "reference": 10504072.970085451,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2547044385472491,
+                  "effective_absolute_contributions": 5.888938777966677
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.25503287906772254,
+                  "effective_absolute_contributions": 5.877397891751643
+                }
+              },
+              "q": 0.1,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.12682075464677486,
+                  "upper": 0.9728806768456657,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            },
+            {
+              "confidence_level": 0.95,
+              "n_groups": 10,
+              "kind": "bounded",
+              "intervals": [
+                {
+                  "lower": 0.9780278322975147,
+                  "upper": 0.992579499493201,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "ratio": 0.9825562159309378,
+              "numerator": 7654847.955442851,
+              "reference": 7790748.082734534,
+              "positive_reference": true,
+              "usable": true,
+              "contains_one": false,
+              "reason": null,
+              "group_concentration": {
+                "numerator": {
+                  "largest_absolute_fraction": 0.2511010128973542,
+                  "effective_absolute_contributions": 5.912832882953671
+                },
+                "reference": {
+                  "largest_absolute_fraction": 0.2515109468542948,
+                  "effective_absolute_contributions": 5.892322310201283
+                }
+              },
+              "q": 0.15,
+              "gaussian_equivalent_T_intervals": [
+                {
+                  "lower": 0.3310297503824933,
+                  "upper": 0.9874289320148867,
+                  "lower_closed": true,
+                  "upper_closed": true
+                }
+              ],
+              "unit_attenuation_excluded": true,
+              "positive_motion_resolved": true,
+              "attenuation_model_compatible": true
+            }
+          ]
+        },
+        "point_T": [
+          0.7072888277266427,
+          0.7821208730247834
+        ],
+        "leave_one_block_out_T": [
+          [
+            0.6632106219615113,
+            0.7577861155129153
+          ],
+          [
+            0.6623065940154267,
+            0.7536354680497438
+          ],
+          [
+            0.7069804703789939,
+            0.785202987174591
+          ],
+          [
+            0.6980715846349571,
+            0.7748035485360512
+          ],
+          [
+            0.6999170531154119,
+            0.7778597649301441
+          ],
+          [
+            0.8078591102505527,
+            0.846411418076324
+          ],
+          [
+            0.7649459744766439,
+            0.8401755196462595
+          ],
+          [
+            0.6619823989381214,
+            0.7342735200278949
+          ],
+          [
+            0.6776873839414534,
+            0.752728493400751
+          ],
+          [
+            0.7074012488040325,
+            0.7810519410732994
+          ]
+        ]
+      },
+      "quadratic": {
+        "unweighted": {
+          "point": 1.2106772357467224,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.9981403869189892,
+                "upper": 1.3831204930441987,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.2106772357467221,
+            "numerator": 173.61111560607998,
+            "reference": 143.4,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.23101545384687472,
+                "effective_absolute_contributions": 6.034436580605945
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.21199442119944212,
+                "effective_absolute_contributions": 6.29255306127445
+              }
+            }
+          },
+          "effective_sources": 1434.0
+        },
+        "event_count": {
+          "point": 0.9962021556853524,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.7131315318638753,
+                "upper": 1.389122418242752,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 0.9962021556853523,
+            "numerator": 415580.4730360489,
+            "reference": 417164.80000000005,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.23893843393402053,
+                "effective_absolute_contributions": 6.184577694152799
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.21939674680126414,
+                "effective_absolute_contributions": 6.192486804844348
+              }
+            }
+          },
+          "effective_sources": 360.6075586621456
+        },
+        "localization_count": {
+          "point": 1.007094717087826,
+          "uncertainty": {
+            "confidence_level": 0.95,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.5917312112284674,
+                "upper": 1.2245404783113272,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.007094717087826,
+            "numerator": 55296573.297867104,
+            "reference": 54907023.49999999,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.30887472409859495,
+                "effective_absolute_contributions": 5.110624378152249
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.2560243226442606,
+                "effective_absolute_contributions": 5.877569410689628
+              }
+            }
+          },
+          "effective_sources": 268.99843357168527
+        }
+      },
+      "full_to_diagonal_fit_gap": 0.5188901494622409,
+      "selected_to_diagonal_fit_gap": 0.07237094807711542,
+      "fit_gap_narrows": true,
+      "paired_selected_difference": [
+        {
+          "q": 0.1,
+          "difference": -0.30641313857815733,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -1.545335379612045,
+            0.9232666849411559
+          ]
+        },
+        {
+          "q": 0.15,
+          "difference": -0.02522747233553102,
+          "valid_draws": 2000,
+          "total_draws": 2000,
+          "conditional_pointwise_interval": [
+            -0.4366357198979409,
+            0.3752274589711914
+          ]
+        }
+      ]
+    }
+  ],
+  "implementation_sha256": "b800a114ed690921265f7499f71868f6c7503cdfd7d479e595bc1830c3a762be",
+  "full_code": {
+    "fit": {
+      "total_arithmetic": 1.2884633243078794,
+      "total_geometric": 1.317317899443082,
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        1.0368663821966129,
+        1.0238970913425631
+      ],
+      "ratio_B": [
+        0.9367486924460965,
+        0.9216652015866331
+      ],
+      "D": [
+        1.106877853748675,
+        1.1109208523658476
+      ],
+      "logD": [
+        0.10154330775484458,
+        0.10518926812506735
+      ],
+      "logD_se": [
+        0.0396275725604905,
+        0.04077885072836791
+      ],
+      "D_z": [
+        2.562440775292033,
+        2.5795054604589964
+      ],
+      "drift_estimate_nm2": [
+        -10.154330775484455,
+        -4.675078583336327
+      ],
+      "negative_ratio": false,
+      "orientation_ratio": {
+        "A": [
+          0.9167160541694367,
+          0.8867370163680908
+        ],
+        "B": [
+          0.9869549081344036,
+          1.0354121917829833
+        ]
+      },
+      "orientation_se": {
+        "A": [
+          0.02769898516433488,
+          0.02539568443670808
+        ],
+        "B": [
+          0.023881600493076284,
+          0.04181827657464195
+        ]
+      }
+    },
+    "uncertainty": {
+      "method": "pointwise approximate Fieller, Student critical value",
+      "confidence_level": 0.95,
+      "interval_endpoint_convention": "null lower/upper means unbounded below/above",
+      "target": "ratio of expected matched-count cross and reference moments",
+      "interpretation": "displacement attenuation under the physical model; -log(ratio)/q^2 is a Gaussian-equivalent variance only conditionally",
+      "assumptions": [
+        "independent groups",
+        "physical source-code exogeneity",
+        "conditionally independent temporal panels",
+        "stable source kernels",
+        "common displacement law for a common variance interpretation"
+      ],
+      "limitations": [
+        "approximate pointwise coverage, not simultaneous or exact",
+        "concentrated group contributions can defeat the approximation",
+        "a finite set or quiet D does not validate physical assumptions",
+        "source heterogeneity changes the weighted attenuation target"
+      ],
+      "all_frequencies_usable": true,
+      "physical_assumptions_verified": false,
+      "per_frequency": [
+        {
+          "confidence_level": 0.95,
+          "n_groups": 10,
+          "kind": "bounded",
+          "intervals": [
+            {
+              "lower": 0.9304409288993339,
+              "upper": 1.0385728483548125,
+              "lower_closed": true,
+              "upper_closed": true
+            }
+          ],
+          "ratio": 0.9855223756222582,
+          "numerator": 55882566.0527492,
+          "reference": 56703497.99766341,
+          "positive_reference": true,
+          "usable": true,
+          "contains_one": true,
+          "reason": null,
+          "group_concentration": {
+            "numerator": {
+              "largest_absolute_fraction": 0.25997992275263293,
+              "effective_absolute_contributions": 5.628790562019182
+            },
+            "reference": {
+              "largest_absolute_fraction": 0.2687785008426992,
+              "effective_absolute_contributions": 5.644690364550315
+            }
+          },
+          "q": 0.1,
+          "gaussian_equivalent_T_intervals": [
+            {
+              "lower": -3.7847509543332563,
+              "upper": 7.20966880967753,
+              "lower_closed": true,
+              "upper_closed": true
+            }
+          ],
+          "unit_attenuation_excluded": false,
+          "positive_motion_resolved": false,
+          "attenuation_model_compatible": true
+        },
+        {
+          "confidence_level": 0.95,
+          "n_groups": 10,
+          "kind": "bounded",
+          "intervals": [
+            {
+              "lower": 0.9399175399069127,
+              "upper": 1.00036547061541,
+              "lower_closed": true,
+              "upper_closed": true
+            }
+          ],
+          "ratio": 0.9721825889039544,
+          "numerator": 37563579.626900285,
+          "reference": 38638399.88046868,
+          "positive_reference": true,
+          "usable": true,
+          "contains_one": true,
+          "reason": null,
+          "group_concentration": {
+            "numerator": {
+              "largest_absolute_fraction": 0.21299636995840818,
+              "effective_absolute_contributions": 6.064962266958648
+            },
+            "reference": {
+              "largest_absolute_fraction": 0.21561392638212035,
+              "effective_absolute_contributions": 6.0862166868153675
+            }
+          },
+          "q": 0.15,
+          "gaussian_equivalent_T_intervals": [
+            {
+              "lower": -0.016240170990752065,
+              "upper": 2.753916936413482,
+              "lower_closed": true,
+              "upper_closed": true
+            }
+          ],
+          "unit_attenuation_excluded": false,
+          "positive_motion_resolved": false,
+          "attenuation_model_compatible": true
+        }
+      ]
+    },
+    "point_T": [
+      1.4583447804639458,
+      1.2538508220635567
+    ],
+    "leave_one_block_out_T": [
+      [
+        1.234282704792545,
+        1.2086688614374583
+      ],
+      [
+        0.262255283423092,
+        1.1057832251024775
+      ],
+      [
+        0.7812744880565659,
+        1.2082640789234156
+      ],
+      [
+        1.4014475532733723,
+        1.1882621601180177
+      ],
+      [
+        1.2706751720628866,
+        1.2057621207801261
+      ],
+      [
+        2.0590517638055372,
+        1.5862993655055693
+      ],
+      [
+        1.4388667382474403,
+        1.1645805785067058
+      ],
+      [
+        2.93929580439767,
+        1.5717528164965813
+      ],
+      [
+        1.7216526022521117,
+        1.0653143920368584
+      ],
+      [
+        1.4840037762889111,
+        1.2492715598126247
+      ]
+    ]
+  },
+  "baseline_replay": {
+    "passed": true,
+    "errors": {
+      "selected_code": 2.7939677238464355e-09,
+      "diagonal": 1.3969838619232178e-09
+    },
+    "source_rows": 2948
+  },
+  "input_members": [
+    {
+      "round": 1,
+      "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+      "sha256": "5c47ab41620e08e5dac14c4095718ce7e4cba148bbdec74b08d2d17d49b30d9d"
+    },
+    {
+      "round": 2,
+      "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+      "sha256": "cb8456565de89f064144e51cf2d72265efcd54aeb2da03216c18f4ca070c27b5"
+    },
+    {
+      "round": 3,
+      "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+      "sha256": "8d91c6819d09b0ba124ac8d1e1ba225a981bf0167bffd84e5b6b6435de40c7fd"
+    },
+    {
+      "round": 4,
+      "path": "external-originals/2026-09-25/can-y/work/reference-reconciliation-oct07.nosync/raw/EDF11,EDF12/rep2/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+      "sha256": "ce82fc4a60053b4a59f6b4b30a2a71e08e592c258483349027877ee9b6f46d2c"
+    }
+  ],
+  "old_reference_sha256": "d14142fc5ba514eefb4f48f5d5f2b76d3b8971c17534e6c29de0cb5e630499d6",
+  "old_empirical_sha256": "4829169dd0c6722e52c4f674045bb8e3716b26843f6990ea200f731cce63f6f8",
+  "groups_sha256": "b3f31baccadbfa87c05371672e594309486c54d691886360728a2fbd5de4b223",
+  "runtime_seconds": 20.582873821258545
+}

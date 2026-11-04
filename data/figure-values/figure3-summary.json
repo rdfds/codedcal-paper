@@ -1,0 +1,437 @@
+{
+  "original": {
+    "totals": {
+      "views": 9,
+      "distinct_acquisitions": 8,
+      "arms": 81,
+      "all_settings_narrow": 5,
+      "all_settings_worsen": 0,
+      "narrowed_arms": 68,
+      "worsened_arms": 13,
+      "unavailable_arms": 0
+    },
+    "views": [
+      {
+        "tag": "npc",
+        "narrowed": 4,
+        "worsened": 5,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            387,
+            4695
+          ],
+          "localization_coverage": [
+            0.04363532436587577,
+            0.3751067641377619
+          ],
+          "original_row_jaccard": [
+            0.25631168494968126,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            0.5956005449400752,
+            0.782859300714921
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.15375587644656707,
+            1.0823063237507071
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 5,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": false,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "edf10rep1",
+        "narrowed": 9,
+        "worsened": 0,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            493,
+            4205
+          ],
+          "localization_coverage": [
+            0.04352853973792386,
+            0.2876609697642326
+          ],
+          "original_row_jaccard": [
+            0.3181998296118717,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            1.5510792010209107,
+            2.3023791690688213
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.016651825856679903,
+            0.6218108350819276
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": true,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "edf10rep2",
+        "narrowed": 9,
+        "worsened": 0,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            2314,
+            5983
+          ],
+          "localization_coverage": [
+            0.28610307697303705,
+            0.6109194673829126
+          ],
+          "original_row_jaccard": [
+            0.620049894419031,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            6.101048357157563,
+            6.565724479019823
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.7259868566068857,
+            1.9198274142283709
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 4,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 9,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": true,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "fig4untreated",
+        "narrowed": 4,
+        "worsened": 5,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            403,
+            1663
+          ],
+          "localization_coverage": [
+            0.12593454540527174,
+            0.49399384140082725
+          ],
+          "original_row_jaccard": [
+            0.3962748219702674,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            0.34053641437016324,
+            0.9533332396653833
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.016696781497179458,
+            2.0136678223227453
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 1,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": false,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "rtx_rep1",
+        "narrowed": 9,
+        "worsened": 0,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            805,
+            6045
+          ],
+          "localization_coverage": [
+            0.07214885266565445,
+            0.4563925945024292
+          ],
+          "original_row_jaccard": [
+            0.3044474297915775,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            3.044914480412452,
+            4.029436889570602
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.018302097014516683,
+            0.4715927608842896
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 1,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": true,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "rtx_rep2",
+        "narrowed": 8,
+        "worsened": 1,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            1434,
+            4913
+          ],
+          "localization_coverage": [
+            0.18828991615662288,
+            0.5665317983313645
+          ],
+          "original_row_jaccard": [
+            0.5121812696508733,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            0.04885246845113711,
+            0.5743842582339467
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.010407230547419655,
+            0.24049568704079327
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": false,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "rtx_rep3",
+        "narrowed": 9,
+        "worsened": 0,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            1242,
+            8134
+          ],
+          "localization_coverage": [
+            0.08635227056577591,
+            0.4754946467337105
+          ],
+          "original_row_jaccard": [
+            0.3291411079339843,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            0.7831047195759258,
+            1.3505852213704608
+          ],
+          "selected_to_diagonal_fit_gap": [
+            0.02789360859540224,
+            0.23829419795726725
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": true,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 9
+      },
+      {
+        "tag": "sdc_corrected",
+        "narrowed": 7,
+        "worsened": 2,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            15,
+            2915
+          ],
+          "localization_coverage": [
+            0.0008183762249393998,
+            0.15821794309135312
+          ],
+          "original_row_jaccard": [
+            0.02970078270427919,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            0.13837598596301515,
+            3.5638942429974136
+          ],
+          "selected_to_diagonal_fit_gap": [
+            3.086420008457935e-13,
+            0.7601142064761346
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 1,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 1,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": false,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 8
+      },
+      {
+        "tag": "sdc_raw",
+        "narrowed": 9,
+        "worsened": 0,
+        "unavailable": 0,
+        "ranges": {
+          "sources": [
+            11,
+            2494
+          ],
+          "localization_coverage": [
+            0.0005283111793636849,
+            0.13430464836789313
+          ],
+          "original_row_jaccard": [
+            0.026690445937877928,
+            1.0
+          ],
+          "full_to_diagonal_fit_gap": [
+            0.8259671134506323,
+            6.804988714880084
+          ],
+          "selected_to_diagonal_fit_gap": [
+            2.2870594307278225e-13,
+            0.7041942503683654
+          ]
+        },
+        "residuals": [
+          {
+            "q": 0.1,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 1,
+            "unavailable_intervals": 0
+          },
+          {
+            "q": 0.15,
+            "positive_pointwise_intervals": 0,
+            "negative_pointwise_intervals": 0,
+            "unavailable_intervals": 0
+          }
+        ],
+        "all_settings_narrow": true,
+        "all_settings_worsen": false,
+        "arithmetic_boundary_arms": 0,
+        "both_frequencies_fieller_usable_arms": 7
+      }
+    ],
+    "independent_confirmation": false,
+    "physical_source_truth": false
+  },
+  "singleton_diagnostic": {
+    "narrowed": 65,
+    "worsened": 12,
+    "unavailable": 4
+  }
+}

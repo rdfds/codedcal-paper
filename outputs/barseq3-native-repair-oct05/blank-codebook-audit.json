@@ -1,0 +1,72 @@
+{
+  "kind": "Codebook-only diagnostic; no image/output outcomes used",
+  "n_classes": 1770,
+  "n_blank": 8,
+  "blank_neighbors": [
+    {
+      "names": [
+        "no_gene_23"
+      ],
+      "barcode": "AGAAAGCAAA",
+      "nearest_gene_hamming": 2,
+      "nearest_gene_classes": 2
+    },
+    {
+      "names": [
+        "no_gene_24"
+      ],
+      "barcode": "CCGATCGTTG",
+      "nearest_gene_hamming": 3,
+      "nearest_gene_classes": 6
+    },
+    {
+      "names": [
+        "no_gene_25"
+      ],
+      "barcode": "AGGCCATCCA",
+      "nearest_gene_hamming": 2,
+      "nearest_gene_classes": 1
+    },
+    {
+      "names": [
+        "no_gene_26"
+      ],
+      "barcode": "GACTTCTAAC",
+      "nearest_gene_hamming": 3,
+      "nearest_gene_classes": 5
+    },
+    {
+      "names": [
+        "no_gene_27"
+      ],
+      "barcode": "CGGAATATCC",
+      "nearest_gene_hamming": 3,
+      "nearest_gene_classes": 3
+    },
+    {
+      "names": [
+        "no_gene_28"
+      ],
+      "barcode": "CTTGTAGCGG",
+      "nearest_gene_hamming": 2,
+      "nearest_gene_classes": 2
+    },
+    {
+      "names": [
+        "no_gene_29"
+      ],
+      "barcode": "CCGTGCGTAG",
+      "nearest_gene_hamming": 2,
+      "nearest_gene_classes": 1
+    },
+    {
+      "names": [
+        "no_gene_30"
+      ],
+      "barcode": "GACATCATAA",
+      "nearest_gene_hamming": 3,
+      "nearest_gene_classes": 6
+    }
+  ],
+  "blank_proxy_limitation": "Only eight controls; exchangeability with gene-code error rates is an assumption, not molecular truth. Frozen qualification gate is unchanged."
+}

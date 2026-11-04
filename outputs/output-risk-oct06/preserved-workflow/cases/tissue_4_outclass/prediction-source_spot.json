@@ -1,0 +1,119 @@
+{
+  "decoder": "source_spot",
+  "incumbent": 3,
+  "risk": {
+    "abstained": false,
+    "identity_risk": 0.05940594059405946,
+    "composition_risk": 0.040648011782032395,
+    "flagged": true,
+    "compatible_candidates": 4,
+    "incumbent_compatible": true,
+    "ordinary_multistart_identity_disagreement": 0.810126582278481,
+    "ordinary_multistart_composition_disagreement": 0.368936961297955,
+    "unfiltered_bank_identity_disagreement": 0.8562091503267975,
+    "unfiltered_bank_composition_disagreement": 0.41476435935198824,
+    "comparisons": [
+      {
+        "index": 3,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 14,
+        "identity_loss": 0.05940594059405946,
+        "composition_tv": 0.040648011782032395,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 23,
+        "identity_loss": 0.01538461538461533,
+        "composition_tv": 0.017988638754470872,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 27,
+        "identity_loss": 0.025380710659898442,
+        "composition_tv": 0.027628865979381446,
+        "composition_undefined": false,
+        "empty_both": false
+      }
+    ],
+    "molecular_correctness_certified": false
+  },
+  "weighted_risk": {
+    "abstained": false,
+    "identity_risk": 0.015547523592656038,
+    "composition_risk": 0.010836027771933513,
+    "flagged": false,
+    "weighted_geometric_RMS": 0.009223309842157773,
+    "selection_weights": [
+      0.0,
+      0.0,
+      0.0,
+      0.724,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.254,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.01,
+      0.0,
+      0.0,
+      0.0,
+      0.012,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "molecular_correctness_certified": false,
+    "posterior_RNA_error_probability": false,
+    "ordinary_multistart_identity_disagreement": 0.810126582278481,
+    "ordinary_multistart_composition_disagreement": 0.368936961297955,
+    "unfiltered_bank_identity_disagreement": 0.8562091503267975,
+    "unfiltered_bank_composition_disagreement": 0.41476435935198824
+  },
+  "baseline_fit_loss": 0.2618058631114786,
+  "baseline_fit_gap": 0.0,
+  "baseline_decoder_confidence": null,
+  "baseline_quality": {
+    "full_catalog_calls": 97,
+    "central_coding": 97,
+    "central_negative": 0,
+    "blank_proxy": null,
+    "source_abstentions": 79,
+    "source_unsupported": 1,
+    "runtime": {
+      "elapsed_s": 0.1636776670056861
+    }
+  },
+  "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+  "incumbent_label": "author_multistart",
+  "confidence_comparator_not_recomputed": true
+}

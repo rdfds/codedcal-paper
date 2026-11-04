@@ -1,0 +1,5 @@
+method,variant,conditions,all_inherited_gates,descriptive_allow_above_nominal_only,bias_usability_or_joint_coverage_failure_union
+coded,arithmetic,144,115,121,23
+coded,geometric,144,2,126,18
+known_source,arithmetic,144,99,123,21
+known_source,geometric,144,17,129,15

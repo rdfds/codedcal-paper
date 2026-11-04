@@ -1,0 +1,29 @@
+{
+  "scope": "Restore two previously omitted immutable regression inputs without weakening tests or changing scientific outcomes.",
+  "fixtures": [
+    {
+      "path": "outputs/code-design-sep16/codebook_VA142.csv",
+      "bytes": 46191,
+      "sha256": "ff14e7b37944d7b66a73b045b57d2752fdcdbef74dba63fd8454425459680b33",
+      "source_repository": "rdfds/codedcal-research",
+      "source_revision": "2dce76f",
+      "change": "Restore omitted immutable regression fixture; no test or scientific numerical change",
+      "original_git_blob": "34f35ee76bf2246bbfbe5a9bebe48f1e257b1a06",
+      "terms": "CC BY-NC4.0, unmodified Allen Institute metadata",
+      "source_url": "https://download.brainimagelibrary.org/aa/79/aa79b8ba5b3add56/638850/1199650929/merfish_raw_data/codebook_0_wholebrain031822a_VA142.csv",
+      "license_authority": "https://api.brainimagelibrary.org/web/view?bildid=ace-den-fix",
+      "source_doi": "10.35077/g.610",
+      "fresh_source_fetch": "Timed out before any response bytes in one40-second request; not claimed as freshly source-byte verified."
+    },
+    {
+      "path": "outputs/full-evidence-audit-sep26/geometric-scope.json",
+      "bytes": 1097,
+      "sha256": "b32c578ffe68986f3330a6302c1ed2a1bd5e48c1566c14cbba0a3f8b788ef9b4",
+      "source_repository": "rdfds/codedcal-research",
+      "source_revision": "2dce76f",
+      "change": "Restore omitted immutable regression fixture; no test or scientific numerical change",
+      "original_git_blob": "5eb709147ed8610e6f6e9611f6416fde6b2b3ac1",
+      "terms": "Project-authored analytic population witness; project MIT terms"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Dense evidence tensors are retained locally and regenerable from public hashes.
+# Portable calls, numerical outcomes and tensor hashes are versioned separately.
+*.npz

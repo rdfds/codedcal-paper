@@ -1,0 +1,132 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "name": "complete physical book and all 26 parity-matched negatives",
+      "passed": true
+    },
+    {
+      "name": "physical and negative code uniqueness",
+      "passed": true
+    },
+    {
+      "name": "one color every round",
+      "passed": true
+    },
+    {
+      "name": "full-volume exact histogram",
+      "passed": true
+    },
+    {
+      "name": "minmax direct reference",
+      "passed": true
+    },
+    {
+      "name": "mapped histogram all voxels",
+      "passed": true
+    },
+    {
+      "name": "independent 64-bin LUT reference",
+      "passed": true
+    },
+    {
+      "name": "monotone finite no-more-than-64 levels",
+      "passed": true
+    },
+    {
+      "name": "3D FFT axis/sign (0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "exact 3D inverse interior (0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "3D FFT axis/sign (1, 3, -2)",
+      "passed": true
+    },
+    {
+      "name": "exact 3D inverse interior (1, 3, -2)",
+      "passed": true
+    },
+    {
+      "name": "3D FFT axis/sign (-2, -4, 3)",
+      "passed": true
+    },
+    {
+      "name": "exact 3D inverse interior (-2, -4, 3)",
+      "passed": true
+    },
+    {
+      "name": "metadata clockwise rotation axes",
+      "passed": true
+    },
+    {
+      "name": "complete-book synthetic recovery source_spot",
+      "passed": true
+    },
+    {
+      "name": "complete-book synthetic recovery correlation",
+      "passed": true
+    },
+    {
+      "name": "complete-book synthetic recovery regression",
+      "passed": true
+    },
+    {
+      "name": "dim ROI uses full-reference threshold, not cropped maximum",
+      "passed": true
+    }
+  ],
+  "synthetic": [
+    {
+      "decoder": "source_spot",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 0.11036962500656955,
+        "candidates": 60,
+        "declared_qscore_not_applied": true
+      }
+    },
+    {
+      "decoder": "correlation",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 0.21991729200817645,
+        "elapsed_s": 1.03731495901593,
+        "absolute_cut": 0.775,
+        "density_max": 0.9799959063529968,
+        "density_sha256": "0387d3d2c504b3e7a9a79f333a5e7d8cfb4dc3fe6bf1abaa37e7bd4232574923"
+      }
+    },
+    {
+      "decoder": "regression",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 318.4278593749914,
+        "elapsed_s": 319.24712670900044,
+        "absolute_cut": 1.193732738494873,
+        "density_max": 5.968663692474365,
+        "density_sha256": "49b51fbe9312d779810fbf5de6d4cfe904288d5909c08e1f170a0d75a98fa2f8"
+      },
+      "reuse": {
+        "reason": "native kernel/book AST and synthetic generation unchanged; source threshold and FFT allocation repair only",
+        "original_control_sha256": "e5c486a37477e26b1d406aaa9c37a34aab4b8028f8fa67e8cf677e18a8172dde",
+        "actual_execution_kernel_s": 0
+      }
+    }
+  ],
+  "seed": 61006,
+  "intensity_pixels_examined": false,
+  "adapter_sha256": "f27aa31649ac6d7eeacadc0598300ed7271614f6a1fb7c5e82cebd8685e838f6",
+  "script_sha256": "29d375e5b80af69a729cdeeaa1e18e8364d1323d0cdfce3a8ebf913904246d50"
+}

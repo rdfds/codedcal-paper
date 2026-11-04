@@ -1,0 +1,888 @@
+{
+  "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/main?recursive=1",
+  "status": 200,
+  "body": {
+    "sha": "32df2c4793b8ab0534b73cc56a506ae16d4048a8",
+    "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/32df2c4793b8ab0534b73cc56a506ae16d4048a8",
+    "tree": [
+      {
+        "path": ".DS_Store",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1ed5681419d6895e150b5e1b8eaa585b1a69398",
+        "size": 10244,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/f1ed5681419d6895e150b5e1b8eaa585b1a69398"
+      },
+      {
+        "path": "BARseq3_pipeline",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8c62e2f20446f1384954c13867d16e7c756e2846",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/8c62e2f20446f1384954c13867d16e7c756e2846"
+      },
+      {
+        "path": "BARseq3_pipeline/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9615c816ac0aa6be3fb553a93be1bce48441c4d9",
+        "size": 215,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/9615c816ac0aa6be3fb553a93be1bce48441c4d9"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ac3b2c2b83f5775e0183431429ab5e4b658a7653",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/ac3b2c2b83f5775e0183431429ab5e4b658a7653"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/Analysis_pipeline_for_barcodes.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "add2992d2b2adf8c5971f20243ddc0073af449aa",
+        "size": 45457,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/add2992d2b2adf8c5971f20243ddc0073af449aa"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq2_Barcode.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6357b248448b9dd477d4d3e57e75fed4e2d97bd",
+        "size": 43365,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a6357b248448b9dd477d4d3e57e75fed4e2d97bd"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq2_barcode_gene.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "272196c75a17b41f6ecbb67df7d762c94f4a7611",
+        "size": 2582,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/272196c75a17b41f6ecbb67df7d762c94f4a7611"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq2_gene_codebook.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2e8eadfd9c7472c17799c81427eceabfb99c7bd",
+        "size": 94,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b2e8eadfd9c7472c17799c81427eceabfb99c7bd"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq2_non_barcode_gene_only.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cedf656f12c967fb87573d5672f0f068cdba3c33",
+        "size": 2592,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/cedf656f12c967fb87573d5672f0f068cdba3c33"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq3_Barcode.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f80876e12a905c9000bb07645220db321afe128d",
+        "size": 43342,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/f80876e12a905c9000bb07645220db321afe128d"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq3_barcode_gene.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33fc563edc5629c25a1b4c69cb1000105bd91a46",
+        "size": 2592,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/33fc563edc5629c25a1b4c69cb1000105bd91a46"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq3_gene_codebook.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cbb451d535b090d2d556319334616039eedb2568",
+        "size": 91,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/cbb451d535b090d2d556319334616039eedb2568"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/BARseq3_non_barcode_gene_only.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b38cfe7a6a19ee53c17adcbc74f6f2dd3d86a06a",
+        "size": 2586,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b38cfe7a6a19ee53c17adcbc74f6f2dd3d86a06a"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/Batch_process.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2cded3b30bde1d04d2570f9471e45a98d2767cab",
+        "size": 2288,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/2cded3b30bde1d04d2570f9471e45a98d2767cab"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4cb1f60a94d6461ba3423f1a85f0ead7f6a87f44",
+        "size": 9388,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/4cb1f60a94d6461ba3423f1a85f0ead7f6a87f44"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/Thumbs.db",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46f8951100a901e6c169986f62b11adcf5c060ee",
+        "size": 74240,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/46f8951100a901e6c169986f62b11adcf5c060ee"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3ecaeb91e71896cb9b6704f0b50c89dadeb477a0",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/3ecaeb91e71896cb9b6704f0b50c89dadeb477a0"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/cell_segmentation.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aaf29927ec6a1b917f4eb1f71858e6bbf6b312e5",
+        "size": 11482,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/aaf29927ec6a1b917f4eb1f71858e6bbf6b312e5"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/cell_segmentation.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83be36871504214b5be2a891a0ddd22eb4bc5bea",
+        "size": 9211,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/83be36871504214b5be2a891a0ddd22eb4bc5bea"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/file_operation.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b645c5ea15dc8fba61e65a713591a6f6d239dc3a",
+        "size": 1367,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b645c5ea15dc8fba61e65a713591a6f6d239dc3a"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/file_operation.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53809237f3a329a9b58a8b7f0b07b177039f798e",
+        "size": 753,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/53809237f3a329a9b58a8b7f0b07b177039f798e"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/gene_calling.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "82ff254e85383135335f15c75ae701cef9b0bc61",
+        "size": 10163,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/82ff254e85383135335f15c75ae701cef9b0bc61"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/gene_calling.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "92bde68a91805b884e0803303505be6b33d55bbc",
+        "size": 4135,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/92bde68a91805b884e0803303505be6b33d55bbc"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/image_stitching.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "98c177ebf57125fbde2bedb1d63a9bca4b9a96b9",
+        "size": 14318,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/98c177ebf57125fbde2bedb1d63a9bca4b9a96b9"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/image_stitching.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d5e1745b3b036fc10409ad9f262d94c59c7c6fe1",
+        "size": 6635,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/d5e1745b3b036fc10409ad9f262d94c59c7c6fe1"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/preprocessing.cpython-311.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b375215cacb81eb835ced71436dd4b1900134dd5",
+        "size": 11704,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b375215cacb81eb835ced71436dd4b1900134dd5"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/__pycache__/preprocessing.cpython-39.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3c0a65913ec86e0d8e4448a757861947353457da",
+        "size": 5224,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/3c0a65913ec86e0d8e4448a757861947353457da"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/empty.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/environment.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1acc93b8df6f982c103d097b7544790248f55755",
+        "size": 5817,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/1acc93b8df6f982c103d097b7544790248f55755"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/remove_overlap_mp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "efffe9b5a7d3b3eb70ae28742472ae86f4420969",
+        "size": 1089,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/efffe9b5a7d3b3eb70ae28742472ae86f4420969"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3c1a7d18a82521fb2d2908274a3599619e933c16",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/3c1a7d18a82521fb2d2908274a3599619e933c16"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/align_channels.ijm",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3edf48fcead0e9dbb09162b9ccc99e3fe28a0d2e",
+        "size": 2326,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/3edf48fcead0e9dbb09162b9ccc99e3fe28a0d2e"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/align_dapi.ijm",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f040600a2de781dc6adc1f6de447c8bc46bc15bc",
+        "size": 1415,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/f040600a2de781dc6adc1f6de447c8bc46bc15bc"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/align_rounds.ijm",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "76bef05b7b9d8c605ee2c15e42c3c608fad780bf",
+        "size": 2967,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/76bef05b7b9d8c605ee2c15e42c3c608fad780bf"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/cell_segmentation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "83857dda21d72df58c3c5055187f269be90afe5c",
+        "size": 24214,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/83857dda21d72df58c3c5055187f269be90afe5c"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/cell_segmentation_mouse_pre.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c3086c0472c13021809445c9e96b4c3dbbb63377",
+        "size": 21787,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/c3086c0472c13021809445c9e96b4c3dbbb63377"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "45994ea96945e864126e7efa057bd674fea55014",
+        "size": 8691,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/45994ea96945e864126e7efa057bd674fea55014"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/gene_calling.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "715e50bacdac1f886a0cd08a25a7cd3efa54505e",
+        "size": 14163,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/715e50bacdac1f886a0cd08a25a7cd3efa54505e"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/gene_calling_edit.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd5d22b0b0eaf07bb2b98c8c30bec5057b69dbaf",
+        "size": 17848,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/bd5d22b0b0eaf07bb2b98c8c30bec5057b69dbaf"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/gene_calling_no_use.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f86c56bd7a82e692408f69ed2c8834e8c2d91a64",
+        "size": 19772,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/f86c56bd7a82e692408f69ed2c8834e8c2d91a64"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/io.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e984ad6b57e9e2c72339394505349088f4b662bc",
+        "size": 13336,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/e984ad6b57e9e2c72339394505349088f4b662bc"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/pipeline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6c6f6c4d2c0d55cc172fec2a1d759637943e96af",
+        "size": 30988,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/6c6f6c4d2c0d55cc172fec2a1d759637943e96af"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap/preprocessing.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7952f14be9f06295cd976d9303881bf093d976e1",
+        "size": 55318,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/7952f14be9f06295cd976d9303881bf093d976e1"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap_pipeline.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b4bd56eb4431510615d0e20c4278f623099a8f1",
+        "size": 3398,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/6b4bd56eb4431510615d0e20c4278f623099a8f1"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap_pipeline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3756b4129f1ecde4da466f58b21bbfb9fa95c17b",
+        "size": 2736,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/3756b4129f1ecde4da466f58b21bbfb9fa95c17b"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap_pipeline_run_example_dataset.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7db149899920bef12d66df3687034e279c55097a",
+        "size": 100540,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/7db149899920bef12d66df3687034e279c55097a"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap_pipeline_run_example_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdf03254ee9ec721b97a59a53e38e8c0d8098672",
+        "size": 2087,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/bdf03254ee9ec721b97a59a53e38e8c0d8098672"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap_pipeline_test.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "46588497ff5e5d2e2d5f6b5950566b63c7a0b589",
+        "size": 15776610,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/46588497ff5e5d2e2d5f6b5950566b63c7a0b589"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_barcode_raw_image_pipeline/starmap_qc.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "980a2205ef6f89ae65d06f3ac1e05e2bc31bfcb2",
+        "size": 2193264,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/980a2205ef6f89ae65d06f3ac1e05e2bc31bfcb2"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "73e29ee52902b1bb8271fbb3d4a63290049b8a8b",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/73e29ee52902b1bb8271fbb3d4a63290049b8a8b"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/.DS_Store",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b1b2029e90682046bc77dc39701bd61e7caaed0a",
+        "size": 6148,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b1b2029e90682046bc77dc39701bd61e7caaed0a"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfb1cbafd518c4e5475d160f0ddbe621891b8b2c",
+        "size": 8061,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/dfb1cbafd518c4e5475d160f0ddbe621891b8b2c"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/Snakefile_nopatch",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d98023531468e37c737b606671f736f69bed1484",
+        "size": 74636,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/d98023531468e37c737b606671f736f69bed1484"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/config.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fb660196cdb2496fad55fb257329240711b7599",
+        "size": 1073,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/9fb660196cdb2496fad55fb257329240711b7599"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/environment.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1acc93b8df6f982c103d097b7544790248f55755",
+        "size": 5817,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/1acc93b8df6f982c103d097b7544790248f55755"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/profile",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bdf245fa2afbe5838c34940f4188f2fed95504b0",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/bdf245fa2afbe5838c34940f4188f2fed95504b0"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/profile/config.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b76b3b6d0c583e4ef9e3b4249fed63581e63a470",
+        "size": 4640,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b76b3b6d0c583e4ef9e3b4249fed63581e63a470"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/run_starmap_snakemake_nohup.sh",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "292023400ec0549f2bd91083b04fe75f2f729dc2",
+        "size": 858,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/292023400ec0549f2bd91083b04fe75f2f729dc2"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/snakemake_output_p0_test.log",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be45d499e686ecc5f690aac53c4c45b1ba2ca674",
+        "size": 434596,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/be45d499e686ecc5f690aac53c4c45b1ba2ca674"
+      },
+      {
+        "path": "BARseq3_pipeline/gene_only_raw_image_pipeline/starmap_qc.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "980a2205ef6f89ae65d06f3ac1e05e2bc31bfcb2",
+        "size": 2193264,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/980a2205ef6f89ae65d06f3ac1e05e2bc31bfcb2"
+      },
+      {
+        "path": "Figure2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "41ad66871188b6570f0e05c5acd4df74fd2a9a71",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/41ad66871188b6570f0e05c5acd4df74fd2a9a71"
+      },
+      {
+        "path": "Figure2/Fig.2E",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "93f8daee1b30bb57ea9921008339ad995226dccc",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/93f8daee1b30bb57ea9921008339ad995226dccc"
+      },
+      {
+        "path": "Figure2/Fig.2E/BARseq2_Barcoded_cell_gad1_vglut1.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "746dc99a8057fc7b1365bce90045171401704800",
+        "size": 12484,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/746dc99a8057fc7b1365bce90045171401704800"
+      },
+      {
+        "path": "Figure2/Fig.2E/BARseq2_Barcodelist.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d488f20d241f167d53f101743d94c0b6b0024464",
+        "size": 286959,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/d488f20d241f167d53f101743d94c0b6b0024464"
+      },
+      {
+        "path": "Figure2/Fig.2E/BARseq2_cell_gene_classification.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ba91f379eb1e4adfe0cb09f9f5abb13d7773844a",
+        "size": 195553,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/ba91f379eb1e4adfe0cb09f9f5abb13d7773844a"
+      },
+      {
+        "path": "Figure2/Fig.2E/BARseq3_Barcoded_cell_Gad1_Vglut1.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "307e60731b47c91cd96c7ba3c43d11cdef7ac786",
+        "size": 13313,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/307e60731b47c91cd96c7ba3c43d11cdef7ac786"
+      },
+      {
+        "path": "Figure2/Fig.2E/BARseq3_Barcodelist.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53a2314626736f5c4ec53b7adfcff5f39119d9ab",
+        "size": 1178837,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/53a2314626736f5c4ec53b7adfcff5f39119d9ab"
+      },
+      {
+        "path": "Figure2/Fig.2E/BARseq3_cell_gene_classification.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d6d489c9011e345e6552ebf1220c534149f3f69",
+        "size": 643695,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/5d6d489c9011e345e6552ebf1220c534149f3f69"
+      },
+      {
+        "path": "Figure2/Fig.2E/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "afeb6e08b37258673f8cfb822ca7d7baf5a984da",
+        "size": 734,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/afeb6e08b37258673f8cfb822ca7d7baf5a984da"
+      },
+      {
+        "path": "Figure2/Fig.2E/cell-type classfication.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1543e69d4c4c8e922bc3b7ee7d6294098a77bb4b",
+        "size": 2656,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/1543e69d4c4c8e922bc3b7ee7d6294098a77bb4b"
+      },
+      {
+        "path": "Figure2/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f35c265be55a35ec55bce789b2b25569fea94d9",
+        "size": 184,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/0f35c265be55a35ec55bce789b2b25569fea94d9"
+      },
+      {
+        "path": "Figure2/Specificity_experiments",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "535b23d2f3cf171a77b3a7d47e0e8238ba0e3e5b",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/535b23d2f3cf171a77b3a7d47e0e8238ba0e3e5b"
+      },
+      {
+        "path": "Figure2/Specificity_experiments/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01e8bd39500581d7d8d84547ff02caac8368a10b",
+        "size": 637,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/01e8bd39500581d7d8d84547ff02caac8368a10b"
+      },
+      {
+        "path": "Figure2/Specificity_experiments/pcp2_cereb_slice_replicate_ttests.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44b5b6d0f2d10bfb50633b56cce96fb0faeda452",
+        "size": 5881,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/44b5b6d0f2d10bfb50633b56cce96fb0faeda452"
+      },
+      {
+        "path": "Figure2/Specificity_experiments/pcp2_normlog_cereb_all_cells_plot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dfe17560b7f92123f81e63d22c897299bfd0d972",
+        "size": 7129,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/dfe17560b7f92123f81e63d22c897299bfd0d972"
+      },
+      {
+        "path": "Figure2/Specificity_experiments/pcp2_normlog_condition_plots.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d423bde48833fed97c4b398eff3aef34f8d320a7",
+        "size": 14333,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/d423bde48833fed97c4b398eff3aef34f8d320a7"
+      },
+      {
+        "path": "Figure2/Specificity_experiments/pcp2_slice_replicate_ratio_normlog_plot.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "06cb3dc3e0efcc94879930ab30e3fa2b30a37fed",
+        "size": 15107,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/06cb3dc3e0efcc94879930ab30e3fa2b30a37fed"
+      },
+      {
+        "path": "Figure3",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "df819f7933f0280ec0653b403c7b60a2071dcc55",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/df819f7933f0280ec0653b403c7b60a2071dcc55"
+      },
+      {
+        "path": "Figure3/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4d5305fe96279934869d3b2701f0873d06e39fd",
+        "size": 77,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b4d5305fe96279934869d3b2701f0873d06e39fd"
+      },
+      {
+        "path": "Figure3/processed_data_figures.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2bc61c7bc1c811d358ae054668b6140aaec3e16b",
+        "size": 11714432,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/2bc61c7bc1c811d358ae054668b6140aaec3e16b"
+      },
+      {
+        "path": "Figure3/raw_data_figures.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4da6db864b5538c75ce1dd4354339977c8cb1213",
+        "size": 6562976,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/4da6db864b5538c75ce1dd4354339977c8cb1213"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a785104f30c6369f41f342224f86e9e2568c6413",
+        "size": 1203,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a785104f30c6369f41f342224f86e9e2568c6413"
+      },
+      {
+        "path": "supplemental_figures",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8cb6967dba8809cd23faf136e638daa9ed2bb996",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/8cb6967dba8809cd23faf136e638daa9ed2bb996"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0576df920e8c752186618507be565f8b27afe9c6",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/0576df920e8c752186618507be565f8b27afe9c6"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3fef9e01caad41543a49d7d8ace8300e04f96b07",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/3fef9e01caad41543a49d7d8ace8300e04f96b07"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Barcoded Cell",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b8a31a0adb6fd466355ab5b40853da1c44970c0e",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/b8a31a0adb6fd466355ab5b40853da1c44970c0e"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Barcoded Cell/BARseq2_Barcoded_cell_gad1_vglut1.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "746dc99a8057fc7b1365bce90045171401704800",
+        "size": 12484,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/746dc99a8057fc7b1365bce90045171401704800"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Barcoded Cell/Scatter_plot.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a56e1c5b36c4a5725e2f28a805a354f7442dca2b",
+        "size": 36919,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a56e1c5b36c4a5725e2f28a805a354f7442dca2b"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Non-barcoded Cell",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2d5f9a2cfe27d0582dd38671e147667b447205e4",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/2d5f9a2cfe27d0582dd38671e147667b447205e4"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Non-barcoded Cell/BARseq2_non_barcoded_cell_Vglut1_Gad1.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "edd97458b56d95ac203410a81a0898a493842afb",
+        "size": 44505,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/edd97458b56d95ac203410a81a0898a493842afb"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Non-barcoded Cell/Scatter_plot.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a56e1c5b36c4a5725e2f28a805a354f7442dca2b",
+        "size": 36919,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a56e1c5b36c4a5725e2f28a805a354f7442dca2b"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Non-barcoded Cell/cell-type classfication.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1543e69d4c4c8e922bc3b7ee7d6294098a77bb4b",
+        "size": 2656,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/1543e69d4c4c8e922bc3b7ee7d6294098a77bb4b"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Non-barcoded Cell/cell_gene_classification.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75f40f622725d7fe503393cf12f3010e4d71485a",
+        "size": 2815272,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/75f40f622725d7fe503393cf12f3010e4d71485a"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq2/Non-barcoded Cell/gene_mapped.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65f760de0e4319f20101dcd14ba11e3b447fb568",
+        "size": 4102066,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/65f760de0e4319f20101dcd14ba11e3b447fb568"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "aeb26bad26d2deaf237e82509fd97209d932e504",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/aeb26bad26d2deaf237e82509fd97209d932e504"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Barcoded cell",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fe9c61da0c8fc1035dcb7fb2b384ad3beb467190",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/fe9c61da0c8fc1035dcb7fb2b384ad3beb467190"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Barcoded cell/BARseq3_Barcoded_cell_Gad1_Vglut1.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "307e60731b47c91cd96c7ba3c43d11cdef7ac786",
+        "size": 13313,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/307e60731b47c91cd96c7ba3c43d11cdef7ac786"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Barcoded cell/Scatter_plot.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a56e1c5b36c4a5725e2f28a805a354f7442dca2b",
+        "size": 36919,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a56e1c5b36c4a5725e2f28a805a354f7442dca2b"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Non_Barcoded cell",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "3fa1b597debf1d76375c72918dec6d0e98569a6c",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/3fa1b597debf1d76375c72918dec6d0e98569a6c"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Non_Barcoded cell/BARseq3_non_barcoded_cell_Gad1_Vglut1.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a5db6c1b3b01e1a8a31a1507235a1e447d4b4ca3",
+        "size": 40898,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a5db6c1b3b01e1a8a31a1507235a1e447d4b4ca3"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Non_Barcoded cell/Scatter_plot.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a56e1c5b36c4a5725e2f28a805a354f7442dca2b",
+        "size": 36919,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/a56e1c5b36c4a5725e2f28a805a354f7442dca2b"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Non_Barcoded cell/cell-type classfication.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1543e69d4c4c8e922bc3b7ee7d6294098a77bb4b",
+        "size": 2656,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/1543e69d4c4c8e922bc3b7ee7d6294098a77bb4b"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Non_Barcoded cell/cell_gene_classification.xlsx",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43f0a2c7b4267af2796524d8be72fc9f4ec2ffff",
+        "size": 4880141,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/43f0a2c7b4267af2796524d8be72fc9f4ec2ffff"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/BARseq3/Non_Barcoded cell/gene_mapped.csv",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e743565a5ca411d6645e0bde8634bcbedfa4ab88",
+        "size": 7611003,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/e743565a5ca411d6645e0bde8634bcbedfa4ab88"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "568618a245d7cdb714b5cc1c96d6fdd1adddd111",
+        "size": 1552,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/568618a245d7cdb714b5cc1c96d6fdd1adddd111"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig1/Supplemental_figure1_intensity_across_rounds.ipynb",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e8bfd5f10e0046625fed733eff13988f87dff520",
+        "size": 51333,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/e8bfd5f10e0046625fed733eff13988f87dff520"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig3",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "05604860810e8571897a49bf58195ca3f1f1db06",
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/trees/05604860810e8571897a49bf58195ca3f1f1db06"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig3/README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b692d426b0547573d2cd5f7533a86060eef6285",
+        "size": 415,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/5b692d426b0547573d2cd5f7533a86060eef6285"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig3/images_pooled_barseq_analysis.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b2aaa1c588927a02a29c439830bfbb5bfb40f1d6",
+        "size": 61467,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/b2aaa1c588927a02a29c439830bfbb5bfb40f1d6"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig3/refresh_malat1_signal_over_noise.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e68bbe6bda3ef19eeabcf61e15c806a7c73629e0",
+        "size": 4626,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/e68bbe6bda3ef19eeabcf61e15c806a7c73629e0"
+      },
+      {
+        "path": "supplemental_figures/Supp_Fig3/replicate_barseq_analysis.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f1ed5940e38059e3407353fe784d93d75482aa6",
+        "size": 56341,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/3f1ed5940e38059e3407353fe784d93d75482aa6"
+      },
+      {
+        "path": "supplemental_figures/empty.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/kebschulllab/BARseq3/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      }
+    ],
+    "truncated": false
+  }
+}

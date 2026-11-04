@@ -1,0 +1,95 @@
+"""Synthetic/source controls only; source pixel arrays are never read here."""
+import argparse
+import ast
+import hashlib
+import importlib.metadata as metadata
+import json
+from pathlib import Path
+import subprocess
+import numpy as np
+from scipy.ndimage import gaussian_filter
+import adapter as A
+
+def main(reuse_regression=False):
+    records=[]
+    def check(name, assertion):
+        assert assertion,name
+        records.append(dict(name=name,passed=True))
+    codes,negative,names,words=A.book()
+    check('complete physical book and all 26 parity-matched negatives',codes.shape==(24,1024) and negative.sum()==26)
+    check('physical and negative code uniqueness',len(set(words))==1024)
+    check('one color every round',np.all(codes.reshape(6,4,1024).sum(axis=1)==1))
+    rng=np.random.default_rng(61006)
+    raw=rng.integers(4,196,(3,13,17),dtype=np.uint8)
+    counts=A.histogram(raw);check('full-volume exact histogram',np.array_equal(counts,np.bincount(raw.ravel(),minlength=256)))
+    lut=A.minmax_lut(counts)
+    direct=np.floor(np.clip((np.arange(256)-raw.min())/(float(raw.max())-float(raw.min())),0,1)*255+.5).astype(np.uint8)
+    check('minmax direct reference',np.array_equal(lut,direct))
+    mapped=A.mapped_hist(counts,lut)
+    check('mapped histogram all voxels',np.array_equal(mapped,np.bincount(lut[raw].ravel(),minlength=256)))
+    reference=np.arange(1,257,dtype=np.int64)
+    matching=A.matching_lut(mapped,reference)
+    refbins=np.zeros(64);cdf=np.cumsum(mapped)/mapped.sum()
+    for v,n in enumerate(reference):refbins[int(np.floor(v*63/255+.5))]+=n
+    target=np.cumsum(refbins)/refbins.sum()
+    expected=np.array([int(np.floor(min(range(64),key=lambda j:abs(p-target[j]))*255/63+.5)) for p in cdf],np.uint8)
+    check('independent 64-bin LUT reference',np.array_equal(matching,expected))
+    check('monotone finite no-more-than-64 levels',np.all(np.diff(matching.astype(int))>=0) and len(np.unique(matching))<=64)
+    blob=np.zeros((11,33,35),np.float32);blob[5,12,15]=1;blob[3,20,22]=.7
+    blob=gaussian_filter(blob,1)
+    for shift in [(0,0,0),(1,3,-2),(-2,-4,3)]:
+        moved=A.integer_warp(blob,shift);got=A.register(A.spectrum(blob),moved)
+        check('3D FFT axis/sign '+str(shift),np.array_equal(got,-np.array(shift)))
+        direct=A.integer_warp(moved,got)
+        check('exact 3D inverse interior '+str(shift),np.array_equal(direct[3:8,8:25,8:27],blob[3:8,8:25,8:27]))
+    axis=np.zeros((3,5,7),np.uint8);axis[1,2,4]=1
+    rotated=np.rot90(axis,k=-1,axes=(1,2));check('metadata clockwise rotation axes',rotated.shape==(3,7,5) and rotated[1,4,2]==1)
+    genes=rng.choice(998,60,replace=False)
+    centers=np.array([(y,x) for y in range(29,100,10) for x in range(29,100,10)])[:60]
+    images=np.zeros((24,30,128,128),np.float32)
+    for gene,(y,x) in zip(genes,centers):
+        for r,c in enumerate(words[gene]):images[r*4+c,14,y,x]=1
+    images=gaussian_filter(images,sigma=(0,.7,1.,1.))
+    images/=images.max()
+    outcomes=[]
+    for decoder in A.DECODERS:
+        if decoder=='regression' and reuse_regression:
+            prior=A.HERE/'initial-controls'
+            old=ast.parse((prior/'adapter.py.txt').read_text());new=ast.parse((A.HERE/'adapter.py').read_text())
+            for function in ['decode','book']:
+                extract=lambda tree:ast.dump(next(n for n in tree.body if isinstance(n,ast.FunctionDef) and n.name==function))
+                assert extract(old)==extract(new),'Changed native kernel interface cannot reuse control'
+            fragment=lambda text:text[text.index('    rng=np.random.default_rng(61006)'):text.index('    outcomes=[]')]
+            assert fragment((prior/'check_adapter.py.txt').read_text())==fragment(Path(__file__).read_text()),'Changed synthetic generation cannot reuse control'
+            previous=json.loads((prior/'controls.json').read_text());assert previous['passed']
+            result=next(r for r in previous['synthetic'] if r['decoder']=='regression').copy()
+            result['reuse']=dict(reason='native kernel/book AST and synthetic generation unchanged; source threshold and FFT allocation repair only',original_control_sha256=A.sha(prior/'controls.json'),actual_execution_kernel_s=0)
+            outcomes.append(result);check('complete-book synthetic recovery regression',result['f1']>=.99 and result['negative']==0)
+            print('REUSED unchanged regression synthetic control',result,flush=True);continue
+        xy,calls,runtime=A.decode(images,codes,decoder)
+        lookup={(float(x),float(y)):int(j) for (y,x),j in zip(centers,genes)}
+        correct=sum(lookup.get(tuple(point))==int(j) for point,j in zip(xy,calls))
+        f1=2*correct/(len(genes)+len(calls));nnegative=int(negative[calls].sum())
+        result=dict(decoder=decoder,coding=int((~negative[calls]).sum()),negative=nnegative,correct=correct,f1=f1,runtime=runtime)
+        outcomes.append(result);print('CONTROL',decoder,result,flush=True)
+        A.write(A.HERE/'controls.json',dict(passed=False,records=records,synthetic=outcomes,seed=61006,adapter_sha256=A.sha(A.HERE/'adapter.py')))
+        check('complete-book synthetic recovery '+decoder,f1>=.99 and nnegative==0)
+    dim=np.zeros_like(images)
+    for r,c in enumerate(words[0]):dim[r*4+c,14,64,64]=.19
+    _,calls,_=A.source_decode(dim,codes)
+    check('dim ROI uses full-reference threshold, not cropped maximum',len(calls)==0)
+    result=dict(passed=True,records=records,synthetic=outcomes,seed=61006,intensity_pixels_examined=False,adapter_sha256=A.sha(A.HERE/'adapter.py'),script_sha256=A.sha(__file__))
+    A.write(A.HERE/'controls.json',result)
+    files=[A.HERE/'adapter.py',A.HERE/'check_adapter.py',A.HERE/'ADAPTER_PROTOCOL.md',A.HERE/'controls.json',A.AUDIT/'starfinder-color-codebooks.json',A.AUDIT/'starfinder-culture-retrieval.json',A.AUDIT/'starfinder-retrieval-verification.json']
+    files+=list((A.AUDIT/'starfinder-author-source/code-base/src').glob('*.m'))
+    files+=list((A.HERE.parent/'barseq3-native-repair-oct05').glob('*.py'))
+    files+=[A.HERE/'source-verification.json']
+    if reuse_regression:files+=list((A.HERE/'initial-controls').glob('*'))
+    upstream=A.ROOT.parent/'bardensr-upstream.nosync'
+    assert subprocess.check_output(['git','rev-parse','HEAD'],cwd=upstream,text=True).strip()=='dfdafe9055be322b286369d21e3349204c1f6fc3'
+    subprocess.run(['git','diff','--quiet','HEAD','--','bardensr'],cwd=upstream,check=True)
+    A.write(A.HERE/'freeze.json',dict(files={str(p.relative_to(A.ROOT)):A.sha(p) for p in files},upstream_files={str(p.relative_to(A.ROOT.parent)):A.sha(p) for p in (upstream/'bardensr').rglob('*.py')},versions={p:metadata.version(p) for p in ['numpy','scipy','scikit-image','tifffile','tensorflow','keras']},source_commit='d6a1e2e0d88a04676d26ad17bf5d20a4ff895161',adapter_scope='global 3D source-family with explicit histogram port; central-plane endpoints; native qualification only',independent_study_frozen=False,freeze_before_intensity=True,git_head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=A.ROOT,text=True).strip()))
+    print('PASSED',len(records),'controls; three native kernels; candidate intensities unopened',flush=True)
+
+if __name__=='__main__':
+    parser=argparse.ArgumentParser();parser.add_argument('--reuse-regression',action='store_true');args=parser.parse_args();main(args.reuse_regression)

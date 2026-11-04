@@ -1,0 +1,684 @@
+{
+  "pid": 21513,
+  "command": "research/workflow-qualification-nov01/fetch_fullfield_context.py",
+  "stage": "ready_for_native_conditioning",
+  "requests": 32,
+  "transport_bytes": 124246528,
+  "records": [
+    {
+      "id": 12555727,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "940f522dd601a480acc418de93e308c0",
+      "stage": "pinned",
+      "status": 412,
+      "retry_after": null,
+      "error": "HTTP Error 412: Precondition Failed"
+    },
+    {
+      "stage": "verified_header_cache_reuse",
+      "id": 12555727,
+      "bytes": 512,
+      "source_sha256": "789ec328128d3d376a5d1bd2ddf09f8d765435130b2a1f5877e0907cd5391aa5",
+      "etag": "\"a9d4cb2e90dc6473168340f969e429b5-4\""
+    },
+    {
+      "id": 12555727,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:31 GMT",
+        "ETag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "d121a21aa84ef666a1697a846cc3faaa99a6a2ec5a69b873686209090687404a"
+    },
+    {
+      "id": 12555727,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:31 GMT",
+        "ETag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "c3636ca6a609375d2764f6cb6039db4243a3ac1ec6b03ec30a9243c0c91571f1"
+    },
+    {
+      "id": 12555727,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:31 GMT",
+        "ETag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "071739e3ccdeda8b8ae347b5633bdfe797c217cbcdf393379278f6f94759b7d1"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555727,
+      "round": 1,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-01.npz",
+      "sha256": "43f57c4e28e423a06bc9d0328c5571c7030a2e56f53db7d0a2b1999af6d2aa92",
+      "source_whole_md5_verified_previously": "940f522dd601a480acc418de93e308c0"
+    },
+    {
+      "id": 12555679,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555679",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:45 GMT",
+        "ETag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "1f37e52605bea7aabac97f04da2ad0eab191ba783594dd7134771a42e77e08ae"
+    },
+    {
+      "id": 12555679,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555679",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:45 GMT",
+        "ETag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "e0fa86e356abcb7ec7cf37594cfdc186f8e127b343600a61a8ddc743e6f6d8f6"
+    },
+    {
+      "id": 12555679,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555679",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:45 GMT",
+        "ETag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "a1b573eb6870b1fc7bc81a14deb08674105f742f1dcb72bbeeb507e2d94eb8df"
+    },
+    {
+      "id": 12555679,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555679",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:45 GMT",
+        "ETag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "731ff93b421b7f983305606b8f7aed0aeba8915c2e9919238ae0bd34b6948dcb"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555679,
+      "round": 2,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-02.npz",
+      "sha256": "be189865e41de18d4f06d593efe496d5ba7e041308bb1b2689e6d75382208432",
+      "source_whole_md5_verified_previously": "3c88677d80c83998864f26912dd664cd"
+    },
+    {
+      "id": 12555622,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555622",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "6306f3b1f3668695ef3d6732a5d15bb96d433db6e036eedec37fa49338ba4c25"
+    },
+    {
+      "id": 12555622,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555622",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "bd077671d2b29e216a902786b08fa505cd8ee075c65993b01ea0730c5f23a6f9"
+    },
+    {
+      "id": 12555622,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555622",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "fbca35c665b99a9da257ac26f0514f6cda621cdd82e20254ac66179daaa30c43"
+    },
+    {
+      "id": 12555622,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555622",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "d247298cc57e5c09e89a9d906fab9bfbc26e1e41d821999b27b41646719c0bc3"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555622,
+      "round": 3,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-03.npz",
+      "sha256": "8e20ae0f8953b8e1085a91451f03632cadc4994470137945817af9a9e596c8f6",
+      "source_whole_md5_verified_previously": "cc312eb920ef9aba556c62563dcd7892"
+    },
+    {
+      "id": 12555714,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555714",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:14 GMT",
+        "ETag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "a2ce07f2c17a4d6d2f720f617557323e886a4769ecba1cbcc6a1845e0722b808"
+    },
+    {
+      "id": 12555714,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555714",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:14 GMT",
+        "ETag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "c0fd6bf137c2d1976948df63d1d2dbd338713b10f9d04eaf47acb2b8efc8f94f"
+    },
+    {
+      "id": 12555714,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555714",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:14 GMT",
+        "ETag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "427540ca402c4d90b38e08ea1d02a2cac1c4eaa5a7271372378d6918d2664137"
+    },
+    {
+      "id": 12555714,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555714",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:14 GMT",
+        "ETag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "108d83d8a5d98c045b19e5af4cd15c9ff390afa93fe81241642afc195ea87ed5"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555714,
+      "round": 4,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-04.npz",
+      "sha256": "d05efdc2c3cf9ab6e508085ba6f6b5b6d7a970df3cc31089f7fe2dd67e557359",
+      "source_whole_md5_verified_previously": "931b109bb53fc94a1651a7740bbe4386"
+    },
+    {
+      "id": 12555621,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555621",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:55 GMT",
+        "ETag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "3bbafeea958dc79758e569e5d4f58f575d8ddb24488d51205da4cfbe8539f4b9"
+    },
+    {
+      "id": 12555621,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555621",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:55 GMT",
+        "ETag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "f948f1e6b8f25b846fb9d50941a7fff0a91062f2cb08b3534b968a51393fb944"
+    },
+    {
+      "id": 12555621,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555621",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:55 GMT",
+        "ETag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "fef889dddb62c34a271835aab38bb9c4c04159e06f77be700c56cdd862a21ae5"
+    },
+    {
+      "id": 12555621,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555621",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:55 GMT",
+        "ETag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "82da849925143143733dbdadc69e1cb34d027af706242e44d6968c666ae6f8bd"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555621,
+      "round": 5,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-05.npz",
+      "sha256": "aab3c30ece81f6b63436c64073bfe0b8e54370ae40f933c6bd84869a9d994b08",
+      "source_whole_md5_verified_previously": "2719e62d65d2208741cffe8e8d802425"
+    },
+    {
+      "id": 12555702,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555702",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:13 GMT",
+        "ETag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "9cbdc7922cbf4de8b6beb9e06f924a3d2ff151c4ccb5d018398ea5a6781cba66"
+    },
+    {
+      "id": 12555702,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555702",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:13 GMT",
+        "ETag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "ec03be0f8d6616c28cf72cc97f1ef025e4884b660dcad3fea8a2e98cbf4bffef"
+    },
+    {
+      "id": 12555702,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555702",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:13 GMT",
+        "ETag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "7afa5d87810d1a4911f8d1df8f6ffe4887664b37c4df7f11890a9987db0ef21c"
+    },
+    {
+      "id": 12555702,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555702",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:13 GMT",
+        "ETag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "cdb6255bff285524c52d1363301afe5ff2ecc74b4f1af7c9019785815115ec48"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555702,
+      "round": 6,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-06.npz",
+      "sha256": "4134bd71ce31163867a33e81334ae879dfb39a13b310bd7ead1a44c2cfec50a5",
+      "source_whole_md5_verified_previously": "ba93704256ee43183bc96efd1725f33c"
+    },
+    {
+      "id": 12555643,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555643",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:15 GMT",
+        "ETag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "83c21685465976a8e235fa555dc4d6b5a4aa61d65f3b84151e06fe74fd4ca1a8"
+    },
+    {
+      "id": 12555643,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555643",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:15 GMT",
+        "ETag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "52913b0c23a8abf66856a1a71bfb03daf298ce18b864eeadbeb915d00c9e0e99"
+    },
+    {
+      "id": 12555643,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555643",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:15 GMT",
+        "ETag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "bd26f06bc01793d8ff9a5701c6fbf29f8234dbc330b0dc7bc5972bf13fa6c000"
+    },
+    {
+      "id": 12555643,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555643",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:15 GMT",
+        "ETag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "01d642e738393342d3b22f10c6c7e94dba3300b551142a7d7aa4d6e0f8513555"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555643,
+      "round": 7,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-07.npz",
+      "sha256": "d8abf6b1a92d6e3516713b17710ca95190f67003a5fff8f59f3f5d46422b6a15",
+      "source_whole_md5_verified_previously": "6c54d000f617b645d658214f02f01166"
+    },
+    {
+      "id": 12555709,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555709",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+        "Content-Range": "bytes 0-511/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "512"
+      },
+      "bytes": 512,
+      "sha256": "9493d3e1d7d1ba87fcd37b9cfcdd60a44b2b00fa3f8a4d4221f932d3c1eb67aa"
+    },
+    {
+      "id": 12555709,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555709",
+      "start": 232700936,
+      "end": 232717319,
+      "reason": "all native IFD metadata",
+      "expected_etag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+        "Content-Range": "bytes 232700936-232717319/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "16384"
+      },
+      "bytes": 16384,
+      "sha256": "9a9ba0a2e460803ea6b4722f30206443c106db93fa8cf02e663e175e4fc8c5eb"
+    },
+    {
+      "id": 12555709,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555709",
+      "start": 31028224,
+      "end": 36199551,
+      "reason": "fixed native fiducial frame6",
+      "expected_etag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+        "Content-Range": "bytes 31028224-36199551/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "5171328"
+      },
+      "bytes": 5171328,
+      "sha256": "8f24c78acb090c334dccc6cc413435ab99dab96947bc33eeb4d9c77adccda1a5"
+    },
+    {
+      "id": 12555709,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555709",
+      "start": 113769472,
+      "end": 124112127,
+      "reason": "fixed RNA z7 frames22/23",
+      "expected_etag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+      "stage": "validated",
+      "status": 206,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+        "Content-Range": "bytes 113769472-124112127/232717320",
+        "Content-Type": "image/tiff",
+        "Content-Length": "10342656"
+      },
+      "bytes": 10342656,
+      "sha256": "5bd821cac889919ac9d38bf65ac3039a9a2809fa540db7673ca52e8f047f3fbe"
+    },
+    {
+      "stage": "extracted",
+      "id": 12555709,
+      "round": 8,
+      "path": "external-originals/2026-09-25/can-y/work/workflow-qualification-fullfield.nosync/round-08.npz",
+      "sha256": "8fea6edb829befdf15ec76e149bed552275ff15ff2fa0bc7fc686729f2f7fb10",
+      "source_whole_md5_verified_previously": "e312605a9e1f8bed3c523ef424b7006b"
+    }
+  ],
+  "started_epoch": 1793568925.891396,
+  "error": null,
+  "comparative_outcomes_examined": false
+}

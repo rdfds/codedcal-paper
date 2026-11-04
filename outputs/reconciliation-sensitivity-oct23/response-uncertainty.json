@@ -1,0 +1,2098 @@
+{
+  "results": [
+    {
+      "tag": "npc",
+      "status": "no_matched_preparation_response_controls",
+      "calibrated_interval": null
+    },
+    {
+      "tag": "edf10rep1",
+      "status": "conditional_propagation_completed",
+      "weights": {
+        "unweighted": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0112738996173127,
+                "upper": 8.170803501051104,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.7886123843208188,
+            "numerator": 388.79961704173803,
+            "reference": 217.375,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2862025890624128,
+                "effective_absolute_contributions": 5.40701223054454
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.31512363427257045,
+                "effective_absolute_contributions": 4.659095425980504
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.09722853827112296,
+              "slope": 0.9217521824136444,
+              "covariance": [
+                [
+                  0.005692710717978707,
+                  4.968562152443942e-05
+                ],
+                [
+                  4.9685621524439163e-05,
+                  0.0006777112320157225
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.09130879089058472,
+                  0.2857658674328306
+                ],
+                [
+                  0.8567002601014364,
+                  0.9868041047258524
+                ]
+              ],
+              "point": 1.8349659250285046,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.7352097834919709,
+                  9.644110871360567
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.9916389445943333,
+                8.758943148514177
+              ]
+            },
+            "residual": {
+              "intercept": 0.32872604641538816,
+              "slope": 0.9237701304657207,
+              "covariance": [
+                [
+                  0.007336675574767213,
+                  -0.00014549770048247898
+                ],
+                [
+                  -0.00014549770048247922,
+                  0.0009530713793928623
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.11468973867311372,
+                  0.5427623541576626
+                ],
+                [
+                  0.8466264229942123,
+                  1.000913837937229
+                ]
+              ],
+              "point": 1.5803567248590578,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.4680837927320495,
+                  9.515547286944365
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.7388719668363997,
+                8.489208728455115
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.4680837927320495,
+            9.644110871360567
+          ],
+          "original_response_qualified": true
+        },
+        "event_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.7170864093229294,
+                "upper": 7.114654880935702,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 2.0608975633641275,
+            "numerator": 177970.61236967717,
+            "reference": 86355.875,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2610925270369011,
+                "effective_absolute_contributions": 5.252960737707358
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.3195121351037205,
+                "effective_absolute_contributions": 4.578060320182505
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.19030624482200736,
+              "slope": 0.9323715582883871,
+              "covariance": [
+                [
+                  0.011189867957489448,
+                  -0.0004784223859604328
+                ],
+                [
+                  -0.00047842238596043315,
+                  0.0013864957901138075
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.07402607891486068,
+                  0.4546385685588754
+                ],
+                [
+                  0.8393256948063414,
+                  1.0254174217704328
+                ]
+              ],
+              "point": 2.006272394211683,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.2311550535043345,
+                  8.564828891017347
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.6375233145289503,
+                7.426597877808666
+              ]
+            },
+            "residual": {
+              "intercept": 0.2301459218581069,
+              "slope": 0.9112177407606802,
+              "covariance": [
+                [
+                  0.009217195761577514,
+                  -0.0002551548542067689
+                ],
+                [
+                  -0.00025515485420676874,
+                  0.0022180576270003356
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.009757917673506561,
+                  0.4700497613897203
+                ],
+                [
+                  0.7935319023688683,
+                  1.028903579152492
+                ]
+              ],
+              "point": 2.009126424577421,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.212005355215494,
+                  8.978105073458622
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.6318168764180685,
+                7.555284155607462
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            1.212005355215494,
+            8.978105073458622
+          ],
+          "original_response_qualified": true
+        },
+        "localization_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.6686400562192307,
+                "upper": 27.623950214476295,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 2.2031802049717033,
+            "numerator": 6791739.762300911,
+            "reference": 3082698.25,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2348556980428024,
+                "effective_absolute_contributions": 5.370919962634155
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.33529526446514835,
+                "effective_absolute_contributions": 4.377905617625225
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.268033376317179,
+              "slope": 0.8971353589256282,
+              "covariance": [
+                [
+                  0.018442686873168003,
+                  -0.0010129862052384426
+                ],
+                [
+                  -0.001012986205238442,
+                  0.0018586336213889634
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.07131821440132097,
+                  0.607384967035679
+                ],
+                [
+                  0.7894058481968,
+                  1.0048648696544564
+                ]
+              ],
+              "point": 2.157028824470786,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.056117216585038,
+                  35.08368793079063
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.5611988380207862,
+                30.492518844558106
+              ]
+            },
+            "residual": {
+              "intercept": 0.2520303093147309,
+              "slope": 0.8716092835997531,
+              "covariance": [
+                [
+                  0.016689792991432948,
+                  4.4076418065012645e-05
+                ],
+                [
+                  4.40764180650133e-05,
+                  0.0026495884582868313
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.07079179784387096,
+                  0.5748524164733329
+                ],
+                [
+                  0.7429838047429642,
+                  1.000234762456542
+                ]
+              ],
+              "point": 2.2385602498389052,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.093530919740875,
+                  37.275027847883145
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.6252807003774565,
+                31.403887521843874
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            1.056117216585038,
+            37.275027847883145
+          ],
+          "original_response_qualified": true
+        }
+      },
+      "original_controls_sha256": "5aa08f55feeeccfcd0ee43befa29a86656a2e947907a1edc823e1e925b084146"
+    },
+    {
+      "tag": "edf10rep2",
+      "status": "conditional_propagation_completed",
+      "weights": {
+        "unweighted": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.760146787969695,
+                "upper": 2.10987081871513,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.8602866491189998,
+            "numerator": 956.8849451405855,
+            "reference": 514.375,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.39322121472574784,
+                "effective_absolute_contributions": 4.520764625881296
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.36962332928311054,
+                "effective_absolute_contributions": 4.828830182739122
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.06670607829935099,
+              "slope": 0.9552278422123629,
+              "covariance": [
+                [
+                  0.0009361621036153092,
+                  1.7359300239866895e-05
+                ],
+                [
+                  1.735930023986688e-05,
+                  0.00021366991704103514
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.009750229478445713,
+                  0.1431623860771477
+                ],
+                [
+                  0.918701222454524,
+                  0.9917544619702018
+                ]
+              ],
+              "point": 1.877646872881775,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.6221140670916238,
+                  2.3071930203058995
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.7259427322221841,
+                2.1389292168072607
+              ]
+            },
+            "residual": {
+              "intercept": 0.0645766990010058,
+              "slope": 0.9264253759731276,
+              "covariance": [
+                [
+                  0.0008751979927994362,
+                  -1.163457721610823e-05
+                ],
+                [
+                  -1.1634577216108211e-05,
+                  0.00021496081410411422
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.009348235674597055,
+                  0.13850163367660864
+                ],
+                [
+                  0.8897885837043016,
+                  0.9630621682419536
+                ]
+              ],
+              "point": 1.9383212039412892,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.645488084562479,
+                  2.3817107717511408
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.7508107042491735,
+                2.2077267881028457
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.6221140670916238,
+            2.3817107717511408
+          ],
+          "original_response_qualified": true
+        },
+        "event_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.1813195055056285,
+                "upper": 2.1672951376047394,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.5418056322845466,
+            "numerator": 1086245.4312278712,
+            "reference": 704528.125,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.35785384595775005,
+                "effective_absolute_contributions": 5.030917385932184
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.3551950108450248,
+                "effective_absolute_contributions": 4.969023145776786
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.05001130969756455,
+              "slope": 0.9257214955603474,
+              "covariance": [
+                [
+                  0.0009833442617267316,
+                  -3.16344480823214e-05
+                ],
+                [
+                  -3.1634448082321385e-05,
+                  0.0006475501572292005
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.0283479973675015,
+                  0.12837061676263062
+                ],
+                [
+                  0.8621335930790315,
+                  0.9893093980416634
+                ]
+              ],
+              "point": 1.6114936616913986,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.0643271870532198,
+                  2.5467551115027334
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.2220826687439865,
+                2.287171506831614
+              ]
+            },
+            "residual": {
+              "intercept": 0.1191309931448098,
+              "slope": 0.9809343336679585,
+              "covariance": [
+                [
+                  0.0014599304774582395,
+                  -0.0001293673203968191
+                ],
+                [
+                  -0.00012936732039681904,
+                  0.0008946630578620315
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.023652868431738583,
+                  0.214609117857881
+                ],
+                [
+                  0.9061918465211808,
+                  1.0556768208147362
+                ]
+              ],
+              "point": 1.4503260721031153,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.9157256923588343,
+                  2.3655501618143244
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.0828334536818895,
+                2.087972735954029
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.9157256923588343,
+            2.5467551115027334
+          ],
+          "original_response_qualified": true
+        },
+        "localization_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 8,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.237240221435713,
+                "upper": 3.2729628335172327,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 2.2942780161897796,
+            "numerator": 129408963.72390102,
+            "reference": 56405092.5,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.3887509522134182,
+                "effective_absolute_contributions": 4.656091298923479
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.37735339676998136,
+                "effective_absolute_contributions": 4.780352274180889
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.0599696883027449,
+              "slope": 0.9597588005659557,
+              "covariance": [
+                [
+                  0.0013467703723131054,
+                  -7.516404099186969e-05
+                ],
+                [
+                  -7.516404099186965e-05,
+                  0.0008920080256269868
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.03173352839965401,
+                  0.1516729050051438
+                ],
+                [
+                  0.8851272999838311,
+                  1.0343903011480804
+                ]
+              ],
+              "point": 2.327989414183538,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.0494755366767137,
+                  3.733583137676642
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.2266316624955653,
+                3.3477089695034135
+              ]
+            },
+            "residual": {
+              "intercept": 0.19749379083558175,
+              "slope": 0.9450023603579579,
+              "covariance": [
+                [
+                  0.0033258195173089277,
+                  -0.00019194005611392596
+                ],
+                [
+                  -0.0001919400561139258,
+                  0.0009618791706719115
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.053386109092419975,
+                  0.3416014725787435
+                ],
+                [
+                  0.8675030115969676,
+                  1.022501709118948
+                ]
+              ],
+              "point": 2.218813744084148,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.8759288526067192,
+                  3.7113147520928638
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.1002580249707368,
+                3.2544564666660647
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.8759288526067192,
+            3.733583137676642
+          ],
+          "original_response_qualified": true
+        }
+      },
+      "original_controls_sha256": "45835a5447a4c0ec44835152ed47cc127b1088ecaf6f0594fe50663f8a46690d"
+    },
+    {
+      "tag": "fig4untreated",
+      "status": "conditional_propagation_completed",
+      "weights": {
+        "unweighted": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 12,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 2.6456118186929216,
+                "upper": 4.457779155451973,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 3.33437665069264,
+            "numerator": 280.6433680999638,
+            "reference": 84.16666666666666,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.1648068891346851,
+                "effective_absolute_contributions": 9.496690262887705
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.18316831683168316,
+                "effective_absolute_contributions": 8.940559869585796
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.20462265774948732,
+              "slope": 0.9580941637235144,
+              "covariance": [
+                [
+                  0.005263658175868712,
+                  -0.00018254158742316066
+                ],
+                [
+                  -0.00018254158742316064,
+                  0.00051956262199455
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.023329408773929028,
+                  0.3859159067250456
+                ],
+                [
+                  0.9011358999004715,
+                  1.0150524275465573
+                ]
+              ],
+              "point": 3.266645504633648,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.2261864024400166,
+                  4.920955593010798
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.5477549633084413,
+                4.439184225038089
+              ]
+            },
+            "residual": {
+              "intercept": 0.1386955074063351,
+              "slope": 0.9019479954103191,
+              "covariance": [
+                [
+                  0.0032489672670786263,
+                  -6.081339524212566e-05
+                ],
+                [
+                  -6.0813395242125794e-05,
+                  0.0004378204896997443
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.0037374398478439985,
+                  0.28112845466051417
+                ],
+                [
+                  0.8496619453780407,
+                  0.9542340454425975
+                ]
+              ],
+              "point": 3.5430880267464957,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.477886190840845,
+                  5.250931408155217
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.7794466244654457,
+                4.788617159774025
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            2.2261864024400166,
+            5.250931408155217
+          ],
+          "original_response_qualified": true
+        },
+        "event_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 12,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 2.2144255723632145,
+                "upper": 4.337427123752437,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 3.1028129848576276,
+            "numerator": 686547.0179075078,
+            "reference": 221266.0,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.19819207810339678,
+                "effective_absolute_contributions": 8.231538522604607
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.1710663484975851,
+                "effective_absolute_contributions": 8.24717803741608
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.10660246563706814,
+              "slope": 1.0094647715157012,
+              "covariance": [
+                [
+                  0.0032027963550976825,
+                  0.0002110800077039537
+                ],
+                [
+                  0.00021108000770395379,
+                  0.001427347444891125
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.03481480651938089,
+                  0.24801973779351716
+                ],
+                [
+                  0.9150581091561975,
+                  1.1038714338752051
+                ]
+              ],
+              "point": 2.9681179608890953,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.7813721546054642,
+                  4.778103036870077
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.0880600950157686,
+                4.191156321149105
+              ]
+            },
+            "residual": {
+              "intercept": 0.06865530304382282,
+              "slope": 0.9536131482027195,
+              "covariance": [
+                [
+                  0.003324774928432889,
+                  0.00017098143231888204
+                ],
+                [
+                  0.000170981432318882,
+                  0.0015028895849959216
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.07542974591628769,
+                  0.21274035200393332
+                ],
+                [
+                  0.8567404647204551,
+                  1.0504858316849839
+                ]
+              ],
+              "point": 3.1817490011880607,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.9054852145397996,
+                  5.150751075016155
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.2501475292822235,
+                4.4764187959803134
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            1.7813721546054642,
+            5.150751075016155
+          ],
+          "original_response_qualified": true
+        },
+        "localization_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 12,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 2.372242307857054,
+                "upper": 4.457044490021123,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 3.2976748577974035,
+            "numerator": 185790047.36104682,
+            "reference": 56339710.66666666,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.1765734670888605,
+                "effective_absolute_contributions": 7.743503616724966
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.1735029928446207,
+                "effective_absolute_contributions": 7.901415316550563
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.09085912418609825,
+              "slope": 1.0452628544617653,
+              "covariance": [
+                [
+                  0.003422601991021882,
+                  -9.559558000034465e-06
+                ],
+                [
+                  -9.559558000034512e-06,
+                  0.003425137624378486
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.05533031237965595,
+                  0.23704856075185243
+                ],
+                [
+                  0.8990192757282864,
+                  1.191506433195244
+                ]
+              ],
+              "point": 3.067951491744709,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.7920119334809517,
+                  5.019219191652314
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.1825928032673687,
+                4.177117121495047
+              ]
+            },
+            "residual": {
+              "intercept": -0.00868389924672014,
+              "slope": 0.9457858400793698,
+              "covariance": [
+                [
+                  0.005800255208020481,
+                  0.0003874503706440102
+                ],
+                [
+                  0.0003874503706440099,
+                  0.0022564231121773746
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.19899378313924385,
+                  0.18162598464580357
+                ],
+                [
+                  0.8270865660795543,
+                  1.0644851140791853
+                ]
+              ],
+              "point": 3.495885238424225,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.057911655351053,
+                  5.629444926460721
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.5174052160729836,
+                4.721712040955362
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            1.7920119334809517,
+            5.629444926460721
+          ],
+          "original_response_qualified": false
+        }
+      },
+      "original_controls_sha256": "a4e079efdab54818858cbbc65203f31c6fadbfa164c9a161f67d0628ec7f3f21"
+    },
+    {
+      "tag": "rtx_rep1",
+      "status": "conditional_propagation_completed",
+      "weights": {
+        "unweighted": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 7,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 2.1160206455622164,
+                "upper": 15.96733145999208,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 2.958162986714375,
+            "numerator": 1223.8342870749755,
+            "reference": 413.71428571428567,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.351797196659218,
+                "effective_absolute_contributions": 4.265492870219111
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.32907458563535913,
+                "effective_absolute_contributions": 4.1903239215937065
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.29899876785287494,
+              "slope": 0.9299474277212596,
+              "covariance": [
+                [
+                  0.004074476207547025,
+                  -0.00014676798814494118
+                ],
+                [
+                  -0.0001467679881449411,
+                  0.0004388328273638878
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.13949399387838624,
+                  0.45850354182736364
+                ],
+                [
+                  0.8776009641436995,
+                  0.9822938912988197
+                ]
+              ],
+              "point": 2.8594780087488476,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.6873942904635513,
+                  18.03534648752052
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.953897417794645,
+                16.848622002786588
+              ]
+            },
+            "residual": {
+              "intercept": 0.43713416144813316,
+              "slope": 0.9059356354779825,
+              "covariance": [
+                [
+                  0.004801225570901125,
+                  -8.578016502833458e-05
+                ],
+                [
+                  -8.578016502833453e-05,
+                  0.0004806058283823619
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.26398760919437336,
+                  0.610280713701893
+                ],
+                [
+                  0.8511543385795973,
+                  0.9607169323763677
+                ]
+              ],
+              "point": 2.7827902187953084,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.5673086224636654,
+                  18.449466963892093
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.853207246040479,
+                17.142715983735453
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            1.5673086224636654,
+            18.449466963892093
+          ],
+          "original_response_qualified": true
+        },
+        "event_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 7,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 2.603789568497143,
+                "upper": 7.844231825693823,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 3.595179269804994,
+            "numerator": 1772839.9072121205,
+            "reference": 493115.85714285704,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2711418865980297,
+                "effective_absolute_contributions": 4.6766746615774615
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.31575019605650484,
+                "effective_absolute_contributions": 4.474686827650585
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.2387892159524469,
+              "slope": 0.9615322410759796,
+              "covariance": [
+                [
+                  0.0041317408754658926,
+                  -0.00011457820160546969
+                ],
+                [
+                  -0.0001145782016054697,
+                  0.0013375662249570641
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.07816747409793498,
+                  0.3994109578069588
+                ],
+                [
+                  0.8701429223457785,
+                  1.0529215598061805
+                ]
+              ],
+              "point": 3.4906682381202936,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.0935829361267535,
+                  8.92504455550786
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.4596162785952966,
+                7.909711484277104
+              ]
+            },
+            "residual": {
+              "intercept": 0.3290335901487019,
+              "slope": 0.9023812373377909,
+              "covariance": [
+                [
+                  0.006580164128517777,
+                  -0.0001631072870139365
+                ],
+                [
+                  -0.0001631072870139365,
+                  0.001538779294630104
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.12633246652362715,
+                  0.5317347137737767
+                ],
+                [
+                  0.8043586955379399,
+                  1.0004037791376417
+                ]
+              ],
+              "point": 3.619474280396265,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.071218539887463,
+                  9.595096568215267
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                2.520836963609124,
+                8.328185388380295
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            2.071218539887463,
+            9.595096568215267
+          ],
+          "original_response_qualified": false
+        },
+        "localization_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 7,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 3.3200497866552383,
+                "upper": 11.497284470254952,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 4.255962875553495,
+            "numerator": 798103423.03541,
+            "reference": 187525936.28571427,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2657352760934747,
+                "effective_absolute_contributions": 5.102454979311988
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.3392380830240569,
+                "effective_absolute_contributions": 4.562586756937522
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.0614577725117397,
+              "slope": 1.0101064642721664,
+              "covariance": [
+                [
+                  0.005414208338243953,
+                  -4.536954922249982e-05
+                ],
+                [
+                  -4.5369549222499666e-05,
+                  0.003393044277435868
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.12240985598572418,
+                  0.24532540100920358
+                ],
+                [
+                  0.864549645104168,
+                  1.1556632834401648
+                ]
+              ],
+              "point": 4.152537629846881,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.6605711453367555,
+                  13.440170141809082
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                3.2259886748586264,
+                11.32140729936157
+              ]
+            },
+            "residual": {
+              "intercept": 0.35819645542051537,
+              "slope": 0.8467137813361768,
+              "covariance": [
+                [
+                  0.008652258705960189,
+                  -0.00041250773926535607
+                ],
+                [
+                  -0.0004125077392653561,
+                  0.002166687774328481
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.12576091132035383,
+                  0.5906319995206769
+                ],
+                [
+                  0.7303987185785777,
+                  0.9630288440937759
+                ]
+              ],
+              "point": 4.603404959326417,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  2.834201492378957,
+                  15.56892594371553
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                3.4980573087645976,
+                13.15567109024272
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            2.6605711453367555,
+            15.56892594371553
+          ],
+          "original_response_qualified": false
+        }
+      },
+      "original_controls_sha256": "9de84fa95ca94b4d5a686305496bcc5ee4bdbaedcc575dcb630fbffe5f5e45ac"
+    },
+    {
+      "tag": "rtx_rep2",
+      "status": "conditional_propagation_completed",
+      "weights": {
+        "unweighted": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.0265809841122326,
+                "upper": 1.6039373984123406,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.3469443082954764,
+            "numerator": 397.07918208550643,
+            "reference": 294.8,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.23478173758498216,
+                "effective_absolute_contributions": 6.028535770914884
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.21031207598371776,
+                "effective_absolute_contributions": 6.2549600190008725
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.023684567817508575,
+              "slope": 0.9739915847436252,
+              "covariance": [
+                [
+                  0.0013570698374073208,
+                  3.324508549450742e-06
+                ],
+                [
+                  3.324508549450732e-06,
+                  0.00028387605099919046
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.06836863252330933,
+                  0.11573776815832648
+                ],
+                [
+                  0.9318896386832324,
+                  1.016093530804018
+                ]
+              ],
+              "point": 1.358594633881028,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.8964167060813496,
+                  1.7945322724036634
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.0296766748335995,
+                1.6224501888389389
+              ]
+            },
+            "residual": {
+              "intercept": 0.15224446750098533,
+              "slope": 0.9223778152667134,
+              "covariance": [
+                [
+                  0.001791454568214174,
+                  -6.61567944511437e-05
+                ],
+                [
+                  -6.615679445114374e-05,
+                  0.00028961147917304413
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.04647977955881241,
+                  0.2580091554431583
+                ],
+                [
+                  0.8798526824374215,
+                  0.9649029480960052
+                ]
+              ],
+              "point": 1.2952391319700522,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.7965275991597485,
+                  1.7701345349530153
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.9479158129561318,
+                1.573859330616691
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.7965275991597485,
+            1.7945322724036634
+          ],
+          "original_response_qualified": true
+        },
+        "event_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.06612806724416,
+                "upper": 3.472177744376409,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.6302384362124207,
+            "numerator": 1318453.379000672,
+            "reference": 808748.8,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.17531560833383625,
+                "effective_absolute_contributions": 6.992841842530058
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.23954743425894415,
+                "effective_absolute_contributions": 6.020992736920532
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.03442002533271122,
+              "slope": 0.9643535176753597,
+              "covariance": [
+                [
+                  0.0015401014231450462,
+                  8.480822457092068e-05
+                ],
+                [
+                  8.480822457092063e-05,
+                  0.000820636582965444
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.06364461820716605,
+                  0.1324846688725885
+                ],
+                [
+                  0.8927699681138843,
+                  1.035937067236835
+                ]
+              ],
+              "point": 1.6548064393714654,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.9012549390301164,
+                  3.960507733087786
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.0698442251742408,
+                3.5648314192192174
+              ]
+            },
+            "residual": {
+              "intercept": 0.09013139444498364,
+              "slope": 0.8851021755819314,
+              "covariance": [
+                [
+                  0.0032515367779166102,
+                  3.246336260482205e-05
+                ],
+                [
+                  3.246336260482199e-05,
+                  0.001092566497538814
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.05235786465214887,
+                  0.23262065354211614
+                ],
+                [
+                  0.8025056588623646,
+                  0.9676986923014982
+                ]
+              ],
+              "point": 1.7400330540989317,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.8613294823409295,
+                  4.391913714384213
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.1026937903044745,
+                3.8210801455863765
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.8613294823409295,
+            4.391913714384213
+          ],
+          "original_response_qualified": true
+        },
+        "localization_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 10,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 1.2000826359051322,
+                "upper": 3.4394605228128956,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.7112692460550403,
+            "numerator": 186439838.23656264,
+            "reference": 108948278.39999999,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": false,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.21711970080668064,
+                "effective_absolute_contributions": 6.490386723840684
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.24713689096715458,
+                "effective_absolute_contributions": 5.726286425959911
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.06469510393484755,
+              "slope": 0.9020917608811869,
+              "covariance": [
+                [
+                  0.0025900012009589966,
+                  -5.5084263412874044e-06
+                ],
+                [
+                  -5.508426341287319e-06,
+                  0.0009580906092599582
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.06247580509443755,
+                  0.19186601296413264
+                ],
+                [
+                  0.8247451863635504,
+                  0.9794383353988234
+                ]
+              ],
+              "point": 1.8252845370317714,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  1.0293824394064153,
+                  4.246082772968944
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.2586164525670962,
+                3.7410444981578026
+              ]
+            },
+            "residual": {
+              "intercept": 0.06694109155078751,
+              "slope": 0.9146009509579963,
+              "covariance": [
+                [
+                  0.004222258254627597,
+                  0.00015203072609798173
+                ],
+                [
+                  0.00015203072609798178,
+                  0.0012384141751461322
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.09543055310681559,
+                  0.2293127362083906
+                ],
+                [
+                  0.826664132239059,
+                  1.0025377696769335
+                ]
+              ],
+              "point": 1.7978640332506823,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.9683125454810255,
+                  4.276091024229261
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                1.2389463876758915,
+                3.687421741393962
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.9683125454810255,
+            4.276091024229261
+          ],
+          "original_response_qualified": false
+        }
+      },
+      "original_controls_sha256": "71b0e59c18ea979592134841e51287c446bf78c1eba8d2128818e353c2ab2424"
+    },
+    {
+      "tag": "rtx_rep3",
+      "status": "conditional_propagation_completed",
+      "weights": {
+        "unweighted": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 11,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.7857336887811962,
+                "upper": 1.8947857334053335,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.463099855577429,
+            "numerator": 548.6624458415358,
+            "reference": 375.0,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.29077229669920757,
+                "effective_absolute_contributions": 6.695302387619123
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.1890909090909091,
+                "effective_absolute_contributions": 8.50568182670241
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.303080720098006,
+              "slope": 0.9332097197526213,
+              "covariance": [
+                [
+                  0.004128539845749951,
+                  -7.256411129308348e-05
+                ],
+                [
+                  -7.256411129308337e-05,
+                  0.0004923066706098174
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.14252121043653956,
+                  0.4636402297594725
+                ],
+                [
+                  0.8777655795408579,
+                  0.9886538599643848
+                ]
+              ],
+              "point": 1.2430422775567802,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.3257899170426814,
+                  1.9962784641035587
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.5171966798750591,
+                1.705624126728194
+              ]
+            },
+            "residual": {
+              "intercept": 0.2760283867728404,
+              "slope": 0.855438499522123,
+              "covariance": [
+                [
+                  0.004959964409881292,
+                  -0.00018828443066217589
+                ],
+                [
+                  -0.00018828443066217589,
+                  0.000512798586277062
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.10004281113249766,
+                  0.45201396241318315
+                ],
+                [
+                  0.7988522119211201,
+                  0.912024787123126
+                ]
+              ],
+              "point": 1.3876759924503363,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.3659108075567687,
+                  2.2466520033245545
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.5958409661163186,
+                1.8923129453920837
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.3257899170426814,
+            2.2466520033245545
+          ],
+          "original_response_qualified": true
+        },
+        "event_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 11,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.9277738885621387,
+                "upper": 1.9374241753404022,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.4658895039880142,
+            "numerator": 571729.022861731,
+            "reference": 390021.90909090906,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.2306384275967749,
+                "effective_absolute_contributions": 7.5156637405116244
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.18961498899479073,
+                "effective_absolute_contributions": 8.644739712985778
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.2239936180798896,
+              "slope": 0.9754246376169358,
+              "covariance": [
+                [
+                  0.006076284802988298,
+                  -9.91982043510632e-05
+                ],
+                [
+                  -9.919820435106342e-05,
+                  0.0013518024484031287
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.029208015259675868,
+                  0.41877922090010333
+                ],
+                [
+                  0.8835502605856338,
+                  1.0672990146482377
+                ]
+              ],
+              "point": 1.273184865354853,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.4768997822318713,
+                  2.1597143311529607
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.7215116815191974,
+                1.7565996297229096
+              ]
+            },
+            "residual": {
+              "intercept": 0.2991709325135939,
+              "slope": 0.8560030625335262,
+              "covariance": [
+                [
+                  0.008118417303682127,
+                  -0.0004658514787877693
+                ],
+                [
+                  -0.00046585147878776983,
+                  0.001421494558892613
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.07402014074544408,
+                  0.5243217242817437
+                ],
+                [
+                  0.7617901578458208,
+                  0.9502159672212316
+                ]
+              ],
+              "point": 1.3629841089835175,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.42458996501630275,
+                  2.446085730306972
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.7343466204292055,
+                1.9138403990962878
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.42458996501630275,
+            2.446085730306972
+          ],
+          "original_response_qualified": false
+        },
+        "localization_count": {
+          "observation": {
+            "confidence_level": 0.975,
+            "n_groups": 11,
+            "kind": "bounded",
+            "intervals": [
+              {
+                "lower": 0.9942371893353948,
+                "upper": 2.432464069698391,
+                "lower_closed": true,
+                "upper_closed": true
+              }
+            ],
+            "ratio": 1.6701991701669299,
+            "numerator": 30568255.025479272,
+            "reference": 18302161.545454543,
+            "positive_reference": true,
+            "usable": true,
+            "contains_one": true,
+            "reason": null,
+            "group_concentration": {
+              "numerator": {
+                "largest_absolute_fraction": 0.19545381213286347,
+                "effective_absolute_contributions": 7.938298004862431
+              },
+              "reference": {
+                "largest_absolute_fraction": 0.1638143963492201,
+                "effective_absolute_contributions": 8.989471376632105
+              }
+            }
+          },
+          "models": {
+            "gaussian": {
+              "intercept": 0.20246549444392414,
+              "slope": 0.9688132364715861,
+              "covariance": [
+                [
+                  0.007504243123180629,
+                  -0.00032138849122554226
+                ],
+                [
+                  -0.0003213884912255419,
+                  0.002138428369489312
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  -0.01400127755756389,
+                  0.41893226644541215
+                ],
+                [
+                  0.8532591930809796,
+                  1.0843672798621926
+                ]
+              ],
+              "point": 1.5149810308831926,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.5305443400718395,
+                  2.8672006901234406
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.8172593695923273,
+                2.3017837611056104
+              ]
+            },
+            "residual": {
+              "intercept": 0.2563756021019282,
+              "slope": 0.8406462876434572,
+              "covariance": [
+                [
+                  0.008285717170501292,
+                  -0.0003055758845619895
+                ],
+                [
+                  -0.00030557588456198967,
+                  0.0015019399059897306
+                ]
+              ],
+              "coefficient_intervals": [
+                [
+                  0.02891674883412451,
+                  0.4838344553697319
+                ],
+                [
+                  0.7438042160214094,
+                  0.9374883592655049
+                ]
+              ],
+              "point": 1.681829312573668,
+              "propagated": {
+                "kind": "bounded",
+                "interval": [
+                  0.5444363430448873,
+                  3.231424707056357
+                ],
+                "reason": null
+              },
+              "observation_only_interval": [
+                0.8777313337121586,
+                2.5885898737465265
+              ]
+            }
+          },
+          "noise_model_sensitivity_envelope": [
+            0.5305443400718395,
+            3.231424707056357
+          ],
+          "original_response_qualified": false
+        }
+      },
+      "original_controls_sha256": "7dd9c418f1755d83a5c1849641540aa2f66c3d599a717f55ec5d01a2d44417fa"
+    },
+    {
+      "tag": "sdc_corrected",
+      "status": "no_matched_preparation_response_controls",
+      "calibrated_interval": null
+    },
+    {
+      "tag": "sdc_raw",
+      "status": "no_matched_preparation_response_controls",
+      "calibrated_interval": null
+    }
+  ],
+  "confidence": "Approximate Bonferroni rectangle, nominal joint >=95%; observation 97.5%, each response coefficient 98.75%.",
+  "conditional_on": "Inferred templates, original QC and each specified noise law; template/physical assignment uncertainty not covered.",
+  "noise_envelope_is_confidence_interval": false
+}

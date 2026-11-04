@@ -1,0 +1,189 @@
+{
+  "crop": 0,
+  "center_yx": [
+    768,
+    768
+  ],
+  "diagnostics": {
+    "maps_zyx": [
+      [
+        0,
+        4,
+        23
+      ],
+      [
+        0,
+        4,
+        23
+      ],
+      [
+        0,
+        4,
+        23
+      ],
+      [
+        0,
+        4,
+        23
+      ],
+      [
+        0,
+        -40,
+        -24
+      ],
+      [
+        0,
+        -40,
+        -24
+      ],
+      [
+        0,
+        -40,
+        -24
+      ],
+      [
+        0,
+        -40,
+        -24
+      ],
+      [
+        14,
+        28,
+        -4
+      ],
+      [
+        14,
+        28,
+        -4
+      ],
+      [
+        14,
+        28,
+        -4
+      ],
+      [
+        14,
+        28,
+        -4
+      ],
+      [
+        -14,
+        8,
+        6
+      ],
+      [
+        -14,
+        8,
+        6
+      ],
+      [
+        -14,
+        8,
+        6
+      ],
+      [
+        -14,
+        8,
+        6
+      ]
+    ],
+    "local": [
+      {
+        "identity": true
+      },
+      {
+        "levels": [
+          {
+            "factor": 8,
+            "iterations": 10,
+            "metric": 0.0011435141274840385,
+            "rms_change": 3.056082804304446
+          },
+          {
+            "factor": 4,
+            "iterations": 10,
+            "metric": 0.0022286255910264,
+            "rms_change": 1.2979267652326572
+          },
+          {
+            "factor": 2,
+            "iterations": 10,
+            "metric": 0.003971574777648516,
+            "rms_change": 0.6053048047758991
+          },
+          {
+            "factor": 1,
+            "iterations": 10,
+            "metric": 0.0064564759339107,
+            "rms_change": 0.2545973155737936
+          }
+        ],
+        "maximum_displacement": 16.6530230325913,
+        "field_sha256": "d878b69b24ad3db6ee9ecaa3d7aa9d48892a2b71d296175a334c210b6002c95f"
+      },
+      {
+        "levels": [
+          {
+            "factor": 8,
+            "iterations": 10,
+            "metric": 0.0015729123567423567,
+            "rms_change": 3.0525441407564666
+          },
+          {
+            "factor": 4,
+            "iterations": 10,
+            "metric": 0.0023459430676716466,
+            "rms_change": 1.305864323349237
+          },
+          {
+            "factor": 2,
+            "iterations": 10,
+            "metric": 0.003902813086679958,
+            "rms_change": 0.6069755656274191
+          },
+          {
+            "factor": 1,
+            "iterations": 10,
+            "metric": 0.00623837331771904,
+            "rms_change": 0.25396029218734556
+          }
+        ],
+        "maximum_displacement": 17.226053806198152,
+        "field_sha256": "d08d51da5b8c92a9f6bda604830bf264b3d1c04f8836453a91728e7eaa0dfd66"
+      },
+      {
+        "levels": [
+          {
+            "factor": 8,
+            "iterations": 10,
+            "metric": 0.0014997919362601073,
+            "rms_change": 3.0687527919494166
+          },
+          {
+            "factor": 4,
+            "iterations": 10,
+            "metric": 0.00232065913875965,
+            "rms_change": 1.3121914440026783
+          },
+          {
+            "factor": 2,
+            "iterations": 10,
+            "metric": 0.0038865159104832046,
+            "rms_change": 0.6140154203256912
+          },
+          {
+            "factor": 1,
+            "iterations": 10,
+            "metric": 0.006135663712866088,
+            "rms_change": 0.25624786606447075
+          }
+        ],
+        "maximum_displacement": 17.619487620368833,
+        "field_sha256": "52e53665908a2ddf8a4eafac55eb8be342497395e5cff99e948ce1835f280092"
+      }
+    ],
+    "geometry_s": 1.9511260830040555
+  },
+  "array_sha256": "c06de335e5f147f834f3f7b8092e156378b873b0c1bcf362bbad2fbc0bfc6970",
+  "freeze_sha256": "2d8dae46317ad936655a133cb2107ccdad31905da41b211b9a1d778f191fc14e"
+}

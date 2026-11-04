@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "ambiguous_false_consensus_flags": true,
+  "ties_shared": true,
+  "dominated_candidates_do_not_force_warning": true,
+  "global_scale_invariant": true,
+  "missing_support_abstains": true,
+  "posterior_RNA_error_probability": false,
+  "script_sha256": "e4f9fd398a95a695c5e1e5093fa4788c71d6dc724cca4441959612ce5372561f",
+  "protocol_sha256": "6f18addde470850c84a0ee82e55ed8cdbd56a3f774dbea016ddc66de484c91b4"
+}

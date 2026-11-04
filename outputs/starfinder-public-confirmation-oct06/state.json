@@ -1,0 +1,360 @@
+{
+  "stage": "failed_fixed_plane_light_gates_with_partial_regression",
+  "planned": 15,
+  "completed": 11,
+  "interrupted": 1,
+  "not_run": 3,
+  "failed": 0,
+  "groups": {
+    "source_spot": {
+      "completed": true,
+      "coding": 2,
+      "negative": 0,
+      "scaled_proxy": 0.0,
+      "qualified": false
+    },
+    "correlation": {
+      "completed": true,
+      "coding": 15,
+      "negative": 0,
+      "scaled_proxy": 0.0,
+      "qualified": false
+    },
+    "regression": {
+      "completed": false,
+      "coding": 3,
+      "negative": 0,
+      "scaled_proxy": 0.0,
+      "qualified": false
+    }
+  },
+  "records": [
+    {
+      "status": "completed",
+      "crop": 0,
+      "decoder": "source_spot",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.13333074998809025,
+        "candidates": 0
+      },
+      "input_sha256": "b1e6e9817884a24995a4b263d708e59bdfb0e7e904073b41cc10cf06fa64eb76",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 0,
+      "decoder": "correlation",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.3317809170112014,
+        "elapsed_s": 1.5727953750174493,
+        "absolute_cut": 0.775,
+        "density_max": 0.8424057960510254,
+        "density_sha256": "dcca938817dbb24390a7099177ad941405df7886c4feaac293807f11f324b8b4"
+      },
+      "input_sha256": "b1e6e9817884a24995a4b263d708e59bdfb0e7e904073b41cc10cf06fa64eb76",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 0,
+      "decoder": "regression",
+      "xy": [
+        [
+          96.0,
+          29.0
+        ],
+        [
+          96.0,
+          26.0
+        ],
+        [
+          96.0,
+          29.0
+        ]
+      ],
+      "words": [
+        206,
+        331,
+        843
+      ],
+      "coding": 3,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 204.51582370797405,
+        "elapsed_s": 205.30692379098036,
+        "absolute_cut": 0.03682997226715088,
+        "density_max": 0.1841498613357544,
+        "density_sha256": "25434726e9145360972cd2b2c1b05a046bce6d33e5479ee071ccedf63600e676"
+      },
+      "input_sha256": "b1e6e9817884a24995a4b263d708e59bdfb0e7e904073b41cc10cf06fa64eb76",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 1,
+      "decoder": "source_spot",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.11145516601391137,
+        "candidates": 0
+      },
+      "input_sha256": "cdfafcf1a7098f7ebb55cbe102340beeb7271d97cb3a104108f7e98be8c6c327",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 1,
+      "decoder": "correlation",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.05164933402556926,
+        "elapsed_s": 0.9294637500133831,
+        "absolute_cut": 0.775,
+        "density_max": 0.8030774593353271,
+        "density_sha256": "1d9faad87068e33034d66cf67a7b82edf91d74acb22205d4c5121fd904246211"
+      },
+      "input_sha256": "cdfafcf1a7098f7ebb55cbe102340beeb7271d97cb3a104108f7e98be8c6c327",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "interrupted",
+      "crop": 1,
+      "decoder": "regression",
+      "reason": "sampling diagnosis; no numerical outcome inferred"
+    },
+    {
+      "status": "completed",
+      "crop": 2,
+      "decoder": "source_spot",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.19297095798538066,
+        "candidates": 0
+      },
+      "input_sha256": "f990fcb8e5da925863567f1554db347cbd8342cc78721295ed3df1c180ac18e6",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 2,
+      "decoder": "correlation",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.636299500009045,
+        "elapsed_s": 1.7355130840151105,
+        "absolute_cut": 0.775,
+        "density_max": 0.2493119239807129,
+        "density_sha256": "7041b412cea95daf4486e3f0182ac549a50adde4fb543378358f93a958224262"
+      },
+      "input_sha256": "f990fcb8e5da925863567f1554db347cbd8342cc78721295ed3df1c180ac18e6",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "not_run",
+      "crop": 2,
+      "decoder": "regression",
+      "reason": "sampling diagnosis; no numerical outcome inferred"
+    },
+    {
+      "status": "completed",
+      "crop": 3,
+      "decoder": "source_spot",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.15249300000141375,
+        "candidates": 0
+      },
+      "input_sha256": "5e959d62c0bd18edcd80438f2a2763a4395406eca8074b5340ba097b77a5d71e",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 3,
+      "decoder": "correlation",
+      "xy": [],
+      "words": [],
+      "coding": 0,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.11358970802393742,
+        "elapsed_s": 1.146946332999505,
+        "absolute_cut": 0.775,
+        "density_max": 0.2493119239807129,
+        "density_sha256": "99d398ac373f7d097c903e5a01bbdf9bca3cd725e28760b2d520b07798d8e4a6"
+      },
+      "input_sha256": "5e959d62c0bd18edcd80438f2a2763a4395406eca8074b5340ba097b77a5d71e",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "not_run",
+      "crop": 3,
+      "decoder": "regression",
+      "reason": "sampling diagnosis; no numerical outcome inferred"
+    },
+    {
+      "status": "completed",
+      "crop": 4,
+      "decoder": "source_spot",
+      "xy": [
+        [
+          58.0,
+          102.0
+        ],
+        [
+          39.0,
+          93.0
+        ]
+      ],
+      "words": [
+        594,
+        633
+      ],
+      "coding": 2,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.1766724159824662,
+        "candidates": 8,
+        "declared_qscore_not_applied": true
+      },
+      "input_sha256": "d85987560beb9b960af3521dc23569c9382fbf5391eede625370a9299b1bf39e",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "completed",
+      "crop": 4,
+      "decoder": "correlation",
+      "xy": [
+        [
+          38.0,
+          101.0
+        ],
+        [
+          24.0,
+          90.0
+        ],
+        [
+          29.0,
+          97.0
+        ],
+        [
+          35.0,
+          92.0
+        ],
+        [
+          24.0,
+          89.0
+        ],
+        [
+          24.0,
+          90.0
+        ],
+        [
+          29.0,
+          92.0
+        ],
+        [
+          41.0,
+          99.0
+        ],
+        [
+          40.0,
+          100.0
+        ],
+        [
+          29.0,
+          98.0
+        ],
+        [
+          38.0,
+          102.0
+        ],
+        [
+          47.0,
+          93.0
+        ],
+        [
+          58.0,
+          102.0
+        ],
+        [
+          57.0,
+          101.0
+        ],
+        [
+          34.0,
+          92.0
+        ]
+      ],
+      "words": [
+        138,
+        159,
+        182,
+        286,
+        293,
+        317,
+        350,
+        368,
+        461,
+        471,
+        522,
+        581,
+        594,
+        651,
+        837
+      ],
+      "coding": 15,
+      "negative": 0,
+      "support": 1.0,
+      "runtime": {
+        "kernel_s": 0.16444349999073893,
+        "elapsed_s": 1.4916300830082037,
+        "absolute_cut": 0.775,
+        "density_max": 0.9326857924461365,
+        "density_sha256": "2056e825311cd216a701af6dfa69cddf1691d3c669c71e888950a725b6211324"
+      },
+      "input_sha256": "d85987560beb9b960af3521dc23569c9382fbf5391eede625370a9299b1bf39e",
+      "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+    },
+    {
+      "status": "not_run",
+      "crop": 4,
+      "decoder": "regression",
+      "reason": "sampling diagnosis; no numerical outcome inferred"
+    }
+  ],
+  "adapter_qualified": false,
+  "independent_comparison_completed": false
+}

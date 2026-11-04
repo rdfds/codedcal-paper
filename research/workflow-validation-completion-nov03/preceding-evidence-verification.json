@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "completed_study_files_preserved": 625,
+  "former_live_software_preserved_in_archive": [
+    "tool/docs/workflow_challenges.md",
+    "tool/src/codedcal/workflow_cli.py",
+    "tool/src/codedcal/workflow_reporting.py",
+    "tool/src/codedcal/workflow_validation.py",
+    "tool/tests/test_workflow_reporting.py",
+    "tool/tests/test_workflow_validation.py"
+  ],
+  "numerical_components_ast_identical": [
+    "spatial_match",
+    "ImageCase",
+    "Catalog",
+    "WorkflowResult",
+    "warp",
+    "canonical",
+    "apply_corrections",
+    "pad_for_challenges",
+    "compare",
+    "assess",
+    "qualify_input",
+    "run_challenge"
+  ],
+  "original_curated_scientific_files_unchanged": 19089,
+  "preceding_code_and_navigation_files_unchanged": 62,
+  "additional_preexisting_files_unchanged": 2357,
+  "default_static_plans_match_historical_mixed": true,
+  "revised_weighted_selector_comparatively_validated": false,
+  "new_scientific_workflow_calls": 0,
+  "new_source_calls": 0,
+  "original_estimator_cli_unchanged": true,
+  "physical_validation_added": false
+}

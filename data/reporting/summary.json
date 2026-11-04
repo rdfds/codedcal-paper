@@ -1,0 +1,155 @@
+{
+  "views": 9,
+  "sensitivity_settings": 81,
+  "frequency_evaluations": 162,
+  "minimum_nonempty_blocks": 7,
+  "minimum_valid_fraction": 1.0,
+  "minimum_coverage": {
+    "view": "sdc_raw",
+    "setting": "r1.2-stringent",
+    "q": 0.1,
+    "sources": 11,
+    "nonempty_blocks": 8,
+    "singleton_blocks": 5,
+    "blocks": 12,
+    "partition_cells": 12,
+    "resampling_tile_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "source_counts_per_block": [
+      0,
+      2,
+      0,
+      0,
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      1,
+      0
+    ],
+    "valid_draws": 2000,
+    "total_draws": 2000,
+    "valid_fraction": 1.0,
+    "code_input_fraction": 0.0005283111793636849,
+    "event_fraction": 0.0005126560783517594
+  },
+  "qualification_thresholds_changed": false,
+  "new_fits": 0,
+  "new_random_draws": 0,
+  "source_pins": [
+    {
+      "path": "outputs/reference-reconciliation-oct07/comparison.json",
+      "bytes": 240562,
+      "sha256": "4626b6d8eb058181e2283d5c4b7fb5f93440084597a7944b5f98b4c40074fc2d"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-npc.json",
+      "bytes": 175063,
+      "sha256": "cfb73e0b14e72f05036ef0e550053a7e8221989c808e0b307c3c9f51039dd951"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-npc.npz",
+      "bytes": 2207025,
+      "sha256": "f5a14bbc4f7fc8175f088224275e50d1b01be7beb3d9995b388ca3f8b1f28ea1"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-edf10rep1.json",
+      "bytes": 171536,
+      "sha256": "3c6b7c610b0381f846ae04d7877557534756dc6acb695e46a748ce89dbcae07d"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-edf10rep1.npz",
+      "bytes": 2223679,
+      "sha256": "b2da0df7ddeb5e830fd278ad01ed122635da901e75bce189917bdee97214dcf4"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-edf10rep2.json",
+      "bytes": 171553,
+      "sha256": "9d722b5cb7ab300e92edb8ab90f2f9096d7724117b93187a2aa6dcbde8e33e75"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-edf10rep2.npz",
+      "bytes": 2752920,
+      "sha256": "50acf86beb8e614fd7a9b71e5d1d189f6ddd6ff1506cd59ef5634fbbaa913062"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-fig4untreated.json",
+      "bytes": 177960,
+      "sha256": "930e3d01f4b427c6913718e0684c6bc40968165c6e2df971def697456d0e2499"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-fig4untreated.npz",
+      "bytes": 1080312,
+      "sha256": "314b67d2ad191938c437dd37a98f60bf3b9022d137a2abf4a3fd663ad41dd6ff"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-rtx_rep1.json",
+      "bytes": 169796,
+      "sha256": "373942952ed878528b51cf28d27c0a2880f57101930acb6991dab03ca98f108a"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-rtx_rep1.npz",
+      "bytes": 2287641,
+      "sha256": "cb52e0ca41822e71f03aaa9b734bd5be2e11f285899e0ab976e5148c468ae226"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-rtx_rep2.json",
+      "bytes": 175187,
+      "sha256": "334f25b52591e3a2bcff439dff1cf74265400300d9fea8d0dfdc4230d3b161be"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-rtx_rep2.npz",
+      "bytes": 2356176,
+      "sha256": "b3f31baccadbfa87c05371672e594309486c54d691886360728a2fbd5de4b223"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-rtx_rep3.json",
+      "bytes": 176814,
+      "sha256": "f1f45be8c5769394652156efd8cf917d006dfe402f2f02d8155ffdfb9d6a8979"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-rtx_rep3.npz",
+      "bytes": 3447082,
+      "sha256": "3ed273a82c8455c57feaabfad8c7900cfb45dfcd79092d6c538e40e9081471ff"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-sdc_corrected.json",
+      "bytes": 178163,
+      "sha256": "bd917371dd3cbbd05da2f365730526f8fb660f4e411ef257d3619a57019c4ec0"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-sdc_corrected.npz",
+      "bytes": 1195644,
+      "sha256": "cebf4c787c324167eee041d24f9310c13a9382c5735874bcfb187ad8caed12c3"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-sdc_raw.json",
+      "bytes": 179913,
+      "sha256": "1f4c70e3036c49e97379095d040aa2d9822c1cf6cdcb9fe8c10f44d087f75ecd"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/groups-sdc_raw.npz",
+      "bytes": 1075954,
+      "sha256": "23c3fdfb83a9d98a44396c025ec90cd425bbadcc3fb560c7365f932fb7976e4b"
+    },
+    {
+      "path": "outputs/temporal-variants-oct17/summary.json",
+      "bytes": 3331782,
+      "sha256": "24a37553e87be661d108a1e538a37b4710220a5447fff735a04461828960f752"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/NE0WOP",
+  "status": 403,
+  "headers": {
+    "Date": "Mon, 05 Oct 2026 18:40:56 GMT",
+    "Content-Type": "text/html; charset=iso-8859-1",
+    "Content-Length": "199",
+    "Connection": "keep-alive",
+    "Set-Cookie": "AWSALB=1lgtcFhB9srXSIboA9nOSeAO/P/n/RZfpiWkrNyvzF8UOl6rhovbc6HVqMpoHsQ1vhvpz18cEB+4ec5BKILA07WtRJVdqAw9Q2knhXCARVphdxMAWa+DkysgVyUX; Expires=Mon, 12 Oct 2026 18:40:56 GMT; Path=/, AWSALBCORS=1lgtcFhB9srXSIboA9nOSeAO/P/n/RZfpiWkrNyvzF8UOl6rhovbc6HVqMpoHsQ1vhvpz18cEB+4ec5BKILA07WtRJVdqAw9Q2knhXCARVphdxMAWa+DkysgVyUX; Expires=Mon, 12 Oct 2026 18:40:56 GMT; Path=/; SameSite=None; Secure",
+    "Server": "Apache"
+  },
+  "body": "<!DOCTYPE HTML PUBLIC \"-//IETF//DTD HTML 2.0//EN\">\n<html><head>\n<title>403 Forbidden</title>\n</head><body>\n<h1>Forbidden</h1>\n<p>You don't have permission to access this resource.</p>\n</body></html>\n"
+}

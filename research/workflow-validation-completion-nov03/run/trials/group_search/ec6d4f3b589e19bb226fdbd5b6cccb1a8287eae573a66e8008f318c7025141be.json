@@ -1,0 +1,93 @@
+{
+  "challenge": {
+    "id": "ec6d4f3b589e19bb226fdbd5b6cccb1a8287eae573a66e8008f318c7025141be",
+    "label": "fractional-color",
+    "role": "fractional",
+    "maps": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        1.0,
+        -0.5
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "mechanism_family": "color"
+  },
+  "policy": "group_search",
+  "status": "not_run",
+  "reason": "Prior complete composed-native control upper95 .101217 exceeds .10; no new fractional comparisons"
+}

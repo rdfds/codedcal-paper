@@ -1,0 +1,16 @@
+{
+  "files": {
+    "outputs/starfinder-public-confirmation-oct06/repair_comparison.py": "94354181a65a7e653ea48c2806f88341e3c10e233c9089b099011ab71c19f160",
+    "outputs/starfinder-public-confirmation-oct06/fullfield_tissue.py": "468d2d50efce398471b8a8c7199b63fbb2f7ad6a7f79d4814a661b14d9b59cc2",
+    "outputs/starfinder-public-confirmation-oct06/FULLFIELD_TISSUE_PROTOCOL.md": "94d6d090bbf41bde538058bce4579e0ecae9a63dbbb37e268b7a619b654bd33d",
+    "outputs/starfinder-public-confirmation-oct06/fullfield-tissue/controls.json": "582c1f424f38907fa2c4bf4b21e1cc5c95bac8442fbb71dc2803367e920b9dd3",
+    "outputs/starfinder-public-confirmation-oct06/tissue.py": "24b40de332e721abbb4e5b4814655652bd3c0490895d92838cafa3da1169813d",
+    "outputs/starfinder-public-confirmation-oct06/tissue/freeze.json": "2d8dae46317ad936655a133cb2107ccdad31905da41b211b9a1d778f191fc14e"
+  },
+  "scope": "Exposed tissue source-adapter development; unchanged comparison parameters; no independent confirmation",
+  "original_frozen_tissue_test_failed": true,
+  "pixels_already_exposed": true,
+  "original_protocol_sha256": "b34bb4e7294903433920c298cfb39e1abaf237e35bc728f702e6b0b85d3f2f0c",
+  "four_round_plane_interface_qualified": true,
+  "zero_comparative_outcomes_at_fix": true
+}

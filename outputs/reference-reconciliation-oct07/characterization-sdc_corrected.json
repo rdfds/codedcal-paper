@@ -1,0 +1,347 @@
+{
+  "tag": "sdc_corrected",
+  "distinct_acquisition": true,
+  "panels": {
+    "1": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ],
+    "2": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ],
+    "3": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ],
+    "4": [
+      [
+        0,
+        4200
+      ],
+      [
+        4250,
+        8450
+      ],
+      [
+        8500,
+        12700
+      ],
+      [
+        12750,
+        17000
+      ]
+    ]
+  },
+  "frames": {
+    "1": 17000,
+    "2": 17000,
+    "3": 17000,
+    "4": 17000
+  },
+  "input_members": [
+    {
+      "round": 1,
+      "path": "external-originals/2026-09-25/can-y/work/heldout-nup96.nosync/independent-field/round1_reduced.npz",
+      "sha256": "b5ada081c2421a3858520a94ccedb345bdc65dd703ac7eb028ceba450794824b",
+      "source_sha256": "ac3e1111292b9a020b1c8039e50c8deee59135e81a0b75cdcab90330eb19ab09"
+    },
+    {
+      "round": 2,
+      "path": "external-originals/2026-09-25/can-y/work/heldout-nup96.nosync/independent-field/round2_reduced.npz",
+      "sha256": "2a2a0f099b93ae414e285b9f098d9b9b953ff3de21ab7799c9c4533770f276e7",
+      "source_sha256": "caa6c85b4519311f51ba6b7fb41b00a5e1bff2ed7c851735d2cbc4c1d1524154"
+    },
+    {
+      "round": 3,
+      "path": "external-originals/2026-09-25/can-y/work/heldout-nup96.nosync/independent-field/round3_reduced.npz",
+      "sha256": "74cf318642c040c8f39702b0c03b684dfd750c02ebdc42264e17d3a26eeb3ec6",
+      "source_sha256": "28408d14f413bd4b7e7e9fb149af70d84b7e5359ffc8ea932194f7f981ef6816"
+    },
+    {
+      "round": 4,
+      "path": "external-originals/2026-09-25/can-y/work/heldout-nup96.nosync/independent-field/round4_reduced.npz",
+      "sha256": "6f0b300b0cecf6fbcdad0a79401b5d71e31277778f937f596a4c4fb9e1784acd",
+      "source_sha256": "5bc404aa67172c99b14cbec655cf9250f52e7e0d79e42ca8911cfed272482591"
+    }
+  ],
+  "reference_replay": {
+    "sources_equal": true,
+    "pore_equal": true,
+    "round_equal": true,
+    "max_abs_that": 0.0,
+    "event_count_weights_equal": true,
+    "passed": true
+  },
+  "passing_sources": 532,
+  "candidate_event_groups": 4047,
+  "rejections": {
+    "size": 129826,
+    "panel_coverage": 1610,
+    "rms": 5074,
+    "isolation": 51,
+    "split": 0,
+    "zsd": 0
+  },
+  "estimates": {
+    "unweighted": {
+      "raw": 4.1851047133675765,
+      "interval": [
+        3.3087534052493406,
+        4.982371488242353
+      ],
+      "effective_sources": 532.0
+    },
+    "event_count": {
+      "raw": 3.804982677039677,
+      "interval": [
+        2.1357196675146333,
+        5.736737276937616
+      ],
+      "effective_sources": 60.96159652109617
+    },
+    "localization_count": {
+      "raw": 4.5083029042484,
+      "interval": [
+        2.1425937859219526,
+        6.936053671962537
+      ],
+      "effective_sources": 32.580258688264045
+    }
+  },
+  "event_coverage": 0.02698962436663025,
+  "localization_coverage": 0.027344522491749387,
+  "weight_rank_correlation": 0.9547797623996747,
+  "per_round": {
+    "1": {
+      "sources": 91,
+      "raw": 7.410090758767847
+    },
+    "2": {
+      "sources": 160,
+      "raw": 3.2111652878983747
+    },
+    "3": {
+      "sources": 132,
+      "raw": 3.9367109772807827
+    },
+    "4": {
+      "sources": 149,
+      "raw": 3.4813768684488133
+    }
+  },
+  "full_code": {
+    "total_arithmetic": 4.409093628169215,
+    "total_geometric": 4.38477716723668,
+    "boundary": {
+      "arithmetic": false,
+      "geometric": false
+    },
+    "ratio_A": [
+      1.341382290074614,
+      1.2210875317945353
+    ],
+    "ratio_B": [
+      0.7052235786574467,
+      0.6601380691263076
+    ],
+    "D": [
+      1.9020667071685833,
+      1.8497456651918955
+    ],
+    "logD": [
+      0.6429410356262636,
+      0.6150481513645781
+    ],
+    "logD_se": [
+      0.07073233352102459,
+      0.06630278954760452
+    ],
+    "D_z": [
+      9.089775547065116,
+      9.276354065359222
+    ],
+    "drift_estimate_nm2": [
+      -64.29410356262635,
+      -27.33547339398125
+    ],
+    "negative_ratio": false,
+    "orientation_ratio": {
+      "A": [
+        0.6602416074471894,
+        0.6192042778272058
+      ],
+      "B": [
+        0.9926734194355281,
+        1.019172901118451
+      ]
+    },
+    "orientation_se": {
+      "A": [
+        0.02678028198173224,
+        0.023960698083845065
+      ],
+      "B": [
+        0.032079076508932464,
+        0.03595932789246781
+      ]
+    }
+  },
+  "selected_code": {
+    "total_arithmetic": 3.7906682005782684,
+    "total_geometric": 3.9617318486795967,
+    "boundary": {
+      "arithmetic": false,
+      "geometric": false
+    },
+    "ratio_A": [
+      0.9978748417798082,
+      0.9828757697038063
+    ],
+    "ratio_B": [
+      0.9118025574180071,
+      0.8582564013678411
+    ],
+    "D": [
+      1.0943979413761855,
+      1.1452006278512503
+    ],
+    "logD": [
+      0.09020438683191771,
+      0.1355798424876125
+    ],
+    "logD_se": [
+      0.038404493825029105,
+      0.06555428595739503
+    ],
+    "D_z": [
+      2.348797701719204,
+      2.0682071432480926
+    ],
+    "drift_estimate_nm2": [
+      -9.02043868319177,
+      -6.025770777227223
+    ],
+    "negative_ratio": false,
+    "orientation_ratio": {
+      "A": [
+        0.8611207055391578,
+        0.7482821309259791
+      ],
+      "B": [
+        1.0493421231020934,
+        1.1002109776854057
+      ]
+    },
+    "orientation_se": {
+      "A": [
+        0.024857309882400053,
+        0.030021828059551694
+      ],
+      "B": [
+        0.021021598145418322,
+        0.05919795016418397
+      ]
+    }
+  },
+  "assigned_diagonal": {
+    "total_arithmetic": 3.2191312972453145,
+    "total_geometric": 3.380403755094672,
+    "boundary": {
+      "arithmetic": false,
+      "geometric": false
+    },
+    "ratio_A": [
+      1.0107525663662857,
+      1.0007259429880018
+    ],
+    "ratio_B": [
+      0.9149913626190257,
+      0.8629984212912204
+    ],
+    "D": [
+      1.1046580412225508,
+      1.1595918582223048
+    ],
+    "logD": [
+      0.09953582211858748,
+      0.1480680968457378
+    ],
+    "logD_se": [
+      0.036745699021979404,
+      0.06537037946514834
+    ],
+    "D_z": [
+      2.7087747618857443,
+      2.2650640558799116
+    ],
+    "drift_estimate_nm2": [
+      -9.953582211858746,
+      -6.580804304255014
+    ],
+    "negative_ratio": false,
+    "orientation_ratio": {
+      "A": [
+        0.8528420932018399,
+        0.7429045666922748
+      ],
+      "B": [
+        1.0314965929189215,
+        1.0872217286689072
+      ]
+    },
+    "orientation_se": {
+      "A": [
+        0.023401426646039638,
+        0.02814942642724622
+      ],
+      "B": [
+        0.020927199564920593,
+        0.05838812194277449
+      ]
+    }
+  },
+  "runtime_seconds": 126.75900602340698
+}

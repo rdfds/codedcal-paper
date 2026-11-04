@@ -1,0 +1,88 @@
+{
+  "crop": 4,
+  "decoder": "source_spot",
+  "status": "completed",
+  "catalog": {
+    "xyz": [
+      [
+        27,
+        39,
+        15
+      ],
+      [
+        43,
+        26,
+        19
+      ],
+      [
+        33,
+        82,
+        17
+      ],
+      [
+        63,
+        28,
+        19
+      ],
+      [
+        29,
+        52,
+        5
+      ],
+      [
+        73,
+        29,
+        10
+      ],
+      [
+        103,
+        78,
+        10
+      ],
+      [
+        35,
+        28,
+        14
+      ],
+      [
+        59,
+        59,
+        18
+      ],
+      [
+        64,
+        32,
+        5
+      ],
+      [
+        57,
+        27,
+        14
+      ]
+    ],
+    "words": [
+      27,
+      27,
+      13,
+      15,
+      59,
+      61,
+      48,
+      58,
+      50,
+      36,
+      39
+    ],
+    "coding": 11,
+    "negative": null,
+    "candidate_objects": 40,
+    "unsupported_candidates": 8,
+    "abstained": 29,
+    "coverage": 0.8333333333333334,
+    "runtime": {
+      "elapsed_s": 0.15934241702780128
+    },
+    "negative_proxy_unavailable": true
+  },
+  "input_sha256": "f9bfe0e8346d03351d48a6054934d7e1c2263ef08b5c808a44e246d4bc72a256"
+}

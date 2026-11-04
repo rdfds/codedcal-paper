@@ -1,0 +1,62 @@
+{
+  "settings": {
+    "primary_fields": 40,
+    "stress_fields": 12,
+    "codes_per_field": 2,
+    "standardized_groups": 512,
+    "bootstrap_draws": 2000,
+    "cluster_fields": 8,
+    "cluster_groups": 16,
+    "variance_floor": 0.01,
+    "fallback_min_df": 4,
+    "T": 3.0,
+    "added_noise": 25.0,
+    "code_offsets": [
+      -15.0,
+      -5.0,
+      5.0,
+      15.0
+    ],
+    "heterogeneity": "f_s=(0.5+trace(cov_s)/(2*median_axis_var)); normalized by arithmetic mean over ALL retained sources",
+    "source_noise_shift": "additional window-B covariance=25*f_s*I",
+    "bias_limit": 0.01,
+    "usable_limit": 0.9,
+    "coverage_limit": 0.9,
+    "alpha": 0.05,
+    "provenance": "conditional simulation from all retained pre-QC Source Data 69 candidate clusters"
+  },
+  "tags": [
+    "npc",
+    "edf10rep1",
+    "edf10rep2",
+    "fig4untreated",
+    "rtx_rep1",
+    "rtx_rep2",
+    "rtx_rep3",
+    "sdc_corrected",
+    "sdc_raw"
+  ],
+  "models": [
+    "gaussian",
+    "residual"
+  ],
+  "worlds": [
+    "zero",
+    "homogeneous",
+    "group_common",
+    "heterogeneous",
+    "noise_shift",
+    "source_noise_shift",
+    "code_offset"
+  ],
+  "protocol_sha256": "9687d0a603f7bf17e5907ecc5e60491230a35ff5f6dbfc4b913ba072272ccc7c",
+  "code_sha256": "7751a3510d3b7a7af76c99498d5294d3434e3126cbd37c1db3b01d23c7bb4123",
+  "legacy_components_sha256": "382831b666dad0827152df09a898c07bdeba6e9cb8c1453f67167a78f755edd1",
+  "expected_worlds": 126,
+  "physical_fields": 3528,
+  "coded_fields": 7056,
+  "estimator_inputs": [
+    "observed_z[group,code,panel,q,angle]",
+    "observed_n[group,code,panel]"
+  ]
+}

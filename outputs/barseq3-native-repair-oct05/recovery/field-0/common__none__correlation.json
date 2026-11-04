@@ -1,0 +1,248 @@
+{
+  "status": "completed",
+  "kind": "common",
+  "policy": "none",
+  "decoder": "correlation",
+  "source_index": 0,
+  "xy": [
+    [
+      28.0,
+      71.0
+    ]
+  ],
+  "words": [
+    1018
+  ],
+  "metrics": {
+    "1.5": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.0,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 1.0,
+      "reference_calls": 70,
+      "predicted_calls": 1,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 0,
+        "skipped_components": 0,
+        "candidate_edges": 0
+      }
+    },
+    "3": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.028169014084507043,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 1.0,
+      "reference_calls": 70,
+      "predicted_calls": 1,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 1,
+        "skipped_components": 0,
+        "candidate_edges": 2
+      }
+    },
+    "5": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.028169014084507043,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 1.0,
+      "reference_calls": 70,
+      "predicted_calls": 1,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 1,
+        "skipped_components": 0,
+        "candidate_edges": 6
+      }
+    }
+  },
+  "quality": {
+    "nonblank": 1,
+    "blanks": 0,
+    "proxy": 0.0,
+    "support": 1.0,
+    "qualified": false
+  },
+  "runtime": {
+    "kernel_s": 0.04606379201868549,
+    "peaks_s": 0.28151458300999366,
+    "density_max": 0.834173321723938,
+    "absolute_cut": 0.7749999761581421,
+    "density_sha256": "4490084e5a7f9b28a8f044a78e112ddab16b1886cbcf591b8c55516409b42cb4",
+    "exact_reference_kernel_reused": false,
+    "warp_s": 0.02467587499995716
+  },
+  "applied_integer_maps": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "residual_added_rms": 4.47213595499958,
+  "geometry_sha256": "cc590dc18c8940d6c01a54ae6c496acd43afcee9ec59f23e69e087eff6eb9774",
+  "reference_sha256": "05fe6cefe02cdd885219573c517510a46b82cecc8daf13f83c15e97794c6ac1b",
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955"
+}

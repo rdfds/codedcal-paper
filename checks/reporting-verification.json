@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "temporal_tests": 60,
+  "covariance_tests": 34,
+  "companion_reporting_exports_reproduced": 6,
+  "scientific_tables_byte_identical_to_original": 5,
+  "summary_statistics_identical": true,
+  "source_pins_reflect_portable_bytes": true,
+  "views": 9,
+  "settings": 81,
+  "frequency_support_evaluations": 162,
+  "new_outcome_study": false,
+  "new_fits": 0,
+  "thresholds_changed": false,
+  "scope": "Focused tests and independent read-only export; complete numerical replays remain separately recorded.",
+  "corrected_verification_attempts": [
+    "Nonexistent initial test filenames; no tests ran. Correct explicit paths passed60 tests.",
+    "Covariance collection lacked its module path; isolated study process passed34 tests.",
+    "Initial equality assertion included source-file hashes from the unnormalized original. Statistics and all five table/text exports match; this snapshot's summary receipt now hashes its actual normalized inputs."
+  ],
+  "preceding_manifest_sha256": "d45b64318accd410d3b6eae151c7ba2808d06c5f73511e132f490e92e38eff5c",
+  "preceding_revision": "19ab71b41272d01ff7ad5fda506fa178c5271fba"
+}

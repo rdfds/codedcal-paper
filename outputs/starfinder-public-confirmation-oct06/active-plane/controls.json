@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "development": true,
+  "selected_z": 6,
+  "reference_spots": 60,
+  "central_tensor_exact": true,
+  "source_calls_exact": 60,
+  "later_round_invariance": true,
+  "empty_and_support_controls": true,
+  "kernel_control_reuse": [
+    {
+      "decoder": "correlation",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 0.21991729200817645,
+        "elapsed_s": 1.03731495901593,
+        "absolute_cut": 0.775,
+        "density_max": 0.9799959063529968,
+        "density_sha256": "0387d3d2c504b3e7a9a79f333a5e7d8cfb4dc3fe6bf1abaa37e7bd4232574923"
+      },
+      "reuse_from": "outputs/starfinder-public-confirmation-oct06/controls.json",
+      "exact_decoder_input_equality": true,
+      "actual_execution_kernel_s": 0
+    },
+    {
+      "decoder": "regression",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 318.4278593749914,
+        "elapsed_s": 319.24712670900044,
+        "absolute_cut": 1.193732738494873,
+        "density_max": 5.968663692474365,
+        "density_sha256": "49b51fbe9312d779810fbf5de6d4cfe904288d5909c08e1f170a0d75a98fa2f8"
+      },
+      "reuse": {
+        "reason": "native kernel/book AST and synthetic generation unchanged; source threshold and FFT allocation repair only",
+        "original_control_sha256": "e5c486a37477e26b1d406aaa9c37a34aab4b8028f8fa67e8cf677e18a8172dde",
+        "actual_execution_kernel_s": 0
+      },
+      "reuse_from": "outputs/starfinder-public-confirmation-oct06/controls.json",
+      "exact_decoder_input_equality": true,
+      "actual_execution_kernel_s": 0
+    }
+  ],
+  "sampling_sha256": "1e3987b223d04e7c1b5ee30b8c72828efcb4daef2dfdc1c2c5e3efa0d2141b96",
+  "original_adapter_sha256": "f27aa31649ac6d7eeacadc0598300ed7271614f6a1fb7c5e82cebd8685e838f6",
+  "script_sha256": "71af5add0924440800447bfda002bcdf636c4d535276640281dfbccace9c6be5",
+  "independent_confirmation": false
+}

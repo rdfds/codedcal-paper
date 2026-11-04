@@ -1,0 +1,6 @@
+{
+  "python": "3.10.16 (main, Dec  3 2024, 17:27:57) [Clang 16.0.0 (clang-1600.0.26.4)]",
+  "numpy": "1.23.5",
+  "scipy": "1.10.1",
+  "OPENBLAS_NUM_THREADS": 1
+}

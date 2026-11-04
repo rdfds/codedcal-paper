@@ -1,0 +1,269 @@
+{
+  "kind": "common",
+  "policy": "none",
+  "decoder": "source_spot",
+  "status": "completed",
+  "prediction": {
+    "xyz": [
+      [
+        92,
+        30,
+        8
+      ],
+      [
+        99,
+        41,
+        9
+      ],
+      [
+        95,
+        76,
+        11
+      ],
+      [
+        71,
+        41,
+        15
+      ],
+      [
+        68,
+        61,
+        17
+      ],
+      [
+        68,
+        37,
+        18
+      ],
+      [
+        57,
+        56,
+        18
+      ],
+      [
+        79,
+        52,
+        19
+      ],
+      [
+        47,
+        73,
+        19
+      ],
+      [
+        85,
+        48,
+        21
+      ],
+      [
+        94,
+        41,
+        22
+      ],
+      [
+        88,
+        47,
+        22
+      ],
+      [
+        61,
+        68,
+        22
+      ],
+      [
+        52,
+        70,
+        22
+      ],
+      [
+        71,
+        74,
+        24
+      ],
+      [
+        39,
+        26,
+        24
+      ],
+      [
+        100,
+        37,
+        25
+      ],
+      [
+        80,
+        47,
+        25
+      ],
+      [
+        67,
+        34,
+        15
+      ],
+      [
+        70,
+        34,
+        21
+      ],
+      [
+        47,
+        86,
+        20
+      ],
+      [
+        79,
+        32,
+        21
+      ],
+      [
+        73,
+        30,
+        24
+      ],
+      [
+        48,
+        33,
+        24
+      ],
+      [
+        92,
+        40,
+        24
+      ],
+      [
+        102,
+        72,
+        25
+      ],
+      [
+        53,
+        98,
+        12
+      ],
+      [
+        38,
+        33,
+        20
+      ],
+      [
+        57,
+        32,
+        20
+      ],
+      [
+        88,
+        40,
+        21
+      ],
+      [
+        91,
+        57,
+        24
+      ],
+      [
+        80,
+        79,
+        9
+      ],
+      [
+        88,
+        78,
+        12
+      ],
+      [
+        36,
+        85,
+        13
+      ],
+      [
+        99,
+        52,
+        18
+      ],
+      [
+        79,
+        37,
+        19
+      ]
+    ],
+    "words": [
+      31,
+      31,
+      29,
+      20,
+      20,
+      28,
+      14,
+      20,
+      20,
+      30,
+      49,
+      30,
+      30,
+      17,
+      30,
+      20,
+      28,
+      22,
+      4,
+      4,
+      10,
+      4,
+      4,
+      1,
+      11,
+      11,
+      59,
+      49,
+      49,
+      49,
+      49,
+      47,
+      47,
+      39,
+      39,
+      33
+    ],
+    "coding": 36,
+    "negative": null,
+    "candidate_objects": 179,
+    "unsupported_candidates": 2,
+    "abstained": 143,
+    "coverage": 0.988950276243094,
+    "runtime": {
+      "elapsed_s": 0.14687137500732206
+    },
+    "negative_proxy_unavailable": true
+  },
+  "metrics": {
+    "1.5": {
+      "identity_f1": 0.0,
+      "composition_tv": 0.3611111111111111,
+      "correct_labels": 0,
+      "reference_calls": 96,
+      "predicted_calls": 36,
+      "ambiguous_reference": 0,
+      "ambiguous_prediction": 0
+    },
+    "3": {
+      "identity_f1": 0.015151515151515152,
+      "composition_tv": 0.3611111111111111,
+      "correct_labels": 1,
+      "reference_calls": 96,
+      "predicted_calls": 36,
+      "ambiguous_reference": 2,
+      "ambiguous_prediction": 2
+    },
+    "5": {
+      "identity_f1": 0.22727272727272727,
+      "composition_tv": 0.3611111111111111,
+      "correct_labels": 15,
+      "reference_calls": 96,
+      "predicted_calls": 36,
+      "ambiguous_reference": 7,
+      "ambiguous_prediction": 13
+    }
+  },
+  "decode_s": 0.14739866700256243,
+  "policy_geometry_s": 0.0
+}

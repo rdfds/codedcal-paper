@@ -1,0 +1,10 @@
+{
+  "condition_sha256": "b2de44c6f89e6f48a2bda88bfdf6c27b62ecfae4e0dff174dc2c566cd9707f0e",
+  "crop_resample_exact": true,
+  "known_partial_affine_max_error": 0.0,
+  "native_fit": {
+    "retained_matches": 46,
+    "inliers": 46
+  },
+  "background_control_sha256": "e9ebd7a8fcd1653eeceb57c3aa65134049e5822610295a6d48b0a7638b4f7ef9"
+}

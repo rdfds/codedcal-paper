@@ -1,0 +1,55 @@
+{
+  "records": [
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555510?format=original",
+      "file_id": 12555510,
+      "expected_md5": "443f0e9261a44d8fd5c133654e5c3d2b",
+      "status": 200,
+      "headers": {
+        "ETag": "\"443f0e9261a44d8fd5c133654e5c3d2b\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''codebook_0_C1E1_codebook.csv",
+        "Content-Type": "text/comma-separated-values",
+        "Content-Length": "7575"
+      },
+      "success": true,
+      "bytes": 7575,
+      "sha256": "72c02cfc8f661137695cd7fb7044bfbd759f830f42a3eb906a6e48df0bfa98a5",
+      "md5": "443f0e9261a44d8fd5c133654e5c3d2b",
+      "publisher_md5_matches": true
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555511?format=original",
+      "file_id": 12555511,
+      "expected_md5": "75d231f37d10fa711c3934b1b0f81843",
+      "status": 200,
+      "headers": {
+        "ETag": "\"75d231f37d10fa711c3934b1b0f81843\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''dataorganization.csv",
+        "Content-Type": "text/comma-separated-values",
+        "Content-Length": "4911"
+      },
+      "success": true,
+      "bytes": 4911,
+      "sha256": "4e0865f55c6bb4771fc6f1ff04b573034a4062d53c570dce8c402b13ed136f54",
+      "md5": "75d231f37d10fa711c3934b1b0f81843",
+      "publisher_md5_matches": true
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555507?format=original",
+      "file_id": 12555507,
+      "expected_md5": "d3e423bcb00a29a85bf13bebd25edcc5",
+      "status": 200,
+      "headers": {
+        "ETag": "\"d3e423bcb00a29a85bf13bebd25edcc5\"",
+        "Content-Disposition": "attachment; filename*=UTF-8''positions.csv",
+        "Content-Type": "text/comma-separated-values",
+        "Content-Length": "355"
+      },
+      "success": true,
+      "bytes": 355,
+      "sha256": "e14fd0ee5b6b03f3f5c8b115cede5cad48bab1e749b728e2fd613ab1079be96f",
+      "md5": "d3e423bcb00a29a85bf13bebd25edcc5",
+      "publisher_md5_matches": true
+    }
+  ]
+}

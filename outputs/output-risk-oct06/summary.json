@@ -1,0 +1,1031 @@
+{
+  "stage": "interpreted",
+  "planned_cases": 13,
+  "completed_cases": 13,
+  "planned_first_stage_decoder_cases": 20,
+  "completed_decoder_cases": 20,
+  "correlation_supported_cases": 9,
+  "correlation_decision_coverage": 0.6923076923076923,
+  "correlation_sensitivity": 1.0,
+  "correlation_false_alert_rate": 0.5,
+  "failure_preparations": 2,
+  "adds_value_over_full_bank_and_ordinary_disagreement": false,
+  "first_stage_qualified": false,
+  "nonnegative_extension_authorized_by_scientific_gate": false,
+  "nonnegative_public_propagation_completed": 0,
+  "independent_preparation_confirmation": false,
+  "independent_RNA_truth": false,
+  "formal_risk_coverage_guarantee": false,
+  "development": true,
+  "preparation_counts_are_not_independent_fields": {
+    "bar": {
+      "supported": 5,
+      "failures": 1,
+      "misses": 0,
+      "false_alerts": 3,
+      "field_ids": [
+        0,
+        1
+      ]
+    },
+    "culture": {
+      "supported": 0,
+      "failures": 0,
+      "misses": 0,
+      "false_alerts": 0,
+      "field_ids": []
+    },
+    "tissue": {
+      "supported": 4,
+      "failures": 2,
+      "misses": 0,
+      "false_alerts": 0,
+      "field_ids": [
+        4
+      ]
+    }
+  },
+  "comparators": {
+    "risk": {
+      "auc": 0.7222222222222222,
+      "sensitivity_at_FPR_01": 0.3333333333333333,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": 0.5675675675675675,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.0
+        },
+        {
+          "threshold": 0.4516129032258065,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.16666666666666666
+        },
+        {
+          "threshold": 0.4375,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.30434782608695654,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.23308270676691728,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.21126760563380287,
+          "tpr": 1.0,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.04954954954954952,
+          "tpr": 1.0,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.04761904761904767,
+          "tpr": 1.0,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": 0.03333333333333334,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "ordinary": {
+      "auc": 0.5555555555555556,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": 1.0,
+          "tpr": 0.0,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.9130434782608695,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.7358490566037736,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.7058823529411764,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.6052631578947368,
+          "tpr": 1.0,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.1,
+          "tpr": 1.0,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.06229143492769745,
+          "tpr": 1.0,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": 0.04761904761904767,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "full_bank": {
+      "auc": 0.3888888888888889,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": 1.0,
+          "tpr": 0.0,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.9661016949152542,
+          "tpr": 0.0,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.9130434782608695,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.761904761904762,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.7377049180327868,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.6052631578947368,
+          "tpr": 1.0,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.5663082437275985,
+          "tpr": 1.0,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": 0.32258064516129037,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "fit": {
+      "auc": 0.3888888888888889,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": 0.4069421874756479,
+          "tpr": 0.0,
+          "fpr": 0.16666666666666666
+        },
+        {
+          "threshold": 0.3967092797952205,
+          "tpr": 0.0,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.34435915765392655,
+          "tpr": 0.0,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.34250527695447536,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.3406958626882634,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.2614451337240837,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.2589267612298561,
+          "tpr": 1.0,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.25583262750633007,
+          "tpr": 1.0,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": 0.25292752756947146,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "fit_gap": {
+      "auc": 0.8333333333333334,
+      "sensitivity_at_FPR_01": 0.3333333333333333,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": 0.005999233660384629,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.0
+        },
+        {
+          "threshold": 0.003634750851569446,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.16666666666666666
+        },
+        {
+          "threshold": 0.0010730026048355046,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.16666666666666666
+        },
+        {
+          "threshold": 0.0008269453592867904,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.0003474623403801891,
+          "tpr": 1.0,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.0002986165680224917,
+          "tpr": 1.0,
+          "fpr": 0.5
+        },
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "low_confidence": {
+      "auc": 0.2222222222222222,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": 0.870589554309845,
+          "tpr": 0.0,
+          "fpr": 0.16666666666666666
+        },
+        {
+          "threshold": 0.8669831305742264,
+          "tpr": 0.0,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": 0.8658901751041412,
+          "tpr": 0.0,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.8458631783723831,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.7747578322887421,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": 0.7657060921192169,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": 0.7639376521110535,
+          "tpr": 0.6666666666666666,
+          "fpr": 1.0
+        },
+        {
+          "threshold": 0.7504177838563919,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "blank_proxy": {
+      "auc": 0.5,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 5,
+      "positive": 1,
+      "negative": 4,
+      "curve": [
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "yield_loss": {
+      "auc": 0.2777777777777778,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 9,
+      "positive": 3,
+      "negative": 6,
+      "curve": [
+        {
+          "threshold": -21,
+          "tpr": 0.0,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": -23,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.3333333333333333
+        },
+        {
+          "threshold": -28,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.5
+        },
+        {
+          "threshold": -30,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.6666666666666666
+        },
+        {
+          "threshold": -31,
+          "tpr": 0.3333333333333333,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": -34,
+          "tpr": 0.6666666666666666,
+          "fpr": 0.8333333333333334
+        },
+        {
+          "threshold": -37,
+          "tpr": 0.6666666666666666,
+          "fpr": 1.0
+        },
+        {
+          "threshold": -39,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    }
+  },
+  "abstained_cases": [],
+  "records": [
+    {
+      "case": "bar_0_color",
+      "preparation": "bar",
+      "field": 0,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 21,
+      "incumbent_calls": 23,
+      "truth_failure": true,
+      "actual": {
+        "identity_loss": 0.09090909090909094,
+        "composition_tv": 0.13043478260869562,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.30434782608695654,
+      "flagged": true,
+      "ordinary": 0.9130434782608695,
+      "full_bank": 0.9130434782608695,
+      "fit": 0.34250527695447536,
+      "fit_gap": 0.0003474623403801891,
+      "low_confidence": 0.8458631783723831,
+      "blank_proxy": 0.0,
+      "yield_loss": -23
+    },
+    {
+      "case": "bar_0_common",
+      "preparation": "bar",
+      "field": 0,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 21,
+      "incumbent_calls": 21,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.04761904761904767,
+      "flagged": false,
+      "ordinary": 1.0,
+      "full_bank": 1.0,
+      "fit": 0.3406958626882634,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8658901751041412,
+      "blank_proxy": 0.0,
+      "yield_loss": -21
+    },
+    {
+      "case": "bar_0_zero",
+      "preparation": "bar",
+      "field": 0,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 21,
+      "incumbent_calls": 21,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.23308270676691728,
+      "flagged": true,
+      "ordinary": 0.04761904761904767,
+      "full_bank": 0.761904761904762,
+      "fit": 0.34435915765392655,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8658901751041412,
+      "blank_proxy": 0.0,
+      "yield_loss": -21
+    },
+    {
+      "case": "bar_1_color",
+      "preparation": "bar",
+      "field": 1,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 28,
+      "incumbent_calls": 3,
+      "truth_failure": true,
+      "actual": {
+        "identity_loss": 0.935483870967742,
+        "composition_tv": 0.9642857142857145,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.5055576343985543,
+      "fit_gap": 0.11418594110808478,
+      "low_confidence": 0.7859572470188141,
+      "blank_proxy": 0.0,
+      "yield_loss": -3
+    },
+    {
+      "case": "bar_1_common",
+      "preparation": "bar",
+      "field": 1,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 28,
+      "incumbent_calls": 28,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.4516129032258065,
+      "flagged": true,
+      "ordinary": 1.0,
+      "full_bank": 1.0,
+      "fit": 0.4069421874756479,
+      "fit_gap": 0.0002986165680224917,
+      "low_confidence": 0.870589554309845,
+      "blank_proxy": 0.0,
+      "yield_loss": -28
+    },
+    {
+      "case": "bar_1_zero",
+      "preparation": "bar",
+      "field": 1,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 31,
+      "incumbent_calls": 31,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.4375,
+      "flagged": true,
+      "ordinary": 0.06229143492769745,
+      "full_bank": 0.5663082437275985,
+      "fit": 0.3967092797952205,
+      "fit_gap": 0.0008269453592867904,
+      "low_confidence": 0.8669831305742264,
+      "blank_proxy": 0.0,
+      "yield_loss": -31
+    },
+    {
+      "case": "culture_4_color",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "color",
+      "decoder": "source_spot",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.3306454489433252,
+      "fit_gap": 0.0,
+      "low_confidence": null,
+      "blank_proxy": 0.0,
+      "yield_loss": 0
+    },
+    {
+      "case": "culture_4_color",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.3306454489433252,
+      "fit_gap": 0.0,
+      "low_confidence": null,
+      "blank_proxy": 0.0,
+      "yield_loss": 0
+    },
+    {
+      "case": "culture_4_common",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "common",
+      "decoder": "source_spot",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.8286653289680318,
+      "fit_gap": 0.33366315927849005,
+      "low_confidence": null,
+      "blank_proxy": 0.0,
+      "yield_loss": 0
+    },
+    {
+      "case": "culture_4_common",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.8286653289680318,
+      "fit_gap": 0.33366315927849005,
+      "low_confidence": null,
+      "blank_proxy": 0.0,
+      "yield_loss": 0
+    },
+    {
+      "case": "culture_4_zero",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "source_spot",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.7058220631840277,
+      "fit_gap": 0.5886721827712669,
+      "low_confidence": null,
+      "blank_proxy": 0.0,
+      "yield_loss": 0
+    },
+    {
+      "case": "culture_4_zero",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 0,
+      "incumbent_calls": 0,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "empty_both": true
+      },
+      "abstained": true,
+      "risk": null,
+      "flagged": null,
+      "ordinary": null,
+      "full_bank": null,
+      "fit": 0.7058220631840277,
+      "fit_gap": 0.5886721827712669,
+      "low_confidence": null,
+      "blank_proxy": 0.0,
+      "yield_loss": 0
+    },
+    {
+      "case": "tissue_4_color",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "color",
+      "decoder": "source_spot",
+      "reference_calls": 24,
+      "incumbent_calls": 24,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.5217391304347826,
+      "flagged": true,
+      "ordinary": 0.5217391304347826,
+      "full_bank": 0.5217391304347826,
+      "fit": 0.2589267612298561,
+      "fit_gap": 0.005999233660384629,
+      "low_confidence": 0.494129478931427,
+      "blank_proxy": null,
+      "yield_loss": -24
+    },
+    {
+      "case": "tissue_4_color",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 37,
+      "incumbent_calls": 39,
+      "truth_failure": true,
+      "actual": {
+        "identity_loss": 0.07894736842105265,
+        "composition_tv": 0.08593208593208593,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.5675675675675675,
+      "flagged": true,
+      "ordinary": 0.6052631578947368,
+      "full_bank": 0.6052631578947368,
+      "fit": 0.2589267612298561,
+      "fit_gap": 0.005999233660384629,
+      "low_confidence": 0.7747578322887421,
+      "blank_proxy": null,
+      "yield_loss": -39
+    },
+    {
+      "case": "tissue_4_common",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "common",
+      "decoder": "source_spot",
+      "reference_calls": 24,
+      "incumbent_calls": 24,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.03985507246376811,
+      "flagged": false,
+      "ordinary": 0.6875,
+      "full_bank": 0.9523809523809523,
+      "fit": 0.25292752756947146,
+      "fit_gap": 0.0,
+      "low_confidence": 0.47974181175231934,
+      "blank_proxy": null,
+      "yield_loss": -24
+    },
+    {
+      "case": "tissue_4_common",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 37,
+      "incumbent_calls": 37,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.04954954954954952,
+      "flagged": false,
+      "ordinary": 0.7358490566037736,
+      "full_bank": 0.9661016949152542,
+      "fit": 0.25292752756947146,
+      "fit_gap": 0.0,
+      "low_confidence": 0.7657060921192169,
+      "blank_proxy": null,
+      "yield_loss": -37
+    },
+    {
+      "case": "tissue_4_outclass",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "outclass",
+      "decoder": "source_spot",
+      "reference_calls": 24,
+      "incumbent_calls": 23,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.021276595744680882,
+        "composition_tv": 0.03079710144927538,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.28,
+      "flagged": true,
+      "ordinary": 0.7674418604651163,
+      "full_bank": 0.8095238095238095,
+      "fit": 0.2614451337240837,
+      "fit_gap": 0.0010730026048355046,
+      "low_confidence": 0.4851658344268799,
+      "blank_proxy": null,
+      "yield_loss": -23
+    },
+    {
+      "case": "tissue_4_outclass",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "outclass",
+      "decoder": "correlation",
+      "reference_calls": 36,
+      "incumbent_calls": 34,
+      "truth_failure": true,
+      "actual": {
+        "identity_loss": 0.05714285714285716,
+        "composition_tv": 0.06535947712418301,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.21126760563380287,
+      "flagged": true,
+      "ordinary": 0.7058823529411764,
+      "full_bank": 0.7377049180327868,
+      "fit": 0.2614451337240837,
+      "fit_gap": 0.0010730026048355046,
+      "low_confidence": 0.7504177838563919,
+      "blank_proxy": null,
+      "yield_loss": -34
+    },
+    {
+      "case": "tissue_4_zero",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "source_spot",
+      "reference_calls": 21,
+      "incumbent_calls": 20,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.024390243902439046,
+        "composition_tv": 0.03809523809523812,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.050000000000000044,
+      "flagged": true,
+      "ordinary": 0.15000000000000002,
+      "full_bank": 0.4,
+      "fit": 0.25583262750633007,
+      "fit_gap": 0.003634750851569446,
+      "low_confidence": 0.49491453170776367,
+      "blank_proxy": null,
+      "yield_loss": -20
+    },
+    {
+      "case": "tissue_4_zero",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 31,
+      "incumbent_calls": 30,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.016393442622950838,
+        "composition_tv": 0.030107526881720446,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.03333333333333334,
+      "flagged": false,
+      "ordinary": 0.1,
+      "full_bank": 0.32258064516129037,
+      "fit": 0.25583262750633007,
+      "fit_gap": 0.003634750851569446,
+      "low_confidence": 0.7639376521110535,
+      "blank_proxy": null,
+      "yield_loss": -30
+    }
+  ],
+  "retained_evaluation_hashes": [
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_0_color/evaluation.json",
+      "sha256": "cc693f83ae5ac7187acba182bec46529c99f3f99d2d5d2f9e429a0cf0faad5f6"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_0_common/evaluation.json",
+      "sha256": "a972d59d377d8f12d8af2197723aa60db72ecab54f9f4d0a129b39356197de1e"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_0_zero/evaluation.json",
+      "sha256": "e39df2b69911cf55c4446025ca903944d12eefc1a1b472fc4bf6d2a382c345cb"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_1_color/evaluation.json",
+      "sha256": "551b6482da522bb43fbeba980d76994e44ef6d8a924ce183a9aaf4ac17106e19"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_1_common/evaluation.json",
+      "sha256": "ae642c8336e1a2293fcab67ef70312217683b729ded99318f0e15c68377e845f"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/bar_1_zero/evaluation.json",
+      "sha256": "84c4f9b16ab33c7beb70da33de010e146cd2fb3b4baac91f6fb1e749b473d928"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/culture_4_color/evaluation.json",
+      "sha256": "8b4876c6677d90041896cefe89923180cbee738fcab17facb35e2b10ae22e357"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/culture_4_common/evaluation.json",
+      "sha256": "af5f78224d1ab61a0df9fde8c50d7bb04a83938b35388e0f567867afd78a2f22"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/culture_4_zero/evaluation.json",
+      "sha256": "0b6d5cf4c510947fad726ae1d8da679c79766a32d398532263317f052de0a302"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_color/evaluation.json",
+      "sha256": "f2449e0af5cb7f89583407285723ae22a41c2950cae845a13e882eb36bdb740d"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_common/evaluation.json",
+      "sha256": "bc2c791f84ee3993876ef0bde2b51b1aa34fcf613f7aca2f26d5dbf30e9afd51"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_outclass/evaluation.json",
+      "sha256": "bdb9de5f4a5edbb88e1f545759fb4fb3756d39d8898e0098f4018c99f88b0d0c"
+    },
+    {
+      "file": "outputs/output-risk-oct06/cases/tissue_4_zero/evaluation.json",
+      "sha256": "fa68667cfd3236c62b178c71ef17396bc221884013972f37c513bee2a0d7a198"
+    }
+  ]
+}

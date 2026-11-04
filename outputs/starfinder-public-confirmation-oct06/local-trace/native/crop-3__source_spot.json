@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "crop": 3,
+  "decoder": "source_spot",
+  "xyz": [],
+  "words": [],
+  "coding": 0,
+  "negative": 0,
+  "support": 1.0,
+  "runtime": {
+    "candidates": 1,
+    "unsupported_candidates": 0,
+    "candidate_trace_s": 0.13186904101166874,
+    "elapsed_s": 0.13296445799642242
+  },
+  "input_sha256": "291be5a600a22a41161e4ef166061c581533abe04b9ced37eb7fe1a678bd2388",
+  "freeze_sha256": "0c1e272911b6fac91a472c6568a6aa7e2bd3b7c22d24adcf3da004483deb41e3"
+}

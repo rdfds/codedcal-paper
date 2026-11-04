@@ -1,0 +1,12 @@
+{
+  "completed_primary_arms": 312,
+  "radii": [
+    1.5,
+    3,
+    5
+  ],
+  "exact_metric_recounts": true,
+  "author_raw_sources_verified": true,
+  "script_sha256": "4c6cd8760c94033fb301d9f0383da0787975284893b48dd1e2507337febbf429",
+  "frozen_score_source_sha256": "deaf22e238d29b3d846c6742855961eabf4052f8b29a4db9628061168a631d92"
+}

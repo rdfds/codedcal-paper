@@ -1,0 +1,8 @@
+{
+  "stage": "complete",
+  "completed": 3,
+  "planned": 3,
+  "failed_starts": 0,
+  "development": true,
+  "independent_confirmation": false
+}

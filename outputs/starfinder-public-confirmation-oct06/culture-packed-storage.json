@@ -1,0 +1,188 @@
+{
+  "stage": "complete",
+  "archive_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/Position351-source-lossless.zip",
+  "archive_bytes": 125613188,
+  "archive_sha256": "5363bf0c25c2266da7e64def3afe7a07ab80aa65ee30c7b65931e2f461ca14f8",
+  "original_manifest_sha256": "6f2556d280f3e982096a8f4ba7a7af22e315d32d72e1b2fd1e8ee88a41d0c376",
+  "records": [
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round1__TEMPOmap seq1_Position351_351_cmle_ch00.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round1/Position351/TEMPOmap seq1_Position351_351_cmle_ch00.tif",
+      "bytes": 67226528,
+      "sha256": "c7a08483cdc6fb78ec9974cff78b320fb9fed9a916891bf975769a87cd3b5e75",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round1__TEMPOmap seq1_Position351_351_cmle_ch01.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round1/Position351/TEMPOmap seq1_Position351_351_cmle_ch01.tif",
+      "bytes": 67226528,
+      "sha256": "e28139fc73a7f0a588d77594898d7f4b7240bbafffcee2f3808b3abe77ab221a",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round1__TEMPOmap seq1_Position351_351_cmle_ch02.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round1/Position351/TEMPOmap seq1_Position351_351_cmle_ch02.tif",
+      "bytes": 67226528,
+      "sha256": "2b3d631df0c7f8db6c09c0a94cb8d4b508bdd45d3a3e87065b7fbe94d64a7988",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round1__TEMPOmap seq1_Position351_351_cmle_ch03.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round1/Position351/TEMPOmap seq1_Position351_351_cmle_ch03.tif",
+      "bytes": 67226528,
+      "sha256": "f78dac3ed7fb046ada6a2999a1420f20f47dcda5068effbbd8f405fe807a3814",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round1__TEMPOmap seq1_Position351_351_cmle_ch04.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round1/Position351/TEMPOmap seq1_Position351_351_cmle_ch04.tif",
+      "bytes": 67226528,
+      "sha256": "da2c5b9fad997b5b27de627656286f491865c0d3d38f0b84a14c433608519007",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round2__TEMPOmap seq2_Position351_350_cmle_ch00.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round2/Position351/TEMPOmap seq2_Position351_350_cmle_ch00.tif",
+      "bytes": 67226528,
+      "sha256": "3e89d5066e540d0783a7ceb30009853ad00af2f0a042bf84419c7ced69f1f5ce",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round2__TEMPOmap seq2_Position351_350_cmle_ch01.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round2/Position351/TEMPOmap seq2_Position351_350_cmle_ch01.tif",
+      "bytes": 67226528,
+      "sha256": "b441cf93b89b486fc04541469084a48c209fbb9421dc1b26e7755c8ba2f3d912",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round2__TEMPOmap seq2_Position351_350_cmle_ch02.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round2/Position351/TEMPOmap seq2_Position351_350_cmle_ch02.tif",
+      "bytes": 67226528,
+      "sha256": "0cf8e403d02681fd348f85d83780a8fbc70a612737224c358c6167d4f7b90e84",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round2__TEMPOmap seq2_Position351_350_cmle_ch03.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round2/Position351/TEMPOmap seq2_Position351_350_cmle_ch03.tif",
+      "bytes": 67226528,
+      "sha256": "0ef6cfd31f52a5be1fb6233515c9f6f23a5762730f6d2a6af7f9590fa8981c81",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round3__TEMPOmap seq3_Position351_350_cmle_ch00.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round3/Position351/TEMPOmap seq3_Position351_350_cmle_ch00.tif",
+      "bytes": 67226528,
+      "sha256": "f0cae18ba751d957d194e8dbe23293efcde7d7fbf2ea7ce5289dfdbdc69e824c",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round3__TEMPOmap seq3_Position351_350_cmle_ch01.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round3/Position351/TEMPOmap seq3_Position351_350_cmle_ch01.tif",
+      "bytes": 67226528,
+      "sha256": "9429bfd74dfdc7c314bcd625609f815579e29fa31f892ef37b07a558dd45431b",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round3__TEMPOmap seq3_Position351_350_cmle_ch02.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round3/Position351/TEMPOmap seq3_Position351_350_cmle_ch02.tif",
+      "bytes": 67226528,
+      "sha256": "c17f211e1ee24459f651cec3a60f010269d193b7114f26e27ada5d6c083b3fd3",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round3__TEMPOmap seq3_Position351_350_cmle_ch03.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round3/Position351/TEMPOmap seq3_Position351_350_cmle_ch03.tif",
+      "bytes": 67226528,
+      "sha256": "ff6442ac473e28c568aaf25477116c77218650a70cc862e99f94055b0283ccda",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round4__TEMPOmap seq4_Position351_350_cmle_ch00.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round4/Position351/TEMPOmap seq4_Position351_350_cmle_ch00.tif",
+      "bytes": 67226528,
+      "sha256": "eb9eaf8b712ef8c433bc2d09175bf5415df1d76647cc0af80bc78a29eaca3a91",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round4__TEMPOmap seq4_Position351_350_cmle_ch01.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round4/Position351/TEMPOmap seq4_Position351_350_cmle_ch01.tif",
+      "bytes": 67226528,
+      "sha256": "0ffb207a45f9e367e6d147a8735c635376365d0eee44317b9fe033610b06954b",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round4__TEMPOmap seq4_Position351_350_cmle_ch02.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round4/Position351/TEMPOmap seq4_Position351_350_cmle_ch02.tif",
+      "bytes": 67226528,
+      "sha256": "a4798db46512e90d0df7e0e8a5190965513e2e7d30d2985fa45c252313c3f28a",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round4__TEMPOmap seq4_Position351_350_cmle_ch03.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round4/Position351/TEMPOmap seq4_Position351_350_cmle_ch03.tif",
+      "bytes": 67226528,
+      "sha256": "7e8f0a2270ffaf6ab2be96a9b225e3e02298edcbac57c6155745e0035e9f0a26",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round5__TEMPOmap seq5_Position351_350_cmle_ch00.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round5/Position351/TEMPOmap seq5_Position351_350_cmle_ch00.tif",
+      "bytes": 67226528,
+      "sha256": "8bf0d26949df64a10299dd2d619808782f25ee048538fa3c12548daa35deabde",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round5__TEMPOmap seq5_Position351_350_cmle_ch01.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round5/Position351/TEMPOmap seq5_Position351_350_cmle_ch01.tif",
+      "bytes": 67226528,
+      "sha256": "76c8b0633e5bb1c0099eaedbaa4e66747b62ce8a73c07a393f7f0c8ef92ad990",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round5__TEMPOmap seq5_Position351_350_cmle_ch02.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round5/Position351/TEMPOmap seq5_Position351_350_cmle_ch02.tif",
+      "bytes": 67226528,
+      "sha256": "fdddb72f3857ab098276fd6636ca926bb86f45e712772b656f41dc7dcc19a29e",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round5__TEMPOmap seq5_Position351_350_cmle_ch03.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round5/Position351/TEMPOmap seq5_Position351_350_cmle_ch03.tif",
+      "bytes": 67226528,
+      "sha256": "42447d1e0d560828c96db27f1816b80d058dabb468b327d4ff16d00b900cdf8a",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round6__TEMPOmap seq6_Position351_350_cmle_ch00.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round6/Position351/TEMPOmap seq6_Position351_350_cmle_ch00.tif",
+      "bytes": 67226528,
+      "sha256": "72f1a6834b888e27afe893649d77cd9249c03d593d8b106df6d7aa0df6a4626f",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round6__TEMPOmap seq6_Position351_350_cmle_ch01.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round6/Position351/TEMPOmap seq6_Position351_350_cmle_ch01.tif",
+      "bytes": 67226528,
+      "sha256": "d9e58ad70bcf168040f70845885b62e699f5ac951643e899a699a21e14775b9d",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round6__TEMPOmap seq6_Position351_350_cmle_ch02.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round6/Position351/TEMPOmap seq6_Position351_350_cmle_ch02.tif",
+      "bytes": 67226528,
+      "sha256": "8124db7f282cff0ab52722303d62b7fcce917e682f8ae0e9adfc16539e16f083",
+      "crc32_verified": true
+    },
+    {
+      "original_path": "external-originals/2026-09-25/can-y/work/starfinder-inputs-oct06.nosync/round6__TEMPOmap seq6_Position351_350_cmle_ch03.tif",
+      "zip_member": "sample-dataset/cell-culture-3D/round6/Position351/TEMPOmap seq6_Position351_350_cmle_ch03.tif",
+      "bytes": 67226528,
+      "sha256": "a4a8fc5a21e355bd13943e39c85db3d9948beda2ce165d4c667f4ae7ed9434f7",
+      "crc32_verified": true
+    }
+  ],
+  "all_original_source_bytes_preserved": true,
+  "original_archive_md5_not_verified": true,
+  "expanded_duplicates_removed": 25,
+  "net_bytes_freed": 1555050012
+}

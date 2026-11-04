@@ -1,0 +1,45 @@
+{
+  "all_pass": true,
+  "dependency_freeze_commit": "44b98a8",
+  "dependencies_sha256": {
+    "outputs/stationarity-diagnostic-sep15/split_components.py": "382831b666dad0827152df09a898c07bdeba6e9cb8c1453f67167a78f755edd1",
+    "outputs/count-balanced-calibration-sep14/balanced_estimator.py": "e86cae93614dfdd8a9fe17361e58d87d918734d8802494a11c3b92e21780fa00",
+    "outputs/noise-equalization-sep14/test_equalization.py": "8a2b0e10fcbe0fea760c052bccd4dc4ffc617fea8d34b910812b314dc61a660e",
+    "outputs/reference-reconciliation-oct07/common.py": "37b14ffb3532be7994e9282df631de9f064eb7f33f113aa2f8db2b58f96ac954",
+    "outputs/reference-reconciliation-oct07/simulate_reference.py": "54d823e5c02a784d1f03b838170ed8ab31b0457ad27be696df8ee7562184339d",
+    "outputs/reference-reconciliation-oct07/reference_characterize.py": "8283e1cbf98603a2431f185198a55c5e89d4c3060a870e59901af3aaa41bfc31",
+    "outputs/oracle-crossval-sep15/oracle_pipeline.py": "7ffc19efb97ac4c4e8230328b536400d47e3131142264befc5c3843139de4a3f"
+  },
+  "runtime_versions": {
+    "python": "3.10.16 (main, Dec  3 2024, 17:27:57) [Clang 16.0.0 (clang-1600.0.26.4)]",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1"
+  },
+  "conditional_only": true,
+  "physical_validation": false,
+  "distinct_acquisitions": 8,
+  "views": 9,
+  "physical_fields": 3528,
+  "coded_fields": 7056,
+  "case_recounts": 42336,
+  "truth_worlds": 126,
+  "source_catalogs": 9,
+  "verified_artifacts": 7337,
+  "summary_records": 1008,
+  "seed_replayed_fields": 18,
+  "seed_replayed_groups": 288,
+  "artifact_sha256": {
+    "summary.json": "a03406612e25f8d1492e3d5c738812312c4fef515eecac43b65d007a8bc33a91",
+    "summary.csv": "1e3e86fb17b751634ac3ec3125656d5e9321ea0e8c5f8a62e57928b1e81e4366",
+    "artifact-manifest.json": "5381a204e32ebaba1749952e3b89a85e2b839dd6333e1c20ce907c3f2ec3b846",
+    "controls.json": "7d419baba278f4a9ebca5ff9df70a6f1356df1b499e7f452748a19ed4f85a97d",
+    "freeze.json": "2f6d1cccc8784abfa05fe7aeda93437a48726a2c970626119078c1baf07d21a5",
+    "PROTOCOL.md": "9687d0a603f7bf17e5907ecc5e60491230a35ff5f6dbfc4b913ba072272ccc7c",
+    "validation.py": "7751a3510d3b7a7af76c99498d5294d3434e3126cbd37c1db3b01d23c7bb4123",
+    "summarize.py": "be2da30507527dc2a70dbaf35c8f064055c9632b390f963400b506e9fdfe148f",
+    "verify.py": "3b4b4c43964cb329823f009c39dd17fec6c3c8ca90f7b394545d09b27250270c",
+    "population-information.json": "c8e154ce6c43943c8a9aa3c4437829fde032a2c4cb053c158ac3b7b85c4f0a69",
+    "execution-state.json": "26938be840a1939c627c95ff2d085a3167b4d802e34c00d13a6d6cce0aeec020",
+    "execution.log": "70acf52f387694dc4bb46f70164b0ed84b5cd796f3e6f5861eb33a10e11e2b14"
+  }
+}

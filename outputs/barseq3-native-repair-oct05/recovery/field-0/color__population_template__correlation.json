@@ -1,0 +1,328 @@
+{
+  "status": "completed",
+  "kind": "color",
+  "policy": "population_template",
+  "decoder": "correlation",
+  "source_index": 0,
+  "xy": [
+    [
+      99.0,
+      47.0
+    ],
+    [
+      37.0,
+      65.0
+    ],
+    [
+      25.0,
+      74.0
+    ],
+    [
+      37.0,
+      31.0
+    ],
+    [
+      32.0,
+      77.0
+    ],
+    [
+      32.0,
+      79.0
+    ],
+    [
+      27.0,
+      62.0
+    ],
+    [
+      95.0,
+      80.0
+    ],
+    [
+      25.0,
+      95.0
+    ],
+    [
+      24.0,
+      102.0
+    ],
+    [
+      32.0,
+      72.0
+    ],
+    [
+      31.0,
+      68.0
+    ],
+    [
+      49.0,
+      64.0
+    ],
+    [
+      58.0,
+      53.0
+    ],
+    [
+      38.0,
+      74.0
+    ],
+    [
+      100.0,
+      60.0
+    ],
+    [
+      43.0,
+      88.0
+    ]
+  ],
+  "words": [
+    14,
+    184,
+    475,
+    605,
+    824,
+    824,
+    854,
+    961,
+    961,
+    1004,
+    1053,
+    1137,
+    1280,
+    1562,
+    1570,
+    1713,
+    1745
+  ],
+  "metrics": {
+    "1.5": {
+      "gene_class_identity_f1": 0.25287356321839083,
+      "sequence_identity_f1": 0.25287356321839083,
+      "spatial_f1": 0.27586206896551724,
+      "label_constrained_f1": 0.27586206896551724,
+      "composition_tv": 0.7285714285714285,
+      "reference_calls": 70,
+      "predicted_calls": 17,
+      "correct_gene_classes": 11,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 2,
+        "skipped_components": 0,
+        "candidate_edges": 15
+      }
+    },
+    "3": {
+      "gene_class_identity_f1": 0.27586206896551724,
+      "sequence_identity_f1": 0.27586206896551724,
+      "spatial_f1": 0.3218390804597701,
+      "label_constrained_f1": 0.2988505747126437,
+      "composition_tv": 0.7285714285714285,
+      "reference_calls": 70,
+      "predicted_calls": 17,
+      "correct_gene_classes": 12,
+      "matching": {
+        "ambiguous_reference": 1,
+        "ambiguous_prediction": 5,
+        "skipped_components": 0,
+        "candidate_edges": 22
+      }
+    },
+    "5": {
+      "gene_class_identity_f1": 0.27586206896551724,
+      "sequence_identity_f1": 0.27586206896551724,
+      "spatial_f1": 0.367816091954023,
+      "label_constrained_f1": 0.2988505747126437,
+      "composition_tv": 0.7285714285714285,
+      "reference_calls": 70,
+      "predicted_calls": 17,
+      "correct_gene_classes": 12,
+      "matching": {
+        "ambiguous_reference": 6,
+        "ambiguous_prediction": 12,
+        "skipped_components": 0,
+        "candidate_edges": 41
+      }
+    }
+  },
+  "quality": {
+    "nonblank": 17,
+    "blanks": 0,
+    "proxy": 0.0,
+    "support": 1.0,
+    "qualified": false
+  },
+  "runtime": {
+    "kernel_s": 0.03794945799745619,
+    "peaks_s": 0.27836504200240597,
+    "density_max": 0.891514778137207,
+    "absolute_cut": 0.7749999761581421,
+    "density_sha256": "482af003e70a6dd1f848486b8666478ceee257df5b6575c0944a051d40faf29a",
+    "exact_reference_kernel_reused": false,
+    "warp_s": 0.024675458000274375
+  },
+  "applied_integer_maps": [
+    [
+      -5,
+      -2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      -5,
+      -2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      -5,
+      -2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -5,
+      -1
+    ],
+    [
+      2,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -2,
+      -2
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      -5,
+      -2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -3,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -2,
+      -1
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -5,
+      -2
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      -4,
+      -2
+    ],
+    [
+      3,
+      1
+    ]
+  ],
+  "residual_added_rms": 1.9364916731037085,
+  "geometry_sha256": "60e95e6e5a9faf5d30e6db277e827af509a3f98dc50bab612df746c4fa67cbd8",
+  "reference_sha256": "05fe6cefe02cdd885219573c517510a46b82cecc8daf13f83c15e97794c6ac1b",
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955"
+}

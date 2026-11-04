@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "completed_decoder_predictions": 52,
+  "historical_cases_reproduced": 26,
+  "all_24_original_assessments_unchanged": true,
+  "original_references_and_parameters_verified": true,
+  "anchored_gain_only_intervention_verified": true,
+  "preceding_seals_unchanged": {
+    "research/workflow-validation-completion-nov03/completion-manifest.json": {
+      "sha256": "dc48cd5b5cbca86413782af80c34d286b9f79d25425f5fc15a20a4d59be64945",
+      "files_verified": 136
+    },
+    "research/workflow-failure-audit-nov03/posthoc-manifest.json": {
+      "sha256": "96c8ca718e5ba9eb5d0f13fbdafcb08516e5db678b192b97045eae2aa8aa9420",
+      "files_verified": 20
+    },
+    "research/workflow-failure-audit-nov03/native-completion-manifest.json": {
+      "sha256": "9ef9efba50a0d380338dfffc5f72c554036c1a550868e859b56334c8a8570f30",
+      "files_verified": 36
+    }
+  },
+  "sealed_files": 84,
+  "new_predictions_during_verification": 0,
+  "physical_validation_added": false
+}

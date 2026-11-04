@@ -1,0 +1,18 @@
+{
+  "stage": "metadata_only_before_raw_input_or_outcomes",
+  "max_requests": 4,
+  "max_body_bytes_per_request": 524288,
+  "max_total_bytes": 2097152,
+  "timeout_seconds": 40,
+  "minimum_spacing_seconds": 10,
+  "automatic_retries": false,
+  "stop_on_429": true,
+  "urls": [
+    "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NE0WOP",
+    "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/NE0WOP",
+    "https://zenodo.org/api/records/8253771",
+    "https://doi.org/10.7910/DVN/NE0WOP"
+  ],
+  "raw_image_download_allowed_by_this_plan": false,
+  "required_disk_reserve_bytes": 1073741824
+}

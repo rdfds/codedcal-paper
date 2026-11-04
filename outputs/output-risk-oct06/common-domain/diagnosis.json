@@ -1,0 +1,2265 @@
+{
+  "stage": "model_adequacy_diagnosis",
+  "cases": 13,
+  "records": [
+    {
+      "case": "bar_0_color",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "old_barcode_model"
+      ],
+      "incumbent_loss": 0.33500956825327755,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "old_barcode_model"
+      ],
+      "best_fit_native_error": [
+        0.09210526315789469,
+        0.09210526315789472
+      ],
+      "best_native_consistent_loss": 0.33536854639057806,
+      "strict_fit_preference_for_native_inconsistent": true,
+      "bootstrap_weight_on_native_inconsistent": 0.576,
+      "incumbent_native_error": [
+        0.09210526315789469,
+        0.09210526315789472
+      ],
+      "highest_weight_labels": [
+        "old_barcode_model"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "old_barcode_model"
+          ],
+          "loss": 0.33500956825327755,
+          "native_error": [
+            0.09210526315789469,
+            0.09210526315789472
+          ],
+          "weight": 0.574
+        },
+        {
+          "labels": [
+            "group_selected",
+            "group_zero_1",
+            "group_round_1"
+          ],
+          "loss": 0.33536854639057806,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 0.34
+        },
+        {
+          "labels": [
+            "author_selected",
+            "author_zero_refined"
+          ],
+          "loss": 0.3356880432163781,
+          "native_error": [
+            0.020134228187919434,
+            0.037851478010093725
+          ],
+          "weight": 0.084
+        },
+        {
+          "labels": [
+            "author_zero_initial",
+            "image_zero",
+            "image_round"
+          ],
+          "loss": 0.3451119372221023,
+          "native_error": [
+            0.1917808219178082,
+            0.16203007518797005
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_1"
+          ],
+          "loss": 0.34642927529987433,
+          "native_error": [
+            0.2222222222222222,
+            0.18498452012383915
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "bar_0_common",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "author_selected",
+        "author_common_initial",
+        "image_zero",
+        "image_round",
+        "old_common_iterative",
+        "old_population_template",
+        "group_selected",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.3381835776729302,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "author_selected",
+        "author_common_initial",
+        "image_zero",
+        "image_round",
+        "old_common_iterative",
+        "old_population_template",
+        "group_selected",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.3381835776729302,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.03,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "author_selected",
+        "author_common_initial",
+        "image_zero",
+        "image_round",
+        "old_common_iterative",
+        "old_population_template",
+        "group_selected",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "author_selected",
+            "author_common_initial",
+            "image_zero",
+            "image_round",
+            "old_common_iterative",
+            "old_population_template",
+            "group_selected",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.3381835776729302,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 0.552
+        },
+        {
+          "labels": [
+            "author_common_refined",
+            "old_barcode_model"
+          ],
+          "loss": 0.3382510668020254,
+          "native_error": [
+            0.022556390977443663,
+            0.029398462234283135
+          ],
+          "weight": 0.418
+        },
+        {
+          "labels": [
+            "local_color1_axis2_-1"
+          ],
+          "loss": 0.3495206228586794,
+          "native_error": [
+            0.22580645161290325,
+            0.18443051201671876
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_1"
+          ],
+          "loss": 0.34963889687765154,
+          "native_error": [
+            0.28125,
+            0.21945259042033222
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color1_axis1_1"
+          ],
+          "loss": 0.34987638620181233,
+          "native_error": [
+            0.17741935483870963,
+            0.17816091954022975
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "bar_0_zero",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "author_selected",
+        "author_zero_initial",
+        "author_zero_refined",
+        "image_zero",
+        "image_round",
+        "old_none",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.33478700466581984,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "author_selected",
+        "author_zero_initial",
+        "author_zero_refined",
+        "image_zero",
+        "image_round",
+        "old_none",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.33478700466581984,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.39,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "author_selected",
+        "author_zero_initial",
+        "author_zero_refined",
+        "image_zero",
+        "image_round",
+        "old_none",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "author_selected",
+            "author_zero_initial",
+            "author_zero_refined",
+            "image_zero",
+            "image_round",
+            "old_none",
+            "old_common_iterative",
+            "old_barcode_model",
+            "group_selected",
+            "group_zero_0",
+            "group_zero_1",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.33478700466581984,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 0.61
+        },
+        {
+          "labels": [
+            "old_population_template"
+          ],
+          "loss": 0.3350131636494141,
+          "native_error": [
+            0.05797101449275366,
+            0.06974789915966384
+          ],
+          "weight": 0.382
+        },
+        {
+          "labels": [
+            "local_color0_axis2_1"
+          ],
+          "loss": 0.346228480418925,
+          "native_error": [
+            0.25,
+            0.1662337662337662
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color1_axis2_-1"
+          ],
+          "loss": 0.3465921681290962,
+          "native_error": [
+            0.25190839694656486,
+            0.18735362997658098
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_1"
+          ],
+          "loss": 0.3467913506766184,
+          "native_error": [
+            0.2824427480916031,
+            0.22388758782201423
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "bar_1_color",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "old_population_template",
+        "old_barcode_model"
+      ],
+      "incumbent_loss": 0.498892854276269,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "group_selected",
+        "group_zero_1",
+        "group_round_1"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.3908606876049411,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.9236641221374046,
+        0.8749999999999994
+      ],
+      "highest_weight_labels": [
+        "group_selected",
+        "group_zero_1",
+        "group_round_1"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "group_selected",
+            "group_zero_1",
+            "group_round_1"
+          ],
+          "loss": 0.3908606876049411,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "old_population_template",
+            "old_barcode_model"
+          ],
+          "loss": 0.498892854276269,
+          "native_error": [
+            0.9236641221374046,
+            0.8749999999999994
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "author_selected",
+            "author_zero_initial",
+            "author_zero_refined",
+            "image_zero",
+            "image_round",
+            "old_none",
+            "old_common_iterative",
+            "group_zero_0",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_2"
+          ],
+          "loss": 0.4999682442792542,
+          "native_error": [
+            0.953125,
+            0.9749999999999996
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis2_-1"
+          ],
+          "loss": 0.5016717976056163,
+          "native_error": [
+            0.96875,
+            0.9416666666666664
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_1"
+          ],
+          "loss": 0.5022168098478533,
+          "native_error": [
+            0.967741935483871,
+            0.983333333333333
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "bar_1_common",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "author_selected",
+        "author_common_initial",
+        "author_common_refined",
+        "image_round",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.39096844556802024,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "author_selected",
+        "author_common_initial",
+        "author_common_refined",
+        "image_round",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.39096844556802024,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.6040000000000001,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "author_selected",
+        "author_common_initial",
+        "author_common_refined",
+        "image_round",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "author_selected",
+            "author_common_initial",
+            "author_common_refined",
+            "image_round",
+            "old_common_iterative",
+            "old_barcode_model",
+            "group_selected",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.39096844556802024,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 0.396
+        },
+        {
+          "labels": [
+            "old_population_template"
+          ],
+          "loss": 0.3913252684394417,
+          "native_error": [
+            0.05627705627705626,
+            0.07860360360360355
+          ],
+          "weight": 0.022
+        },
+        {
+          "labels": [
+            "local_round9_axis2_1"
+          ],
+          "loss": 0.3915055668380012,
+          "native_error": [
+            0.35433070866141736,
+            0.2904228855721395
+          ],
+          "weight": 0.298
+        },
+        {
+          "labels": [
+            "local_round9_axis1_1"
+          ],
+          "loss": 0.3930908189031322,
+          "native_error": [
+            0.33333333333333337,
+            0.2861111111111113
+          ],
+          "weight": 0.112
+        },
+        {
+          "labels": [
+            "local_round9_axis1_-1"
+          ],
+          "loss": 0.3936132741826437,
+          "native_error": [
+            0.32061068702290074,
+            0.293544600938967
+          ],
+          "weight": 0.15
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "bar_1_zero",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "author_selected",
+        "author_zero_initial",
+        "author_zero_refined",
+        "image_zero",
+        "image_round",
+        "old_none",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.3937975581530734,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "author_selected",
+        "author_zero_initial",
+        "author_zero_refined",
+        "image_zero",
+        "image_round",
+        "old_none",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.3937975581530734,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.51,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "author_selected",
+        "author_zero_initial",
+        "author_zero_refined",
+        "image_zero",
+        "image_round",
+        "old_none",
+        "old_common_iterative",
+        "old_barcode_model",
+        "group_selected",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "author_selected",
+            "author_zero_initial",
+            "author_zero_refined",
+            "image_zero",
+            "image_round",
+            "old_none",
+            "old_common_iterative",
+            "old_barcode_model",
+            "group_selected",
+            "group_zero_0",
+            "group_zero_1",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.3937975581530734,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 0.49
+        },
+        {
+          "labels": [
+            "old_population_template"
+          ],
+          "loss": 0.39421931849123165,
+          "native_error": [
+            0.053941908713692976,
+            0.08179310344827584
+          ],
+          "weight": 0.004
+        },
+        {
+          "labels": [
+            "local_round9_axis1_1"
+          ],
+          "loss": 0.3955120136883328,
+          "native_error": [
+            0.33840304182509506,
+            0.27026086956521717
+          ],
+          "weight": 0.282
+        },
+        {
+          "labels": [
+            "local_round9_axis2_1"
+          ],
+          "loss": 0.3959219023347182,
+          "native_error": [
+            0.34901960784313724,
+            0.28369230769230763
+          ],
+          "weight": 0.048
+        },
+        {
+          "labels": [
+            "local_color0_axis2_1"
+          ],
+          "loss": 0.3971624552354238,
+          "native_error": [
+            0.22689075630252098,
+            0.19221238938053115
+          ],
+          "weight": 0.09
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "culture_4_color",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "global_group",
+        "image_first_frame",
+        "template3d",
+        "group_zero_0",
+        "group_round_0"
+      ],
+      "incumbent_loss": 0.31108180802808194,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "global_group",
+        "image_first_frame",
+        "template3d",
+        "group_zero_0",
+        "group_round_0"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.31108180802808194,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "global_group",
+        "image_first_frame",
+        "template3d",
+        "group_zero_0",
+        "group_round_0"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "global_group",
+            "image_first_frame",
+            "template3d",
+            "group_zero_0",
+            "group_round_0"
+          ],
+          "loss": 0.31108180802808194,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "none",
+            "common_iterative",
+            "author_zero",
+            "author_round",
+            "image_zero",
+            "image_round",
+            "group_zero_2",
+            "group_round_2"
+          ],
+          "loss": 0.3465279763362702,
+          "native_error": [
+            0.9803921568627451,
+            0.8680555555555556
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color1_axis1_1"
+          ],
+          "loss": 0.3620081633788723,
+          "native_error": [
+            0.9801980198019802,
+            0.9629629629629628
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "population_template",
+            "author_multistart",
+            "author_frame"
+          ],
+          "loss": 0.36438111938325296,
+          "native_error": [
+            0.978494623655914,
+            0.9814814814814815
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis1_-1"
+          ],
+          "loss": 0.3653114658113015,
+          "native_error": [
+            0.98,
+            0.9629629629629638
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "culture_4_color",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "global_group",
+        "image_first_frame",
+        "template3d",
+        "group_zero_0",
+        "group_round_0"
+      ],
+      "incumbent_loss": 0.31108180802808194,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "global_group",
+        "image_first_frame",
+        "template3d",
+        "group_zero_0",
+        "group_round_0"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.31108180802808194,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "global_group",
+        "image_first_frame",
+        "template3d",
+        "group_zero_0",
+        "group_round_0"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "global_group",
+            "image_first_frame",
+            "template3d",
+            "group_zero_0",
+            "group_round_0"
+          ],
+          "loss": 0.31108180802808194,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "none",
+            "common_iterative",
+            "author_zero",
+            "author_round",
+            "image_zero",
+            "image_round",
+            "group_zero_2",
+            "group_round_2"
+          ],
+          "loss": 0.3465279763362702,
+          "native_error": [
+            0.9738562091503268,
+            0.9122641509433964
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color1_axis1_1"
+          ],
+          "loss": 0.3620081633788723,
+          "native_error": [
+            0.9851851851851852,
+            0.9634146341463417
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "population_template",
+            "author_multistart",
+            "author_frame"
+          ],
+          "loss": 0.36438111938325296,
+          "native_error": [
+            0.9848484848484849,
+            0.9493670886075951
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis1_-1"
+          ],
+          "loss": 0.3653114658113015,
+          "native_error": [
+            0.9701492537313433,
+            0.9506172839506176
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "culture_4_common",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.311081796866478,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.311081796866478,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "common_iterative",
+            "population_template",
+            "author_multistart",
+            "global_group",
+            "author_round",
+            "author_frame",
+            "image_zero",
+            "image_round",
+            "template3d",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.311081796866478,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.32560784945196586,
+          "native_error": [
+            0.20792079207920788,
+            0.25098502758077235
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis1_1"
+          ],
+          "loss": 0.3265785924917545,
+          "native_error": [
+            0.2989690721649485,
+            0.33763996554694226
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_-1"
+          ],
+          "loss": 0.3267480627054761,
+          "native_error": [
+            0.35416666666666663,
+            0.41005291005291006
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis2_1"
+          ],
+          "loss": 0.3273826394194042,
+          "native_error": [
+            0.18446601941747576,
+            0.1999244142101285
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "culture_4_common",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.311081796866478,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.311081796866478,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "common_iterative",
+            "population_template",
+            "author_multistart",
+            "global_group",
+            "author_round",
+            "author_frame",
+            "image_zero",
+            "image_round",
+            "template3d",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.311081796866478,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.32560784945196586,
+          "native_error": [
+            0.08411214953271029,
+            0.09119496855345907
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis1_1"
+          ],
+          "loss": 0.3265785924917545,
+          "native_error": [
+            0.17525773195876293,
+            0.2414236706689536
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_-1"
+          ],
+          "loss": 0.3267480627054761,
+          "native_error": [
+            0.16831683168316836,
+            0.18474842767295588
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis2_1"
+          ],
+          "loss": 0.3273826394194042,
+          "native_error": [
+            0.1132075471698113,
+            0.11320754716981131
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "culture_4_zero",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "none",
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_zero",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.30382015637177756,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "none",
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_zero",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.30382015637177756,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "none",
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_zero",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "none",
+            "common_iterative",
+            "population_template",
+            "author_multistart",
+            "global_group",
+            "author_zero",
+            "author_round",
+            "author_frame",
+            "image_zero",
+            "image_round",
+            "template3d",
+            "group_zero_0",
+            "group_zero_1",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.30382015637177756,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "local_color2_axis1_1"
+          ],
+          "loss": 0.3197968033115992,
+          "native_error": [
+            0.25,
+            0.28739867354458365
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.3199624653602586,
+          "native_error": [
+            0.21875,
+            0.26436781609195414
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_-1"
+          ],
+          "loss": 0.32055913634416444,
+          "native_error": [
+            0.28125,
+            0.3250874562718642
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.3211272269759389,
+          "native_error": [
+            0.23188405797101452,
+            0.23188405797101458
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "culture_4_zero",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "none",
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_zero",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.30382015637177756,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "none",
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_zero",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.30382015637177756,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "none",
+        "common_iterative",
+        "population_template",
+        "author_multistart",
+        "global_group",
+        "author_zero",
+        "author_round",
+        "author_frame",
+        "image_zero",
+        "image_round",
+        "template3d",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "none",
+            "common_iterative",
+            "population_template",
+            "author_multistart",
+            "global_group",
+            "author_zero",
+            "author_round",
+            "author_frame",
+            "image_zero",
+            "image_round",
+            "template3d",
+            "group_zero_0",
+            "group_zero_1",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.30382015637177756,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "local_color2_axis1_1"
+          ],
+          "loss": 0.3197968033115992,
+          "native_error": [
+            0.12903225806451613,
+            0.15520833333333325
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.3199624653602586,
+          "native_error": [
+            0.11111111111111116,
+            0.10887096774193544
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_-1"
+          ],
+          "loss": 0.32055913634416444,
+          "native_error": [
+            0.13385826771653542,
+            0.14062499999999997
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.3211272269759389,
+          "native_error": [
+            0.17910447761194026,
+            0.2102678571428571
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_color",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "author_volume_selected",
+        "author_volume_template_3d_multistart_refined",
+        "author_volume_author_multistart_refined"
+      ],
+      "incumbent_loss": 0.263237261416449,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "global_group",
+        "group_zero_0"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.2578560505078784,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.020618556701030966,
+        0.026998299319727893
+      ],
+      "highest_weight_labels": [
+        "global_group",
+        "group_zero_0"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "global_group",
+            "group_zero_0"
+          ],
+          "loss": 0.2578560505078784,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "author_volume_selected",
+            "author_volume_template_3d_multistart_refined",
+            "author_volume_author_multistart_refined"
+          ],
+          "loss": 0.263237261416449,
+          "native_error": [
+            0.020618556701030966,
+            0.026998299319727893
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_-1"
+          ],
+          "loss": 0.265426993775484,
+          "native_error": [
+            0.08247422680412375,
+            0.0552721088435374
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.26543854849434084,
+          "native_error": [
+            0.085427135678392,
+            0.061123459284703974
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.2659029383843296,
+          "native_error": [
+            0.030303030303030276,
+            0.025510204081632647
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_color",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "author_volume_selected",
+        "author_volume_template_3d_multistart_refined",
+        "author_volume_author_multistart_refined"
+      ],
+      "incumbent_loss": 0.263237261416449,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "global_group",
+        "group_zero_0"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.2578560505078784,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.040000000000000036,
+        0.02078705172960967
+      ],
+      "highest_weight_labels": [
+        "global_group",
+        "group_zero_0"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "global_group",
+            "group_zero_0"
+          ],
+          "loss": 0.2578560505078784,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "author_volume_selected",
+            "author_volume_template_3d_multistart_refined",
+            "author_volume_author_multistart_refined"
+          ],
+          "loss": 0.263237261416449,
+          "native_error": [
+            0.040000000000000036,
+            0.02078705172960967
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis1_-1"
+          ],
+          "loss": 0.265426993775484,
+          "native_error": [
+            0.06181818181818177,
+            0.027451602665820373
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.26543854849434084,
+          "native_error": [
+            0.050724637681159424,
+            0.014492753623188406
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.2659029383843296,
+          "native_error": [
+            0.06617647058823528,
+            0.04207224745836038
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_common",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "common_iterative",
+        "template_3d_multistart",
+        "global_group",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.2580177997130997,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "common_iterative",
+        "template_3d_multistart",
+        "global_group",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.2580177997130997,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "common_iterative",
+        "template_3d_multistart",
+        "global_group",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "common_iterative",
+            "template_3d_multistart",
+            "global_group",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.2580177997130997,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.2650253923803202,
+          "native_error": [
+            0.010204081632653073,
+            0.0
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.26506173694070184,
+          "native_error": [
+            0.05472636815920395,
+            0.0364573013671488
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "author_multistart"
+          ],
+          "loss": 0.2679561478912285,
+          "native_error": [
+            0.07070707070707072,
+            0.04448979591836735
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis2_1"
+          ],
+          "loss": 0.26933175258413755,
+          "native_error": [
+            0.06060606060606055,
+            0.05142857142857142
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_common",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "common_iterative",
+        "template_3d_multistart",
+        "global_group",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "incumbent_loss": 0.2580177997130997,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "common_iterative",
+        "template_3d_multistart",
+        "global_group",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.2580177997130997,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.0,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "common_iterative",
+        "template_3d_multistart",
+        "global_group",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "common_iterative",
+            "template_3d_multistart",
+            "global_group",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.2580177997130997,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.2650253923803202,
+          "native_error": [
+            0.032727272727272716,
+            0.027345816143023383
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.26506173694070184,
+          "native_error": [
+            0.07581227436823101,
+            0.04754457303722241
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "author_multistart"
+          ],
+          "loss": 0.2679561478912285,
+          "native_error": [
+            0.06521739130434778,
+            0.01449275362318841
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color3_axis2_1"
+          ],
+          "loss": 0.26933175258413755,
+          "native_error": [
+            0.08759124087591241,
+            0.0682011935208866
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_outclass",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "author_multistart"
+      ],
+      "incumbent_loss": 0.2618058631114786,
+      "minimum_catalog_error_in_bank": 0.02083333333333337,
+      "best_fit_labels": [
+        "author_multistart"
+      ],
+      "best_fit_native_error": [
+        0.02083333333333337,
+        0.016711882799782963
+      ],
+      "best_native_consistent_loss": 0.2618058631114786,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.254,
+      "incumbent_native_error": [
+        0.02083333333333337,
+        0.016711882799782963
+      ],
+      "highest_weight_labels": [
+        "author_multistart"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "author_multistart"
+          ],
+          "loss": 0.2618058631114786,
+          "native_error": [
+            0.02083333333333337,
+            0.016711882799782963
+          ],
+          "weight": 0.724
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.26257658776893633,
+          "native_error": [
+            0.06999999999999995,
+            0.04661654135338344
+          ],
+          "weight": 0.254
+        },
+        {
+          "labels": [
+            "local_color3_axis2_1"
+          ],
+          "loss": 0.2632007193881168,
+          "native_error": [
+            0.0461538461538461,
+            0.03894736842105264
+          ],
+          "weight": 0.012
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.26445203263324146,
+          "native_error": [
+            0.025906735751295318,
+            0.02287862513426424
+          ],
+          "weight": 0.01
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.26586420070179534,
+          "native_error": [
+            0.061855670103092786,
+            0.04657097288676236
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_outclass",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "author_multistart"
+      ],
+      "incumbent_loss": 0.2618058631114786,
+      "minimum_catalog_error_in_bank": 0.0444444444444444,
+      "best_fit_labels": [
+        "author_multistart"
+      ],
+      "best_fit_native_error": [
+        0.04477611940298509,
+        0.040657198551935385
+      ],
+      "best_native_consistent_loss": 0.2618058631114786,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.276,
+      "incumbent_native_error": [
+        0.04477611940298509,
+        0.040657198551935385
+      ],
+      "highest_weight_labels": [
+        "author_multistart"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "author_multistart"
+          ],
+          "loss": 0.2618058631114786,
+          "native_error": [
+            0.04477611940298509,
+            0.040657198551935385
+          ],
+          "weight": 0.724
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.26257658776893633,
+          "native_error": [
+            0.08487084870848705,
+            0.04128540305010894
+          ],
+          "weight": 0.254
+        },
+        {
+          "labels": [
+            "local_color3_axis2_1"
+          ],
+          "loss": 0.2632007193881168,
+          "native_error": [
+            0.07462686567164178,
+            0.05547201336675019
+          ],
+          "weight": 0.012
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.26445203263324146,
+          "native_error": [
+            0.07063197026022305,
+            0.03532338308457708
+          ],
+          "weight": 0.01
+        },
+        {
+          "labels": [
+            "local_color3_axis1_1"
+          ],
+          "loss": 0.26586420070179534,
+          "native_error": [
+            0.045112781954887216,
+            0.04212609556121006
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_zero",
+      "decoder": "source_spot",
+      "incumbent_labels": [
+        "template_3d_multistart"
+      ],
+      "incumbent_loss": 0.26050809963155336,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "none",
+        "common_iterative",
+        "global_group",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.2572274295786158,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.01041666666666663,
+        0.0
+      ],
+      "highest_weight_labels": [
+        "none",
+        "common_iterative",
+        "global_group",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "none",
+            "common_iterative",
+            "global_group",
+            "group_zero_0",
+            "group_zero_1",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.2572274295786158,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "template_3d_multistart"
+          ],
+          "loss": 0.26050809963155336,
+          "native_error": [
+            0.01041666666666663,
+            0.0
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.2644726189575102,
+          "native_error": [
+            0.01041666666666663,
+            0.0
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.265007204867032,
+          "native_error": [
+            0.05641025641025643,
+            0.04261363636363635
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "author_multistart"
+          ],
+          "loss": 0.26760898224917556,
+          "native_error": [
+            0.05699481865284972,
+            0.0388745704467354
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    },
+    {
+      "case": "tissue_4_zero",
+      "decoder": "correlation",
+      "incumbent_labels": [
+        "template_3d_multistart"
+      ],
+      "incumbent_loss": 0.26050809963155336,
+      "minimum_catalog_error_in_bank": 0.0,
+      "best_fit_labels": [
+        "none",
+        "common_iterative",
+        "global_group",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "best_fit_native_error": [
+        0.0,
+        0.0
+      ],
+      "best_native_consistent_loss": 0.2572274295786158,
+      "strict_fit_preference_for_native_inconsistent": false,
+      "bootstrap_weight_on_native_inconsistent": 0.0,
+      "incumbent_native_error": [
+        0.023076923076923106,
+        0.021717261376412837
+      ],
+      "highest_weight_labels": [
+        "none",
+        "common_iterative",
+        "global_group",
+        "group_zero_0",
+        "group_zero_1",
+        "group_zero_2",
+        "group_round_0",
+        "group_round_1",
+        "group_round_2"
+      ],
+      "top_five_fit_candidates": [
+        {
+          "labels": [
+            "none",
+            "common_iterative",
+            "global_group",
+            "group_zero_0",
+            "group_zero_1",
+            "group_zero_2",
+            "group_round_0",
+            "group_round_1",
+            "group_round_2"
+          ],
+          "loss": 0.2572274295786158,
+          "native_error": [
+            0.0,
+            0.0
+          ],
+          "weight": 1.0
+        },
+        {
+          "labels": [
+            "template_3d_multistart"
+          ],
+          "loss": 0.26050809963155336,
+          "native_error": [
+            0.023076923076923106,
+            0.021717261376412837
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color2_axis2_1"
+          ],
+          "loss": 0.2644726189575102,
+          "native_error": [
+            0.03448275862068961,
+            0.02889019377568999
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "local_color0_axis2_-1"
+          ],
+          "loss": 0.265007204867032,
+          "native_error": [
+            0.08396946564885499,
+            0.0534351145038168
+          ],
+          "weight": 0.0
+        },
+        {
+          "labels": [
+            "author_multistart"
+          ],
+          "loss": 0.26760898224917556,
+          "native_error": [
+            0.06870229007633588,
+            0.015267175572519089
+          ],
+          "weight": 0.0
+        }
+      ],
+      "evaluation_only": true
+    }
+  ],
+  "truth_used_for_diagnosis_only": true,
+  "no_outcome_selected_forecast_repair": true,
+  "independent_RNA_truth": false
+}

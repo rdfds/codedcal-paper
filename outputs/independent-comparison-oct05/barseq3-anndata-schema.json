@@ -1,0 +1,39 @@
+{
+  "member": "adata_adult_cb_fig3.h5ad",
+  "sha256": "4b93408aa4bcfcd7b3237a5582bd0abc26ef104ed21af51f037a3c0f0f36568d",
+  "datasets": {
+    "X": {
+      "shape": [
+        58990,
+        1752
+      ],
+      "dtype": "int64"
+    },
+    "obs/cell_number": {
+      "shape": [
+        58990
+      ],
+      "dtype": "object"
+    },
+    "obsm/spatial": {
+      "shape": [
+        58990,
+        2
+      ],
+      "dtype": "float64"
+    },
+    "var/Names": {
+      "shape": [
+        1752
+      ],
+      "dtype": "object"
+    },
+    "var/genes": {
+      "shape": [
+        1752
+      ],
+      "dtype": "object"
+    }
+  },
+  "exposure": "Schema only; no expression or annotation values inspected"
+}

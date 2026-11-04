@@ -1,0 +1,21 @@
+{
+  "run_comparative_confirmation": false,
+  "reason": "Completed development has one adequate workflow and no readout-aware increment against strong mixed conventional testing",
+  "development_complete": true,
+  "development_utility_gate_passed": false,
+  "native_source_gate_passed": true,
+  "native_source_blank_proxy_upper95": 0.07806848009650616,
+  "fractional_control_nonblank_calls": 661,
+  "fractional_blank_proxy_upper95": 0.1012173788845776,
+  "fractional_blank_proxy_within_point_one": false,
+  "external_comparative_logical_calls": 0,
+  "conservative_prior_control_charge": 84,
+  "calibration_only_synthetic_controls": 2,
+  "decoder_only_synthetic_controls": 1,
+  "development_reservation": 752,
+  "additional_native_control_logical_calls": 4,
+  "conservative_total_charge": 843,
+  "maximum_total_logical_charge": 1600,
+  "new_source_calls": 0,
+  "physical_validation_added": false
+}

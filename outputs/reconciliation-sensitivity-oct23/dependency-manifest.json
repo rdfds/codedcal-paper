@@ -1,0 +1,722 @@
+{
+  "original_baseline": "f7f6c5754d19f5c345ae9ce3b2f368beb45cb1cb",
+  "scientific_implementation_commit": "5baf5dc",
+  "files": [
+    {
+      "path": "outputs/count-balanced-calibration-sep14/balanced_estimator.py",
+      "sha256": "e86cae93614dfdd8a9fe17361e58d87d918734d8802494a11c3b92e21780fa00",
+      "bytes": 6835
+    },
+    {
+      "path": "outputs/oracle-crossval-sep15/oracle_pipeline.py",
+      "sha256": "7ffc19efb97ac4c4e8230328b536400d47e3131142264befc5c3843139de4a3f",
+      "bytes": 7964
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/PROTOCOL.md",
+      "sha256": "d151fd7c7b536fb73376d3039f76f0cf136164fafa39a3b77d9469f994073c1f",
+      "bytes": 6066
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/response_uncertainty.py",
+      "sha256": "43930e2c68a16f173d0e759bb0f07734f559ec3267501ce1b778c1d7c734daaf",
+      "bytes": 4522
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/run_remaining.py",
+      "sha256": "57189758f43507aa5a2279586c02de7952bd87d192f7afe740f0f08896df1ce1",
+      "bytes": 1360
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/sensitivity.py",
+      "sha256": "90098559480499ea0c186018927602a6d2db76a94c9e452513e5fe3f5d853ba7",
+      "bytes": 12850
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/test_sensitivity.py",
+      "sha256": "c898d6a2af5cc820149bbfb538c9d09e5882d74171fd5990cbc6cbe5eb000fd9",
+      "bytes": 3864
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-edf10rep1.json",
+      "sha256": "c262bbcbdb1e396e1fc0698a74ac75d145378cac7030236e077c32f8b4bfe335",
+      "bytes": 6923
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-edf10rep2.json",
+      "sha256": "f1bfe3abd338070e0e273b7e7304ae41b1e380486f078a5e13c33741abe855c6",
+      "bytes": 6918
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-fig4untreated.json",
+      "sha256": "a90535c81e7d40fd7b7e6885107ddabf18fb6f65728c594d46031b990af52e92",
+      "bytes": 6920
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-npc.json",
+      "sha256": "74a2b5b343e3ff8016c46d8da6819f0c072163ce8a78e0240de2a98ac6421392",
+      "bytes": 6903
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-rtx_rep1.json",
+      "sha256": "2bdf0d9aa2adbba155e02b86dc4ad9db3ad47950882144c5e7449844a24d33a6",
+      "bytes": 6906
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-rtx_rep2.json",
+      "sha256": "a872a54c2ea0b734fac59522f42d7e33563c34822dc19cf049cfe91e9735a77e",
+      "bytes": 7042
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-rtx_rep3.json",
+      "sha256": "148d925b018af3d61e88788ff0b09034a283b8ccd10c1dd2fd1b3c4cc50ea622",
+      "bytes": 7051
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-sdc_corrected.json",
+      "sha256": "02c23ade4ff830f326e355c7c51ce8a762638e3df03b5aeb9835a78589cdd9b7",
+      "bytes": 7117
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/characterization-sdc_raw.json",
+      "sha256": "95de8219eb9471f14255865de85ceb0403e869e8ff5e1a34f4e709fe8f965ba3",
+      "bytes": 6945
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/common.py",
+      "sha256": "37b14ffb3532be7994e9282df631de9f064eb7f33f113aa2f8db2b58f96ac954",
+      "bytes": 3764
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/comparison.json",
+      "sha256": "529b1f1321b01f0525b09be26fae2ae95bdb63354adfa37bbe03dd51df713e87",
+      "bytes": 241174
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T0-s2610071101.npz",
+      "sha256": "a3a283335c0490c4fff378b66b843a5e93390b52c56b1000b3cf3988a71c5351",
+      "bytes": 39889
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T0-s2610071102.npz",
+      "sha256": "9b4a179d0500324ed6822e134efe63ef8bdde663fd1dab464fe768ae1bbd2738",
+      "bytes": 39291
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T1-s2610071101.npz",
+      "sha256": "59fc205074961a2f4ec01f64eaf7a38bf52e05fd17a7e7dda1b039455c11d6f1",
+      "bytes": 40042
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T1-s2610071102.npz",
+      "sha256": "81c1db5b52ca06abef4088eeb56ba42c3ee6362c01eaae73ac8608faec580a14",
+      "bytes": 39169
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T3-s2610071101.npz",
+      "sha256": "d5dde4f95aa05dc956976fecd6546a264755bb51223ac518da65ee9dc988d785",
+      "bytes": 40225
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T3-s2610071102.npz",
+      "sha256": "9e3132321a57c2e3ef9917f7a5fa3398b9b3630ef286949c21922cc67dfc4120",
+      "bytes": 39007
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T5-s2610071101.npz",
+      "sha256": "b03cb381e08e09536ba3a1b2e97403f9d69300bd43a93a439ebc3d58ef2962b7",
+      "bytes": 40266
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-gaussian-T5-s2610071102.npz",
+      "sha256": "1415cfb8543b47af8e86de7508645f540a765c54a30b1f36b745c71a697cfcf8",
+      "bytes": 39024
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T0-s2610071101.npz",
+      "sha256": "cb356d7283206edcfa2db612b4bcafc7fbead8a6a15a10129465952199d7aa50",
+      "bytes": 34779
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T0-s2610071102.npz",
+      "sha256": "4cefaa513ca35b8f9a6ff169e328a3d5082d9f39948ad786586aed8dc8ab37c7",
+      "bytes": 35347
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T1-s2610071101.npz",
+      "sha256": "3c2eaa71decc7d2aae98cbbed0b0c91ac1eda323de84c551036f534a520ffa06",
+      "bytes": 34702
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T1-s2610071102.npz",
+      "sha256": "be947773573e4ed98c2e1a561fdb59b3bff2b67c9a028439cab3156a9c3e40ab",
+      "bytes": 35543
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T3-s2610071101.npz",
+      "sha256": "032378150771ae9813c41fc97a8493c71ca6851fb956db1d648c5275deb2c600",
+      "bytes": 34254
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T3-s2610071102.npz",
+      "sha256": "bf0fa9c1193b4aa3cef5d8ba992ea1c580048b8a3bc9f84d9cdccd0c677ca87c",
+      "bytes": 35509
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T5-s2610071101.npz",
+      "sha256": "c97483e19af1376667ce0ac4342f4e9f863fe2d5428b11ca3bd775684a485ceb",
+      "bytes": 34063
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep1-residual-T5-s2610071102.npz",
+      "sha256": "37161aa6d3e563d68de48b7cb3b31af05f7232cb2e0e5dd65c85e00b330087f1",
+      "bytes": 35355
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T0-s2610071101.npz",
+      "sha256": "5b04885f6c50c32a6c4be45a78b4b57b57d51e1f40d2a4fd622ac6a7e65ce034",
+      "bytes": 85286
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T0-s2610071102.npz",
+      "sha256": "074d454382b5f7a397235f2e6ef20226f0deb18eaf5e65f3d820f143ae16de68",
+      "bytes": 85102
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T1-s2610071101.npz",
+      "sha256": "f4e99ab13d42ccefc1e3592202ebfc6f1bfc1076161729eeb0c672ff0c93bad1",
+      "bytes": 85116
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T1-s2610071102.npz",
+      "sha256": "ecee2c800b38aa049084a4008e1ac1023e16fa8a597579182ce3d9ee6c767d09",
+      "bytes": 84949
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T3-s2610071101.npz",
+      "sha256": "a575a40b0916f2244b0aa0fc747d05b1a8a44f67c59ebe3b1c034b745f55fdef",
+      "bytes": 84682
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T3-s2610071102.npz",
+      "sha256": "9d3a4391ae22f7a564c6e2664bb49495045688d5c844e52cd8b8b0dd74accdc4",
+      "bytes": 84627
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T5-s2610071101.npz",
+      "sha256": "f7f08350dec35bf7ae74a29fea638734510732d6121ef8179a429d6a36ff9015",
+      "bytes": 84460
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-gaussian-T5-s2610071102.npz",
+      "sha256": "289af676692a97cf368ded386e105493b3a3d8d8950eb0f274f2ca63525cb640",
+      "bytes": 83920
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T0-s2610071101.npz",
+      "sha256": "ddeb53f24d71c3c0e1ad40f48f306bc1f210a7ff0d913a5766091d977fdb2d36",
+      "bytes": 80570
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T0-s2610071102.npz",
+      "sha256": "7d171b5c227cde37b7e1f4ee5d6288afaed22fb8670deb0ebafa4dc7d6d3abad",
+      "bytes": 81496
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T1-s2610071101.npz",
+      "sha256": "b3e34e6490a4677c3e49ae1b6c561bf052c4b155e8ccaf760cc6c5608066cab8",
+      "bytes": 79959
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T1-s2610071102.npz",
+      "sha256": "4d2d24ace70df7c74872c74a7f19c9d5ba86c6bdb092d7f59ecad2428b87cf6a",
+      "bytes": 81109
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T3-s2610071101.npz",
+      "sha256": "005e8cc1df968b9bc51fcf4414033704b8bd9e8d7d21f98fd0b84b51b2c350e4",
+      "bytes": 79386
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T3-s2610071102.npz",
+      "sha256": "cbd70eecf4f85bb28f2fa731159e76110d03133dedc970e1e11732c93389d958",
+      "bytes": 80638
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T5-s2610071101.npz",
+      "sha256": "86ba9e3fcb7d5edccc0d0d45d3f7cfebc9791eff400f762b801926cdf79022ef",
+      "bytes": 78968
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-edf10rep2-residual-T5-s2610071102.npz",
+      "sha256": "beb6ea94836301ee3ee702533032d079fed534891eb7870ac3af35f69d33698a",
+      "bytes": 80229
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T0-s2610071101.npz",
+      "sha256": "1e09c3ce6450d2e6935ef49348f54b827f1f8d8df0ab43e3e3e7c215ad6fbf44",
+      "bytes": 56745
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T0-s2610071102.npz",
+      "sha256": "be3c9226f1e767bc95f41ae4769451937ca20ec40ede52311c4cc815eb16a47c",
+      "bytes": 57097
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T1-s2610071101.npz",
+      "sha256": "c58bf28ed21177334090150efbe4b0b59667f2138a5e6040c5ca28a9af9f8a46",
+      "bytes": 57045
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T1-s2610071102.npz",
+      "sha256": "5861a4b941a077241588bfe464b665582955d3039aaa06354cceeb69929141d6",
+      "bytes": 56592
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T3-s2610071101.npz",
+      "sha256": "9357fa4be76d2c1e40d9016dc9f4d1522a38a08aa2c4f9258a2adca1d26f8b6e",
+      "bytes": 56570
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T3-s2610071102.npz",
+      "sha256": "ebab0fe52c790732b74c7c9dd5a760ac94b07cf929a016d1cfb040e39e5be957",
+      "bytes": 56615
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T5-s2610071101.npz",
+      "sha256": "2881be844553fa818f702a96239f0b1ff7c00d849aaef2ba601edac06853df95",
+      "bytes": 56368
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-gaussian-T5-s2610071102.npz",
+      "sha256": "9ee07eff93829d0ebee8fe6d061a781253aabf110965a920b1c4a8db4563ba0e",
+      "bytes": 56204
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T0-s2610071101.npz",
+      "sha256": "8bc8b6d24f74026507c34978a436da37638fbdf1efac43dacff9ee6faef74cd2",
+      "bytes": 58783
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T0-s2610071102.npz",
+      "sha256": "0aea9b1a7cf3c7bd991b595f4d6b470da1119ceaa94d6a8bb02dc949a9a9b18a",
+      "bytes": 59426
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T1-s2610071101.npz",
+      "sha256": "4c6b88cac8c5f80d1de690a63ddf3234f97d9eb11c05df7d4e552afc63ad5527",
+      "bytes": 59185
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T1-s2610071102.npz",
+      "sha256": "a455a8700f6dedf65a172a9e3400581a39465946a6ade0b658e56908fdaf1c52",
+      "bytes": 59453
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T3-s2610071101.npz",
+      "sha256": "d0629cf55bdae01fda0b19eac1459b9cd56e775cb5fbc0028d0e82d52ad6b6d9",
+      "bytes": 58395
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T3-s2610071102.npz",
+      "sha256": "731f1469d82fc99e52f841873805112cf284624088be1b2ed510b40086f12fcf",
+      "bytes": 59047
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T5-s2610071101.npz",
+      "sha256": "1fe11b8c2c9b63d2a8f25566789a9ba4ee8144182bbf1e464ca8a701217c7f20",
+      "bytes": 58375
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-fig4untreated-residual-T5-s2610071102.npz",
+      "sha256": "d4c92e41a7f33a071aebf42028d493712f29f797d55ed63d82daeaf013720a60",
+      "bytes": 58663
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T0-s2610071101.npz",
+      "sha256": "f9c1bdc0379cd6ebea4252403ec71f0e759f2c417b50cebe316bd0c17c05b9eb",
+      "bytes": 71014
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T0-s2610071102.npz",
+      "sha256": "f4cd5356794ceec7e8396c010656b6464dd0ec0f524fd704c3af3628c6cf523d",
+      "bytes": 69558
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T1-s2610071101.npz",
+      "sha256": "b21b5ed8e841c13e90c064fc74a38079d5ae71cd546a84e14b7095ab6a153c1d",
+      "bytes": 70870
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T1-s2610071102.npz",
+      "sha256": "a6759f15cae6d9ff9324454e1b89450a0d641424d0f5d09fe720b61e79a0f695",
+      "bytes": 69341
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T3-s2610071101.npz",
+      "sha256": "cf58df94ac0fbb3986a8d4fd679f44372e4109fce70cbe54b3b9a72597a0018a",
+      "bytes": 70588
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T3-s2610071102.npz",
+      "sha256": "345e5b690a7bf853e929c1f8db9e88ff7f21db68e616c938b972a62a2e2e83bb",
+      "bytes": 68810
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T5-s2610071101.npz",
+      "sha256": "896d78ebb9b2054d197550ef60809d4d4a2c9be294c994e899916e4e5f21c4c9",
+      "bytes": 70143
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-gaussian-T5-s2610071102.npz",
+      "sha256": "133131e47ed6c48159c2b6455ab4f0de3ac57b8430bbf3c421aa56f36f43aba7",
+      "bytes": 68524
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T0-s2610071101.npz",
+      "sha256": "c48e578175e7044b5c9926c890a5db9b5532c789a80c97638193bdabcb564a23",
+      "bytes": 66987
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T0-s2610071102.npz",
+      "sha256": "e4bd419b5500a72cf0177c2b15c0c6c57bd2032c40cf6eec95fac1f3139e1348",
+      "bytes": 67523
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T1-s2610071101.npz",
+      "sha256": "ae6a45f8a86ad9f450fb58fcfa13b6465f4c618645d0e1758c186746d43c8420",
+      "bytes": 66880
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T1-s2610071102.npz",
+      "sha256": "7a7d04e6476b452f34c218d437d58fad15ec37852b85490a322ef93248eda9b7",
+      "bytes": 67657
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T3-s2610071101.npz",
+      "sha256": "09e31f86c8e8ab491ea9ec8d8e4143bdc84ca406d67c02dfc1824ceac5126c03",
+      "bytes": 66824
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T3-s2610071102.npz",
+      "sha256": "cdda3baaf93fb95333c5681733dc1df391153d03fd5dd4e7e483762408def58a",
+      "bytes": 66993
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T5-s2610071101.npz",
+      "sha256": "425ff6a9e28c22c107bdfd7d731fc91dfedc00ecb7c9564d13ac6857ed728464",
+      "bytes": 66840
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep1-residual-T5-s2610071102.npz",
+      "sha256": "812bf81b03d2528d6aaa7fa8dc25e42269f59f4c8db7c530ae78037d2e6b5ea4",
+      "bytes": 66641
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T0-s2610071101.npz",
+      "sha256": "78748aed8083fe55403a3b139e112069a7c4cb97c630721fb3a6ee0f885b95e2",
+      "bytes": 80469
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T0-s2610071102.npz",
+      "sha256": "4ff728d3d3661c7c883efce5842e472052bc878b1105776aaf5f885de9923c36",
+      "bytes": 78125
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T1-s2610071101.npz",
+      "sha256": "3515d5041682a233f413fc5513eca893b499f03323af17aeb8d75196b57fd95e",
+      "bytes": 80170
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T1-s2610071102.npz",
+      "sha256": "67ce2ad8d81e353e97acc6768bd1613c9f455518250b0334d06080e683c1f2f7",
+      "bytes": 78729
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T3-s2610071101.npz",
+      "sha256": "1727ddeceda59cebad569f12c5d072a0a88919cb8049a9e99901c562faa6602d",
+      "bytes": 79709
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T3-s2610071102.npz",
+      "sha256": "3bb918a49c9c81093cda39a7836ac81de88baf56f682c348c19b08fc1316d12a",
+      "bytes": 78394
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T5-s2610071101.npz",
+      "sha256": "c161304e88174c034021fce79605fd4f8e993f242a09016791aa2713143cc5cf",
+      "bytes": 79498
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-gaussian-T5-s2610071102.npz",
+      "sha256": "141425c0558345eb5859f95e4f539e2033f84094ef042136a302a7f1c6a3aa51",
+      "bytes": 78050
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T0-s2610071101.npz",
+      "sha256": "415144b520372c83e4f066faa8d8bdd7988da25efaafe755ac4dc23fe12583d8",
+      "bytes": 76314
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T0-s2610071102.npz",
+      "sha256": "265c8f8b6d1f95e2cd9fe83e95c8b88b0d12244f6dc139c23b9cbcad1ff792bf",
+      "bytes": 75917
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T1-s2610071101.npz",
+      "sha256": "a7bace5c99ad7c780dee1fdf2ca084ae01b3c7ad37ec2e08c960f187d52e05c0",
+      "bytes": 76108
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T1-s2610071102.npz",
+      "sha256": "3266345c6faa7dfd43feb53678d303400066f56fd3ed5a9cd12e1152a98bbc32",
+      "bytes": 75884
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T3-s2610071101.npz",
+      "sha256": "9126b0ac94fb1a55b8e23aa3d1b7f7f8fc2c164a0e7d545b6fb98d7ecccc0dd1",
+      "bytes": 75762
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T3-s2610071102.npz",
+      "sha256": "b4b33dcce8eead45b0a2e6d5ad664ca87693a1e77df2d95c2ce0b2f176d7a6ef",
+      "bytes": 75296
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T5-s2610071101.npz",
+      "sha256": "d3f554d95e1952bcc067333b68cee4ff868cce0871ebacf6baff66eaf8160e9a",
+      "bytes": 75991
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep2-residual-T5-s2610071102.npz",
+      "sha256": "d3a01d12c2f0965e9999a0656484b8514d8cdb571ec22f01c8665c6d8ba6a629",
+      "bytes": 75171
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T0-s2610071101.npz",
+      "sha256": "e9830e37447c6f015760a5dc85b11c12facd6245af824ad9395807fb9965bdd1",
+      "bytes": 63528
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T0-s2610071102.npz",
+      "sha256": "09096512908e92021b0e927d346e26789ed23b4be850966b03612c65006ff0c6",
+      "bytes": 63521
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T1-s2610071101.npz",
+      "sha256": "20c5a418d4cef4a50776cfb733f01c15a5cb934a38489fd5fed767ca00f689ed",
+      "bytes": 63779
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T1-s2610071102.npz",
+      "sha256": "a7248cc59bd5e45d9aa0680acc9ec37dcb61d92365d0d68dc26a4a734ad66684",
+      "bytes": 63313
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T3-s2610071101.npz",
+      "sha256": "146ecceefbae9ebb0f547ab9e1aa25d58136b5760199eb144e84f99539887621",
+      "bytes": 63556
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T3-s2610071102.npz",
+      "sha256": "37e83859165b65c02ba2eaadef40b258ca2f92bc995232ddc5593a77fd214d13",
+      "bytes": 63406
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T5-s2610071101.npz",
+      "sha256": "63ef481bc2408d966f615117e8ad437cd9290d9728d6e4d144da0553be2a368c",
+      "bytes": 63061
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-gaussian-T5-s2610071102.npz",
+      "sha256": "bae6aa0a143690dddf1c97ecd3f5ead008187a265bcb8bebf9e36b4de7ddc2dc",
+      "bytes": 63424
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T0-s2610071101.npz",
+      "sha256": "398226d1a91cbae20a6cc9c1ef4f2639336a03efcb96fd957638734c00899cf5",
+      "bytes": 60865
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T0-s2610071102.npz",
+      "sha256": "ec3309072b29ae2a8b723dddd9bbabfd2ffd8da37f43e7eb6b694116fc8e488a",
+      "bytes": 61686
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T1-s2610071101.npz",
+      "sha256": "db637f6e6b0b3b9c2635ff49e0bcfcdbd8566faf2f2771a1c6b5aa194f0d8cd0",
+      "bytes": 60842
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T1-s2610071102.npz",
+      "sha256": "31c74a83038f95f686ecb289d88ddbabff5f982e5f93748a9e9fff1ff7fa41cb",
+      "bytes": 61772
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T3-s2610071101.npz",
+      "sha256": "bfb57e6716072eef47d4544d8e50d8a02da0091d5e1d344ff6906f8a3121f7fe",
+      "bytes": 60247
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T3-s2610071102.npz",
+      "sha256": "269ba43b482d835c2462bebb73132896a97cf9eaa1287ef707d1021043a22e29",
+      "bytes": 61737
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T5-s2610071101.npz",
+      "sha256": "e362fce2ff20508e8fce4da88e5b4928d51ef89a1e24f937e292135276959c09",
+      "bytes": 60230
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/control-rtx_rep3-residual-T5-s2610071102.npz",
+      "sha256": "dd5757850c7cb08e8463634ee233e7f462223a9aec50d87e4c84496b65b370c9",
+      "bytes": 61258
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/controls-edf10rep1.json",
+      "sha256": "5aa08f55feeeccfcd0ee43befa29a86656a2e947907a1edc823e1e925b084146",
+      "bytes": 11592
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/controls-edf10rep2.json",
+      "sha256": "45835a5447a4c0ec44835152ed47cc127b1088ecaf6f0594fe50663f8a46690d",
+      "bytes": 11597
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/controls-fig4untreated.json",
+      "sha256": "a4e079efdab54818858cbbc65203f31c6fadbfa164c9a161f67d0628ec7f3f21",
+      "bytes": 11618
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/controls-rtx_rep1.json",
+      "sha256": "9de84fa95ca94b4d5a686305496bcc5ee4bdbaedcc575dcb630fbffe5f5e45ac",
+      "bytes": 11766
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/controls-rtx_rep2.json",
+      "sha256": "71b0e59c18ea979592134841e51287c446bf78c1eba8d2128818e353c2ab2424",
+      "bytes": 11758
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/controls-rtx_rep3.json",
+      "sha256": "7dd9c418f1755d83a5c1849641540aa2f66c3d599a717f55ec5d01a2d44417fa",
+      "bytes": 11757
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-edf10rep1.npz",
+      "sha256": "a99bde392ac4290d3148650db715f25936871a8649b7fe125da6532040ed9da5",
+      "bytes": 6139219
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-edf10rep2.npz",
+      "sha256": "56ded3f16fcd7a3d85bb6644862f06abd0c7deeab9c33a893b01266a0a8baf0d",
+      "bytes": 6968221
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-fig4untreated.npz",
+      "sha256": "3cb1146c17f0be17f0acd455e57c99b36ff08904c494b31e8b2243d372a88f5a",
+      "bytes": 3239668
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-npc.npz",
+      "sha256": "f193929fcce1fcf7d36f97894c6e3c77106eabcf528a29bb59948cb0a5c14e77",
+      "bytes": 7849456
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-rtx_rep1.npz",
+      "sha256": "2ff73a462af261dde3d9e0642e883cd7f44787b36a52db76646f512b96d5ab10",
+      "bytes": 9514787
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-rtx_rep2.npz",
+      "sha256": "4829169dd0c6722e52c4f674045bb8e3716b26843f6990ea200f731cce63f6f8",
+      "bytes": 7154664
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-rtx_rep3.npz",
+      "sha256": "3868f28c80d22683d336a3452afd5b18f66307063e733beb32b965f351730df4",
+      "bytes": 11136477
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-sdc_corrected.npz",
+      "sha256": "dc5fb715e8f3a57232de737bc7ec7c80fb36c6ecf02011729f1a050be6958422",
+      "bytes": 72963183
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/empirical-sdc_raw.npz",
+      "sha256": "9a722eaedcd916abe86352870b58f5235084c630360fb035eea350a391aaaa74",
+      "bytes": 70235015
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-edf10rep1.npz",
+      "sha256": "5cbde34f793cd0ed92aff178ccad1f5a94d8e9abe76c41023c8881febf48ba99",
+      "bytes": 459907
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-edf10rep2.npz",
+      "sha256": "6724bcde36c0f377ad50646d18ebe0ef503b5709bb6e3f25e7fa66af0b59b754",
+      "bytes": 597332
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-fig4untreated.npz",
+      "sha256": "891ff64e3faef14b340098a7d2da5ae5755e3d7ec418b5419127d466b254ec82",
+      "bytes": 228050
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-npc.npz",
+      "sha256": "68a115b959dfe3f8e352323c044ac611d7fe29eb48734beac48fcddc5322a9a2",
+      "bytes": 478357
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-rtx_rep1.npz",
+      "sha256": "6d46f951d5b9fc5cd2cae357857d7468f2794ac9e6c3c3583bc98928ee3b5185",
+      "bytes": 511807
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-rtx_rep2.npz",
+      "sha256": "d14142fc5ba514eefb4f48f5d5f2b76d3b8971c17534e6c29de0cb5e630499d6",
+      "bytes": 501845
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-rtx_rep3.npz",
+      "sha256": "256a596400e488bd728255e0d468f4a8e8b7d01442ac65c5b0a4993043c2acdf",
+      "bytes": 749044
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-sdc_corrected.npz",
+      "sha256": "2ab582e01a2b233f7300e064354cdb05b08b3ca0d80a6409607459acba41adb2",
+      "bytes": 264775
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference-sdc_raw.npz",
+      "sha256": "abb57b045dd700a32a50ecc3e86d72174f572c8ae8f161f2032b2cd35e0595f2",
+      "bytes": 234599
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/reference_characterize.py",
+      "sha256": "8283e1cbf98603a2431f185198a55c5e89d4c3060a870e59901af3aaa41bfc31",
+      "bytes": 11631
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/simulate_reference.py",
+      "sha256": "54d823e5c02a784d1f03b838170ed8ab31b0457ad27be696df8ee7562184339d",
+      "bytes": 6387
+    },
+    {
+      "path": "outputs/replication-cd20-sep15/cd20_common.py",
+      "sha256": "bdb255a62ef841b3bef4dbda3fad133cc335b82ff84751b27218c89a01d98aa4",
+      "bytes": 7090
+    },
+    {
+      "path": "outputs/stationarity-diagnostic-sep15/split_components.py",
+      "sha256": "382831b666dad0827152df09a898c07bdeba6e9cb8c1453f67167a78f755edd1",
+      "bytes": 3201
+    },
+    {
+      "path": "tool/src/codedcal/uncertainty.py",
+      "sha256": "713a13f8d57a4d37d55c9a0a637af5f7a01c6640116688a51366c0d23a8dd84c",
+      "bytes": 8821
+    }
+  ],
+  "scope": "Hashes recorded during execution; protocol and scientific implementation committed before sensitivity outcomes. Raw inputs individually checked against historical member hashes before use."
+}

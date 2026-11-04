@@ -1,0 +1,74 @@
+{
+  "identity": {
+    "reference_kind": "author_hand_curated",
+    "n_reference": 60,
+    "calls": 60,
+    "correct_labels": 60,
+    "spatial_matches": 60,
+    "identity_f1": 1.0,
+    "spatial_f1": 1.0,
+    "label_constrained_f1": 1.0,
+    "wrong_label_fraction": 0.0,
+    "composition_tv": 0.0,
+    "matching": {
+      "ambiguous_reference": 31,
+      "ambiguous_prediction": 31,
+      "skipped_components": 0,
+      "candidate_edges": 108
+    }
+  },
+  "balanced_label_corruption": {
+    "reference_kind": "author_hand_curated",
+    "n_reference": 60,
+    "calls": 60,
+    "correct_labels": 0,
+    "spatial_matches": 60,
+    "identity_f1": 0.0,
+    "spatial_f1": 1.0,
+    "label_constrained_f1": 0.05,
+    "wrong_label_fraction": 1.0,
+    "composition_tv": 0.0,
+    "matching": {
+      "ambiguous_reference": 31,
+      "ambiguous_prediction": 31,
+      "skipped_components": 0,
+      "candidate_edges": 108
+    }
+  },
+  "geometry_shift": {
+    "reference_kind": "author_hand_curated",
+    "n_reference": 60,
+    "calls": 60,
+    "correct_labels": 1,
+    "spatial_matches": 10,
+    "identity_f1": 0.016666666666666666,
+    "spatial_f1": 0.16666666666666666,
+    "label_constrained_f1": 0.03333333333333333,
+    "wrong_label_fraction": 0.9,
+    "composition_tv": 0.0,
+    "matching": {
+      "ambiguous_reference": 1,
+      "ambiguous_prediction": 4,
+      "skipped_components": 0,
+      "candidate_edges": 14
+    }
+  },
+  "inverse_geometry": {
+    "reference_kind": "author_hand_curated",
+    "n_reference": 60,
+    "calls": 60,
+    "correct_labels": 60,
+    "spatial_matches": 60,
+    "identity_f1": 1.0,
+    "spatial_f1": 1.0,
+    "label_constrained_f1": 1.0,
+    "wrong_label_fraction": 0.0,
+    "composition_tv": 0.0,
+    "matching": {
+      "ambiguous_reference": 31,
+      "ambiguous_prediction": 31,
+      "skipped_components": 0,
+      "candidate_edges": 108
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "decoder": "correlation",
+  "incumbent": 1,
+  "incumbent_labels": [
+    "old_population_template",
+    "old_barcode_model"
+  ],
+  "risk": {
+    "abstained": true,
+    "reason": "Insufficient incumbent calls"
+  },
+  "tolerance_sensitivities": {
+    "0.0": {
+      "abstained": true,
+      "reason": "Insufficient incumbent calls"
+    },
+    "0.005": {
+      "abstained": true,
+      "reason": "Insufficient incumbent calls"
+    }
+  },
+  "baseline_fit_loss": 0.5055576343985543,
+  "baseline_fit_gap": 0.11418594110808478,
+  "baseline_decoder_confidence": 0.2140427529811859,
+  "baseline_quality": {
+    "full_catalog_calls": 11,
+    "negative": 0,
+    "blank_proxy": 0.0,
+    "source_abstentions": null,
+    "source_unsupported": null,
+    "central_coding": 3,
+    "central_negative": 0
+  },
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c"
+}

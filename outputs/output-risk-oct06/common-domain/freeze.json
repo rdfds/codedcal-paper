@@ -1,0 +1,17 @@
+{
+  "stage": "exposed_domain_repair_frozen_before_forecasts",
+  "files": {
+    "outputs/output-risk-oct06/common_domain.py": "b409b69b8c7efeb110e8e1ea4ad43607a247d62323eb4d3baac48690c2323bdb",
+    "outputs/output-risk-oct06/analyze_common.py": "9db2680bdeb561bbd72e6bb733cadeeac2c1de4ddac25947462b4b610d73d66a",
+    "outputs/output-risk-oct06/common-domain/PROTOCOL.md": "75837fb3e25e81fcb958fa2b112616cc835339b08f1bde6bd527be0638260109",
+    "outputs/output-risk-oct06/common-domain/controls.json": "ffcdc012b25418a77fb07c8e11cbedc3d52321726189ab53fc72b8e5bd32dcf0",
+    "outputs/output-risk-oct06/exposed.py": "68a14d83d9039976dfe3b2e620a2a2135a5e6676996ca6aaf829c44cdcd67b2c",
+    "tool/src/codedcal/output_risk.py": "e319915e4f2e9c1a63245e2ff57e20c15a650f01830ac4e157261e194e2a56d8",
+    "tool/src/codedcal/output_risk_weighted.py": "e4f9fd398a95a695c5e1e5093fa4788c71d6dc724cca4441959612ce5372561f",
+    "outputs/output-risk-oct06/controls.json": "e935706bf1e9805af682b64d452da966669e37a4f69f1d2823c1c5a99a9bad8d",
+    "outputs/output-risk-oct06/weighted-controls.json": "32000d998671a58020c4d4135db219934bf916c57fa3fdc5497177fb8d3a912b"
+  },
+  "planned_cases": 13,
+  "decoder_cases": 20,
+  "independent_confirmation": false
+}

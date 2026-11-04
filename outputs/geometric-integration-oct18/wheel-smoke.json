@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "version": "0.4.0",
+  "wheel_name": "codedcal-0.4.0-py3-none-any.whl",
+  "wheel_sha256": "b5f54490e52909b9d94a7f3f5fa356a9727d45773d48f79dedd5469f784987e4",
+  "built_and_installed_without_network_or_dependencies": true,
+  "installed_to_isolated_target": true,
+  "executed_outside_source_checkout": true,
+  "supported_csv_both_exit": 0,
+  "unresolved_npz_geometric_exit": 2,
+  "json_retains_both_variants": true,
+  "physical_validation": false
+}

@@ -1,0 +1,76 @@
+{
+  "crop": 3,
+  "decoder": "regression",
+  "status": "completed",
+  "catalog": {
+    "xyz": [
+      [
+        74,
+        87,
+        14
+      ],
+      [
+        73,
+        101,
+        15
+      ],
+      [
+        77,
+        100,
+        16
+      ],
+      [
+        61,
+        89,
+        18
+      ],
+      [
+        82,
+        72,
+        23
+      ],
+      [
+        81,
+        37,
+        23
+      ],
+      [
+        69,
+        37,
+        11
+      ],
+      [
+        47,
+        49,
+        15
+      ],
+      [
+        76,
+        93,
+        18
+      ]
+    ],
+    "words": [
+      29,
+      21,
+      23,
+      27,
+      29,
+      0,
+      45,
+      35,
+      34
+    ],
+    "coding": 9,
+    "negative": null,
+    "candidate_objects": 9,
+    "unsupported_candidates": 29,
+    "abstained": 0,
+    "coverage": 0.23684210526315788,
+    "runtime": {
+      "elapsed_s": 0.5611936250061262
+    },
+    "negative_proxy_unavailable": true
+  },
+  "input_sha256": "9cacfe0d929d5ad7c97c592ce4aba59b49e2a48daf46bc5fc919d5549c1cb35d"
+}

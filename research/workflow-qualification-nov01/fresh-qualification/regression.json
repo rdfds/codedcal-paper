@@ -1,0 +1,398 @@
+{
+  "passed": false,
+  "name": "4t1-culture-000",
+  "preparation": "4t1-culture-NE0WOP",
+  "native_nonblank_calls": 12,
+  "minimum_native": 50,
+  "integer_inverse_images_exact": true,
+  "integer_inverse_support_exact": true,
+  "no_effect_and_inverse_catalogs_exact": true,
+  "fractional_composed_operator_exact": true,
+  "calls": [
+    {
+      "role": "native",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            193.0,
+            118.0
+          ],
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            40.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            44.0,
+            54.0
+          ],
+          [
+            0.0,
+            53.0,
+            50.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            45.0,
+            52.0
+          ],
+          [
+            0.0,
+            45.0,
+            54.0
+          ]
+        ],
+        "classes": [
+          21,
+          45,
+          45,
+          62,
+          75,
+          76,
+          87,
+          87,
+          87,
+          90,
+          129,
+          129
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr regression",
+        "absolute_cut": 0.09755471348762512,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 0.00010854200081666932,
+        "decoder_seconds": 32.33757187499941,
+        "fit_loss": 0.447815789262335,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 12,
+        "blank_calls": 0,
+        "actual_calibration_executions": 1,
+        "actual_decoder_executions": 1,
+        "actual_workflow_executions": 1,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": false,
+        "wall_seconds": 32.5476622089991
+      },
+      "wall_seconds": 32.54961770800037
+    },
+    {
+      "role": "no_effect",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            193.0,
+            118.0
+          ],
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            40.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            44.0,
+            54.0
+          ],
+          [
+            0.0,
+            53.0,
+            50.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            45.0,
+            52.0
+          ],
+          [
+            0.0,
+            45.0,
+            54.0
+          ]
+        ],
+        "classes": [
+          21,
+          45,
+          45,
+          62,
+          75,
+          76,
+          87,
+          87,
+          87,
+          90,
+          129,
+          129
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr regression",
+        "absolute_cut": 0.09755471348762512,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 0.0,
+        "decoder_seconds": 0.0,
+        "fit_loss": 0.447815789262335,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 12,
+        "blank_calls": 0,
+        "actual_calibration_executions": 0,
+        "actual_decoder_executions": 0,
+        "actual_workflow_executions": 0,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": true,
+        "wall_seconds": 0.012336667001363821
+      },
+      "wall_seconds": 0.012365458000203944
+    },
+    {
+      "role": "known_inverse",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            193.0,
+            118.0
+          ],
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            40.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            44.0,
+            54.0
+          ],
+          [
+            0.0,
+            53.0,
+            50.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            45.0,
+            52.0
+          ],
+          [
+            0.0,
+            45.0,
+            54.0
+          ]
+        ],
+        "classes": [
+          21,
+          45,
+          45,
+          62,
+          75,
+          76,
+          87,
+          87,
+          87,
+          90,
+          129,
+          129
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr regression",
+        "absolute_cut": 0.09755471348762512,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 0.0,
+        "decoder_seconds": 0.0,
+        "fit_loss": 0.447815789262335,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 12,
+        "blank_calls": 0,
+        "actual_calibration_executions": 0,
+        "actual_decoder_executions": 0,
+        "actual_workflow_executions": 0,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": true,
+        "wall_seconds": 0.010877165999772842
+      },
+      "wall_seconds": 0.010960374998830957
+    },
+    {
+      "role": "fractional_oracle",
+      "status": "completed",
+      "catalog": {
+        "points": [
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            193.0,
+            118.0
+          ],
+          [
+            0.0,
+            41.0,
+            40.0
+          ],
+          [
+            0.0,
+            73.0,
+            69.0
+          ],
+          [
+            0.0,
+            41.0,
+            50.0
+          ],
+          [
+            0.0,
+            44.0,
+            54.0
+          ],
+          [
+            0.0,
+            53.0,
+            50.0
+          ]
+        ],
+        "classes": [
+          21,
+          45,
+          62,
+          76,
+          87,
+          87,
+          87
+        ]
+      },
+      "coverage": 1.0,
+      "diagnostics": {
+        "calibration_fit_source": "identity_control",
+        "native_kernel": "BarDensr regression",
+        "absolute_cut": 0.0916210263967514,
+        "peak_ties_preserved": true,
+        "calibration_seconds": 5.3249999837134965e-05,
+        "decoder_seconds": 24.7462082080001,
+        "fit_loss": 0.4392374785153461,
+        "blank_proxy": 0.0,
+        "nonblank_calls": 7,
+        "blank_calls": 0,
+        "actual_calibration_executions": 1,
+        "actual_decoder_executions": 1,
+        "actual_workflow_executions": 1,
+        "geometry_cache_hit": false,
+        "exact_result_cache_hit": false,
+        "wall_seconds": 24.9251592920009
+      }
+    }
+  ],
+  "logical_workflow_executions": 4,
+  "actual_workflow_executions": 2,
+  "physical_accuracy_claim": false,
+  "decoder": "regression",
+  "input_sha256": "db30c61053e6c348dd173de696a002d15a8b2b5e58de11cad21440d57b04164f",
+  "native_blank_proxy_upper95": 5.575390620225481,
+  "blank_proxy_assumptions": "Named blank-codewords as a proxy; not molecular ground truth",
+  "eligible_for_confirmation": false
+}

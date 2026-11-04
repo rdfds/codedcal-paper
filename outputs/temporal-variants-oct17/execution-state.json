@@ -1,0 +1,8 @@
+{
+  "stage": "complete",
+  "fields": 3528,
+  "cases": 84672,
+  "worlds": 126,
+  "elapsed_s": 44.427969749987824,
+  "freeze_sha256": "e9679962f2c2d42ef108bce4c9b8d7d0f49576c5ac82249e383fdf1ead309637"
+}

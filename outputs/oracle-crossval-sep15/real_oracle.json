@@ -1,0 +1,171 @@
+{
+  "status": "Assignment-based oracle; QC and calibration frozen on synthetic validation.",
+  "calibration": {
+    "unweighted": {
+      "a": 0.09,
+      "b": 0.876,
+      "sys": 0.083
+    },
+    "countweighted": {
+      "a": 0.091,
+      "b": 0.854,
+      "sys": 0.17
+    }
+  },
+  "points": {
+    "A": {
+      "config": {
+        "thresh": 10.0,
+        "qc": {}
+      },
+      "passing_sources": 1798,
+      "rejections": {
+        "size": 44372,
+        "panel_coverage": 2097,
+        "rms": 874,
+        "isolation": 278,
+        "split": 296,
+        "zsd": 834
+      },
+      "oracle_T": {
+        "unweighted": {
+          "raw": 0.8452818811248696,
+          "raw_interval": [
+            0.6319881003497777,
+            1.073557713123224
+          ],
+          "calibrated": 0.862193928224737,
+          "calibrated_interval": [
+            0.6187078771116185,
+            1.1227827775379269
+          ],
+          "systematic": 0.083
+        },
+        "countweighted": {
+          "raw": 1.0442352121745588,
+          "raw_interval": [
+            0.7975165529295569,
+            1.3373862983813376
+          ],
+          "calibrated": 1.1162004826399987,
+          "calibrated_interval": [
+            0.8273027551868348,
+            1.4594687334676084
+          ],
+          "systematic": 0.17
+        }
+      },
+      "reported_precision_inflation": 3.2505563528816683,
+      "noise_law_closure": 0.5325651943258641,
+      "round_balance": {
+        "round_1": {
+          "sources": 191,
+          "mean_that": 0.48652276501848063,
+          "se_that": 0.42201182895015515
+        },
+        "round_2": {
+          "sources": 652,
+          "mean_that": 0.7564817778396047,
+          "se_that": 0.15456585372303647
+        },
+        "round_3": {
+          "sources": 397,
+          "mean_that": 1.526656514262959,
+          "se_that": 0.29710941994180917
+        },
+        "round_4": {
+          "sources": 558,
+          "mean_that": 0.587064908297793,
+          "se_that": 0.17616196508884852
+        }
+      },
+      "common_motion": {
+        "same_round_pairs": 321,
+        "cross_round_pairs": 934,
+        "same_round_cov": 0.7393841946189897,
+        "same_round_se": 0.284064849620479,
+        "cross_round_cov": 0.5221700097313277,
+        "cross_round_se": 0.15063764122522294
+      }
+    },
+    "B": {
+      "config": {
+        "thresh": 14.0,
+        "qc": {
+          "max_rms": 12.0,
+          "max_split": 0.85,
+          "max_zsd": 26.0
+        }
+      },
+      "passing_sources": 2124,
+      "rejections": {
+        "size": 32418,
+        "panel_coverage": 2075,
+        "rms": 1352,
+        "isolation": 100,
+        "split": 133,
+        "zsd": 926
+      },
+      "oracle_T": {
+        "unweighted": {
+          "raw": 0.948204039765861,
+          "raw_interval": [
+            0.6902018502497093,
+            1.229092682531995
+          ],
+          "calibrated": 0.9796849769016678,
+          "calibrated_interval": [
+            0.6851619295088006,
+            1.300334112479446
+          ],
+          "systematic": 0.083
+        },
+        "countweighted": {
+          "raw": 1.0012976651193661,
+          "raw_interval": [
+            0.6535684765621343,
+            1.3675742935660928
+          ],
+          "calibrated": 1.065922324495745,
+          "calibrated_interval": [
+            0.6587452887144432,
+            1.4948176739649799
+          ],
+          "systematic": 0.17
+        }
+      },
+      "reported_precision_inflation": 4.1914218273810615,
+      "noise_law_closure": 0.696770562318397,
+      "round_balance": {
+        "round_1": {
+          "sources": 253,
+          "mean_that": 0.7343462159797853,
+          "se_that": 0.4303459233281037
+        },
+        "round_2": {
+          "sources": 726,
+          "mean_that": 0.9433012132739564,
+          "se_that": 0.23561397114168234
+        },
+        "round_3": {
+          "sources": 534,
+          "mean_that": 1.569820983805875,
+          "se_that": 0.31360211501048674
+        },
+        "round_4": {
+          "sources": 611,
+          "mean_that": 0.4993039306556029,
+          "se_that": 0.2068789468621867
+        }
+      },
+      "common_motion": {
+        "same_round_pairs": 429,
+        "cross_round_pairs": 1322,
+        "same_round_cov": 0.761825108508226,
+        "same_round_se": 0.29554473761080796,
+        "cross_round_cov": 0.8159519724687031,
+        "cross_round_se": 0.159478425279268
+      }
+    }
+  }
+}

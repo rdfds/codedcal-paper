@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "frozen_files": 9,
+  "profiles": 13,
+  "candidate_catalogs": 860,
+  "forecast_statistic_records": 40,
+  "evaluation_records": 20,
+  "bootstrap_and_weighted_ties_reproduced": true,
+  "canonical_decoder_canvas_verified": true,
+  "maximum_cardinality_matching_verified": true,
+  "native_reference_recounted": true,
+  "independent_RNA_truth": false,
+  "independent_preparation_validation": false,
+  "records": [
+    {
+      "case": "bar_0_color",
+      "sha256": "3497f4ec78dd1077df3e3865a0ecc67b7b425628ed3eb25533af0023539fc34d",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "bar_0_common",
+      "sha256": "66dc6e449fdbc09aaa45d1fa052a45a83686286659af0d0e52b379e235c8cadc",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "bar_0_zero",
+      "sha256": "b0f7d7a4aee9fe6035ce705e0875f074fd29091e13e94d8235494703530f2402",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "bar_1_color",
+      "sha256": "c3af82a1661bbd9fc2c8d3257a8e8b97bb0b230a97419977006e8d088ce3fd32",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "bar_1_common",
+      "sha256": "9366064fcc80401468bcc3b40e8aef77438df410a225d362d3a521df5bf51818",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "bar_1_zero",
+      "sha256": "1747539b79041e4469e6b3ea9e8d3e123365d63518ec2ec5357e4f0b89becbd3",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "culture_4_color",
+      "sha256": "2b3f282351c032f8423ed3c97df30d0969bcdffae82923d3fdf0dbc41fa33005",
+      "common_coverage": 0.9976988636363636
+    },
+    {
+      "case": "culture_4_common",
+      "sha256": "846814f6b6f30c64163555f6716fb2b4324b655ff252b63e316870fe94a5aee7",
+      "common_coverage": 0.9975568181818182
+    },
+    {
+      "case": "culture_4_zero",
+      "sha256": "533d025b9b01da0362f7c0772a16cff204d73651c888e61c5a43289b1a548e69",
+      "common_coverage": 1.0
+    },
+    {
+      "case": "tissue_4_color",
+      "sha256": "051d5445b12dda3571ccfe99a29be65f7724c8abf483ab7ece1005bd2b83e6f8",
+      "common_coverage": 0.9613352272727272
+    },
+    {
+      "case": "tissue_4_common",
+      "sha256": "57f155f64a1b4970986105518de499e1414f84b2ff020dfa86ce705e911f959c",
+      "common_coverage": 0.9581605113636363
+    },
+    {
+      "case": "tissue_4_outclass",
+      "sha256": "2c182a836cbb720195a85b2e54569e8383b70ebcc045aef301aeaa63ab80a9de",
+      "common_coverage": 0.9597869318181819
+    },
+    {
+      "case": "tissue_4_zero",
+      "sha256": "a0c1f629bbf9dccac77e29deef59add4ca397c726e0e41d3b16e1e4e96b8b241",
+      "common_coverage": 0.9654829545454545
+    }
+  ]
+}

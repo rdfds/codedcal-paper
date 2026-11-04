@@ -1,0 +1,16 @@
+{
+  "previous_https_directory_attempt": "Observed requests ConnectTimeout after 30 seconds; no payload acquired",
+  "records": [
+    {
+      "url": "https://api.brainimagelibrary.org/retrieve?bildid=ace-dim-pad",
+      "status": 200,
+      "final_url": "https://api.brainimagelibrary.org/retrieve?bildid=ace-dim-pad",
+      "bytes": 5449,
+      "sha256": "bca9b3ee4a9621bd153e8c8cad6bb45277b9f638f6fa9aee0eb350f0143ebc9d"
+    },
+    {
+      "url": "http://download.brainimagelibrary.org/23/3e/233eb9bd2df10f2e/20230406_VisReorg_D078_1L/",
+      "error": "ConnectTimeout(MaxRetryError(\"HTTPConnectionPool(host='download.brainimagelibrary.org', port=80): Max retries exceeded with url: /23/3e/233eb9bd2df10f2e/20230406_VisReorg_D078_1L/ (Caused by ConnectTimeoutError(<HTTPConnection(host='download.brainimagelibrary.org', port=80) at 0x1036fb3d0>, 'Connection to download.brainimagelibrary.org timed out. (connect timeout=8)'))\"))"
+    }
+  ]
+}

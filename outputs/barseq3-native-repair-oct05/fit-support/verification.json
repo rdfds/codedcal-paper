@@ -1,0 +1,314 @@
+{
+  "completed_verified": 60,
+  "failures_retained": 0,
+  "exact_input_reuses_verified": 42,
+  "radii": [
+    1.5,
+    3,
+    5
+  ],
+  "scripts_sha256": "3faf341eceae7a36fb8e1e86fec4cc96e4dbb98442c32a48f279c4fe9bdbd73e",
+  "files": [
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__none__correlation.json",
+      "sha256": "8e669786b6afb7c95068f4b08618ed2642997874438ad911925a27f7d0deaa9c",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__none__regression.json",
+      "sha256": "cde47a6b5fd0c05775c2eeb7e06d11a63bf84c55a53223157172f57761e6e6de",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__common_iterative__correlation.json",
+      "sha256": "bcb919e97a30116180811c6af60b9f94f44293c100cbf2cfec2ea925f39b62c4",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__common_iterative__regression.json",
+      "sha256": "0f6699c747f35ba679db29dbf03f8110b29d10f5fae79cadb8d5ac2a4e0a0eb8",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__population_template__correlation.json",
+      "sha256": "df53096e063ab2acd1d2661ad9bdf90062a835830a11199e4faf69c32b546d3d",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__population_template__regression.json",
+      "sha256": "00563f66fab98b587bcc086ef6574be552c0538328c5947f5fe0b9425e6143e0",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__barcode_model__correlation.json",
+      "sha256": "894f672e1530820233a7a2d72c8499db97e787a4cd964c48d4d865e4c8a1de50",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__barcode_model__regression.json",
+      "sha256": "247475a91fafa1ceba4c80b2c7aff2bfe2baf6110bc9c941668993368afea99c",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__oracle__correlation.json",
+      "sha256": "94659dce532d4d5957c5fddf382badeee230a144aee5e6455629c8fe1760b2b2",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/zero__oracle__regression.json",
+      "sha256": "a5f4b88e3ed39b1804fb51d47355ac62215ca3f63c6ec7a7a2f20dbbd8ffcf0a",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__none__correlation.json",
+      "sha256": "fbc10a10a97fe8e7ec978045f6876a150a14bde0da4b74526f62de73094af6e2",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__none__regression.json",
+      "sha256": "bc76ab80a1435b46f00d084bf25d84df5af359ceaaf53a99f596d416b25c55d8",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__common_iterative__correlation.json",
+      "sha256": "f648f7564f4028d9fc5af0d78d438a7eae34f79ae3bdd72c8e938dabedccdea9",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__common_iterative__regression.json",
+      "sha256": "5ef63d861ed9db7a64023378a6622ff9214155232a3023910a471cd791e4eb47",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__population_template__correlation.json",
+      "sha256": "c9a56c045d2c22a1545e6dc9b9395eb14c4ffdf1801204e704655d5d36dfc775",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__population_template__regression.json",
+      "sha256": "b584fb698f7cb48645f94a74db2ace79e228309c294a2e2fa2b972bfb6bd633c",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__barcode_model__correlation.json",
+      "sha256": "5d559cca372832b8287a6654e7ff5fa83e435e55528bab4eaa6ce3eff9c88f20",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__barcode_model__regression.json",
+      "sha256": "ccc1c3c53dacfaa49778a99c1339d940c8cce8397c33610bda22bbd3e56cf6c4",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__oracle__correlation.json",
+      "sha256": "569eb7fae4c3b59393776615c4396a76999904de40fa89807e3edd8b48dd7092",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/common__oracle__regression.json",
+      "sha256": "171dbfd288532fbde235547a375b1e3d42e4f929610309733520789f4997bb33",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__none__correlation.json",
+      "sha256": "37dfb8f2f8fd971321de38aade6cc518b8503610175a25183d85a80e5f2efa1a",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__none__regression.json",
+      "sha256": "0bdb81102c8bc3b94a26fe744ac22c29676ed47ba54f207fe0c0aef4482e388e",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__common_iterative__correlation.json",
+      "sha256": "b28895d95ab65c279c4dd59ae8f5d2b490b430f4d08ffec8f3206ac26cf9dc7d",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__common_iterative__regression.json",
+      "sha256": "7a479e470d1e6d31f32322983597d603372d6daa33daa4dcdf5c95e7cc9065c9",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__population_template__correlation.json",
+      "sha256": "4b717d33ac2b73841efaf67998e9f8021ae1997077e37f3f5fbfb29312196e62",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__population_template__regression.json",
+      "sha256": "23ddc91b56e94cb147987603774968727c6db37c1f2d7d09254af905054170b2",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__barcode_model__correlation.json",
+      "sha256": "b49b3323b8be1e0e0db6cc7f35bce13f6fb2b94f280bd2f8505d29542181b1e4",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__barcode_model__regression.json",
+      "sha256": "733be20cf179d93626bd1ea30afa2bb662e84f43710e0ae18c7a81f1cb9d8cd1",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__oracle__correlation.json",
+      "sha256": "5deb3a2c217fe0b99d627ab8d43f03dc25b192d9bb09a6a19287f00497d60e5d",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-0/color__oracle__regression.json",
+      "sha256": "1b8c65d56a352cd6408bde6788f395e51947ef438643a77db0c3a5a5961a794c",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__none__correlation.json",
+      "sha256": "25277d2fcb420d9af35d6fa19efa1e32b336495fd351cd679994fcad56d88800",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__none__regression.json",
+      "sha256": "34acdf9e7d4df90d698901a6e3737af373f5a606542830e89b49ea4c901a387f",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__common_iterative__correlation.json",
+      "sha256": "7c7cf1342cf85feda5f8ee47a5f9dad54ce7d52a7f9130c97485839e3262a98e",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__common_iterative__regression.json",
+      "sha256": "8a8c57281199ba0ab14471858f8f4e9aa27abc93c6a90250c35e4eed7a62bbd4",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__population_template__correlation.json",
+      "sha256": "3266d4557131da75b9677b54374b0d1eb9b753fc17aa507855b89704ae34f7c4",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__population_template__regression.json",
+      "sha256": "4fcca0f1a8d6f3c331fcdb6a24a762bc477fd5411ebdbd2b8967dbd5b2360e7f",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__barcode_model__correlation.json",
+      "sha256": "8cb223424f1a5b15a3ff92dad03b9bac5653c9c10aacd3a27bb643ec8270bc4c",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__barcode_model__regression.json",
+      "sha256": "1ae520bfb82edb37f46798b0c67ae6db38e4ec40c77050c3a333ba171ce09caa",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__oracle__correlation.json",
+      "sha256": "32f49056453ed219cd61f86128d75f6bd9879857421c25a4c8ebc430b5f10887",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/zero__oracle__regression.json",
+      "sha256": "595f74c10f37a7d2a15d6ae7f5cd7c1ce74540b004ec167d985a57b5c28b2eef",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__none__correlation.json",
+      "sha256": "578326f3346bdbab302a98dbceb9a32ff1400ab51ce2dc38cc3f040b8d8cb6d7",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__none__regression.json",
+      "sha256": "e268a47e98f134b51256b3a5bec4d53df812c4f7206249c3421303bd7ae6cd35",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__common_iterative__correlation.json",
+      "sha256": "7f7c027ad169278eb024e5e7784955e381a790cd3d7d8254350ab18621539f92",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__common_iterative__regression.json",
+      "sha256": "47a0a0f224bfb9fb2757a1aab3c381bba8d1b669ce50f42f1c9ce5d19e9be31e",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__population_template__correlation.json",
+      "sha256": "c552f08153349a97f8313da15f140eef478b74f5266c6c53978179a5c6dacada",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__population_template__regression.json",
+      "sha256": "40ba396ffdb038d61142baa7154df6ee4b019c67b48c9ec2118d92daac300c84",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__barcode_model__correlation.json",
+      "sha256": "5339642fde481197bfd4d47e5ecaf2a8b95e712d901b7a847af105ebf05b5739",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__barcode_model__regression.json",
+      "sha256": "806f1daa38819b76699173e1565eee85b3ab87328e146ae89fbda88522a0fb5a",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__oracle__correlation.json",
+      "sha256": "8dd9246bb42deece66d7548d95de07afa22d319098c3bec8ec4515ee8c8f398a",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/common__oracle__regression.json",
+      "sha256": "0a7ff5e5132c2ca5463dda6dea296792fccd4e888058738bca919a93f112aff4",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__none__correlation.json",
+      "sha256": "efd2f20c43a446393b04c2530503083f6806d37c22be9d351502d6ad38d65241",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__none__regression.json",
+      "sha256": "6bb8c12932f06f60203931395b6c3acb4818e9c57bcfbd006bda6ffba30638dc",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__common_iterative__correlation.json",
+      "sha256": "428823d223b4ca2877b464064f3861dbb4d3b0b18236d3206750a2ecdcb2eb67",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__common_iterative__regression.json",
+      "sha256": "5212701cdb266a0e49455c6b83cfc8f367a89601bfbc3a44b4db96593c679999",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__population_template__correlation.json",
+      "sha256": "bfaaf2938c5c00982be226ed9c1fb0ad9f2a26da313ca8df196059254497d637",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__population_template__regression.json",
+      "sha256": "b9b3c2193aeacdd9dd1c86ba267b03fe0f3b8e44b077df0f20e421abd9cb9cb6",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__barcode_model__correlation.json",
+      "sha256": "9e2d0fc42a057db0409e9c9d016cc06feaf525a6c428c20d163e7e9e09a23b09",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__barcode_model__regression.json",
+      "sha256": "8c84b41326b24d3030b40a39518e0dcba84186fe9794306249f1ec46fc9ce09d",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__oracle__correlation.json",
+      "sha256": "86c8fb38d7cb544ace05c4ef92278b1a496bddad9cb8d97977db2aaab2736187",
+      "status": "completed"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/fit-support/field-1/color__oracle__regression.json",
+      "sha256": "b870a1ee70dc9f9a89246de3e3605d7581f41fcbf55e56ed3529e3de1cd3e2d5",
+      "status": "completed"
+    }
+  ],
+  "scope": "Retained-call recount, lineage and exact reuse verification; does not provide independent biological truth"
+}

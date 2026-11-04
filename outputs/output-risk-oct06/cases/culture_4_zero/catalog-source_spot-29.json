@@ -1,0 +1,16 @@
+{
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c",
+  "candidate": 29,
+  "decoder": "source_spot",
+  "catalog": {
+    "xyz": [],
+    "words": []
+  },
+  "quality": {
+    "full_catalog_calls": 49,
+    "negative": 1,
+    "blank_proxy": 0.7996794871794871,
+    "source_abstentions": 118,
+    "source_unsupported": null
+  }
+}

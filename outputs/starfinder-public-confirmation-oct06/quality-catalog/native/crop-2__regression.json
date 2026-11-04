@@ -1,0 +1,15 @@
+{
+  "crop": 2,
+  "decoder": "regression",
+  "xyz": [],
+  "words": [],
+  "ambiguity_scores": [],
+  "eligible": [],
+  "runtime": {
+    "candidates": 0,
+    "unsupported_candidates": 0,
+    "elapsed_s": 0.175392874982208
+  },
+  "input_sha256": "4a1e874e962a1d37bec1c57a4761e10e099780aec27dc7a48d5777bef8deec30",
+  "script_sha256": "7b24e3954b523b159058edbcf94e8b882ac112ddd3f304e7c9f37a9b0a2f085e"
+}

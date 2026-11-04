@@ -1,0 +1,16 @@
+{
+  "status": "pass",
+  "worlds": 126,
+  "applicable_worlds": 108,
+  "excluded_code_offset_worlds": 18,
+  "historical_prefix_vectors": 6048,
+  "unique_source_hashes": 7327,
+  "finite_cases_recounted": 259200,
+  "variance_recounts": 1296,
+  "independent_raw_shipped_interval_checks": 1296,
+  "independent_sufficient_statistic_interval_checks": 259200,
+  "smallest_scaled_covariance_eigenvalue": 0.0,
+  "mc_variance_z_abs_max": 5.377330766739824,
+  "mc_variance_z_abs_over_3": 23,
+  "note": "MC studentized variance discrepancies retained; exact covariance tests are separate. No physical model/priority/coverage validation follows from integrity checks."
+}

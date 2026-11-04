@@ -1,0 +1,19 @@
+{
+  "pid": 28314,
+  "command": "research/workflow-gain-replay-nov03/run.py",
+  "stage": "completed",
+  "started_epoch": 1793728518.267282,
+  "freeze_sha256": "610db3e2e26c444c812f6d067ee42f135624600de4b3f70969326c9712f0c5ce",
+  "decoder_attempts": 52,
+  "decoder_predictions_started": 52,
+  "complete_predictions": 52,
+  "fixed_codebook_index_builds": 1,
+  "registration_optimizations": 0,
+  "gain_optimizations": 0,
+  "exact_cache_hits": 0,
+  "elapsed_monotonic_seconds": 121.46116808299848,
+  "elapsed_wall_seconds": 121.46058583259583,
+  "peak_rss_bytes": 423673856,
+  "free_bytes": 1644040192,
+  "current_case": "group_search/4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b"
+}

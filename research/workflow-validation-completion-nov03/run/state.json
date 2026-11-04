@@ -1,0 +1,20 @@
+{
+  "pid": 14678,
+  "command": "research/workflow-validation-completion-nov03/recover.py",
+  "stage": "completed",
+  "started_epoch": 1793676203.93003,
+  "deadline_epoch": 1793679803.93003,
+  "freeze_sha256": "e029b378e420510fd2e1228b635442efae2dba68e49fde203b7dafc02ab3a69c",
+  "logical_call_starts": 64,
+  "complete_calls": 63,
+  "completed_pairs": 24,
+  "inherited_call_count": 58,
+  "completed_new_pairs": 3,
+  "total_reserved": 1151,
+  "elapsed_wall_seconds": 185.17211604118347,
+  "elapsed_monotonic_seconds": 185.17004887500116,
+  "current_policy": "group_search",
+  "current_challenge": "4dedd8f78b488c0c3402fbe9783fb7c6c540064912b104082c886d7de721385b",
+  "active_call": 63,
+  "active_policy": "group_search"
+}

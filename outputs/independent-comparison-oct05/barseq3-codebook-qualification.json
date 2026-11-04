@@ -1,0 +1,29 @@
+{
+  "rows": 1771,
+  "sequence_lengths": {
+    "10": 1771
+  },
+  "alphabet": [
+    "A",
+    "C",
+    "G",
+    "T"
+  ],
+  "duplicate_sequences": {
+    "AGGCTAGCCG": [
+      "Rex2",
+      "Lamc1"
+    ]
+  },
+  "names_with_no_gene": [
+    "no_gene_23",
+    "no_gene_24",
+    "no_gene_25",
+    "no_gene_26",
+    "no_gene_27",
+    "no_gene_28",
+    "no_gene_29",
+    "no_gene_30"
+  ],
+  "codebook_sha256": "fc900afb73f20dfab928aa237ff9e4525066840f763410e3256d5a5cacb7bd11"
+}

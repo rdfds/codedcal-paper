@@ -1,0 +1,15 @@
+{
+  "note": "Frozen from characterize_field.json statistics and drift_trace_summary.json before any temporal contrast was computed. lp median ~4 nm, 90th pct 8-10.5; rows/pick ~10x Reinhardt so single-linkage needs corrected coordinates and a tighter cap; data are 2D (no z filter).",
+  "lp_max_nm": 12.0,
+  "quality_bin_nm2": 16.0,
+  "link_jump_nm": 40.0,
+  "cluster_thresh_nm": 8.0,
+  "drift_bin_frames": 200,
+  "oracle_qc": {
+    "min_events": 30,
+    "min_per_panel": 3,
+    "max_rms": 12.0,
+    "max_split": 0.85,
+    "min_sep": 30.0
+  }
+}

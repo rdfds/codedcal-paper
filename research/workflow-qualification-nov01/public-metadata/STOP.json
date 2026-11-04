@@ -1,0 +1,12 @@
+{
+  "url": "https://zenodo.org/api/records/8253771",
+  "cap": 524288,
+  "index": 2,
+  "status": 200,
+  "content_type": "application/json",
+  "retry_after": "60",
+  "final_url": "https://zenodo.org/api/records/8253772",
+  "bytes": 4578,
+  "sha256": "c65afeead49d31ff98427cdc10dec38a25a4e63103e9b6dec2342dbe98c2754c",
+  "file": "metadata-2.txt"
+}

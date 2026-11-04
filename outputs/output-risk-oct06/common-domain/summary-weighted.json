@@ -1,0 +1,1207 @@
+{
+  "stage": "interpreted",
+  "variant": "weighted",
+  "posthoc_domain_repair": true,
+  "posthoc_statistic_repair": true,
+  "planned_cases": 13,
+  "completed_cases": 13,
+  "planned_first_stage_decoder_cases": 20,
+  "completed_decoder_cases": 20,
+  "correlation_supported_cases": 13,
+  "correlation_decision_coverage": 1.0,
+  "correlation_sensitivity": 0.5,
+  "correlation_false_alert_rate": 0.18181818181818182,
+  "failure_preparations": 1,
+  "adds_value_over_full_bank_and_ordinary_disagreement": false,
+  "first_stage_qualified": false,
+  "nonnegative_extension_authorized_by_scientific_gate": false,
+  "nonnegative_public_propagation_completed": 0,
+  "independent_preparation_confirmation": false,
+  "independent_RNA_truth": false,
+  "formal_risk_coverage_guarantee": false,
+  "development": true,
+  "preparation_counts_are_not_independent_fields": {
+    "bar": {
+      "supported": 6,
+      "failures": 2,
+      "misses": 1,
+      "false_alerts": 2,
+      "field_ids": [
+        0,
+        1
+      ]
+    },
+    "culture": {
+      "supported": 3,
+      "failures": 0,
+      "misses": 0,
+      "false_alerts": 0,
+      "field_ids": [
+        4
+      ]
+    },
+    "tissue": {
+      "supported": 4,
+      "failures": 0,
+      "misses": 0,
+      "false_alerts": 0,
+      "field_ids": [
+        4
+      ]
+    }
+  },
+  "comparators": {
+    "risk": {
+      "auc": 0.8636363636363636,
+      "sensitivity_at_FPR_01": 0.5,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 0.9236641221374046,
+          "tpr": 0.5,
+          "fpr": 0.0
+        },
+        {
+          "threshold": 0.20048384508795247,
+          "tpr": 0.5,
+          "fpr": 0.09090909090909091
+        },
+        {
+          "threshold": 0.16234791242016405,
+          "tpr": 0.5,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.040000000000000036,
+          "tpr": 0.5,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.03943410237923576,
+          "tpr": 1.0,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.02910603514132927,
+          "tpr": 1.0,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.023076923076923106,
+          "tpr": 1.0,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.019759438450180446,
+          "tpr": 1.0,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": 0.015086268781682276,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "ordinary": {
+      "auc": 0.5909090909090909,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 1.0,
+          "tpr": 0.0,
+          "fpr": 0.09090909090909091
+        },
+        {
+          "threshold": 0.9859154929577465,
+          "tpr": 0.0,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.9848484848484849,
+          "tpr": 0.0,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.9797979797979798,
+          "tpr": 0.0,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.907894736842105,
+          "tpr": 0.5,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.7478991596638656,
+          "tpr": 0.5,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.7272727272727273,
+          "tpr": 1.0,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.6705882352941177,
+          "tpr": 1.0,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": 0.6363636363636364,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.10769230769230764,
+          "tpr": 1.0,
+          "fpr": 0.7272727272727273
+        },
+        {
+          "threshold": 0.08179310344827588,
+          "tpr": 1.0,
+          "fpr": 0.8181818181818182
+        },
+        {
+          "threshold": 0.06974789915966388,
+          "tpr": 1.0,
+          "fpr": 0.9090909090909091
+        },
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "full_bank": {
+      "auc": 0.6818181818181818,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 1.0,
+          "tpr": 0.5,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.9288888888888889,
+          "tpr": 0.5,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.907894736842105,
+          "tpr": 1.0,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.8212765957446808,
+          "tpr": 1.0,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": 0.6705882352941177,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.5438012295081969,
+          "tpr": 1.0,
+          "fpr": 0.7272727272727273
+        },
+        {
+          "threshold": 0.5223880597014925,
+          "tpr": 1.0,
+          "fpr": 0.8181818181818182
+        },
+        {
+          "threshold": 0.4918032786885246,
+          "tpr": 1.0,
+          "fpr": 0.9090909090909091
+        },
+        {
+          "threshold": 0.27419354838709675,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "fit": {
+      "auc": 0.8636363636363636,
+      "sensitivity_at_FPR_01": 0.5,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 0.498892854276269,
+          "tpr": 0.5,
+          "fpr": 0.0
+        },
+        {
+          "threshold": 0.3937975581530734,
+          "tpr": 0.5,
+          "fpr": 0.09090909090909091
+        },
+        {
+          "threshold": 0.39096844556802024,
+          "tpr": 0.5,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.3381835776729302,
+          "tpr": 0.5,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.33500956825327755,
+          "tpr": 1.0,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.33478700466581984,
+          "tpr": 1.0,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.31108180802808194,
+          "tpr": 1.0,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.311081796866478,
+          "tpr": 1.0,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": 0.30382015637177756,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.263237261416449,
+          "tpr": 1.0,
+          "fpr": 0.7272727272727273
+        },
+        {
+          "threshold": 0.2618058631114786,
+          "tpr": 1.0,
+          "fpr": 0.8181818181818182
+        },
+        {
+          "threshold": 0.26050809963155336,
+          "tpr": 1.0,
+          "fpr": 0.9090909090909091
+        },
+        {
+          "threshold": 0.2580177997130997,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "fit_gap": {
+      "auc": 0.7045454545454546,
+      "sensitivity_at_FPR_01": 0.5,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 0.10803216667132792,
+          "tpr": 0.5,
+          "fpr": 0.0
+        },
+        {
+          "threshold": 0.005381210908570577,
+          "tpr": 0.5,
+          "fpr": 0.09090909090909091
+        },
+        {
+          "threshold": 0.0032806700529375843,
+          "tpr": 0.5,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "low_confidence": {
+      "auc": 0.5454545454545454,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 0.8991479501128197,
+          "tpr": 0.0,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.8986594974994659,
+          "tpr": 0.0,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.885662131011486,
+          "tpr": 0.5,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.871629998087883,
+          "tpr": 0.5,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.8713456392288208,
+          "tpr": 0.5,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.8676654696464539,
+          "tpr": 0.5,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": 0.8671569228172302,
+          "tpr": 0.5,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.867156907916069,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.7411355078220367,
+          "tpr": 1.0,
+          "fpr": 0.7272727272727273
+        },
+        {
+          "threshold": 0.7384108304977417,
+          "tpr": 1.0,
+          "fpr": 0.8181818181818182
+        },
+        {
+          "threshold": 0.738349437713623,
+          "tpr": 1.0,
+          "fpr": 0.9090909090909091
+        },
+        {
+          "threshold": 0.7296580970287323,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "blank_proxy": {
+      "auc": 0.5,
+      "sensitivity_at_FPR_01": 0.0,
+      "available": 9,
+      "positive": 2,
+      "negative": 7,
+      "curve": [
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "yield_loss": {
+      "auc": 0.7727272727272727,
+      "sensitivity_at_FPR_01": 0.5,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": -11,
+          "tpr": 0.5,
+          "fpr": 0.0
+        },
+        {
+          "threshold": -53,
+          "tpr": 0.5,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": -64,
+          "tpr": 0.5,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": -66,
+          "tpr": 0.5,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": -70,
+          "tpr": 0.5,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": -76,
+          "tpr": 1.0,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": -120,
+          "tpr": 1.0,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": -125,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": -129,
+          "tpr": 1.0,
+          "fpr": 0.7272727272727273
+        },
+        {
+          "threshold": -133,
+          "tpr": 1.0,
+          "fpr": 0.8181818181818182
+        },
+        {
+          "threshold": -137,
+          "tpr": 1.0,
+          "fpr": 0.9090909090909091
+        },
+        {
+          "threshold": -138,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    },
+    "geometry": {
+      "auc": 0.9090909090909091,
+      "sensitivity_at_FPR_01": 0.5,
+      "available": 13,
+      "positive": 2,
+      "negative": 11,
+      "curve": [
+        {
+          "threshold": 0.09547032697824666,
+          "tpr": 0.5,
+          "fpr": 0.0
+        },
+        {
+          "threshold": 0.02009147915715073,
+          "tpr": 0.5,
+          "fpr": 0.09090909090909091
+        },
+        {
+          "threshold": 0.017838978857173036,
+          "tpr": 0.5,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.009647655515431947,
+          "tpr": 1.0,
+          "fpr": 0.18181818181818182
+        },
+        {
+          "threshold": 0.009223309842157773,
+          "tpr": 1.0,
+          "fpr": 0.2727272727272727
+        },
+        {
+          "threshold": 0.00736569563735987,
+          "tpr": 1.0,
+          "fpr": 0.36363636363636365
+        },
+        {
+          "threshold": 0.005208333333333333,
+          "tpr": 1.0,
+          "fpr": 0.45454545454545453
+        },
+        {
+          "threshold": 0.004812003942687957,
+          "tpr": 1.0,
+          "fpr": 0.5454545454545454
+        },
+        {
+          "threshold": 0.003720952312394115,
+          "tpr": 1.0,
+          "fpr": 0.6363636363636364
+        },
+        {
+          "threshold": 0.0,
+          "tpr": 1.0,
+          "fpr": 1.0
+        },
+        {
+          "threshold": null,
+          "tpr": 1.0,
+          "fpr": 1.0
+        }
+      ],
+      "threshold_curve_is_exposed_diagnostic_not_frozen_transfer": true
+    }
+  },
+  "abstained_cases": [],
+  "records": [
+    {
+      "case": "bar_0_color",
+      "preparation": "bar",
+      "field": 0,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 76,
+      "incumbent_calls": 76,
+      "truth_failure": true,
+      "actual": {
+        "identity_loss": 0.09210526315789469,
+        "composition_tv": 0.09210526315789472,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.03943410237923576,
+      "flagged": false,
+      "ordinary": 0.907894736842105,
+      "full_bank": 0.907894736842105,
+      "fit": 0.33500956825327755,
+      "fit_gap": 0.0,
+      "low_confidence": 0.867156907916069,
+      "blank_proxy": 0.0,
+      "yield_loss": -76,
+      "geometry": 0.009647655515431947
+    },
+    {
+      "case": "bar_0_common",
+      "preparation": "bar",
+      "field": 0,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 66,
+      "incumbent_calls": 66,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.019759438450180446,
+      "flagged": false,
+      "ordinary": 1.0,
+      "full_bank": 1.0,
+      "fit": 0.3381835776729302,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8671569228172302,
+      "blank_proxy": 0.0,
+      "yield_loss": -66,
+      "geometry": 0.004812003942687957
+    },
+    {
+      "case": "bar_0_zero",
+      "preparation": "bar",
+      "field": 0,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 70,
+      "incumbent_calls": 70,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.02910603514132927,
+      "flagged": false,
+      "ordinary": 0.06974789915966388,
+      "full_bank": 0.4918032786885246,
+      "fit": 0.33478700466581984,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8713456392288208,
+      "blank_proxy": 0.0,
+      "yield_loss": -70,
+      "geometry": 0.003720952312394115
+    },
+    {
+      "case": "bar_1_color",
+      "preparation": "bar",
+      "field": 1,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 120,
+      "incumbent_calls": 11,
+      "truth_failure": true,
+      "actual": {
+        "identity_loss": 0.9236641221374046,
+        "composition_tv": 0.8749999999999999,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.9236641221374046,
+      "flagged": true,
+      "ordinary": 0.7272727272727273,
+      "full_bank": 1.0,
+      "fit": 0.498892854276269,
+      "fit_gap": 0.10803216667132792,
+      "low_confidence": 0.885662131011486,
+      "blank_proxy": 0.0,
+      "yield_loss": -11,
+      "geometry": 0.09547032697824666
+    },
+    {
+      "case": "bar_1_common",
+      "preparation": "bar",
+      "field": 1,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 120,
+      "incumbent_calls": 120,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.20048384508795247,
+      "flagged": true,
+      "ordinary": 0.9859154929577465,
+      "full_bank": 1.0,
+      "fit": 0.39096844556802024,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8676654696464539,
+      "blank_proxy": 0.0,
+      "yield_loss": -120,
+      "geometry": 0.02009147915715073
+    },
+    {
+      "case": "bar_1_zero",
+      "preparation": "bar",
+      "field": 1,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 125,
+      "incumbent_calls": 125,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.16234791242016405,
+      "flagged": true,
+      "ordinary": 0.08179310344827588,
+      "full_bank": 0.5223880597014925,
+      "fit": 0.3937975581530734,
+      "fit_gap": 0.0,
+      "low_confidence": 0.871629998087883,
+      "blank_proxy": 0.0,
+      "yield_loss": -125,
+      "geometry": 0.017838978857173036
+    },
+    {
+      "case": "culture_4_color",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "color",
+      "decoder": "source_spot",
+      "reference_calls": 54,
+      "incumbent_calls": 54,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.9814814814814814,
+      "full_bank": 1.0000000000000002,
+      "fit": 0.31108180802808194,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8803345859050751,
+      "blank_proxy": 0.0,
+      "yield_loss": -54,
+      "geometry": 0.0
+    },
+    {
+      "case": "culture_4_color",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 53,
+      "incumbent_calls": 53,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.9848484848484849,
+      "full_bank": 1.0,
+      "fit": 0.31108180802808194,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8991479501128197,
+      "blank_proxy": 0.0,
+      "yield_loss": -53,
+      "geometry": 0.0
+    },
+    {
+      "case": "culture_4_common",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "common",
+      "decoder": "source_spot",
+      "reference_calls": 54,
+      "incumbent_calls": 54,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.9759036144578314,
+      "full_bank": 1.0,
+      "fit": 0.311081796866478,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8803345859050751,
+      "blank_proxy": 0.0,
+      "yield_loss": -54,
+      "geometry": 0.0
+    },
+    {
+      "case": "culture_4_common",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 53,
+      "incumbent_calls": 53,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.9797979797979798,
+      "full_bank": 1.0,
+      "fit": 0.311081796866478,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8991479501128197,
+      "blank_proxy": 0.0,
+      "yield_loss": -53,
+      "geometry": 0.0
+    },
+    {
+      "case": "culture_4_zero",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "source_spot",
+      "reference_calls": 69,
+      "incumbent_calls": 69,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.0,
+      "full_bank": 0.7101449275362318,
+      "fit": 0.30382015637177756,
+      "fit_gap": 0.0,
+      "low_confidence": 0.9057525992393494,
+      "blank_proxy": 0.0,
+      "yield_loss": -69,
+      "geometry": 0.0
+    },
+    {
+      "case": "culture_4_zero",
+      "preparation": "culture",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 64,
+      "incumbent_calls": 64,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.0,
+      "full_bank": 0.5438012295081969,
+      "fit": 0.30382015637177756,
+      "fit_gap": 0.0,
+      "low_confidence": 0.8986594974994659,
+      "blank_proxy": 0.0,
+      "yield_loss": -64,
+      "geometry": 0.0
+    },
+    {
+      "case": "tissue_4_color",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "color",
+      "decoder": "source_spot",
+      "reference_calls": 98,
+      "incumbent_calls": 96,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.020618556701030966,
+        "composition_tv": 0.02699829931972789,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.02699829931972789,
+      "flagged": false,
+      "ordinary": 0.6626506024096386,
+      "full_bank": 0.6626506024096386,
+      "fit": 0.263237261416449,
+      "fit_gap": 0.005381210908570577,
+      "low_confidence": 0.4820455312728882,
+      "blank_proxy": null,
+      "yield_loss": -96,
+      "geometry": 0.00736569563735987
+    },
+    {
+      "case": "tissue_4_color",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "color",
+      "decoder": "correlation",
+      "reference_calls": 138,
+      "incumbent_calls": 137,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.040000000000000036,
+        "composition_tv": 0.020787051729609665,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.040000000000000036,
+      "flagged": false,
+      "ordinary": 0.6705882352941177,
+      "full_bank": 0.6705882352941177,
+      "fit": 0.263237261416449,
+      "fit_gap": 0.005381210908570577,
+      "low_confidence": 0.7411355078220367,
+      "blank_proxy": null,
+      "yield_loss": -137,
+      "geometry": 0.00736569563735987
+    },
+    {
+      "case": "tissue_4_common",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "common",
+      "decoder": "source_spot",
+      "reference_calls": 98,
+      "incumbent_calls": 98,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.7164179104477613,
+      "full_bank": 0.9473684210526316,
+      "fit": 0.2580177997130997,
+      "fit_gap": 0.0,
+      "low_confidence": 0.44804519414901733,
+      "blank_proxy": null,
+      "yield_loss": -98,
+      "geometry": 0.0
+    },
+    {
+      "case": "tissue_4_common",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "common",
+      "decoder": "correlation",
+      "reference_calls": 138,
+      "incumbent_calls": 138,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.0,
+      "flagged": false,
+      "ordinary": 0.6363636363636364,
+      "full_bank": 0.9288888888888889,
+      "fit": 0.2580177997130997,
+      "fit_gap": 0.0,
+      "low_confidence": 0.738349437713623,
+      "blank_proxy": null,
+      "yield_loss": -138,
+      "geometry": 0.0
+    },
+    {
+      "case": "tissue_4_outclass",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "outclass",
+      "decoder": "source_spot",
+      "reference_calls": 95,
+      "incumbent_calls": 97,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.02083333333333337,
+        "composition_tv": 0.016711882799782963,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.015547523592656038,
+      "flagged": false,
+      "ordinary": 0.810126582278481,
+      "full_bank": 0.8562091503267975,
+      "fit": 0.2618058631114786,
+      "fit_gap": 0.0,
+      "low_confidence": 0.4810987710952759,
+      "blank_proxy": null,
+      "yield_loss": -97,
+      "geometry": 0.009223309842157773
+    },
+    {
+      "case": "tissue_4_outclass",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "outclass",
+      "decoder": "correlation",
+      "reference_calls": 135,
+      "incumbent_calls": 133,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.04477611940298509,
+        "composition_tv": 0.040657198551935385,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.015086268781682276,
+      "flagged": false,
+      "ordinary": 0.7478991596638656,
+      "full_bank": 0.8212765957446808,
+      "fit": 0.2618058631114786,
+      "fit_gap": 0.0,
+      "low_confidence": 0.7384108304977417,
+      "blank_proxy": null,
+      "yield_loss": -133,
+      "geometry": 0.009223309842157773
+    },
+    {
+      "case": "tissue_4_zero",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "source_spot",
+      "reference_calls": 96,
+      "incumbent_calls": 96,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.01041666666666663,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.01041666666666663,
+      "flagged": false,
+      "ordinary": 0.0680628272251309,
+      "full_bank": 0.2737430167597765,
+      "fit": 0.26050809963155336,
+      "fit_gap": 0.0032806700529375843,
+      "low_confidence": 0.46486401557922363,
+      "blank_proxy": null,
+      "yield_loss": -96,
+      "geometry": 0.005208333333333333
+    },
+    {
+      "case": "tissue_4_zero",
+      "preparation": "tissue",
+      "field": 4,
+      "kind": "zero",
+      "decoder": "correlation",
+      "reference_calls": 131,
+      "incumbent_calls": 129,
+      "truth_failure": false,
+      "actual": {
+        "identity_loss": 0.023076923076923106,
+        "composition_tv": 0.021717261376412833,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "abstained": false,
+      "risk": 0.023076923076923106,
+      "flagged": false,
+      "ordinary": 0.10769230769230764,
+      "full_bank": 0.27419354838709675,
+      "fit": 0.26050809963155336,
+      "fit_gap": 0.0032806700529375843,
+      "low_confidence": 0.7296580970287323,
+      "blank_proxy": null,
+      "yield_loss": -129,
+      "geometry": 0.005208333333333333
+    }
+  ],
+  "retained_evaluation_hashes": [
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/bar_0_color/evaluation.json",
+      "sha256": "3497f4ec78dd1077df3e3865a0ecc67b7b425628ed3eb25533af0023539fc34d"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/bar_0_common/evaluation.json",
+      "sha256": "66dc6e449fdbc09aaa45d1fa052a45a83686286659af0d0e52b379e235c8cadc"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/bar_0_zero/evaluation.json",
+      "sha256": "b0f7d7a4aee9fe6035ce705e0875f074fd29091e13e94d8235494703530f2402"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/bar_1_color/evaluation.json",
+      "sha256": "c3af82a1661bbd9fc2c8d3257a8e8b97bb0b230a97419977006e8d088ce3fd32"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/bar_1_common/evaluation.json",
+      "sha256": "9366064fcc80401468bcc3b40e8aef77438df410a225d362d3a521df5bf51818"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/bar_1_zero/evaluation.json",
+      "sha256": "1747539b79041e4469e6b3ea9e8d3e123365d63518ec2ec5357e4f0b89becbd3"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/culture_4_color/evaluation.json",
+      "sha256": "2b3f282351c032f8423ed3c97df30d0969bcdffae82923d3fdf0dbc41fa33005"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/culture_4_common/evaluation.json",
+      "sha256": "846814f6b6f30c64163555f6716fb2b4324b655ff252b63e316870fe94a5aee7"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/culture_4_zero/evaluation.json",
+      "sha256": "533d025b9b01da0362f7c0772a16cff204d73651c888e61c5a43289b1a548e69"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/tissue_4_color/evaluation.json",
+      "sha256": "051d5445b12dda3571ccfe99a29be65f7724c8abf483ab7ece1005bd2b83e6f8"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/tissue_4_common/evaluation.json",
+      "sha256": "57f155f64a1b4970986105518de499e1414f84b2ff020dfa86ce705e911f959c"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/tissue_4_outclass/evaluation.json",
+      "sha256": "2c182a836cbb720195a85b2e54569e8383b70ebcc045aef301aeaa63ab80a9de"
+    },
+    {
+      "file": "outputs/output-risk-oct06/common-domain/cases/tissue_4_zero/evaluation.json",
+      "sha256": "a0c1f629bbf9dccac77e29deef59add4ca397c726e0e41d3b16e1e4e96b8b241"
+    }
+  ]
+}

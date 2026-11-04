@@ -1,0 +1,4767 @@
+{
+  "stage": "development_thresholds_found",
+  "groups": {
+    "source_spot": {
+      "selected": {
+        "threshold": 0.019306540489196777,
+        "coding": 205,
+        "negative": 0,
+        "scaled_proxy": 0.0,
+        "negative_count_proxy_upper95": 0.5609269810519479,
+        "qualified": true
+      },
+      "threshold_curve": [
+        {
+          "threshold": 0.0,
+          "coding": 217,
+          "negative": 1,
+          "scaled_proxy": 0.17688762850053172,
+          "negative_count_proxy_upper95": 0.8391309445859263,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0009075403213500977,
+          "coding": 217,
+          "negative": 1,
+          "scaled_proxy": 0.17688762850053172,
+          "negative_count_proxy_upper95": 0.8391309445859263,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0013062357902526855,
+          "coding": 216,
+          "negative": 1,
+          "scaled_proxy": 0.1777065527065527,
+          "negative_count_proxy_upper95": 0.8430158100701204,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0035524368286132812,
+          "coding": 215,
+          "negative": 1,
+          "scaled_proxy": 0.1785330948121646,
+          "negative_count_proxy_upper95": 0.8469368138378883,
+          "qualified": false
+        },
+        {
+          "threshold": 0.005595266819000244,
+          "coding": 214,
+          "negative": 1,
+          "scaled_proxy": 0.17936736161035224,
+          "negative_count_proxy_upper95": 0.8508944625006822,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0066748857498168945,
+          "coding": 213,
+          "negative": 1,
+          "scaled_proxy": 0.18020946189960274,
+          "negative_count_proxy_upper95": 0.854889272183784,
+          "qualified": false
+        },
+        {
+          "threshold": 0.008101046085357666,
+          "coding": 212,
+          "negative": 1,
+          "scaled_proxy": 0.18105950653120464,
+          "negative_count_proxy_upper95": 0.8589217687506887,
+          "qualified": false
+        },
+        {
+          "threshold": 0.008142352104187012,
+          "coding": 211,
+          "negative": 1,
+          "scaled_proxy": 0.18191760845789284,
+          "negative_count_proxy_upper95": 0.8629924880338673,
+          "qualified": false
+        },
+        {
+          "threshold": 0.00832366943359375,
+          "coding": 210,
+          "negative": 1,
+          "scaled_proxy": 0.18278388278388277,
+          "negative_count_proxy_upper95": 0.8671019760721238,
+          "qualified": false
+        },
+        {
+          "threshold": 0.010145783424377441,
+          "coding": 209,
+          "negative": 1,
+          "scaled_proxy": 0.18365844681634155,
+          "negative_count_proxy_upper95": 0.8712507893547655,
+          "qualified": false
+        },
+        {
+          "threshold": 0.016301214694976807,
+          "coding": 208,
+          "negative": 1,
+          "scaled_proxy": 0.1845414201183432,
+          "negative_count_proxy_upper95": 0.8754394950728173,
+          "qualified": false
+        },
+        {
+          "threshold": 0.016776323318481445,
+          "coding": 207,
+          "negative": 1,
+          "scaled_proxy": 0.18543292456335936,
+          "negative_count_proxy_upper95": 0.8796686713775169,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0171281099319458,
+          "coding": 206,
+          "negative": 1,
+          "scaled_proxy": 0.18633308439133678,
+          "negative_count_proxy_upper95": 0.8839389076463398,
+          "qualified": false
+        },
+        {
+          "threshold": 0.017714202404022217,
+          "coding": 205,
+          "negative": 1,
+          "scaled_proxy": 0.1872420262664165,
+          "negative_count_proxy_upper95": 0.8882508047568097,
+          "qualified": false
+        },
+        {
+          "threshold": 0.019306540489196777,
+          "coding": 205,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5609269810519479,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01938652992248535,
+          "coding": 204,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.563676623115928,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01956111192703247,
+          "coding": 203,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.566453355249504,
+          "qualified": true
+        },
+        {
+          "threshold": 0.020290255546569824,
+          "coding": 202,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5692575797804421,
+          "qualified": true
+        },
+        {
+          "threshold": 0.021313846111297607,
+          "coding": 201,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5720897070430314,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0244024395942688,
+          "coding": 200,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5749501555782466,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02500021457672119,
+          "coding": 199,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5778393523399463,
+          "qualified": true
+        },
+        {
+          "threshold": 0.025242090225219727,
+          "coding": 198,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5807577329073198,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02609461545944214,
+          "coding": 197,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5837057417038036,
+          "qualified": true
+        },
+        {
+          "threshold": 0.028077006340026855,
+          "coding": 196,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5866838322227006,
+          "qualified": true
+        },
+        {
+          "threshold": 0.028335869312286377,
+          "coding": 195,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5896924672597401,
+          "qualified": true
+        },
+        {
+          "threshold": 0.029275596141815186,
+          "coding": 194,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5927321191528315,
+          "qualified": true
+        },
+        {
+          "threshold": 0.029917240142822266,
+          "coding": 193,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.595803270029271,
+          "qualified": true
+        },
+        {
+          "threshold": 0.030080020427703857,
+          "coding": 192,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5989064120606735,
+          "qualified": true
+        },
+        {
+          "threshold": 0.030421674251556396,
+          "coding": 191,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6020420477259126,
+          "qualified": true
+        },
+        {
+          "threshold": 0.031161963939666748,
+          "coding": 190,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6052106900823648,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03166830539703369,
+          "coding": 189,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6084128630457636,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0321192741394043,
+          "coding": 188,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6116491016789857,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03277277946472168,
+          "coding": 187,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6149199524901033,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03288924694061279,
+          "coding": 186,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6182259737400501,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03438633680343628,
+          "coding": 185,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6215677357602666,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03509622812271118,
+          "coding": 184,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6249458212807028,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03586769104003906,
+          "coding": 183,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6283608257685755,
+          "qualified": true
+        },
+        {
+          "threshold": 0.037186264991760254,
+          "coding": 182,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.631813357778293,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03801959753036499,
+          "coding": 181,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6353040393129796,
+          "qualified": true
+        },
+        {
+          "threshold": 0.038842082023620605,
+          "coding": 180,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6388335061980518,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03977853059768677,
+          "coding": 179,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6424024084673147,
+          "qualified": true
+        },
+        {
+          "threshold": 0.040289878845214844,
+          "coding": 178,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6460114107620748,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0436437726020813,
+          "coding": 177,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6496611927437814,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04617738723754883,
+          "coding": 176,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6533524495207348,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04705512523651123,
+          "coding": 175,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6570858920894247,
+          "qualified": true
+        },
+        {
+          "threshold": 0.048384666442871094,
+          "coding": 174,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.660862247791088,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05074417591094971,
+          "coding": 173,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6646822607841001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05113828182220459,
+          "coding": 172,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6685466925328448,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05266857147216797,
+          "coding": 171,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6724563223137386,
+          "qualified": true
+        },
+        {
+          "threshold": 0.054167330265045166,
+          "coding": 170,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6764119477391136,
+          "qualified": true
+        },
+        {
+          "threshold": 0.054365694522857666,
+          "coding": 169,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6804143852997001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.054963529109954834,
+          "coding": 168,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.684464470926484,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05517172813415527,
+          "coding": 167,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6885630605727504,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05578404664993286,
+          "coding": 166,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6927110308171646,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05591118335723877,
+          "coding": 165,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6969092794887838,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05676615238189697,
+          "coding": 164,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7011587263149348,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05729860067367554,
+          "coding": 163,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7054603135929406,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0576973557472229,
+          "coding": 162,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7098150068867242,
+          "qualified": true
+        },
+        {
+          "threshold": 0.058324337005615234,
+          "coding": 161,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7142237957493747,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0593985915184021,
+          "coding": 160,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7186876944728082,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06013906002044678,
+          "coding": 159,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.723207742865719,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06244701147079468,
+          "coding": 158,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7277850070610716,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06587988138198853,
+          "coding": 157,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7324205803544542,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06757378578186035,
+          "coding": 156,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7371155840746751,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0688631534576416,
+          "coding": 155,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7418711684880601,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07093554735183716,
+          "coding": 154,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7466885137379826,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07398146390914917,
+          "coding": 153,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7515688308212374,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0750609040260315,
+          "coding": 152,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.756513362602956,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07681405544281006,
+          "coding": 151,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7615233848718498,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0774465799331665,
+          "coding": 150,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7666002074376621,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07978731393814087,
+          "coding": 149,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7717451752728142,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07983541488647461,
+          "coding": 148,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7769596697003333,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08329468965530396,
+          "coding": 147,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7822451096302675,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0842183530330658,
+          "coding": 146,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7876029528469132,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08460694551467896,
+          "coding": 145,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7930346973493057,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08486658334732056,
+          "coding": 144,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7985418827475647,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08512860536575317,
+          "coding": 143,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8041260917178273,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08572089672088623,
+          "coding": 142,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8097889515186572,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0858963131904602,
+          "coding": 141,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.815532135571981,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08680999279022217,
+          "coding": 140,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8213573651117808,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08855974674224854,
+          "coding": 139,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8272664109039519,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08906400203704834,
+          "coding": 138,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.833261095040937,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08907997608184814,
+          "coding": 137,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8393432928149586,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08961743116378784,
+          "coding": 136,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.845514934673892,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09113657474517822,
+          "coding": 135,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.851778008264069,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09424740076065063,
+          "coding": 134,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8581345605645472,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09912371635437012,
+          "coding": 133,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.864586700117664,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10240203142166138,
+          "coding": 132,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8711365993609796,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10430854558944702,
+          "coding": 131,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8777864970660253,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10662394762039185,
+          "coding": 130,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8845387008896102,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10835933685302734,
+          "coding": 129,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8913955900437931,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11131894588470459,
+          "coding": 128,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8983596180910103,
+          "qualified": true
+        },
+        {
+          "threshold": 0.115092933177948,
+          "coding": 127,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9054333158712544,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11543488502502441,
+          "coding": 126,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9126192945686453,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12184661626815796,
+          "coding": 125,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9199202489251945,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12463772296905518,
+          "coding": 124,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9273389606100751,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1256880760192871,
+          "coding": 123,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9348783017532465,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13004755973815918,
+          "coding": 122,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9425412386528632,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1357625126838684,
+          "coding": 121,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9503308356665233,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13753139972686768,
+          "coding": 120,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9582502592970776,
+          "qualified": true
+        },
+        {
+          "threshold": 0.143951416015625,
+          "coding": 119,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.966302782484448,
+          "qualified": true
+        },
+        {
+          "threshold": 0.14424258470535278,
+          "coding": 118,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9744917891156721,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1454613208770752,
+          "coding": 117,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9828207787662334,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1463412046432495,
+          "coding": 116,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.991293371686632,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1530613899230957,
+          "coding": 115,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9999133140491245,
+          "qualified": true
+        },
+        {
+          "threshold": 0.16096675395965576,
+          "coding": 114,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0086844834706081,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1627359390258789,
+          "coding": 113,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.017610894828755,
+          "qualified": true
+        },
+        {
+          "threshold": 0.16864126920700073,
+          "coding": 112,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.026696706389726,
+          "qualified": true
+        },
+        {
+          "threshold": 0.17144989967346191,
+          "coding": 111,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0359462262671109,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1720294952392578,
+          "coding": 110,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0453639192331756,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1732286810874939,
+          "coding": 109,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0549544139050395,
+          "qualified": true
+        },
+        {
+          "threshold": 0.18276095390319824,
+          "coding": 108,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0647225103300864,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1837230920791626,
+          "coding": 107,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0746731879967226,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1846563220024109,
+          "coding": 106,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0848116142985784,
+          "qualified": true
+        },
+        {
+          "threshold": 0.19224029779434204,
+          "coding": 105,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0951431534823743,
+          "qualified": true
+        },
+        {
+          "threshold": 0.19360071420669556,
+          "coding": 104,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1056733761120126,
+          "qualified": true
+        },
+        {
+          "threshold": 0.19561636447906494,
+          "coding": 103,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.116408069083974,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2065678834915161,
+          "coding": 102,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.127353246231856,
+          "qualified": true
+        },
+        {
+          "threshold": 0.20844143629074097,
+          "coding": 101,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1385151595608842,
+          "qualified": true
+        },
+        {
+          "threshold": 0.20894575119018555,
+          "coding": 100,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1499003111564932,
+          "qualified": true
+        },
+        {
+          "threshold": 0.21274834871292114,
+          "coding": 99,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1615154658146396,
+          "qualified": true
+        },
+        {
+          "threshold": 0.21671247482299805,
+          "coding": 98,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1733676644454012,
+          "qualified": true
+        },
+        {
+          "threshold": 0.21867793798446655,
+          "coding": 97,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.185464238305663,
+          "qualified": true
+        },
+        {
+          "threshold": 0.21945810317993164,
+          "coding": 96,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.197812824121347,
+          "qualified": true
+        },
+        {
+          "threshold": 0.22335422039031982,
+          "coding": 95,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2104213801647297,
+          "qualified": true
+        },
+        {
+          "threshold": 0.22617244720458984,
+          "coding": 94,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2232982033579713,
+          "qualified": true
+        },
+        {
+          "threshold": 0.22828447818756104,
+          "coding": 93,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2364519474801001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.22926557064056396,
+          "coding": 92,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2498916425614055,
+          "qualified": true
+        },
+        {
+          "threshold": 0.23107963800430298,
+          "coding": 91,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.263626715556586,
+          "qualified": true
+        },
+        {
+          "threshold": 0.23741769790649414,
+          "coding": 90,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2776670123961036,
+          "qualified": true
+        },
+        {
+          "threshold": 0.24447661638259888,
+          "coding": 89,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2920228215241496,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2464086413383484,
+          "coding": 88,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3067048990414696,
+          "qualified": true
+        },
+        {
+          "threshold": 0.25480055809020996,
+          "coding": 87,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.321724495582176,
+          "qualified": true
+        },
+        {
+          "threshold": 0.25716516375541687,
+          "coding": 86,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3370933850656896,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2633218765258789,
+          "coding": 85,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3528238954782272,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2660316228866577,
+          "coding": 84,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.368928941852968,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2662084698677063,
+          "coding": 83,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3854220616343291,
+          "qualified": true
+        },
+        {
+          "threshold": 0.27632027864456177,
+          "coding": 82,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4023174526298696,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2773202061653137,
+          "coding": 81,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4196300137734483,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2784571647644043,
+          "coding": 80,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4373753889456165,
+          "qualified": true
+        },
+        {
+          "threshold": 0.2960178852081299,
+          "coding": 79,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4555700141221433,
+          "qualified": true
+        },
+        {
+          "threshold": 0.29950910806655884,
+          "coding": 78,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4742311681493503,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3002474904060364,
+          "coding": 77,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4933770274759652,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3004143536090851,
+          "coding": 76,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.513026725205912,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3034197688102722,
+          "coding": 75,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5332004148753242,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3061029314994812,
+          "coding": 74,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5539193394006665,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3061675429344177,
+          "coding": 73,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5752059056938263,
+          "qualified": true
+        },
+        {
+          "threshold": 0.30840301513671875,
+          "coding": 72,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5970837654951293,
+          "qualified": true
+        },
+        {
+          "threshold": 0.31424421072006226,
+          "coding": 71,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.6195779030373143,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3173386752605438,
+          "coding": 70,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.6427147302235616,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3219173550605774,
+          "coding": 69,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.666522190081874,
+          "qualified": true
+        },
+        {
+          "threshold": 0.35357171297073364,
+          "coding": 68,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.691029869347784,
+          "qualified": true
+        },
+        {
+          "threshold": 0.354102224111557,
+          "coding": 67,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7162691211290944,
+          "qualified": true
+        },
+        {
+          "threshold": 0.35544079542160034,
+          "coding": 66,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7422731987219593,
+          "qualified": true
+        },
+        {
+          "threshold": 0.35940802097320557,
+          "coding": 65,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7690774017792203,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3637010455131531,
+          "coding": 64,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7967192361820206,
+          "qualified": true
+        },
+        {
+          "threshold": 0.375168114900589,
+          "coding": 63,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8252385891372906,
+          "qualified": true
+        },
+        {
+          "threshold": 0.3800095319747925,
+          "coding": 62,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8546779212201503,
+          "qualified": true
+        },
+        {
+          "threshold": 0.40096181631088257,
+          "coding": 61,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8850824773057264,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4016060531139374,
+          "coding": 60,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.9165005185941553,
+          "qualified": true
+        },
+        {
+          "threshold": 0.41364237666130066,
+          "coding": 59,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.9489835782313443,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4178299307823181,
+          "coding": 58,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.982586743373264,
+          "qualified": true
+        },
+        {
+          "threshold": 0.42608413100242615,
+          "coding": 57,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.0173689669412163,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4272431433200836,
+          "coding": 56,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.053393412779452,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4377392530441284,
+          "coding": 55,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.0907278384663512,
+          "qualified": true
+        },
+        {
+          "threshold": 0.44605553150177,
+          "coding": 54,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.1294450206601727,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4557906985282898,
+          "coding": 53,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.169623228597157,
+          "qualified": true
+        },
+        {
+          "threshold": 0.46027159690856934,
+          "coding": 52,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.211346752224025,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4697900116443634,
+          "coding": 51,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.254706492463712,
+          "qualified": true
+        },
+        {
+          "threshold": 0.49114394187927246,
+          "coding": 50,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.2998006223129863,
+          "qualified": true
+        },
+        {
+          "threshold": 0.4944155812263489,
+          "coding": 49,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.3467353288908024,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5062165856361389,
+          "coding": 48,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.395625648242694,
+          "qualified": false
+        },
+        {
+          "threshold": 0.525143027305603,
+          "coding": 47,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.4465964067159427,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5325976014137268,
+          "coding": 46,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.499783285122811,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5333917737007141,
+          "coding": 45,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.555334024792207,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5360753536224365,
+          "coding": 44,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.613409798082939,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5445468425750732,
+          "coding": 43,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.6741867701313793,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5490182638168335,
+          "coding": 42,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.737857883705936,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5628626346588135,
+          "coding": 41,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.8046349052597392,
+          "qualified": false
+        },
+        {
+          "threshold": 0.5890002250671387,
+          "coding": 40,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.874750777891233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.597339391708374,
+          "coding": 39,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.9484623362987006,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6007057428359985,
+          "coding": 38,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.026053450411824,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6085414290428162,
+          "coding": 37,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.107838678801333,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6136287450790405,
+          "coding": 36,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.1941675309902586,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6164543628692627,
+          "coding": 35,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.2854294604471233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6196364760398865,
+          "coding": 34,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.382059738695568,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6267931461334229,
+          "coding": 33,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.4845463974439186,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6420255899429321,
+          "coding": 32,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.593438472364041,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6477596759796143,
+          "coding": 31,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.7093558424403006,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6872410774230957,
+          "coding": 30,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.8330010371883105,
+          "qualified": false
+        },
+        {
+          "threshold": 0.6933332681655884,
+          "coding": 29,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.965173486746528,
+          "qualified": false
+        },
+        {
+          "threshold": 0.7084497213363647,
+          "coding": 28,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.106786825558904,
+          "qualified": false
+        },
+        {
+          "threshold": 0.7106985449790955,
+          "coding": 27,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.258890041320345,
+          "qualified": false
+        },
+        {
+          "threshold": 0.7342374920845032,
+          "coding": 26,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.42269350444805,
+          "qualified": false
+        },
+        {
+          "threshold": 0.7628788948059082,
+          "coding": 25,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.599601244625973,
+          "qualified": false
+        },
+        {
+          "threshold": 0.7644984722137451,
+          "coding": 24,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.791251296485388,
+          "qualified": false
+        },
+        {
+          "threshold": 0.7948152422904968,
+          "coding": 23,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.999566570245622,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8422677516937256,
+          "coding": 22,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.226819596165878,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8427215814590454,
+          "coding": 21,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.475715767411872,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8516453504562378,
+          "coding": 20,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.749501555782466,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8548679351806641,
+          "coding": 19,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.052106900823648,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8632404804229736,
+          "coding": 18,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.388335061980517,
+          "qualified": false
+        },
+        {
+          "threshold": 0.87333744764328,
+          "coding": 17,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.764119477391136,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8851872682571411,
+          "coding": 16,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 7.186876944728082,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8873645663261414,
+          "coding": 15,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 7.666002074376621,
+          "qualified": false
+        },
+        {
+          "threshold": 0.8896753191947937,
+          "coding": 14,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 8.213573651117809,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9134963154792786,
+          "coding": 13,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 8.8453870088961,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9150377511978149,
+          "coding": 12,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 9.582502592970776,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9161834716796875,
+          "coding": 11,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 10.453639192331757,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9166215658187866,
+          "coding": 10,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 11.499003111564932,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9326983690261841,
+          "coding": 9,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 12.776670123961035,
+          "qualified": false
+        },
+        {
+          "threshold": 0.933468222618103,
+          "coding": 8,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 14.373753889456165,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9433032274246216,
+          "coding": 7,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 16.427147302235618,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9456667304039001,
+          "coding": 6,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 19.165005185941553,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9471263885498047,
+          "coding": 5,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 22.998006223129863,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9502686262130737,
+          "coding": 4,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 28.74750777891233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9510653018951416,
+          "coding": 3,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 38.330010371883105,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9589071869850159,
+          "coding": 2,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 57.49501555782466,
+          "qualified": false
+        },
+        {
+          "threshold": 0.9679147601127625,
+          "coding": 1,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 114.99003111564932,
+          "qualified": false
+        }
+      ],
+      "total_candidates": 425,
+      "eligible_before_score": 218,
+      "abstained_after_score": 220
+    },
+    "correlation": {
+      "selected": {
+        "threshold": 0.0,
+        "coding": 215,
+        "negative": 0,
+        "scaled_proxy": 0.0,
+        "negative_count_proxy_upper95": 0.5348373540262759,
+        "qualified": true
+      },
+      "threshold_curve": [
+        {
+          "threshold": 0.0,
+          "coding": 215,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5348373540262759,
+          "qualified": true
+        },
+        {
+          "threshold": 0.00032645463943481445,
+          "coding": 215,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5348373540262759,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0004976987838745117,
+          "coding": 214,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5373365939983613,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0059320926666259766,
+          "coding": 213,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5398593010124381,
+          "qualified": true
+        },
+        {
+          "threshold": 0.006791651248931885,
+          "coding": 212,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5424058071492892,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0073168277740478516,
+          "coding": 211,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5449764507850678,
+          "qualified": true
+        },
+        {
+          "threshold": 0.007963478565216064,
+          "coding": 210,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5475715767411872,
+          "qualified": true
+        },
+        {
+          "threshold": 0.008864223957061768,
+          "coding": 209,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5501915364385135,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012050271034240723,
+          "coding": 208,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5528366880560063,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012354671955108643,
+          "coding": 207,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5555073966939581,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012670934200286865,
+          "coding": 206,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.558204034541987,
+          "qualified": true
+        },
+        {
+          "threshold": 0.014195740222930908,
+          "coding": 205,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5609269810519479,
+          "qualified": true
+        },
+        {
+          "threshold": 0.014426112174987793,
+          "coding": 204,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.563676623115928,
+          "qualified": true
+        },
+        {
+          "threshold": 0.014658212661743164,
+          "coding": 203,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.566453355249504,
+          "qualified": true
+        },
+        {
+          "threshold": 0.014786243438720703,
+          "coding": 202,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5692575797804421,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0157204270362854,
+          "coding": 201,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5720897070430314,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01635068655014038,
+          "coding": 200,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5749501555782466,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0165061354637146,
+          "coding": 199,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5778393523399463,
+          "qualified": true
+        },
+        {
+          "threshold": 0.020021021366119385,
+          "coding": 198,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5807577329073198,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02065187692642212,
+          "coding": 197,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5837057417038036,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02200073003768921,
+          "coding": 196,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5866838322227006,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02207285165786743,
+          "coding": 195,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5896924672597401,
+          "qualified": true
+        },
+        {
+          "threshold": 0.022758662700653076,
+          "coding": 194,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5927321191528315,
+          "qualified": true
+        },
+        {
+          "threshold": 0.023656189441680908,
+          "coding": 193,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.595803270029271,
+          "qualified": true
+        },
+        {
+          "threshold": 0.024970829486846924,
+          "coding": 192,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.5989064120606735,
+          "qualified": true
+        },
+        {
+          "threshold": 0.025669515132904053,
+          "coding": 191,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6020420477259126,
+          "qualified": true
+        },
+        {
+          "threshold": 0.025950729846954346,
+          "coding": 190,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6052106900823648,
+          "qualified": true
+        },
+        {
+          "threshold": 0.026347577571868896,
+          "coding": 189,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6084128630457636,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02765446901321411,
+          "coding": 188,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6116491016789857,
+          "qualified": true
+        },
+        {
+          "threshold": 0.028200209140777588,
+          "coding": 187,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6149199524901033,
+          "qualified": true
+        },
+        {
+          "threshold": 0.029035568237304688,
+          "coding": 186,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6182259737400501,
+          "qualified": true
+        },
+        {
+          "threshold": 0.029485583305358887,
+          "coding": 185,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6215677357602666,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03069913387298584,
+          "coding": 184,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6249458212807028,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03220248222351074,
+          "coding": 183,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6283608257685755,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03250586986541748,
+          "coding": 182,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.631813357778293,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03251922130584717,
+          "coding": 181,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6353040393129796,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03525811433792114,
+          "coding": 180,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6388335061980518,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03550022840499878,
+          "coding": 179,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6424024084673147,
+          "qualified": true
+        },
+        {
+          "threshold": 0.035772085189819336,
+          "coding": 178,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6460114107620748,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03896909952163696,
+          "coding": 177,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6496611927437814,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03931915760040283,
+          "coding": 176,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6533524495207348,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04260188341140747,
+          "coding": 175,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6570858920894247,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04282176494598389,
+          "coding": 174,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.660862247791088,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04328209161758423,
+          "coding": 173,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6646822607841001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04348134994506836,
+          "coding": 172,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6685466925328448,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04404634237289429,
+          "coding": 171,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6724563223137386,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04826563596725464,
+          "coding": 169,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6804143852997001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.04961889982223511,
+          "coding": 168,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.684464470926484,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0501522421836853,
+          "coding": 167,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6885630605727504,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05078291893005371,
+          "coding": 166,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6927110308171646,
+          "qualified": true
+        },
+        {
+          "threshold": 0.051007986068725586,
+          "coding": 165,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.6969092794887838,
+          "qualified": true
+        },
+        {
+          "threshold": 0.051301419734954834,
+          "coding": 164,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7011587263149348,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05183690786361694,
+          "coding": 163,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7054603135929406,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05312269926071167,
+          "coding": 162,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7098150068867242,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05397677421569824,
+          "coding": 161,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7142237957493747,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05555230379104614,
+          "coding": 160,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7186876944728082,
+          "qualified": true
+        },
+        {
+          "threshold": 0.056057751178741455,
+          "coding": 159,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.723207742865719,
+          "qualified": true
+        },
+        {
+          "threshold": 0.057281434535980225,
+          "coding": 158,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7277850070610716,
+          "qualified": true
+        },
+        {
+          "threshold": 0.05837959051132202,
+          "coding": 157,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7324205803544542,
+          "qualified": true
+        },
+        {
+          "threshold": 0.059258222579956055,
+          "coding": 156,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7371155840746751,
+          "qualified": true
+        },
+        {
+          "threshold": 0.059756696224212646,
+          "coding": 155,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7418711684880601,
+          "qualified": true
+        },
+        {
+          "threshold": 0.060934484004974365,
+          "coding": 154,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7466885137379826,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06110703945159912,
+          "coding": 153,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7515688308212374,
+          "qualified": true
+        },
+        {
+          "threshold": 0.061827123165130615,
+          "coding": 152,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.756513362602956,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06191200017929077,
+          "coding": 151,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7615233848718498,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06449121236801147,
+          "coding": 150,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7666002074376621,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0650632381439209,
+          "coding": 149,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7717451752728142,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06510847806930542,
+          "coding": 148,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7769596697003333,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06545382738113403,
+          "coding": 147,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7822451096302675,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06725835800170898,
+          "coding": 146,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7876029528469132,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06868362426757812,
+          "coding": 145,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7930346973493057,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06923186779022217,
+          "coding": 144,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7985418827475647,
+          "qualified": true
+        },
+        {
+          "threshold": 0.06960678100585938,
+          "coding": 143,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8041260917178273,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07008731365203857,
+          "coding": 142,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8097889515186572,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07076001167297363,
+          "coding": 141,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.815532135571981,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07081586122512817,
+          "coding": 140,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8213573651117808,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0713687539100647,
+          "coding": 139,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8272664109039519,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07233470678329468,
+          "coding": 138,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.833261095040937,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07265734672546387,
+          "coding": 137,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8393432928149586,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07302027940750122,
+          "coding": 136,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.845514934673892,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07314884662628174,
+          "coding": 135,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.851778008264069,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0736076831817627,
+          "coding": 134,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8581345605645472,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07374817132949829,
+          "coding": 133,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.864586700117664,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07531583309173584,
+          "coding": 132,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8711365993609796,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07552558183670044,
+          "coding": 131,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8777864970660253,
+          "qualified": true
+        },
+        {
+          "threshold": 0.076854407787323,
+          "coding": 130,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8845387008896102,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07749783992767334,
+          "coding": 129,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8913955900437931,
+          "qualified": true
+        },
+        {
+          "threshold": 0.07988935708999634,
+          "coding": 128,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8983596180910103,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08105140924453735,
+          "coding": 127,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9054333158712544,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08157926797866821,
+          "coding": 126,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9126192945686453,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08202207088470459,
+          "coding": 125,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9199202489251945,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08535712957382202,
+          "coding": 124,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9273389606100751,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08600687980651855,
+          "coding": 123,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9348783017532465,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08661651611328125,
+          "coding": 122,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9425412386528632,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08661818504333496,
+          "coding": 121,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9503308356665233,
+          "qualified": true
+        },
+        {
+          "threshold": 0.08872437477111816,
+          "coding": 120,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9582502592970776,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09331673383712769,
+          "coding": 119,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.966302782484448,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09450411796569824,
+          "coding": 118,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9744917891156721,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09566992521286011,
+          "coding": 117,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9828207787662334,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09624683856964111,
+          "coding": 116,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.991293371686632,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09778451919555664,
+          "coding": 115,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9999133140491245,
+          "qualified": true
+        },
+        {
+          "threshold": 0.09883689880371094,
+          "coding": 114,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0086844834706081,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10312587022781372,
+          "coding": 113,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.017610894828755,
+          "qualified": true
+        },
+        {
+          "threshold": 0.103537917137146,
+          "coding": 112,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.026696706389726,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10465484857559204,
+          "coding": 111,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0359462262671109,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10572612285614014,
+          "coding": 110,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0453639192331756,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10596466064453125,
+          "coding": 109,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0549544139050395,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10633718967437744,
+          "coding": 108,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0647225103300864,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10639119148254395,
+          "coding": 107,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0746731879967226,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10649532079696655,
+          "coding": 106,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0848116142985784,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10785627365112305,
+          "coding": 105,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0951431534823743,
+          "qualified": true
+        },
+        {
+          "threshold": 0.10930317640304565,
+          "coding": 104,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1056733761120126,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11008131504058838,
+          "coding": 103,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.116408069083974,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11057227849960327,
+          "coding": 102,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.127353246231856,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11140626668930054,
+          "coding": 101,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1385151595608842,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11300557851791382,
+          "coding": 100,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1499003111564932,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11327522993087769,
+          "coding": 99,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1615154658146396,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11433154344558716,
+          "coding": 98,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1733676644454012,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11733478307723999,
+          "coding": 97,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.185464238305663,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11749845743179321,
+          "coding": 96,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.197812824121347,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11787956953048706,
+          "coding": 95,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2104213801647297,
+          "qualified": true
+        },
+        {
+          "threshold": 0.11934506893157959,
+          "coding": 94,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2232982033579713,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12162399291992188,
+          "coding": 93,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2364519474801001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12364256381988525,
+          "coding": 92,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2498916425614055,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1244383454322815,
+          "coding": 91,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.263626715556586,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12488120794296265,
+          "coding": 90,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2776670123961036,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12536871433258057,
+          "coding": 89,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2920228215241496,
+          "qualified": true
+        },
+        {
+          "threshold": 0.12611669301986694,
+          "coding": 88,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3067048990414696,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13082003593444824,
+          "coding": 87,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.321724495582176,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13189274072647095,
+          "coding": 86,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3370933850656896,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13263005018234253,
+          "coding": 85,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3528238954782272,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1336255669593811,
+          "coding": 84,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.368928941852968,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13515329360961914,
+          "coding": 83,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3854220616343291,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13541144132614136,
+          "coding": 82,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4023174526298696,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13603103160858154,
+          "coding": 81,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4196300137734483,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13852989673614502,
+          "coding": 80,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4373753889456165,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13901281356811523,
+          "coding": 79,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4555700141221433,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1394444704055786,
+          "coding": 78,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4742311681493503,
+          "qualified": true
+        },
+        {
+          "threshold": 0.13973695039749146,
+          "coding": 77,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4933770274759652,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1407794952392578,
+          "coding": 76,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.513026725205912,
+          "qualified": true
+        },
+        {
+          "threshold": 0.14680838584899902,
+          "coding": 75,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5332004148753242,
+          "qualified": true
+        },
+        {
+          "threshold": 0.14998233318328857,
+          "coding": 74,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5539193394006665,
+          "qualified": true
+        },
+        {
+          "threshold": 0.15001016855239868,
+          "coding": 73,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5752059056938263,
+          "qualified": true
+        },
+        {
+          "threshold": 0.15049809217453003,
+          "coding": 72,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5970837654951293,
+          "qualified": true
+        },
+        {
+          "threshold": 0.15662074089050293,
+          "coding": 71,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.6195779030373143,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1575615406036377,
+          "coding": 70,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.6427147302235616,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1580272912979126,
+          "coding": 69,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.666522190081874,
+          "qualified": true
+        },
+        {
+          "threshold": 0.15803742408752441,
+          "coding": 68,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.691029869347784,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1586928367614746,
+          "coding": 67,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7162691211290944,
+          "qualified": true
+        },
+        {
+          "threshold": 0.15935230255126953,
+          "coding": 66,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7422731987219593,
+          "qualified": true
+        },
+        {
+          "threshold": 0.16044831275939941,
+          "coding": 65,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7690774017792203,
+          "qualified": true
+        },
+        {
+          "threshold": 0.17352217435836792,
+          "coding": 64,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7967192361820206,
+          "qualified": true
+        },
+        {
+          "threshold": 0.17406880855560303,
+          "coding": 63,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8252385891372906,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1757405400276184,
+          "coding": 62,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8546779212201503,
+          "qualified": true
+        },
+        {
+          "threshold": 0.17618316411972046,
+          "coding": 61,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8850824773057264,
+          "qualified": true
+        },
+        {
+          "threshold": 0.17849379777908325,
+          "coding": 60,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.9165005185941553,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1792536973953247,
+          "coding": 59,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.9489835782313443,
+          "qualified": true
+        },
+        {
+          "threshold": 0.18136852979660034,
+          "coding": 58,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.982586743373264,
+          "qualified": true
+        },
+        {
+          "threshold": 0.18143534660339355,
+          "coding": 57,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.0173689669412163,
+          "qualified": true
+        },
+        {
+          "threshold": 0.18255001306533813,
+          "coding": 56,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.053393412779452,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1857810616493225,
+          "coding": 55,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.0907278384663512,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1864292025566101,
+          "coding": 54,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.1294450206601727,
+          "qualified": true
+        },
+        {
+          "threshold": 0.18889933824539185,
+          "coding": 53,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.169623228597157,
+          "qualified": true
+        },
+        {
+          "threshold": 0.19440048933029175,
+          "coding": 52,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.211346752224025,
+          "qualified": true
+        },
+        {
+          "threshold": 0.1949889063835144,
+          "coding": 51,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.254706492463712,
+          "qualified": true
+        },
+        {
+          "threshold": 0.20011389255523682,
+          "coding": 50,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.2998006223129863,
+          "qualified": true
+        },
+        {
+          "threshold": 0.20249509811401367,
+          "coding": 49,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.3467353288908024,
+          "qualified": false
+        },
+        {
+          "threshold": 0.20285940170288086,
+          "coding": 48,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.395625648242694,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2057896852493286,
+          "coding": 47,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.4465964067159427,
+          "qualified": false
+        },
+        {
+          "threshold": 0.20629501342773438,
+          "coding": 46,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.499783285122811,
+          "qualified": false
+        },
+        {
+          "threshold": 0.21473193168640137,
+          "coding": 45,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.555334024792207,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2164037823677063,
+          "coding": 44,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.613409798082939,
+          "qualified": false
+        },
+        {
+          "threshold": 0.21661317348480225,
+          "coding": 43,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.6741867701313793,
+          "qualified": false
+        },
+        {
+          "threshold": 0.21919184923171997,
+          "coding": 42,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.737857883705936,
+          "qualified": false
+        },
+        {
+          "threshold": 0.22523772716522217,
+          "coding": 41,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.8046349052597392,
+          "qualified": false
+        },
+        {
+          "threshold": 0.22986537218093872,
+          "coding": 40,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.874750777891233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.23232543468475342,
+          "coding": 39,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.9484623362987006,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2324422001838684,
+          "coding": 38,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.026053450411824,
+          "qualified": false
+        },
+        {
+          "threshold": 0.23545825481414795,
+          "coding": 37,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.107838678801333,
+          "qualified": false
+        },
+        {
+          "threshold": 0.23795902729034424,
+          "coding": 36,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.1941675309902586,
+          "qualified": false
+        },
+        {
+          "threshold": 0.23927098512649536,
+          "coding": 35,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.2854294604471233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.24269527196884155,
+          "coding": 34,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.382059738695568,
+          "qualified": false
+        },
+        {
+          "threshold": 0.24460959434509277,
+          "coding": 33,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.4845463974439186,
+          "qualified": false
+        },
+        {
+          "threshold": 0.24619817733764648,
+          "coding": 32,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.593438472364041,
+          "qualified": false
+        },
+        {
+          "threshold": 0.24677211046218872,
+          "coding": 31,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.7093558424403006,
+          "qualified": false
+        },
+        {
+          "threshold": 0.251301109790802,
+          "coding": 30,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.8330010371883105,
+          "qualified": false
+        },
+        {
+          "threshold": 0.25260066986083984,
+          "coding": 29,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.965173486746528,
+          "qualified": false
+        },
+        {
+          "threshold": 0.25528568029403687,
+          "coding": 28,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.106786825558904,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2656556963920593,
+          "coding": 27,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.258890041320345,
+          "qualified": false
+        },
+        {
+          "threshold": 0.275672972202301,
+          "coding": 26,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.42269350444805,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2769531011581421,
+          "coding": 25,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.599601244625973,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2771768569946289,
+          "coding": 24,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.791251296485388,
+          "qualified": false
+        },
+        {
+          "threshold": 0.27782100439071655,
+          "coding": 23,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.999566570245622,
+          "qualified": false
+        },
+        {
+          "threshold": 0.28314733505249023,
+          "coding": 22,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.226819596165878,
+          "qualified": false
+        },
+        {
+          "threshold": 0.28733134269714355,
+          "coding": 21,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.475715767411872,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2921106219291687,
+          "coding": 20,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.749501555782466,
+          "qualified": false
+        },
+        {
+          "threshold": 0.2928687334060669,
+          "coding": 19,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.052106900823648,
+          "qualified": false
+        },
+        {
+          "threshold": 0.29469865560531616,
+          "coding": 18,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.388335061980517,
+          "qualified": false
+        },
+        {
+          "threshold": 0.29620361328125,
+          "coding": 17,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.764119477391136,
+          "qualified": false
+        },
+        {
+          "threshold": 0.29999715089797974,
+          "coding": 16,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 7.186876944728082,
+          "qualified": false
+        },
+        {
+          "threshold": 0.3003603219985962,
+          "coding": 15,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 7.666002074376621,
+          "qualified": false
+        },
+        {
+          "threshold": 0.30097007751464844,
+          "coding": 14,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 8.213573651117809,
+          "qualified": false
+        },
+        {
+          "threshold": 0.303932785987854,
+          "coding": 13,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 8.8453870088961,
+          "qualified": false
+        },
+        {
+          "threshold": 0.305103063583374,
+          "coding": 12,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 9.582502592970776,
+          "qualified": false
+        },
+        {
+          "threshold": 0.3071092963218689,
+          "coding": 11,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 10.453639192331757,
+          "qualified": false
+        },
+        {
+          "threshold": 0.30907756090164185,
+          "coding": 10,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 11.499003111564932,
+          "qualified": false
+        },
+        {
+          "threshold": 0.30968165397644043,
+          "coding": 9,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 12.776670123961035,
+          "qualified": false
+        },
+        {
+          "threshold": 0.3108251690864563,
+          "coding": 8,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 14.373753889456165,
+          "qualified": false
+        },
+        {
+          "threshold": 0.31178635358810425,
+          "coding": 7,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 16.427147302235618,
+          "qualified": false
+        },
+        {
+          "threshold": 0.31244683265686035,
+          "coding": 6,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 19.165005185941553,
+          "qualified": false
+        },
+        {
+          "threshold": 0.3126654028892517,
+          "coding": 5,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 22.998006223129863,
+          "qualified": false
+        },
+        {
+          "threshold": 0.31330275535583496,
+          "coding": 4,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 28.74750777891233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.31351858377456665,
+          "coding": 3,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 38.330010371883105,
+          "qualified": false
+        },
+        {
+          "threshold": 0.31496405601501465,
+          "coding": 2,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 57.49501555782466,
+          "qualified": false
+        },
+        {
+          "threshold": 0.3193241357803345,
+          "coding": 1,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 114.99003111564932,
+          "qualified": false
+        }
+      ],
+      "total_candidates": 425,
+      "eligible_before_score": 215,
+      "abstained_after_score": 210
+    },
+    "regression": {
+      "selected": {
+        "threshold": 0.0,
+        "coding": 155,
+        "negative": 0,
+        "scaled_proxy": 0.0,
+        "negative_count_proxy_upper95": 0.7418711684880601,
+        "qualified": true
+      },
+      "threshold_curve": [
+        {
+          "threshold": 0.0,
+          "coding": 155,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7418711684880601,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0002217177679995075,
+          "coding": 155,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7418711684880601,
+          "qualified": true
+        },
+        {
+          "threshold": 0.00029512736364267766,
+          "coding": 154,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7466885137379826,
+          "qualified": true
+        },
+        {
+          "threshold": 0.00039841514080762863,
+          "coding": 153,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7515688308212374,
+          "qualified": true
+        },
+        {
+          "threshold": 0.00046493601985275745,
+          "coding": 152,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.756513362602956,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0005244361236691475,
+          "coding": 151,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7615233848718498,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0005972386570647359,
+          "coding": 150,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7666002074376621,
+          "qualified": true
+        },
+        {
+          "threshold": 0.000977916526608169,
+          "coding": 149,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7717451752728142,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0014183374587446451,
+          "coding": 148,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7769596697003333,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0014472248731181026,
+          "coding": 147,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7822451096302675,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0017549848416820168,
+          "coding": 146,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7876029528469132,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0018410282209515572,
+          "coding": 145,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7930346973493057,
+          "qualified": true
+        },
+        {
+          "threshold": 0.002222010400146246,
+          "coding": 144,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.7985418827475647,
+          "qualified": true
+        },
+        {
+          "threshold": 0.002390631241723895,
+          "coding": 143,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8041260917178273,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0026744117494672537,
+          "coding": 142,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8097889515186572,
+          "qualified": true
+        },
+        {
+          "threshold": 0.002898820210248232,
+          "coding": 141,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.815532135571981,
+          "qualified": true
+        },
+        {
+          "threshold": 0.002988071646541357,
+          "coding": 140,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8213573651117808,
+          "qualified": true
+        },
+        {
+          "threshold": 0.003118520136922598,
+          "coding": 139,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8272664109039519,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0033609361853450537,
+          "coding": 138,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.833261095040937,
+          "qualified": true
+        },
+        {
+          "threshold": 0.003430488985031843,
+          "coding": 137,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8393432928149586,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0036282751243561506,
+          "coding": 136,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.845514934673892,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0036795970518141985,
+          "coding": 135,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.851778008264069,
+          "qualified": true
+        },
+        {
+          "threshold": 0.003703669412061572,
+          "coding": 134,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8581345605645472,
+          "qualified": true
+        },
+        {
+          "threshold": 0.003914555534720421,
+          "coding": 133,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.864586700117664,
+          "qualified": true
+        },
+        {
+          "threshold": 0.004002077970653772,
+          "coding": 132,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8711365993609796,
+          "qualified": true
+        },
+        {
+          "threshold": 0.004140343051403761,
+          "coding": 131,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8777864970660253,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0042443471029400826,
+          "coding": 130,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8845387008896102,
+          "qualified": true
+        },
+        {
+          "threshold": 0.004523994866758585,
+          "coding": 129,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8913955900437931,
+          "qualified": true
+        },
+        {
+          "threshold": 0.004543444607406855,
+          "coding": 128,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.8983596180910103,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0049935742281377316,
+          "coding": 126,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9126192945686453,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0050651379860937595,
+          "coding": 125,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9199202489251945,
+          "qualified": true
+        },
+        {
+          "threshold": 0.005168008152395487,
+          "coding": 124,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9273389606100751,
+          "qualified": true
+        },
+        {
+          "threshold": 0.00523509131744504,
+          "coding": 123,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9348783017532465,
+          "qualified": true
+        },
+        {
+          "threshold": 0.005303223617374897,
+          "coding": 122,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9425412386528632,
+          "qualified": true
+        },
+        {
+          "threshold": 0.005419972352683544,
+          "coding": 121,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9503308356665233,
+          "qualified": true
+        },
+        {
+          "threshold": 0.005428133998066187,
+          "coding": 120,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9582502592970776,
+          "qualified": true
+        },
+        {
+          "threshold": 0.00564391678199172,
+          "coding": 119,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.966302782484448,
+          "qualified": true
+        },
+        {
+          "threshold": 0.005896221846342087,
+          "coding": 118,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9744917891156721,
+          "qualified": true
+        },
+        {
+          "threshold": 0.006422804668545723,
+          "coding": 117,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9828207787662334,
+          "qualified": true
+        },
+        {
+          "threshold": 0.006695595104247332,
+          "coding": 116,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.991293371686632,
+          "qualified": true
+        },
+        {
+          "threshold": 0.007047775201499462,
+          "coding": 115,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 0.9999133140491245,
+          "qualified": true
+        },
+        {
+          "threshold": 0.007528859190642834,
+          "coding": 114,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0086844834706081,
+          "qualified": true
+        },
+        {
+          "threshold": 0.007744824979454279,
+          "coding": 113,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.017610894828755,
+          "qualified": true
+        },
+        {
+          "threshold": 0.008399647660553455,
+          "coding": 112,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.026696706389726,
+          "qualified": true
+        },
+        {
+          "threshold": 0.008884193375706673,
+          "coding": 111,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0359462262671109,
+          "qualified": true
+        },
+        {
+          "threshold": 0.009089707396924496,
+          "coding": 110,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0453639192331756,
+          "qualified": true
+        },
+        {
+          "threshold": 0.009187599644064903,
+          "coding": 109,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0549544139050395,
+          "qualified": true
+        },
+        {
+          "threshold": 0.009477774612605572,
+          "coding": 108,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0647225103300864,
+          "qualified": true
+        },
+        {
+          "threshold": 0.009908020496368408,
+          "coding": 107,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0746731879967226,
+          "qualified": true
+        },
+        {
+          "threshold": 0.009960050694644451,
+          "coding": 106,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0848116142985784,
+          "qualified": true
+        },
+        {
+          "threshold": 0.010210220701992512,
+          "coding": 105,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.0951431534823743,
+          "qualified": true
+        },
+        {
+          "threshold": 0.010597914457321167,
+          "coding": 104,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1056733761120126,
+          "qualified": true
+        },
+        {
+          "threshold": 0.010790497995913029,
+          "coding": 103,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.116408069083974,
+          "qualified": true
+        },
+        {
+          "threshold": 0.010906953364610672,
+          "coding": 102,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.127353246231856,
+          "qualified": true
+        },
+        {
+          "threshold": 0.011455656029284,
+          "coding": 101,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1385151595608842,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01151868887245655,
+          "coding": 100,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1499003111564932,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012087427079677582,
+          "coding": 99,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1615154658146396,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012183801271021366,
+          "coding": 98,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.1733676644454012,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01249664556235075,
+          "coding": 97,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.185464238305663,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01252176146954298,
+          "coding": 96,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.197812824121347,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012529933825135231,
+          "coding": 95,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2104213801647297,
+          "qualified": true
+        },
+        {
+          "threshold": 0.012961253523826599,
+          "coding": 94,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2232982033579713,
+          "qualified": true
+        },
+        {
+          "threshold": 0.013507412746548653,
+          "coding": 93,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2364519474801001,
+          "qualified": true
+        },
+        {
+          "threshold": 0.013559327460825443,
+          "coding": 92,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2498916425614055,
+          "qualified": true
+        },
+        {
+          "threshold": 0.013751708902418613,
+          "coding": 91,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.263626715556586,
+          "qualified": true
+        },
+        {
+          "threshold": 0.014348305761814117,
+          "coding": 90,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2776670123961036,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01500773523002863,
+          "coding": 89,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.2920228215241496,
+          "qualified": true
+        },
+        {
+          "threshold": 0.015035430900752544,
+          "coding": 88,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3067048990414696,
+          "qualified": true
+        },
+        {
+          "threshold": 0.015813283622264862,
+          "coding": 87,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.321724495582176,
+          "qualified": true
+        },
+        {
+          "threshold": 0.016090242192149162,
+          "coding": 86,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3370933850656896,
+          "qualified": true
+        },
+        {
+          "threshold": 0.016290899366140366,
+          "coding": 85,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3528238954782272,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01630772277712822,
+          "coding": 84,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.368928941852968,
+          "qualified": true
+        },
+        {
+          "threshold": 0.017120081931352615,
+          "coding": 83,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.3854220616343291,
+          "qualified": true
+        },
+        {
+          "threshold": 0.018019648268818855,
+          "coding": 82,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4023174526298696,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01867789775133133,
+          "coding": 81,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4196300137734483,
+          "qualified": true
+        },
+        {
+          "threshold": 0.018746959045529366,
+          "coding": 80,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4373753889456165,
+          "qualified": true
+        },
+        {
+          "threshold": 0.018810460343956947,
+          "coding": 79,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4555700141221433,
+          "qualified": true
+        },
+        {
+          "threshold": 0.019291074946522713,
+          "coding": 78,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4742311681493503,
+          "qualified": true
+        },
+        {
+          "threshold": 0.01962730474770069,
+          "coding": 77,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.4933770274759652,
+          "qualified": true
+        },
+        {
+          "threshold": 0.019961627200245857,
+          "coding": 76,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.513026725205912,
+          "qualified": true
+        },
+        {
+          "threshold": 0.019974030554294586,
+          "coding": 75,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5332004148753242,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0199861079454422,
+          "coding": 74,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5539193394006665,
+          "qualified": true
+        },
+        {
+          "threshold": 0.020077086985111237,
+          "coding": 73,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5752059056938263,
+          "qualified": true
+        },
+        {
+          "threshold": 0.020694321021437645,
+          "coding": 72,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.5970837654951293,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02159404382109642,
+          "coding": 71,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.6195779030373143,
+          "qualified": true
+        },
+        {
+          "threshold": 0.021797524765133858,
+          "coding": 70,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.6427147302235616,
+          "qualified": true
+        },
+        {
+          "threshold": 0.022452881559729576,
+          "coding": 69,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.666522190081874,
+          "qualified": true
+        },
+        {
+          "threshold": 0.022546472027897835,
+          "coding": 68,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.691029869347784,
+          "qualified": true
+        },
+        {
+          "threshold": 0.022850189357995987,
+          "coding": 67,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7162691211290944,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02317088469862938,
+          "coding": 66,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7422731987219593,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02533920481801033,
+          "coding": 65,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7690774017792203,
+          "qualified": true
+        },
+        {
+          "threshold": 0.0255265012383461,
+          "coding": 64,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.7967192361820206,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02681153081357479,
+          "coding": 63,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8252385891372906,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02815515175461769,
+          "coding": 62,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8546779212201503,
+          "qualified": true
+        },
+        {
+          "threshold": 0.02899700403213501,
+          "coding": 61,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.8850824773057264,
+          "qualified": true
+        },
+        {
+          "threshold": 0.029739679768681526,
+          "coding": 60,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.9165005185941553,
+          "qualified": true
+        },
+        {
+          "threshold": 0.030842963606119156,
+          "coding": 59,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.9489835782313443,
+          "qualified": true
+        },
+        {
+          "threshold": 0.032580286264419556,
+          "coding": 58,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 1.982586743373264,
+          "qualified": true
+        },
+        {
+          "threshold": 0.032892778515815735,
+          "coding": 57,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.0173689669412163,
+          "qualified": true
+        },
+        {
+          "threshold": 0.034963034093379974,
+          "coding": 56,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.053393412779452,
+          "qualified": true
+        },
+        {
+          "threshold": 0.034974366426467896,
+          "coding": 55,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.0907278384663512,
+          "qualified": true
+        },
+        {
+          "threshold": 0.035248659551143646,
+          "coding": 54,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.1294450206601727,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03600170463323593,
+          "coding": 53,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.169623228597157,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03607422858476639,
+          "coding": 52,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.211346752224025,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03609433397650719,
+          "coding": 51,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.254706492463712,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03654338791966438,
+          "coding": 50,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.2998006223129863,
+          "qualified": true
+        },
+        {
+          "threshold": 0.03695294260978699,
+          "coding": 49,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.3467353288908024,
+          "qualified": false
+        },
+        {
+          "threshold": 0.03879252448678017,
+          "coding": 48,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.395625648242694,
+          "qualified": false
+        },
+        {
+          "threshold": 0.04151332005858421,
+          "coding": 47,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.4465964067159427,
+          "qualified": false
+        },
+        {
+          "threshold": 0.04431808739900589,
+          "coding": 46,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.499783285122811,
+          "qualified": false
+        },
+        {
+          "threshold": 0.04679681733250618,
+          "coding": 45,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.555334024792207,
+          "qualified": false
+        },
+        {
+          "threshold": 0.04794232174754143,
+          "coding": 44,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.613409798082939,
+          "qualified": false
+        },
+        {
+          "threshold": 0.051948074251413345,
+          "coding": 43,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.6741867701313793,
+          "qualified": false
+        },
+        {
+          "threshold": 0.05427585169672966,
+          "coding": 42,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.737857883705936,
+          "qualified": false
+        },
+        {
+          "threshold": 0.054395221173763275,
+          "coding": 41,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.8046349052597392,
+          "qualified": false
+        },
+        {
+          "threshold": 0.05625616014003754,
+          "coding": 40,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.874750777891233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.05932001769542694,
+          "coding": 39,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 2.9484623362987006,
+          "qualified": false
+        },
+        {
+          "threshold": 0.06121734157204628,
+          "coding": 38,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.026053450411824,
+          "qualified": false
+        },
+        {
+          "threshold": 0.06217304244637489,
+          "coding": 37,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.107838678801333,
+          "qualified": false
+        },
+        {
+          "threshold": 0.06222674250602722,
+          "coding": 36,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.1941675309902586,
+          "qualified": false
+        },
+        {
+          "threshold": 0.06481008231639862,
+          "coding": 35,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.2854294604471233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0664670541882515,
+          "coding": 34,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.382059738695568,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0688571110367775,
+          "coding": 33,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.4845463974439186,
+          "qualified": false
+        },
+        {
+          "threshold": 0.07453542947769165,
+          "coding": 32,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.593438472364041,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0747346505522728,
+          "coding": 31,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.7093558424403006,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0753248780965805,
+          "coding": 30,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.8330010371883105,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0803866982460022,
+          "coding": 29,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 3.965173486746528,
+          "qualified": false
+        },
+        {
+          "threshold": 0.08719189465045929,
+          "coding": 28,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.106786825558904,
+          "qualified": false
+        },
+        {
+          "threshold": 0.087819904088974,
+          "coding": 27,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.258890041320345,
+          "qualified": false
+        },
+        {
+          "threshold": 0.08825201541185379,
+          "coding": 26,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.42269350444805,
+          "qualified": false
+        },
+        {
+          "threshold": 0.09045206755399704,
+          "coding": 25,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.599601244625973,
+          "qualified": false
+        },
+        {
+          "threshold": 0.09377063810825348,
+          "coding": 24,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.791251296485388,
+          "qualified": false
+        },
+        {
+          "threshold": 0.0950072854757309,
+          "coding": 23,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 4.999566570245622,
+          "qualified": false
+        },
+        {
+          "threshold": 0.09764868021011353,
+          "coding": 22,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.226819596165878,
+          "qualified": false
+        },
+        {
+          "threshold": 0.10566158592700958,
+          "coding": 21,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.475715767411872,
+          "qualified": false
+        },
+        {
+          "threshold": 0.10713282972574234,
+          "coding": 20,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 5.749501555782466,
+          "qualified": false
+        },
+        {
+          "threshold": 0.10811901092529297,
+          "coding": 19,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.052106900823648,
+          "qualified": false
+        },
+        {
+          "threshold": 0.11636031419038773,
+          "coding": 18,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.388335061980517,
+          "qualified": false
+        },
+        {
+          "threshold": 0.1164030134677887,
+          "coding": 17,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 6.764119477391136,
+          "qualified": false
+        },
+        {
+          "threshold": 0.11810167878866196,
+          "coding": 16,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 7.186876944728082,
+          "qualified": false
+        },
+        {
+          "threshold": 0.11838246136903763,
+          "coding": 15,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 7.666002074376621,
+          "qualified": false
+        },
+        {
+          "threshold": 0.12141299247741699,
+          "coding": 14,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 8.213573651117809,
+          "qualified": false
+        },
+        {
+          "threshold": 0.12162935733795166,
+          "coding": 13,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 8.8453870088961,
+          "qualified": false
+        },
+        {
+          "threshold": 0.12548337876796722,
+          "coding": 12,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 9.582502592970776,
+          "qualified": false
+        },
+        {
+          "threshold": 0.12552711367607117,
+          "coding": 11,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 10.453639192331757,
+          "qualified": false
+        },
+        {
+          "threshold": 0.12988711893558502,
+          "coding": 10,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 11.499003111564932,
+          "qualified": false
+        },
+        {
+          "threshold": 0.13008806109428406,
+          "coding": 9,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 12.776670123961035,
+          "qualified": false
+        },
+        {
+          "threshold": 0.13050343096256256,
+          "coding": 8,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 14.373753889456165,
+          "qualified": false
+        },
+        {
+          "threshold": 0.13302209973335266,
+          "coding": 7,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 16.427147302235618,
+          "qualified": false
+        },
+        {
+          "threshold": 0.13384822010993958,
+          "coding": 6,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 19.165005185941553,
+          "qualified": false
+        },
+        {
+          "threshold": 0.1380554437637329,
+          "coding": 5,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 22.998006223129863,
+          "qualified": false
+        },
+        {
+          "threshold": 0.14031092822551727,
+          "coding": 4,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 28.74750777891233,
+          "qualified": false
+        },
+        {
+          "threshold": 0.14108207821846008,
+          "coding": 3,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 38.330010371883105,
+          "qualified": false
+        },
+        {
+          "threshold": 0.14406654238700867,
+          "coding": 2,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 57.49501555782466,
+          "qualified": false
+        },
+        {
+          "threshold": 0.14921770989894867,
+          "coding": 1,
+          "negative": 0,
+          "scaled_proxy": 0.0,
+          "negative_count_proxy_upper95": 114.99003111564932,
+          "qualified": false
+        }
+      ],
+      "total_candidates": 425,
+      "eligible_before_score": 155,
+      "abstained_after_score": 270
+    }
+  },
+  "conditional_supported_object_target": true,
+  "original_native_interface_still_failed": true,
+  "development": true,
+  "independent_confirmation": false,
+  "independent_comparative_workflow_frozen": false
+}

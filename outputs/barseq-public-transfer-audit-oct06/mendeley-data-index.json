@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Raw data Nov 2023/",
+    "size": 0
+  },
+  {
+    "name": "Raw data Nov 2023/all_cubelets_combined.mat",
+    "size": 26145149
+  },
+  {
+    "name": "Raw data Nov 2023/all_neurons_combined.mat",
+    "size": 780963725
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D076_1L_CCFv2_newtypes.mat",
+    "size": 3008651136
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D077_1L_CCFv2_newtypes.mat",
+    "size": 3257371709
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D077_2L_CCFv2_newtypes.mat",
+    "size": 3910311195
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D078_1L_CCFv2_newtypes.mat",
+    "size": 3551751343
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D078_2L_CCFv2_newtypes.mat",
+    "size": 3203127883
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D079_3L_CCFv2_newtypes.mat",
+    "size": 3600395972
+  },
+  {
+    "name": "Raw data Nov 2023/filt_neurons_D079_4L_CCFv2_newtypes.mat",
+    "size": 3494604339
+  },
+  {
+    "name": "Raw data Nov 2023/major_area_codes.mat",
+    "size": 9120
+  }
+]

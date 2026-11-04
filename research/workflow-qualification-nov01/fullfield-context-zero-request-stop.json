@@ -1,0 +1,11 @@
+{
+  "pid": 20808,
+  "command": "research/workflow-qualification-nov01/fetch_fullfield_context.py",
+  "stage": "stopped_with_error",
+  "requests": 0,
+  "transport_bytes": 0,
+  "records": [],
+  "started_epoch": 1793568399.8742578,
+  "error": "AssertionError: ",
+  "comparative_outcomes_examined": false
+}

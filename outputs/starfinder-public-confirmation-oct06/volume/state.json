@@ -1,0 +1,38 @@
+{
+  "stage": "native_gate_failure",
+  "planned": 15,
+  "completed": 15,
+  "failed": 0,
+  "groups": {
+    "source_spot": {
+      "completed": true,
+      "coding": 195,
+      "negative": 1,
+      "scaled_proxy": 0.19684418145956606,
+      "support": 1.0,
+      "qualified": false,
+      "runtime_s": 0.8182833739556372
+    },
+    "correlation": {
+      "completed": true,
+      "coding": 17,
+      "negative": 0,
+      "scaled_proxy": 0.0,
+      "support": 1.0,
+      "qualified": false,
+      "runtime_s": 0.9678327919682488
+    },
+    "regression": {
+      "completed": true,
+      "coding": 1440,
+      "negative": 26,
+      "scaled_proxy": 0.6930555555555554,
+      "support": 1.0,
+      "qualified": false,
+      "runtime_s": 7.12649754199083
+    }
+  },
+  "adapter_qualified": false,
+  "development": true,
+  "independent_comparison_completed": false
+}

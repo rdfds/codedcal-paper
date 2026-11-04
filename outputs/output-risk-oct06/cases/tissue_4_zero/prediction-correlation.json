@@ -1,0 +1,116 @@
+{
+  "decoder": "correlation",
+  "incumbent": 3,
+  "incumbent_labels": [
+    "template_3d_multistart"
+  ],
+  "risk": {
+    "abstained": false,
+    "identity_risk": 0.033333333333333326,
+    "composition_risk": 0.03333333333333334,
+    "flagged": false,
+    "compatible_candidates": 3,
+    "incumbent_compatible": true,
+    "ordinary_multistart_identity_disagreement": 0.09999999999999998,
+    "ordinary_multistart_composition_disagreement": 0.1,
+    "unfiltered_bank_identity_disagreement": 0.32258064516129037,
+    "unfiltered_bank_composition_disagreement": 0.27291666666666664,
+    "comparisons": [
+      {
+        "index": 0,
+        "identity_loss": 0.016393442622950838,
+        "composition_tv": 0.030107526881720446,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 3,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 15,
+        "identity_loss": 0.033333333333333326,
+        "composition_tv": 0.03333333333333334,
+        "composition_undefined": false,
+        "empty_both": false
+      }
+    ],
+    "molecular_correctness_certified": false
+  },
+  "tolerance_sensitivities": {
+    "0.0": {
+      "abstained": false,
+      "identity_risk": 0.016393442622950838,
+      "composition_risk": 0.030107526881720446,
+      "flagged": false,
+      "compatible_candidates": 1,
+      "incumbent_compatible": false,
+      "ordinary_multistart_identity_disagreement": 0.09999999999999998,
+      "ordinary_multistart_composition_disagreement": 0.1,
+      "unfiltered_bank_identity_disagreement": 0.32258064516129037,
+      "unfiltered_bank_composition_disagreement": 0.27291666666666664,
+      "comparisons": [
+        {
+          "index": 0,
+          "identity_loss": 0.016393442622950838,
+          "composition_tv": 0.030107526881720446,
+          "composition_undefined": false,
+          "empty_both": false
+        }
+      ],
+      "molecular_correctness_certified": false
+    },
+    "0.005": {
+      "abstained": false,
+      "identity_risk": 0.033333333333333326,
+      "composition_risk": 0.03333333333333334,
+      "flagged": false,
+      "compatible_candidates": 3,
+      "incumbent_compatible": true,
+      "ordinary_multistart_identity_disagreement": 0.09999999999999998,
+      "ordinary_multistart_composition_disagreement": 0.1,
+      "unfiltered_bank_identity_disagreement": 0.32258064516129037,
+      "unfiltered_bank_composition_disagreement": 0.27291666666666664,
+      "comparisons": [
+        {
+          "index": 0,
+          "identity_loss": 0.016393442622950838,
+          "composition_tv": 0.030107526881720446,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 3,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 15,
+          "identity_loss": 0.033333333333333326,
+          "composition_tv": 0.03333333333333334,
+          "composition_undefined": false,
+          "empty_both": false
+        }
+      ],
+      "molecular_correctness_certified": false
+    }
+  },
+  "baseline_fit_loss": 0.25583262750633007,
+  "baseline_fit_gap": 0.003634750851569446,
+  "baseline_decoder_confidence": 0.23606234788894653,
+  "baseline_quality": {
+    "full_catalog_calls": 129,
+    "negative": null,
+    "blank_proxy": null,
+    "source_abstentions": 44,
+    "source_unsupported": 1,
+    "central_coding": 30,
+    "central_negative": 0
+  },
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c"
+}

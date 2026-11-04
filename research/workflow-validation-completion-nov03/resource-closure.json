@@ -1,0 +1,57 @@
+{
+  "stage": "completed_fixed_24_pair_matrix",
+  "completed_pairs": 24,
+  "new_pairs": 3,
+  "full_chain_logical_dispatches": 64,
+  "inherited_dispatches": 58,
+  "new_dispatches": 6,
+  "completed_actual_workflows": 29,
+  "exact_cache_hits": 34,
+  "preserved_interrupted_calls": 1,
+  "additional_retry_reservation": 1,
+  "original_full_reservation": 1150,
+  "total_reserved": 1151,
+  "maximum_total": 1600,
+  "recovery_worker_wall_seconds": 185.17211604118347,
+  "recovery_worker_monotonic_seconds": 185.17004887500116,
+  "recovery_supervisor_wall_seconds": 188.58172369003296,
+  "new_child_peak_rss_bytes": 623755264,
+  "per_policy_measured_query_union": {
+    "barcode_model": {
+      "measured_union_seconds": 1152.7118784169995,
+      "actual_workflows": 12,
+      "actual_calibrations": 12,
+      "actual_decoders": 12,
+      "exact_cache_hits": 14,
+      "failed_or_partial_calls": 0
+    },
+    "round": {
+      "measured_union_seconds": 19.896666125000138,
+      "actual_workflows": 2,
+      "actual_calibrations": 2,
+      "actual_decoders": 2,
+      "exact_cache_hits": 2,
+      "failed_or_partial_calls": 0
+    },
+    "frame_template": {
+      "measured_union_seconds": 32.43366887499974,
+      "actual_workflows": 2,
+      "actual_calibrations": 2,
+      "actual_decoders": 2,
+      "exact_cache_hits": 2,
+      "failed_or_partial_calls": 0
+    },
+    "group_search": {
+      "measured_union_seconds": 792.6251003729999,
+      "actual_workflows": 13,
+      "actual_calibrations": 13,
+      "actual_decoders": 13,
+      "exact_cache_hits": 16,
+      "failed_or_partial_calls": 1
+    }
+  },
+  "separate_per_strategy_wall_cost_measured": false,
+  "no_new_source_calls": true,
+  "no_new_data_methods_or_thresholds": true,
+  "no_physical_validation_added": true
+}

@@ -1,0 +1,1186 @@
+{
+  "seed": 20261029,
+  "g": 0.96,
+  "alpha": 0.05,
+  "phase_grid": [
+    0.0,
+    0.39269908169872414,
+    0.7853981633974483,
+    1.1780972450961724,
+    1.5707963267948966,
+    1.9634954084936207,
+    2.356194490192345,
+    2.748893571891069,
+    3.141592653589793,
+    3.5342917352885173,
+    3.9269908169872414,
+    4.319689898685965,
+    4.71238898038469,
+    5.105088062083414,
+    5.497787143782138,
+    5.890486225480862
+  ],
+  "scale_grid": [
+    0.5,
+    0.7071067811865476,
+    1.0,
+    1.4142135623730951,
+    2.0
+  ],
+  "results": [
+    {
+      "scenario": "stable",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 1.0,
+      "population_coherence": 1.0,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.5437288957391524
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -2.468875813007878
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -2.5351967164520106
+        }
+      }
+    },
+    {
+      "scenario": "boundary_null",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 0.96,
+      "population_coherence": 0.96,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 82,
+            "rate": 0.05466666666666667,
+            "binomial_95_interval": [
+              0.04371089636228955,
+              0.06740420663502968
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.6388398566737905
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 81,
+            "rate": 0.054,
+            "binomial_95_interval": [
+              0.043111858521397595,
+              0.06667294731635831
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -3.5424369748516353
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 76,
+            "rate": 0.050666666666666665,
+            "binomial_95_interval": [
+              0.040124163960209513,
+              0.06300928230605086
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -3.2715946875705018
+        }
+      }
+    },
+    {
+      "scenario": "motion_null",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 0.8,
+      "population_coherence": 0.8,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.9518067828563817
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -6.011916562186144
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -5.163063591148247
+        }
+      }
+    },
+    {
+      "scenario": "common_complex_change",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 1.0,
+      "population_coherence": 1.0,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.4299703067060128
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -2.6100008276317017
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -2.5318491813410753
+        }
+      }
+    },
+    {
+      "scenario": "heterogeneous_phase",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 1.0,
+      "population_coherence": 0.8525245220595058,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.8429196894639401
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -5.313993738800751
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -4.630709468259875
+        }
+      }
+    },
+    {
+      "scenario": "heterogeneous_amplitude",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 1.0,
+      "population_coherence": 0.9486832980505137,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1,
+            "rate": 0.0006666666666666666,
+            "binomial_95_interval": [
+              1.687839621446107e-05,
+              0.0037087735206347097
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.6043460580343238
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -3.6992535227619645
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -3.363476662471138
+        }
+      }
+    },
+    {
+      "scenario": "excluded_within_window_change",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 0.64,
+      "population_coherence": null,
+      "within_model": false,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 156,
+            "rate": 0.104,
+            "binomial_95_interval": [
+              0.08900545637564411,
+              0.1205644305510126
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -0.8480903965791005
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1490,
+            "rate": 0.9933333333333333,
+            "binomial_95_interval": [
+              0.9877740406429689,
+              0.9967985815774018
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -2.230148499519603
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1453,
+            "rate": 0.9686666666666667,
+            "binomial_95_interval": [
+              0.9585494764760932,
+              0.976888498265145
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -2.0473550243003125
+        }
+      }
+    },
+    {
+      "scenario": "excluded_motion_error_compensation",
+      "synthetic_groups": 139,
+      "repetitions": 1500,
+      "true_attenuation": 0.8,
+      "population_coherence": null,
+      "within_model": false,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "average_log_e": -1.542272467684907
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -2.4688255662659953
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.002456231484198528
+            ]
+          },
+          "t_approx": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 1500,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9975437685158015,
+              1.0
+            ]
+          },
+          "average_log_e": -2.535294976962544
+        }
+      }
+    },
+    {
+      "scenario": "large_synthetic_stable",
+      "synthetic_groups": 4096,
+      "repetitions": 200,
+      "true_attenuation": 1.0,
+      "population_coherence": 1.0,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "t_approx": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "average_log_e": 2.0421959958532456
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "t_approx": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "average_log_e": 54.465440083532975
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "t_approx": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "average_log_e": 39.484871719435056
+        }
+      }
+    },
+    {
+      "scenario": "large_synthetic_complex_change",
+      "synthetic_groups": 4096,
+      "repetitions": 200,
+      "true_attenuation": 1.0,
+      "population_coherence": 1.0,
+      "within_model": true,
+      "methods": {
+        "ordinary_H4": {
+          "e": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "average_log_e": -1.7704524996864297
+        },
+        "source_resolved_oracle": {
+          "e": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "average_log_e": 18.191054837883925
+        },
+        "collision_aware": {
+          "e": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "rectangle": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "t_approx": {
+            "calls": 0,
+            "rate": 0.0,
+            "binomial_95_interval": [
+              0.0,
+              0.018275340355136237
+            ]
+          },
+          "positive_reference_rectangle": {
+            "calls": 200,
+            "rate": 1.0,
+            "binomial_95_interval": [
+              0.9817246596448638,
+              1.0
+            ]
+          },
+          "average_log_e": 12.281682915734482
+        }
+      }
+    }
+  ],
+  "elapsed_seconds": 28.350085500000205,
+  "physical_data_used": false,
+  "original_physical_comparison_passed": false,
+  "note": "Synthetic controls only. t diagnostics are approximate; excluded controls are assumption violations, not null coverage."
+}

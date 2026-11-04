@@ -1,0 +1,14 @@
+{
+  "all_pass": true,
+  "checks": {
+    "uniform_kernel_factor_cancels": true,
+    "source_dependent_kernel_counterexample": true,
+    "heterogeneous_window_weights_change_target": true,
+    "two_negative_ratios_cannot_earn_call": true,
+    "negative_references_rejected": true,
+    "product_set_endpoints": true,
+    "disjoint_sets_union_without_finite_rescue": true,
+    "strict_json_degenerate_cases": true
+  },
+  "pre_outcome": true
+}

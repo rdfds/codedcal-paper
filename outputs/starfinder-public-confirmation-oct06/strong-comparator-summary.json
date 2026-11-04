@@ -1,0 +1,70 @@
+{
+  "stage": "interpreted",
+  "extended_tissue_comparator_arms": 99,
+  "failed": 0,
+  "development": true,
+  "original_frozen_tissue_native_eligibility_failed": true,
+  "independent_complete_workflow_confirmation": false,
+  "independent_RNA_truth": false,
+  "distinct_tissue_benefit_at_five_points": false,
+  "largest_tissue_color_gain": 0.043771043771043794,
+  "new_observable_validated": false,
+  "general_recommendation_established": false,
+  "author_and_group_have_same_physical_codebook": true,
+  "culture_strong_multistart_ties_group": true,
+  "bar_field_zero_strong_model_f1_radius3": [
+    0.9710144927536232,
+    0.9787234042553191
+  ],
+  "bar_field_one_strongest_historical_author_f1_radius3": [
+    0.029411764705882353,
+    0.008633093525179856
+  ],
+  "cases": [
+    {
+      "decoder": "source_spot",
+      "strongest_tested_policy_by_outcome_for_evaluation_only": "author_full_volume",
+      "strongest_tested_f1_radius3": 0.9789473684210527,
+      "group_f1_radius3": 1.0,
+      "gain": 0.021052631578947323,
+      "passes_predeclared_five_point_benefit": false,
+      "full_volume_geometry_s": 284.841089708003,
+      "decode_s": 0.21119133400497958,
+      "composition_tv": 0.027482269503546104,
+      "coding": 94,
+      "abstained": 78,
+      "unsupported": 2,
+      "source_file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__source_spot.json"
+    },
+    {
+      "decoder": "correlation",
+      "strongest_tested_policy_by_outcome_for_evaluation_only": "author_full_volume",
+      "strongest_tested_f1_radius3": 0.9578544061302682,
+      "group_f1_radius3": 1.0,
+      "gain": 0.04214559386973182,
+      "passes_predeclared_five_point_benefit": false,
+      "full_volume_geometry_s": 284.841089708003,
+      "decode_s": 0.41353125000023283,
+      "composition_tv": 0.021843805049911964,
+      "coding": 130,
+      "abstained": 42,
+      "unsupported": 2,
+      "source_file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__correlation.json"
+    },
+    {
+      "decoder": "regression",
+      "strongest_tested_policy_by_outcome_for_evaluation_only": "author_full_volume",
+      "strongest_tested_f1_radius3": 0.9562289562289562,
+      "group_f1_radius3": 1.0,
+      "gain": 0.043771043771043794,
+      "passes_predeclared_five_point_benefit": false,
+      "full_volume_geometry_s": 284.841089708003,
+      "decode_s": 0.600659124989761,
+      "composition_tv": 0.04789115646258503,
+      "coding": 147,
+      "abstained": 25,
+      "unsupported": 2,
+      "source_file": "outputs/starfinder-public-confirmation-oct06/volumetric-model/color__regression.json"
+    }
+  ]
+}

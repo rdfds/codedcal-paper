@@ -1,0 +1,19 @@
+{
+  "crop": 1,
+  "decoder": "regression",
+  "status": "completed",
+  "catalog": {
+    "xyz": [],
+    "words": [],
+    "coding": 0,
+    "negative": null,
+    "candidate_objects": 0,
+    "unsupported_candidates": 211,
+    "abstained": 0,
+    "coverage": 0.0,
+    "runtime": {
+      "elapsed_s": 0.2621787500102073
+    }
+  },
+  "input_sha256": "073b7213d31d278013ffe627c0eed6eb3164092934e42dc81e48ee194a322433"
+}

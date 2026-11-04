@@ -1,0 +1,17 @@
+{
+  "development": true,
+  "independent_confirmation": false,
+  "files": {
+    "tool/src/codedcal/output_risk.py": "e319915e4f2e9c1a63245e2ff57e20c15a650f01830ac4e157261e194e2a56d8",
+    "tool/tests/test_output_risk.py": "e55d37296f2029f3b2180cb5cf39c9a81cab23081c19adc68f1ee971e8e25b03",
+    "outputs/output-risk-oct06/PROTOCOL.md": "f826df89eb0cad6ee5990e70f0c27aa3cc63993527337cdb528333938c5e2107",
+    "outputs/output-risk-oct06/check_controls.py": "2ebb0e1066d6c320aaa24978d252db7055ec880c12176c7687b468795baa4662",
+    "outputs/output-risk-oct06/controls.json": "e935706bf1e9805af682b64d452da966669e37a4f69f1d2823c1c5a99a9bad8d",
+    "outputs/output-risk-oct06/exposed.py": "68a14d83d9039976dfe3b2e620a2a2135a5e6676996ca6aaf829c44cdcd67b2c",
+    "outputs/output-risk-oct06/check_harness.py": "46a50789422184b6dfac319d2c264b96647d867866b46b7b978529a4d27b5005",
+    "outputs/output-risk-oct06/harness-controls.json": "e8dc5c48937023f45a2702b6e4af8ae7387d30048115c2b1abc3d1d8826b2ee0",
+    "outputs/output-risk-oct06/analyze.py": "98636ed9c1443ee0f962665ca8173198487fb71fec2e1bd3f4247d1a15681015"
+  },
+  "reserved_fields_opened": false,
+  "pre_outcome_analyzer_syntax_repair": true
+}

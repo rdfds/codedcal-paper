@@ -1,0 +1,44 @@
+{
+  "stage": "complete",
+  "case": "bar_1_color",
+  "source": "bar",
+  "field": 1,
+  "kind": "color",
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c",
+  "candidates": 55,
+  "incumbent": 1,
+  "rows": [
+    {
+      "decoder": "correlation",
+      "reference_calls": 28,
+      "incumbent_calls": 3,
+      "actual_consistency_error": {
+        "identity_loss": 0.935483870967742,
+        "composition_tv": 0.9642857142857145,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "failed_consistency": true,
+      "risk": {
+        "abstained": true,
+        "reason": "Insufficient incumbent calls"
+      },
+      "baseline_fit_loss": 0.5055576343985543,
+      "baseline_fit_gap": 0.11418594110808478,
+      "baseline_decoder_confidence": 0.2140427529811859,
+      "baseline_quality": {
+        "full_catalog_calls": 11,
+        "negative": 0,
+        "blank_proxy": 0.0,
+        "source_abstentions": null,
+        "source_unsupported": null,
+        "central_coding": 3,
+        "central_negative": 0
+      }
+    }
+  ],
+  "runtime_s": 39.8280988750048,
+  "development": true,
+  "independent_confirmation": false,
+  "independent_RNA_truth": false
+}

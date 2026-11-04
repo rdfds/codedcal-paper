@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "dtype": "32",
+      "sigma": 5,
+      "max_absolute_error": 1.1920928955078125e-07
+    },
+    {
+      "dtype": "32",
+      "sigma": 20,
+      "max_absolute_error": 5.960464477539063e-08
+    },
+    {
+      "dtype": "64",
+      "sigma": 5,
+      "max_absolute_error": 5.551115123125783e-16
+    },
+    {
+      "dtype": "64",
+      "sigma": 20,
+      "max_absolute_error": 2.220446049250313e-16
+    }
+  ],
+  "upstream_background_sha256": "2b78a629afbec7b6ddee1607bf20aeef9f9abd8de701d6d7fb6f735633ad655e",
+  "condition_sha256": "b2de44c6f89e6f48a2bda88bfdf6c27b62ecfae4e0dff174dc2c566cd9707f0e",
+  "behavior": "last-axis only, zero padding, native 3-sigma kernel"
+}

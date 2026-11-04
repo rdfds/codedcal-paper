@@ -1,0 +1,5 @@
+policy,native_eligible,native_nonblank_calls,native_blank_calls,native_blank_proxy_upper95,heldout,mixed_conventional,mechanism_weighted
+round,False,580,0,0.11535290938397548,unsupported,unsupported,unsupported
+frame_template,False,575,0,0.11635597816122745,unsupported,unsupported,unsupported
+barcode_model,True,857,0,0.07806848009650616,reject,reject,reject
+group_search,True,1081,0,0.061891477745333746,reject,reject,reject

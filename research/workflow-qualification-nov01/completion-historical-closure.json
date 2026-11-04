@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "source_commit": "0d55d488e4d05609e9f7dc0754d28e6f654e01ef",
+  "imported_files": 19089,
+  "imported_bytes": 5254683652,
+  "numbered_sources": 72,
+  "original_numbered_files": 16341,
+  "numbered_files_preserved": 16336,
+  "non_scientific_document_omissions": 5,
+  "current_code_and_navigation_files": 62,
+  "historical_numerical_modules_byte_identical": 4,
+  "private_history_required": false,
+  "internal_freeze_ordering": {
+    "passed": true,
+    "internal_sequences": 6,
+    "events": 16,
+    "ancestry_chains": 10,
+    "original_commit_records": 58,
+    "exact_frozen_files": 11,
+    "external_registration": false,
+    "proof_of_uninspected_data": false,
+    "private_git_objects_required": false
+  },
+  "downloads_performed": false,
+  "physical_validation_added": false
+}

@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NE0WOP",
+      "cap": 524288,
+      "index": 0,
+      "status": 202,
+      "content_type": "text/html; charset=UTF-8",
+      "retry_after": null,
+      "final_url": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/NE0WOP",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "metadata-0.txt"
+    },
+    {
+      "url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/NE0WOP",
+      "cap": 524288,
+      "index": 1,
+      "status": 200,
+      "content_type": "application/json;charset=UTF-8",
+      "retry_after": null,
+      "final_url": "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/NE0WOP",
+      "bytes": 95464,
+      "sha256": "c60407bdc89e7930f9f1ac3ad8866af2ac38bf20ff5bc189c6c72e74419af2f6",
+      "file": "metadata-1.txt"
+    },
+    {
+      "url": "https://zenodo.org/api/records/8253771",
+      "cap": 524288,
+      "index": 2,
+      "status": 200,
+      "content_type": "application/json",
+      "retry_after": "60",
+      "final_url": "https://zenodo.org/api/records/8253772",
+      "bytes": 4578,
+      "sha256": "c65afeead49d31ff98427cdc10dec38a25a4e63103e9b6dec2342dbe98c2754c",
+      "file": "metadata-2.txt"
+    }
+  ],
+  "network_calls": 3,
+  "raw_images_read": false
+}

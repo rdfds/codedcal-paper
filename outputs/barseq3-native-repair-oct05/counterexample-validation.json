@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "cases": {
+    "complete": {
+      "called_indices": [],
+      "called_names": [],
+      "blank_calls": 0,
+      "absent_target_called": false,
+      "absent_target_evidence": 0.6325846314430237,
+      "parent_evidence": [
+        0.7591015696525574,
+        0.7591015696525574
+      ],
+      "known_false_nonblank_calls": 0,
+      "known_true_parent_calls": 0
+    },
+    "one_camera_locus": {
+      "called_indices": [
+        13
+      ],
+      "called_names": [
+        "Arid1a"
+      ],
+      "blank_calls": 0,
+      "absent_target_called": true,
+      "absent_target_evidence": 0.7754773497581482,
+      "parent_evidence": [
+        0.4846733510494232,
+        0.4846733510494232
+      ],
+      "known_false_nonblank_calls": 1,
+      "known_true_parent_calls": 0
+    }
+  },
+  "kernel_matches_algebra": true,
+  "complete_known_gain_nonnegative_solution_unique": true,
+  "complete_solution_weights": [
+    0.5,
+    0.5000000000000001
+  ],
+  "general_blank_support_bound_does_not_cover_all_blank_codes": true,
+  "scope": "Selected noiseless point-vector counterexample from the public codebook, not a spatial peak benchmark, empirical prevalence estimate, true-FDR calibration or prospective molecular validation.",
+  "fixed_gain_scope": "Unique complete nonnegative mixture is an algebraic oracle; it is not an execution or success claim for the gain-learning regression kernel.",
+  "specification_sha256": "a66c72f1f34e2577cab672cfab75da76c96619f588038a78f76906883c1ba031",
+  "script_sha256": "cdab8bb5e2743101272cf5124ab376639b9abac610f539af7af5c05a96587f01"
+}

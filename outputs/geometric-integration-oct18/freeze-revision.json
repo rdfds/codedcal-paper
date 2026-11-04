@@ -1,0 +1,19 @@
+{
+  "pre_pixel": true,
+  "images_acquired": 0,
+  "completed_arms": 0,
+  "previous_source_commit": "374e9662dabc610552a7c383d00ab468e0a7af67",
+  "previous_freeze_sha256": "83fc7a92a3c8e8c33a2e99a9ff547277ffff82fdc71c11cdaa8af42df668c5bf",
+  "changed": [
+    "outputs/public-confirmation-oct17/FREEZE_REVISIONS.md",
+    "tool/src/codedcal/__init__.py",
+    "tool/src/codedcal/smlm.py",
+    "tool/src/codedcal/cli.py"
+  ],
+  "added": [
+    "outputs/public-confirmation-oct17/freeze-v2.json",
+    "tool/src/codedcal/geometric_uncertainty.py"
+  ],
+  "spatial_policy_and_endpoint_source_hashes_unchanged": true,
+  "original_adapter_freeze_unchanged": true
+}

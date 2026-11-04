@@ -1,0 +1,4570 @@
+{
+  "arms": [
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "2fb989b82ef4a959dc61985c1f3035d9a4edef11b34961155146515aeca79515"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "79e013f91018fdff53cb2a1abf9e51b02a5213ba2e11e4d258e0b29e7756128b"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 38,
+            "gene_consistent_matches": 34,
+            "sequence_consistent_matches": 34,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.8717948717948718,
+            "native_sequence_consistency_recall": 0.8717948717948718
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 30,
+            "gene_consistent_matches": 28,
+            "sequence_consistent_matches": 28,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9032258064516129,
+            "native_sequence_consistency_recall": 0.9032258064516129
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 38,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 2,
+            "native_gene_consistency_recall": 0.9487179487179487,
+            "native_sequence_consistency_recall": 0.9487179487179487
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 30,
+            "gene_consistent_matches": 28,
+            "sequence_consistent_matches": 28,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9032258064516129,
+            "native_sequence_consistency_recall": 0.9032258064516129
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 38,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 2,
+            "native_gene_consistency_recall": 0.9487179487179487,
+            "native_sequence_consistency_recall": 0.9487179487179487
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 30,
+            "gene_consistent_matches": 28,
+            "sequence_consistent_matches": 28,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9032258064516129,
+            "native_sequence_consistency_recall": 0.9032258064516129
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 68,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "762c5ef27c14721116acd751595a852533d35d70aaa2f9a1a0c0e40dc38b8495"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "12746eb88e7b6804b27bf3f250c3f8c24b707e564b253d93c735c5974ac61077"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "2247e8e7cbd79b12b420524975f0f88042e1f6e2efd28e2eae5ae990b0a70552"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 1,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "59305b7f7be10274877578b96e98a066a562df9999b934295437ef57de4f3473"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "30fbf0686c1ad314fc3462977d2c901bc835fac14dd4e47975fba38a5fa0aa0b"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "b8409f0f5f071a8cf11ecd13bda5c557d9c112c7f596bc0b45f1199dc74823d2"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 40,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 30,
+            "sequence_consistent_matches": 30,
+            "missed_or_gene_inconsistent_reference_calls": 1,
+            "native_gene_consistency_recall": 0.967741935483871,
+            "native_sequence_consistency_recall": 0.967741935483871
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 40,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 30,
+            "sequence_consistent_matches": 30,
+            "missed_or_gene_inconsistent_reference_calls": 1,
+            "native_gene_consistency_recall": 0.967741935483871,
+            "native_sequence_consistency_recall": 0.967741935483871
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 40,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 30,
+            "sequence_consistent_matches": 30,
+            "missed_or_gene_inconsistent_reference_calls": 1,
+            "native_gene_consistency_recall": 0.967741935483871,
+            "native_sequence_consistency_recall": 0.967741935483871
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 71,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "fab41c15e40138759105124fc30f4078ec17f23a0a207e00a560eb12ade4a50b"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "04fdbd3076a687c551c6fc376db3befc414b6a51392dc251f0aa12b710d8c5ad"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 10,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 10,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 10,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 10,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "2fc155eae5523af700fef27af0c9ff080f4c61a7fc908c165f71fccb6b952e5a"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 10,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 10,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 0,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 39,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 10,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 10,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "49ea411b899c812bfc411c75ac2305c2881b831b277475191de4f0a200b63bfa"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 11,
+            "gene_consistent_matches": 8,
+            "sequence_consistent_matches": 8,
+            "missed_or_gene_inconsistent_reference_calls": 31,
+            "native_gene_consistency_recall": 0.20512820512820512,
+            "native_sequence_consistency_recall": 0.20512820512820512
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 6,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 28,
+            "native_gene_consistency_recall": 0.0967741935483871,
+            "native_sequence_consistency_recall": 0.0967741935483871
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 11,
+            "gene_consistent_matches": 9,
+            "sequence_consistent_matches": 9,
+            "missed_or_gene_inconsistent_reference_calls": 30,
+            "native_gene_consistency_recall": 0.23076923076923078,
+            "native_sequence_consistency_recall": 0.23076923076923078
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 6,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 28,
+            "native_gene_consistency_recall": 0.0967741935483871,
+            "native_sequence_consistency_recall": 0.0967741935483871
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 11,
+            "gene_consistent_matches": 9,
+            "sequence_consistent_matches": 9,
+            "missed_or_gene_inconsistent_reference_calls": 30,
+            "native_gene_consistency_recall": 0.23076923076923078,
+            "native_sequence_consistency_recall": 0.23076923076923078
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 6,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 28,
+            "native_gene_consistency_recall": 0.0967741935483871,
+            "native_sequence_consistency_recall": 0.0967741935483871
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 17,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "8c93ad4200a74b7e2348bdce129c2f166be65494a5200287b262f53a94d847ac"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 35,
+            "sequence_consistent_matches": 35,
+            "missed_or_gene_inconsistent_reference_calls": 4,
+            "native_gene_consistency_recall": 0.8974358974358975,
+            "native_sequence_consistency_recall": 0.8974358974358975
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 28,
+            "gene_consistent_matches": 28,
+            "sequence_consistent_matches": 28,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9032258064516129,
+            "native_sequence_consistency_recall": 0.9032258064516129
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 36,
+            "sequence_consistent_matches": 36,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9230769230769231,
+            "native_sequence_consistency_recall": 0.9230769230769231
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 28,
+            "gene_consistent_matches": 28,
+            "sequence_consistent_matches": 28,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9032258064516129,
+            "native_sequence_consistency_recall": 0.9032258064516129
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 36,
+            "sequence_consistent_matches": 36,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9230769230769231,
+            "native_sequence_consistency_recall": 0.9230769230769231
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 28,
+            "gene_consistent_matches": 28,
+            "sequence_consistent_matches": 28,
+            "missed_or_gene_inconsistent_reference_calls": 3,
+            "native_gene_consistency_recall": 0.9032258064516129,
+            "native_sequence_consistency_recall": 0.9032258064516129
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 71,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "88b199e414340837538509b5f92e89f3ce263c9ea30811538a34c55693edb710"
+    },
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 39,
+            "predicted_nonblank_calls": 39,
+            "gene_consistent_matches": 39,
+            "sequence_consistent_matches": 39,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 31,
+            "predicted_nonblank_calls": 31,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 70,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "a7fcd3f84bec6006f2e0fabd90a392fb7607bc1a95c4ca28f91eaef8cfa2a4df"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "ca1fe6e8b53aa6b7cce7f164ffd7876900d158a58c039bf885dfcbb65add37c2"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "7878322f612bef25e30ca33c0c2c17c54b8ddaa76afd9f0263004ffee3a8012a"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 83,
+            "gene_consistent_matches": 77,
+            "sequence_consistent_matches": 77,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9390243902439024,
+            "native_sequence_consistency_recall": 0.9390243902439024
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 52,
+            "sequence_consistent_matches": 52,
+            "missed_or_gene_inconsistent_reference_calls": 7,
+            "native_gene_consistency_recall": 0.8813559322033898,
+            "native_sequence_consistency_recall": 0.8813559322033898
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 83,
+            "gene_consistent_matches": 77,
+            "sequence_consistent_matches": 77,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9390243902439024,
+            "native_sequence_consistency_recall": 0.9390243902439024
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 52,
+            "sequence_consistent_matches": 52,
+            "missed_or_gene_inconsistent_reference_calls": 7,
+            "native_gene_consistency_recall": 0.8813559322033898,
+            "native_sequence_consistency_recall": 0.8813559322033898
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 83,
+            "gene_consistent_matches": 77,
+            "sequence_consistent_matches": 77,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9390243902439024,
+            "native_sequence_consistency_recall": 0.9390243902439024
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 52,
+            "sequence_consistent_matches": 52,
+            "missed_or_gene_inconsistent_reference_calls": 7,
+            "native_gene_consistency_recall": 0.8813559322033898,
+            "native_sequence_consistency_recall": 0.8813559322033898
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 142,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "277501cb63ea2d644b7e5386945d5774ab1cf5f022456e88aeaa9073840dbc8b"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "f0c56849a5be8a41d258b7fcfe2996af6ab3f8603a9e546793aff64a726f2023"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "4b4bf389f3efa5d1f203039369f2f920bc59be28185162f8ffeefe07b603a751"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 552,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 318,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 552,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 318,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 552,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 318,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 870,
+        "blanks": 6,
+        "proxy": 1.5189655172413792,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "48adad212c3d01600756f1bbe001acae42c5664f89c0e40894ac3f0dd39f65ea"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "efb5a616baefc7d42637af34263b6a801dc7bc0330963f50302697f13f87bf80"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "905fcb307938cc7cb4f903ad7e024aebc0cfd56986bdfe9001239345c1b57023"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 81,
+            "gene_consistent_matches": 65,
+            "sequence_consistent_matches": 65,
+            "missed_or_gene_inconsistent_reference_calls": 17,
+            "native_gene_consistency_recall": 0.7926829268292683,
+            "native_sequence_consistency_recall": 0.7926829268292683
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 50,
+            "sequence_consistent_matches": 50,
+            "missed_or_gene_inconsistent_reference_calls": 9,
+            "native_gene_consistency_recall": 0.847457627118644,
+            "native_sequence_consistency_recall": 0.847457627118644
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 81,
+            "gene_consistent_matches": 66,
+            "sequence_consistent_matches": 66,
+            "missed_or_gene_inconsistent_reference_calls": 16,
+            "native_gene_consistency_recall": 0.8048780487804879,
+            "native_sequence_consistency_recall": 0.8048780487804879
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 52,
+            "sequence_consistent_matches": 52,
+            "missed_or_gene_inconsistent_reference_calls": 7,
+            "native_gene_consistency_recall": 0.8813559322033898,
+            "native_sequence_consistency_recall": 0.8813559322033898
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 81,
+            "gene_consistent_matches": 64,
+            "sequence_consistent_matches": 64,
+            "missed_or_gene_inconsistent_reference_calls": 18,
+            "native_gene_consistency_recall": 0.7804878048780488,
+            "native_sequence_consistency_recall": 0.7804878048780488
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 50,
+            "sequence_consistent_matches": 50,
+            "missed_or_gene_inconsistent_reference_calls": 9,
+            "native_gene_consistency_recall": 0.847457627118644,
+            "native_sequence_consistency_recall": 0.847457627118644
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 140,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "42f8e632fc0b1eccdd95428b60f6113ce9f05dcc501a2cc823a05bf84840acf5"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "824f0cba13271b84d17a0e191fa23157176fca46b1172ce862bd8fccd693b9db"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 152,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 386,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 152,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 386,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 152,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 81,
+            "native_gene_consistency_recall": 0.012195121951219513,
+            "native_sequence_consistency_recall": 0.012195121951219513
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 386,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 58,
+            "native_gene_consistency_recall": 0.01694915254237288,
+            "native_sequence_consistency_recall": 0.01694915254237288
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 538,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "cc5c53d5c0e4e463f75b006dddcdde6b373abaaad73286f135b1ec85ed4d4a1f"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 152,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 386,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 152,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 82,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 386,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 59,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 152,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 81,
+            "native_gene_consistency_recall": 0.012195121951219513,
+            "native_sequence_consistency_recall": 0.012195121951219513
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 386,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 58,
+            "native_gene_consistency_recall": 0.01694915254237288,
+            "native_sequence_consistency_recall": 0.01694915254237288
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 538,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "96a433d54addf52d055a67cf140289a3c765d1ec9e77ecc96321b3f1d6e5700c"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 97,
+            "gene_consistent_matches": 11,
+            "sequence_consistent_matches": 11,
+            "missed_or_gene_inconsistent_reference_calls": 71,
+            "native_gene_consistency_recall": 0.13414634146341464,
+            "native_sequence_consistency_recall": 0.13414634146341464
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 100,
+            "gene_consistent_matches": 5,
+            "sequence_consistent_matches": 5,
+            "missed_or_gene_inconsistent_reference_calls": 54,
+            "native_gene_consistency_recall": 0.0847457627118644,
+            "native_sequence_consistency_recall": 0.0847457627118644
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 97,
+            "gene_consistent_matches": 17,
+            "sequence_consistent_matches": 17,
+            "missed_or_gene_inconsistent_reference_calls": 65,
+            "native_gene_consistency_recall": 0.2073170731707317,
+            "native_sequence_consistency_recall": 0.2073170731707317
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 100,
+            "gene_consistent_matches": 5,
+            "sequence_consistent_matches": 5,
+            "missed_or_gene_inconsistent_reference_calls": 54,
+            "native_gene_consistency_recall": 0.0847457627118644,
+            "native_sequence_consistency_recall": 0.0847457627118644
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 97,
+            "gene_consistent_matches": 17,
+            "sequence_consistent_matches": 17,
+            "missed_or_gene_inconsistent_reference_calls": 65,
+            "native_gene_consistency_recall": 0.2073170731707317,
+            "native_sequence_consistency_recall": 0.2073170731707317
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 100,
+            "gene_consistent_matches": 5,
+            "sequence_consistent_matches": 5,
+            "missed_or_gene_inconsistent_reference_calls": 54,
+            "native_gene_consistency_recall": 0.0847457627118644,
+            "native_sequence_consistency_recall": 0.0847457627118644
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 197,
+        "blanks": 1,
+        "proxy": 1.1180203045685277,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "e64ae0702b360c9e7a4ac1cb10abfea2f34695e7acb890ae1614715f4addafa4"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 50,
+            "sequence_consistent_matches": 50,
+            "missed_or_gene_inconsistent_reference_calls": 32,
+            "native_gene_consistency_recall": 0.6097560975609756,
+            "native_sequence_consistency_recall": 0.6097560975609756
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 65,
+            "gene_consistent_matches": 41,
+            "sequence_consistent_matches": 41,
+            "missed_or_gene_inconsistent_reference_calls": 18,
+            "native_gene_consistency_recall": 0.6949152542372882,
+            "native_sequence_consistency_recall": 0.6949152542372882
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 50,
+            "sequence_consistent_matches": 50,
+            "missed_or_gene_inconsistent_reference_calls": 32,
+            "native_gene_consistency_recall": 0.6097560975609756,
+            "native_sequence_consistency_recall": 0.6097560975609756
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 65,
+            "gene_consistent_matches": 42,
+            "sequence_consistent_matches": 42,
+            "missed_or_gene_inconsistent_reference_calls": 17,
+            "native_gene_consistency_recall": 0.711864406779661,
+            "native_sequence_consistency_recall": 0.711864406779661
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 48,
+            "sequence_consistent_matches": 48,
+            "missed_or_gene_inconsistent_reference_calls": 34,
+            "native_gene_consistency_recall": 0.5853658536585366,
+            "native_sequence_consistency_recall": 0.5853658536585366
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 65,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 16,
+            "native_gene_consistency_recall": 0.7288135593220338,
+            "native_sequence_consistency_recall": 0.7288135593220338
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 149,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "4a41c32741f6651085b9fef797b579f8afa6129669c7b6ffd8f519bfdb297503"
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 82,
+            "predicted_nonblank_calls": 82,
+            "gene_consistent_matches": 82,
+            "sequence_consistent_matches": 82,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 59,
+            "predicted_nonblank_calls": 59,
+            "gene_consistent_matches": 59,
+            "sequence_consistent_matches": 59,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 141,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "3fa2c92298e4e3f65732aaa74577ab9eb2c479d63f40c9c44651576111e9762a"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "c4356b7c5428feb8889c967153e07c039a18b61e20262aee86d8dd074bb0a982"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "20b449f850d12106884ac37bac4ee031b98ede525d0f739e8f1515fb2fd48a49"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 83,
+            "sequence_consistent_matches": 83,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9431818181818182,
+            "native_sequence_consistency_recall": 0.9431818181818182
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 32,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 6,
+            "native_gene_consistency_recall": 0.8378378378378378,
+            "native_sequence_consistency_recall": 0.8378378378378378
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 83,
+            "sequence_consistent_matches": 83,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9431818181818182,
+            "native_sequence_consistency_recall": 0.9431818181818182
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 32,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 6,
+            "native_gene_consistency_recall": 0.8378378378378378,
+            "native_sequence_consistency_recall": 0.8378378378378378
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 83,
+            "sequence_consistent_matches": 83,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9431818181818182,
+            "native_sequence_consistency_recall": 0.9431818181818182
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 32,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 6,
+            "native_gene_consistency_recall": 0.8378378378378378,
+            "native_sequence_consistency_recall": 0.8378378378378378
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 116,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "a6734857fbaebeb11c18af822bab4f97f73f522867c059b03cf3e1fc30c6233a"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "b84280577a9479c9059b4c4d08e65af8a414edba5c0afaf653492d57d5454022"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "zero",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "81c91f132e5b97670fe73f4d167dcdfb3780f365063db19ac4722435224af981"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 16,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 87,
+            "native_gene_consistency_recall": 0.011363636363636364,
+            "native_sequence_consistency_recall": 0.011363636363636364
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 6,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 37,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 16,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 87,
+            "native_gene_consistency_recall": 0.011363636363636364,
+            "native_sequence_consistency_recall": 0.011363636363636364
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 6,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 37,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 16,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 86,
+            "native_gene_consistency_recall": 0.022727272727272728,
+            "native_sequence_consistency_recall": 0.022727272727272728
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 6,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 37,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 22,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "24f20d36b91a4bd5e926e45ff1da07b67da8f274f5a12ea17bde8cccbab3b144"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "9f15717d65ed829459a1e51c9e4b6d5544e40b1655054f0b860a1bf3ce610d01"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 83,
+            "sequence_consistent_matches": 83,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9431818181818182,
+            "native_sequence_consistency_recall": 0.9431818181818182
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 32,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 6,
+            "native_gene_consistency_recall": 0.8378378378378378,
+            "native_sequence_consistency_recall": 0.8378378378378378
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 83,
+            "sequence_consistent_matches": 83,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9431818181818182,
+            "native_sequence_consistency_recall": 0.9431818181818182
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 32,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 6,
+            "native_gene_consistency_recall": 0.8378378378378378,
+            "native_sequence_consistency_recall": 0.8378378378378378
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 84,
+            "gene_consistent_matches": 83,
+            "sequence_consistent_matches": 83,
+            "missed_or_gene_inconsistent_reference_calls": 5,
+            "native_gene_consistency_recall": 0.9431818181818182,
+            "native_sequence_consistency_recall": 0.9431818181818182
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 32,
+            "gene_consistent_matches": 31,
+            "sequence_consistent_matches": 31,
+            "missed_or_gene_inconsistent_reference_calls": 6,
+            "native_gene_consistency_recall": 0.8378378378378378,
+            "native_sequence_consistency_recall": 0.8378378378378378
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 116,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "a28e8488b1cafb452b5cc7bdf9a3ca2eb4f9396df24709aa5d0c3df3fe657406"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "3794cfcb0cd5afe8abb80fefc476aee095ed515c79742455224315f322661d30"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "common",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "43d17c2ab0a59f37ee3ac6c7c121fdf84484759807994729fc16c9724afac757"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 37,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 36,
+            "native_gene_consistency_recall": 0.02702702702702703,
+            "native_sequence_consistency_recall": 0.02702702702702703
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 35,
+            "native_gene_consistency_recall": 0.05405405405405406,
+            "native_sequence_consistency_recall": 0.05405405405405406
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 8,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "99098398dae55d2017e58b44b7036822ac69e35ff5eed81ce58df12f266e28c4"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 37,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 36,
+            "native_gene_consistency_recall": 0.02702702702702703,
+            "native_sequence_consistency_recall": 0.02702702702702703
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 1,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 35,
+            "native_gene_consistency_recall": 0.05405405405405406,
+            "native_sequence_consistency_recall": 0.05405405405405406
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 8,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "947243da276f042ae7361fcf8114dcaca82aad38750783579a0019b779bc11f0"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 4,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 36,
+            "native_gene_consistency_recall": 0.02702702702702703,
+            "native_sequence_consistency_recall": 0.02702702702702703
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 4,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 35,
+            "native_gene_consistency_recall": 0.05405405405405406,
+            "native_sequence_consistency_recall": 0.05405405405405406
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 4,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 87,
+            "native_gene_consistency_recall": 0.011363636363636364,
+            "native_sequence_consistency_recall": 0.011363636363636364
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 34,
+            "native_gene_consistency_recall": 0.08108108108108109,
+            "native_sequence_consistency_recall": 0.08108108108108109
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 11,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "525af227272d8d3ec9f1aefd685c805f51b26a49c7ee931c633e15b91b232ccf"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 4,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 36,
+            "native_gene_consistency_recall": 0.02702702702702703,
+            "native_sequence_consistency_recall": 0.02702702702702703
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 4,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 88,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 35,
+            "native_gene_consistency_recall": 0.05405405405405406,
+            "native_sequence_consistency_recall": 0.05405405405405406
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 4,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 87,
+            "native_gene_consistency_recall": 0.011363636363636364,
+            "native_sequence_consistency_recall": 0.011363636363636364
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 7,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 34,
+            "native_gene_consistency_recall": 0.08108108108108109,
+            "native_sequence_consistency_recall": 0.08108108108108109
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 11,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "9dc7ef7efe80872a27be30d704559b39e74026c0e909c39611c30e3684d024c4"
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "kind": "color",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 88,
+            "predicted_nonblank_calls": 88,
+            "gene_consistent_matches": 88,
+            "sequence_consistent_matches": 88,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 37,
+            "predicted_nonblank_calls": 37,
+            "gene_consistent_matches": 37,
+            "sequence_consistent_matches": 37,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 125,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "47a3439c7ece94c5a08d99c424af0106cb94ec60054c9cb1119430f63a93bc0b"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "c3d0c212a90ae598e21b2710f3536062e665696affb36b6b536c5324db80da11"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "32f534e8f8cbb257668d7baa1efe13cf74507fb33f679c54e78c6fb606d20847"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 44,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 44,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 44,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 67,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "f700cb7d71eb2023557a959ab4dca4537933f97578a15c36491928dbdc5808f5"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "5542cb4f57fa1c01ab8bb3b713777a28b10ea79e8b410b5e75f831b001f8aa7a"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "zero",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "b24e3846199ed5b11fcce4aab0403c8acd600090f6a443f489526c7c0822585d"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 511,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 275,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 511,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 275,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 511,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 40,
+            "native_gene_consistency_recall": 0.06976744186046512,
+            "native_sequence_consistency_recall": 0.06976744186046512
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 275,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 786,
+        "blanks": 7,
+        "proxy": 1.9615139949109415,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "fa2e3955316fcf62c6f0e6436a5778fc7a0066d32eb8755776b598c2ec885cb6"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "fe7cb3a3632f83ebee5329f65032036e8f937a53e07d90fa1f7a2ed721edaf14"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 44,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 44,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 44,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 67,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "14471f6887966f1a4cdead23a1cf17b224510e928381d5c7e0688d33008968fa"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "a15675a1cfd148d234dda770a726e5231755ae79e50b8a77252da5efa88ece6f"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "common",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "a78b99a44951cca8d350c1cc2d09bee2193f046484e05643376c78b67d3b8bd3"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "none",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 127,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 310,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 127,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 310,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 127,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 42,
+            "native_gene_consistency_recall": 0.023255813953488372,
+            "native_sequence_consistency_recall": 0.023255813953488372
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 310,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 22,
+            "native_gene_consistency_recall": 0.043478260869565216,
+            "native_sequence_consistency_recall": 0.043478260869565216
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 437,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "20ddbe497ce871fb96d6c49d91d67971e3955655d0b6625ac39375ff3281ab0a"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "common_iterative",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 127,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 310,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 127,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 310,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 127,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 42,
+            "native_gene_consistency_recall": 0.023255813953488372,
+            "native_sequence_consistency_recall": 0.023255813953488372
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 310,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 22,
+            "native_gene_consistency_recall": 0.043478260869565216,
+            "native_sequence_consistency_recall": 0.043478260869565216
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 437,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "269298184cdbe04223fe5209dabb4356b40843921f8bda85d595e816ac8a7f28"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "population_template",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 234,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 392,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 234,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 42,
+            "native_gene_consistency_recall": 0.023255813953488372,
+            "native_sequence_consistency_recall": 0.023255813953488372
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 392,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 21,
+            "native_gene_consistency_recall": 0.08695652173913043,
+            "native_sequence_consistency_recall": 0.08695652173913043
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 234,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 42,
+            "native_gene_consistency_recall": 0.023255813953488372,
+            "native_sequence_consistency_recall": 0.023255813953488372
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 392,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 20,
+            "native_gene_consistency_recall": 0.13043478260869565,
+            "native_sequence_consistency_recall": 0.13043478260869565
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 626,
+        "blanks": 3,
+        "proxy": 1.055511182108626,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "5f9567b645e94c0ebeb3b836f65f1a0f6ffd963c80d8a5d2fe4f140aab3a8e9e"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "barcode_model",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 234,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 43,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 392,
+            "gene_consistent_matches": 0,
+            "sequence_consistent_matches": 0,
+            "missed_or_gene_inconsistent_reference_calls": 23,
+            "native_gene_consistency_recall": 0.0,
+            "native_sequence_consistency_recall": 0.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 234,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 42,
+            "native_gene_consistency_recall": 0.023255813953488372,
+            "native_sequence_consistency_recall": 0.023255813953488372
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 392,
+            "gene_consistent_matches": 2,
+            "sequence_consistent_matches": 2,
+            "missed_or_gene_inconsistent_reference_calls": 21,
+            "native_gene_consistency_recall": 0.08695652173913043,
+            "native_sequence_consistency_recall": 0.08695652173913043
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 234,
+            "gene_consistent_matches": 1,
+            "sequence_consistent_matches": 1,
+            "missed_or_gene_inconsistent_reference_calls": 42,
+            "native_gene_consistency_recall": 0.023255813953488372,
+            "native_sequence_consistency_recall": 0.023255813953488372
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 392,
+            "gene_consistent_matches": 3,
+            "sequence_consistent_matches": 3,
+            "missed_or_gene_inconsistent_reference_calls": 20,
+            "native_gene_consistency_recall": 0.13043478260869565,
+            "native_sequence_consistency_recall": 0.13043478260869565
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 626,
+        "blanks": 3,
+        "proxy": 1.055511182108626,
+        "support": 1.0,
+        "qualified": false
+      },
+      "arm_sha256": "960e9fb990028af31ac0cf0e93b70e55059cefcf3fceaa0f1fcf635e77e50e24"
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "kind": "color",
+      "policy": "oracle",
+      "groups": {
+        "1.5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "3": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        },
+        "5": {
+          "balanced": {
+            "native_reference_calls": 43,
+            "predicted_nonblank_calls": 43,
+            "gene_consistent_matches": 43,
+            "sequence_consistent_matches": 43,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          },
+          "unbalanced": {
+            "native_reference_calls": 23,
+            "predicted_nonblank_calls": 23,
+            "gene_consistent_matches": 23,
+            "sequence_consistent_matches": 23,
+            "missed_or_gene_inconsistent_reference_calls": 0,
+            "native_gene_consistency_recall": 1.0,
+            "native_sequence_consistency_recall": 1.0
+          }
+        }
+      },
+      "quality": {
+        "nonblank": 66,
+        "blanks": 0,
+        "proxy": 0.0,
+        "support": 1.0,
+        "qualified": true
+      },
+      "arm_sha256": "17115689c0445a48af6390cb4e526a9cd78082678c980f4507869eabbc032592"
+    }
+  ],
+  "complete_arms": 60,
+  "group_definition": "Public codebook only: balanced=max(GC_count,10-GC_count)<=6; other classes unbalanced. Blank classes excluded from group recall but preserved in arm quality.",
+  "reference_scope": "Recall of native algorithm outputs, not independent molecular truth. Group membership follows reference sequence; gene consistency pools synonymous sequence classes.",
+  "specification_sha256": "1c2b82f39f16caa3e5cc1e24e45ea7c03101f611334fe84a8bd3728385af0e26",
+  "script_sha256": "53f9cb68f0b9a8a419bf39d12236978221fc2e0870e2f812aa2e4c9b4907a442",
+  "codebook_sha256": "fc900afb73f20dfab928aa237ff9e4525066840f763410e3256d5a5cacb7bd11"
+}

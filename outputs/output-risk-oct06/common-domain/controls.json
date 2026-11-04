@@ -1,0 +1,149 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "case": "bar_0_zero",
+      "decoder": "correlation",
+      "calls": 70,
+      "coding": 70,
+      "oracle_exact": true
+    },
+    {
+      "case": "bar_0_common",
+      "decoder": "correlation",
+      "calls": 66,
+      "coding": 66,
+      "oracle_exact": true
+    },
+    {
+      "case": "bar_0_color",
+      "decoder": "correlation",
+      "calls": 76,
+      "coding": 76,
+      "oracle_exact": true
+    },
+    {
+      "case": "bar_1_zero",
+      "decoder": "correlation",
+      "calls": 125,
+      "coding": 125,
+      "oracle_exact": true
+    },
+    {
+      "case": "bar_1_common",
+      "decoder": "correlation",
+      "calls": 120,
+      "coding": 120,
+      "oracle_exact": true
+    },
+    {
+      "case": "bar_1_color",
+      "decoder": "correlation",
+      "calls": 120,
+      "coding": 120,
+      "oracle_exact": true
+    },
+    {
+      "case": "culture_4_zero",
+      "decoder": "source_spot",
+      "calls": 69,
+      "coding": 69,
+      "oracle_exact": true
+    },
+    {
+      "case": "culture_4_zero",
+      "decoder": "correlation",
+      "calls": 64,
+      "coding": 64,
+      "oracle_exact": true
+    },
+    {
+      "case": "culture_4_common",
+      "decoder": "source_spot",
+      "calls": 54,
+      "coding": 54,
+      "oracle_exact": true
+    },
+    {
+      "case": "culture_4_common",
+      "decoder": "correlation",
+      "calls": 53,
+      "coding": 53,
+      "oracle_exact": true
+    },
+    {
+      "case": "culture_4_color",
+      "decoder": "source_spot",
+      "calls": 54,
+      "coding": 54,
+      "oracle_exact": true
+    },
+    {
+      "case": "culture_4_color",
+      "decoder": "correlation",
+      "calls": 53,
+      "coding": 53,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_zero",
+      "decoder": "source_spot",
+      "calls": 96,
+      "coding": 96,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_zero",
+      "decoder": "correlation",
+      "calls": 131,
+      "coding": 131,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_common",
+      "decoder": "source_spot",
+      "calls": 98,
+      "coding": 98,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_common",
+      "decoder": "correlation",
+      "calls": 138,
+      "coding": 138,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_color",
+      "decoder": "source_spot",
+      "calls": 98,
+      "coding": 98,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_color",
+      "decoder": "correlation",
+      "calls": 138,
+      "coding": 138,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_outclass",
+      "decoder": "source_spot",
+      "calls": 95,
+      "coding": 95,
+      "oracle_exact": true
+    },
+    {
+      "case": "tissue_4_outclass",
+      "decoder": "correlation",
+      "calls": 135,
+      "coding": 135,
+      "oracle_exact": true
+    }
+  ],
+  "exposed_development": true,
+  "independent_RNA_truth": false,
+  "nonnegative_backend_requalification": false,
+  "input_tensor_equivalence_in_full_kernel_context": true
+}

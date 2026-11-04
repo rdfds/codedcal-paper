@@ -1,0 +1,26 @@
+{
+  "round1": {
+    "source_sha256": "ac3e1111292b9a020b1c8039e50c8deee59135e81a0b75cdcab90330eb19ab09",
+    "reduced_sha256": "b5ada081c2421a3858520a94ccedb345bdc65dd703ac7eb028ceba450794824b",
+    "rows": 1125643,
+    "archive_path": "Data_submission/Fig 3/RESI/NUP96_round1_SDC-OPR_4x.hdf5"
+  },
+  "round2": {
+    "source_sha256": "caa6c85b4519311f51ba6b7fb41b00a5e1bff2ed7c851735d2cbc4c1d1524154",
+    "reduced_sha256": "2a2a0f099b93ae414e285b9f098d9b9b953ff3de21ab7799c9c4533770f276e7",
+    "rows": 2056529,
+    "archive_path": "Data_submission/Fig 3/RESI/NUP96_round2_SDC-OPR_4x.hdf5"
+  },
+  "round3": {
+    "source_sha256": "28408d14f413bd4b7e7e9fb149af70d84b7e5359ffc8ea932194f7f981ef6816",
+    "reduced_sha256": "74cf318642c040c8f39702b0c03b684dfd750c02ebdc42264e17d3a26eeb3ec6",
+    "rows": 1684511,
+    "archive_path": "Data_submission/Fig 3/RESI/NUP96_round3_SDC-OPR_4x.hdf5"
+  },
+  "round4": {
+    "source_sha256": "5bc404aa67172c99b14cbec655cf9250f52e7e0d79e42ca8911cfed272482591",
+    "reduced_sha256": "6f0b300b0cecf6fbcdad0a79401b5d71e31277778f937f596a4c4fb9e1784acd",
+    "rows": 2113429,
+    "archive_path": "Data_submission/Fig 3/RESI/NUP96_round4_SDC-OPR_4x.hdf5"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "native_eligibility_stage": "failed_eligibility",
+  "original_whole_interface_gates_not_passed": true,
+  "negative_proxy_unavailable": true,
+  "native_RNA_truth_unavailable": true,
+  "full_comparative_workflow_frozen_before_pixels": true,
+  "source": "distinct published mouse-brain tissue experiment; one field, five windows",
+  "freeze_sha256": "2d8dae46317ad936655a133cb2107ccdad31905da41b211b9a1d778f191fc14e",
+  "stage": "native_eligibility_failure",
+  "cohort_comparison_supported": false,
+  "groups": {
+    "source_spot": {
+      "coding": 18,
+      "minimum_coverage": 0.0,
+      "designated_counts": [
+        0,
+        11
+      ],
+      "eligible": false
+    },
+    "correlation": {
+      "coding": 47,
+      "minimum_coverage": 0.0,
+      "designated_counts": [
+        2,
+        27
+      ],
+      "eligible": false
+    },
+    "regression": {
+      "coding": 91,
+      "minimum_coverage": 0.0,
+      "designated_counts": [
+        2,
+        40
+      ],
+      "eligible": false
+    }
+  }
+}

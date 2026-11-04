@@ -1,0 +1,9 @@
+{
+  "python": "3.13.2 (main, Feb  4 2025, 14:51:09) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pytest": "9.1.1",
+  "theory_tests_passed": 34,
+  "package_tests_passed": 232,
+  "package_seconds": 82.73
+}

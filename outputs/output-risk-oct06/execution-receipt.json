@@ -1,0 +1,7 @@
+{
+  "prior_specification_commit": "9ab932b",
+  "prior_start_interrupted_before_profile_outcomes": true,
+  "retained_profile_or_prediction_files_at_interruption": 0,
+  "reason": "Analyzer syntax check had failed; interrupted the just-started input loader, fixed one missing keyword value and checked all Python sources before restart.",
+  "scientific_core_and_thresholds_unchanged": true
+}

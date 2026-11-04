@@ -1,0 +1,19 @@
+{
+  "name": "ab701a5a-2dc3-11eb-9890-0242ac110002",
+  "sha256": "d78bd29c10642c7f0ee30ae2d29445e0d0b5c44a6329846fc926f0f90751fbf6",
+  "shape": [
+    28,
+    200,
+    200
+  ],
+  "n_words": 65,
+  "n_annotations": 158,
+  "statuses": {
+    "bad": 7,
+    "debatable": 21,
+    "good": 112,
+    "unknown": 18
+  },
+  "good_interior": 100,
+  "good_border_excluded": 12
+}

@@ -1,0 +1,24 @@
+{
+  "pid": 21372,
+  "command": "research/workflow-qualification-nov01/fetch_fullfield_context.py",
+  "stage": "stopped_with_error",
+  "requests": 1,
+  "transport_bytes": 0,
+  "records": [
+    {
+      "id": 12555727,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "start": 0,
+      "end": 511,
+      "reason": "native TIFF header",
+      "expected_etag": "940f522dd601a480acc418de93e308c0",
+      "stage": "pinned",
+      "status": 412,
+      "retry_after": null,
+      "error": "HTTP Error 412: Precondition Failed"
+    }
+  ],
+  "started_epoch": 1793568755.492327,
+  "error": "HTTPError: HTTP Error 412: Precondition Failed",
+  "comparative_outcomes_examined": false
+}

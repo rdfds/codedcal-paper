@@ -1,0 +1,701 @@
+{
+  "passed": true,
+  "primary_records": 81,
+  "initialization_records": 30,
+  "verified_records": 111,
+  "frozen_files_verified": 66,
+  "unchanged_core_sha256": "82407386fccc55da8b745fd5a31c83ed27d41e4c4fcb2eb1b3267d5c14df4fdc",
+  "counts_composition_and_identity_scalars_verified": true,
+  "perfect_records_exact_catalog_equality": true,
+  "independent_RNA_truth": false,
+  "independent_preparation_workflow_confirmation": false,
+  "records": [
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__global_group__regression.json",
+      "sha256": "1733c4f8b5e19170733ae5e1034b95df337ee3916c0b25dd76049c0f4724ba8d",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__oracle__source_spot.json",
+      "sha256": "faa623c0acf9e8bd5eab3adc9dc7ff5de9b676f2d2b24a1444bb38e50d9c48d4",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__author_multistart__regression.json",
+      "sha256": "573e0a5ab77a9bbda711780c36384afd55935a62a39f029f352f362e84a568fb",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__none__source_spot.json",
+      "sha256": "7bf56f5434a7a82c1cb63afc8c8fcad0f78307507bf5f9771ca1ae4bb5ff74d3",
+      "coding": 48,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__oracle__regression.json",
+      "sha256": "0720d7b116639312a6d605973b2a1edfc0450126d504a8411281fdc90ea8e4bf",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__none__correlation.json",
+      "sha256": "11234320527ef5e66e4ca553ef465f9d0f007206af670a09a8b56d1f2ee2ef60",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__global_group__source_spot.json",
+      "sha256": "dc3378b33db01d51907052fa6c87de00f0c295208d91fdd4fa0d06e22c2cac60",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__oracle__regression.json",
+      "sha256": "4bdafb9cd21ed1e6cfdd1d293fa726c120cf72f2290863560c29ee649c112795",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__oracle__correlation.json",
+      "sha256": "fb51ebefefa3dc1a1dcbf1eaf6a66768a4c4f0465a7a0ffbc7cf2a7c57e77e61",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__common_iterative__regression.json",
+      "sha256": "188772275b7487b0d480e97d019a97fd13be695cadfe67f55a645c7eacfcf04a",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__population_template__correlation.json",
+      "sha256": "efd187844bea1f7c7a4f0ce843e996b7e2faae3fc85f7a6d50c8a268fb5d074f",
+      "coding": 82,
+      "negative": 0,
+      "identity_f1": 0.0136986301369863
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__population_template__regression.json",
+      "sha256": "500ba4bfbe91be4ed7124028fbb45d1e919f26b5d8b22b641064d8a55a650c50",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__common_iterative__regression.json",
+      "sha256": "68f08dd6b8bb80990e2fad3587a495f53b2e959dbba3bf6ea4a51bf48b82f73b",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__population_template__regression.json",
+      "sha256": "8edbb7d0a1f63cc868764d3f2f73f4aaa0c802827598138bb880679dcdd4603a",
+      "coding": 65,
+      "negative": 0,
+      "identity_f1": 0.01834862385321101
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__none__source_spot.json",
+      "sha256": "6833b230f6c360a4860067d0acc92c77768e03e764d86dc9532af552be34493f",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__global_group__correlation.json",
+      "sha256": "dd62254b08c5c7f3b70478bf381e59bfa4fc9aa1c4002945b349580de4e33c24",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__global_group__regression.json",
+      "sha256": "9c6b5ca0be3f9eaad7c8a2fe19cf5c4eeb402a0eda4b522de0a9398b2c5f43b1",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__oracle__correlation.json",
+      "sha256": "51241ef15fb44dc4d541ebd6d54d70a583a293b34b84acceca872416ffb4ba99",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__author_multistart__regression.json",
+      "sha256": "bbbe2daab00a0f64477df1d9927479fd9740b96098171dc905af52e8f66b09a1",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__none__correlation.json",
+      "sha256": "0ec9469cfd512ededb26a9985b671e20c8e29441ba9b2ea1be45c3982ee9a80c",
+      "coding": 100,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__population_template__source_spot.json",
+      "sha256": "d4cd772e2708293d1ca1045b461543cc645624936876cae1923752dfad0cf4df",
+      "coding": 39,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__none__regression.json",
+      "sha256": "6df8b9f3750d50716cbca0913ef970129694b772ba3dd623e3dbf450685430be",
+      "coding": 86,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__author_multistart__regression.json",
+      "sha256": "8fb7a6918f6163767c8dfa9197cc690821d2234f5f5e13c2aa547389bc43786b",
+      "coding": 65,
+      "negative": 0,
+      "identity_f1": 0.01834862385321101
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__oracle__source_spot.json",
+      "sha256": "1e4dee01c27e7fa049c293ba1d64c6b0a2c0ff9220d95f93fdec74019e3e498c",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__common_iterative__regression.json",
+      "sha256": "c19fa6a168634c40c6d3335d84c1f0ad38b3890d4aefa6142961886ff18f0d7c",
+      "coding": 86,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__none__regression.json",
+      "sha256": "58cb4a3341827bddfde2b189da6a29b9c1e56b984d2e629d02d13302f5266f44",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__oracle__regression.json",
+      "sha256": "b452016676fb05a372951b25be05d5c5f2f1294d1fd9f6143b9e7d365ab875ca",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__population_template__correlation.json",
+      "sha256": "158181eaef8438a569a74b05bb70a65e05dc43c51b3d39a64e8db2ec08453c28",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__none__correlation.json",
+      "sha256": "5142bf09ae6b1ce3614ba0ecb7befe81507caf26db37067cd538ff4c484bc517",
+      "coding": 43,
+      "negative": 1,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__common_iterative__source_spot.json",
+      "sha256": "3cff6765141ed00dacafba3919a32af2104b73a70196473140b9afab9f43a5eb",
+      "coding": 48,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__author_multistart__correlation.json",
+      "sha256": "6b578349cdaca9830c49bc55cf7bca0b86ccea85efb14c1c7e0328da444420a2",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__author_multistart__correlation.json",
+      "sha256": "bf562142056da347c71232d68727ae8fac98137b5f596e04d294ef84619fd58d",
+      "coding": 82,
+      "negative": 0,
+      "identity_f1": 0.0136986301369863
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__population_template__regression.json",
+      "sha256": "92e7bf86d22bd4ea542b219998568d7b632123b2cd9b1b9739214320987f554e",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__oracle__source_spot.json",
+      "sha256": "6ea1b3ddce954027255e3db1ddf1da981c5d9313214d075125393bdf6ca06707",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__global_group__source_spot.json",
+      "sha256": "998a94a32ac6c07c63059296133770d6f27943b5db5da48c25170965646136be",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__global_group__correlation.json",
+      "sha256": "88833252859b8d0cb8a2f18d97c7fd6a7276beb731906152da682facb9687e02",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__common_iterative__correlation.json",
+      "sha256": "96064d384343177fdd40f09f54bfdee2ac9dd85e4313af55a7e568ab7859089c",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__population_template__source_spot.json",
+      "sha256": "2d98dfbf6c9f251745ac8552f656b165515b843fa07b87b69c567ca07d1e5b71",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__author_multistart__correlation.json",
+      "sha256": "0f4a2fa6bc2cd7a598de44a7b1570f38bff151cb5ac9fbe6f3e74e3d66706c05",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__common_iterative__source_spot.json",
+      "sha256": "6f40de2315c6f64c2d54c52eb08638028648ef65790cce1d1cae15efa8d6851d",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__common_iterative__correlation.json",
+      "sha256": "8a55deb0e64b9a8aefb86547678b32bdbac6b7e95aba143b6a54bcc41d4b3a4f",
+      "coding": 100,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__global_group__regression.json",
+      "sha256": "c05cd544481353fb5867931b3107fcbfd6afef064d8092a98a0a85cd176d0dd7",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__author_multistart__source_spot.json",
+      "sha256": "dd7739bea148c06db1aae2699f54f746c1cf3aa884f0f7482626adfb4faefffd",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/color__author_multistart__source_spot.json",
+      "sha256": "b0240a3215b1225180d7b389178aa696d22d6a18d0ee2182bd0d23287ce01fbc",
+      "coding": 39,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__population_template__source_spot.json",
+      "sha256": "c590deab286c81fc201af4312c4b40ade068b5574aecb66e0321aeacea34f361",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__none__source_spot.json",
+      "sha256": "2d67f4dab9eeeb0e9e2b5fb260548c8cf2ae7aabe6f291d3abc6488d71c090de",
+      "coding": 28,
+      "negative": 1,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__global_group__source_spot.json",
+      "sha256": "fada236615b3c0eec8cf8cd656ac909521492d9c2eab4a775ad3321cbefb8f6a",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__none__regression.json",
+      "sha256": "3bf1774f4ef453033a6bf415d835bf702128522924e01130117d4b533c348b34",
+      "coding": 38,
+      "negative": 1,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__author_multistart__source_spot.json",
+      "sha256": "663717ebc989857e77e62e481748186875446cf2af10069534e2a0e9ca06ab3d",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__common_iterative__source_spot.json",
+      "sha256": "0d619abe67f046aa11234531aab02368cbe79367bca76ec317f85e5d8839d1e0",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__population_template__correlation.json",
+      "sha256": "b0cadc0ce56150c0ea4fe2e71b374d6e41575f290719f9c8aacda692a2778746",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__common_iterative__correlation.json",
+      "sha256": "8030142f321c560b414744cd849d49dc533d730b30c19019be57f767b069bda9",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/common__oracle__correlation.json",
+      "sha256": "09c25b1a35ba8b4de96915a76b8e614f20140ef5dbb1b16c3b8e0d2d0f9ab3ff",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/probe/zero__global_group__correlation.json",
+      "sha256": "f5cf19ff714c1148732a402dea10d6b4b3d07b39524371fcf9429432c8e9f25c",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__frame_template_local_3d__correlation.json",
+      "sha256": "caa3ce441010968dd75fb34fd1997e6d6a462c5ac18f520298aa16bf6b2da1e0",
+      "coding": 8,
+      "negative": 0,
+      "identity_f1": 0.19444444444444445
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__frame_template_local_3d__correlation.json",
+      "sha256": "1e59df4b8111ecfb605709864a026baa386ac4b690771a3deefc60b97ad237ce",
+      "coding": 6,
+      "negative": 0,
+      "identity_f1": 0.17142857142857143
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__source_round_3d__regression.json",
+      "sha256": "9e7358122487770693f34c5d8c3cc14fd2e5dc03fd09ec5613e78cac4ce556e8",
+      "coding": 45,
+      "negative": 0,
+      "identity_f1": 0.8764044943820225
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__source_round_3d__regression.json",
+      "sha256": "c89157c40aa91242cf54908227849dc66e39fff802b951c3ef9292c38b6cdf25",
+      "coding": 41,
+      "negative": 0,
+      "identity_f1": 0.9176470588235294
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__frame_template_local_3d__source_spot.json",
+      "sha256": "1511d417b8eed3f47f95b07cea7db0e56b8fb2fb654ae088ea549834ea7b7ccc",
+      "coding": 24,
+      "negative": 0,
+      "identity_f1": 0.3010752688172043
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__frame_template_local_3d__source_spot.json",
+      "sha256": "9af3688e970a48cc88f88d4394f195d9a89b51981adaeaffa43c9fc1c60089d3",
+      "coding": 27,
+      "negative": 0,
+      "identity_f1": 0.3125
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__frame_template_3d__correlation.json",
+      "sha256": "33c4ae24d47650fd9915280797ac1e1b98a0dfa93206d69c641a6cf8ccf84228",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__frame_template_3d__regression.json",
+      "sha256": "34e38803ddd280d26452377604613972ad3e43c1ce5f8c5296373c5fed6bfb7f",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__source_round_3d__source_spot.json",
+      "sha256": "1639965d4a95c4b732c04d128063513908d05ecb235bcc53f87e9e06487265b1",
+      "coding": 59,
+      "negative": 0,
+      "identity_f1": 0.765625
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__frame_template_local_3d__correlation.json",
+      "sha256": "891a3022d6653ffaa1cfc23e17dbe904e2ff355c34bc8ca7d2fafc7f03006a85",
+      "coding": 9,
+      "negative": 0,
+      "identity_f1": 0.2465753424657534
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__frame_template_3d__regression.json",
+      "sha256": "dd69397d6d70843f0093f6be30f7e7a6f80a1bc5fbacb41b2c9359a20e9530c4",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__frame_template_3d__correlation.json",
+      "sha256": "03891fccf1aca237fe1b35cc7cdd1e90169bf9a03255510ccab05f05898ede27",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__source_round_3d__source_spot.json",
+      "sha256": "1041c4e4a67cf11c90810734b8684d76ef733ceb564e373761b93e24e4d74837",
+      "coding": 47,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__source_round_3d__correlation.json",
+      "sha256": "61112b97fcfe8d081aa73d82c0c61929216bda468164ee705c9fa24e894f095e",
+      "coding": 61,
+      "negative": 0,
+      "identity_f1": 0.896
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__frame_template_3d__correlation.json",
+      "sha256": "699f66f3a21f9cf57f38428b13122447707d7239fbdcd87fcf05b39bd52de92b",
+      "coding": 64,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__frame_template_local_3d__regression.json",
+      "sha256": "8fb34cd89705adcd379424a2b62c097f1e77a0a2c98f49ffb66b1f90e1c3ee89",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 0.4318181818181818
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__frame_template_local_3d__regression.json",
+      "sha256": "702056f50a16041028d6551f5e324722b0dc2e71964174154e18d38a014447c8",
+      "coding": 45,
+      "negative": 0,
+      "identity_f1": 0.47191011235955055
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__source_round_3d__correlation.json",
+      "sha256": "8f1a2c2e14c9385d4d0e766be8696cdd7319c24f41003366344ed85ee88eab9f",
+      "coding": 59,
+      "negative": 0,
+      "identity_f1": 0.8943089430894309
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__frame_template_local_3d__source_spot.json",
+      "sha256": "6030d5c3fce1ba747d41982f12057637afce5aa0cd927e61640de5464777a6ea",
+      "coding": 26,
+      "negative": 0,
+      "identity_f1": 0.29473684210526313
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__source_round_3d__regression.json",
+      "sha256": "32e99280bad5d3e128232b112eef30ddbcdc9b2d2fafaa3f1f62c2b2298ec7f3",
+      "coding": 75,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__frame_template_local_3d__regression.json",
+      "sha256": "0e9fb9c9708da9f2e9fed541c6ebb136391ef7c539b8b23599364b6da6e894fc",
+      "coding": 43,
+      "negative": 0,
+      "identity_f1": 0.4827586206896552
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__frame_template_3d__source_spot.json",
+      "sha256": "7508093aa202d3a74b8219fa4cc001c52d58cf22ffc7f10bfabcff40db54bd22",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__frame_template_3d__source_spot.json",
+      "sha256": "3a31de33567ba806d3714d22b049c2bf15231e265966314a20b35979eee1a93d",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/zero__frame_template_3d__regression.json",
+      "sha256": "2b8b769a41db9dcd7aec3e77e16dd751758dedb221764d74601fad4188685edc",
+      "coding": 44,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__frame_template_3d__source_spot.json",
+      "sha256": "7fb131abfa0d296d6b31cc9242b4101ebf9b1794bf19d5fcf7ad86cf16bfd39b",
+      "coding": 69,
+      "negative": 0,
+      "identity_f1": 1.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/common__source_round_3d__source_spot.json",
+      "sha256": "aa2816cd41e7239df4ab756e4c5f80e67ad515c67128efd7fabff7bfb1db0f97",
+      "coding": 60,
+      "negative": 0,
+      "identity_f1": 0.8372093023255814
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/source-comparators/color__source_round_3d__correlation.json",
+      "sha256": "3e6ddafec87354d04b15d5b7ec53d894564e6585c3c07666d5ccc924813d63d3",
+      "coding": 84,
+      "negative": 0,
+      "identity_f1": 0.0
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_common_1_correlation.json",
+      "sha256": "bacaf69ca2fc159d516cbdea62ba58366d07acc80bf9c941e960d0b6f65f9446"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_common_1_regression.json",
+      "sha256": "206e1bd6481dc354cfa493c8042e64d629207b9e5e809ecbf9fea8d062700806"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_common_0_source_spot.json",
+      "sha256": "2164f8d8ba661d02ebd217dd072de72c26ffff2265e7db1dc95c5848fb55c581"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_common_0_regression.json",
+      "sha256": "6b1baf540f7e2da781527d3492ff641424c918b44ed4c8970c102ae3760d69af"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_common_0_correlation.json",
+      "sha256": "7af3dce242c30777e01029a8b6c516c7f75ed5d97d0ba9b8e36d363c45a6155c"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_common_1_source_spot.json",
+      "sha256": "accfe1da67fdcea183cd4c190d26662dd815365f34006dca6f031ffe7f4f5575"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_zero_1_regression.json",
+      "sha256": "80df77722ccc1116716b63f5cea9aa6a36c2d7b9eadf53fff40daeedd4cab36f"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_zero_1_correlation.json",
+      "sha256": "0c54b6d164b7b4098bf73e491081759b441fec203aa15dfb3f1970a2ee238f4d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_color_0_source_spot.json",
+      "sha256": "474ee85f4b7fc5c6d5dde7642a1cdd95c2b3593464b57fddebc6866bed658947"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_color_0_regression.json",
+      "sha256": "69071d74aaacbf261372befa0a7237696af0aed9a663aee508d9b4360074a9e3"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_zero_0_source_spot.json",
+      "sha256": "f6387d16a85f4fd2586007eeff8fec4a36723d727b5c8ccac6fd86aaaabeb470"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_color_1_correlation.json",
+      "sha256": "0eacf179d709bb920e48be2fdc8bd326c835e84b0a18f83f1e3157433b7005d9"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_color_1_regression.json",
+      "sha256": "78b2dac1aedf5834fda4bac2f5541b1e964442c9a5a05fd25effce55535d2450"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_zero_0_correlation.json",
+      "sha256": "0545cb154a84b6afc1f6e6c1463dda331bd3b122f94d9a4887eec56b707ef3cb"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_color_1_source_spot.json",
+      "sha256": "5a1e883c099f8fbaab7430d94a43d3eecbd53681513f4269cd0f30b8d5ab7126"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_zero_0_regression.json",
+      "sha256": "69b64f310c4fca539bca3860289a128e16637412ab4c24179b1dd3bf353db5a0"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_zero_1_source_spot.json",
+      "sha256": "0fd19caa48a4ad973ccf8c4889f2dcc66f9d553d88f5b32835105ed6f13ced1a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/starfinder_color_0_correlation.json",
+      "sha256": "03b6b0499214283ece82587538527e79a0c998f1a1ffd18e05475c78ba2dce1e"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_1_color_correlation.json",
+      "sha256": "ffdf1e558e18b7c2526ad84b5c4e4e72cef4dfe0cde4a97e135f5aed67aa5fcb"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_0_zero_regression.json",
+      "sha256": "62c77ca86d87a7cfe0d283ebff3f51e0a3af1e76df2b1c6d5bf295a0472dcb45"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_0_zero_correlation.json",
+      "sha256": "fd0b159237f2ad376af9498ab24c12f1a27e431d7df11bae7396044ca811378a"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_1_common_correlation.json",
+      "sha256": "cfbbbb815fd3e3c5a4c9bbfb17b17c10e0dde5d8726bc0b01b7f9b202032dd87"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_1_zero_regression.json",
+      "sha256": "b17b02bbfdd9f8e7754d44f3f7f3edc5a396c9eb8a09201ed4a339ad179a6f8d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_0_color_regression.json",
+      "sha256": "11056f6da88569a2e9a76da41c1e4167e09c4be929387e2463b2706b67a6cd9d"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_0_color_correlation.json",
+      "sha256": "d06120313b859b704f2064593899e6205ed3974fefa5b468904f0291ec07e292"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_0_common_correlation.json",
+      "sha256": "b4454675727bd3cab731220a766f90bfbfdb270976db709f7a97c9466303b4ff"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_1_zero_correlation.json",
+      "sha256": "bd32b4a17f1506cd245bc58cb08c0c7d25b13a2a63c878c9818afb80e431a664"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_0_common_regression.json",
+      "sha256": "e026135b288ab9a4c223ccf1095a2e227df17839046a89510a4a87de51ced18b"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_1_color_regression.json",
+      "sha256": "8e5d3c28b344b6246e6ba76e187303fb8be2293160400a7e5f96e2723612fcb4"
+    },
+    {
+      "file": "outputs/starfinder-public-confirmation-oct06/initialization/barseq3_1_common_regression.json",
+      "sha256": "1a8c5553303f25baaf3195be6e9d2e2cc0a730ad104e02579a408fadd1e53002"
+    }
+  ]
+}

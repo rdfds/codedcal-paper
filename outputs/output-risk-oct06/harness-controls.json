@@ -1,0 +1,143 @@
+{
+  "passed": true,
+  "map_banks_checked": 13,
+  "map_banks": [
+    {
+      "case": "bar_0_zero",
+      "candidates": 54,
+      "conventional": 2,
+      "incumbents": 2
+    },
+    {
+      "case": "bar_0_common",
+      "candidates": 55,
+      "conventional": 3,
+      "incumbents": 2
+    },
+    {
+      "case": "bar_0_color",
+      "candidates": 58,
+      "conventional": 5,
+      "incumbents": 4
+    },
+    {
+      "case": "bar_1_zero",
+      "candidates": 54,
+      "conventional": 2,
+      "incumbents": 2
+    },
+    {
+      "case": "bar_1_common",
+      "candidates": 58,
+      "conventional": 5,
+      "incumbents": 3
+    },
+    {
+      "case": "bar_1_color",
+      "candidates": 55,
+      "conventional": 2,
+      "incumbents": 2
+    },
+    {
+      "case": "culture_4_zero",
+      "candidates": 37,
+      "conventional": 1,
+      "incumbents": 1
+    },
+    {
+      "case": "culture_4_common",
+      "candidates": 42,
+      "conventional": 3,
+      "incumbents": 1
+    },
+    {
+      "case": "culture_4_color",
+      "candidates": 40,
+      "conventional": 3,
+      "incumbents": 3
+    },
+    {
+      "case": "tissue_4_zero",
+      "candidates": 32,
+      "conventional": 4,
+      "incumbents": 3
+    },
+    {
+      "case": "tissue_4_common",
+      "candidates": 35,
+      "conventional": 5,
+      "incumbents": 3
+    },
+    {
+      "case": "tissue_4_color",
+      "candidates": 37,
+      "conventional": 7,
+      "incumbents": 4
+    },
+    {
+      "case": "tissue_4_outclass",
+      "candidates": 40,
+      "conventional": 6,
+      "incumbents": 3
+    }
+  ],
+  "actual_kernel_inverse_records": [
+    {
+      "source": "bar",
+      "decoder": "correlation",
+      "calls": 30,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "bar",
+      "decoder": "regression",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "culture",
+      "decoder": "source_spot",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "culture",
+      "decoder": "correlation",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "culture",
+      "decoder": "regression",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "tissue",
+      "decoder": "source_spot",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "tissue",
+      "decoder": "correlation",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    },
+    {
+      "source": "tissue",
+      "decoder": "regression",
+      "calls": 16,
+      "exact_inverse_catalog": true
+    }
+  ],
+  "pinned_libraries_unchanged": true,
+  "control_sha256": "46a50789422184b6dfac319d2c264b96647d867866b46b7b978529a4d27b5005",
+  "numerical_driver_sha256_at_execution": "d3748cabbbf06e5019252d8c22e6ce79de2c230857c258a6d4466759b4dd4491",
+  "orchestration_updates_before_public_profiles": "Only orchestration/scoring metadata changed after inverse controls; decode, subset and confidence functions unchanged.",
+  "qualified_numerical_function_ast_sha256": {
+    "subset": "6a4474c466e74b9d7c9275300987b7eb1ff3791d71d16a1b07a4dceb534774c6",
+    "decode": "efcf602667ea264b3d8229b0e6f514b7a3c099bb75a2820c5f866be8f08f1c49",
+    "decoder_confidence": "10a63d87122375549ab08c45d25af0c39871e2701968a88737456f63a274d012"
+  }
+}

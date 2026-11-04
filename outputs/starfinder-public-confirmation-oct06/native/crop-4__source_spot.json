@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "crop": 4,
+  "decoder": "source_spot",
+  "xy": [
+    [
+      58.0,
+      102.0
+    ],
+    [
+      39.0,
+      93.0
+    ]
+  ],
+  "words": [
+    594,
+    633
+  ],
+  "coding": 2,
+  "negative": 0,
+  "support": 1.0,
+  "runtime": {
+    "kernel_s": 0.1766724159824662,
+    "candidates": 8,
+    "declared_qscore_not_applied": true
+  },
+  "input_sha256": "d85987560beb9b960af3521dc23569c9382fbf5391eede625370a9299b1bf39e",
+  "freeze_sha256": "bc83c646220571345787846320c50beadac9ec96433a8d96effc754eb9b7bd7e"
+}

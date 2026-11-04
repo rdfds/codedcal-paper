@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "raw_development_files_verified": 351,
+  "sealed_files_verified": 625,
+  "frozen_source_files_verified": 78,
+  "original_curated_files_verified": 19089,
+  "preceding_code_and_navigation_files_verified": 62,
+  "additional_preexisting_files_verified": 2357,
+  "additional_preexisting_bytes_verified": 446645341,
+  "original_estimator_cli_byte_identical": true,
+  "analysis_classifications_and_runtimes_unchanged": true,
+  "complete_development": true,
+  "readout_aware_increment_supported": false,
+  "native_culture_workflow_qualified": true,
+  "independent_comparison_completed": false,
+  "external_comparative_logical_calls": 0,
+  "conservative_total_charge": 843,
+  "new_network_calls": 0,
+  "new_fits_during_verification": 0,
+  "physical_validation_added": false
+}

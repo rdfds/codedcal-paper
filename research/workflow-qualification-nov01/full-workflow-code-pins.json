@@ -1,0 +1,13 @@
+{
+  "source_snapshot_commit": "94f63d0",
+  "code_sha256": {
+    "tool/src/codedcal/workflow_validation.py": "c7a891e262e8708d529dda56a129f35c9c50fdd906b0191003a5f14a77b56c5d",
+    "tool/src/codedcal/workflow_bardensr.py": "c5cf8851fdc3874415e1e2720a1437a15435c7377468b81080268d7b5c1d7138",
+    "research/workflow-qualification-nov01/full_source_adapter.py": "88ac231abbaa96d287986bfff36b49c93037641f4ac2ab48043cf0b2f3d83d7f",
+    "research/workflow-qualification-nov01/native_serval_adapter.py": "578297bd2687c583802a8dbd016349b410f691e125e41873429fe36d316ce2e3",
+    "research/workflow-qualification-nov01/qualify_full_workflow.py": "4840b9a4de9d3480cfc50eff1ead90bf265fdace339ae092ebd7759362f25906",
+    "research/workflow-qualification-nov01/prepare_source_fullfield.py": "d623eed63fecb505c53b287ffa0dedddddbe965f86c09ac5ff597fe9722faa52"
+  },
+  "workflow_validation_frozen_copy": "research/workflow-qualification-nov01/frozen-v1/tool/src/codedcal/workflow_validation.py",
+  "no_refit_after_api_repairs": true
+}

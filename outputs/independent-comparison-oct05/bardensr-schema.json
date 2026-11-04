@@ -1,0 +1,336 @@
+{
+  "colorbleed_benchmark.hdf5": {
+    "sha256": "3e0985e131a6e9461b7cad4483161a519594a86a5e1263968c741995633f805f",
+    "size": 8981636,
+    "metadata": {
+      "GT_voxels": {
+        "group": true
+      },
+      "GT_voxels/j": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "GT_voxels/m0": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "GT_voxels/m1": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "GT_voxels/m2": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "X": {
+        "shape": [
+          7,
+          4,
+          1,
+          200,
+          200
+        ],
+        "dtype": "float64"
+      },
+      "codebook": {
+        "shape": [
+          7,
+          4,
+          65
+        ],
+        "dtype": "bool"
+      },
+      "rolonies": {
+        "group": true
+      },
+      "rolonies/j": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m0": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m1": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m2": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/remarks": {
+        "shape": [
+          158
+        ],
+        "dtype": "|S13"
+      },
+      "rolonies/status": {
+        "shape": [
+          158
+        ],
+        "dtype": "|S9"
+      }
+    },
+    "attributes": {
+      "description": "barseq data from CSHL",
+      "name": "cb46b650-be45-11eb-a0c9-0242ac110002",
+      "version": "0"
+    }
+  },
+  "bc_L2_MAX_M1-L2_000_002_x1500_y600_v004.hdf5": {
+    "sha256": "520cabe0d7ac2cb7ec869219a7a477c846f69faea3d59c38090ab6048b793b72",
+    "size": 8979524,
+    "metadata": {
+      "X": {
+        "shape": [
+          7,
+          4,
+          1,
+          200,
+          200
+        ],
+        "dtype": "float64"
+      },
+      "codebook": {
+        "shape": [
+          7,
+          4,
+          67
+        ],
+        "dtype": "bool"
+      },
+      "rolonies": {
+        "group": true
+      },
+      "rolonies/j": {
+        "shape": [
+          134
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m0": {
+        "shape": [
+          134
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m1": {
+        "shape": [
+          134
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m2": {
+        "shape": [
+          134
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/remarks": {
+        "shape": [
+          134
+        ],
+        "dtype": "|S13"
+      },
+      "rolonies/status": {
+        "shape": [
+          134
+        ],
+        "dtype": "|S9"
+      }
+    },
+    "attributes": {
+      "description": "barseq data from CSHL",
+      "name": "bc_L2_MAX_M1-L2_000_002_x1500_y600",
+      "version": "4"
+    }
+  },
+  "registration_benchmark.hdf5": {
+    "sha256": "def2439fb4c1f445159499678e1cd1e95bd411acfa6033f9c70b2ee2d484eae1",
+    "size": 5055392,
+    "metadata": {
+      "GT_voxels": {
+        "group": true
+      },
+      "GT_voxels/j": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "GT_voxels/m0": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "GT_voxels/m1": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "GT_voxels/m2": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "X": {
+        "shape": [
+          7,
+          4,
+          1,
+          150,
+          150
+        ],
+        "dtype": "float64"
+      },
+      "codebook": {
+        "shape": [
+          7,
+          4,
+          65
+        ],
+        "dtype": "bool"
+      },
+      "rolonies": {
+        "group": true
+      },
+      "rolonies/j": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m0": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m1": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m2": {
+        "shape": [
+          0
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/remarks": {
+        "shape": [
+          0
+        ],
+        "dtype": "|S1"
+      },
+      "rolonies/status": {
+        "shape": [
+          0
+        ],
+        "dtype": "|S1"
+      },
+      "translations": {
+        "shape": [
+          7,
+          4,
+          3
+        ],
+        "dtype": "float64"
+      }
+    },
+    "attributes": {
+      "description": "barseq data from CSHL",
+      "name": "422f7604-be3b-11eb-9ae5-0242ac110002",
+      "version": "1"
+    }
+  },
+  "ab701a5a-2dc3-11eb-9890-0242ac110002.hdf5": {
+    "sha256": "d78bd29c10642c7f0ee30ae2d29445e0d0b5c44a6329846fc926f0f90751fbf6",
+    "size": 8980820,
+    "metadata": {
+      "X": {
+        "shape": [
+          7,
+          4,
+          1,
+          200,
+          200
+        ],
+        "dtype": "float64"
+      },
+      "codebook": {
+        "shape": [
+          7,
+          4,
+          65
+        ],
+        "dtype": "bool"
+      },
+      "rolonies": {
+        "group": true
+      },
+      "rolonies/j": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m0": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m1": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/m2": {
+        "shape": [
+          158
+        ],
+        "dtype": "int64"
+      },
+      "rolonies/remarks": {
+        "shape": [
+          158
+        ],
+        "dtype": "|S13"
+      },
+      "rolonies/status": {
+        "shape": [
+          158
+        ],
+        "dtype": "|S9"
+      }
+    },
+    "attributes": {
+      "description": "barseq data from CSHL",
+      "name": "ab701a5a-2dc3-11eb-9890-0242ac110002",
+      "version": "4"
+    }
+  }
+}

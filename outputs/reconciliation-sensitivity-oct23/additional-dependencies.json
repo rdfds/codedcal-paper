@@ -1,0 +1,77 @@
+{
+  "files": [
+    {
+      "path": "outputs/replication-edf1112-sep15/field_results_edf1112.json",
+      "sha256": "1511b3e48dc69c72e83cc671508a2103bddfe56fe8f870ba408eefc028ec24dc",
+      "git_blob": "8782b948d1e4fc1f63c799a25abcc8d76df78338",
+      "bytes": 47999
+    },
+    {
+      "path": "outputs/edf10-replication-sep15/field_results_edf10.json",
+      "sha256": "da977bc190f2b4c292944368cff49951c33001651c3a0ec3f8fbd1d3761c2a83",
+      "git_blob": "71dc8f1f4ac5faacda8b1027c98d468741855ea4",
+      "bytes": 10887
+    },
+    {
+      "path": "outputs/replication-cd20-sep15/field_results_edf10rep2.json",
+      "sha256": "76c13c9ef38a72c9ea6a678ceaf88b3dc16971c248294a2214ec6c05f57e306a",
+      "git_blob": "b3dbfd9596109d09801140100708c92592fe3b0f",
+      "bytes": 11756
+    },
+    {
+      "path": "outputs/replication-cd20-sep15/field_results_fig4untreated.json",
+      "sha256": "81d7c8fd6d85dccafcbd20f4bfe7d978dbf11a6347235303edccc6df75e9c447",
+      "git_blob": "c555ca5d26513c06ed82414c4318602846a01cdf",
+      "bytes": 11757
+    },
+    {
+      "path": "outputs/oracle-crossval-sep15/real_oracle.json",
+      "sha256": "d5adc682a8b319f8a3759cbcef9cbeffd45eceb6bcbc5b16682cdeb8a1e3396c",
+      "git_blob": "953231109aadd975e93e64b1c2090f623e14c937",
+      "bytes": 4443
+    },
+    {
+      "path": "outputs/independent-field-sep15/frozen_constants.json",
+      "sha256": "21c17233ec80f53252e241ffa4aaa7b4c49132d6b81080767706847ea1b32766",
+      "git_blob": "54fda1dab7cd7c7a48271f092753e30189c98269",
+      "bytes": 545
+    },
+    {
+      "path": "outputs/independent-field-sep15/field_results.json",
+      "sha256": "4c5501cc45bc01de1108a8581eb104bff16fd699440c27b09f59ccd7bcd87540",
+      "git_blob": "dfe1c601d79876ba3ceb0e74cdda14f817db94b7",
+      "bytes": 8774
+    },
+    {
+      "path": "outputs/heldout-nup96-sep30/sdc-recovery.json",
+      "sha256": "aa4f807ca69c89e0708afbd1773695636a56fc5ff5cf2c398be711cce45c1c16",
+      "git_blob": "554e633b528f83de257192f39abe35c22f1bf7b8",
+      "bytes": 1191
+    },
+    {
+      "path": "outputs/independent-field-sep15/drift_trace_round1.npy",
+      "sha256": "89adab5d115e11afacd5897ba609f8460b6cce66f24d7d4e4b48eee6db9540b8",
+      "git_blob": "301b60116fbd8011994b2827bf1723cdbe7e8d9c",
+      "bytes": 1488
+    },
+    {
+      "path": "outputs/independent-field-sep15/drift_trace_round2.npy",
+      "sha256": "6afa03fbe4b077557ea8be91009130708fe6e75cbc0af02ca8659ff456c86454",
+      "git_blob": "41994661cdc6949c8ddcb108baec0ded688b7e49",
+      "bytes": 1488
+    },
+    {
+      "path": "outputs/independent-field-sep15/drift_trace_round3.npy",
+      "sha256": "2ea897f411b1bfb957d5b3674b9c1e5d51d833f1e937eb64d2e8288dfe2f4390",
+      "git_blob": "bbe346651d77ba371833104d4c8b380051871e70",
+      "bytes": 1488
+    },
+    {
+      "path": "outputs/independent-field-sep15/drift_trace_round4.npy",
+      "sha256": "ee7784ce32512a5536c3da7341862d1b13120fe6df2f197d1b5380496ede4056",
+      "git_blob": "3c581e3099c17c7a1dffcba70b4c2d31f193c9e2",
+      "bytes": 1488
+    }
+  ],
+  "recorded": "After scientific execution; each file independently checked identical to the pre-analysis f7f6c57 Git blob. No claim this supplemental manifest was created before outcomes."
+}

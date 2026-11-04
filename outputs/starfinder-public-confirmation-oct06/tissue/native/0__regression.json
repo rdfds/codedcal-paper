@@ -1,0 +1,34 @@
+{
+  "crop": 0,
+  "decoder": "regression",
+  "status": "completed",
+  "catalog": {
+    "xyz": [
+      [
+        51,
+        29,
+        22
+      ],
+      [
+        74,
+        92,
+        14
+      ]
+    ],
+    "words": [
+      18,
+      43
+    ],
+    "coding": 2,
+    "negative": null,
+    "candidate_objects": 2,
+    "unsupported_candidates": 193,
+    "abstained": 0,
+    "coverage": 0.010256410256410256,
+    "runtime": {
+      "elapsed_s": 0.6147435830207542
+    },
+    "negative_proxy_unavailable": true
+  },
+  "input_sha256": "c06de335e5f147f834f3f7b8092e156378b873b0c1bcf362bbad2fbc0bfc6970"
+}

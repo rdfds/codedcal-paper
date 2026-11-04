@@ -1,0 +1,725 @@
+{
+  "url": "https://pmc-oa-opendata.s3.amazonaws.com/PMC13192599.1/media-1.xlsx?md5=96f6d9a8478c6c9be9806edcc5c89bae",
+  "sha256": "317888b90cc7fb7d4a9f0db0a56006efa140fe8b10874063fe7b7c56d3eddc1c",
+  "sheets": {
+    "SNAIL probes Mouse": {
+      "row_elements": 1005,
+      "dimension": {
+        "ref": "A1:B1005"
+      },
+      "first_four_metadata_rows": [
+        [],
+        [
+          {
+            "cell": "A2",
+            "value": "SNAIL probes"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": "Gad1"
+          },
+          {
+            "cell": "B3",
+            "value": "/5Phos/ACATTATCTCTACAGTCAACCAGGATCTGTCGGACTGTAGAACTCTCTAGAAGATA"
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Gad1"
+          },
+          {
+            "cell": "B4",
+            "value": "/5Phos/ACATTAAGTATCATACGTTGTAGGGCGTCGGACTGTAGAACTCTCTAGAAGATA"
+          }
+        ]
+      ]
+    },
+    "SNAIL probes Frog": {
+      "row_elements": 33,
+      "dimension": {
+        "ref": "A1:B33"
+      },
+      "first_four_metadata_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "SNAIL probes"
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "gad1.1"
+          },
+          {
+            "cell": "B2",
+            "value": "/5Phos/ACATTAAGATTTGCTCCAAGGACTCTGGGTCGGACTGTAGAACTCTCATCCACAAGATA"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": "gad1.1"
+          },
+          {
+            "cell": "B3",
+            "value": "/5Phos/ACATTAATTTTCACACACCAGGAGGTGTCGGACTGTAGAACTCTCATCCACAAGATA"
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "gad1.1"
+          },
+          {
+            "cell": "B4",
+            "value": "/5Phos/ACATTAAATCCTGCTCTTGTCATCCAAAGTCGGACTGTAGAACTCTCATCCACAAGATA"
+          }
+        ]
+      ]
+    },
+    "SNAIL probes Bird": {
+      "row_elements": 999,
+      "dimension": {
+        "ref": "A1:B999"
+      },
+      "first_four_metadata_rows": [
+        [],
+        [
+          {
+            "cell": "A2",
+            "value": "SNAIL probes"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": "Plp1"
+          },
+          {
+            "cell": "B3",
+            "value": "/5Phos/ATTTCATAGAAGCCTTCGGCCAACAGCAGGTCGGACTGTAGAACTCTGAAGAGACAATGTTTGA"
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Plp1"
+          },
+          {
+            "cell": "B4",
+            "value": "/5Phos/ATTTCAGGCCCTTGCCGCAGATGGTGGTGTCGGACTGTAGAACTCTGAAGAGACAATGTTTGA"
+          }
+        ]
+      ]
+    },
+    "SNAIL probes Octopus": {
+      "row_elements": 1000,
+      "dimension": {
+        "ref": "A1:B1000"
+      },
+      "first_four_metadata_rows": [
+        [],
+        [
+          {
+            "cell": "A2",
+            "value": "SNAIL probes"
+          }
+        ],
+        [],
+        [
+          {
+            "cell": "A4",
+            "value": "Vgat2"
+          },
+          {
+            "cell": "B4",
+            "value": "ACCCCAACACAGAGAAAATGGGCTTCGACTAAG"
+          }
+        ]
+      ]
+    },
+    "Adult Cb Codebook": {
+      "row_elements": 1772,
+      "dimension": {
+        "ref": "A1:B1772"
+      },
+      "first_four_metadata_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "Gene_name"
+          },
+          {
+            "cell": "B1",
+            "value": "Codebook"
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "0610010K14Rik"
+          },
+          {
+            "cell": "B2",
+            "value": "CGGATGTACA"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": "AU041133"
+          },
+          {
+            "cell": "B3",
+            "value": "GGTGATACAG"
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Adgrf5"
+          },
+          {
+            "cell": "B4",
+            "value": "ATACGTTGAT"
+          }
+        ]
+      ]
+    },
+    "Adult Cb SNAIL Probes": {
+      "row_elements": 3825,
+      "dimension": {
+        "ref": "A1:Y3825"
+      },
+      "first_four_metadata_rows": [
+        [
+          {
+            "cell": "A1",
+            "value": "Cell Adhesion and Migration Molecule Genes"
+          },
+          {
+            "cell": "B1",
+            "value": ""
+          },
+          {
+            "cell": "C1",
+            "value": ""
+          },
+          {
+            "cell": "D1",
+            "value": ""
+          },
+          {
+            "cell": "E1",
+            "value": ""
+          },
+          {
+            "cell": "F1",
+            "value": "Transcription Factor Genes"
+          },
+          {
+            "cell": "G1",
+            "value": ""
+          },
+          {
+            "cell": "H1",
+            "value": ""
+          },
+          {
+            "cell": "I1",
+            "value": ""
+          },
+          {
+            "cell": "J1",
+            "value": ""
+          },
+          {
+            "cell": "K1",
+            "value": ""
+          },
+          {
+            "cell": "L1",
+            "value": ""
+          },
+          {
+            "cell": "M1",
+            "value": ""
+          },
+          {
+            "cell": "N1",
+            "value": ""
+          },
+          {
+            "cell": "O1",
+            "value": ""
+          },
+          {
+            "cell": "P1",
+            "value": ""
+          },
+          {
+            "cell": "Q1",
+            "value": ""
+          },
+          {
+            "cell": "R1",
+            "value": ""
+          },
+          {
+            "cell": "S1",
+            "value": ""
+          },
+          {
+            "cell": "T1",
+            "value": ""
+          },
+          {
+            "cell": "U1",
+            "value": ""
+          },
+          {
+            "cell": "V1",
+            "value": ""
+          },
+          {
+            "cell": "W1",
+            "value": ""
+          },
+          {
+            "cell": "X1",
+            "value": ""
+          },
+          {
+            "cell": "Y1",
+            "value": ""
+          }
+        ],
+        [
+          {
+            "cell": "A2",
+            "value": "Gene"
+          },
+          {
+            "cell": "B2",
+            "value": "Primer Sequence"
+          },
+          {
+            "cell": "C2",
+            "value": "Padlock Sequence"
+          },
+          {
+            "cell": "D2",
+            "value": ""
+          },
+          {
+            "cell": "E2",
+            "value": ""
+          },
+          {
+            "cell": "F2",
+            "value": "Gene"
+          },
+          {
+            "cell": "G2",
+            "value": "Primer Sequence"
+          },
+          {
+            "cell": "H2",
+            "value": ""
+          },
+          {
+            "cell": "I2",
+            "value": "Padlock Sequence"
+          },
+          {
+            "cell": "J2",
+            "value": ""
+          },
+          {
+            "cell": "K2",
+            "value": ""
+          },
+          {
+            "cell": "L2",
+            "value": ""
+          },
+          {
+            "cell": "M2",
+            "value": ""
+          },
+          {
+            "cell": "N2",
+            "value": ""
+          },
+          {
+            "cell": "O2",
+            "value": ""
+          },
+          {
+            "cell": "P2",
+            "value": ""
+          },
+          {
+            "cell": "Q2",
+            "value": ""
+          },
+          {
+            "cell": "R2",
+            "value": ""
+          },
+          {
+            "cell": "S2",
+            "value": ""
+          },
+          {
+            "cell": "T2",
+            "value": ""
+          },
+          {
+            "cell": "U2",
+            "value": ""
+          },
+          {
+            "cell": "V2",
+            "value": ""
+          },
+          {
+            "cell": "W2",
+            "value": ""
+          },
+          {
+            "cell": "X2",
+            "value": ""
+          },
+          {
+            "cell": "Y2",
+            "value": ""
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": "Abl1"
+          },
+          {
+            "cell": "B3",
+            "value": "AGCCTTTGGAGGTAACGAGGTTCAAGACAACGT"
+          },
+          {
+            "cell": "C3",
+            "value": "TCTTGAGGTGCTACGAGGACCATGGAGTCGGACTGTAGAACTCTAACGTGTGGTACGTTG"
+          },
+          {
+            "cell": "D3",
+            "value": ""
+          },
+          {
+            "cell": "E3",
+            "value": ""
+          },
+          {
+            "cell": "F3",
+            "value": "0610010K14Rik|protein_coding"
+          },
+          {
+            "cell": "G3",
+            "value": "ATGCAGCTGCATCGTCAACTCACTATCCCCCTA"
+          },
+          {
+            "cell": "H3",
+            "value": ""
+          },
+          {
+            "cell": "I3",
+            "value": "GATAGTCCGAGCTTCGTGAAGGCGGGTCGGACTGTAGAACTCTCGGATGTACATAGGGG"
+          },
+          {
+            "cell": "J3",
+            "value": ""
+          },
+          {
+            "cell": "K3",
+            "value": ""
+          },
+          {
+            "cell": "L3",
+            "value": ""
+          },
+          {
+            "cell": "M3",
+            "value": ""
+          },
+          {
+            "cell": "N3",
+            "value": ""
+          },
+          {
+            "cell": "O3",
+            "value": ""
+          },
+          {
+            "cell": "P3",
+            "value": ""
+          },
+          {
+            "cell": "Q3",
+            "value": ""
+          },
+          {
+            "cell": "R3",
+            "value": ""
+          },
+          {
+            "cell": "S3",
+            "value": ""
+          },
+          {
+            "cell": "T3",
+            "value": ""
+          },
+          {
+            "cell": "U3",
+            "value": ""
+          },
+          {
+            "cell": "V3",
+            "value": ""
+          },
+          {
+            "cell": "W3",
+            "value": ""
+          },
+          {
+            "cell": "X3",
+            "value": ""
+          },
+          {
+            "cell": "Y3",
+            "value": ""
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Abl1"
+          },
+          {
+            "cell": "B4",
+            "value": "AGAGCTGGCTTTTCGCTTTTTCAAGACAACGT"
+          },
+          {
+            "cell": "C4",
+            "value": "TCTTGATGCCCTCCAAAGGTGGATGGTCGGACTGTAGAACTCTAACGTGTGGTACGTTG"
+          },
+          {
+            "cell": "D4",
+            "value": ""
+          },
+          {
+            "cell": "E4",
+            "value": ""
+          },
+          {
+            "cell": "F4",
+            "value": "0610010K14Rik|protein_coding"
+          },
+          {
+            "cell": "G4",
+            "value": "AGGGGCGTTTGGAGGTGAGAGACTATCCCCCTA"
+          },
+          {
+            "cell": "H4",
+            "value": ""
+          },
+          {
+            "cell": "I4",
+            "value": "GATAGTCACCGGACGTCATCTTCTTGGGTGTCGGACTGTAGAACTCTCGGATGTACATAGGGG"
+          },
+          {
+            "cell": "J4",
+            "value": ""
+          },
+          {
+            "cell": "K4",
+            "value": ""
+          },
+          {
+            "cell": "L4",
+            "value": ""
+          },
+          {
+            "cell": "M4",
+            "value": ""
+          },
+          {
+            "cell": "N4",
+            "value": ""
+          },
+          {
+            "cell": "O4",
+            "value": ""
+          },
+          {
+            "cell": "P4",
+            "value": ""
+          },
+          {
+            "cell": "Q4",
+            "value": ""
+          },
+          {
+            "cell": "R4",
+            "value": ""
+          },
+          {
+            "cell": "S4",
+            "value": ""
+          },
+          {
+            "cell": "T4",
+            "value": ""
+          },
+          {
+            "cell": "U4",
+            "value": ""
+          },
+          {
+            "cell": "V4",
+            "value": ""
+          },
+          {
+            "cell": "W4",
+            "value": ""
+          },
+          {
+            "cell": "X4",
+            "value": ""
+          },
+          {
+            "cell": "Y4",
+            "value": ""
+          }
+        ]
+      ]
+    },
+    "TRI probes": {
+      "row_elements": 1000,
+      "dimension": {
+        "ref": "A1:B1000"
+      },
+      "first_four_metadata_rows": [
+        [],
+        [
+          {
+            "cell": "A2",
+            "value": "Splint probes \uff08Zeng et al.,2023, Science\uff09"
+          },
+          {
+            "cell": "B2",
+            "value": ""
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": ""
+          },
+          {
+            "cell": "B3",
+            "value": ""
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Splint_18SRNA_50A_InvdT_1"
+          },
+          {
+            "cell": "B4",
+            "value": "ACAAAATAGAACCGCGGTCCTATTCAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA AAA TAT CTT TAG T*G*T* /3InvdT/"
+          }
+        ]
+      ]
+    },
+    "BARseq2 probes": {
+      "row_elements": 988,
+      "dimension": {
+        "ref": "A1:B988"
+      },
+      "first_four_metadata_rows": [
+        [],
+        [
+          {
+            "cell": "A2",
+            "value": "Padlocks"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": ""
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "Vglut1"
+          },
+          {
+            "cell": "B4",
+            "value": "/5Phos/ctctgtgacgtaaatcctgcccGATCGTCGGACTGTAGAACTCTGAACCTGTCGTGAAGAGCCTgggtcgtgtcttggtgtctgt"
+          }
+        ]
+      ]
+    },
+    "Barcode probes": {
+      "row_elements": 4,
+      "dimension": {
+        "ref": "A2:B5"
+      },
+      "first_four_metadata_rows": [
+        [
+          {
+            "cell": "A2",
+            "value": "The following sequences are from Sun et al.(2021, Nature Neuroscience)"
+          }
+        ],
+        [
+          {
+            "cell": "A3",
+            "value": "XC1164"
+          },
+          {
+            "cell": "B3",
+            "value": "/5phos/gtactgcggccgctacctaaTCCTCTATGATTACTGACTGCGTCTATTTAGTGGAGCCATTGCTATCTTCTTacacgacgctcttccgatct"
+          }
+        ],
+        [
+          {
+            "cell": "A4",
+            "value": "XC1164seq1b"
+          },
+          {
+            "cell": "B4",
+            "value": "T+CT+TA+CA+CG+AC+GC+TCTTCCGATCT"
+          }
+        ],
+        [
+          {
+            "cell": "A5",
+            "value": "XC1215"
+          },
+          {
+            "cell": "B5",
+            "value": "/5AmMC12/T+AC+AG+CT+AG+CG+GT+GGTCGTACCTCACGACG"
+          }
+        ]
+      ]
+    }
+  },
+  "exposure": "Probe-design table headers/first metadata rows; no raw images or expression outcomes"
+}

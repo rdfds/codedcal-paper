@@ -1,0 +1,411 @@
+{
+  "pid": 18147,
+  "command": "research/workflow-qualification-nov01/fetch_fresh_pixels.py",
+  "stage": "raw_input_retained",
+  "records": [
+    {
+      "round": 1,
+      "name": "merFISH_merged_01_000.tiff",
+      "id": 12555727,
+      "md5": "940f522dd601a480acc418de93e308c0",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555727",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:31 GMT",
+        "ETag": "\"a9d4cb2e90dc6473168340f969e429b5-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "236771f148470c7442b1d95025289550ef283ea83d051faf3106a63df745d356",
+      "actual_md5": "940f522dd601a480acc418de93e308c0",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 1,
+          "readout": "RS0015",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 2,
+          "readout": "RS0083",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-01.npz",
+      "extraction_sha256": "93a74b2a323bcd4f809feb277943bf5857b46d424d6dd0abfb0be5fe80e7d080",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 2,
+      "name": "merFISH_merged_02_000.tiff",
+      "id": 12555679,
+      "md5": "3c88677d80c83998864f26912dd664cd",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555679",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:45 GMT",
+        "ETag": "\"b1c9dba24ec1d95809efbfb28fc721b3-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "128c050314d0bca8308fbf546b4ac5e5fe461bca812879d85cc82950eb0423a2",
+      "actual_md5": "3c88677d80c83998864f26912dd664cd",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 3,
+          "readout": "RS0095",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 4,
+          "readout": "RS0109",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-02.npz",
+      "extraction_sha256": "c33fcf820d4506e4a44784ea8c9f91eb5d3e8efc67644df177e247f527653b29",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 3,
+      "name": "merFISH_merged_03_000.tiff",
+      "id": 12555622,
+      "md5": "cc312eb920ef9aba556c62563dcd7892",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555622",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"606dfdc313790160dfe74b74784eea51-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "a7e81ff296ce0c1b909a27e5cdeea3f32a724384477afe535ac55e639e9cd001",
+      "actual_md5": "cc312eb920ef9aba556c62563dcd7892",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 5,
+          "readout": "RS0175",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 6,
+          "readout": "RS0237",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-03.npz",
+      "extraction_sha256": "c39e738d8e879b79cd650e3458e580135ac2de79e18741917de5217856a8d49c",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 4,
+      "name": "merFISH_merged_04_000.tiff",
+      "id": 12555714,
+      "md5": "931b109bb53fc94a1651a7740bbe4386",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555714",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:14 GMT",
+        "ETag": "\"97e30b905db53c8b49bcd96a4f5a4420-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "7bd3fe40674a1136ba549b2dc18d2843c8506ed40ee6e1fa37f47a656e6e8980",
+      "actual_md5": "931b109bb53fc94a1651a7740bbe4386",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 7,
+          "readout": "RS0247",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 8,
+          "readout": "RS0255",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-04.npz",
+      "extraction_sha256": "f98d3a5557a402f6cc2997f4d7326aadec18a6d2b0606525550f4c0a776dcbf8",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 5,
+      "name": "merFISH_merged_05_000.tiff",
+      "id": 12555621,
+      "md5": "2719e62d65d2208741cffe8e8d802425",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555621",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:55 GMT",
+        "ETag": "\"f21c560f819cf2221a337bf968ae1375-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "1fad3afaa14d1cf12470988616a4eb0ed4ffb96521f1c9875d0aca6103f29918",
+      "actual_md5": "2719e62d65d2208741cffe8e8d802425",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 9,
+          "readout": "RS0307",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 10,
+          "readout": "RS0332",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-05.npz",
+      "extraction_sha256": "decd741a418fbd882325e80fb638b12605e86750612ea1f097959db6a4a9a9dc",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 6,
+      "name": "merFISH_merged_06_000.tiff",
+      "id": 12555702,
+      "md5": "ba93704256ee43183bc96efd1725f33c",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555702",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:13 GMT",
+        "ETag": "\"9759c68f44909e7b37cf1ef8daf9469d-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "5dfe7da4f1b1019a2b9990fe97fb1fb3b5deee75cd8eded6e801ca069cb4335d",
+      "actual_md5": "ba93704256ee43183bc96efd1725f33c",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 11,
+          "readout": "RS0343",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 12,
+          "readout": "RS0384",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-06.npz",
+      "extraction_sha256": "2e81853d2effe61eadb7cfe5948061de99ec1423ed096313dc617c93c1495dc0",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 7,
+      "name": "merFISH_merged_07_000.tiff",
+      "id": 12555643,
+      "md5": "6c54d000f617b645d658214f02f01166",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555643",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Content-Length": "232717320",
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:15 GMT",
+        "ETag": "\"ccfd369c70ff4544a3a9c14363194d7c-4\"",
+        "Content-Type": "image/tiff"
+      },
+      "bytes_received": 232717320,
+      "sha256": "4842cbb690bb30932960b49bd2fccde83dc04061a3b0621654f36002ec763e2d",
+      "actual_md5": "6c54d000f617b645d658214f02f01166",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 13,
+          "readout": "RS0406",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 14,
+          "readout": "RS0451",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-07.npz",
+      "extraction_sha256": "2598719083c57bece1b9efe30c2b4b45ed7fc51a1a8c6d0f6d4e1b5a5938bf8a",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 8,
+      "name": "merFISH_merged_08_000.tiff",
+      "id": 12555709,
+      "md5": "e312605a9e1f8bed3c523ef424b7006b",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555709",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:36:44 GMT",
+        "ETag": "\"875bf7b5f934afb4e3a586a2ac049abc-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "a59dc5dfc5546b99729748fedd5435937734085d2f8f13683d938b8274afbb15",
+      "actual_md5": "e312605a9e1f8bed3c523ef424b7006b",
+      "tiff_pages": 45,
+      "mapping": [
+        {
+          "bit": 15,
+          "readout": "RS0468",
+          "color": 561,
+          "z_index": 7,
+          "frame_index": 22,
+          "shape": [
+            256,
+            256
+          ]
+        },
+        {
+          "bit": 16,
+          "readout": "RS0548",
+          "color": 650,
+          "z_index": 7,
+          "frame_index": 23,
+          "shape": [
+            256,
+            256
+          ]
+        }
+      ],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-08.npz",
+      "extraction_sha256": "763d30d08709ad87cc74ec7e23f2d1b587ee902c6ca30c6f08daf37933e04d89",
+      "publisher_md5_verified": true
+    },
+    {
+      "round": 9,
+      "name": "merFISH_merged_09_000.tiff",
+      "id": 12555720,
+      "md5": "0221b4d3489e62ca0c0f43e4605242c5",
+      "bytes": 232717320,
+      "url": "https://dataverse.harvard.edu/api/access/datafile/12555720",
+      "stage": "verified_and_extracted",
+      "status": 200,
+      "headers": {
+        "Last-Modified": "Tue, 17 Feb 2026 22:37:05 GMT",
+        "ETag": "\"be501ede7e75d0ab49403e7750e0e383-4\"",
+        "Content-Type": "image/tiff",
+        "Content-Length": "232717320"
+      },
+      "bytes_received": 232717320,
+      "sha256": "934cbfef76c0a40a7d0a76faf335877d9589536a15303f31219c33fe1428a29c",
+      "actual_md5": "0221b4d3489e62ca0c0f43e4605242c5",
+      "tiff_pages": 45,
+      "mapping": [],
+      "extraction": "external-originals/2026-09-25/can-y/work/workflow-qualification-fresh.nosync/round-09.npz",
+      "extraction_sha256": "f560bbe86f658268143d9d9c922524fdce536fd96ebdb42eca80eab782d60412",
+      "publisher_md5_verified": true
+    }
+  ],
+  "transport_bytes": 2094455880,
+  "started_epoch": 1793566880.990824,
+  "error": null,
+  "comparative_outcomes_examined": false
+}

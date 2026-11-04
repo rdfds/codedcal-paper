@@ -1,0 +1,21 @@
+{
+  "fields": [
+    {
+      "field": 0,
+      "independent_numpy_calls": 70,
+      "native_tf_calls": 70,
+      "exact_calls_match": true,
+      "native_reference_sha256": "05fe6cefe02cdd885219573c517510a46b82cecc8daf13f83c15e97794c6ac1b"
+    },
+    {
+      "field": 1,
+      "independent_numpy_calls": 125,
+      "native_tf_calls": 125,
+      "exact_calls_match": true,
+      "native_reference_sha256": "4515c38fa2b7a0b030460e03dc63f7f57f9cb93c474339fe31ce57d693e4de98"
+    }
+  ],
+  "all_pass": true,
+  "script_sha256": "8284ac7a5b28c069cb3bad3a4296651429d53bd772e12630d173f22a01c1160e",
+  "scope": "Independent numerical kernel and peak recount; not independent biological reference"
+}

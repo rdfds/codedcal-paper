@@ -1,0 +1,295 @@
+{
+  "integer_arms_verified": 120,
+  "recovery_arms_verified": 60,
+  "radii": [
+    1.5,
+    3,
+    5
+  ],
+  "native_array_hashes_verified": 20,
+  "matched_full_offset_distributions_verified": true,
+  "note": "Independent retained-call recount and lineage check using frozen scoring definitions; not independent biological validation.",
+  "scripts_sha256": "e52fc020e187558b2e8d01289d4c8b89b10710aba04648a57e28cbe5bdded9c7",
+  "files": [
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/development/zero-a0.json",
+      "sha256": "54473fedd5fa4abf63f901cf311c6ca957c716883a3ea381de6dc0c96d0a4087"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/development/round-a2.json",
+      "sha256": "b28f761f705490b7cd3f81edd16e16b9530a933cda73cbfad42f219e8923dcb3"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/development/round-a4.json",
+      "sha256": "4d7d73248f197a18e55a618d0e63e1aa6692e283577d0810592caa7b7b2a9449"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/development/color-a2.json",
+      "sha256": "af75446a37b98fb9a17525390b767314080095789da029bacbb9ab25b300880b"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/development/color-a4.json",
+      "sha256": "4f547aa5f41d7a874b631882e54f3acf5f90c2987abcc35f6a1d3a389db82958"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/validation/zero-a0.json",
+      "sha256": "c84b65b1043bfe60d71206de73f0c450711a52f49e68cf2ea89c1d3138a78395"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/validation/round-a2.json",
+      "sha256": "daddeffdc7c9c181746d307362f4fb9cbc1354b292adaf4b75271713655e68d4"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/validation/round-a4.json",
+      "sha256": "f39fc6f8e12e4cd42c6cb318f2944b18d0ace28b39b360e9b8679306fc437f2d"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/validation/color-a2.json",
+      "sha256": "cf803ab974f11a58a188babc2e68b5e3938340d28ddd01d84c5ad802c9df8855"
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/integer-control/validation/color-a4.json",
+      "sha256": "4a38c474428343b0c7f491712771e3c1b886243d075d93d2c6d4367f9e4939c0"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__none__correlation.json",
+      "sha256": "2fb989b82ef4a959dc61985c1f3035d9a4edef11b34961155146515aeca79515"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__none__regression.json",
+      "sha256": "ca1fe6e8b53aa6b7cce7f164ffd7876900d158a58c039bf885dfcbb65add37c2"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__common_iterative__correlation.json",
+      "sha256": "79e013f91018fdff53cb2a1abf9e51b02a5213ba2e11e4d258e0b29e7756128b"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__common_iterative__regression.json",
+      "sha256": "7878322f612bef25e30ca33c0c2c17c54b8ddaa76afd9f0263004ffee3a8012a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__population_template__correlation.json",
+      "sha256": "762c5ef27c14721116acd751595a852533d35d70aaa2f9a1a0c0e40dc38b8495"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__population_template__regression.json",
+      "sha256": "277501cb63ea2d644b7e5386945d5774ab1cf5f022456e88aeaa9073840dbc8b"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__barcode_model__correlation.json",
+      "sha256": "12746eb88e7b6804b27bf3f250c3f8c24b707e564b253d93c735c5974ac61077"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__barcode_model__regression.json",
+      "sha256": "f0c56849a5be8a41d258b7fcfe2996af6ab3f8603a9e546793aff64a726f2023"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__oracle__correlation.json",
+      "sha256": "2247e8e7cbd79b12b420524975f0f88042e1f6e2efd28e2eae5ae990b0a70552"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/zero__oracle__regression.json",
+      "sha256": "4b4bf389f3efa5d1f203039369f2f920bc59be28185162f8ffeefe07b603a751"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__none__correlation.json",
+      "sha256": "59305b7f7be10274877578b96e98a066a562df9999b934295437ef57de4f3473"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__none__regression.json",
+      "sha256": "48adad212c3d01600756f1bbe001acae42c5664f89c0e40894ac3f0dd39f65ea"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__common_iterative__correlation.json",
+      "sha256": "30fbf0686c1ad314fc3462977d2c901bc835fac14dd4e47975fba38a5fa0aa0b"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__common_iterative__regression.json",
+      "sha256": "efb5a616baefc7d42637af34263b6a801dc7bc0330963f50302697f13f87bf80"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__population_template__correlation.json",
+      "sha256": "b8409f0f5f071a8cf11ecd13bda5c557d9c112c7f596bc0b45f1199dc74823d2"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__population_template__regression.json",
+      "sha256": "905fcb307938cc7cb4f903ad7e024aebc0cfd56986bdfe9001239345c1b57023"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__barcode_model__correlation.json",
+      "sha256": "fab41c15e40138759105124fc30f4078ec17f23a0a207e00a560eb12ade4a50b"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__barcode_model__regression.json",
+      "sha256": "42f8e632fc0b1eccdd95428b60f6113ce9f05dcc501a2cc823a05bf84840acf5"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__oracle__correlation.json",
+      "sha256": "04fdbd3076a687c551c6fc376db3befc414b6a51392dc251f0aa12b710d8c5ad"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/common__oracle__regression.json",
+      "sha256": "824f0cba13271b84d17a0e191fa23157176fca46b1172ce862bd8fccd693b9db"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__none__correlation.json",
+      "sha256": "2fc155eae5523af700fef27af0c9ff080f4c61a7fc908c165f71fccb6b952e5a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__none__regression.json",
+      "sha256": "cc5c53d5c0e4e463f75b006dddcdde6b373abaaad73286f135b1ec85ed4d4a1f"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__common_iterative__correlation.json",
+      "sha256": "49ea411b899c812bfc411c75ac2305c2881b831b277475191de4f0a200b63bfa"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__common_iterative__regression.json",
+      "sha256": "96a433d54addf52d055a67cf140289a3c765d1ec9e77ecc96321b3f1d6e5700c"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__population_template__correlation.json",
+      "sha256": "8c93ad4200a74b7e2348bdce129c2f166be65494a5200287b262f53a94d847ac"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__population_template__regression.json",
+      "sha256": "e64ae0702b360c9e7a4ac1cb10abfea2f34695e7acb890ae1614715f4addafa4"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__barcode_model__correlation.json",
+      "sha256": "88b199e414340837538509b5f92e89f3ce263c9ea30811538a34c55693edb710"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__barcode_model__regression.json",
+      "sha256": "4a41c32741f6651085b9fef797b579f8afa6129669c7b6ffd8f519bfdb297503"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__oracle__correlation.json",
+      "sha256": "a7fcd3f84bec6006f2e0fabd90a392fb7607bc1a95c4ca28f91eaef8cfa2a4df"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-0/color__oracle__regression.json",
+      "sha256": "3fa2c92298e4e3f65732aaa74577ab9eb2c479d63f40c9c44651576111e9762a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__none__correlation.json",
+      "sha256": "c4356b7c5428feb8889c967153e07c039a18b61e20262aee86d8dd074bb0a982"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__none__regression.json",
+      "sha256": "c3d0c212a90ae598e21b2710f3536062e665696affb36b6b536c5324db80da11"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__common_iterative__correlation.json",
+      "sha256": "20b449f850d12106884ac37bac4ee031b98ede525d0f739e8f1515fb2fd48a49"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__common_iterative__regression.json",
+      "sha256": "32f534e8f8cbb257668d7baa1efe13cf74507fb33f679c54e78c6fb606d20847"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__population_template__correlation.json",
+      "sha256": "a6734857fbaebeb11c18af822bab4f97f73f522867c059b03cf3e1fc30c6233a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__population_template__regression.json",
+      "sha256": "f700cb7d71eb2023557a959ab4dca4537933f97578a15c36491928dbdc5808f5"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__barcode_model__correlation.json",
+      "sha256": "b84280577a9479c9059b4c4d08e65af8a414edba5c0afaf653492d57d5454022"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__barcode_model__regression.json",
+      "sha256": "5542cb4f57fa1c01ab8bb3b713777a28b10ea79e8b410b5e75f831b001f8aa7a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__oracle__correlation.json",
+      "sha256": "81c91f132e5b97670fe73f4d167dcdfb3780f365063db19ac4722435224af981"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/zero__oracle__regression.json",
+      "sha256": "b24e3846199ed5b11fcce4aab0403c8acd600090f6a443f489526c7c0822585d"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__none__correlation.json",
+      "sha256": "24f20d36b91a4bd5e926e45ff1da07b67da8f274f5a12ea17bde8cccbab3b144"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__none__regression.json",
+      "sha256": "fa2e3955316fcf62c6f0e6436a5778fc7a0066d32eb8755776b598c2ec885cb6"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__common_iterative__correlation.json",
+      "sha256": "9f15717d65ed829459a1e51c9e4b6d5544e40b1655054f0b860a1bf3ce610d01"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__common_iterative__regression.json",
+      "sha256": "fe7cb3a3632f83ebee5329f65032036e8f937a53e07d90fa1f7a2ed721edaf14"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__population_template__correlation.json",
+      "sha256": "a28e8488b1cafb452b5cc7bdf9a3ca2eb4f9396df24709aa5d0c3df3fe657406"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__population_template__regression.json",
+      "sha256": "14471f6887966f1a4cdead23a1cf17b224510e928381d5c7e0688d33008968fa"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__barcode_model__correlation.json",
+      "sha256": "3794cfcb0cd5afe8abb80fefc476aee095ed515c79742455224315f322661d30"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__barcode_model__regression.json",
+      "sha256": "a15675a1cfd148d234dda770a726e5231755ae79e50b8a77252da5efa88ece6f"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__oracle__correlation.json",
+      "sha256": "43d17c2ab0a59f37ee3ac6c7c121fdf84484759807994729fc16c9724afac757"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/common__oracle__regression.json",
+      "sha256": "a78b99a44951cca8d350c1cc2d09bee2193f046484e05643376c78b67d3b8bd3"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__none__correlation.json",
+      "sha256": "99098398dae55d2017e58b44b7036822ac69e35ff5eed81ce58df12f266e28c4"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__none__regression.json",
+      "sha256": "20ddbe497ce871fb96d6c49d91d67971e3955655d0b6625ac39375ff3281ab0a"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__common_iterative__correlation.json",
+      "sha256": "947243da276f042ae7361fcf8114dcaca82aad38750783579a0019b779bc11f0"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__common_iterative__regression.json",
+      "sha256": "269298184cdbe04223fe5209dabb4356b40843921f8bda85d595e816ac8a7f28"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__population_template__correlation.json",
+      "sha256": "525af227272d8d3ec9f1aefd685c805f51b26a49c7ee931c633e15b91b232ccf"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__population_template__regression.json",
+      "sha256": "5f9567b645e94c0ebeb3b836f65f1a0f6ffd963c80d8a5d2fe4f140aab3a8e9e"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__barcode_model__correlation.json",
+      "sha256": "9dc7ef7efe80872a27be30d704559b39e74026c0e909c39611c30e3684d024c4"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__barcode_model__regression.json",
+      "sha256": "960e9fb990028af31ac0cf0e93b70e55059cefcf3fceaa0f1fcf635e77e50e24"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__oracle__correlation.json",
+      "sha256": "47a3439c7ece94c5a08d99c424af0106cb94ec60054c9cb1119430f63a93bc0b"
+    },
+    {
+      "path": "outputs/barseq3-native-repair-oct05/recovery/field-1/color__oracle__regression.json",
+      "sha256": "17115689c0445a48af6390cb4e526a9cd78082678c980f4507869eabbc032592"
+    }
+  ]
+}

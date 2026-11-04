@@ -1,0 +1,22 @@
+{
+  "protocol": "retained-observation comparison",
+  "files": {
+    "outputs/temporal-variants-oct17/PROTOCOL.md": "f5dd5ece0f65d5359a99a59419aa0629b3733114f7369dbbfae09141f909e52c",
+    "outputs/temporal-variants-oct17/methods.py": "03cad62ca0ae263e651fe196b7bbe7d38cee893f977185d831bbf46df6dc9c09",
+    "outputs/temporal-variants-oct17/run.py": "9b1de5cf6862e0ce306c4f7253381ac78703afc55e18349c969651801e69d438",
+    "outputs/temporal-variants-oct17/controls.py": "8bfbf073baed01c4d12d2d4cd2d8f05bb910591e2159cd3d3c2e479a8ed03cf9",
+    "outputs/temporal-variants-oct17/controls.json": "7de0ba14cb5f6b9167afe23c05f2bd61f1465050a736ad7f0fabae4fbe8fbe43",
+    "outputs/temporal-variants-oct17/verify.py": "7959e6d28f220834e9864f7e360783869eb165b1ce057a7dd00dddb6083ad43b",
+    "outputs/temporal-validation-oct09/artifact-manifest.json": "5381a204e32ebaba1749952e3b89a85e2b839dd6333e1c20ce907c3f2ec3b846",
+    "outputs/temporal-validation-oct09/summary.json": "a03406612e25f8d1492e3d5c738812312c4fef515eecac43b65d007a8bc33a91",
+    "outputs/temporal-validation-oct09/freeze.json": "2f6d1cccc8784abfa05fe7aeda93437a48726a2c970626119078c1baf07d21a5",
+    "tool/src/codedcal/uncertainty.py": "713a13f8d57a4d37d55c9a0a637af5f7a01c6640116688a51366c0d23a8dd84c"
+  },
+  "environment": {
+    "python": "3.10.16",
+    "numpy": "1.23.5",
+    "scipy": "1.10.1"
+  },
+  "original_outcomes_already_exposed": true,
+  "no_new_simulations": true
+}

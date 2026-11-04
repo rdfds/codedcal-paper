@@ -1,0 +1,953 @@
+{
+  "counts": {
+    "completed": 60,
+    "failed": 0,
+    "missing": 0
+  },
+  "planned": 60,
+  "full_cohort_supported": true,
+  "fields": {
+    "0": {
+      "correlation": {
+        "cases": [
+          {
+            "kind": "zero",
+            "feature": 0.39960478692856144,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.8244274809160306,
+                "3": 0.8091603053435115,
+                "5": 0.7786259541984732
+              },
+              "barcode_model": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "common_iterative": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 61,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "common",
+            "feature": 0.576794961689432,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.0
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.6229508196721312,
+                "3": 0.6557377049180327,
+                "5": 0.6229508196721312
+              },
+              "barcode_model": {
+                "1.5": 0.9241379310344827,
+                "3": 0.9241379310344827,
+                "5": 0.9241379310344827
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 1,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "common_iterative": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 52,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 75,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "color",
+            "feature": 4.2585657283428455,
+            "recommend": "population_template",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.0
+              },
+              "common_iterative": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.0
+              },
+              "population_template": {
+                "1.5": 0.5210084033613446,
+                "3": 0.5714285714285714,
+                "5": 0.5882352941176471
+              },
+              "barcode_model": {
+                "1.5": 0.8714285714285714,
+                "3": 0.9,
+                "5": 0.9
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 10,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "common_iterative": {
+                "nonblank": 10,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "population_template": {
+                "nonblank": 49,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "barcode_model": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 70,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          }
+        ],
+        "mean_nonzero_identity_f1": {
+          "none": 0.0,
+          "common_iterative": 0.5,
+          "population_template": 0.6055930568948891,
+          "barcode_model": 0.9120689655172414,
+          "oracle": 1.0,
+          "selected": 0.7941176470588236
+        },
+        "harmful_recommendations": 0,
+        "decision_diagnostics": {
+          "tp": 1,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0
+        },
+        "primary_selected_f1": 0.6379310344827587,
+        "proxy_target_misses": {
+          "none": 2,
+          "common_iterative": 1,
+          "population_template": 1,
+          "barcode_model": 0,
+          "oracle": 0
+        }
+      },
+      "regression": {
+        "cases": [
+          {
+            "kind": "zero",
+            "feature": 0.39960478692856144,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.657243816254417,
+                "3": 0.6431095406360424,
+                "5": 0.6643109540636042
+              },
+              "barcode_model": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "common_iterative": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 142,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "common",
+            "feature": 0.576794961689432,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.0
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.3170731707317073,
+                "3": 0.3170731707317073,
+                "5": 0.3170731707317073
+              },
+              "barcode_model": {
+                "1.5": 0.674074074074074,
+                "3": 0.6888888888888889,
+                "5": 0.6518518518518519
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 870,
+                "blanks": 6,
+                "proxy": 1.5189655172413792,
+                "support": 1.0,
+                "qualified": false
+              },
+              "common_iterative": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 185,
+                "blanks": 2,
+                "proxy": 2.3810810810810814,
+                "support": 1.0,
+                "qualified": false
+              },
+              "barcode_model": {
+                "nonblank": 129,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "color",
+            "feature": 4.2585657283428455,
+            "recommend": "population_template",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.005891016200294551
+              },
+              "common_iterative": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.005891016200294551
+              },
+              "population_template": {
+                "1.5": 0.3927272727272727,
+                "3": 0.3927272727272727,
+                "5": 0.3709090909090909
+              },
+              "barcode_model": {
+                "1.5": 0.7482014388489209,
+                "3": 0.7482014388489209,
+                "5": 0.7266187050359713
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 538,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "common_iterative": {
+                "nonblank": 538,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 134,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 137,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 141,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          }
+        ],
+        "mean_nonzero_identity_f1": {
+          "none": 0.0029455081001472753,
+          "common_iterative": 0.5029455081001473,
+          "population_template": 0.3439911308203991,
+          "barcode_model": 0.6892352784439115,
+          "oracle": 1.0,
+          "selected": 0.6854545454545454
+        },
+        "harmful_recommendations": 0,
+        "decision_diagnostics": {
+          "tp": 1,
+          "tn": 2,
+          "fp": 0,
+          "fn": 0
+        },
+        "primary_selected_f1": 0.5648967551622419,
+        "proxy_target_misses": {
+          "none": 1,
+          "common_iterative": 0,
+          "population_template": 1,
+          "barcode_model": 0,
+          "oracle": 0
+        }
+      }
+    },
+    "1": {
+      "correlation": {
+        "cases": [
+          {
+            "kind": "zero",
+            "feature": 0.2280446514678356,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.946058091286307,
+                "3": 0.946058091286307,
+                "5": 0.946058091286307
+              },
+              "barcode_model": {
+                "1.5": 0.9133858267716536,
+                "3": 0.9212598425196851,
+                "5": 0.9212598425196851
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 125,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "common_iterative": {
+                "nonblank": 125,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 116,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 129,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 125,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "common",
+            "feature": 0.3393423585263461,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 0.013605442176870748,
+                "3": 0.013605442176870748,
+                "5": 0.027210884353741496
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.85,
+                "3": 0.8583333333333333,
+                "5": 0.8583333333333333
+              },
+              "barcode_model": {
+                "1.5": 0.9554655870445344,
+                "3": 0.9473684210526315,
+                "5": 0.9554655870445344
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 22,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "common_iterative": {
+                "nonblank": 125,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 115,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 122,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 125,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "color",
+            "feature": 1.380604764219456,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.015037593984962405,
+                "5": 0.03007518796992481
+              },
+              "common_iterative": {
+                "1.5": 0.0,
+                "3": 0.015037593984962405,
+                "5": 0.03007518796992481
+              },
+              "population_template": {
+                "1.5": 0.0,
+                "3": 0.015384615384615385,
+                "5": 0.015384615384615385
+              },
+              "barcode_model": {
+                "1.5": 0.0,
+                "3": 0.015037593984962405,
+                "5": 0.03007518796992481
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 8,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "common_iterative": {
+                "nonblank": 8,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "population_template": {
+                "nonblank": 5,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "barcode_model": {
+                "nonblank": 8,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": false
+              },
+              "oracle": {
+                "nonblank": 125,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          }
+        ],
+        "mean_nonzero_identity_f1": {
+          "none": 0.028643036161833155,
+          "common_iterative": 0.5150375939849624,
+          "population_template": 0.43685897435897436,
+          "barcode_model": 0.4927703875072296,
+          "oracle": 1.0,
+          "selected": 0.5150375939849624
+        },
+        "harmful_recommendations": 0,
+        "decision_diagnostics": {
+          "tp": 0,
+          "tn": 3,
+          "fp": 0,
+          "fn": 0
+        },
+        "primary_selected_f1": 0.5150375939849624,
+        "proxy_target_misses": {
+          "none": 2,
+          "common_iterative": 1,
+          "population_template": 1,
+          "barcode_model": 1,
+          "oracle": 0
+        }
+      },
+      "regression": {
+        "cases": [
+          {
+            "kind": "zero",
+            "feature": 0.2280446514678356,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.9924812030075187,
+                "3": 0.9924812030075187,
+                "5": 0.9924812030075187
+              },
+              "barcode_model": {
+                "1.5": 0.9333333333333333,
+                "3": 0.9333333333333333,
+                "5": 0.9333333333333333
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 66,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "common_iterative": {
+                "nonblank": 66,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 67,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 69,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 66,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "common",
+            "feature": 0.3393423585263461,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.006984866123399301
+              },
+              "common_iterative": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              },
+              "population_template": {
+                "1.5": 0.8296296296296296,
+                "3": 0.8296296296296296,
+                "5": 0.8296296296296296
+              },
+              "barcode_model": {
+                "1.5": 0.8633093525179856,
+                "3": 0.8633093525179856,
+                "5": 0.8920863309352518
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 786,
+                "blanks": 7,
+                "proxy": 1.9615139949109415,
+                "support": 1.0,
+                "qualified": false
+              },
+              "common_iterative": {
+                "nonblank": 66,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 69,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 73,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 66,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          },
+          {
+            "kind": "color",
+            "feature": 1.380604764219456,
+            "recommend": "common_iterative",
+            "scores": {
+              "none": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.007952286282306162
+              },
+              "common_iterative": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.007952286282306162
+              },
+              "population_template": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.012320328542094456
+              },
+              "barcode_model": {
+                "1.5": 0.0,
+                "3": 0.0,
+                "5": 0.007952286282306162
+              },
+              "oracle": {
+                "1.5": 1.0,
+                "3": 1.0,
+                "5": 1.0
+              }
+            },
+            "quality": {
+              "none": {
+                "nonblank": 437,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "common_iterative": {
+                "nonblank": 437,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "population_template": {
+                "nonblank": 421,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "barcode_model": {
+                "nonblank": 437,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              },
+              "oracle": {
+                "nonblank": 66,
+                "blanks": 0,
+                "proxy": 0.0,
+                "support": 1.0,
+                "qualified": true
+              }
+            }
+          }
+        ],
+        "mean_nonzero_identity_f1": {
+          "none": 0.007468576202852732,
+          "common_iterative": 0.5039761431411531,
+          "population_template": 0.420974979085862,
+          "barcode_model": 0.450019308608779,
+          "oracle": 1.0,
+          "selected": 0.5039761431411531
+        },
+        "harmful_recommendations": 0,
+        "decision_diagnostics": {
+          "tp": 0,
+          "tn": 3,
+          "fp": 0,
+          "fn": 0
+        },
+        "primary_selected_f1": 0.5039761431411531,
+        "proxy_target_misses": {
+          "none": 1,
+          "common_iterative": 0,
+          "population_template": 0,
+          "barcode_model": 0,
+          "oracle": 0
+        }
+      }
+    }
+  },
+  "scope": "Post-hoc complete-cohort interior-fit sensitivity; same preparations and algorithm reference, not new biological confirmation",
+  "analysis_sha256": "8ff2bc2cf034bbb1a90022791ec70fccf36d327b59e97a42b695de7a2bb07a08"
+}

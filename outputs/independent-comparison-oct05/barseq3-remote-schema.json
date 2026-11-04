@@ -1,0 +1,51 @@
+{
+  "file": {
+    "id": "a574069b-0f0f-40bd-a493-b82d3df5add9",
+    "key": "adult_cb_raw_FOV20_FOV40_11rds (1)",
+    "size": 934285696,
+    "checksum": "md5:a03d84ad28824b9fef6ff2ffd514eee3",
+    "links": {
+      "self": "https://zenodo.org/api/records/19024678/files/adult_cb_raw_FOV20_FOV40_11rds%20(1)/content"
+    }
+  },
+  "attrs": {},
+  "datasets": {
+    "list/0": {
+      "shape": [
+        11,
+        4,
+        2304,
+        2304
+      ],
+      "dtype": "uint16",
+      "chunks": null,
+      "compression": null
+    },
+    "list/1": {
+      "shape": [
+        11,
+        4,
+        2304,
+        2304
+      ],
+      "dtype": "uint16",
+      "chunks": null,
+      "compression": null
+    }
+  },
+  "transport_bytes": 65536,
+  "range_ledger": [
+    {
+      "start": 0,
+      "end": 32767,
+      "bytes": 32768
+    },
+    {
+      "start": 467140608,
+      "end": 467173375,
+      "bytes": 32768
+    }
+  ],
+  "exposure": "HDF5 schema only; no dataset values read",
+  "date_caveat": "API created June 2026; publication_date says March 2028. Publication status not inferred."
+}

@@ -1,0 +1,37 @@
+{
+  "stage": "eligible",
+  "groups": {
+    "source_spot": {
+      "coding": 544,
+      "minimum_coverage": 0.9680851063829787,
+      "designated_counts": [
+        130,
+        96
+      ],
+      "eligible": true
+    },
+    "correlation": {
+      "coding": 668,
+      "minimum_coverage": 0.9680851063829787,
+      "designated_counts": [
+        158,
+        131
+      ],
+      "eligible": true
+    },
+    "regression": {
+      "coding": 748,
+      "minimum_coverage": 0.9680851063829787,
+      "designated_counts": [
+        185,
+        150
+      ],
+      "eligible": true
+    }
+  },
+  "completed": 15,
+  "development": true,
+  "original_frozen_tissue_test_failed": true,
+  "independent_confirmation": false,
+  "negative_proxy_unavailable": true
+}

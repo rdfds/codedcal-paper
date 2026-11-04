@@ -1,0 +1,208 @@
+{
+  "stage": "complete",
+  "case": "tissue_4_zero",
+  "source": "tissue",
+  "field": 4,
+  "kind": "zero",
+  "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+  "rows": [
+    {
+      "decoder": "source_spot",
+      "incumbent": 3,
+      "risk": {
+        "abstained": false,
+        "identity_risk": 0.01041666666666663,
+        "composition_risk": 0.0,
+        "flagged": false,
+        "compatible_candidates": 1,
+        "incumbent_compatible": false,
+        "ordinary_multistart_identity_disagreement": 0.0680628272251309,
+        "ordinary_multistart_composition_disagreement": 0.0388745704467354,
+        "unfiltered_bank_identity_disagreement": 0.2737430167597765,
+        "unfiltered_bank_composition_disagreement": 0.16654116465863456,
+        "comparisons": [
+          {
+            "index": 0,
+            "identity_loss": 0.01041666666666663,
+            "composition_tv": 0.0,
+            "composition_undefined": false,
+            "empty_both": false
+          }
+        ],
+        "molecular_correctness_certified": false
+      },
+      "weighted_risk": {
+        "abstained": false,
+        "identity_risk": 0.01041666666666663,
+        "composition_risk": 0.0,
+        "flagged": false,
+        "weighted_geometric_RMS": 0.005208333333333333,
+        "selection_weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "molecular_correctness_certified": false,
+        "posterior_RNA_error_probability": false,
+        "ordinary_multistart_identity_disagreement": 0.0680628272251309,
+        "ordinary_multistart_composition_disagreement": 0.0388745704467354,
+        "unfiltered_bank_identity_disagreement": 0.2737430167597765,
+        "unfiltered_bank_composition_disagreement": 0.16654116465863456
+      },
+      "baseline_fit_loss": 0.26050809963155336,
+      "baseline_fit_gap": 0.0032806700529375843,
+      "baseline_decoder_confidence": 0.5351359844207764,
+      "baseline_quality": {
+        "full_catalog_calls": 96,
+        "central_coding": 96,
+        "central_negative": 0,
+        "blank_proxy": null,
+        "source_abstentions": 77,
+        "source_unsupported": 1,
+        "runtime": {
+          "elapsed_s": 0.1523494590073824
+        }
+      },
+      "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+      "reference_calls": 96,
+      "incumbent_calls": 96,
+      "actual_consistency_error": {
+        "identity_loss": 0.01041666666666663,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "failed_consistency": false
+    },
+    {
+      "decoder": "correlation",
+      "incumbent": 3,
+      "risk": {
+        "abstained": false,
+        "identity_risk": 0.023076923076923106,
+        "composition_risk": 0.021717261376412833,
+        "flagged": false,
+        "compatible_candidates": 1,
+        "incumbent_compatible": false,
+        "ordinary_multistart_identity_disagreement": 0.10769230769230764,
+        "ordinary_multistart_composition_disagreement": 0.05515119237824722,
+        "unfiltered_bank_identity_disagreement": 0.27419354838709675,
+        "unfiltered_bank_composition_disagreement": 0.15601589472998503,
+        "comparisons": [
+          {
+            "index": 0,
+            "identity_loss": 0.023076923076923106,
+            "composition_tv": 0.021717261376412833,
+            "composition_undefined": false,
+            "empty_both": false
+          }
+        ],
+        "molecular_correctness_certified": false
+      },
+      "weighted_risk": {
+        "abstained": false,
+        "identity_risk": 0.023076923076923106,
+        "composition_risk": 0.021717261376412833,
+        "flagged": false,
+        "weighted_geometric_RMS": 0.005208333333333333,
+        "selection_weights": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "molecular_correctness_certified": false,
+        "posterior_RNA_error_probability": false,
+        "ordinary_multistart_identity_disagreement": 0.10769230769230764,
+        "ordinary_multistart_composition_disagreement": 0.05515119237824722,
+        "unfiltered_bank_identity_disagreement": 0.27419354838709675,
+        "unfiltered_bank_composition_disagreement": 0.15601589472998503
+      },
+      "baseline_fit_loss": 0.26050809963155336,
+      "baseline_fit_gap": 0.0032806700529375843,
+      "baseline_decoder_confidence": 0.2703419029712677,
+      "baseline_quality": {
+        "full_catalog_calls": 129,
+        "central_coding": 129,
+        "central_negative": 0,
+        "blank_proxy": null,
+        "source_abstentions": 44,
+        "source_unsupported": 1,
+        "runtime": {
+          "elapsed_s": 0.14141625000047497
+        }
+      },
+      "freeze_sha256": "c0929649a0ba0dae4443c9bd13e175a504dc02e32c8522f6f7f87cbe0fd6d8c8",
+      "reference_calls": 131,
+      "incumbent_calls": 129,
+      "actual_consistency_error": {
+        "identity_loss": 0.023076923076923106,
+        "composition_tv": 0.021717261376412833,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      "failed_consistency": false
+    }
+  ],
+  "runtime_s": 15.920731333986623,
+  "development": true,
+  "independent_confirmation": false,
+  "independent_RNA_truth": false
+}

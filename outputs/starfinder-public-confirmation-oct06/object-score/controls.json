@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "native_loss": 0.0,
+  "gain_invariant_loss": 3.347322419244847e-14,
+  "corrected_loss": 0.0,
+  "wrong_loss": 0.4250974391775369,
+  "missing_loss": 1.0,
+  "zero_flow_identical": true,
+  "seed": 61014,
+  "script_sha256": "a9c43cae093e041ff8b44598f2b121345d1ba9bf188e86e817d5a5f12a397b8a",
+  "control_script_sha256": "ad6a66741facce4b510c8b5a5d6ad365ca32b3691df8574c1a71ba57fec5a341",
+  "protocol_sha256": "98098de8b6b93028244a8d54488885fd29f0c99d1cc32d1b994cda438417590c",
+  "development": true
+}

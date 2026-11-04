@@ -1,0 +1,6164 @@
+{
+  "summary": {
+    "worlds": 126,
+    "exogenous_worlds": 108,
+    "excluded_code_offset_worlds": 18,
+    "exact_prefix_known": 2016,
+    "exact_prefix_coded": 4032,
+    "finite_experiments": 64800,
+    "finite_frequency_variant_cases": 259200,
+    "supported_cases": 259200,
+    "covariance_relative_frobenius_median": 0.07917867092463968,
+    "covariance_relative_frobenius_max": 0.28614124458703516,
+    "variance_z_abs_max": 5.377330766739824,
+    "variance_z_abs_over_three": 23,
+    "summary": [
+      {
+        "variant": "arithmetic",
+        "K": 4,
+        "supported_conditions": 216,
+        "unsupported_conditions": 0,
+        "median_predicted_variance_factor": 1.0,
+        "variance_improvements": 0,
+        "median_available_rmse_factor": 1.0,
+        "available": 43095,
+        "usable": 41524,
+        "usable_covers": 39552,
+        "total": 43200,
+        "usable_coverage_better": 0,
+        "usable_coverage_worse": 0,
+        "usable_coverage_tied": 216
+      },
+      {
+        "variant": "arithmetic",
+        "K": 8,
+        "supported_conditions": 216,
+        "unsupported_conditions": 0,
+        "median_predicted_variance_factor": 0.7425427365043953,
+        "variance_improvements": 194,
+        "median_available_rmse_factor": 0.8515156386450962,
+        "available": 43090,
+        "usable": 41699,
+        "usable_covers": 39472,
+        "total": 43200,
+        "usable_coverage_better": 90,
+        "usable_coverage_worse": 109,
+        "usable_coverage_tied": 17
+      },
+      {
+        "variant": "arithmetic",
+        "K": 16,
+        "supported_conditions": 216,
+        "unsupported_conditions": 0,
+        "median_predicted_variance_factor": 0.7378108201857803,
+        "variance_improvements": 171,
+        "median_available_rmse_factor": 0.83861183614012,
+        "available": 43020,
+        "usable": 39800,
+        "usable_covers": 37372,
+        "total": 43200,
+        "usable_coverage_better": 48,
+        "usable_coverage_worse": 160,
+        "usable_coverage_tied": 8
+      },
+      {
+        "variant": "geometric",
+        "K": 4,
+        "supported_conditions": 216,
+        "unsupported_conditions": 0,
+        "median_predicted_variance_factor": 1.0,
+        "variance_improvements": 0,
+        "median_available_rmse_factor": 1.0,
+        "available": 42875,
+        "usable": 35860,
+        "usable_covers": 35833,
+        "total": 43200,
+        "usable_coverage_better": 0,
+        "usable_coverage_worse": 0,
+        "usable_coverage_tied": 216
+      },
+      {
+        "variant": "geometric",
+        "K": 8,
+        "supported_conditions": 216,
+        "unsupported_conditions": 0,
+        "median_predicted_variance_factor": 0.7414741738187299,
+        "variance_improvements": 197,
+        "median_available_rmse_factor": 0.8194799434170776,
+        "available": 42933,
+        "usable": 37410,
+        "usable_covers": 37346,
+        "total": 43200,
+        "usable_coverage_better": 91,
+        "usable_coverage_worse": 84,
+        "usable_coverage_tied": 41
+      },
+      {
+        "variant": "geometric",
+        "K": 16,
+        "supported_conditions": 216,
+        "unsupported_conditions": 0,
+        "median_predicted_variance_factor": 0.733753245153941,
+        "variance_improvements": 174,
+        "median_available_rmse_factor": 0.821714718761758,
+        "available": 42849,
+        "usable": 32337,
+        "usable_covers": 32220,
+        "total": 43200,
+        "usable_coverage_better": 45,
+        "usable_coverage_worse": 160,
+        "usable_coverage_tied": 11
+      }
+    ]
+  },
+  "component_variance_ratios": [
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 16911717.214553155,
+      "exact_variance": 17478229.977592386,
+      "ratio": 0.9675875209465994
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 21976115.495240662,
+      "exact_variance": 22971717.526008777,
+      "ratio": 0.9566596607484449
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 16930821.008263137,
+      "exact_variance": 17936532.2077426,
+      "ratio": 0.9439294514775084
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 28834386.93769194,
+      "exact_variance": 31411703.448030554,
+      "ratio": 0.9179504379760021
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 11282695.39949001,
+      "exact_variance": 11832657.104237318,
+      "ratio": 0.9535217069249505
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 19460954.519139703,
+      "exact_variance": 18775211.318921886,
+      "ratio": 1.0365238605611173
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 11123475.584127577,
+      "exact_variance": 12574971.216316216,
+      "ratio": 0.8845726477444894
+    },
+    {
+      "world": "edf10rep1-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 19548359.05589384,
+      "exact_variance": 19900452.302883502,
+      "ratio": 0.9823072741447868
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 79641508.6319731,
+      "exact_variance": 75440304.43146487,
+      "ratio": 1.0556891204531775
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 106241547.54021586,
+      "exact_variance": 97258923.71161807,
+      "ratio": 1.0923578370580382
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 53199859.98416676,
+      "exact_variance": 50148290.76502383,
+      "ratio": 1.0608509118175422
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 75589113.77888688,
+      "exact_variance": 76454287.92275894,
+      "ratio": 0.9886837721286983
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 79483321.51788066,
+      "exact_variance": 62603669.69895171,
+      "ratio": 1.2696271943817314
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 77104258.77015825,
+      "exact_variance": 65974070.25023778,
+      "ratio": 1.1687055001715672
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 44621088.31946781,
+      "exact_variance": 37883961.12377203,
+      "ratio": 1.1778358702693383
+    },
+    {
+      "world": "edf10rep1-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 75449036.00398985,
+      "exact_variance": 67656539.62069333,
+      "ratio": 1.1151772825950608
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 26225122.099204764,
+      "exact_variance": 31126145.1421581,
+      "ratio": 0.8425432053802494
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 36517273.63968001,
+      "exact_variance": 38990260.42309411,
+      "ratio": 0.936574242988402
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 40736984.668686986,
+      "exact_variance": 42596094.18919066,
+      "ratio": 0.9563549298147751
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 36334388.094479874,
+      "exact_variance": 41345198.365650706,
+      "ratio": 0.8788055090011667
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 19950532.30674857,
+      "exact_variance": 21336589.329516888,
+      "ratio": 0.9350384917963033
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 38410752.11432567,
+      "exact_variance": 43443690.71138427,
+      "ratio": 0.8841502985900843
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 23652118.940152116,
+      "exact_variance": 27811395.22080549,
+      "ratio": 0.8504470470599818
+    },
+    {
+      "world": "edf10rep1-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 35392531.082011186,
+      "exact_variance": 38996524.600421004,
+      "ratio": 0.9075816741276758
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 16222328.868291032,
+      "exact_variance": 16685213.828730624,
+      "ratio": 0.9722577747464919
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 27515990.759381976,
+      "exact_variance": 29428133.029387787,
+      "ratio": 0.9350233238344992
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 17228850.392842606,
+      "exact_variance": 18066958.92532094,
+      "ratio": 0.953610979249877
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 20596634.449017152,
+      "exact_variance": 19671720.94428304,
+      "ratio": 1.0470174168977784
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 9181954.447728144,
+      "exact_variance": 8513492.38210365,
+      "ratio": 1.0785179613280302
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 20215961.711865906,
+      "exact_variance": 18846429.803322524,
+      "ratio": 1.072667975995217
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 9337554.486709893,
+      "exact_variance": 8695642.069104474,
+      "ratio": 1.0738200138073906
+    },
+    {
+      "world": "edf10rep1-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 12300520.321039397,
+      "exact_variance": 10715130.598129889,
+      "ratio": 1.1479580401181677
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 23818824.77627923,
+      "exact_variance": 22341942.09046658,
+      "ratio": 1.0661035947471569
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 42358066.41417321,
+      "exact_variance": 41656184.387195826,
+      "ratio": 1.0168494075322252
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 20809306.31205575,
+      "exact_variance": 22298038.97555302,
+      "ratio": 0.9332348165177451
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 22015745.40344259,
+      "exact_variance": 23490170.467073586,
+      "ratio": 0.9372322535633485
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 12691763.295655698,
+      "exact_variance": 14352272.042603277,
+      "ratio": 0.8843034230386293
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 29937445.18177692,
+      "exact_variance": 32608666.04349213,
+      "ratio": 0.9180824858596655
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 12254519.400243377,
+      "exact_variance": 13290826.753214093,
+      "ratio": 0.9220283754943907
+    },
+    {
+      "world": "edf10rep1-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 14122860.347674862,
+      "exact_variance": 15478480.439052146,
+      "ratio": 0.9124190454796157
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 32287024.388503216,
+      "exact_variance": 27433543.947103966,
+      "ratio": 1.1769177343896033
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 46489057.167188525,
+      "exact_variance": 40515603.047658294,
+      "ratio": 1.1474358930929323
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 34287971.06508448,
+      "exact_variance": 30497177.30984108,
+      "ratio": 1.1242998234469441
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 49761633.86403938,
+      "exact_variance": 47498046.609143436,
+      "ratio": 1.047656428347944
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 16170878.442323573,
+      "exact_variance": 16499413.1707276,
+      "ratio": 0.9800880961641172
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 26163692.34521125,
+      "exact_variance": 24473170.70808071,
+      "ratio": 1.0690765269974745
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 17001191.99377101,
+      "exact_variance": 18217099.332222305,
+      "ratio": 0.9332546133565509
+    },
+    {
+      "world": "edf10rep1-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 29508023.938566465,
+      "exact_variance": 31939036.294961922,
+      "ratio": 0.9238858576087055
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 56763559.9216241,
+      "exact_variance": 66902153.16841256,
+      "ratio": 0.8484563983872595
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 82945212.14816883,
+      "exact_variance": 94264162.61486217,
+      "ratio": 0.879923078371369
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 42906609.83831732,
+      "exact_variance": 44069534.5133017,
+      "ratio": 0.9736115961326215
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 49204269.79770909,
+      "exact_variance": 51522326.21080904,
+      "ratio": 0.9550087004298802
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 28237926.111746676,
+      "exact_variance": 32747240.871083796,
+      "ratio": 0.8622993986855577
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 34987957.98948205,
+      "exact_variance": 41660071.14161974,
+      "ratio": 0.8398439328282367
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 30395571.950139612,
+      "exact_variance": 29193549.67754598,
+      "ratio": 1.0411742417715706
+    },
+    {
+      "world": "edf10rep1-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 38627266.03831435,
+      "exact_variance": 38092346.245122254,
+      "ratio": 1.0140427105684149
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 37510636.39226501,
+      "exact_variance": 34482543.722311355,
+      "ratio": 1.0878152346978502
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 47855601.9439235,
+      "exact_variance": 47654219.08385222,
+      "ratio": 1.0042259187946598
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 33869217.00655016,
+      "exact_variance": 33581303.856874384,
+      "ratio": 1.0085736143808735
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 64631101.958998814,
+      "exact_variance": 59529799.99884732,
+      "ratio": 1.085693248763649
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 23311959.227102973,
+      "exact_variance": 21562118.17210958,
+      "ratio": 1.0811534859899246
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 32816872.48282358,
+      "exact_variance": 30735842.017198075,
+      "ratio": 1.0677069612884227
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 20026067.28204679,
+      "exact_variance": 19813885.937979456,
+      "ratio": 1.0107087193663826
+    },
+    {
+      "world": "edf10rep1-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 35769268.85789813,
+      "exact_variance": 34850904.6654661,
+      "ratio": 1.0263512296523551
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 19312511.77754812,
+      "exact_variance": 21132619.284076028,
+      "ratio": 0.9138721290503063
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 23314881.93539851,
+      "exact_variance": 24727553.833495036,
+      "ratio": 0.9428705359370011
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 28807122.7072656,
+      "exact_variance": 29659014.064108007,
+      "ratio": 0.971277151863476
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 31974504.543807764,
+      "exact_variance": 34694972.07512532,
+      "ratio": 0.9215889978113571
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 13671801.873388052,
+      "exact_variance": 15998670.44486741,
+      "ratio": 0.8545586285124182
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 19563568.07660939,
+      "exact_variance": 19971514.301174134,
+      "ratio": 0.9795735957517874
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 19541657.483835693,
+      "exact_variance": 19095877.926481385,
+      "ratio": 1.0233442818953151
+    },
+    {
+      "world": "edf10rep1-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 24155698.41660592,
+      "exact_variance": 26758933.51992392,
+      "ratio": 0.9027152894049493
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 28808318.529039692,
+      "exact_variance": 30066672.464990117,
+      "ratio": 0.9581478815982826
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 56288992.74104716,
+      "exact_variance": 61009462.48487224,
+      "ratio": 0.9226272523709653
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 34235060.73716004,
+      "exact_variance": 34975542.039901644,
+      "ratio": 0.9788285967978186
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 38913102.988809116,
+      "exact_variance": 42971110.63201836,
+      "ratio": 0.9055642829909645
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 16827328.011995383,
+      "exact_variance": 18128316.739014063,
+      "ratio": 0.9282344441710457
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 50720933.57664366,
+      "exact_variance": 47554409.11228691,
+      "ratio": 1.066587400063785
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 19479452.6124247,
+      "exact_variance": 20620333.794502523,
+      "ratio": 0.9446720313333635
+    },
+    {
+      "world": "edf10rep1-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 21246079.397662055,
+      "exact_variance": 21562834.936071515,
+      "ratio": 0.9853101162556518
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 34462109.907425985,
+      "exact_variance": 34424985.303999946,
+      "ratio": 1.0010784203129848
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 72963019.27251652,
+      "exact_variance": 75263179.37499222,
+      "ratio": 0.9694384409271982
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 38888876.527351364,
+      "exact_variance": 39652537.56496754,
+      "ratio": 0.9807411811573225
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 56405182.01522507,
+      "exact_variance": 57066749.12674959,
+      "ratio": 0.9884071351242537
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 15846996.644183729,
+      "exact_variance": 15958251.582041077,
+      "ratio": 0.9930283754905487
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 53342243.19633112,
+      "exact_variance": 58370610.72126134,
+      "ratio": 0.9138544643820448
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 21054141.645408213,
+      "exact_variance": 20669508.849032044,
+      "ratio": 1.018608705179474
+    },
+    {
+      "world": "edf10rep1-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 26724875.614246693,
+      "exact_variance": 28498471.052481107,
+      "ratio": 0.9377652423890297
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 0,
+      "mc_variance": 26312459.868314065,
+      "exact_variance": 28624897.393590003,
+      "ratio": 0.9192158667512372
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 1,
+      "mc_variance": 34326768.53192479,
+      "exact_variance": 36946878.5904094,
+      "ratio": 0.9290844001321202
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 2,
+      "mc_variance": 39237420.0429056,
+      "exact_variance": 38981544.13812441,
+      "ratio": 1.0065640269116725
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 3,
+      "mc_variance": 53945018.23511455,
+      "exact_variance": 53786915.30892587,
+      "ratio": 1.0029394309987962
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 4,
+      "mc_variance": 23265150.999932364,
+      "exact_variance": 22866129.64447984,
+      "ratio": 1.0174503233234686
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 5,
+      "mc_variance": 30996928.3549865,
+      "exact_variance": 31210629.602693178,
+      "ratio": 0.9931529337784254
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 6,
+      "mc_variance": 30342320.0146531,
+      "exact_variance": 30333996.21873141,
+      "ratio": 1.0002744048578918
+    },
+    {
+      "world": "edf10rep1-residual-zero.json",
+      "component": 7,
+      "mc_variance": 43257411.32387544,
+      "exact_variance": 41037834.70693149,
+      "ratio": 1.0540861045129426
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 1113771366.260312,
+      "exact_variance": 1118187340.8628206,
+      "ratio": 0.9960507739256813
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 1289377612.6386042,
+      "exact_variance": 1292471642.1612034,
+      "ratio": 0.9976061141910816
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 1220405461.3319988,
+      "exact_variance": 1181015187.9000747,
+      "ratio": 1.0333528932019602
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 1540756673.4683993,
+      "exact_variance": 1494133530.9362812,
+      "ratio": 1.0312041337449285
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 638773980.9901073,
+      "exact_variance": 685677117.8410689,
+      "ratio": 0.9315958843739145
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 709466544.1568623,
+      "exact_variance": 788261883.3134166,
+      "ratio": 0.9000391356926427
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 767389703.3635612,
+      "exact_variance": 848044680.1655891,
+      "ratio": 0.9048930101344669
+    },
+    {
+      "world": "edf10rep2-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 1240186549.2294247,
+      "exact_variance": 1296193786.7095146,
+      "ratio": 0.9567909998841543
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 2260153029.8836937,
+      "exact_variance": 2046378006.1292121,
+      "ratio": 1.1044650710250956
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 3581585749.9362516,
+      "exact_variance": 3375368218.1431303,
+      "ratio": 1.0610948253540666
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 1747131515.7930825,
+      "exact_variance": 1638670087.568196,
+      "ratio": 1.0661886910902514
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 2267200608.401759,
+      "exact_variance": 2165763500.2251124,
+      "ratio": 1.0468366505235236
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 865177391.9817712,
+      "exact_variance": 918435097.3770708,
+      "ratio": 0.9420125542377501
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 1407271963.693051,
+      "exact_variance": 1440141749.6723912,
+      "ratio": 0.9771760064682401
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 781466956.2009389,
+      "exact_variance": 758893074.8281387,
+      "ratio": 1.0297457996673804
+    },
+    {
+      "world": "edf10rep2-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 1237540408.719438,
+      "exact_variance": 1287613626.2586074,
+      "ratio": 0.9611116125846959
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 2814166183.710267,
+      "exact_variance": 3473309060.1452856,
+      "ratio": 0.810226252538711
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 3400930145.8990865,
+      "exact_variance": 4175366287.963642,
+      "ratio": 0.8145225858873679
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 2417286126.5659447,
+      "exact_variance": 2849318913.3082104,
+      "ratio": 0.8483733131014622
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 2537362278.385827,
+      "exact_variance": 2915452554.828215,
+      "ratio": 0.87031506452875
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 1631769497.559401,
+      "exact_variance": 2004082524.0051029,
+      "ratio": 0.8142227069064778
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 2354345720.7890077,
+      "exact_variance": 2551452912.190246,
+      "ratio": 0.9227470785529663
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 1360931453.7675252,
+      "exact_variance": 1628072731.3873081,
+      "ratio": 0.8359156366484025
+    },
+    {
+      "world": "edf10rep2-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 1906517485.550811,
+      "exact_variance": 2131471142.7849429,
+      "ratio": 0.8944608478535575
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 1287709137.4209588,
+      "exact_variance": 1318005889.8012013,
+      "ratio": 0.9770131889283041
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 1860186017.7244532,
+      "exact_variance": 1954897190.5974905,
+      "ratio": 0.951551839488761
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 993158989.4068418,
+      "exact_variance": 1058758148.2163628,
+      "ratio": 0.9380414130271085
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 1102890388.1174212,
+      "exact_variance": 1098737845.070312,
+      "ratio": 1.003779375640641
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 522546783.6375474,
+      "exact_variance": 519322307.8850913,
+      "ratio": 1.006209006821963
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 982182848.2281654,
+      "exact_variance": 1016110291.949281,
+      "ratio": 0.9666104713337467
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 566043369.9271493,
+      "exact_variance": 511185295.69086754,
+      "ratio": 1.1073154386456696
+    },
+    {
+      "world": "edf10rep2-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 643826550.3104721,
+      "exact_variance": 570874859.6404076,
+      "ratio": 1.127789285932151
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 2113476534.6412642,
+      "exact_variance": 2071669685.123197,
+      "ratio": 1.0201802680312817
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 3158665165.667361,
+      "exact_variance": 3200550502.753975,
+      "ratio": 0.9869130835302948
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 1198796699.1413722,
+      "exact_variance": 1140851448.0233393,
+      "ratio": 1.0507912324767874
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 1136587235.3053486,
+      "exact_variance": 1058882408.9342725,
+      "ratio": 1.0733838108135947
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 1126744301.0867352,
+      "exact_variance": 1143568931.2978857,
+      "ratio": 0.9852876116597052
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 1912508671.709722,
+      "exact_variance": 1741178742.0865831,
+      "ratio": 1.098398817698533
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 514037176.2188673,
+      "exact_variance": 551628840.9303291,
+      "ratio": 0.9318533370226565
+    },
+    {
+      "world": "edf10rep2-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 642340762.7400559,
+      "exact_variance": 607123131.8509017,
+      "ratio": 1.0580073942855517
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 1629847831.7493443,
+      "exact_variance": 1639580298.3242316,
+      "ratio": 0.9940640500591312
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 1617855778.661425,
+      "exact_variance": 1684305198.2871096,
+      "ratio": 0.9605478747597159
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 1419291512.746159,
+      "exact_variance": 1458722751.4268997,
+      "ratio": 0.9729686545012275
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 1700509259.1684794,
+      "exact_variance": 1740541570.5545332,
+      "ratio": 0.9770000831561296
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 900518558.8776252,
+      "exact_variance": 928732462.1919897,
+      "ratio": 0.9696210647706077
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 992816866.2369752,
+      "exact_variance": 1009669089.6928612,
+      "ratio": 0.9833091617561429
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 808735736.9422812,
+      "exact_variance": 820721221.621884,
+      "ratio": 0.985396399698405
+    },
+    {
+      "world": "edf10rep2-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 829775498.7893684,
+      "exact_variance": 915275022.6267576,
+      "ratio": 0.9065859750088959
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 1542981752.7203279,
+      "exact_variance": 1579612355.9574091,
+      "ratio": 0.9768103844598763
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 1353863015.2736156,
+      "exact_variance": 1485147050.2070382,
+      "ratio": 0.911601995967254
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 1015318901.373298,
+      "exact_variance": 1072552518.7918366,
+      "ratio": 0.946637934818326
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 1238564455.823812,
+      "exact_variance": 1283380860.2784662,
+      "ratio": 0.9650794196471576
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 884767185.9935399,
+      "exact_variance": 1003576592.7337902,
+      "ratio": 0.881614011725196
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 900154613.3892157,
+      "exact_variance": 1072993841.5193518,
+      "ratio": 0.8389187137501208
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 637531829.022335,
+      "exact_variance": 710304054.9692389,
+      "ratio": 0.897547781914246
+    },
+    {
+      "world": "edf10rep2-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 883608761.59182,
+      "exact_variance": 959506502.235713,
+      "ratio": 0.9208991909204927
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 1065451245.0190294,
+      "exact_variance": 1009078889.6867684,
+      "ratio": 1.0558651616919266
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 1323044260.512704,
+      "exact_variance": 1294293639.8158972,
+      "ratio": 1.0222133678265592
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 1489657079.3172956,
+      "exact_variance": 1426401004.4181285,
+      "ratio": 1.0443466281243758
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 1597355686.3645685,
+      "exact_variance": 1510412635.9876702,
+      "ratio": 1.057562449032377
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 1012062956.2956061,
+      "exact_variance": 940656903.023206,
+      "ratio": 1.0759108374614654
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 1298484126.7204862,
+      "exact_variance": 1136953357.146596,
+      "ratio": 1.1420733476519063
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 1303018928.4743943,
+      "exact_variance": 1182573298.2648964,
+      "ratio": 1.1018504564463099
+    },
+    {
+      "world": "edf10rep2-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 1620417276.4179907,
+      "exact_variance": 1514126512.7202234,
+      "ratio": 1.0701993940432424
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 18433771423.67074,
+      "exact_variance": 15128726066.630655,
+      "ratio": 1.218461577166765
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 23087828892.6239,
+      "exact_variance": 18732426255.10824,
+      "ratio": 1.2325060607847298
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 17482745543.612495,
+      "exact_variance": 13979571352.747122,
+      "ratio": 1.2505923895997688
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 21131628695.47027,
+      "exact_variance": 17348742278.64044,
+      "ratio": 1.2180496059064334
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 11738000005.155825,
+      "exact_variance": 10262297661.803108,
+      "ratio": 1.1437984350079193
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 17167944678.590103,
+      "exact_variance": 14051964506.252151,
+      "ratio": 1.221746942995163
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 9727093513.779135,
+      "exact_variance": 8903083694.746002,
+      "ratio": 1.092553304819476
+    },
+    {
+      "world": "edf10rep2-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 9250728976.831602,
+      "exact_variance": 9247689809.67035,
+      "ratio": 1.0003286406901402
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 2363383654.131606,
+      "exact_variance": 2421744453.6665716,
+      "ratio": 0.975901338621172
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 3727951415.5720124,
+      "exact_variance": 3785546251.247276,
+      "ratio": 0.9847855945079823
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 1849889932.9269373,
+      "exact_variance": 1828750753.3313909,
+      "ratio": 1.0115593552358284
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 1629376655.1074607,
+      "exact_variance": 1642916416.1591423,
+      "ratio": 0.991758703657405
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 1004221789.8757416,
+      "exact_variance": 1007396513.5976717,
+      "ratio": 0.9968485857563747
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 2327032130.4252825,
+      "exact_variance": 2362346204.7851095,
+      "ratio": 0.9850512705172951
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 801191209.7512114,
+      "exact_variance": 798806539.7753772,
+      "ratio": 1.0029852910023807
+    },
+    {
+      "world": "edf10rep2-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 653895758.0247264,
+      "exact_variance": 691659250.7033987,
+      "ratio": 0.9454015938624867
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 821385216.6586292,
+      "exact_variance": 830259293.0970652,
+      "ratio": 0.9893116806855198
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 1618965460.2225718,
+      "exact_variance": 1814745006.7220745,
+      "ratio": 0.8921173245969504
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 862428794.6093228,
+      "exact_variance": 883638478.2341722,
+      "ratio": 0.9759973290578812
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 743827497.3437688,
+      "exact_variance": 735821439.8272626,
+      "ratio": 1.010880435229484
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 518173129.11886233,
+      "exact_variance": 496544791.0785873,
+      "ratio": 1.0435576778346507
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 791251322.4908845,
+      "exact_variance": 811482799.6314372,
+      "ratio": 0.9750685077370198
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 283719490.52153534,
+      "exact_variance": 306278553.57010645,
+      "ratio": 0.9263446206545853
+    },
+    {
+      "world": "edf10rep2-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 297609138.7476996,
+      "exact_variance": 314538509.1178747,
+      "ratio": 0.9461771138368602
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 0,
+      "mc_variance": 1161046340.4447634,
+      "exact_variance": 1215669041.0840564,
+      "ratio": 0.9550677867139037
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 1,
+      "mc_variance": 1343593437.4923246,
+      "exact_variance": 1342479634.7018979,
+      "ratio": 1.0008296608467167
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 2,
+      "mc_variance": 786619779.7672334,
+      "exact_variance": 798081580.4428,
+      "ratio": 0.985638309470559
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 3,
+      "mc_variance": 896054576.0451566,
+      "exact_variance": 949145932.8448279,
+      "ratio": 0.944064073855805
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 4,
+      "mc_variance": 846293658.6969954,
+      "exact_variance": 810683450.8660212,
+      "ratio": 1.043926156125345
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 5,
+      "mc_variance": 955483468.0793691,
+      "exact_variance": 877168924.0768652,
+      "ratio": 1.0892810288336676
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 6,
+      "mc_variance": 639074605.0204933,
+      "exact_variance": 610068845.3419038,
+      "ratio": 1.047545059709341
+    },
+    {
+      "world": "edf10rep2-residual-zero.json",
+      "component": 7,
+      "mc_variance": 690825438.5112305,
+      "exact_variance": 663637966.2586925,
+      "ratio": 1.040967325009763
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 67542971178.02826,
+      "exact_variance": 63545676723.84093,
+      "ratio": 1.0629042707587948
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 61855873166.907104,
+      "exact_variance": 60442318279.67972,
+      "ratio": 1.0233868409991582
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 56608835985.36221,
+      "exact_variance": 56626823208.08043,
+      "ratio": 0.999682355080169
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 69179283608.28317,
+      "exact_variance": 68827412376.12123,
+      "ratio": 1.005112370493301
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 40535946645.64874,
+      "exact_variance": 39396339994.88761,
+      "ratio": 1.0289267137736402
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 44776941586.06384,
+      "exact_variance": 46449302727.607155,
+      "ratio": 0.9639959903951509
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 36417743945.75051,
+      "exact_variance": 37791038921.69702,
+      "ratio": 0.9636608303150391
+    },
+    {
+      "world": "fig4untreated-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 39751683059.07995,
+      "exact_variance": 37597394951.054016,
+      "ratio": 1.0572988663398217
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 19615870047.816444,
+      "exact_variance": 20202099429.45033,
+      "ratio": 0.9709817594116338
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 38936136262.81213,
+      "exact_variance": 38454195035.63434,
+      "ratio": 1.0125328647948864
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 11905584052.528446,
+      "exact_variance": 12697486627.930803,
+      "ratio": 0.9376331238923772
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 19638286914.94222,
+      "exact_variance": 19169063058.853004,
+      "ratio": 1.024478184178778
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 10234437924.21495,
+      "exact_variance": 10886232821.841934,
+      "ratio": 0.9401266803407663
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 16133964810.253582,
+      "exact_variance": 15898537004.93258,
+      "ratio": 1.0148081427396722
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 7583603606.463413,
+      "exact_variance": 8134142656.792204,
+      "ratio": 0.9323175073811771
+    },
+    {
+      "world": "fig4untreated-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 12848672296.146717,
+      "exact_variance": 12882267465.563395,
+      "ratio": 0.9973921384953012
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 30561262874.01445,
+      "exact_variance": 30289702260.06862,
+      "ratio": 1.0089654434901407
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 32560562079.939,
+      "exact_variance": 33647093770.631054,
+      "ratio": 0.9677080077673622
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 19396542558.885147,
+      "exact_variance": 19224625863.845985,
+      "ratio": 1.0089425248770365
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 27928082219.9815,
+      "exact_variance": 25767704704.686188,
+      "ratio": 1.0838405104395046
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 29586699426.26555,
+      "exact_variance": 32247799724.991062,
+      "ratio": 0.91747963205492
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 28470418278.018936,
+      "exact_variance": 30210791357.55501,
+      "ratio": 0.9423923372632591
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 16876613778.459146,
+      "exact_variance": 18285650611.829193,
+      "ratio": 0.9229430298499456
+    },
+    {
+      "world": "fig4untreated-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 19972290578.704483,
+      "exact_variance": 20971075652.717976,
+      "ratio": 0.9523732072425172
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 26631805367.038643,
+      "exact_variance": 27860264581.99086,
+      "ratio": 0.9559064052914162
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 22993986900.538704,
+      "exact_variance": 26513928913.386986,
+      "ratio": 0.8672417798076297
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 24881004078.78264,
+      "exact_variance": 26780309614.997982,
+      "ratio": 0.9290782831296446
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 21154791627.59181,
+      "exact_variance": 20824963080.83659,
+      "ratio": 1.015838133564747
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 9028806859.84303,
+      "exact_variance": 9031432974.106089,
+      "ratio": 0.9997092250730768
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 17137286933.98454,
+      "exact_variance": 16547805839.479942,
+      "ratio": 1.03562291582478
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 9502754538.627203,
+      "exact_variance": 9370057305.930626,
+      "ratio": 1.0141618379017372
+    },
+    {
+      "world": "fig4untreated-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 5199194667.032555,
+      "exact_variance": 4961102191.739748,
+      "ratio": 1.0479918506192498
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 27769067376.218124,
+      "exact_variance": 24302707817.29032,
+      "ratio": 1.142632647562904
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 45173086022.83833,
+      "exact_variance": 44750748757.98452,
+      "ratio": 1.0094375463333105
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 26537985714.01615,
+      "exact_variance": 25134921962.07622,
+      "ratio": 1.0558212893621426
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 29945862976.828743,
+      "exact_variance": 27840511569.642864,
+      "ratio": 1.075621864990496
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 9123688502.069117,
+      "exact_variance": 8548785534.847138,
+      "ratio": 1.067249665449966
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 19496196221.338974,
+      "exact_variance": 19757636713.16928,
+      "ratio": 0.9867676232929191
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 7463763526.382314,
+      "exact_variance": 7165216400.609308,
+      "ratio": 1.0416661701588827
+    },
+    {
+      "world": "fig4untreated-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 7356137043.501384,
+      "exact_variance": 6704309117.732729,
+      "ratio": 1.0972252195300163
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 11069186605.827475,
+      "exact_variance": 10938666509.890472,
+      "ratio": 1.0119319933393152
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 14552068453.615704,
+      "exact_variance": 13601841964.06988,
+      "ratio": 1.0698601330655
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 9384488410.006271,
+      "exact_variance": 9415470181.401058,
+      "ratio": 0.9967094822884165
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 10176751454.82713,
+      "exact_variance": 10792504173.636148,
+      "ratio": 0.9429462607655806
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 5168879995.603792,
+      "exact_variance": 4815258436.266455,
+      "ratio": 1.0734377113955114
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 6385708506.480932,
+      "exact_variance": 5852060072.676634,
+      "ratio": 1.0911898420687633
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 2327187290.7349977,
+      "exact_variance": 2245742671.8611383,
+      "ratio": 1.036266229383424
+    },
+    {
+      "world": "fig4untreated-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 4918476802.115764,
+      "exact_variance": 5005075618.6174755,
+      "ratio": 0.9826978005727649
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 17263012217.122612,
+      "exact_variance": 19449420770.21523,
+      "ratio": 0.8875849014259142
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 29666120693.01323,
+      "exact_variance": 30634873082.924774,
+      "ratio": 0.9683774635759301
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 14708059564.684818,
+      "exact_variance": 14843501363.453304,
+      "ratio": 0.9908753470322061
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 17880119365.44336,
+      "exact_variance": 19697346043.27486,
+      "ratio": 0.9077425621787284
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 7915807699.301056,
+      "exact_variance": 8709214487.445204,
+      "ratio": 0.908900304466277
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 12384959296.637821,
+      "exact_variance": 11831234453.283566,
+      "ratio": 1.0468019500028232
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 5368341179.290268,
+      "exact_variance": 5184047722.30548,
+      "ratio": 1.0355501081118188
+    },
+    {
+      "world": "fig4untreated-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 6221458683.708239,
+      "exact_variance": 6647072621.317902,
+      "ratio": 0.9359697175197588
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 19844075100.51691,
+      "exact_variance": 22655300664.94101,
+      "ratio": 0.8759131204656904
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 28772572127.953358,
+      "exact_variance": 32338054841.38161,
+      "ratio": 0.8897434390869527
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 15432251675.70851,
+      "exact_variance": 18906701936.75081,
+      "ratio": 0.8162318170209967
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 18865596006.294495,
+      "exact_variance": 24497347190.473927,
+      "ratio": 0.7701077124640907
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 3311165833.8820395,
+      "exact_variance": 3718450668.454423,
+      "ratio": 0.8904692112692
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 4229182233.1550856,
+      "exact_variance": 4835111074.426496,
+      "ratio": 0.874681505358534
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 4532218300.544767,
+      "exact_variance": 5150977567.793399,
+      "ratio": 0.8798753714018408
+    },
+    {
+      "world": "fig4untreated-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 7161760756.704652,
+      "exact_variance": 8442372189.490716,
+      "ratio": 0.8483114219507875
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 90427993331.80095,
+      "exact_variance": 88639401427.3587,
+      "ratio": 1.0201782940277189
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 102842979375.88297,
+      "exact_variance": 105348474872.511,
+      "ratio": 0.9762170691159971
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 76770856047.37941,
+      "exact_variance": 80097413276.21474,
+      "ratio": 0.9584686060039949
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 82517388284.17487,
+      "exact_variance": 81765566474.45924,
+      "ratio": 1.0091948462186764
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 28612221806.019146,
+      "exact_variance": 27414131569.326042,
+      "ratio": 1.0437033809976188
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 28682945270.480896,
+      "exact_variance": 31249239062.13994,
+      "ratio": 0.9178765989611491
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 22338764498.8047,
+      "exact_variance": 23316398575.032433,
+      "ratio": 0.9580709656732923
+    },
+    {
+      "world": "fig4untreated-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 32681914910.070286,
+      "exact_variance": 31630749558.85223,
+      "ratio": 1.033232388289195
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 10094531847.972927,
+      "exact_variance": 9963056016.578415,
+      "ratio": 1.0131963356600362
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 15465365423.991789,
+      "exact_variance": 15452385947.817154,
+      "ratio": 1.000839965829126
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 9517779067.725212,
+      "exact_variance": 9561315028.699858,
+      "ratio": 0.9954466555234333
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 7560740906.703347,
+      "exact_variance": 7985512550.299918,
+      "ratio": 0.9468072160777435
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 1983305066.7637086,
+      "exact_variance": 2118183428.399593,
+      "ratio": 0.9363235686638373
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 5605442636.463913,
+      "exact_variance": 5772334404.909195,
+      "ratio": 0.9710876472604661
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 1889438915.9133449,
+      "exact_variance": 2127008760.8733807,
+      "ratio": 0.8883080082554591
+    },
+    {
+      "world": "fig4untreated-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 1663454698.1292148,
+      "exact_variance": 1804233081.358745,
+      "ratio": 0.9219732834498789
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 12701106736.497139,
+      "exact_variance": 11798236748.77785,
+      "ratio": 1.0765258408476008
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 19521946657.402138,
+      "exact_variance": 18871938789.179882,
+      "ratio": 1.0344430890479008
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 10613474989.647179,
+      "exact_variance": 9369354694.529785,
+      "ratio": 1.1327861240906765
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 8057322854.10911,
+      "exact_variance": 7955294898.835001,
+      "ratio": 1.0128251631864773
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 3600975174.77374,
+      "exact_variance": 3566524350.9006205,
+      "ratio": 1.0096594949265998
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 6796791279.160244,
+      "exact_variance": 7009282814.931403,
+      "ratio": 0.9696842685076849
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 2569005990.7865505,
+      "exact_variance": 2730970072.2797256,
+      "ratio": 0.9406935714392606
+    },
+    {
+      "world": "fig4untreated-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 2065226578.8978703,
+      "exact_variance": 2063566989.2023292,
+      "ratio": 1.000804233496768
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 0,
+      "mc_variance": 18504300154.209797,
+      "exact_variance": 19640289727.45078,
+      "ratio": 0.9421602436112113
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 1,
+      "mc_variance": 42312597552.17989,
+      "exact_variance": 40507878076.21727,
+      "ratio": 1.04455230838226
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 2,
+      "mc_variance": 14324205810.569433,
+      "exact_variance": 13168164405.615849,
+      "ratio": 1.087790626646533
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 3,
+      "mc_variance": 20436742687.730232,
+      "exact_variance": 19034396625.318916,
+      "ratio": 1.073674311301571
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 4,
+      "mc_variance": 10621831661.942799,
+      "exact_variance": 10407150289.112246,
+      "ratio": 1.0206282571949739
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 5,
+      "mc_variance": 14742316063.027493,
+      "exact_variance": 16018948100.76066,
+      "ratio": 0.9203048770928631
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 6,
+      "mc_variance": 7812789457.126018,
+      "exact_variance": 7592586460.077831,
+      "ratio": 1.0290023693778165
+    },
+    {
+      "world": "fig4untreated-residual-zero.json",
+      "component": 7,
+      "mc_variance": 10765633645.846924,
+      "exact_variance": 10562919381.430952,
+      "ratio": 1.0191911210429507
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 496515877.6103805,
+      "exact_variance": 503031438.2322627,
+      "ratio": 0.9870474087170794
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 1116720329.710647,
+      "exact_variance": 1151121045.0001342,
+      "ratio": 0.9701154666236832
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 500185156.67367285,
+      "exact_variance": 517763926.9034643,
+      "ratio": 0.9660486771743196
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 708371016.7611867,
+      "exact_variance": 616300825.1443574,
+      "ratio": 1.1493916409981497
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 300870133.52624583,
+      "exact_variance": 250429894.0979204,
+      "ratio": 1.201414609905169
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 621280868.7140076,
+      "exact_variance": 566751438.8411429,
+      "ratio": 1.0962140122385273
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 423974136.00707525,
+      "exact_variance": 361927915.8806173,
+      "ratio": 1.1714325350546433
+    },
+    {
+      "world": "npc-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 543639683.0767444,
+      "exact_variance": 466445551.0064096,
+      "ratio": 1.1654944117352597
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 354092560.81616795,
+      "exact_variance": 316653285.5109697,
+      "ratio": 1.1182342865787231
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 400475347.08261865,
+      "exact_variance": 361776052.0507414,
+      "ratio": 1.1069703061120515
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 482221565.5244149,
+      "exact_variance": 425909622.94490546,
+      "ratio": 1.1322157085584184
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 592876812.9918488,
+      "exact_variance": 546473376.2766484,
+      "ratio": 1.0849143594723067
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 195787702.15185463,
+      "exact_variance": 177997285.42020562,
+      "ratio": 1.0999476856607697
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 178199221.90677094,
+      "exact_variance": 196832016.03073487,
+      "ratio": 0.9053365682082205
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 241569493.03448546,
+      "exact_variance": 237442429.2349605,
+      "ratio": 1.0173813240237743
+    },
+    {
+      "world": "npc-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 337732728.87711155,
+      "exact_variance": 336470255.8095984,
+      "ratio": 1.003752108977584
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 343114854.0625752,
+      "exact_variance": 324977893.4094402,
+      "ratio": 1.0558098289789952
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 479206172.731389,
+      "exact_variance": 501119918.0816378,
+      "ratio": 0.9562704563128563
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 321703997.618247,
+      "exact_variance": 314058171.9052621,
+      "ratio": 1.024345253194976
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 329307450.52485275,
+      "exact_variance": 323716414.5810058,
+      "ratio": 1.0172714008064236
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 161879405.88073498,
+      "exact_variance": 158367566.94453877,
+      "ratio": 1.0221752408270948
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 192348358.17223227,
+      "exact_variance": 190482561.9003374,
+      "ratio": 1.0097951027814875
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 135982321.66841936,
+      "exact_variance": 126779256.79452029,
+      "ratio": 1.072591251176169
+    },
+    {
+      "world": "npc-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 152190422.81719816,
+      "exact_variance": 158708076.61783016,
+      "ratio": 0.9589330679349952
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 581323198.7912524,
+      "exact_variance": 610053371.4420512,
+      "ratio": 0.952905476806257
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 1449877341.2049956,
+      "exact_variance": 1468108942.386704,
+      "ratio": 0.9875815747351356
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 489102021.01843846,
+      "exact_variance": 491356057.20760274,
+      "ratio": 0.9954126215478566
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 469228453.7958661,
+      "exact_variance": 464896574.8365782,
+      "ratio": 1.0093179412234015
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 328191625.5055594,
+      "exact_variance": 353624629.05289304,
+      "ratio": 0.9280790944469833
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 821212288.4768541,
+      "exact_variance": 822228625.4872735,
+      "ratio": 0.9987639240730435
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 282294238.5766969,
+      "exact_variance": 276205254.24962115,
+      "ratio": 1.022045142999245
+    },
+    {
+      "world": "npc-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 393174745.5425839,
+      "exact_variance": 437018491.40485346,
+      "ratio": 0.8996753072820144
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 562335792.3615,
+      "exact_variance": 593160818.5461564,
+      "ratio": 0.948032598882359
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 890822549.9506426,
+      "exact_variance": 920490731.014701,
+      "ratio": 0.9677691691350833
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 393446528.07995015,
+      "exact_variance": 396853346.37032723,
+      "ratio": 0.9914154225445336
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 589573194.2706754,
+      "exact_variance": 578761857.33958,
+      "ratio": 1.0186801130620327
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 219224865.9381966,
+      "exact_variance": 254403464.3217419,
+      "ratio": 0.8617212290039603
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 651701410.8449116,
+      "exact_variance": 681019753.8000078,
+      "ratio": 0.9569493501598104
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 148787219.18357643,
+      "exact_variance": 171952507.53420705,
+      "ratio": 0.8652808924811854
+    },
+    {
+      "world": "npc-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 301484228.91924775,
+      "exact_variance": 285463792.5003911,
+      "ratio": 1.0561207299830666
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 1846866830.4477272,
+      "exact_variance": 1654195013.2533247,
+      "ratio": 1.1164746693411152
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 1672221359.5137258,
+      "exact_variance": 1632991803.8654153,
+      "ratio": 1.0240231185211408
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 756730738.1429921,
+      "exact_variance": 711400339.9053471,
+      "ratio": 1.0637199558320092
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 2545825813.42404,
+      "exact_variance": 2267171937.406168,
+      "ratio": 1.1229081356470365
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 597081215.4239861,
+      "exact_variance": 586038953.4059963,
+      "ratio": 1.0188421980378835
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 775357068.6059221,
+      "exact_variance": 783596043.9379488,
+      "ratio": 0.9894856853913888
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 770247550.6353581,
+      "exact_variance": 725661016.2940584,
+      "ratio": 1.0614426479308514
+    },
+    {
+      "world": "npc-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 1203235183.5301635,
+      "exact_variance": 1255888002.072668,
+      "ratio": 0.9580752276830351
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 159620036.1938644,
+      "exact_variance": 145999203.8592021,
+      "ratio": 1.0932938808885417
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 206575802.56363574,
+      "exact_variance": 187268977.87391636,
+      "ratio": 1.1030967590516685
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 186564354.7848433,
+      "exact_variance": 175566176.49826393,
+      "ratio": 1.0626440610938983
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 184065327.66169488,
+      "exact_variance": 198383468.24895462,
+      "ratio": 0.9278259387556846
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 94255010.89480832,
+      "exact_variance": 93713434.30656782,
+      "ratio": 1.0057790709757668
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 109237025.24055749,
+      "exact_variance": 109332770.08695519,
+      "ratio": 0.9991242804300893
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 102827524.05793998,
+      "exact_variance": 115740855.29139839,
+      "ratio": 0.8884289285667815
+    },
+    {
+      "world": "npc-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 109579896.81174141,
+      "exact_variance": 122804925.28292112,
+      "ratio": 0.8923086477133425
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 304920073.0409912,
+      "exact_variance": 305631006.8767377,
+      "ratio": 0.9976738818387192
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 447619536.6707865,
+      "exact_variance": 420473032.3836108,
+      "ratio": 1.0645618201321627
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 371483384.6517369,
+      "exact_variance": 350712453.40117466,
+      "ratio": 1.0592249606454742
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 453631592.1558627,
+      "exact_variance": 477576852.65960896,
+      "ratio": 0.9498609273661486
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 159644359.40612838,
+      "exact_variance": 169773662.43828174,
+      "ratio": 0.940336428591592
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 302646537.33235216,
+      "exact_variance": 276318424.15238225,
+      "ratio": 1.0952817868035127
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 286888369.4674507,
+      "exact_variance": 294468310.6175773,
+      "ratio": 0.9742588900848804
+    },
+    {
+      "world": "npc-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 284444882.94164926,
+      "exact_variance": 324459830.6635517,
+      "ratio": 0.8766721056345619
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 232549653.91153288,
+      "exact_variance": 204174047.01687,
+      "ratio": 1.1389775405309879
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 220834532.3485733,
+      "exact_variance": 227862296.60314995,
+      "ratio": 0.9691578450698389
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 178812075.66150618,
+      "exact_variance": 168996860.6008553,
+      "ratio": 1.058079274524708
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 272171606.3380894,
+      "exact_variance": 245313653.89869928,
+      "ratio": 1.1094841318962252
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 217864822.20935118,
+      "exact_variance": 185493267.37929815,
+      "ratio": 1.1745160635068195
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 286969471.01903266,
+      "exact_variance": 239964590.62822333,
+      "ratio": 1.1958825686229428
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 160797273.62236023,
+      "exact_variance": 135350459.29903248,
+      "ratio": 1.1880068560913235
+    },
+    {
+      "world": "npc-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 218825150.92990887,
+      "exact_variance": 209571336.85544086,
+      "ratio": 1.0441559147034079
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 271234088.5655898,
+      "exact_variance": 265490842.58500662,
+      "ratio": 1.0216325577359386
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 465889338.2164581,
+      "exact_variance": 436045985.48241717,
+      "ratio": 1.0684408381859631
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 303813985.02878237,
+      "exact_variance": 282811113.12258065,
+      "ratio": 1.0742646626375616
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 272383047.7456343,
+      "exact_variance": 266717299.14327675,
+      "ratio": 1.0212425239028609
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 119916002.3378804,
+      "exact_variance": 110708266.54833886,
+      "ratio": 1.0831711675796236
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 166778347.51033527,
+      "exact_variance": 163912723.75085497,
+      "ratio": 1.0174826193714894
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 102315019.94428399,
+      "exact_variance": 93189767.47374083,
+      "ratio": 1.097921185103445
+    },
+    {
+      "world": "npc-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 110568960.92077461,
+      "exact_variance": 102829099.60066035,
+      "ratio": 1.0752691733193447
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 167693787.81463295,
+      "exact_variance": 159575474.18891567,
+      "ratio": 1.050874444628667
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 347606075.5372583,
+      "exact_variance": 322558103.1563479,
+      "ratio": 1.0776541408689069
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 169115426.86573198,
+      "exact_variance": 163842766.46509883,
+      "ratio": 1.0321812217554098
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 357957327.84776545,
+      "exact_variance": 348873925.11214364,
+      "ratio": 1.0260363474647811
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 88757061.05593984,
+      "exact_variance": 101893794.69435927,
+      "ratio": 0.8710742525801066
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 191409052.69464004,
+      "exact_variance": 203038853.62750936,
+      "ratio": 0.9427213032132012
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 96766675.29604107,
+      "exact_variance": 97619241.17355183,
+      "ratio": 0.9912664156444831
+    },
+    {
+      "world": "npc-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 267392683.85644776,
+      "exact_variance": 270827723.3716594,
+      "ratio": 0.9873165144526297
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 0,
+      "mc_variance": 1157997064.6795082,
+      "exact_variance": 1241771573.9510977,
+      "ratio": 0.9325362965065839
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 1,
+      "mc_variance": 1654484603.3560755,
+      "exact_variance": 1765557863.986699,
+      "ratio": 0.9370888584870191
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 2,
+      "mc_variance": 965375033.4812379,
+      "exact_variance": 994479724.9103447,
+      "ratio": 0.9707337508246026
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 3,
+      "mc_variance": 1125301339.624939,
+      "exact_variance": 1147951291.8972354,
+      "ratio": 0.9802692392681029
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 4,
+      "mc_variance": 663559243.881673,
+      "exact_variance": 702957974.2653048,
+      "ratio": 0.9439529362693277
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 5,
+      "mc_variance": 1207038659.024413,
+      "exact_variance": 1292101806.7205784,
+      "ratio": 0.9341668378964193
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 6,
+      "mc_variance": 490094493.9452671,
+      "exact_variance": 517407994.06089556,
+      "ratio": 0.9472109042976753
+    },
+    {
+      "world": "npc-residual-zero.json",
+      "component": 7,
+      "mc_variance": 725091667.2756422,
+      "exact_variance": 670490321.2401175,
+      "ratio": 1.0814349503726404
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 275006934019.09937,
+      "exact_variance": 270244348814.09238,
+      "ratio": 1.0176232554941724
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 278936394912.1293,
+      "exact_variance": 260886364262.65393,
+      "ratio": 1.0691873287455647
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 289373389625.455,
+      "exact_variance": 287254029373.4638,
+      "ratio": 1.0073780000810217
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 378211272972.5154,
+      "exact_variance": 375630034439.7122,
+      "ratio": 1.0068717575703268
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 53720120079.7901,
+      "exact_variance": 51179278555.79069,
+      "ratio": 1.0496459034925558
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 73865006223.83815,
+      "exact_variance": 67395549033.82986,
+      "ratio": 1.0959923508711367
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 51192572046.255585,
+      "exact_variance": 48734081584.909874,
+      "ratio": 1.0504470461203266
+    },
+    {
+      "world": "rtx_rep1-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 67999914812.47149,
+      "exact_variance": 64860667662.34774,
+      "ratio": 1.0483998587012096
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 319866776500.79364,
+      "exact_variance": 274469333128.90076,
+      "ratio": 1.1654007857794904
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 330591675697.6113,
+      "exact_variance": 288990178737.77423,
+      "ratio": 1.1439547085701682
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 330326247003.78516,
+      "exact_variance": 284342941288.63837,
+      "ratio": 1.1617177676602453
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 481354662771.1524,
+      "exact_variance": 424179591186.11456,
+      "ratio": 1.1347897748337248
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 65247792249.11369,
+      "exact_variance": 58939614315.03478,
+      "ratio": 1.1070278115557632
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 83482953325.10565,
+      "exact_variance": 84586756235.5981,
+      "ratio": 0.986950641452451
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 65280761724.53752,
+      "exact_variance": 60111990970.583145,
+      "ratio": 1.0859856855595384
+    },
+    {
+      "world": "rtx_rep1-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 123046280714.92366,
+      "exact_variance": 110579239899.89069,
+      "ratio": 1.112743050380158
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 171804578110.96417,
+      "exact_variance": 178123196624.89322,
+      "ratio": 0.9645266948176585
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 125399238030.47314,
+      "exact_variance": 132040677392.65855,
+      "ratio": 0.9497015655074588
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 219594434015.05118,
+      "exact_variance": 232110699434.37112,
+      "ratio": 0.946076309925304
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 783295158924.3136,
+      "exact_variance": 892304849173.4673,
+      "ratio": 0.8778335785688846
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 79504886623.44208,
+      "exact_variance": 93355460177.19351,
+      "ratio": 0.8516361707449963
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 143119226314.5529,
+      "exact_variance": 145696500914.53735,
+      "ratio": 0.9823106623439348
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 58313671561.281204,
+      "exact_variance": 69848118701.71649,
+      "ratio": 0.8348638824519717
+    },
+    {
+      "world": "rtx_rep1-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 237893014051.4665,
+      "exact_variance": 279061004899.665,
+      "ratio": 0.8524767340281018
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 142853812314.81738,
+      "exact_variance": 142421572855.6091,
+      "ratio": 1.00303492968475
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 207704598811.0954,
+      "exact_variance": 207484828517.00665,
+      "ratio": 1.0010592113922716
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 107900933337.45212,
+      "exact_variance": 112360764586.87396,
+      "ratio": 0.9603079307459355
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 168071800668.65228,
+      "exact_variance": 186890336980.91327,
+      "ratio": 0.8993070662921279
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 32822692279.974285,
+      "exact_variance": 31266513789.21637,
+      "ratio": 1.0497714104376623
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 45090096934.14183,
+      "exact_variance": 42215755774.860985,
+      "ratio": 1.0680869288378934
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 34210219226.739025,
+      "exact_variance": 31850528638.04659,
+      "ratio": 1.0740863869327966
+    },
+    {
+      "world": "rtx_rep1-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 72836203743.6567,
+      "exact_variance": 73470889272.28986,
+      "ratio": 0.9913614012989422
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 138390421908.82886,
+      "exact_variance": 141257116576.08704,
+      "ratio": 0.9797058389924442
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 228444806726.92334,
+      "exact_variance": 231380636586.0396,
+      "ratio": 0.9873116873458658
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 96377530799.5409,
+      "exact_variance": 91935663184.81044,
+      "ratio": 1.0483149570129422
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 75368798492.20187,
+      "exact_variance": 72302206475.60483,
+      "ratio": 1.0424135329484272
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 21796402082.3936,
+      "exact_variance": 21414835553.081734,
+      "ratio": 1.0178178594164808
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 50842065862.01193,
+      "exact_variance": 48476560858.00647,
+      "ratio": 1.048796881671006
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 15414672726.241539,
+      "exact_variance": 16713874736.982233,
+      "ratio": 0.9222680538662891
+    },
+    {
+      "world": "rtx_rep1-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 26325763967.944653,
+      "exact_variance": 25602555287.030777,
+      "ratio": 1.028247519546622
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 78158868057.71397,
+      "exact_variance": 84154699624.1243,
+      "ratio": 0.9287522670368902
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 77855793523.42386,
+      "exact_variance": 78186592710.85912,
+      "ratio": 0.9957691059813979
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 44690452640.91159,
+      "exact_variance": 47731253942.00981,
+      "ratio": 0.9362932868934769
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 56144588854.567986,
+      "exact_variance": 60812418456.4529,
+      "ratio": 0.9232421646702392
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 33110117388.87384,
+      "exact_variance": 31879708998.50577,
+      "ratio": 1.0385953457236934
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 27640510173.100464,
+      "exact_variance": 25657502583.27092,
+      "ratio": 1.0772876309139494
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 16560607457.464563,
+      "exact_variance": 16511115396.618093,
+      "ratio": 1.002997499542436
+    },
+    {
+      "world": "rtx_rep1-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 32372196360.79497,
+      "exact_variance": 33794366985.881012,
+      "ratio": 0.957916932556239
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 44142615077.27808,
+      "exact_variance": 44882375073.809,
+      "ratio": 0.9835178063702203
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 48489275370.732666,
+      "exact_variance": 49357281030.65105,
+      "ratio": 0.9824138274679404
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 32483239552.668777,
+      "exact_variance": 33553753502.411983,
+      "ratio": 0.9680955530156633
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 61828882733.42715,
+      "exact_variance": 67765745688.84761,
+      "ratio": 0.9123913874912541
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 17759507103.295403,
+      "exact_variance": 19242188068.113403,
+      "ratio": 0.9229463427147883
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 23967234501.48937,
+      "exact_variance": 24362932509.898067,
+      "ratio": 0.9837581946160243
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 21345191801.935165,
+      "exact_variance": 21460389551.104496,
+      "ratio": 0.9946320755783578
+    },
+    {
+      "world": "rtx_rep1-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 38372472961.640015,
+      "exact_variance": 43036707615.054245,
+      "ratio": 0.8916219452674238
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 41531877658.74862,
+      "exact_variance": 43003969815.28564,
+      "ratio": 0.965768458985064
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 60758205294.3704,
+      "exact_variance": 59921862086.23689,
+      "ratio": 1.0139572299493944
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 26175762726.130554,
+      "exact_variance": 25226778613.124466,
+      "ratio": 1.0376181250709662
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 29467658731.757,
+      "exact_variance": 26899114368.258327,
+      "ratio": 1.0954880643404983
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 14571631006.682718,
+      "exact_variance": 14497722593.87775,
+      "ratio": 1.0050979326115799
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 24225922989.239296,
+      "exact_variance": 25318916609.431896,
+      "ratio": 0.9568309482963645
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 10084469795.61845,
+      "exact_variance": 9278034615.241661,
+      "ratio": 1.0869187509876286
+    },
+    {
+      "world": "rtx_rep1-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 11889984811.025146,
+      "exact_variance": 11465224582.830807,
+      "ratio": 1.037047702391318
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 185124599376.2796,
+      "exact_variance": 158316721754.5182,
+      "ratio": 1.169330676663006
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 170175705763.6595,
+      "exact_variance": 159678677390.94217,
+      "ratio": 1.0657384476389253
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 114092634036.63043,
+      "exact_variance": 100636303797.0281,
+      "ratio": 1.1337124847782785
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 142358255888.63727,
+      "exact_variance": 122098166553.91534,
+      "ratio": 1.1659327892182199
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 49872891619.520584,
+      "exact_variance": 45183466836.72993,
+      "ratio": 1.103786298641843
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 53997492485.5881,
+      "exact_variance": 52165859798.8733,
+      "ratio": 1.035111712790256
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 24699016631.520786,
+      "exact_variance": 23599936079.14243,
+      "ratio": 1.0465713359855124
+    },
+    {
+      "world": "rtx_rep1-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 41231382675.4413,
+      "exact_variance": 33915433855.443836,
+      "ratio": 1.2157114914460445
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 349591480245.7825,
+      "exact_variance": 303304346651.6177,
+      "ratio": 1.1526095293561067
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 591603692882.6716,
+      "exact_variance": 505722134882.17566,
+      "ratio": 1.1698196540685428
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 342146964054.8956,
+      "exact_variance": 284949557760.4889,
+      "ratio": 1.2007281806083143
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 221810385937.4246,
+      "exact_variance": 204481085249.7754,
+      "ratio": 1.0847476952035995
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 80719535852.40742,
+      "exact_variance": 83372712406.33717,
+      "ratio": 0.9681769193138536
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 189141397441.64352,
+      "exact_variance": 199564376336.52344,
+      "ratio": 0.9477713453361849
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 89999836725.67642,
+      "exact_variance": 91697354063.79181,
+      "ratio": 0.9814878263888132
+    },
+    {
+      "world": "rtx_rep1-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 61835676181.74942,
+      "exact_variance": 64541216874.69635,
+      "ratio": 0.9580804201724363
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 19860027154.631252,
+      "exact_variance": 20799191900.64461,
+      "ratio": 0.9548460944781103
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 43721095852.15788,
+      "exact_variance": 46084955617.28699,
+      "ratio": 0.9487064762574623
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 14449036013.406816,
+      "exact_variance": 15921237070.171055,
+      "ratio": 0.9075322444935856
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 13367088246.873161,
+      "exact_variance": 14115150876.809078,
+      "ratio": 0.9470028598018765
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 6368048675.442326,
+      "exact_variance": 6043049144.094612,
+      "ratio": 1.0537807195669275
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 15778879273.993221,
+      "exact_variance": 16526200655.155586,
+      "ratio": 0.9547796013883428
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 4513741391.699484,
+      "exact_variance": 4173122215.296361,
+      "ratio": 1.0816221425662065
+    },
+    {
+      "world": "rtx_rep1-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 6464458200.23457,
+      "exact_variance": 5773632290.669277,
+      "ratio": 1.119651871609789
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 0,
+      "mc_variance": 136169207356.65417,
+      "exact_variance": 126320054714.7738,
+      "ratio": 1.0779698256473955
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 1,
+      "mc_variance": 145591391045.02222,
+      "exact_variance": 123872971654.97076,
+      "ratio": 1.17532815350991
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 2,
+      "mc_variance": 124084424551.49385,
+      "exact_variance": 111380654887.65248,
+      "ratio": 1.114057236210861
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 3,
+      "mc_variance": 128478525621.42773,
+      "exact_variance": 127377342937.55545,
+      "ratio": 1.0086450436041214
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 4,
+      "mc_variance": 42379384971.38776,
+      "exact_variance": 45331763083.92816,
+      "ratio": 0.9348717563207434
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 5,
+      "mc_variance": 63165046971.57744,
+      "exact_variance": 60005654654.2826,
+      "ratio": 1.0526515765138702
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 6,
+      "mc_variance": 40557522585.047165,
+      "exact_variance": 39472816667.45013,
+      "ratio": 1.0274798205239684
+    },
+    {
+      "world": "rtx_rep1-residual-zero.json",
+      "component": 7,
+      "mc_variance": 48084152851.41427,
+      "exact_variance": 48991327160.8115,
+      "ratio": 0.9814829611286202
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 26746733456.112583,
+      "exact_variance": 26167524698.425125,
+      "ratio": 1.022134640718322
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 32987243010.99847,
+      "exact_variance": 33379027795.391987,
+      "ratio": 0.9882625465668116
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 29366676043.687267,
+      "exact_variance": 27828117595.793568,
+      "ratio": 1.05528790952523
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 27310597985.018383,
+      "exact_variance": 27068960303.539356,
+      "ratio": 1.0089267440924738
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 20693842471.714207,
+      "exact_variance": 15996230323.860283,
+      "ratio": 1.293669949278417
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 34933621853.970184,
+      "exact_variance": 28553213977.24642,
+      "ratio": 1.223456731764354
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 18849465684.421997,
+      "exact_variance": 14243405805.814545,
+      "ratio": 1.3233819173169337
+    },
+    {
+      "world": "rtx_rep2-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 18270918412.060024,
+      "exact_variance": 13659829065.36864,
+      "ratio": 1.337565669718499
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 25947813736.55002,
+      "exact_variance": 22018315099.81148,
+      "ratio": 1.178465001473804
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 36892016389.18501,
+      "exact_variance": 29684689525.912796,
+      "ratio": 1.2427961005615602
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 19397632068.1769,
+      "exact_variance": 16492728531.937752,
+      "ratio": 1.1761323804374682
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 24342904053.18719,
+      "exact_variance": 22970541680.697346,
+      "ratio": 1.0597444497202724
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 12970896471.380001,
+      "exact_variance": 11948244450.280863,
+      "ratio": 1.085590148858655
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 26606328452.004604,
+      "exact_variance": 22898336330.632877,
+      "ratio": 1.161932817643667
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 8492239043.480589,
+      "exact_variance": 7924994479.751482,
+      "ratio": 1.0715766509589917
+    },
+    {
+      "world": "rtx_rep2-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 9342824061.652054,
+      "exact_variance": 9108601646.676777,
+      "ratio": 1.0257144207267788
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 25847685206.6856,
+      "exact_variance": 24953874068.40972,
+      "ratio": 1.035818532057409
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 24881300347.200764,
+      "exact_variance": 23913728445.994503,
+      "ratio": 1.040460938719421
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 23242045068.80498,
+      "exact_variance": 22312565945.495384,
+      "ratio": 1.0416572045357808
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 31418891457.62549,
+      "exact_variance": 29864714604.06253,
+      "ratio": 1.0520405727684918
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 11699972623.914042,
+      "exact_variance": 10063563259.692902,
+      "ratio": 1.1626073510935606
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 11070966734.516567,
+      "exact_variance": 9993205191.06939,
+      "ratio": 1.1078494359757907
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 9502421073.994373,
+      "exact_variance": 7961471835.968421,
+      "ratio": 1.193550799371573
+    },
+    {
+      "world": "rtx_rep2-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 15419258942.381104,
+      "exact_variance": 13564599423.673145,
+      "ratio": 1.136727923971804
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 12787004023.585476,
+      "exact_variance": 12457411288.268559,
+      "ratio": 1.0264575623048828
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 26539772431.02511,
+      "exact_variance": 25293070786.041626,
+      "ratio": 1.0492902445705206
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 13731204058.106873,
+      "exact_variance": 14165648673.798416,
+      "ratio": 0.9693311174309217
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 13090504259.275356,
+      "exact_variance": 13051452827.083721,
+      "ratio": 1.002992113805951
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 2529289864.106011,
+      "exact_variance": 2584170307.134121,
+      "ratio": 0.9787628381625617
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 9574610334.92221,
+      "exact_variance": 8228223954.404703,
+      "ratio": 1.1636302545942208
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 2689901004.0081916,
+      "exact_variance": 2556139448.0400124,
+      "ratio": 1.0523295221904831
+    },
+    {
+      "world": "rtx_rep2-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 1892751604.3388093,
+      "exact_variance": 2037095800.1793613,
+      "ratio": 0.9291421661034092
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 36634832069.26845,
+      "exact_variance": 34986367403.48369,
+      "ratio": 1.0471173427859395
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 137641551221.34616,
+      "exact_variance": 133416322518.34845,
+      "ratio": 1.0316695035752963
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 25891594092.23512,
+      "exact_variance": 25462617921.08956,
+      "ratio": 1.0168472924691005
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 17408306842.384247,
+      "exact_variance": 18116107999.359016,
+      "ratio": 0.9609297340797586
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 14421931803.380016,
+      "exact_variance": 13634388190.161295,
+      "ratio": 1.057761565992893
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 37476033074.58162,
+      "exact_variance": 38402515340.263115,
+      "ratio": 0.9758744379769799
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 8986198546.712048,
+      "exact_variance": 8972040351.296057,
+      "ratio": 1.0015780351917327
+    },
+    {
+      "world": "rtx_rep2-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 4943486360.627729,
+      "exact_variance": 4996132367.5469475,
+      "ratio": 0.9894626476950076
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 40950511678.22368,
+      "exact_variance": 40665560025.65175,
+      "ratio": 1.0070071985334073
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 41797984661.398445,
+      "exact_variance": 41645828228.396034,
+      "ratio": 1.0036535816305043
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 32901786527.40287,
+      "exact_variance": 31053345146.774418,
+      "ratio": 1.059524710522868
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 32641522307.3517,
+      "exact_variance": 31505210278.04784,
+      "ratio": 1.0360674319985612
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 8760851655.696743,
+      "exact_variance": 10328645649.911955,
+      "ratio": 0.8482091411250442
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 10309204792.669638,
+      "exact_variance": 12639197361.435896,
+      "ratio": 0.8156534388903983
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 6767412216.189309,
+      "exact_variance": 8166604513.276169,
+      "ratio": 0.8286690270341559
+    },
+    {
+      "world": "rtx_rep2-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 7647329006.012218,
+      "exact_variance": 8753258493.337551,
+      "ratio": 0.8736551093324733
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 14811836734.157194,
+      "exact_variance": 13105446514.539907,
+      "ratio": 1.130204660918964
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 16579409687.873821,
+      "exact_variance": 15191656457.302797,
+      "ratio": 1.0913496980708721
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 14332054479.20557,
+      "exact_variance": 12327304772.398914,
+      "ratio": 1.1626267658519591
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 16689474791.968435,
+      "exact_variance": 13606244173.864006,
+      "ratio": 1.226604092849293
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 7521323737.128305,
+      "exact_variance": 8417838847.895789,
+      "ratio": 0.8934981855833952
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 11970055750.6794,
+      "exact_variance": 13967175790.055672,
+      "ratio": 0.8570133239965249
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 6336335085.09174,
+      "exact_variance": 6895225291.583278,
+      "ratio": 0.9189453305936569
+    },
+    {
+      "world": "rtx_rep2-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 7620984294.716223,
+      "exact_variance": 7677564555.539172,
+      "ratio": 0.9926304415399375
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 23914969891.79461,
+      "exact_variance": 26299363552.28356,
+      "ratio": 0.9093364500723092
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 28267818759.2203,
+      "exact_variance": 30880199889.378876,
+      "ratio": 0.9154027130809766
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 33517424969.083916,
+      "exact_variance": 35392524832.7406,
+      "ratio": 0.9470198898632379
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 42538378883.694824,
+      "exact_variance": 45353590683.47681,
+      "ratio": 0.9379274770231673
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 13038512631.018585,
+      "exact_variance": 15763529586.929485,
+      "ratio": 0.8271315481165855
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 16353303596.817085,
+      "exact_variance": 20994742021.92331,
+      "ratio": 0.7789237695676612
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 14329921267.190317,
+      "exact_variance": 16914609848.031158,
+      "ratio": 0.8471919480222776
+    },
+    {
+      "world": "rtx_rep2-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 24764259434.522804,
+      "exact_variance": 28017575410.439945,
+      "ratio": 0.8838830295534821
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 59886846586.68846,
+      "exact_variance": 54367098192.99818,
+      "ratio": 1.1015273681537259
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 73058117131.34569,
+      "exact_variance": 71887050088.05002,
+      "ratio": 1.0162903755524995
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 59122736935.592834,
+      "exact_variance": 54546472536.35149,
+      "ratio": 1.0838966148762705
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 61379919086.73685,
+      "exact_variance": 56448224700.53947,
+      "ratio": 1.087366687125419
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 23602117213.503754,
+      "exact_variance": 19721365447.058956,
+      "ratio": 1.1967790606011783
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 36289200663.81631,
+      "exact_variance": 30838131230.73963,
+      "ratio": 1.1767639352816235
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 20948127979.765816,
+      "exact_variance": 17889959350.715813,
+      "ratio": 1.17094329668936
+    },
+    {
+      "world": "rtx_rep2-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 27431041352.24781,
+      "exact_variance": 23876357579.740456,
+      "ratio": 1.1488788128857466
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 11450370849.243948,
+      "exact_variance": 12913098418.202688,
+      "ratio": 0.8867252829966171
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 17438264172.673515,
+      "exact_variance": 19915843222.848083,
+      "ratio": 0.8755975821635203
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 13073371649.813463,
+      "exact_variance": 13678343006.349836,
+      "ratio": 0.9557715904437014
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 9803686686.467201,
+      "exact_variance": 10404789125.488304,
+      "ratio": 0.9422282920132807
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 5234530805.793537,
+      "exact_variance": 5899826529.430723,
+      "ratio": 0.8872346974409465
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 12532555172.144684,
+      "exact_variance": 14097151909.784986,
+      "ratio": 0.8890132739114275
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 5898182378.295948,
+      "exact_variance": 6282222040.915053,
+      "ratio": 0.9388688174155705
+    },
+    {
+      "world": "rtx_rep2-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 3757080183.39779,
+      "exact_variance": 4046806172.0580406,
+      "ratio": 0.9284062600623869
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 15610193260.11016,
+      "exact_variance": 14382252117.046846,
+      "ratio": 1.0853789193145817
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 22893065289.085785,
+      "exact_variance": 22646071843.208206,
+      "ratio": 1.010906679427128
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 12004343760.595428,
+      "exact_variance": 12536418922.079832,
+      "ratio": 0.957557643471272
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 14021060553.788132,
+      "exact_variance": 12346101129.807981,
+      "ratio": 1.1356670746796484
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 5374374704.267478,
+      "exact_variance": 5563731815.895527,
+      "ratio": 0.9659658089401331
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 13578160442.35025,
+      "exact_variance": 13874722391.27407,
+      "ratio": 0.9786257381906012
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 4823357951.219801,
+      "exact_variance": 4766358987.225481,
+      "ratio": 1.0119585965192897
+    },
+    {
+      "world": "rtx_rep2-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 4853562265.005289,
+      "exact_variance": 5361426270.323228,
+      "ratio": 0.9052744587519393
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 0,
+      "mc_variance": 130906695122.02718,
+      "exact_variance": 127115984999.76212,
+      "ratio": 1.0298208767549741
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 1,
+      "mc_variance": 189593626732.7484,
+      "exact_variance": 172515437728.94815,
+      "ratio": 1.0989951347463354
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 2,
+      "mc_variance": 289874407169.2402,
+      "exact_variance": 275927494352.97296,
+      "ratio": 1.0505455712159877
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 3,
+      "mc_variance": 377249298033.95935,
+      "exact_variance": 382142235626.7189,
+      "ratio": 0.9871960303347913
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 4,
+      "mc_variance": 122742157407.81367,
+      "exact_variance": 113132426473.2329,
+      "ratio": 1.0849423214382699
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 5,
+      "mc_variance": 205752805740.17047,
+      "exact_variance": 200834054594.12268,
+      "ratio": 1.0244916189935436
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 6,
+      "mc_variance": 232832608702.83282,
+      "exact_variance": 223668241891.54733,
+      "ratio": 1.0409730354822977
+    },
+    {
+      "world": "rtx_rep2-residual-zero.json",
+      "component": 7,
+      "mc_variance": 212314886542.18005,
+      "exact_variance": 197015382837.13666,
+      "ratio": 1.0776563915198987
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 689555478.7672796,
+      "exact_variance": 691931253.8182023,
+      "ratio": 0.9965664579568958
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 882713529.2516084,
+      "exact_variance": 875356484.7652965,
+      "ratio": 1.0084046267027822
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 612172934.2113503,
+      "exact_variance": 598637617.4122179,
+      "ratio": 1.0226102009052533
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 852249709.1223481,
+      "exact_variance": 830709741.3750398,
+      "ratio": 1.025929595711318
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 345521484.8410789,
+      "exact_variance": 345281548.5910553,
+      "ratio": 1.0006949002951437
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 441253807.2247157,
+      "exact_variance": 439577581.74399996,
+      "ratio": 1.0038132642571658
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 287184900.4321054,
+      "exact_variance": 272434839.6396508,
+      "ratio": 1.054141609832151
+    },
+    {
+      "world": "rtx_rep3-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 402183822.54366255,
+      "exact_variance": 462720368.78084004,
+      "ratio": 0.8691725060716969
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 329448558.9051279,
+      "exact_variance": 422902927.33817947,
+      "ratio": 0.7790169743650895
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 390766289.4031681,
+      "exact_variance": 480496191.27113336,
+      "ratio": 0.8132557479163603
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 346599222.021691,
+      "exact_variance": 419281019.4695573,
+      "ratio": 0.8266513529760594
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 398203487.8831339,
+      "exact_variance": 473454263.4914479,
+      "ratio": 0.841060095111651
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 148182404.66490543,
+      "exact_variance": 156329842.4243691,
+      "ratio": 0.9478830296691093
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 205851928.4964512,
+      "exact_variance": 221600843.69687438,
+      "ratio": 0.9289311586648742
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 147454144.9220263,
+      "exact_variance": 156597099.68485534,
+      "ratio": 0.9416147886440501
+    },
+    {
+      "world": "rtx_rep3-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 204692946.85289606,
+      "exact_variance": 210219607.41511118,
+      "ratio": 0.9737100614439743
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 689064691.0101336,
+      "exact_variance": 639240032.643595,
+      "ratio": 1.077943582726644
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 1320521315.857459,
+      "exact_variance": 1153270244.6488194,
+      "ratio": 1.145023312605771
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 556097639.8376423,
+      "exact_variance": 550157855.4798223,
+      "ratio": 1.0107965092175948
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 632000086.7264634,
+      "exact_variance": 631789179.653781,
+      "ratio": 1.0003338250787992
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 436585394.1098799,
+      "exact_variance": 383739687.90690416,
+      "ratio": 1.1377123812530858
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 831898643.3197981,
+      "exact_variance": 699119091.2916285,
+      "ratio": 1.1899240825806348
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 313055476.3456375,
+      "exact_variance": 280788286.2587844,
+      "ratio": 1.1149164394169724
+    },
+    {
+      "world": "rtx_rep3-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 332100236.6452219,
+      "exact_variance": 331041674.97506857,
+      "ratio": 1.0031976689044757
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 2350006310.933924,
+      "exact_variance": 3085556127.059836,
+      "ratio": 0.761615155959972
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 1738278174.3571181,
+      "exact_variance": 2410294136.1232867,
+      "ratio": 0.7211892309346783
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 3445015470.782371,
+      "exact_variance": 4506662098.191113,
+      "ratio": 0.7644272847003847
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 3199053747.460305,
+      "exact_variance": 4247271742.904936,
+      "ratio": 0.7532020414762305
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 512570380.93881017,
+      "exact_variance": 650103276.0061663,
+      "ratio": 0.7884445439003577
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 444462719.0028813,
+      "exact_variance": 540074390.1111119,
+      "ratio": 0.8229657379448043
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 761513298.37558,
+      "exact_variance": 938709627.0970337,
+      "ratio": 0.8112341414144918
+    },
+    {
+      "world": "rtx_rep3-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 495732261.8679171,
+      "exact_variance": 640892414.5747392,
+      "ratio": 0.7735030881850234
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 1514701719.840445,
+      "exact_variance": 1482319098.3908143,
+      "ratio": 1.021845917984046
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 2545192174.488094,
+      "exact_variance": 2460317397.573435,
+      "ratio": 1.0344974908515339
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 1501815414.2929726,
+      "exact_variance": 1434200446.3529363,
+      "ratio": 1.0471447126599187
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 902217890.0932914,
+      "exact_variance": 886518595.0720503,
+      "ratio": 1.0177089291849148
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 415384065.69779664,
+      "exact_variance": 385113073.2122655,
+      "ratio": 1.0786028691081242
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 952281937.5906613,
+      "exact_variance": 940708388.3780738,
+      "ratio": 1.0123030147871244
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 464166633.97289014,
+      "exact_variance": 453508518.8994347,
+      "ratio": 1.0235014660790063
+    },
+    {
+      "world": "rtx_rep3-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 435010742.82341164,
+      "exact_variance": 443212401.3166805,
+      "ratio": 0.9814949706531143
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 337202568.9469787,
+      "exact_variance": 360201188.3999779,
+      "ratio": 0.9361506286107505
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 418575437.10170084,
+      "exact_variance": 404648833.0294295,
+      "ratio": 1.0344165185600782
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 430134591.2907158,
+      "exact_variance": 407555737.8538611,
+      "ratio": 1.0554006515912455
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 552433428.8380471,
+      "exact_variance": 561916904.4545834,
+      "ratio": 0.9831229928458172
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 171944109.83596715,
+      "exact_variance": 172247092.61920202,
+      "ratio": 0.9982409991447305
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 218222191.57698387,
+      "exact_variance": 227674484.7554711,
+      "ratio": 0.9584833004513471
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 192764563.99480146,
+      "exact_variance": 199131743.18027738,
+      "ratio": 0.9680252927846286
+    },
+    {
+      "world": "rtx_rep3-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 260019113.05079627,
+      "exact_variance": 278677551.52133894,
+      "ratio": 0.9330464963227799
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 2673002464.487884,
+      "exact_variance": 2093968692.6941652,
+      "ratio": 1.2765245601875337
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 2866024598.65525,
+      "exact_variance": 2446899077.8845115,
+      "ratio": 1.171288437908562
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 2339805552.17305,
+      "exact_variance": 1810791156.658517,
+      "ratio": 1.292145449004032
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 3076676212.904733,
+      "exact_variance": 2319513295.629141,
+      "ratio": 1.3264318073547496
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 599286402.9679464,
+      "exact_variance": 622583749.1471794,
+      "ratio": 0.9625795787134729
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 750565349.8385022,
+      "exact_variance": 856395637.3630593,
+      "ratio": 0.8764236027049125
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 566398139.2669892,
+      "exact_variance": 571193526.3917887,
+      "ratio": 0.9916046192695989
+    },
+    {
+      "world": "rtx_rep3-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 1022751159.6057988,
+      "exact_variance": 1115193897.4043467,
+      "ratio": 0.9171061301413937
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 787395148.9408616,
+      "exact_variance": 675185027.489516,
+      "ratio": 1.1661916613710572
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 1141534888.4600823,
+      "exact_variance": 979033394.7419456,
+      "ratio": 1.1659815636431574
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 547979419.9921135,
+      "exact_variance": 491537554.5651907,
+      "ratio": 1.1148271681435424
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 560331939.6818459,
+      "exact_variance": 495686166.475482,
+      "ratio": 1.1304167386110855
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 679321066.9596025,
+      "exact_variance": 613021761.9686925,
+      "ratio": 1.1081516336026842
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 1195807522.16554,
+      "exact_variance": 992263515.9358277,
+      "ratio": 1.205130998934033
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 447985604.00034267,
+      "exact_variance": 383832797.0415909,
+      "ratio": 1.1671373771423716
+    },
+    {
+      "world": "rtx_rep3-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 416935847.36457306,
+      "exact_variance": 366642474.0854329,
+      "ratio": 1.1371727959358606
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 937396264.7772837,
+      "exact_variance": 792871193.6283746,
+      "ratio": 1.1822806431994668
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 1074368709.8952641,
+      "exact_variance": 946892249.7148454,
+      "ratio": 1.1346261522562973
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 1239038351.718987,
+      "exact_variance": 1066341422.4286547,
+      "ratio": 1.1619527532720288
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 1628976626.7986321,
+      "exact_variance": 1516928756.1170583,
+      "ratio": 1.0738649526088404
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 296401251.1643102,
+      "exact_variance": 277466478.13237506,
+      "ratio": 1.0682416598912596
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 405074199.65578556,
+      "exact_variance": 369625989.3639989,
+      "ratio": 1.0959029162229124
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 431238902.5320202,
+      "exact_variance": 371942379.87141997,
+      "ratio": 1.159423948088677
+    },
+    {
+      "world": "rtx_rep3-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 533797242.00780046,
+      "exact_variance": 549260952.2265337,
+      "ratio": 0.9718463325017952
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 259360952.0881545,
+      "exact_variance": 263495392.02638102,
+      "ratio": 0.9843092514581333
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 442337520.04306597,
+      "exact_variance": 447088445.1250273,
+      "ratio": 0.9893736348282659
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 363578951.56975245,
+      "exact_variance": 379481607.5068718,
+      "ratio": 0.9580937372917833
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 335751229.392136,
+      "exact_variance": 356961369.93271554,
+      "ratio": 0.9405814120878752
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 76599814.71482772,
+      "exact_variance": 81247369.76235789,
+      "ratio": 0.9427974707227581
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 209408366.07529277,
+      "exact_variance": 216241103.56425095,
+      "ratio": 0.9684022261432458
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 102297919.91329041,
+      "exact_variance": 110555199.448458,
+      "ratio": 0.9253107988013063
+    },
+    {
+      "world": "rtx_rep3-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 95498276.19731475,
+      "exact_variance": 100694201.23615356,
+      "ratio": 0.9483989646369702
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 749788264.4474084,
+      "exact_variance": 858685856.0658498,
+      "ratio": 0.8731811047670379
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 1565690843.3414366,
+      "exact_variance": 1832684722.7450268,
+      "ratio": 0.8543154334785515
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 892498801.1750042,
+      "exact_variance": 1058331696.305154,
+      "ratio": 0.8433072582923622
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 805623842.7438238,
+      "exact_variance": 906806499.4438001,
+      "ratio": 0.8884186904681012
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 207809130.98989955,
+      "exact_variance": 225192603.46287775,
+      "ratio": 0.9228062014219582
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 678710982.6376656,
+      "exact_variance": 756699228.857449,
+      "ratio": 0.8969362684067499
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 256446769.1220403,
+      "exact_variance": 288879720.3689256,
+      "ratio": 0.887728528657306
+    },
+    {
+      "world": "rtx_rep3-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 206475059.5545893,
+      "exact_variance": 219707038.45766586,
+      "ratio": 0.9397744423848936
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 0,
+      "mc_variance": 153182855.58306378,
+      "exact_variance": 149121623.91519147,
+      "ratio": 1.0272343578432461
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 1,
+      "mc_variance": 176991751.9697175,
+      "exact_variance": 178847103.6461945,
+      "ratio": 0.989626045719212
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 2,
+      "mc_variance": 300743586.3375567,
+      "exact_variance": 308566131.58826345,
+      "ratio": 0.9746487237259571
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 3,
+      "mc_variance": 321117281.19974947,
+      "exact_variance": 303540425.55248,
+      "ratio": 1.0579061441825335
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 4,
+      "mc_variance": 73306378.23976158,
+      "exact_variance": 74020770.06287062,
+      "ratio": 0.9903487653194871
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 5,
+      "mc_variance": 121663257.968294,
+      "exact_variance": 111388724.6178152,
+      "ratio": 1.0922403356868629
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 6,
+      "mc_variance": 146876392.63682878,
+      "exact_variance": 149139279.12343013,
+      "ratio": 0.9848270254496232
+    },
+    {
+      "world": "rtx_rep3-residual-zero.json",
+      "component": 7,
+      "mc_variance": 152976151.62674418,
+      "exact_variance": 172888247.88899583,
+      "ratio": 0.884826779695076
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 12038938405019.027,
+      "exact_variance": 12523693786842.676,
+      "ratio": 0.9612929388026934
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 10745364633836.248,
+      "exact_variance": 11013063079014.598,
+      "ratio": 0.9756926439758209
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 5034522837647.482,
+      "exact_variance": 5416857882972.804,
+      "ratio": 0.92941756021934
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 7561605917543.145,
+      "exact_variance": 7282456132678.319,
+      "ratio": 1.0383318182463477
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 1069210284876.2725,
+      "exact_variance": 1315223799394.155,
+      "ratio": 0.8129493135455682
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 1184081559491.3645,
+      "exact_variance": 1373754605087.0068,
+      "ratio": 0.8619309119013804
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 559330372782.565,
+      "exact_variance": 688404340345.0693,
+      "ratio": 0.812502681929918
+    },
+    {
+      "world": "sdc_corrected-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 1014349973894.0769,
+      "exact_variance": 1106777474934.1648,
+      "ratio": 0.9164895354907853
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 4901820969279.459,
+      "exact_variance": 5019407726333.957,
+      "ratio": 0.9765735793014806
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 6082813161954.043,
+      "exact_variance": 6029908398397.692,
+      "ratio": 1.0087737259110616
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 2386477929896.367,
+      "exact_variance": 2464071444878.5293,
+      "ratio": 0.9685100384798351
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 3470009243497.1113,
+      "exact_variance": 3407167103027.1343,
+      "ratio": 1.0184441028484175
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 721222222984.4685,
+      "exact_variance": 737903246471.3132,
+      "ratio": 0.9773940234487188
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 782970634461.8961,
+      "exact_variance": 769851107864.0964,
+      "ratio": 1.0170416415119528
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 427105702785.75726,
+      "exact_variance": 450124600513.58075,
+      "ratio": 0.9488610538025259
+    },
+    {
+      "world": "sdc_corrected-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 886280863432.4929,
+      "exact_variance": 921998772220.4125,
+      "ratio": 0.9612603510285577
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 5384497927833.847,
+      "exact_variance": 5572045981189.718,
+      "ratio": 0.96634125885016
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 12072627833740.441,
+      "exact_variance": 13471103034291.457,
+      "ratio": 0.8961870310848995
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 2517381431381.8867,
+      "exact_variance": 2656248352381.299,
+      "ratio": 0.9477206561370968
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 4077205606629.5117,
+      "exact_variance": 4121295291973.351,
+      "ratio": 0.989301983425039
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 481918990175.91583,
+      "exact_variance": 456051158828.36725,
+      "ratio": 1.0567213367333725
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 2137542602863.558,
+      "exact_variance": 2343201226812.299,
+      "ratio": 0.912231770111985
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 300085441671.8032,
+      "exact_variance": 273739041743.34924,
+      "ratio": 1.0962464095755684
+    },
+    {
+      "world": "sdc_corrected-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 487965872943.3173,
+      "exact_variance": 456364188669.3007,
+      "ratio": 1.0692466347242606
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 9089018380195.49,
+      "exact_variance": 9347976671391.355,
+      "ratio": 0.9722979313814096
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 14325586941242.066,
+      "exact_variance": 13586325779521.46,
+      "ratio": 1.0544121474574741
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 4148356263900.4224,
+      "exact_variance": 4198045490091.0723,
+      "ratio": 0.9881637237357397
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 4573303048090.44,
+      "exact_variance": 4885968061869.736,
+      "ratio": 0.9360075608722569
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 619183699552.6624,
+      "exact_variance": 735095462587.094,
+      "ratio": 0.8423174010264028
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 1406436336513.6333,
+      "exact_variance": 1472751561655.7139,
+      "ratio": 0.9549718860474153
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 296080298633.289,
+      "exact_variance": 325532841880.8839,
+      "ratio": 0.9095251247848845
+    },
+    {
+      "world": "sdc_corrected-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 516317746887.2573,
+      "exact_variance": 492291172860.37616,
+      "ratio": 1.0488056161707688
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 1999268555979.8123,
+      "exact_variance": 2118713368566.0244,
+      "ratio": 0.9436238925197068
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 3183885759155.776,
+      "exact_variance": 3215781862990.337,
+      "ratio": 0.9900813844988537
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 649413712066.6549,
+      "exact_variance": 686099030521.3235,
+      "ratio": 0.9465305782070648
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 1829704760712.6572,
+      "exact_variance": 1820858407866.7837,
+      "ratio": 1.0048583419818113
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 177008398694.19452,
+      "exact_variance": 182170386312.33255,
+      "ratio": 0.9716639585465457
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 382364648578.3909,
+      "exact_variance": 393363322787.18463,
+      "ratio": 0.9720394007990822
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 58279547884.52106,
+      "exact_variance": 63683268170.04726,
+      "ratio": 0.915146938264896
+    },
+    {
+      "world": "sdc_corrected-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 196457683179.9017,
+      "exact_variance": 182753474446.10065,
+      "ratio": 1.0749874046189083
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 11058564992233.578,
+      "exact_variance": 11072531061329.598,
+      "ratio": 0.9987386742002652
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 11568890937936.48,
+      "exact_variance": 11042469465931.295,
+      "ratio": 1.0476724408094877
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 5076926373369.672,
+      "exact_variance": 5022862960237.642,
+      "ratio": 1.0107634656887936
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 8428970874462.197,
+      "exact_variance": 8405804223891.326,
+      "ratio": 1.0027560302326606
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 1183182754875.0527,
+      "exact_variance": 1247974659087.5073,
+      "ratio": 0.9480823558870746
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 1054125991207.5791,
+      "exact_variance": 1066392066789.7715,
+      "ratio": 0.988497592992118
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 435878337429.2325,
+      "exact_variance": 429234355849.8956,
+      "ratio": 1.0154786807924114
+    },
+    {
+      "world": "sdc_corrected-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 1288698619394.5703,
+      "exact_variance": 1293311804155.4844,
+      "ratio": 0.9964330451898052
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 32031766052309.91,
+      "exact_variance": 33558286540712.625,
+      "ratio": 0.9545113697461652
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 27448421576899.727,
+      "exact_variance": 31105562821337.684,
+      "ratio": 0.8824280638982926
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 19050771352971.88,
+      "exact_variance": 19129318646776.406,
+      "ratio": 0.9958938791676324
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 31451105597365.645,
+      "exact_variance": 30959775483434.12,
+      "ratio": 1.0158699508074411
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 4379139812675.2676,
+      "exact_variance": 4456819024833.106,
+      "ratio": 0.9825707053113408
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 4417732122302.274,
+      "exact_variance": 4790444813436.355,
+      "ratio": 0.9221966423475566
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 1674039348598.09,
+      "exact_variance": 1759395701811.7747,
+      "ratio": 0.9514854144944273
+    },
+    {
+      "world": "sdc_corrected-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 3269750989443.164,
+      "exact_variance": 3334372590954.359,
+      "ratio": 0.9806195619270314
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 47170145658363.875,
+      "exact_variance": 44544014801326.805,
+      "ratio": 1.0589558635149978
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 54676705400328.42,
+      "exact_variance": 53100609724836.2,
+      "ratio": 1.0296813103212834
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 18319051405886.19,
+      "exact_variance": 16870431526899.111,
+      "ratio": 1.0858673873680897
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 36630664070626.78,
+      "exact_variance": 35372477212924.82,
+      "ratio": 1.0355696563214474
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 12668647504210.273,
+      "exact_variance": 14555181940058.86,
+      "ratio": 0.8703874370229303
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 17530225479885.012,
+      "exact_variance": 18027799900132.92,
+      "ratio": 0.9723996037783711
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 4553631855220.503,
+      "exact_variance": 5159811059422.675,
+      "ratio": 0.882519108312079
+    },
+    {
+      "world": "sdc_corrected-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 14297601292948.623,
+      "exact_variance": 13302483904458.332,
+      "ratio": 1.0748068853634754
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 33966215579420.336,
+      "exact_variance": 39315083607666.086,
+      "ratio": 0.863948705244448
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 28557062028804.83,
+      "exact_variance": 33996570763609.805,
+      "ratio": 0.8399983112229816
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 14910818879880.549,
+      "exact_variance": 16910016920521.258,
+      "ratio": 0.8817743323358495
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 23547298505970.273,
+      "exact_variance": 27500320051706.598,
+      "ratio": 0.856255434907529
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 6877314464380.436,
+      "exact_variance": 6920741033208.425,
+      "ratio": 0.9937251562195997
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 6312023677032.838,
+      "exact_variance": 6258931570497.583,
+      "ratio": 1.0084826149538864
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 3058669105706.67,
+      "exact_variance": 2979171030059.098,
+      "ratio": 1.0266846296655867
+    },
+    {
+      "world": "sdc_corrected-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 6513506570802.446,
+      "exact_variance": 6618166577758.004,
+      "ratio": 0.9841859515432425
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 43743707563426.625,
+      "exact_variance": 47263069824137.234,
+      "ratio": 0.9255367399154155
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 61576395361102.19,
+      "exact_variance": 68844719833723.805,
+      "ratio": 0.894424372846947
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 15100204516234.965,
+      "exact_variance": 16945176301845.006,
+      "ratio": 0.8911211218611423
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 18401016879084.055,
+      "exact_variance": 19561944563101.633,
+      "ratio": 0.9406537688381268
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 4286219101201.748,
+      "exact_variance": 4362820213081.622,
+      "ratio": 0.9824422946308466
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 13697618685448.666,
+      "exact_variance": 13881599661022.883,
+      "ratio": 0.9867464139532274
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 2237551461422.2803,
+      "exact_variance": 2181355236817.468,
+      "ratio": 1.0257620692202343
+    },
+    {
+      "world": "sdc_corrected-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 1845812498964.778,
+      "exact_variance": 2002539952421.043,
+      "ratio": 0.9217356671127667
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 11590473889705.105,
+      "exact_variance": 10960997285962.143,
+      "ratio": 1.057428771061657
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 37670499894173.555,
+      "exact_variance": 36717435002435.266,
+      "ratio": 1.025956739398465
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 4988084048795.207,
+      "exact_variance": 4687517917845.175,
+      "ratio": 1.06412052950364
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 4314948960686.7217,
+      "exact_variance": 4095956729649.488,
+      "ratio": 1.0534654649674422
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 3330740004269.127,
+      "exact_variance": 3236535936612.649,
+      "ratio": 1.02910644883958
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 13246321976710.195,
+      "exact_variance": 13355609152447.547,
+      "ratio": 0.9918171328248758
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 1086675014758.6809,
+      "exact_variance": 1081340278681.3932,
+      "ratio": 1.0049334480389402
+    },
+    {
+      "world": "sdc_corrected-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 713144877709.7681,
+      "exact_variance": 754005019043.9263,
+      "ratio": 0.9458091918460058
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 0,
+      "mc_variance": 78529728690592.34,
+      "exact_variance": 75633019584337.81,
+      "ratio": 1.0382995300488358
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 1,
+      "mc_variance": 76989401931231.17,
+      "exact_variance": 80197849883489.34,
+      "ratio": 0.9599933420045628
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 2,
+      "mc_variance": 34891849620918.496,
+      "exact_variance": 35334839964685.13,
+      "ratio": 0.9874630720215691
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 3,
+      "mc_variance": 43402453109825.97,
+      "exact_variance": 43750354688093.59,
+      "ratio": 0.9920480283931892
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 4,
+      "mc_variance": 23551657302199.305,
+      "exact_variance": 24426304599182.07,
+      "ratio": 0.964192401948019
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 5,
+      "mc_variance": 27200106756063.3,
+      "exact_variance": 28793003876930.37,
+      "ratio": 0.9446776332307816
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 6,
+      "mc_variance": 11681892991787.695,
+      "exact_variance": 12704636437309.822,
+      "ratio": 0.9194984090596543
+    },
+    {
+      "world": "sdc_corrected-residual-zero.json",
+      "component": 7,
+      "mc_variance": 17573610875105.836,
+      "exact_variance": 18240766034910.91,
+      "ratio": 0.9634250470332107
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 0,
+      "mc_variance": 7739872924807.931,
+      "exact_variance": 7515112203878.953,
+      "ratio": 1.0299078330211713
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 1,
+      "mc_variance": 11327059590105.512,
+      "exact_variance": 11305116483155.633,
+      "ratio": 1.001940989018784
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 2,
+      "mc_variance": 3883345230683.168,
+      "exact_variance": 3833469687971.042,
+      "ratio": 1.013010548347005
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 3,
+      "mc_variance": 6318100521500.942,
+      "exact_variance": 6053616299367.7705,
+      "ratio": 1.0436902851211092
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 4,
+      "mc_variance": 1119216662842.0537,
+      "exact_variance": 1023369261604.0107,
+      "ratio": 1.093658667339503
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 5,
+      "mc_variance": 1535021161596.4727,
+      "exact_variance": 1419494974939.3594,
+      "ratio": 1.0813854143175452
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 6,
+      "mc_variance": 664284760336.2496,
+      "exact_variance": 600115444298.1031,
+      "ratio": 1.106928286295313
+    },
+    {
+      "world": "sdc_raw-gaussian-group_common.json",
+      "component": 7,
+      "mc_variance": 1059726307415.6084,
+      "exact_variance": 955902960624.2867,
+      "ratio": 1.1086128520027976
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 4874766326705.806,
+      "exact_variance": 5226624472294.725,
+      "ratio": 0.932679658266239
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 7814487959524.372,
+      "exact_variance": 8089802502096.348,
+      "ratio": 0.9659677053301818
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 1895050775627.668,
+      "exact_variance": 2037025911071.844,
+      "ratio": 0.9303027346522699
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 3534988258187.009,
+      "exact_variance": 3624741480273.631,
+      "ratio": 0.9752387245890302
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 755482651784.7839,
+      "exact_variance": 747517105304.7662,
+      "ratio": 1.0106560056264802
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 1663410168126.0693,
+      "exact_variance": 1646618623977.9705,
+      "ratio": 1.0101975915391588
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 335473560056.79224,
+      "exact_variance": 292001002636.0917,
+      "ratio": 1.148878110103199
+    },
+    {
+      "world": "sdc_raw-gaussian-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 969098893141.2207,
+      "exact_variance": 984269272363.2539,
+      "ratio": 0.9845871656791553
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 0,
+      "mc_variance": 3348319713253.0317,
+      "exact_variance": 3304037612075.8706,
+      "ratio": 1.0134024204250325
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 1,
+      "mc_variance": 4562725450081.735,
+      "exact_variance": 4560573207275.791,
+      "ratio": 1.000471923749083
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 2,
+      "mc_variance": 1803420979870.4795,
+      "exact_variance": 1750140655030.6494,
+      "ratio": 1.0304434530371487
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 3,
+      "mc_variance": 2633908761466.3613,
+      "exact_variance": 2608503842326.426,
+      "ratio": 1.0097392684372195
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 4,
+      "mc_variance": 368502926344.50757,
+      "exact_variance": 390772499566.59705,
+      "ratio": 0.9430114113792846
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 5,
+      "mc_variance": 652386469045.5967,
+      "exact_variance": 654265628239.4056,
+      "ratio": 0.9971278344563725
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 6,
+      "mc_variance": 210198482115.70145,
+      "exact_variance": 216992859634.73956,
+      "ratio": 0.968688474217654
+    },
+    {
+      "world": "sdc_raw-gaussian-homogeneous.json",
+      "component": 7,
+      "mc_variance": 649236453870.7635,
+      "exact_variance": 617658954545.4763,
+      "ratio": 1.0511244904536752
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 0,
+      "mc_variance": 23490860113699.234,
+      "exact_variance": 21506412624234.824,
+      "ratio": 1.0922723619293069
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 1,
+      "mc_variance": 18166239098963.812,
+      "exact_variance": 16288405655701.08,
+      "ratio": 1.1152865101076037
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 2,
+      "mc_variance": 5863426646729.804,
+      "exact_variance": 5375566229638.482,
+      "ratio": 1.0907551681535381
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 3,
+      "mc_variance": 14109898659512.447,
+      "exact_variance": 12550153797879.137,
+      "ratio": 1.1242809360548947
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 4,
+      "mc_variance": 5086637402649.91,
+      "exact_variance": 4478557146723.977,
+      "ratio": 1.135775928720869
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 5,
+      "mc_variance": 2887850080433.2437,
+      "exact_variance": 2724892508051.2993,
+      "ratio": 1.0598033030295506
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 6,
+      "mc_variance": 1127752087522.5425,
+      "exact_variance": 1012246820106.6991,
+      "ratio": 1.114107809598916
+    },
+    {
+      "world": "sdc_raw-gaussian-noise_shift.json",
+      "component": 7,
+      "mc_variance": 3209408330993.661,
+      "exact_variance": 2834936381900.4805,
+      "ratio": 1.1320918351057114
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 7686825076524.586,
+      "exact_variance": 7099918899533.886,
+      "ratio": 1.08266378606511
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 12353798908316.492,
+      "exact_variance": 12261445218626.588,
+      "ratio": 1.0075320394980527
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 4015039330893.0957,
+      "exact_variance": 3788461650643.5938,
+      "ratio": 1.059807304690813
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 7110725197837.491,
+      "exact_variance": 5619264442291.786,
+      "ratio": 1.265419214714412
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 835685391819.6759,
+      "exact_variance": 738611162905.9109,
+      "ratio": 1.1314280555033136
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 988034498407.4819,
+      "exact_variance": 858960528582.3429,
+      "ratio": 1.1502676380696644
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 335151006734.5314,
+      "exact_variance": 287841494688.8865,
+      "ratio": 1.1643595969260074
+    },
+    {
+      "world": "sdc_raw-gaussian-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 686814230971.671,
+      "exact_variance": 607637852549.3275,
+      "ratio": 1.1303019192931467
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 0,
+      "mc_variance": 11760427216388.006,
+      "exact_variance": 11166804377631.174,
+      "ratio": 1.0531595986355728
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 1,
+      "mc_variance": 9831886314378.184,
+      "exact_variance": 9451042500137.51,
+      "ratio": 1.0402964873171539
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 2,
+      "mc_variance": 4929315845488.045,
+      "exact_variance": 4683173623482.679,
+      "ratio": 1.0525588504280823
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 3,
+      "mc_variance": 9942547453090.607,
+      "exact_variance": 9465092161529.076,
+      "ratio": 1.0504438079855314
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 4,
+      "mc_variance": 701479195439.4758,
+      "exact_variance": 756241124078.7456,
+      "ratio": 0.9275866824804313
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 5,
+      "mc_variance": 1342586757085.63,
+      "exact_variance": 1212118072136.9702,
+      "ratio": 1.1076369439147482
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 6,
+      "mc_variance": 399041959750.78284,
+      "exact_variance": 454871366605.71204,
+      "ratio": 0.8772633079291562
+    },
+    {
+      "world": "sdc_raw-gaussian-zero.json",
+      "component": 7,
+      "mc_variance": 1133031030917.9128,
+      "exact_variance": 1151216556241.8064,
+      "ratio": 0.9842032107466723
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 0,
+      "mc_variance": 23882248552104.414,
+      "exact_variance": 23190211458977.938,
+      "ratio": 1.0298417758868068
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 1,
+      "mc_variance": 23583918051254.4,
+      "exact_variance": 24129383229333.797,
+      "ratio": 0.9773941516492521
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 2,
+      "mc_variance": 10747188821053.395,
+      "exact_variance": 10400888873508.467,
+      "ratio": 1.0332952261827322
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 3,
+      "mc_variance": 19008270909879.773,
+      "exact_variance": 18636814284538.605,
+      "ratio": 1.0199313369586633
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 4,
+      "mc_variance": 5106600750169.761,
+      "exact_variance": 5498244203482.582,
+      "ratio": 0.928769360032289
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 5,
+      "mc_variance": 4204929285863.4014,
+      "exact_variance": 4461283309725.228,
+      "ratio": 0.94253805327651
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 6,
+      "mc_variance": 2579181057122.577,
+      "exact_variance": 2767886826884.0757,
+      "ratio": 0.9318231627360529
+    },
+    {
+      "world": "sdc_raw-residual-group_common.json",
+      "component": 7,
+      "mc_variance": 3774919540616.5713,
+      "exact_variance": 4089119751700.804,
+      "ratio": 0.9231618954290721
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 0,
+      "mc_variance": 73870724157484.03,
+      "exact_variance": 65078780242596.05,
+      "ratio": 1.1350969376210496
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 1,
+      "mc_variance": 62636281473516.836,
+      "exact_variance": 58680704751148.734,
+      "ratio": 1.067408473349848
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 2,
+      "mc_variance": 22066658177592.715,
+      "exact_variance": 20746581254124.84,
+      "ratio": 1.0636286483685313
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 3,
+      "mc_variance": 48513923530641.98,
+      "exact_variance": 43884274522736.625,
+      "ratio": 1.1054967652594259
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 4,
+      "mc_variance": 5235797235127.266,
+      "exact_variance": 5489456364968.457,
+      "ratio": 0.953791575526505
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 5,
+      "mc_variance": 4748402819540.127,
+      "exact_variance": 4639783511929.099,
+      "ratio": 1.0234104257950318
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 6,
+      "mc_variance": 1954154003913.2317,
+      "exact_variance": 2083322770692.151,
+      "ratio": 0.9379986775952125
+    },
+    {
+      "world": "sdc_raw-residual-heterogeneous.json",
+      "component": 7,
+      "mc_variance": 5807186062406.297,
+      "exact_variance": 5687639142520.392,
+      "ratio": 1.0210187244461733
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 0,
+      "mc_variance": 58861998036606.27,
+      "exact_variance": 60497764728591.33,
+      "ratio": 0.972961535036484
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 1,
+      "mc_variance": 66817073081775.086,
+      "exact_variance": 66614620463704.91,
+      "ratio": 1.0030391619236274
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 2,
+      "mc_variance": 26250677841681.016,
+      "exact_variance": 27420217866504.285,
+      "ratio": 0.9573475298220754
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 3,
+      "mc_variance": 37971064057591.305,
+      "exact_variance": 37838370631798.09,
+      "ratio": 1.0035068483018055
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 4,
+      "mc_variance": 13593765078422.018,
+      "exact_variance": 13948426863231.908,
+      "ratio": 0.9745733487878279
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 5,
+      "mc_variance": 17801162000949.645,
+      "exact_variance": 17452334203906.1,
+      "ratio": 1.0199874580080797
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 6,
+      "mc_variance": 4780173978648.629,
+      "exact_variance": 5079506958665.383,
+      "ratio": 0.9410704656076695
+    },
+    {
+      "world": "sdc_raw-residual-homogeneous.json",
+      "component": 7,
+      "mc_variance": 6043203327110.007,
+      "exact_variance": 6496800472132.108,
+      "ratio": 0.9301814567081447
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 0,
+      "mc_variance": 88714055933040.36,
+      "exact_variance": 87199255325472.69,
+      "ratio": 1.0173717149523085
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 1,
+      "mc_variance": 130351625875105.1,
+      "exact_variance": 127144372239788.36,
+      "ratio": 1.0252252897931495
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 2,
+      "mc_variance": 51226243316726.05,
+      "exact_variance": 48827317047059.84,
+      "ratio": 1.0491308229644098
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 3,
+      "mc_variance": 43359814433860.664,
+      "exact_variance": 42242346356822.59,
+      "ratio": 1.026453740698937
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 4,
+      "mc_variance": 34199867355126.832,
+      "exact_variance": 32126661985996.883,
+      "ratio": 1.0645322371192376
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 5,
+      "mc_variance": 88357611482101.31,
+      "exact_variance": 88114195457919.86,
+      "ratio": 1.0027625063466385
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 6,
+      "mc_variance": 18475694291344.96,
+      "exact_variance": 17953973947082.51,
+      "ratio": 1.029058766922586
+    },
+    {
+      "world": "sdc_raw-residual-noise_shift.json",
+      "component": 7,
+      "mc_variance": 8691522729923.948,
+      "exact_variance": 8027534885343.656,
+      "ratio": 1.082713791227812
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 0,
+      "mc_variance": 8555444967568.161,
+      "exact_variance": 9800776341542.557,
+      "ratio": 0.8729354358699312
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 1,
+      "mc_variance": 44588647026127.95,
+      "exact_variance": 48248841028998.0,
+      "ratio": 0.9241392347503179
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 2,
+      "mc_variance": 3642710568014.831,
+      "exact_variance": 3954312695147.166,
+      "ratio": 0.9211994217061436
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 3,
+      "mc_variance": 2003088448586.1233,
+      "exact_variance": 2233554458434.291,
+      "ratio": 0.8968164805752159
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 4,
+      "mc_variance": 1310494820587.0598,
+      "exact_variance": 1278993007319.4353,
+      "ratio": 1.0246301684898553
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 5,
+      "mc_variance": 11683100834732.676,
+      "exact_variance": 11782750658127.254,
+      "ratio": 0.9915427368119817
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 6,
+      "mc_variance": 559516305542.3944,
+      "exact_variance": 521734013121.31177,
+      "ratio": 1.072416770750765
+    },
+    {
+      "world": "sdc_raw-residual-source_noise_shift.json",
+      "component": 7,
+      "mc_variance": 546374341585.2345,
+      "exact_variance": 565424193919.3362,
+      "ratio": 0.9663087421108489
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 0,
+      "mc_variance": 72785091149887.67,
+      "exact_variance": 67567905103931.89,
+      "ratio": 1.0772139677548207
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 1,
+      "mc_variance": 91088923419606.47,
+      "exact_variance": 87110410112129.83,
+      "ratio": 1.045672076418369
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 2,
+      "mc_variance": 26368869803454.414,
+      "exact_variance": 24280270604888.477,
+      "ratio": 1.0860204250831302
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 3,
+      "mc_variance": 35127336055284.887,
+      "exact_variance": 31807578326948.777,
+      "ratio": 1.104370024470661
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 4,
+      "mc_variance": 14411570470076.293,
+      "exact_variance": 14284956497999.406,
+      "ratio": 1.0088634482082335
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 5,
+      "mc_variance": 13650537324324.209,
+      "exact_variance": 13456035442086.154,
+      "ratio": 1.014454620239013
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 6,
+      "mc_variance": 4876081485376.374,
+      "exact_variance": 4768068395098.721,
+      "ratio": 1.0226534272009782
+    },
+    {
+      "world": "sdc_raw-residual-zero.json",
+      "component": 7,
+      "mc_variance": 8458084207504.877,
+      "exact_variance": 8134697357300.266,
+      "ratio": 1.0397540112435033
+    }
+  ]
+}

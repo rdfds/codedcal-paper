@@ -1,0 +1,11 @@
+{
+  "thresholds": {
+    "correlation": 0.85,
+    "regression": 0.2
+  },
+  "qualification_sha256": "d42c6c02a8d2f9e20bc34774f57d0911f05322de4cc6dfd2fbb9f93c6a3915c3",
+  "protocol_sha256": "882a488b8d8a8682c10034f91aafe4a0d19910d51f17edc70b4743f6a611907c",
+  "qualified": true,
+  "amendment_sha256": "978ef13f501aab6efcae811852fa4e362a0a59aebaaa14635ba4d367a7d5564c",
+  "development_repair_sha256": "7c18b36023ef8fa0d207dc0d009cbc986dc7048cd3c28bba339bf82622558567"
+}

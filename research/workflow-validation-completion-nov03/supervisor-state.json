@@ -1,0 +1,11 @@
+{
+  "stage": "stopped",
+  "pid": 14662,
+  "child_pid": 14678,
+  "process_group": 14678,
+  "worker": "research/workflow-validation-completion-nov03/recover.py",
+  "started_epoch": 1793676201.6426282,
+  "deadline_epoch": 1793679801.6426282,
+  "exit_code": 0,
+  "elapsed_wall_seconds": 188.58172369003296
+}

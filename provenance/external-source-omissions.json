@@ -1,0 +1,67 @@
+{
+  "scope": "Nonessential third-party source/site captures only; no scientific outcome is reclassified.",
+  "files": [
+    {
+      "path": "outputs/barseq-public-transfer-audit-oct06/ace-dim-pad-view.html",
+      "source_path": "outputs/barseq-public-transfer-audit-oct06/ace-dim-pad-view.html",
+      "source_git_blob": "4b26dccf7f45d2612eedeaf4f1221b3949c59327",
+      "source_sha256": "e1712897e8699445112d9677168363be896ae8d875c0e43e4451e0b3a8d882c0",
+      "sha256": "e1712897e8699445112d9677168363be896ae8d875c0e43e4451e0b3a8d882c0",
+      "bytes": 37045,
+      "byte_identical": true,
+      "changes": [],
+      "numeric_leaf_sequence_sha256": null,
+      "public_source": "https://api.brainimagelibrary.org/web/view?bildid=ace-dim-pad",
+      "omission_reason": "Whole website capture is not required for the retained numerical replay.",
+      "preserved_in_private_research_archive": true,
+      "needed_for_supported_retained_replays": false
+    },
+    {
+      "path": "outputs/barseq-public-transfer-audit-oct06/mendeley-source-page.html",
+      "source_path": "outputs/barseq-public-transfer-audit-oct06/mendeley-source-page.html",
+      "source_git_blob": "65c9340cc3fae8bc7fe3a543aa5a74f6664d63e6",
+      "source_sha256": "5ef2459688f98869bd032cc91a9f0ec71ad93a70428113a66000a33acbe2098e",
+      "sha256": "5ef2459688f98869bd032cc91a9f0ec71ad93a70428113a66000a33acbe2098e",
+      "bytes": 123764,
+      "byte_identical": true,
+      "changes": [],
+      "numeric_leaf_sequence_sha256": null,
+      "public_source": "https://data.mendeley.com/datasets/5xfzcb4kn8/1",
+      "omission_reason": "Deposit data license is distinct from website scripts and page assets.",
+      "preserved_in_private_research_archive": true,
+      "needed_for_supported_retained_replays": false
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/barseq3-BARseq3_pipeline__gene_only_raw_image_pipeline__config.json",
+      "source_path": "outputs/independent-comparison-oct05/barseq3-BARseq3_pipeline__gene_only_raw_image_pipeline__config.json",
+      "source_git_blob": "9fb660196cdb2496fad55fb257329240711b7599",
+      "source_sha256": "0ac3acc38e040e06fc06e1d6e391c22fd181f001ff0a6e55155ef3ee2cd83bec",
+      "sha256": "0ac3acc38e040e06fc06e1d6e391c22fd181f001ff0a6e55155ef3ee2cd83bec",
+      "bytes": 1073,
+      "byte_identical": true,
+      "changes": [],
+      "numeric_leaf_sequence_sha256": null,
+      "public_source": "https://github.com/kebschulllab/BARseq3/blob/32df2c4793b8ab0534b73cc56a506ae16d4048a8/BARseq3_pipeline/gene_only_raw_image_pipeline/config.json",
+      "omission_reason": "No explicit repository-wide redistribution license was found at the pinned source revision.",
+      "preserved_in_private_research_archive": true,
+      "needed_for_supported_retained_replays": false
+    },
+    {
+      "path": "outputs/independent-comparison-oct05/barseq3-adult-codebook.csv",
+      "source_path": "outputs/independent-comparison-oct05/barseq3-adult-codebook.csv",
+      "source_git_blob": "c1f5a5da226c73e908326a38d3b1e89474c2b186",
+      "source_sha256": "fc900afb73f20dfab928aa237ff9e4525066840f763410e3256d5a5cacb7bd11",
+      "sha256": "fc900afb73f20dfab928aa237ff9e4525066840f763410e3256d5a5cacb7bd11",
+      "bytes": 30219,
+      "byte_identical": true,
+      "changes": [],
+      "numeric_leaf_sequence_sha256": null,
+      "public_source": "https://github.com/kebschulllab/BARseq3/tree/32df2c4793b8ab0534b73cc56a506ae16d4048a8",
+      "omission_reason": "Original GitHub source table is not needed for the included retained-result recounts; do not infer a code license from the separate data deposit.",
+      "preserved_in_private_research_archive": true,
+      "needed_for_supported_retained_replays": false
+    }
+  ],
+  "failures_removed": 0,
+  "supported_retained_replay_inputs_removed": 0
+}

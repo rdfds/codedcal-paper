@@ -1,0 +1,44 @@
+{
+  "prior_manifests_verified": {
+    "optical-information-resolution": 94,
+    "reference-uncertainty-diagnosis": 34,
+    "shared-bias-control-qualification": 45,
+    "reference-archive-completion": 171,
+    "finite-code-covariance": 505
+  },
+  "preceding_four_frozen_files_unchanged": 344,
+  "calibration_input_sha256": "f63a8de2a1bcf075e731e6e0462e6ab4296fd816da8a71d7a07e56079f12c2ec",
+  "frequency_source": "research/optical-information-resolution/commercial1-calibration-design-v2.json",
+  "frequency_source_sha256": "f99de103621e0cbcc1f79b09b149e13263b4253fe2994fd48df7ab4ac8847e3a",
+  "calibration_arrays_decoded": [
+    "calibration_z",
+    "calibration_counts",
+    "prior_groups",
+    "groups",
+    "test_sources"
+  ],
+  "validation_arrays_decoded": false,
+  "exact_assignment_replay": {
+    "original_groups": {
+      "groups": 139,
+      "sources": 279,
+      "enumerated_assignments": 2272,
+      "literal_contraction_witness_code_variance": 4.892730008309285
+    },
+    "prior_cubic_calibration_groups": {
+      "groups": 139,
+      "sources": 279,
+      "enumerated_assignments": 2272,
+      "literal_contraction_witness_code_variance": 1.2747860141801513
+    },
+    "new_quartic_calibration_groups": {
+      "groups": 139,
+      "sources": 279,
+      "enumerated_assignments": 2272,
+      "literal_contraction_witness_code_variance": 0.0039995383890192035
+    }
+  },
+  "synthetic_repetitions": 12400,
+  "original_physical_criterion_unchanged": true,
+  "qualified_independent_physical_control": false
+}

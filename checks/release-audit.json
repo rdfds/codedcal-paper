@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "scope": "Full-file inspection, retained-result replay and package regression audit; no new scientific study.",
+  "original_proposed_snapshot": "c9d9ad0dd84feb494d6f8fa0531e8f9b8a49df67",
+  "baseline_file_inspection": {
+    "files": 13179,
+    "textual_lines": 15242656,
+    "numpy_arrays": 12336,
+    "python_files": 353,
+    "format_errors": 0,
+    "nonfinite_array_files": 0
+  },
+  "package_regressions": {
+    "passed": 311,
+    "skipped": 7,
+    "skip_reason": "Optional native dependencies not installed; not a native decoder qualification.",
+    "runtime": "Python 3.13.2, NumPy 2.5.3, SciPy 1.18.1"
+  },
+  "covariance_tests_passed": 34,
+  "covariance_recount": {
+    "worlds": 126,
+    "source_hashes": 7327,
+    "sufficient_statistic_cases": 259200,
+    "raw_group_API_checks": 1296
+  },
+  "figure_pixels_identical": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "figure_data_exports_identical": 7,
+  "reporting_exports_identical": 6,
+  "independent_wheel": {
+    "modules_byte_identical": 48,
+    "CLI_checks": 4
+  },
+  "repaired_omissions": [
+    "outputs/code-design-sep16/codebook_VA142.csv",
+    "outputs/full-evidence-audit-sep26/geometric-scope.json"
+  ],
+  "numerical_modules_changed": 0,
+  "retained_scientific_outcomes_changed": 0,
+  "source_capture_omissions": 4,
+  "limits": [
+    "Machine inspection covers every file and text line; it is not a manual scientific proof of every numeric record.",
+    "Computational checks do not establish physical validation, source/selection/kernel assumptions, independent replication, exhaustive novelty or editorial acceptance.",
+    "Complete comparison/failure records and the original Monte Carlo discrepancies remain."
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "passed": true,
+  "records": [
+    {
+      "name": "complete physical book and all 26 parity-matched negatives",
+      "passed": true
+    },
+    {
+      "name": "physical and negative code uniqueness",
+      "passed": true
+    },
+    {
+      "name": "one color every round",
+      "passed": true
+    },
+    {
+      "name": "full-volume exact histogram",
+      "passed": true
+    },
+    {
+      "name": "minmax direct reference",
+      "passed": true
+    },
+    {
+      "name": "mapped histogram all voxels",
+      "passed": true
+    },
+    {
+      "name": "independent 64-bin LUT reference",
+      "passed": true
+    },
+    {
+      "name": "monotone finite no-more-than-64 levels",
+      "passed": true
+    },
+    {
+      "name": "3D FFT axis/sign (0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "exact 3D inverse interior (0, 0, 0)",
+      "passed": true
+    },
+    {
+      "name": "3D FFT axis/sign (1, 3, -2)",
+      "passed": true
+    },
+    {
+      "name": "exact 3D inverse interior (1, 3, -2)",
+      "passed": true
+    },
+    {
+      "name": "3D FFT axis/sign (-2, -4, 3)",
+      "passed": true
+    },
+    {
+      "name": "exact 3D inverse interior (-2, -4, 3)",
+      "passed": true
+    },
+    {
+      "name": "metadata clockwise rotation axes",
+      "passed": true
+    },
+    {
+      "name": "complete-book synthetic recovery source_spot",
+      "passed": true
+    },
+    {
+      "name": "complete-book synthetic recovery correlation",
+      "passed": true
+    },
+    {
+      "name": "complete-book synthetic recovery regression",
+      "passed": true
+    }
+  ],
+  "synthetic": [
+    {
+      "decoder": "source_spot",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 0.1328594590013381,
+        "candidates": 60,
+        "declared_qscore_not_applied": true
+      }
+    },
+    {
+      "decoder": "correlation",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 0.3233931660070084,
+        "elapsed_s": 1.2176306250039488,
+        "absolute_cut": 0.775,
+        "density_max": 0.9799959063529968,
+        "density_sha256": "0387d3d2c504b3e7a9a79f333a5e7d8cfb4dc3fe6bf1abaa37e7bd4232574923"
+      }
+    },
+    {
+      "decoder": "regression",
+      "coding": 60,
+      "negative": 0,
+      "correct": 60,
+      "f1": 1.0,
+      "runtime": {
+        "kernel_s": 318.4278593749914,
+        "elapsed_s": 319.24712670900044,
+        "absolute_cut": 1.193732738494873,
+        "density_max": 5.968663692474365,
+        "density_sha256": "49b51fbe9312d779810fbf5de6d4cfe904288d5909c08e1f170a0d75a98fa2f8"
+      }
+    }
+  ],
+  "seed": 61006,
+  "intensity_pixels_examined": false,
+  "adapter_sha256": "cef2c4774b0ff72458ed48c9366a908119794cd9b439923643f182f7c572c714",
+  "script_sha256": "7b51bbb865f19378f6d5096401565d4ec23d38529633b39dd382b2e433c32dbc"
+}

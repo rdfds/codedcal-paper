@@ -1,0 +1,372 @@
+{
+  "source": "tissue-2D",
+  "field": "tile_1",
+  "planned": 17,
+  "completed": 17,
+  "records": [
+    {
+      "member": "sample-dataset/tissue-2D/round1/tile_1/9919seqA1_TileScan_005_Tile 1_cmle_ch00.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round1__9919seqA1_TileScan_005_Tile 1_cmle_ch00.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 55273323,
+      "compressed_sha256": "dcdf1802db5241b6bad9c6feacf163ae997de9e69f3961c1956e0d55b1884862",
+      "bytes": 283498208,
+      "sha256": "cd1a57cda3680829f0996fa2909cd5a1feed96dd0355917815079a983c7adf99",
+      "crc32": "5a9e42e5",
+      "zip_crc32_verified": true,
+      "header_offset": 22100686103,
+      "data_start": 22100686215,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 28.161874750017887
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round1/tile_1/9919seqA1_TileScan_005_Tile 1_cmle_ch01.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round1__9919seqA1_TileScan_005_Tile 1_cmle_ch01.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 32849483,
+      "compressed_sha256": "4844b4c5d5180757380b371e9cd68b91de9b2f657cfe1c83bcfd0689d2618f9e",
+      "bytes": 283498208,
+      "sha256": "e2a1b6282feee075741e8f88821a12eaee5c282abaae44ebc3a5d8f84048ce3e",
+      "crc32": "5270d26c",
+      "zip_crc32_verified": true,
+      "header_offset": 22155959538,
+      "data_start": 22155959650,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 31.083221542008687
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round1/tile_1/9919seqA1_TileScan_005_Tile 1_cmle_ch02.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round1__9919seqA1_TileScan_005_Tile 1_cmle_ch02.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 41137846,
+      "compressed_sha256": "e2ae7cd0537ba8eb93958d6d2981d38df92fd65353a0fa941f336a8edff34ac7",
+      "bytes": 283498208,
+      "sha256": "717a22714c7b2a29427cfbbc5286ad07ecc3e71503e3d933ea37ce85dbc751d9",
+      "crc32": "fd68a339",
+      "zip_crc32_verified": true,
+      "header_offset": 22188809133,
+      "data_start": 22188809245,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 25.865604457998415
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round1/tile_1/9919seqA1_TileScan_005_Tile 1_cmle_ch03.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round1__9919seqA1_TileScan_005_Tile 1_cmle_ch03.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 37205169,
+      "compressed_sha256": "7f53a272676d16fa2ce1ae611e479ed4924659a173aba3dc1785826556a89a64",
+      "bytes": 283498208,
+      "sha256": "709153a2de2224d59b654c9122236d3e0779f69f01e938d32b2439a52518f519",
+      "crc32": "9ea1aced",
+      "zip_crc32_verified": true,
+      "header_offset": 22229947091,
+      "data_start": 22229947203,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 36.38893962500151
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round1/tile_1/9919seqA1_TileScan_005_Tile 1_cmle_ch04.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round1__9919seqA1_TileScan_005_Tile 1_cmle_ch04.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 82908976,
+      "compressed_sha256": "7e9d500e75ecf2d556c7bb510cb8789b774f6b782660db7a19c8ec2f6b1d7736",
+      "bytes": 283498208,
+      "sha256": "74a36efacedbe34a7bdb239913cdabec2ea8de78d3e5e8aa1f713b29453e6ec4",
+      "crc32": "df6cf751",
+      "zip_crc32_verified": true,
+      "header_offset": 22267152372,
+      "data_start": 22267152484,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 36.70617687498452
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round2/tile_1/9919seqA2_TileScan_001_Tile 1_cmle_ch00.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round2__9919seqA2_TileScan_001_Tile 1_cmle_ch00.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 56883785,
+      "compressed_sha256": "0c40f6a9d7fa6cfd401e1597cc9da913c13179dea006d2a744a09260a380c136",
+      "bytes": 283498208,
+      "sha256": "320c63065ff74412d9797b39019e41e1fae6cb3292e200392952fcaafb2cb349",
+      "crc32": "e4234460",
+      "zip_crc32_verified": true,
+      "header_offset": 33952349338,
+      "data_start": 33952349450,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 61.26129645801848
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round2/tile_1/9919seqA2_TileScan_001_Tile 1_cmle_ch01.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round2__9919seqA2_TileScan_001_Tile 1_cmle_ch01.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 39073908,
+      "compressed_sha256": "091f2ecb07fbabfb1fa9629b62679526f54a4d57f6705a2ca75ba28d7c161f12",
+      "bytes": 283498208,
+      "sha256": "b95f5fed0677d116291dceaf14195dd3b2f1fc777171f7fca4678a938ee36bb5",
+      "crc32": "6e06bac0",
+      "zip_crc32_verified": true,
+      "header_offset": 34009233235,
+      "data_start": 34009233347,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 53.19813329202589
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round2/tile_1/9919seqA2_TileScan_001_Tile 1_cmle_ch02.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round2__9919seqA2_TileScan_001_Tile 1_cmle_ch02.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 37237116,
+      "compressed_sha256": "be8b4cc8ba7748c6f86df95ab6fd3b4915ef0ede9589be60019dbef00bed786a",
+      "bytes": 283498208,
+      "sha256": "79436d5329f0b8f6d5524eb21c07675946bf61600a15093fb578900ed687b6ec",
+      "crc32": "018cff7f",
+      "zip_crc32_verified": true,
+      "header_offset": 34048307255,
+      "data_start": 34048307367,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 22.329319290991407
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round2/tile_1/9919seqA2_TileScan_001_Tile 1_cmle_ch03.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round2__9919seqA2_TileScan_001_Tile 1_cmle_ch03.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 36105319,
+      "compressed_sha256": "27e08a8b8bbe0ea7104f4c1f94246c18f9d7ae314740bc5e102e71c783044f12",
+      "bytes": 283498208,
+      "sha256": "56692ea77b8c5e7e9edb404c4f21941752b8347b716b603996e4f6b7ba71ac30",
+      "crc32": "b0c5d6d4",
+      "zip_crc32_verified": true,
+      "header_offset": 34085544483,
+      "data_start": 34085544595,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 17.23470262499177
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round3/tile_1/9919seqA3_TileScan_001_Tile 1_cmle_ch00.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round3__9919seqA3_TileScan_001_Tile 1_cmle_ch00.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 57752860,
+      "compressed_sha256": "d85d9b8055a4bf776ca93c3035450725d32b508119344b314dab6798d4972e65",
+      "bytes": 283498208,
+      "sha256": "661eec890c5ed591d6ab1c214ff96aca5e159205b201cccd7d4bebb92a86f168",
+      "crc32": "1cfa14cf",
+      "zip_crc32_verified": true,
+      "header_offset": 41999202811,
+      "data_start": 41999202923,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 47.93984325000201
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round3/tile_1/9919seqA3_TileScan_001_Tile 1_cmle_ch01.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round3__9919seqA3_TileScan_001_Tile 1_cmle_ch01.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 28385604,
+      "compressed_sha256": "bb066c5945caad0715895ee0065ecbb904b68ca8cb7f8f9360dc7e1d48c69d62",
+      "bytes": 283498208,
+      "sha256": "20a98673d89dc130ac0d4ed3812fa25814cb9011ffc96f295eb1d2aa8d855da9",
+      "crc32": "0cda8c70",
+      "zip_crc32_verified": true,
+      "header_offset": 42056955783,
+      "data_start": 42056955895,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 34.94697904199711
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round3/tile_1/9919seqA3_TileScan_001_Tile 1_cmle_ch02.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round3__9919seqA3_TileScan_001_Tile 1_cmle_ch02.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 29251105,
+      "compressed_sha256": "0d98315a8a148b399e9010f9006c2c14db1a85803ee6dc941ae8b94614bc7cb1",
+      "bytes": 283498208,
+      "sha256": "9e94888afcc9ede94a25e1333071821b473810c8abcf77dde8fe62b836fd9250",
+      "crc32": "37e95329",
+      "zip_crc32_verified": true,
+      "header_offset": 42085341499,
+      "data_start": 42085341611,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 10.73463374999119
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round3/tile_1/9919seqA3_TileScan_001_Tile 1_cmle_ch03.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round3__9919seqA3_TileScan_001_Tile 1_cmle_ch03.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 24719094,
+      "compressed_sha256": "6a8bf21d49c1e5a256b7f31e2784b430a94e05a3b919b799d1fa24558b4a68a6",
+      "bytes": 283498208,
+      "sha256": "fc2f8f2807cb45e998a884d64bfa69b16044afee7da75c755fad9ce43063baaf",
+      "crc32": "a3c7cf1c",
+      "zip_crc32_verified": true,
+      "header_offset": 42114592716,
+      "data_start": 42114592828,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 18.86571129100048
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round4/tile_1/9919seqA4_TileScan_001_Tile 1_cmle_ch00.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round4__9919seqA4_TileScan_001_Tile 1_cmle_ch00.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 40282709,
+      "compressed_sha256": "ff0144d1fd7286d645c1a7fa2288c12898c71bd59bb7430a6730a0ecae7bec18",
+      "bytes": 283498208,
+      "sha256": "6eb4e85d0e3603784393757f966b2d579953c95db941753f87164fd3c673b964",
+      "crc32": "1ca17808",
+      "zip_crc32_verified": true,
+      "header_offset": 48716326935,
+      "data_start": 48716327047,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 37.31591112501337
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round4/tile_1/9919seqA4_TileScan_001_Tile 1_cmle_ch01.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round4__9919seqA4_TileScan_001_Tile 1_cmle_ch01.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 29980105,
+      "compressed_sha256": "044923c58e3a2333857f65e114b5a5e409cd5474cf2620598ca50689cff98350",
+      "bytes": 283498208,
+      "sha256": "0388ce9a3cdd8223d893294fb8c0de9cff1066951ce15bfeb56230b3acc60e0b",
+      "crc32": "c9425fa5",
+      "zip_crc32_verified": true,
+      "header_offset": 48756609756,
+      "data_start": 48756609868,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 30.4670121249801
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round4/tile_1/9919seqA4_TileScan_001_Tile 1_cmle_ch02.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round4__9919seqA4_TileScan_001_Tile 1_cmle_ch02.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 38609097,
+      "compressed_sha256": "1ff3a0dcf107e3c381cccbd74cb07c569d8f8f2cfdc976fbbb746570c2c17628",
+      "bytes": 283498208,
+      "sha256": "e8b1c2f3a82ce4034b3fe0a77330bd70f6f11587ede42b03c9515becda63bd5a",
+      "crc32": "5d394aeb",
+      "zip_crc32_verified": true,
+      "header_offset": 48786589973,
+      "data_start": 48786590085,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 32.74751333400491
+    },
+    {
+      "member": "sample-dataset/tissue-2D/round4/tile_1/9919seqA4_TileScan_001_Tile 1_cmle_ch03.tif",
+      "local_compressed_path": "external-originals/2026-09-25/can-y/work/starfinder-tissue-inputs-oct06.nosync/round4__9919seqA4_TileScan_001_Tile 1_cmle_ch03.tif.deflate",
+      "compression": "raw DEFLATE original ZIP member",
+      "compressed_bytes": 32617185,
+      "compressed_sha256": "2039c5d2e772caa320518d94ac67301fa2ddf47b968ddf721e867eb266186fa6",
+      "bytes": 283498208,
+      "sha256": "4f921d15e67f2f19e76e9e433ac0bb5ad004bcb27927da950847b19d8d879c74",
+      "crc32": "51ca6039",
+      "zip_crc32_verified": true,
+      "header_offset": 48825199182,
+      "data_start": 48825199294,
+      "pages": 30,
+      "page_shape": [
+        3072,
+        3072
+      ],
+      "dtype": "uint8",
+      "pixels_decoded": false,
+      "retrieval_s": 20.492468500015093
+    }
+  ],
+  "raw_intensity_pixels_examined": false,
+  "full_archive_md5_verified": false,
+  "archive_url": "https://zenodo.org/api/records/11176779/files/sample-dataset.zip/content",
+  "archive_bytes": 56230789464,
+  "script_sha256": "a10c98d7f62eaf721bbdf5e092cbb9de3bb15f60f2cbfd54104dc9e7fffa0022",
+  "protocol_sha256": "df76358cbeea2066879924164c263dabbb57f8817b2e99ae64583b88201d4f30",
+  "stage": "complete"
+}

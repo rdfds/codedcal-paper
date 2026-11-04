@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "selected_z": 7,
+  "selected_reference_spots": 2,
+  "later_round_invariance": true,
+  "script_sha256": "94354181a65a7e653ea48c2806f88341e3c10e233c9089b099011ab71c19f160",
+  "original_frozen_tissue_native_failure_retained": true
+}

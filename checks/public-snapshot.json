@@ -1,0 +1,14 @@
+{
+  "source_snapshot_verified_files": 13177,
+  "original_scientific_snapshot_verified_files": 19089,
+  "temporal_tests_passed": 60,
+  "covariance_tests_passed": 34,
+  "reference_views_recounted": 9,
+  "sensitivity_settings_recounted": 81,
+  "confidence_set_cases_recounted": 259200,
+  "source_capture_omissions": 4,
+  "scientific_numeric_changes": 0,
+  "external_history_required": false,
+  "physical_validation_added": false,
+  "limits": "Internal retained-data verification; no independent peer review, physical model validation or exhaustive priority certification."
+}

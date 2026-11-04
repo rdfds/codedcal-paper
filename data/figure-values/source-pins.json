@@ -1,0 +1,721 @@
+{
+  "files": [
+    {
+      "path": "methods/temporal-variants.md",
+      "bytes": 42765,
+      "sha256": "90cd29472e03e91963f2f05df256bad7914c1646ad2ae8820f45c07a58ccfe7a"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-edf10rep1.json",
+      "bytes": 171536,
+      "sha256": "3c6b7c610b0381f846ae04d7877557534756dc6acb695e46a748ce89dbcae07d"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-edf10rep2.json",
+      "bytes": 171553,
+      "sha256": "9d722b5cb7ab300e92edb8ab90f2f9096d7724117b93187a2aa6dcbde8e33e75"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-fig4untreated.json",
+      "bytes": 177960,
+      "sha256": "930e3d01f4b427c6913718e0684c6bc40968165c6e2df971def697456d0e2499"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-npc.json",
+      "bytes": 175063,
+      "sha256": "cfb73e0b14e72f05036ef0e550053a7e8221989c808e0b307c3c9f51039dd951"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-rtx_rep1.json",
+      "bytes": 169796,
+      "sha256": "373942952ed878528b51cf28d27c0a2880f57101930acb6991dab03ca98f108a"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-rtx_rep2.json",
+      "bytes": 175187,
+      "sha256": "334f25b52591e3a2bcff439dff1cf74265400300d9fea8d0dfdc4230d3b161be"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-rtx_rep3.json",
+      "bytes": 176814,
+      "sha256": "f1f45be8c5769394652156efd8cf917d006dfe402f2f02d8155ffdfb9d6a8979"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-sdc_corrected.json",
+      "bytes": 178163,
+      "sha256": "bd917371dd3cbbd05da2f365730526f8fb660f4e411ef257d3619a57019c4ec0"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/result-sdc_raw.json",
+      "bytes": 179913,
+      "sha256": "1f4c70e3036c49e97379095d040aa2d9822c1cf6cdcb9fe8c10f44d087f75ecd"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/singleton-diagnostic.json",
+      "bytes": 1879978,
+      "sha256": "4b11dfa52493cd126517dfe8d0c5e72118924730eb620edbe96e58808fbb8389"
+    },
+    {
+      "path": "outputs/reconciliation-sensitivity-oct23/summary.json",
+      "bytes": 10508,
+      "sha256": "6b7103f185c148b08b46e636abc19dcdcaff115965a0da17d421ac6c80ab818e"
+    },
+    {
+      "path": "outputs/reference-reconciliation-oct07/comparison.json",
+      "bytes": 240562,
+      "sha256": "4626b6d8eb058181e2283d5c4b7fb5f93440084597a7944b5f98b4c40074fc2d"
+    },
+    {
+      "path": "research/finite-code-covariance/THEORY.md",
+      "bytes": 10419,
+      "sha256": "0ad4f358ae662a38ab38120315a72d6e8c23cb5e0ebc97831fb0c65498d4e573"
+    },
+    {
+      "path": "research/finite-code-covariance/report-final/all-comparisons.csv",
+      "bytes": 435609,
+      "sha256": "62634a7fb34096f6e1bb6e65a7abebf9ea7e8f6dca913a1a485b84a711364507"
+    },
+    {
+      "path": "research/finite-code-covariance/report-final/summary.json",
+      "bytes": 3333,
+      "sha256": "ca3d7cc2de5b44e358648b40cfebccb2b173e64426252fd181d95e2b632d504f"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-code_offset.json",
+      "bytes": 65199,
+      "sha256": "97e478a5f7297940eaa779298c3312ff25b3108df13f813a7b130dc368913e0d"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-group_common.json",
+      "bytes": 294500,
+      "sha256": "aa0301a335963c8eb5cdc76d149ee097205d07ad5d8624d1dc5a1ec4f3de5142"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-heterogeneous.json",
+      "bytes": 294286,
+      "sha256": "7a9b98bd20f1369dc5ca09edd71685aeaab4472f5d3ab9dd41dd4fe99e86445c"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-homogeneous.json",
+      "bytes": 294212,
+      "sha256": "83616df1e69effcb42b7c8b691504deeeffc85c0ac5122c696998a494ff9cc34"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-noise_shift.json",
+      "bytes": 170270,
+      "sha256": "de4da43732ddba4dc03f5f2444d3130170f857d4150d5c17c814b10921f72365"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-source_noise_shift.json",
+      "bytes": 170797,
+      "sha256": "18010545708cccf2e8a582c793ba8b2673d2f44339fa30e2713e86c84d9a86e3"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-gaussian-zero.json",
+      "bytes": 293768,
+      "sha256": "bc330492fa3e448e83a53ca015801fa171020ad7bf5a128c3765a7055a873830"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-code_offset.json",
+      "bytes": 65197,
+      "sha256": "2e8fe633dd17701e9643b340cf8eda93c4f9c957b349c82f15e558b079a4eb19"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-group_common.json",
+      "bytes": 294468,
+      "sha256": "5a4682388dcee9ed0577e3b3800991eab66c630dd36e344e4889d8f8e5c58a96"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-heterogeneous.json",
+      "bytes": 294530,
+      "sha256": "ea9b2e53ab3563caabc4f2fb7d02a7d8ae5417778d0f2c40d427c4f0ddc57bcd"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-homogeneous.json",
+      "bytes": 294494,
+      "sha256": "632147adf35078c676aae601a52131c5bb4498e32432175b65c934c6073155ed"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-noise_shift.json",
+      "bytes": 170442,
+      "sha256": "b237edcb4a626d76d363aceb3bfac462ece4e1e6d93f03f568683dcb82df5bfa"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-source_noise_shift.json",
+      "bytes": 170557,
+      "sha256": "7078965da9ce2c06c7ac00b337de8dc13ebcb8ec0303d38944a26035847920a8"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep1-residual-zero.json",
+      "bytes": 293739,
+      "sha256": "35427125f78aa717215273c9a68037b1ff31c3501bf728009ce8a13667916156"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-code_offset.json",
+      "bytes": 65741,
+      "sha256": "1d9a3df53a3e547b9acbc71a0681cb727b2b21dd763702a6d9e47f00bc39fc48"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-group_common.json",
+      "bytes": 295873,
+      "sha256": "e35512929454f52113bfda3a6c74f9973c4cd7dd6db5e3934bb3396afac92cca"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-heterogeneous.json",
+      "bytes": 296012,
+      "sha256": "f14f2160b1c29de4880e35c693d6d9d68df41515d3b9b6e1e7480cc3daa2e4c5"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-homogeneous.json",
+      "bytes": 295835,
+      "sha256": "3f91c5802431b7db24350ed17a46b9fd342f170a3de48530141974d04fd9ac6b"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-noise_shift.json",
+      "bytes": 170766,
+      "sha256": "4e9ed6d510303fbb2c5c0f294b54feed8f6572cf6fe9bb51ec4fb13240c9348d"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-source_noise_shift.json",
+      "bytes": 170786,
+      "sha256": "e75db4ab8402bc5c21487b75286e3b4c5cff17372ea1079881d8b0e9b8b48e0e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-gaussian-zero.json",
+      "bytes": 295232,
+      "sha256": "1c0b5dc4daceaa4142bdda3d636b6fcfcdee21e9ffa2c6765b1f504aeb2098a1"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-code_offset.json",
+      "bytes": 65431,
+      "sha256": "fc91b9948e311c1db5fffcd3b8fdaaa30c7522e3f413e78137d53cea3bd0c853"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-group_common.json",
+      "bytes": 294559,
+      "sha256": "5c8692245c503bc08b0276868165f321a8f0b4aac8db8d0897da599b09661af4"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-heterogeneous.json",
+      "bytes": 295877,
+      "sha256": "47730a5224ec23bbbd776b26faad7d98dd1b90f0fa5297ec33d150009ffbaf1e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-homogeneous.json",
+      "bytes": 294517,
+      "sha256": "9ee011711e26de1ce238b20d5c0b1c8b70afa845318e44375286d921ed508784"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-noise_shift.json",
+      "bytes": 170371,
+      "sha256": "ad14765101626d5f6e7522481f7541310084c5c5899204e90cfecdf3d77f1ac1"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-source_noise_shift.json",
+      "bytes": 170589,
+      "sha256": "57bec87303755a035b0b0b6bdcfde90bf6a750f634f64505e80bb5145e7286ab"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/edf10rep2-residual-zero.json",
+      "bytes": 294083,
+      "sha256": "3ac9494d52058dddc8d0da9f670f6fad6ac21fa808eca89b481ada65f6f341b2"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-code_offset.json",
+      "bytes": 65659,
+      "sha256": "359e0bfcbfa071d758bf90e4a5370a8c4563577f3ff5709577879dc25c246e49"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-group_common.json",
+      "bytes": 296071,
+      "sha256": "b036aca044bc1e7a3d9ec28979d960428df693c9dd3274b99d25c831053917cc"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-heterogeneous.json",
+      "bytes": 296001,
+      "sha256": "49fa5bed192741cc288397c2fdf20043622a96661dc0852c5597ed83e6b66d1a"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-homogeneous.json",
+      "bytes": 294039,
+      "sha256": "b5fdea435d1025ab7919ca7dd0998106118c508e173d6d13f0c9caaa0e21d0f4"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-noise_shift.json",
+      "bytes": 170566,
+      "sha256": "ce44ceb1c9796c5546ef416c26baf023fec73b0d0f9f322b1d1937e3bd85be86"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-source_noise_shift.json",
+      "bytes": 170817,
+      "sha256": "178ef1df115857fcbd0656c5598918230c2ca6db25eaa93c2e58ecfd00c7aa97"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-gaussian-zero.json",
+      "bytes": 295254,
+      "sha256": "a72a08aad4bce60af83923f8266b906b4ebcad72775f67d6896d4bb610ff9a18"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-code_offset.json",
+      "bytes": 65673,
+      "sha256": "d4f15b2366c358571610b7d778e8c2133bde6f5d9ae15154de9432a9c091920b"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-group_common.json",
+      "bytes": 296101,
+      "sha256": "36dab7e8253fa97a3955100367b164205fa5c1657c008bdd7f2fb3b3fedfe000"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-heterogeneous.json",
+      "bytes": 296324,
+      "sha256": "6afe5e4ea9e960a8466ab56af388f3f53361a1ee58f9d6cb2a86f54cc2862d86"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-homogeneous.json",
+      "bytes": 295867,
+      "sha256": "8218a03c6bde592a3fd7cd4a4b1010e4bc091c13cf6f4270c9062604059d90e6"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-noise_shift.json",
+      "bytes": 170799,
+      "sha256": "2a4ad6f69c8eb663803833ad4608dfae64c2953f90253d280d067bc22d7fe972"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-source_noise_shift.json",
+      "bytes": 170755,
+      "sha256": "58e25850be3fe34ec9d9d5340df25a6ef426c4b8825336fa4214c3f5c45587ef"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/fig4untreated-residual-zero.json",
+      "bytes": 295113,
+      "sha256": "058f5d117efe405d6cbc8662658f241550dde1832657d7fdf3124187a3a9f299"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-code_offset.json",
+      "bytes": 65283,
+      "sha256": "7aa11c7fef9e389fdd54e6fa9325f704e089d0e150f674b4e218a3f89482658f"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-group_common.json",
+      "bytes": 294503,
+      "sha256": "4f24eaec332250df62e71c4cf4fd94132640647186bea8aee8e1abb8ccd2dc08"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-heterogeneous.json",
+      "bytes": 294710,
+      "sha256": "c8d7696507ad593b0c70d7511e24397cebb6be34e21edc82ed5c0ba50abdf9ca"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-homogeneous.json",
+      "bytes": 294577,
+      "sha256": "132d8857b2043b63e8a26197326faa30beb557890e2b594b96e13a18dfc91e20"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-noise_shift.json",
+      "bytes": 170519,
+      "sha256": "2f68125c7d5aaaefd23a634d245ac1dd34c199fa48b78266915870765c8c5061"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-source_noise_shift.json",
+      "bytes": 170583,
+      "sha256": "1486b6fb760f35abdc5047d45a542793c375b1b20862010a4b6868dc996ce312"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-gaussian-zero.json",
+      "bytes": 293886,
+      "sha256": "550f29ca8962bc312ab61f825cf17869d722dafb04150fdfda4fe8503e22de14"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-code_offset.json",
+      "bytes": 65280,
+      "sha256": "314529a4b77b8565049c3ca827bb9c4c6a23d6358b1e402b1228deef2703489a"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-group_common.json",
+      "bytes": 294956,
+      "sha256": "46e1235a06ddb3d18b441261365cb782de615fb6551f51dcb25b10ea73db7bbb"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-heterogeneous.json",
+      "bytes": 294848,
+      "sha256": "22f2038c53d8958e4f42f1da05a5b29fc72ec55533dc0644736da2df0c93f856"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-homogeneous.json",
+      "bytes": 294499,
+      "sha256": "1390f6fdce2e578e39bfbfed148252523647f229a8807d75d4473fcc5eaed381"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-noise_shift.json",
+      "bytes": 170659,
+      "sha256": "3768efe4c8c984c0c446f3497a4728c613b54c3e66fd3aa413719eeaba73a356"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-source_noise_shift.json",
+      "bytes": 170653,
+      "sha256": "0d74613acc552afdbc3ed1954128ad6ed5fce5c0912d71462d72d132cf725c0a"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/npc-residual-zero.json",
+      "bytes": 293800,
+      "sha256": "02120fcd9f3af6a028b3879870056990399401d078ced87f50dbf0f7ca2a5de2"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-code_offset.json",
+      "bytes": 65035,
+      "sha256": "568ff59b54365cf6d48ea5941a656872d189eadd7f5ae319d1e4bd68d3861a33"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-group_common.json",
+      "bytes": 293624,
+      "sha256": "eaca0f692ab5eb4e8f29d2ad967e77c9a255bb619daa8fa26516f6e370843058"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-heterogeneous.json",
+      "bytes": 294097,
+      "sha256": "e1c840c18767113a86c9c144af1d948e4aa45673c955557dc317ee7e90f78799"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-homogeneous.json",
+      "bytes": 293927,
+      "sha256": "e9c9fbd70e1e4b45274d5028493c008d65b563456ba67ea601f532ee50d0ee4f"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-noise_shift.json",
+      "bytes": 170397,
+      "sha256": "c42d00feaeed6af7b7dc80c1a6742d0f9b6246167cb21e0a7f54f021f2b232a7"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-source_noise_shift.json",
+      "bytes": 170661,
+      "sha256": "5daeb3ecc10539c9fad32d83c1a487979d08f639e2e75bf107ee16215e0549be"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-gaussian-zero.json",
+      "bytes": 292951,
+      "sha256": "eb5f57a0b98e2bd607867153590169e1cffab8f63a1988829b90ccd6235371ed"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-code_offset.json",
+      "bytes": 65426,
+      "sha256": "5627678fb946b75491d422ddb1dec88eb71f230e839da765b7951fe8c3996557"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-group_common.json",
+      "bytes": 294829,
+      "sha256": "ea351ba7ffcf101307e0eba3f4bf2c7869924799529b0e52db9b19ae99a10c9a"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-heterogeneous.json",
+      "bytes": 294548,
+      "sha256": "141617083cd8ea361176efddd2b47d849bff23b4a4ad0111eff3f34652395b0f"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-homogeneous.json",
+      "bytes": 294675,
+      "sha256": "970def0167bb8794ce481952294277d9d6b7688eb594c8c170b839cae4bfe5c3"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-noise_shift.json",
+      "bytes": 170422,
+      "sha256": "3767fcfd12433c45032612433aeefa65a444e8d71cfafb47c8b85344b8f38975"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-source_noise_shift.json",
+      "bytes": 170668,
+      "sha256": "a8e7c86ad56738b18a667ee6494de104dc752415c9b6deeb47e32653a211c3a7"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep1-residual-zero.json",
+      "bytes": 294089,
+      "sha256": "19fb82a3e4f063c4cfce07853ad9eee5997dc0924e99c83f4996a8f0d14b2c75"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-code_offset.json",
+      "bytes": 65242,
+      "sha256": "c257d0d081954643b082b5cc7889281647a7d908862a9aab80b5309083e04d1c"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-group_common.json",
+      "bytes": 294590,
+      "sha256": "72471864fb4d81e69a624116cbc6c579239383e32f83ca9f142f0b70c4f8fe2d"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-heterogeneous.json",
+      "bytes": 293397,
+      "sha256": "c7bb55b10072e8bb84704ed1be55b8c999642c583a7024f4b30221010f584e4a"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-homogeneous.json",
+      "bytes": 292926,
+      "sha256": "3e24e24c65ee36e14927ab1ffb9c2ab4e8ff64f8c2c80923e0a637d62975846f"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-noise_shift.json",
+      "bytes": 170362,
+      "sha256": "88aab4cd9dbec4644449673f5d41156f07af2109957437fbaf31450224efa3a3"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-source_noise_shift.json",
+      "bytes": 170471,
+      "sha256": "04321e54f98990eadf9152352bbab3cbe5df38816c1e4daeb237af17e8ec9a49"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-gaussian-zero.json",
+      "bytes": 292395,
+      "sha256": "28765822cb1aed02edad6d084c232ceda91955a7ffc90ade0605428ce827b68c"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-code_offset.json",
+      "bytes": 65152,
+      "sha256": "6960c25170255409bf52a59cf7ee5246f5107e4f5404c6a570652bc8de5b14d5"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-group_common.json",
+      "bytes": 294097,
+      "sha256": "f29c4069163bb1413651bbb075eb1d21528335824fe365af8ebb6d80fdfc1dcc"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-heterogeneous.json",
+      "bytes": 294401,
+      "sha256": "1fce01736fc3751ca38e59f33e98005b6293e30cf28efb542f1832c484743644"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-homogeneous.json",
+      "bytes": 294097,
+      "sha256": "55830063a6e7c23fb862560bf9c4444fb97ce4fe10526b26705433aaeaa762b4"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-noise_shift.json",
+      "bytes": 170420,
+      "sha256": "28e6c816f797769fa669e2ad6057a93870a1b47f3038b64c919f644d420e7eb3"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-source_noise_shift.json",
+      "bytes": 170412,
+      "sha256": "9624eda2d668e85011c7de66a0d7b5f90d4849ad97d307c9d18ae23f292e9687"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep2-residual-zero.json",
+      "bytes": 293611,
+      "sha256": "1928db5783fa836ba332c0e06599b8315d800b7a5d47492fba8123c326c28ad8"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-code_offset.json",
+      "bytes": 65111,
+      "sha256": "f3e28791d5549c10e1c7fbfcd87e07e7ee53a71e207ffa28ece1380ac72f8ba5"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-group_common.json",
+      "bytes": 293917,
+      "sha256": "abbc3b470f48a9a785fdb851bec7bb69a3cbe77580bd5a3d02e31dd345e98b12"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-heterogeneous.json",
+      "bytes": 292100,
+      "sha256": "01bf71124578c37018f7b7ef145dcf1dce309d0bdbbb7e2ce807b4d427090e86"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-homogeneous.json",
+      "bytes": 293952,
+      "sha256": "84f413aad9a11328699bfd4395f11ad073a1c675b83707532e7f95c135048d93"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-noise_shift.json",
+      "bytes": 170271,
+      "sha256": "aaae30562d47e2d94599b81c95defd78ac87526ae5c56d659f3779ff51e6a7fa"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-source_noise_shift.json",
+      "bytes": 170532,
+      "sha256": "fe770045061d8179bf840e6f3da85cd486643014e2dfc35a0f18abbcec4a0fdf"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-gaussian-zero.json",
+      "bytes": 293152,
+      "sha256": "aa1c5cbcc14ec0b3953509d91497634b42cd42c278273685a5fe9e4bcedd7ad8"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-code_offset.json",
+      "bytes": 65095,
+      "sha256": "91cc1e238224f092983e7cde9b211e8585068b855ba3f3d175fecccfb91d9f40"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-group_common.json",
+      "bytes": 293792,
+      "sha256": "9dc6c0ff9bcf6830483b53a4894bfd729d66e747072eaf7f51a48dcc57c64af7"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-heterogeneous.json",
+      "bytes": 293959,
+      "sha256": "eca8b2e30bf8a2d246621d6868a53408007d48daed70a44c46964810d1cd878c"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-homogeneous.json",
+      "bytes": 293686,
+      "sha256": "4f4f896d9b2fce6968c060f80f7ac45644c785266a48f7cdecd6ec00f4e5f779"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-noise_shift.json",
+      "bytes": 170188,
+      "sha256": "bc482fe17d59a11f2c9fa91fade16344f491030029a7ffcd38a77194e9b334bf"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-source_noise_shift.json",
+      "bytes": 168564,
+      "sha256": "18791de1dddbe826905f33300afbffe19214b0b91a53b7362dbaf88c1f5d15bf"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/rtx_rep3-residual-zero.json",
+      "bytes": 293253,
+      "sha256": "0cc9057c1aa0c3edd2db22a1256371b1e87ce15736cc959529a67cc09e635a52"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-code_offset.json",
+      "bytes": 65629,
+      "sha256": "ef33b164d796e2697b52bf5f91ac76199fa50a9159e8f17ff610f0b7a6be3399"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-group_common.json",
+      "bytes": 295609,
+      "sha256": "6f19eb89c0e14123a6938aa4a8d6233653d2343d527cd180996e46f190741286"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-heterogeneous.json",
+      "bytes": 295692,
+      "sha256": "1c8c603a850d7ad7c164e75681e4661ecca0e9f82edeaa9458c371f738ca465e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-homogeneous.json",
+      "bytes": 295657,
+      "sha256": "d336672d6e253166c21a7935964e614633deb91b2269af6bf1a968031c373290"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-noise_shift.json",
+      "bytes": 170612,
+      "sha256": "1c2d0e68fca7eae5874eefa60de1dd719d40c12179f331ca1a175d52f0f40951"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-source_noise_shift.json",
+      "bytes": 170878,
+      "sha256": "b59ff4cfe2dcb832b6852c0bff7b470498ce0fb777ced3b5e15755b1ab2de059"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-gaussian-zero.json",
+      "bytes": 294880,
+      "sha256": "d975ed4cf9561c5dec1d4fb545206f9fb2df0c334bfc76b7090f6cad01adf342"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-code_offset.json",
+      "bytes": 65650,
+      "sha256": "ec79fe81c243caa1c450b7a1069b7b22e85ec17be0331b7b80fb57a4f8f563ab"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-group_common.json",
+      "bytes": 295937,
+      "sha256": "baf816dba5042c08d11391f8037bb951108b41771324a13d63cb5d89420b33e5"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-heterogeneous.json",
+      "bytes": 295153,
+      "sha256": "8a6d06b1c63a3ad07ff106cf9b402d09898255d2d2a325679ed198fa1645c19e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-homogeneous.json",
+      "bytes": 295855,
+      "sha256": "98c74273177293ec488c5c84a973ec4b3eedc343c140eb6ed9358e9e10e840bd"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-noise_shift.json",
+      "bytes": 170827,
+      "sha256": "7a9e36ab755750a06f527f38735a1e1cc4a01aef11082164f63368c30dd7a697"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-source_noise_shift.json",
+      "bytes": 171006,
+      "sha256": "f54d3ec388a50d49ef7b06b3b64fd191b4b9b30176634f54208dd90484ebff9e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_corrected-residual-zero.json",
+      "bytes": 295388,
+      "sha256": "257be75825501c9e7b36fa7f59f8f7ea91797a0955ac802080b72c83ba6e795c"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-code_offset.json",
+      "bytes": 65402,
+      "sha256": "8288197a7c984f5ddc1307be18ff3e4646e4be11beb0f033bd3454902fb890d1"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-group_common.json",
+      "bytes": 295015,
+      "sha256": "aeeb78c181617c8a061647b5592d3b842d568265334739a329408b1b0a36040e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-heterogeneous.json",
+      "bytes": 295036,
+      "sha256": "b5b9bc1f6a1974a7d7ce7a560584bed9cfb9b6fcbf4cbb7f1a8e028b3497edb9"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-homogeneous.json",
+      "bytes": 295005,
+      "sha256": "1232a8f17e27d40a5694a64fa26b1fb71c10eef2e2267396c79f8d364ada669d"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-noise_shift.json",
+      "bytes": 170542,
+      "sha256": "80a18d5caf71ed7fb820547773c467e550f96cffa0453eb0201b11adeea988cd"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-source_noise_shift.json",
+      "bytes": 170774,
+      "sha256": "4047ccd8013152b4e7d687e45e1d848851978e12639b3fb79b30c968030a86e9"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-gaussian-zero.json",
+      "bytes": 294204,
+      "sha256": "99c3198d807f841324d0adf7014ee6192a9185e810ec674f90b984fb2001048f"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-code_offset.json",
+      "bytes": 65429,
+      "sha256": "1ea61920ea5ba25a7ad2af40a323057a036e87626b3bf2365506b0033f244329"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-group_common.json",
+      "bytes": 295189,
+      "sha256": "caef74a29842c555dddad8aae6421b83e941d3c332db82c6815a93f83cd5617b"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-heterogeneous.json",
+      "bytes": 294574,
+      "sha256": "c17eb3be8f8f85cf6a7782743dac4a1e87f35bd7488d7868c2d5959952dab224"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-homogeneous.json",
+      "bytes": 295153,
+      "sha256": "302103bc2d9c63b1a75950506f202233844bbfe4cabc3c4fa8156e72d896ca0e"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-noise_shift.json",
+      "bytes": 170458,
+      "sha256": "cada7a921269349e56d1f0dbe103a00e78a76ffdc022eb39ffb5063b4fd70b99"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-source_noise_shift.json",
+      "bytes": 170672,
+      "sha256": "559d3c5e84b000a7b5e9ea1829a8e075728cab4333afd7e38a61676912957033"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/sdc_raw-residual-zero.json",
+      "bytes": 294697,
+      "sha256": "17023a690e48126fa33d328865fc728c34f3f5bc6532575a7bf632a7a7555c0b"
+    },
+    {
+      "path": "research/finite-code-covariance/results-attempt-01/state.json",
+      "bytes": 26600,
+      "sha256": "604286cfba7e219b8957281c15fc5a2a4877df8891f5a3c20a9b0da69ce0ee7b"
+    }
+  ],
+  "new_fitting": false,
+  "new_outcome_study": false
+}

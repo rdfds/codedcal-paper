@@ -1,0 +1,36 @@
+{
+  "stage": "partial_recount_only",
+  "views": 4,
+  "arms": 36,
+  "response_propagation_verified": false,
+  "checks": [
+    {
+      "tag": "npc",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "edf10rep1",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "edf10rep2",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    },
+    {
+      "tag": "fig4untreated",
+      "arms": 9,
+      "baseline_replay": true,
+      "hashes": true,
+      "recounts": true
+    }
+  ]
+}

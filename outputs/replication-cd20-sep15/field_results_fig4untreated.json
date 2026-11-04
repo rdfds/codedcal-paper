@@ -1,0 +1,541 @@
+{
+  "field": "fig4untreated",
+  "archive_prefix": "Figure4/untreated/",
+  "frames_per_round": {
+    "1": 40000,
+    "2": 34579,
+    "3": 40000,
+    "4": 40000
+  },
+  "panels_per_round": {
+    "round_1": [
+      [
+        0,
+        9990
+      ],
+      [
+        10010,
+        19990
+      ],
+      [
+        20010,
+        29990
+      ],
+      [
+        30010,
+        40000
+      ]
+    ],
+    "round_2": [
+      [
+        0,
+        8635
+      ],
+      [
+        8655,
+        17280
+      ],
+      [
+        17300,
+        25924
+      ],
+      [
+        25944,
+        34579
+      ]
+    ],
+    "round_3": [
+      [
+        0,
+        9990
+      ],
+      [
+        10010,
+        19990
+      ],
+      [
+        20010,
+        29990
+      ],
+      [
+        30010,
+        40000
+      ]
+    ],
+    "round_4": [
+      [
+        0,
+        9990
+      ],
+      [
+        10010,
+        19990
+      ],
+      [
+        20010,
+        29990
+      ],
+      [
+        30010,
+        40000
+      ]
+    ]
+  },
+  "groups": 503,
+  "recon_sources": 21515,
+  "recon_fraction_in_components": 0.14868696258424355,
+  "recon_center_sources_median": 6,
+  "localizations_per_round": {
+    "round_1": {
+      "total": 658208,
+      "lp_filtered": 518044,
+      "assigned": 66381
+    },
+    "round_2": {
+      "total": 1976905,
+      "lp_filtered": 1679709,
+      "assigned": 162059
+    },
+    "round_3": {
+      "total": 2058672,
+      "lp_filtered": 1836353,
+      "assigned": 251307
+    },
+    "round_4": {
+      "total": 1119638,
+      "lp_filtered": 878511,
+      "assigned": 111499
+    }
+  },
+  "round_centroid_consistency": {
+    "round_1": {
+      "picks": 394,
+      "median_centroid_offset_nm": 38.42720549076266,
+      "p95_centroid_offset_nm": 87.48441397100581
+    },
+    "round_2": {
+      "picks": 496,
+      "median_centroid_offset_nm": 24.645937980399147,
+      "p95_centroid_offset_nm": 58.872966208383666
+    },
+    "round_3": {
+      "picks": 497,
+      "median_centroid_offset_nm": 19.95717121075023,
+      "p95_centroid_offset_nm": 57.2183214225547
+    },
+    "round_4": {
+      "picks": 412,
+      "median_centroid_offset_nm": 36.68835043327526,
+      "p95_centroid_offset_nm": 92.31664814895761
+    }
+  },
+  "recon_vs_pooled_centroid_median_nm": 13.797479642288145,
+  "pick_note": "centers by union-find clustering (70 nm, >=5 sources) of the merged RESI reconstruction (SDC/EDF10 convention); expected to percolate on membrane fields - see grid_robustness variant",
+  "conventions": "Figure2-frozen: px 130 nm, lp<=8 nm, linkage 10 nm, 16x8 nm^2 strata, q={.10,.15}, 4 angles; per-round quarter panels with 20-frame guards (round-unequal frame counts)",
+  "code_split": {
+    "pooled": {
+      "total_arithmetic": 2.5409303617811854,
+      "total_arithmetic_interval": [
+        -0.04790659297282769,
+        5.229856023409077
+      ],
+      "total_geometric": 2.557066141778962,
+      "total_geometric_interval": [
+        0.061318171780254935,
+        5.164991594379382
+      ],
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        1.070808675261562,
+        1.0100965618822964
+      ],
+      "ratio_B": [
+        0.9094229066791983,
+        0.871292344419735
+      ],
+      "D": [
+        1.1774595376882155,
+        1.1593084322977754
+      ],
+      "logD": [
+        0.16335918342053637,
+        0.14782364827923455
+      ],
+      "logD_interval": [
+        [
+          -0.00903279979050993,
+          0.27962639348714696
+        ],
+        [
+          -0.05179671475313663,
+          0.32265089861543983
+        ]
+      ],
+      "logD_se_group": [
+        0.08825663153626294,
+        0.0950319209281091
+      ],
+      "D_z_group": [
+        1.85095647292425,
+        1.555515734455815
+      ],
+      "drift_estimate_nm2": [
+        -16.335918342053635,
+        -6.569939923521536
+      ],
+      "orientation_ratio": {
+        "A": [
+          0.9039901559429964,
+          0.8205383282873753
+        ],
+        "B": [
+          1.0307233789015133,
+          1.1034216487026198
+        ]
+      },
+      "orientation_se_group": {
+        "A": [
+          0.043136360158075655,
+          0.04916225204561546
+        ],
+        "B": [
+          0.05370105363453963,
+          0.06737668698693983
+        ]
+      },
+      "orientation_A_interval": [
+        [
+          0.8315397667227672,
+          0.9809667085740773
+        ],
+        [
+          0.7367146272785003,
+          0.9217741719951691
+        ]
+      ],
+      "orientation_B_interval": [
+        [
+          0.9516389598602113,
+          1.1045562941863487
+        ],
+        [
+          0.9862663403172363,
+          1.22129038803715
+        ]
+      ],
+      "negative_ratio": false,
+      "bootstrap_tiles": 12
+    },
+    "stratified": {
+      "total_arithmetic": 4.597519963907403,
+      "total_arithmetic_interval": [
+        2.2606377551176373,
+        7.437147387524506
+      ],
+      "total_geometric": 4.670211078777498,
+      "total_geometric_interval": [
+        2.3550654208410333,
+        7.622906521387292
+      ],
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        1.0148666384932754,
+        0.9799479068573044
+      ],
+      "ratio_B": [
+        0.8566194642700063,
+        0.8481767397120269
+      ],
+      "D": [
+        1.1847345067720636,
+        1.1553581476309012
+      ],
+      "logD": [
+        0.1695187045671927,
+        0.14441038043640422
+      ],
+      "logD_interval": [
+        [
+          0.04410075627023404,
+          0.28831059085492555
+        ],
+        [
+          0.03364124949478432,
+          0.26723514505400703
+        ]
+      ],
+      "logD_se_group": [
+        0.06096338318750076,
+        0.07042130869204007
+      ],
+      "D_z_group": [
+        2.780664321824398,
+        2.050663117720892
+      ],
+      "drift_estimate_nm2": [
+        -16.951870456719266,
+        -6.418239130506855
+      ],
+      "orientation_ratio": {
+        "A": [
+          0.8825371751487358,
+          0.7831822535536862
+        ],
+        "B": [
+          0.9808718818122117,
+          1.0892825784533318
+        ]
+      },
+      "orientation_se_group": {
+        "A": [
+          0.03885247033913668,
+          0.04249842245379082
+        ],
+        "B": [
+          0.044147245271488826,
+          0.044811578826215746
+        ]
+      },
+      "orientation_A_interval": [
+        [
+          0.8148280141738328,
+          0.9220916515280574
+        ],
+        [
+          0.6997626029210609,
+          0.8584368933618209
+        ]
+      ],
+      "orientation_B_interval": [
+        [
+          0.9325036409498263,
+          1.0428089250056694
+        ],
+        [
+          1.0308876091776096,
+          1.149818332025251
+        ]
+      ],
+      "negative_ratio": false,
+      "bootstrap_tiles": 12
+    },
+    "grid_robustness": {
+      "total_arithmetic": 2.9616985714461346,
+      "total_arithmetic_interval": [
+        1.7649818248428715,
+        4.325006591167173
+      ],
+      "total_geometric": 2.9626646637035114,
+      "total_geometric_interval": [
+        1.7667907720158798,
+        4.3441625621687985
+      ],
+      "boundary": {
+        "arithmetic": false,
+        "geometric": false
+      },
+      "ratio_A": [
+        0.9940064906099811,
+        0.9791664026543349
+      ],
+      "ratio_B": [
+        0.9346319460288272,
+        0.9003745987134122
+      ],
+      "D": [
+        1.0635271936011084,
+        1.0875100253311367
+      ],
+      "logD": [
+        0.06159092524296471,
+        0.08389070263350833
+      ],
+      "logD_interval": [
+        [
+          -0.008776813682194134,
+          0.12869738460922195
+        ],
+        [
+          0.02553404541681476,
+          0.15973572257076235
+        ]
+      ],
+      "logD_se_group": [
+        0.03815685995461143,
+        0.03290655670364726
+      ],
+      "D_z_group": [
+        1.614150779603686,
+        2.5493613138870326
+      ],
+      "drift_estimate_nm2": [
+        -6.15909252429647,
+        -3.72847567260037
+      ],
+      "orientation_ratio": {
+        "A": [
+          0.9329659070373366,
+          0.9185056739721618
+        ],
+        "B": [
+          1.0460668129096216,
+          1.0434242102739135
+        ]
+      },
+      "orientation_se_group": {
+        "A": [
+          0.02368076529687524,
+          0.023896136294691152
+        ],
+        "B": [
+          0.02644294391703299,
+          0.020011655706881418
+        ]
+      },
+      "orientation_A_interval": [
+        [
+          0.8571933872090051,
+          1.003482294263072
+        ],
+        [
+          0.8757707659002361,
+          0.9612241934241386
+        ]
+      ],
+      "orientation_B_interval": [
+        [
+          1.0044359119007242,
+          1.0890997240899392
+        ],
+        [
+          1.0076938504747313,
+          1.074491007228699
+        ]
+      ],
+      "negative_ratio": false,
+      "bootstrap_tiles": 12,
+      "config": {
+        "cell_nm": 250.0,
+        "min_locs": 30,
+        "groups": 6991,
+        "note": "Grouping-robustness variant; pooled quality only."
+      }
+    }
+  },
+  "oracle": {
+    "passing_sources": 1010,
+    "calibration": {
+      "unweighted": {
+        "a": 0.09,
+        "b": 0.876,
+        "sys": 0.083
+      },
+      "countweighted": {
+        "a": 0.091,
+        "b": 0.854,
+        "sys": 0.17
+      }
+    },
+    "calibration_note": "Affine calibration fitted on Reinhardt-Figure2-like synthetic fields (oracle-crossval-sep15); applied here as a labeled approximation. No field-specific synthetic validation exists for this CD20 field.",
+    "oracle_T": {
+      "unweighted": {
+        "raw": 3.3343766506926387,
+        "raw_interval": [
+          2.7928696633407015,
+          3.904607900860664
+        ],
+        "calibrated_reinhardt_transfer": 3.7036263135760716,
+        "calibrated_interval": [
+          3.0854676522154127,
+          4.354575229292996
+        ],
+        "systematic": 0.083
+      },
+      "countweighted": {
+        "raw": 3.102812984857628,
+        "raw_interval": [
+          2.4240001314651116,
+          3.8739184528985944
+        ],
+        "calibrated_reinhardt_transfer": 3.5267130970229834,
+        "calibrated_interval": [
+          2.7318502710364303,
+          4.429646900349642
+        ],
+        "systematic": 0.17
+      }
+    },
+    "reported_precision_inflation": 9.714552335635798,
+    "per_round": {
+      "round_1": {
+        "sources": 236,
+        "mean_that": 4.123487831900596,
+        "se_that": 0.7055729325304595
+      },
+      "round_2": {
+        "sources": 69,
+        "mean_that": 1.0325866882731978,
+        "se_that": 0.8620142410445243
+      },
+      "round_3": {
+        "sources": 595,
+        "mean_that": 3.3263155580407737,
+        "se_that": 0.34695078416420677
+      },
+      "round_4": {
+        "sources": 110,
+        "mean_that": 3.1288277304173953,
+        "se_that": 0.7343722661791577
+      }
+    },
+    "rejections": {
+      "size": 21115,
+      "panel_coverage": 926,
+      "rms": 480,
+      "isolation": 44,
+      "split": 16,
+      "zsd": 0
+    },
+    "rejections_per_round": {
+      "round_1": {
+        "size": 1957,
+        "panel_coverage": 111,
+        "rms": 29,
+        "isolation": 5,
+        "split": 2,
+        "zsd": 0
+      },
+      "round_2": {
+        "size": 9401,
+        "panel_coverage": 228,
+        "rms": 212,
+        "isolation": 4,
+        "split": 1,
+        "zsd": 0
+      },
+      "round_3": {
+        "size": 6621,
+        "panel_coverage": 380,
+        "rms": 201,
+        "isolation": 33,
+        "split": 13,
+        "zsd": 0
+      },
+      "round_4": {
+        "size": 3136,
+        "panel_coverage": 207,
+        "rms": 38,
+        "isolation": 2,
+        "split": 0,
+        "zsd": 0
+      }
+    }
+  },
+  "runtime_s": 18.4
+}

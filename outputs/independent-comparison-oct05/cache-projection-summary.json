@@ -1,0 +1,9 @@
+{
+  "verified_density_caches": 312,
+  "reclaimed_bytes": 1692274198,
+  "scored_thresholds_per_cache": 3,
+  "exact_primary_coordinates_and_words": true,
+  "raw_sources_retained": true,
+  "script_sha256": "253a71aa6472b0e1f1416798fecf49e35a114890812ccee6fda545bf65e4c46b",
+  "reproduction": "Frozen runners regenerate tensors; portable call tables reproduce scored endpoints without them"
+}

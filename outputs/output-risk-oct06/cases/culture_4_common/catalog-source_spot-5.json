@@ -1,0 +1,48 @@
+{
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c",
+  "candidate": 5,
+  "decoder": "source_spot",
+  "catalog": {
+    "xyz": [
+      [
+        40.0,
+        87.0,
+        8.0
+      ],
+      [
+        46.0,
+        82.0,
+        9.0
+      ],
+      [
+        42.0,
+        80.0,
+        8.0
+      ],
+      [
+        44.0,
+        82.0,
+        8.0
+      ],
+      [
+        51.0,
+        86.0,
+        9.0
+      ]
+    ],
+    "words": [
+      254,
+      1016,
+      316,
+      316,
+      385
+    ]
+  },
+  "quality": {
+    "full_catalog_calls": 35,
+    "negative": 1,
+    "blank_proxy": 1.1289592760180995,
+    "source_abstentions": 74,
+    "source_unsupported": null
+  }
+}

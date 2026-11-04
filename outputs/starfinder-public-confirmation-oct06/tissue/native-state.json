@@ -1,0 +1,37 @@
+{
+  "stage": "failed_eligibility",
+  "groups": {
+    "source_spot": {
+      "coding": 18,
+      "minimum_coverage": 0.0,
+      "designated_counts": [
+        0,
+        11
+      ],
+      "eligible": false
+    },
+    "correlation": {
+      "coding": 47,
+      "minimum_coverage": 0.0,
+      "designated_counts": [
+        2,
+        27
+      ],
+      "eligible": false
+    },
+    "regression": {
+      "coding": 91,
+      "minimum_coverage": 0.0,
+      "designated_counts": [
+        2,
+        40
+      ],
+      "eligible": false
+    }
+  },
+  "completed": 15,
+  "planned": 15,
+  "negative_proxy_unavailable": true,
+  "conditional_target": true,
+  "original_whole_interface_gates_not_passed": true
+}

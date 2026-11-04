@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/m05_make_cubelet_dataset.m",
+    "sha256": "effad42945554c31867197ed9328d5273555bd308ad71e1476d7b1feea5ca2cb",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/Match_CCF_Area.m",
+    "sha256": "9f870a0996cf77cdabd68906add435b0a958055d09f5864fdab4388be0f45640",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/projection_removed_singlets.py",
+    "sha256": "377a7fb7f9ef7b01fa8f065daf0744dbacc04feb4662e93d3307308fe739f989",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/SOP_CCF_Registration.txt",
+    "sha256": "33248b4a159a2e1684d718d5acf2ef6d45bf0dd76d84cc9df896dd75407f7dc8",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step1_Prepare_registration_image_and_dataflatfile.m",
+    "sha256": "b81f74c218da07b229b2b3f6cfa0b3ef40c2f35d480f933fafa6a7451792947a",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step2_CCFregistration.py",
+    "sha256": "e755869f98f19d02181524655fa596e96a79355e6168f92bca7480887c7f92bd",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step3_ccfstreamlines.ipynb",
+    "sha256": "2625345b17e974e5e586de051ee5c25614050d9c1a48820c2cf6262cc29a6cb7",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step3_ccfstreamlines.py",
+    "sha256": "5c1c3924d1283583fa732f85e1b02c657021b522a6daca0fbba3ad83f5b6e1d5",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step4_Match_CCF_Area.m",
+    "sha256": "8ab93113f5a8a7f4e3df8d366f9fe9bbc40d83d219af44ec0c01dc8bcc5f547a",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/step5_Add_streamline_coor_to_neurons.m",
+    "sha256": "85cb1377ec4f8983a40bc1a6193b345cb9a4bdf17987a52a61dcfe0c75472945",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/CCF registration, streamlines, cubelets/xc01_fit_polygon.m",
+    "sha256": "4bca9f38d4c7a0cc5357360bcce8153436b718b59d172d78c129c401df1bd03f",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/a00_preprocessbarseq_20230321_change_py_root_for_each_machine.m",
+    "sha256": "cfc675da2e963de48456ad3624385483e0fb3cd2d3f1bc5ab17deadd4aa4444e",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/a01_processbarseq_20230321_update_hybthresh_hybbgn_on_1st_dataset.m",
+    "sha256": "9bfb52792fb8f5ef6a3ff8bf44d74bfe5d1d64bbcec0f0282e605adf1e0d8167",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/a02_add_brain_name_and_filter_20230326.m",
+    "sha256": "de36fd90d24d88015f2f95c80d084172716bf670e6cf4af05be2091609e10455",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/bardensrbasecall.py",
+    "sha256": "399354a6c99051719786b79fa517ef0eaa0c499c416757a72bcea4b309a7b2e0",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/bardensrbasecall_predefinedthresh.py",
+    "sha256": "fbf8c435cf780d5c6408d2598a002593e3edb50ef8ca68e976a2e97aafb305ee",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/Cellsegmentation-v065.py",
+    "sha256": "2d5632ef2366d7f3820998dd951e7b88b57f4c1684273ca188458e0dfc95be26",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vprocessing.py",
+    "sha256": "8c9201ee2fc5def67d6af782dd0da572db63a58b7679db991b2fba860ef36fad",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vprocessing_bc.py",
+    "sha256": "5afbdc025192d5b264b91fa09392208a56ec33c449a1c8b5a4fddd48c49b0849",
+    "crc_verified": true
+  },
+  {
+    "name": "Image processing code/Image registration and basecalling/n2vprocessing_hyb.py",
+    "sha256": "b0c1b83270f028bf49205b50f7d85930ad867b8bb12b2fff10c119f7e1546181",
+    "crc_verified": true
+  }
+]

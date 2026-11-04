@@ -1,0 +1,12 @@
+{
+  "stage": "failed",
+  "call": 57,
+  "policy": "group_search",
+  "phase": "comparative_validation",
+  "challenge": "dc31b223cdeefd2301c895cf4dbbba238ad668c3618ce2c40c8360804f5c05c5",
+  "started_epoch": 1793667043.888961,
+  "input_fingerprint": "f05445ee258265f013c8e48b0c63a722415fef03ba089a60b05bedebfc21257b",
+  "error": "Stop: Supervisor/time signal 15",
+  "traceback": "Traceback (most recent call last):\n  File \"research/workflow-validation-controller-nov02/validate.py\", line 78, in run\n    result=base.run(c,policy)\n  File \"tool/src/codedcal/workflow_isolated.py\", line 100, in run\n    code = process.wait()\n  File \"/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py\", line 1209, in wait\n    return self._wait(timeout=timeout)\n  File \"/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py\", line 1959, in _wait\n    (pid, sts) = self._try_wait(0)\n  File \"/opt/homebrew/Cellar/python@3.10/3.10.16/Frameworks/Python.framework/Versions/3.10/lib/python3.10/subprocess.py\", line 1917, in _try_wait\n    (pid, sts) = os.waitpid(self.pid, wait_flags)\n  File \"research/workflow-validation-controller-nov02/validate.py\", line 51, in interrupted\n    def interrupted(signum,frame):raise Stop('Supervisor/time signal '+str(signum))\nStop: Supervisor/time signal 15\n",
+  "wall_seconds": 75.23797433399977
+}

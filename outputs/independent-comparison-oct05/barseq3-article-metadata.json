@@ -1,0 +1,16 @@
+{
+  "version": "6.9",
+  "hitCount": 0,
+  "request": {
+    "queryString": "EXT_ID:13192599 AND SRC:PMC",
+    "internalQuery": "EXT_ID:13192599 AND SRC:PMC",
+    "resultType": "LITE",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": []
+  }
+}

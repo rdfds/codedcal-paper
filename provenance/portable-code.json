@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "path": "analysis/prepare.py",
+      "source_path": "submission/scientific-reports-nov03/prepare.py",
+      "source_sha256": "7e7d89406702c5019770ca8f1bfd60a0688d39eb29cfe154ef378e6eb8134463",
+      "changes": "Current scientific source list and portable methods path; numerical export unchanged."
+    },
+    {
+      "path": "analysis/figures.py",
+      "source_path": "submission/scientific-reports-nov03/figures.py",
+      "source_sha256": "aa50643ce4adf588cc4099c1efffa12b0f0d32245d6de3e99db86a827539391c",
+      "changes": "Regenerate Figure 3 from all retained settings; other plotting code unchanged."
+    },
+    {
+      "path": "analysis/selection_figure.py",
+      "source_path": "manuscript/figures/task_matched.py",
+      "source_sha256": "d2bca3573aa1db47c3c263ee7c2fdf1aeae79d18d4d497ef31f86f22db74483a",
+      "changes": "Exact read/title/selection functions and historical plotting style; unused plots omitted."
+    },
+    {
+      "path": "reproduce/reconciliation.py",
+      "source_path": "outputs/reconciliation-sensitivity-oct23/verify.py",
+      "source_sha256": "3cbb5c1f73bf8a63383ed6bdbd90a33175f015a0b12fa5145b50f8f51d3518d4",
+      "changes": "New snapshot integrity prologue and portable location; numerical recount body unchanged."
+    }
+  ]
+}

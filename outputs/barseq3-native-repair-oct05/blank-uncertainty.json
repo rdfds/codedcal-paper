@@ -1,0 +1,41 @@
+{
+  "native_gates": [
+    {
+      "field": 0,
+      "decoder": "correlation",
+      "nonblank": 70,
+      "blanks": 0,
+      "point_proxy": 0.0,
+      "illustrative_iid_one_sided_95_upper_adjusted_rate_ratio": 9.630461257724921
+    },
+    {
+      "field": 0,
+      "decoder": "regression",
+      "nonblank": 127,
+      "blanks": 0,
+      "point_proxy": 0.0,
+      "illustrative_iid_one_sided_95_upper_adjusted_rate_ratio": 5.257114405503092
+    },
+    {
+      "field": 1,
+      "decoder": "correlation",
+      "nonblank": 125,
+      "blanks": 0,
+      "point_proxy": 0.0,
+      "illustrative_iid_one_sided_95_upper_adjusted_rate_ratio": 5.342240256167552
+    },
+    {
+      "field": 1,
+      "decoder": "regression",
+      "nonblank": 83,
+      "blanks": 0,
+      "point_proxy": 0.0,
+      "illustrative_iid_one_sided_95_upper_adjusted_rate_ratio": 8.094721775327637
+    }
+  ],
+  "blank_classes": 8,
+  "nonblank_code_classes": 1762,
+  "scope": "Illustrative iid binomial sampling limit for adjusted blank/nonblank rate ratios, not a molecular-FDR interval. Codebook exchangeability and independent peaks are not established. Ratios can exceed one.",
+  "unchanged_gate": "Fixed operational native qualification uses count/support/point proxy; does not certify proxy <=.10 with confidence.",
+  "script_sha256": "2a89dd273bd9992ff8731417475201ee90cafeeeb6c760e68e1108f7dd561275"
+}

@@ -1,0 +1,225 @@
+{
+  "status": "completed",
+  "kind": "common",
+  "policy": "none",
+  "decoder": "source_spot",
+  "prediction": {
+    "xyz": [
+      [
+        81,
+        103,
+        5
+      ],
+      [
+        59,
+        97,
+        6
+      ],
+      [
+        37,
+        98,
+        13
+      ],
+      [
+        36,
+        94,
+        7
+      ],
+      [
+        29,
+        96,
+        9
+      ],
+      [
+        32,
+        99,
+        11
+      ],
+      [
+        26,
+        94,
+        5
+      ],
+      [
+        42,
+        100,
+        6
+      ],
+      [
+        50,
+        96,
+        8
+      ],
+      [
+        52,
+        98,
+        8
+      ],
+      [
+        39,
+        101,
+        12
+      ],
+      [
+        26,
+        96,
+        13
+      ],
+      [
+        27,
+        93,
+        14
+      ],
+      [
+        27,
+        89,
+        15
+      ],
+      [
+        39,
+        95,
+        19
+      ],
+      [
+        47,
+        98,
+        18
+      ],
+      [
+        35,
+        101,
+        18
+      ],
+      [
+        39,
+        103,
+        19
+      ],
+      [
+        30,
+        102,
+        20
+      ],
+      [
+        35,
+        100,
+        24
+      ],
+      [
+        30,
+        100,
+        4
+      ],
+      [
+        51,
+        96,
+        6
+      ],
+      [
+        66,
+        100,
+        7
+      ],
+      [
+        25,
+        91,
+        10
+      ],
+      [
+        35,
+        93,
+        11
+      ],
+      [
+        34,
+        102,
+        13
+      ],
+      [
+        35,
+        99,
+        14
+      ],
+      [
+        28,
+        92,
+        15
+      ],
+      [
+        41,
+        97,
+        16
+      ]
+    ],
+    "words": [
+      468,
+      707,
+      413,
+      1014,
+      153,
+      610,
+      705,
+      321,
+      316,
+      316,
+      922,
+      317,
+      317,
+      328,
+      342,
+      666,
+      555,
+      913,
+      924,
+      407,
+      420,
+      349,
+      560,
+      889,
+      26,
+      660,
+      413,
+      581,
+      66
+    ],
+    "coding": 28,
+    "negative": 1,
+    "candidate_objects": 131,
+    "abstained": 102,
+    "runtime": {
+      "candidates": 131,
+      "unsupported_candidates": 4,
+      "duplicate_candidate_coordinates": 0,
+      "elapsed_s": 0.10846891699475236
+    }
+  },
+  "metrics": {
+    "1.5": {
+      "identity_f1": 0.0,
+      "composition_tv": 0.9420289855072463,
+      "correct_labels": 0,
+      "reference_calls": 69,
+      "predicted_calls": 29,
+      "ambiguous_reference": 1,
+      "ambiguous_prediction": 0
+    },
+    "3": {
+      "identity_f1": 0.0,
+      "composition_tv": 0.9420289855072463,
+      "correct_labels": 0,
+      "reference_calls": 69,
+      "predicted_calls": 29,
+      "ambiguous_reference": 3,
+      "ambiguous_prediction": 2
+    },
+    "5": {
+      "identity_f1": 0.02040816326530612,
+      "composition_tv": 0.9420289855072463,
+      "correct_labels": 1,
+      "reference_calls": 69,
+      "predicted_calls": 29,
+      "ambiguous_reference": 19,
+      "ambiguous_prediction": 23
+    }
+  }
+}

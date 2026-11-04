@@ -1,0 +1,267 @@
+{
+  "status": "completed",
+  "kind": "color",
+  "policy": "population_template",
+  "decoder": "correlation",
+  "source_index": 1,
+  "xy": [
+    [
+      83.0,
+      103.0
+    ],
+    [
+      87.0,
+      67.0
+    ],
+    [
+      82.0,
+      99.0
+    ],
+    [
+      101.0,
+      56.0
+    ],
+    [
+      46.0,
+      43.0
+    ]
+  ],
+  "words": [
+    146,
+    820,
+    943,
+    1242,
+    1343
+  ],
+  "metrics": {
+    "1.5": {
+      "gene_class_identity_f1": 0.0,
+      "sequence_identity_f1": 0.0,
+      "spatial_f1": 0.015384615384615385,
+      "label_constrained_f1": 0.0,
+      "composition_tv": 0.9680000000000001,
+      "reference_calls": 125,
+      "predicted_calls": 5,
+      "correct_gene_classes": 0,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 0,
+        "skipped_components": 0,
+        "candidate_edges": 1
+      }
+    },
+    "3": {
+      "gene_class_identity_f1": 0.015384615384615385,
+      "sequence_identity_f1": 0.015384615384615385,
+      "spatial_f1": 0.07692307692307693,
+      "label_constrained_f1": 0.015384615384615385,
+      "composition_tv": 0.9680000000000001,
+      "reference_calls": 125,
+      "predicted_calls": 5,
+      "correct_gene_classes": 1,
+      "matching": {
+        "ambiguous_reference": 0,
+        "ambiguous_prediction": 3,
+        "skipped_components": 0,
+        "candidate_edges": 9
+      }
+    },
+    "5": {
+      "gene_class_identity_f1": 0.015384615384615385,
+      "sequence_identity_f1": 0.015384615384615385,
+      "spatial_f1": 0.07692307692307693,
+      "label_constrained_f1": 0.046153846153846156,
+      "composition_tv": 0.9680000000000001,
+      "reference_calls": 125,
+      "predicted_calls": 5,
+      "correct_gene_classes": 1,
+      "matching": {
+        "ambiguous_reference": 4,
+        "ambiguous_prediction": 5,
+        "skipped_components": 0,
+        "candidate_edges": 18
+      }
+    }
+  },
+  "quality": {
+    "nonblank": 5,
+    "blanks": 0,
+    "proxy": 0.0,
+    "support": 1.0,
+    "qualified": false
+  },
+  "runtime": {
+    "kernel_s": 0.033061083988286555,
+    "peaks_s": 0.27377929200883955,
+    "density_max": 0.8324227333068848,
+    "absolute_cut": 0.7749999761581421,
+    "density_sha256": "fcfac5be8569ac93f6b191d9d833a2c48bf3e5cc1793ca8624083a4c3089728b"
+  },
+  "reused_primary": null,
+  "applied_integer_maps": [
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "geometry_sha256": "4f9f60dd308077131fd1d0bc0eaa7fd5660eed011041872b98fe1d7b67ef670c",
+  "fit_support_sha256": "80baddc367a41165553150eda6e171407d2131c6763b15db711daa41cbf49023",
+  "recovery_sha256": "df760a1c9e8289ae578bcecbf11e24d64a9fff5c849749c6f36b956a41cec955",
+  "specification_sha256": "ac9a2549e4b3adf0281c765ee7ef91b129de814488d482be269e8fb8938e65c8"
+}

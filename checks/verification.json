@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-03",
+  "status": "Verified private research snapshot; no public release or journal submission.",
+  "temporal_tests": {
+    "passed": 52,
+    "environment": "Python 3.13.2, NumPy 2.5.3, SciPy 1.18.1",
+    "includes_weighted_input_controls": 2,
+    "receipt": "checks/temporal52.log"
+  },
+  "covariance_tests": {
+    "passed": 34,
+    "separate_process": true
+  },
+  "covariance_interval_recount": {
+    "status": "pass",
+    "worlds": 126,
+    "applicable_worlds": 108,
+    "excluded_code_offset_worlds": 18,
+    "historical_prefix_vectors": 6048,
+    "unique_source_hashes": 7327,
+    "finite_cases_recounted": 259200,
+    "variance_recounts": 1296,
+    "independent_raw_shipped_interval_checks": 1296,
+    "independent_sufficient_statistic_interval_checks": 259200,
+    "smallest_scaled_covariance_eigenvalue": 0.0,
+    "mc_variance_z_abs_max": 5.377330766739824,
+    "mc_variance_z_abs_over_3": 23,
+    "note": "MC studentized variance discrepancies retained; exact covariance tests are separate. No physical model/priority/coverage validation follows from integrity checks."
+  },
+  "comparison_recount": {
+    "passed": true,
+    "development_workflows": 32,
+    "supported_development": 10,
+    "adequate_development": 1,
+    "complete_integer_pairs": 24,
+    "assigned_policies": 4,
+    "eligible_policies": 2,
+    "adequate_confirmation": 0,
+    "decoder_predictions": 52,
+    "gain_case_changes": 24,
+    "catalog_pairs": 26,
+    "rescues": 0,
+    "strict_superiority_supported": false,
+    "new_outcome_study": false
+  },
+  "figure_data_replay": {
+    "scientific_data_files_identical": [
+      "facts.json",
+      "figure2-all-views.json",
+      "figure3-all81-settings.csv",
+      "figure3-summary.json",
+      "figure4-complete.json",
+      "supplementary-data1-temporal-conditions.csv"
+    ],
+    "figures": [
+      {
+        "figure": 1,
+        "shape": [
+          1984,
+          3094,
+          4
+        ],
+        "replay_shape": [
+          1984,
+          3094,
+          4
+        ],
+        "pixels_identical": true
+      },
+      {
+        "figure": 2,
+        "shape": [
+          1684,
+          3544,
+          4
+        ],
+        "replay_shape": [
+          1684,
+          3544,
+          4
+        ],
+        "pixels_identical": true
+      },
+      {
+        "figure": 3,
+        "shape": [
+          1961,
+          2563,
+          4
+        ],
+        "replay_shape": [
+          1961,
+          2563,
+          4
+        ],
+        "pixels_identical": true,
+        "matplotlib": "3.7.5"
+      },
+      {
+        "figure": 4,
+        "shape": [
+          1294,
+          3634,
+          4
+        ],
+        "replay_shape": [
+          1294,
+          3634,
+          4
+        ],
+        "pixels_identical": true
+      }
+    ],
+    "passed": true
+  },
+  "original_repository_revision": "76026acdbe41c92c0f3db1d0e4cbae1faeedb415",
+  "numerical_modules_byte_identical": [
+    "tool/src/codedcal/smlm.py",
+    "tool/src/codedcal/uncertainty.py",
+    "tool/src/codedcal/geometric_uncertainty.py",
+    "tool/src/codedcal/phase_attenuation.py"
+  ],
+  "runtime_limits": "Exact interval replay uses Python 3.10/NumPy 1.23.5/SciPy 1.10.1. Figure 3 exact pixels use Matplotlib 3.7.5; other main figures use 3.11.2. Earlier newer-runtime endpoint failure and original MC discrepancies are not removed or reclassified.",
+  "independent_wheel": {
+    "built": true,
+    "fresh_target_install": true,
+    "temporal_CLI_help_pass": true,
+    "four_numerical_modules_byte_identical": true
+  },
+  "reconciliation_recount": {
+    "passed": true,
+    "distinct_acquisitions": 8,
+    "views": 9,
+    "arms": 81,
+    "response_images": 36,
+    "snapshot_files_hash_checked": 13158,
+    "raw_input_checks": 0,
+    "unique_raw_paths": 0,
+    "raw_inputs_freshly_verified": false,
+    "singleton_diagnostic_recount": [
+      65,
+      12,
+      4
+    ],
+    "physical_validation": false,
+    "independent_confirmation": false,
+    "scope": "Retained input identity and independent aggregation/rectangle recounts; not physical source truth."
+  },
+  "checkout_byte_preservation": {
+    "automatic_CRLF_conversion_enabled": true,
+    "representative_files_unchanged": [
+      "README.md",
+      "tool/src/codedcal/smlm.py",
+      "data/figure-values/figure3-all81-settings.csv",
+      "outputs/reference-reconciliation-oct07/comparison.json"
+    ]
+  },
+  "weighted_input_controls": {
+    "passed": 2,
+    "enumerated_error_states": 81,
+    "permanent_codes_per_state": 4,
+    "sampled_outcome_study": false,
+    "numerical_modules_changed": false,
+    "note": "Exact rational population moments with fixed unequal weights and panel-dependent error weighting; geometric success in the latter example retained.",
+    "included_in_temporal_test_count": true
+  },
+  "original_repository_unchanged_during_initial_curation": true,
+  "reporting_revision": {
+    "bootstrap_summary": "Central95% of sign-valid paired spatial-block draws; no calibrated physical95% coverage established. Original numeric values, validity rules and failures unchanged.",
+    "figure2_axis_label_changed": true,
+    "figure2_fresh_replay_pixels_identical": true,
+    "figures1_3_4_unchanged": true,
+    "old_import_source_hashes_preserved": true,
+    "new_outcome_study": false
+  }
+}

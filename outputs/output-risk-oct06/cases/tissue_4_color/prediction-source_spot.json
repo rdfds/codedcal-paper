@@ -1,0 +1,202 @@
+{
+  "decoder": "source_spot",
+  "incumbent": 7,
+  "incumbent_labels": [
+    "author_volume_selected",
+    "author_volume_template_3d_multistart_refined",
+    "author_volume_author_multistart_refined"
+  ],
+  "risk": {
+    "abstained": false,
+    "identity_risk": 0.5217391304347826,
+    "composition_risk": 0.3636363636363636,
+    "flagged": true,
+    "compatible_candidates": 6,
+    "incumbent_compatible": true,
+    "ordinary_multistart_identity_disagreement": 0.5217391304347826,
+    "ordinary_multistart_composition_disagreement": 0.3636363636363636,
+    "unfiltered_bank_identity_disagreement": 0.5217391304347826,
+    "unfiltered_bank_composition_disagreement": 0.3636363636363636,
+    "comparisons": [
+      {
+        "index": 0,
+        "identity_loss": 0.5217391304347826,
+        "composition_tv": 0.3636363636363636,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 5,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 7,
+        "identity_loss": 0.0,
+        "composition_tv": 0.0,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 9,
+        "identity_loss": 0.040000000000000036,
+        "composition_tv": 0.054487179487179446,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 20,
+        "identity_loss": 0.020408163265306145,
+        "composition_tv": 0.03499999999999998,
+        "composition_undefined": false,
+        "empty_both": false
+      },
+      {
+        "index": 22,
+        "identity_loss": 0.07999999999999996,
+        "composition_tv": 0.0705128205128205,
+        "composition_undefined": false,
+        "empty_both": false
+      }
+    ],
+    "molecular_correctness_certified": false
+  },
+  "tolerance_sensitivities": {
+    "0.0": {
+      "abstained": false,
+      "identity_risk": 0.020408163265306145,
+      "composition_risk": 0.03499999999999998,
+      "flagged": false,
+      "compatible_candidates": 2,
+      "incumbent_compatible": false,
+      "ordinary_multistart_identity_disagreement": 0.5217391304347826,
+      "ordinary_multistart_composition_disagreement": 0.3636363636363636,
+      "unfiltered_bank_identity_disagreement": 0.5217391304347826,
+      "unfiltered_bank_composition_disagreement": 0.3636363636363636,
+      "comparisons": [
+        {
+          "index": 5,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 20,
+          "identity_loss": 0.020408163265306145,
+          "composition_tv": 0.03499999999999998,
+          "composition_undefined": false,
+          "empty_both": false
+        }
+      ],
+      "molecular_correctness_certified": false
+    },
+    "0.005": {
+      "abstained": false,
+      "identity_risk": 0.5217391304347826,
+      "composition_risk": 0.3636363636363636,
+      "flagged": true,
+      "compatible_candidates": 11,
+      "incumbent_compatible": true,
+      "ordinary_multistart_identity_disagreement": 0.5217391304347826,
+      "ordinary_multistart_composition_disagreement": 0.3636363636363636,
+      "unfiltered_bank_identity_disagreement": 0.5217391304347826,
+      "unfiltered_bank_composition_disagreement": 0.3636363636363636,
+      "comparisons": [
+        {
+          "index": 0,
+          "identity_loss": 0.5217391304347826,
+          "composition_tv": 0.3636363636363636,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 5,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 7,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 9,
+          "identity_loss": 0.040000000000000036,
+          "composition_tv": 0.054487179487179446,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 14,
+          "identity_loss": 0.08333333333333337,
+          "composition_tv": 0.08333333333333331,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 15,
+          "identity_loss": 0.07999999999999996,
+          "composition_tv": 0.04487179487179485,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 17,
+          "identity_loss": 0.08333333333333337,
+          "composition_tv": 0.08333333333333334,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 18,
+          "identity_loss": 0.0,
+          "composition_tv": 0.0,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 20,
+          "identity_loss": 0.020408163265306145,
+          "composition_tv": 0.03499999999999998,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 22,
+          "identity_loss": 0.07999999999999996,
+          "composition_tv": 0.0705128205128205,
+          "composition_undefined": false,
+          "empty_both": false
+        },
+        {
+          "index": 24,
+          "identity_loss": 0.04166666666666663,
+          "composition_tv": 0.04166666666666667,
+          "composition_undefined": false,
+          "empty_both": false
+        }
+      ],
+      "molecular_correctness_certified": false
+    }
+  },
+  "baseline_fit_loss": 0.2589267612298561,
+  "baseline_fit_gap": 0.005999233660384629,
+  "baseline_decoder_confidence": 0.505870521068573,
+  "baseline_quality": {
+    "full_catalog_calls": 94,
+    "negative": null,
+    "blank_proxy": null,
+    "source_abstentions": 78,
+    "source_unsupported": 2,
+    "central_coding": 24,
+    "central_negative": 0
+  },
+  "freeze_sha256": "0b55151dd74a92e22cf738d4c5a7dd64dc3efa6f0966b8fe0397ec567fe5ea0c"
+}
