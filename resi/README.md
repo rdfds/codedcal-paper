@@ -21,6 +21,10 @@ data of Reinhardt et al., *Nature* 617, 711–716 (2023).
 | `run_cd20.py` | Per-view analysis of raw round localizations |
 | `run_cd20_molecules.py` | The same statistics on the published RESI molecule positions |
 | `summarize_cd20.py` | Label-pair comparisons, merged-label versions and per-round translations from saved counts |
+| `verify_triplets.py`, `triplets_cd20.py` | Connected three-label triplet statistic: simulation check and CD20 molecule positions |
+| `permanence_cd20.py` | Cross-round nearest neighbours at duplicate-molecule distances |
+| `design.py` | Distinct-label probabilities and fixed-budget information for K rounds |
+| `design_cd20.py`, `budget_cd20.py` | Round-length thinning, label merging, label-exchangeability permutation test and design curves on CD20 |
 | `results/` | JSON summaries and saved pair counts for every view |
 
 ## Reproduce
@@ -35,6 +39,11 @@ python fetch_cd20.py ../../resi-cd20.nosync          # ~1.1 GB of ranged downloa
 python run_cd20.py ../../resi-cd20.nosync
 python summarize_cd20.py ../../resi-cd20.nosync
 python run_cd20_molecules.py ../../resi-cd20.nosync
+python verify_triplets.py
+python triplets_cd20.py ../../resi-cd20.nosync
+python permanence_cd20.py ../../resi-cd20.nosync
+python design_cd20.py ../../resi-cd20.nosync
+python budget_cd20.py ../../resi-cd20.nosync
 ```
 
 ## Main quantities
@@ -45,6 +54,10 @@ python run_cd20_molecules.py ../../resi-cd20.nosync
   mean of g over 60–100 nm and ρ the pair-weighted molecule density. For a
   monomer/dimer mixture it equals the fraction of subunits in dimers times the
   labelling efficiency, so it cannot exceed the labelling efficiency.
+- **Connected triplets (m2):** mean number of unordered pairs of labelled
+  partners within 30 nm per molecule, from three-distinct-label triplets after
+  subtracting every term pair correlations produce. Zero for any monomer/dimer
+  mixture.
 - **Round translations:** least-squares per-round shifts from the mean
   displacement of close cross-label pairs, which is zero in expectation for
   correctly registered rounds.
