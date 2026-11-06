@@ -2,16 +2,29 @@
 import numpy as np
 
 
-def complexes(rng, side, density, fractions, spacing):
-    """Complex centres under complete spatial randomness; returns subunit positions
-    and complex ids. `fractions[m-1]` is the fraction of *complexes* of size m;
+def smooth_field(rng, side, n_bumps=12, scale=1000.0, floor=0.3):
+    """Random smooth intensity in [floor, 1]: Gaussian bumps of width `scale` (nm)."""
+    centres = rng.uniform(0, side, (n_bumps, 2))
+    probe = rng.uniform(0, side, (4000, 2))
+    raw = lambda p: np.exp(-((p[:, None] - centres) ** 2).sum(-1) / (2 * scale ** 2)).sum(1)
+    top = raw(probe).max()
+    return lambda p: floor + (1 - floor) * np.minimum(raw(p) / top, 1.0)
+
+
+def complexes(rng, side, density, fractions, spacing, intensity=None):
+    """Complex centres under complete spatial randomness (optionally thinned by a
+    position-dependent `intensity` in [0, 1]); returns subunit positions and
+    complex ids. `fractions[m-1]` is the fraction of *complexes* of size m;
     subunits of an m-mer lie on a line (chain) with the given spacing."""
     fractions = np.asarray(fractions, float) / np.sum(fractions)
     sizes = np.arange(1, len(fractions) + 1)
     mean_size = (fractions * sizes).sum()
     n_cx = rng.poisson(density * (side / 1000.0) ** 2 / mean_size)
-    m = rng.choice(sizes, n_cx, p=fractions)
     centre = rng.uniform(0, side, (n_cx, 2))
+    if intensity is not None:
+        centre = centre[rng.random(n_cx) < intensity(centre)]
+        n_cx = len(centre)
+    m = rng.choice(sizes, n_cx, p=fractions)
     theta = rng.uniform(0, np.pi, n_cx)
     pos, cid = [], []
     for k in range(n_cx):
