@@ -7,6 +7,7 @@ uncertainty can be estimated by resampling blocks.
 from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
+from labels import connected_triplets, label_moments, lens_integral
 
 VIEWS = ['fig4untreated', 'edf10rep1', 'edf10rep2', 'rtx_rep1', 'rtx_rep2', 'rtx_rep3']
 TREATED = {'fig4untreated': False, 'edf10rep1': False, 'edf10rep2': False,
@@ -17,6 +18,8 @@ EDGES = np.r_[np.arange(0, 60, 1.0), np.arange(60, 101, 5.0)]
 PLATEAU = np.array([300.0, 600.0])  # nm, normalization annulus
 PLATEAU_FRACTION = 0.05           # source subsample for the plateau counts
 BLOCK = 2000.0                    # nm, spatial resampling unit
+TRIPLET_RADIUS = 30.0             # nm
+TRIPLET_ANNULUS = (100.0, 250.0)  # nm, local background for triplets
 
 
 def load(cache, view, frame_fraction=1.0, lp_max=LP_MAX):
@@ -164,6 +167,32 @@ def g_of_r(pooled, null_density, plateau_ratio, edges=EDGES):
     return pooled / (ann * null_density) / plateau_ratio
 
 
+def point_pair_g(xy, label, rng, n_shift=12, fraction=1.0):
+    """Cross-label correlation for one point per molecule (or any modest point set):
+    block counts, shifted-label normalization, pooled and per-label-pair g."""
+    block = blocks(xy)
+    N, n = block_pair_counts(xy, label, block=block)
+    seed = int(rng.integers(1 << 31))
+    obs = cross_annuli(xy, label, seed, fraction=fraction)
+    null = np.mean([cross_annuli(xy, label, seed, shift=s, fraction=fraction)
+                    for s in null_shifts(rng, n_shift)], 0)
+    nd = null[0] / (np.pi * (NULL_SMOOTH[1] ** 2 - NULL_SMOOTH[0] ** 2))
+    pr = obs[1] / null[1]
+    G, pooled = cross_g(N, n)
+    pair_g = np.array([[g_of_r(G[a, b], nd, pr) for b in range(K)] for a in range(K)])
+    return dict(block=block, N=N, n=n, null_density=nd, plateau_ratio=pr,
+                g=g_of_r(pooled, nd, pr), pair_g=pair_g)
+
+
+def baseline_excess(g, edges=EDGES, base=(60.0, 100.0)):
+    """g minus its area-weighted mean over `base` (last axis = distance bins)."""
+    c = (edges[:-1] + edges[1:]) / 2
+    ann = np.pi * np.diff(edges ** 2)
+    sel = (c >= base[0]) & (c < base[1])
+    b = (g[..., sel] * ann[sel]).sum(-1) / ann[sel].sum()
+    return g - b[..., None]
+
+
 def bootstrap(fn, N, n, rng, B=200):
     """Resample spatial blocks; fn(N, n) -> array."""
     nb = N.shape[0]
@@ -215,3 +244,37 @@ def excess_neighbours(g, rho, edges=EDGES, rmax=30.0, base=(60.0, 100.0)):
     inner = edges[1:] <= rmax
     out = rho * ((g[:, inner] - b[:, None]) * ann[inner]).sum(1)
     return out if len(out) > 1 else float(out[0])
+
+
+def plateau_density(xy, annulus=PLATEAU):
+    """Pair-weighted point density (per nm^2) on the plateau annulus: the density
+    scale implied by plateau normalization."""
+    t = cKDTree(xy)
+    cnt = t.count_neighbors(t, np.asarray(annulus, float))
+    return float(np.diff(cnt)[0] / len(xy) / (np.pi * (annulus[1] ** 2 - annulus[0] ** 2)))
+
+
+def excess_with_ci(res, rho, rng, B=400):
+    """Excess neighbours within 30 nm and a block-bootstrap 95% interval."""
+    nd, pr = res['null_density'], res['plateau_ratio']
+    fn = lambda N, n: excess_neighbours(g_of_r(cross_g(N, n)[1], nd, pr), rho)
+    val = fn(res['N'], res['n'])
+    boot = bootstrap(fn, res['N'], res['n'], rng, B)
+    return float(val), np.percentile(boot, [2.5, 97.5]).tolist()
+
+
+def triplet_m2(xy, label, res, rng, B=400, radius=TRIPLET_RADIUS, annulus=TRIPLET_ANNULUS):
+    """Connected-triplet m2 (unordered labelled partner pairs within `radius` per
+    molecule) with a block-bootstrap 95% interval. Requires >= 3 labels in use."""
+    k = int(label.max()) + 1
+    h = baseline_excess(res['pair_g'][:k, :k])
+    L = lens_integral(EDGES, h, radius)
+    np.fill_diagonal(L, 0.0)
+    q = connected_triplets(xy, label, k, radius, annulus, L)
+    p3 = label_moments(np.bincount(label, minlength=k) / len(label))['distinct3']
+    blk = res['block']
+    groups = [np.flatnonzero(blk == j) for j in range(blk.max() + 1)]
+    sums = np.array([q[g].sum() for g in groups]); cnts = np.array([len(g) for g in groups])
+    idx = rng.integers(0, len(groups), (B, len(groups)))
+    boot = sums[idx].sum(1) / cnts[idx].sum(1) / (2 * p3)
+    return float(q.mean() / (2 * p3)), np.percentile(boot, [2.5, 97.5]).tolist(), float(p3)
