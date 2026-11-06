@@ -83,6 +83,51 @@ def star_triplets(xy, label, radius, K, counts=None):
     return float((C.sum(1) ** 2 - (C ** 2).sum(1)).sum())
 
 
+def lens_area(r, R):
+    """Overlap area of two discs of radius R whose centres are r apart."""
+    r = np.minimum(np.asarray(r, float), 2 * R)
+    return 2 * R ** 2 * np.arccos(r / (2 * R)) - r / 2 * np.sqrt(4 * R ** 2 - r ** 2)
+
+
+def lens_integral(edges, h, R):
+    """Integral over two discs of radius R of h(|r1 - r2|), from binned h:
+    sum over bins of h * lens_area * bin area (needs edges[-1] >= 2R)."""
+    edges = np.asarray(edges, float)
+    c = (edges[:-1] + edges[1:]) / 2
+    ann = np.pi * np.diff(edges ** 2)
+    inside = edges[1:] <= 2 * R + 1e-9
+    return (np.asarray(h)[..., inside] * lens_area(c[inside], R) * ann[inside]).sum(-1)
+
+
+def connected_triplets(xy, label, K, radius, annulus, L):
+    """Per-centre connected triplet terms with three distinct labels.
+
+    For centre i (label a), e_b = n_b - lambda_b pi R^2 is the excess count of
+    label-b points within `radius`, with lambda_b the label-b density in
+    `annulus` around i. Returns q_i = sum over ordered label pairs (b, c),
+    b != c, both != a, of e_b e_c - lambda_b lambda_c L[b, c], where L[b, c] is
+    the two-disc integral of the between-molecule pair excess h_bc.
+
+    For complexes placed at random with independent labels, the expectation of
+    q_i is twice the probability that i has two labelled complex partners within
+    `radius` carrying labels distinct from each other and from a. It is zero for
+    any monomer/dimer mixture, at any labelling efficiency and density.
+    """
+    A_in = np.pi * radius ** 2
+    A_ann = np.pi * (annulus[1] ** 2 - annulus[0] ** 2)
+    n_in = star_counts(xy, label, radius, K)
+    n_ann = star_counts(xy, label, annulus[1], K) - star_counts(xy, label, annulus[0], K)
+    lam = n_ann / A_ann
+    e = n_in - lam * A_in
+    e[np.arange(len(xy)), label] = 0
+    lam_off = lam.copy()
+    lam_off[np.arange(len(xy)), label] = 0
+    # sum_{b != c} e_b e_c = (sum e)^2 - sum e^2 over labels other than a
+    prod = e.sum(1) ** 2 - (e ** 2).sum(1)
+    pair = np.einsum('ib,bc,ic->i', lam_off, L, lam_off) - np.einsum('ib,bb,ib->i', lam_off, L, lam_off)
+    return prod - pair
+
+
 # ---------------------------------------------------------------------------
 # Oracle quantities (molecule identities known); used only to verify the exact
 # identities in simulation.
