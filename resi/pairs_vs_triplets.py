@@ -17,7 +17,7 @@ import sys
 from pathlib import Path
 import numpy as np
 import cd20 as C
-from simulate import acquire, complexes
+from crosslabel.simulate import acquire, complexes
 
 SIDE = 10000.0
 DENSITY = 100.0

@@ -10,7 +10,7 @@ from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
 import cd20 as C
-from simulate import acquire, complexes
+from crosslabel.simulate import acquire, complexes
 
 SIDE = 10000.0
 LINK_SD = 5.0           # nm per molecule, Nup96 fit with the same nanobody label

@@ -14,7 +14,7 @@ import sys
 from pathlib import Path
 import numpy as np
 import cd20 as C
-from design import fixed_budget, interpolated
+from crosslabel.design import fixed_budget, interpolated
 from design_cd20 import detect, molecules_from_rounds
 
 OUT = Path(__file__).resolve().parent / 'results'

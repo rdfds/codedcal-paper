@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 import numpy as np
 import cd20 as C
-from model import bootstrap_fit, fit_dimer
+from crosslabel.model import bootstrap_fit, fit_dimer
 from summarize_cd20 import boot, ci, local_density, merged, pooled_cross
 
 OUT = Path(__file__).resolve().parent / 'results'

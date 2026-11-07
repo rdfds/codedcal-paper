@@ -16,7 +16,7 @@ import sys
 from pathlib import Path
 import numpy as np
 import cd20 as C
-from simulate import acquire, complexes
+from crosslabel.simulate import acquire, complexes
 from verify_angles import LINK_SD, oracle_profile
 
 OUT = Path(__file__).resolve().parent / 'results'

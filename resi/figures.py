@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-from design import uniform_distinct
+from crosslabel.design import uniform_distinct
 
 HERE = Path(__file__).resolve().parent
 RES = HERE / 'results'

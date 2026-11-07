@@ -9,9 +9,9 @@ import json
 import sys
 from pathlib import Path
 import numpy as np
-from labels import (decompose, exact_cross_variance, label_moments, oracle_pairs,
-                    oracle_star, pair_counts, split_pairs, star_triplets)
-from simulate import acquire, complexes, relabel
+from crosslabel.labels import decompose, label_moments, pair_counts, split_pairs, star_triplets
+from crosslabel.oracle import exact_cross_variance, oracle_pairs, oracle_star
+from crosslabel.simulate import acquire, complexes, relabel
 
 EDGES = np.arange(0, 41, 5.0)
 RADIUS = 20.0

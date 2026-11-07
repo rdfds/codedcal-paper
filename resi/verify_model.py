@@ -9,8 +9,8 @@ import sys
 from pathlib import Path
 import numpy as np
 import cd20 as C
-from model import bootstrap_fit, fit_dimer
-from simulate import acquire, complexes
+from crosslabel.model import bootstrap_fit, fit_dimer
+from crosslabel.simulate import acquire, complexes
 
 SIDE = 10000.0
 SUBUNIT_DENSITY = 100.0        # per um^2

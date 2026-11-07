@@ -17,23 +17,16 @@ count and the three-distinct-label pair count estimate p a1 and p^2 a2, where a1
 and a2 are the expected numbers of other copies and of copy pairs within R
 (from the pore geometry), so m2 / n_ex = p a2 / a1.
 """
-from math import comb
+from functools import partial
 import numpy as np
-from scipy.optimize import brentq
 from scipy.spatial import cKDTree
+from crosslabel import stoichiometry as _s
 
 N_COPIES = 32
 RING_RADIUS = 51.0        # nm; cryo-EM neighbour spacings 39 nm (adjacent corners), ~101 nm across
 PAIR_SPACING = 12.0       # nm, two copies per ring per corner
 RING_OFFSET = 3.0         # nm, radial offset between cytoplasmic and nuclear copies
 K = 4
-
-
-def elementary(pi, k):
-    e = np.zeros(k + 1); e[0] = 1.0
-    for p in pi:
-        e[1:] = e[1:] + p * e[:-1].copy()
-    return e[k]
 
 
 def corner_template():
@@ -100,64 +93,15 @@ def geometry_factors(rng, radius, link_sd=4.0, loc_sd=0.7, n_pores=400):
     return float(np.mean(a1)), float(np.mean(a2))
 
 
-def pore_counts(lab, pid):
-    """Per-pore label counts N[k, a] (pores with at least one molecule)."""
-    u, inv = np.unique(pid, return_inverse=True)
-    N = np.zeros((len(u), K))
-    np.add.at(N, (inv, lab), 1)
-    return N
-
-
-def factorial_moments(N, pi):
-    """Mean cross-label pairs / e2 and three-distinct-label triples / e3 per pore."""
-    X2 = sum(N[:, a] * N[:, b] for a in range(K) for b in range(a + 1, K))
-    X3 = sum(N[:, a] * N[:, b] * N[:, c] for a in range(K) for b in range(a + 1, K) for c in range(b + 1, K))
-    return X2.mean() / elementary(pi, 2), X3.mean() / elementary(pi, 3)
+elementary = _s.elementary
+pore_counts = partial(_s.group_counts, n_labels=K)
+factorial_moments = _s.factorial_moments
 
 
 def stoichiometry(N, pi, n=N_COPIES):
-    """p from counts, pairs and triples for known n, and (n, p) jointly from pairs+triples."""
-    f2, f3 = factorial_moments(N, pi)
-    p1 = N.sum(1).mean() / n
-    p2 = np.sqrt(f2 / (n * (n - 1)))
-    p3 = (f3 / (n * (n - 1) * (n - 2))) ** (1 / 3)
-    r = f3 / f2                       # = (n - 2) p
-    try:
-        n_joint = brentq(lambda m: m * (m - 1) * (r / (m - 2)) ** 2 - f2, 3.0 + 1e-6, 1e4)
-        p_joint = r / (n_joint - 2)
-    except ValueError:
-        n_joint, p_joint = np.nan, np.nan
-    return dict(p_counts=p1, p_pairs=p2, p_triples=p3, n_joint=n_joint, p_joint=p_joint)
+    return _s.stoichiometry(N, pi, n)
 
 
 def corner_statistics(xy, lab, pid, pi, radius):
-    """n_ex (labelled partners within radius, from cross-label counts) and m2
-    (labelled partner pairs, from three-distinct-label pairs), same pore only.
-    Returns per-molecule contributions for resampling by pore."""
-    pi = np.asarray(pi)
-    s2, s3 = (pi ** 2).sum(), (pi ** 3).sum()
-    p3 = 1 - 3 * s2 + 2 * s3
-    tree = cKDTree(xy)
-    nb = tree.query_ball_point(xy, radius)
-    c = np.zeros(len(xy)); t = np.zeros(len(xy))
-    for i, js in enumerate(nb):
-        js = np.asarray(js, int)
-        js = js[(pid[js] == pid[i]) & (lab[js] != lab[i])]
-        if not len(js):
-            continue
-        cnt = np.bincount(lab[js], minlength=K).astype(float)
-        c[i] = cnt.sum()
-        t[i] = cnt.sum() ** 2 - (cnt ** 2).sum()
-    return c / (1 - s2), t / (2 * p3)
-
-
-def resample_pores(values_per_mol, pid, rng, B=400):
-    """Bootstrap over pores of per-molecule means; values_per_mol: list of arrays."""
-    u, inv = np.unique(pid, return_inverse=True)
-    sums = [np.bincount(inv, weights=v, minlength=len(u)) for v in values_per_mol]
-    cnt = np.bincount(inv, minlength=len(u)).astype(float)
-    out = []
-    for _ in range(B):
-        k = rng.integers(0, len(u), len(u))
-        out.append([s[k].sum() / cnt[k].sum() for s in sums])
-    return np.array(out)
+    """n_ex and m2 contributions per molecule from same-pore neighbours within radius."""
+    return _s.group_neighbour_statistics(xy, lab, pid, pi, radius, n_labels=K)

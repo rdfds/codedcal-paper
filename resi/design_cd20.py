@@ -23,8 +23,8 @@ from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
 import cd20 as C
-from design import fixed_budget, interpolated
-from labels import label_moments
+from crosslabel.design import fixed_budget, interpolated
+from crosslabel.labels import label_moments
 
 OUT = Path(__file__).resolve().parent / 'results'
 PHIS = [1.0, 0.5, 0.25, 0.125, 0.0625]

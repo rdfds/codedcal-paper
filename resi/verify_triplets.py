@@ -12,7 +12,7 @@ from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
 import cd20 as C
-from simulate import acquire, complexes, smooth_field
+from crosslabel.simulate import acquire, complexes, smooth_field
 
 SIDE = 10000.0
 RADIUS = C.TRIPLET_RADIUS
