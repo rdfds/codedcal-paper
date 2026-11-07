@@ -1,4 +1,5 @@
-"""Fetch the CD20 RESI round localizations from the public archive, one member at a time.
+"""Fetch RESI round localizations (CD20 views and the Nup96 NPC view) from the public
+archive, one member at a time.
 
 Each member is retrieved with an HTTP range request, wrapped as a single-member RAR5
 archive and extracted with unrar, which checks the member CRC. Only the fields used
@@ -60,8 +61,11 @@ def compact_locs(path):
     with h5py.File(path, 'r') as f:
         a = f['locs'][:]
     lp = PIXEL_NM * np.sqrt((a['lpx'].astype(float) ** 2 + a['lpy'].astype(float) ** 2) / 2)
-    return dict(x=(a['x'] * PIXEL_NM).astype(np.float32), y=(a['y'] * PIXEL_NM).astype(np.float32),
-                frame=a['frame'].astype(np.int32), lp=lp.astype(np.float32))
+    out = dict(x=(a['x'] * PIXEL_NM).astype(np.float32), y=(a['y'] * PIXEL_NM).astype(np.float32),
+               frame=a['frame'].astype(np.int32), lp=lp.astype(np.float32))
+    if 'group' in a.dtype.names:          # pick (e.g. one nuclear pore) when present
+        out['group'] = a['group'].astype(np.int32)
+    return out
 
 
 def compact_resi(path):
@@ -69,8 +73,9 @@ def compact_resi(path):
         a = f['locs'][:]
     out = dict(x=a['x'] * PIXEL_NM, y=a['y'] * PIXEL_NM,
                lp=PIXEL_NM * np.sqrt((a['lpx'] ** 2 + a['lpy'] ** 2) / 2))
-    if 'n' in a.dtype.names:
-        out['n'] = a['n']
+    for key in ('n', 'group'):
+        if key in a.dtype.names:
+            out[key] = a[key]
     return out
 
 
@@ -86,6 +91,10 @@ def main(cache, views):
         assert head[:8] == b'Rar!\x1a\x07\x01\x00'
         for view in views:
             members = manifest['views'][view]
+            if 'info' in members and not (cache / f'{view}-information.txt').exists():
+                path = extract(url, head, members['info'], work)
+                (cache / f'{view}-information.txt').write_bytes(path.read_bytes())
+                path.unlink()
             for kind, convert in (('resi', compact_resi), ('locs', compact_locs)):
                 for r, member in sorted(members[kind].items()):
                     dest = cache / f'{view}-{kind}-R{r}.npz'

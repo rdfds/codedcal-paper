@@ -423,6 +423,84 @@
      "method": 3
     }
    }
+  },
+  "npc": {
+   "locs": {
+    "4": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R4_apicked.hdf5",
+     "header_offset": 9460728743,
+     "end_offset": 9470803824,
+     "packed": 10074983,
+     "unpacked": 12145512,
+     "method": 3
+    },
+    "1": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R1_apicked.hdf5",
+     "header_offset": 9470806575,
+     "end_offset": 9475909365,
+     "packed": 5102694,
+     "unpacked": 6119576,
+     "method": 3
+    },
+    "2": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R2_apicked.hdf5",
+     "header_offset": 9555706585,
+     "end_offset": 9571108961,
+     "packed": 15402278,
+     "unpacked": 18618552,
+     "method": 3
+    },
+    "3": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI rounds/RESI_R3_apicked.hdf5",
+     "header_offset": 9773503876,
+     "end_offset": 9790421322,
+     "packed": 16917348,
+     "unpacked": 20381376,
+     "method": 3
+    }
+   },
+   "resi": {
+    "2": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI result/RESI_R2_apicked_resi.hdf5",
+     "header_offset": 9790424066,
+     "end_offset": 9790572961,
+     "packed": 148798,
+     "unpacked": 206688,
+     "method": 3
+    },
+    "1": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI result/RESI_R1_apicked_resi.hdf5",
+     "header_offset": 9790575751,
+     "end_offset": 9790655895,
+     "packed": 80047,
+     "unpacked": 112724,
+     "method": 3
+    },
+    "3": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI result/RESI_R3_apicked_resi.hdf5",
+     "header_offset": 9790655895,
+     "end_offset": 9790899674,
+     "packed": 243682,
+     "unpacked": 341316,
+     "method": 3
+    },
+    "4": {
+     "name": "Figure2,EDF06,EDF07/RESI/RESI result/RESI_R4_apicked_resi.hdf5",
+     "header_offset": 9790902474,
+     "end_offset": 9791011745,
+     "packed": 109174,
+     "unpacked": 152036,
+     "method": 3
+    }
+   },
+   "info": {
+    "name": "Figure2,EDF06,EDF07/Information.txt",
+    "header_offset": 10021575195,
+    "end_offset": 10021575851,
+    "packed": 588,
+    "unpacked": 2142,
+    "method": 3
+   }
   }
  }
 }
