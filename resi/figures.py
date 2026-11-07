@@ -52,8 +52,8 @@ def panel(ax, letter, title):
 
 def save(fig, name):
     FIG.mkdir(exist_ok=True)
-    for ext in ('pdf', 'png'):
-        fig.savefig(FIG / f'{name}.{ext}', dpi=300, bbox_inches='tight', facecolor='white')
+    for ext, meta in (('pdf', {'CreationDate': None}), ('png', None)):
+        fig.savefig(FIG / f'{name}.{ext}', dpi=300, bbox_inches='tight', facecolor='white', metadata=meta)
     plt.close(fig)
 
 
@@ -285,6 +285,70 @@ def fig4():
     save(fig, 'fig4')
 
 
+# ---------------------------------------------------------------- Figure 5
+def fig5():
+    v = load('npc-validation.json')
+    fig = plt.figure(figsize=(180 * MM, 58 * MM))
+    gs = fig.add_gridspec(1, 3, width_ratios=[1.0, 1.05, 0.95], wspace=0.75)
+
+    ax = fig.add_subplot(gs[0])
+    panel(ax, 'a', 'Nup96 corners, cross-label neighbours')
+    e = np.array(v['nn_edges']); c = (e[:-1] + e[1:]) / 2
+    ax.bar(c, v['observed_nn_hist'], width=3.4, color=BLUE, edgecolor='white', linewidth=0.8, label='data')
+    ax.axvline(v['radius_nm'], color=MUTED, linewidth=0.6)
+    top = 1.3 * max(v['observed_nn_hist'])
+    ax.set_ylim(0, top)
+    ax.text(v['radius_nm'], 0.99 * top, f"R = {v['radius_nm']:g} nm", fontsize=6, color=INK2, va='top', ha='center',
+            bbox=dict(facecolor='white', edgecolor='none', pad=1))
+    ax.text(12, 0.82 * top, 'same\ncorner', fontsize=6, color=INK2, ha='center', va='bottom')
+    ax.text(42, 0.82 * top, 'adjacent\ncorner', fontsize=6, color=INK2, ha='center', va='bottom')
+    ax.set_xlabel('Nearest other-label molecule, same pore (nm)'); ax.set_ylabel('Fraction of molecules')
+    ax.set_xlim(0, 62); grid(ax)
+
+    ax = fig.add_subplot(gs[1])
+    panel(ax, 'b', 'Efficiency, 1,218 NPCs')
+    d = v['data']
+    routes = [('p_counts', 'counts / 32', INK2),
+              ('p_pairs', 'pairs', BLUE),
+              ('p_triples', 'triples', BLUE),
+              ('p_joint', 'pairs + triples,\nn free', BLUE),
+              ('p_corner_pairs', 'corner partners', ORANGE),
+              ('p_corner_triplets', 'corner pairs', ORANGE),
+              ('p_corner_ratio', 'corner ratio', ORANGE)]
+    for i, (k, name, col) in enumerate(routes):
+        lo, hi = d['ci'][k]
+        ax.hlines(i, lo, hi, color=col, linewidth=1.2)
+        ax.plot(d[k], i, 'o', color=col, markersize=4.5, markeredgecolor='white', markeredgewidth=0.8, zorder=3)
+    ax.axvline(d['p_counts'], color=GRID, linewidth=0.8, zorder=0)
+    ax.set_yticks(range(len(routes))); ax.set_yticklabels([r[1] for r in routes], fontsize=6)
+    ax.invert_yaxis(); ax.set_xlim(0.2, 0.45); ax.set_xlabel('Efficiency p (95% CI)'); grid(ax, 'x')
+    ax.text(0.02, 0.98, f"joint copies per pore\nn = {d['n_joint']:.0f} "
+            f"({d['ci']['n_joint'][0]:.0f}–{d['ci']['n_joint'][1]:.0f});\nstructure: 32",
+            transform=ax.transAxes, ha='left', va='top', fontsize=6, color=INK2)
+
+    ax = fig.add_subplot(gs[2])
+    panel(ax, 'c', 'Recovery in simulated NPCs')
+    sims = v['simulations']
+    keys = [('p_pairs', BLUE, 'o'), ('p_triples', BLUE, 's'), ('p_corner_ratio', ORANGE, 'D')]
+    for s_ in sims:
+        off = -0.008 if s_['merge_nm'] == 0 else 0.008
+        for k, col, mk in keys:
+            merged = s_['merge_nm'] > 0
+            ax.plot(s_['p_true'] + off, s_[k], mk, color=col, markersize=3.5,
+                    markeredgecolor=col if merged else 'white', markeredgewidth=0.8 if merged else 0.6,
+                    fillstyle='none' if merged else 'full')
+    ax.plot([0.25, 0.55], [0.25, 0.55], color=MUTED, linewidth=0.8, zorder=0)
+    for k, col, mk in keys:
+        ax.plot([], [], mk, color=col, markersize=3.5, label={'p_pairs': 'pairs', 'p_triples': 'triples',
+                                                               'p_corner_ratio': 'corner ratio'}[k])
+    ax.legend(loc='upper left', handlelength=1.0)
+    ax.text(0.98, 0.02, 'filled: no merging\nopen: 8-nm same-label\nmerging', transform=ax.transAxes,
+            ha='right', va='bottom', fontsize=6, color=INK2)
+    ax.set_xlim(0.25, 0.55); ax.set_ylim(0.25, 0.55); ax.set_xticks([0.3, 0.4, 0.5]); ax.set_yticks([0.3, 0.4, 0.5])
+    ax.set_xlabel('True efficiency'); ax.set_ylabel('Estimate'); grid(ax, 'both')
+    save(fig, 'fig5')
+
+
 if __name__ == '__main__':
-    fig1(); fig2(); fig3(); fig4()
+    fig1(); fig2(); fig3(); fig4(); fig5()
     print('wrote', sorted(p.name for p in FIG.glob('*.png')))
