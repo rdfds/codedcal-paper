@@ -190,16 +190,46 @@ def bootstrap(fn, N, n, rng, B=200):
     return np.array(out)
 
 
-def registration_offsets(xy, label, radius=25.0, fraction=0.05, seed=0, n_labels=None,
-                         iterations=50, tol=1e-3):
-    """Cross-label registration offset (b minus a) per label pair, from a source
-    subsample, with approximate standard errors and pair counts.
+def _displacements(src, tree, pts, centre, rmax):
+    nb = tree.query_ball_point(src + centre, rmax)
+    ii = np.repeat(np.arange(len(nb)), [len(x) for x in nb])
+    if not len(ii):
+        return np.zeros((0, 2)), ii
+    jj = np.concatenate([np.asarray(x, int) for x in nb])
+    return pts[jj] - src[ii], ii
 
-    Between-molecule displacements are symmetric about the true offset. Close-pair
-    displacements also include pairs that are near only by chance, roughly uniform
-    in a window: a window fixed at zero would average them to zero and shrink the
-    estimate. The window is therefore re-centred on the current estimate until it
-    stops moving (mean shift), where chance pairs are symmetric about the centre.
+
+def _plane_centroid(d, centre, inner, outer, bin_nm):
+    """Centroid within `inner` of the displacement density after subtracting a
+    plane fitted on the ring between outer[0] and outer[1] (all relative to centre)."""
+    e = np.arange(-outer[1], outer[1] + bin_nm / 2, bin_nm)
+    H, _, _ = np.histogram2d(d[:, 0] - centre[0], d[:, 1] - centre[1], [e, e])
+    c = (e[:-1] + e[1:]) / 2
+    X, Y = np.meshgrid(c, c, indexing='ij')
+    R = np.hypot(X, Y)
+    ring = (R >= outer[0]) & (R < outer[1])
+    A = np.column_stack([np.ones(ring.sum()), X[ring], Y[ring]])
+    coef, *_ = np.linalg.lstsq(A, H[ring], rcond=None)
+    w = (H - (coef[0] + coef[1] * X + coef[2] * Y)) * (R < inner)
+    if w.sum() <= 0:
+        return centre
+    return centre + np.array([(w * X).sum(), (w * Y).sum()]) / w.sum()
+
+
+def registration_offsets(xy, label, radius=25.0, ring=(30.0, 40.0), fraction=0.05, seed=0,
+                         n_labels=None, iterations=3, bin_nm=1.0, n_boot=100):
+    """Cross-label registration offset (b minus a) per label pair, from a source
+    subsample, with block-bootstrap standard errors and pair counts.
+
+    Between-molecule displacements are symmetric about the true offset, but close
+    pairs also include pairs that are near only by chance. Their density is
+    roughly uniform with a slight gradient (labels cover the field unevenly): a
+    plain window mean shrinks the offset towards zero, and re-centring the window
+    climbs the gradient. Here the chance density is modelled as a plane fitted on
+    a ring outside the correlation peak and subtracted before taking the centroid
+    within `radius`; the window is re-centred a few times. The ring must lie
+    beyond the between-molecule correlation: estimates are unreliable for
+    assemblies extending past `ring[0]` (check by injecting a known shift).
     """
     K = _n_labels(label, n_labels)
     rng = np.random.default_rng(seed)
@@ -211,29 +241,23 @@ def registration_offsets(xy, label, radius=25.0, fraction=0.05, seed=0, n_labels
         for b in range(a + 1, K):
             centre = np.zeros(2)
             for _ in range(iterations):
-                nb = trees[b].query_ball_point(src + centre, radius)
-                ii = np.repeat(np.arange(len(nb)), [len(x) for x in nb])
-                if not len(ii):
+                d, ii = _displacements(src, trees[b], pts[b], centre, ring[1] * np.sqrt(2))
+                if not len(d):
                     break
-                jj = np.concatenate([np.asarray(x, int) for x in nb])
-                dvec = pts[b][jj] - src[ii]
-                new = dvec.mean(0)
-                moved = np.hypot(*(new - centre))
-                centre = new
-                if moved < tol:
-                    break
-            if not len(ii):
+                centre = _plane_centroid(d, centre, radius, ring, bin_nm)
+            if not len(d):
                 continue
             out[a, b] = centre; out[b, a] = -centre
+            cnt[a, b] = cnt[b, a] = len(d)
             # standard error from resampling spatial blocks of source points
             blk = blocks(src)[ii]
             nbk = blk.max() + 1
-            sums = np.column_stack([np.bincount(blk, weights=dvec[:, c], minlength=nbk) for c in range(2)])
-            cnts = np.bincount(blk, minlength=nbk).astype(float)
-            pick = rng.integers(0, nbk, (200, nbk))
-            boot = sums[pick].sum(1) / cnts[pick].sum(1)[:, None]
-            se[a, b] = se[b, a] = boot.std(0, ddof=1)
-            cnt[a, b] = cnt[b, a] = len(ii)
+            groups = [np.flatnonzero(blk == k) for k in range(nbk)]
+            boot = []
+            for _ in range(n_boot):
+                pick = np.concatenate([groups[k] for k in rng.integers(0, nbk, nbk)])
+                boot.append(_plane_centroid(d[pick], centre, radius, ring, bin_nm))
+            se[a, b] = se[b, a] = np.std(boot, axis=0, ddof=1)
     return out, se, cnt
 
 

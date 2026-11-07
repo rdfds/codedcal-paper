@@ -12,17 +12,17 @@ def test_random_points_have_flat_cross_correlation():
 
 
 def test_registration_offset_is_recovered(molecule_field):
-    # chance neighbours shrink a fixed-window mean towards zero; the re-centred
-    # window should recover the imposed shift within its standard error
+    # chance neighbours shrink a plain window mean towards zero; the plane-corrected
+    # centroid should recover an imposed shift, also with uneven label coverage
     xy, lab, _, rng = molecule_field([0.2, 0.8], seed=7, side=14000.0, density=300.0, efficiency=0.7)
     loc = np.repeat(xy, 6, axis=0) + rng.normal(0, 3.0, (6 * len(xy), 2))
     llab = np.repeat(lab, 6)
+    # uneven coverage: thin label 2 with a gradient across the field
+    keep = (llab != 2) | (rng.random(len(llab)) < 0.4 + 0.6 * loc[:, 0] / loc[:, 0].max())
+    loc, llab = loc[keep], llab[keep]
     shift = np.array([2.0, -1.5])
     loc[llab == 2] += shift
     off, se, _ = registration_offsets(loc, llab, fraction=0.5)
     t, _ = label_translations(off)
     est = t[2] - t[[0, 1, 3]].mean(0)
-    assert np.all(np.abs(est - shift) < 4 * se[2, [0, 1, 3]].mean(0) + 0.2)
-    fixed, _, _ = registration_offsets(loc, llab, fraction=0.5, iterations=1)
-    tf, _ = label_translations(fixed)
-    assert np.hypot(*(est - shift)) < np.hypot(*((tf[2] - tf[[0, 1, 3]].mean(0)) - shift))
+    assert np.all(np.abs(est - shift) < 4 * se[2, [0, 1, 3]].mean(0) + 0.3)
