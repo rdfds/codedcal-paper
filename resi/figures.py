@@ -134,9 +134,10 @@ def fig1():
 
 # ---------------------------------------------------------------- Figure 2
 def fig2():
-    fig, axes = plt.subplots(1, 2, figsize=(140 * MM, 58 * MM), gridspec_kw=dict(wspace=0.4))
+    fig, axes = plt.subplots(1, 4, figsize=(180 * MM, 55 * MM),
+                             gridspec_kw=dict(wspace=0.55, width_ratios=[1, 1.1, 1, 0.8]))
     ax = axes[0]
-    panel(ax, 'a', 'Excess neighbours, simulated fields')
+    panel(ax, 'a', 'Excess neighbours')
     rows = load('verify_model.json')
     jitter = {}
     for r in rows:
@@ -149,7 +150,7 @@ def fig2():
     ax.set_xlim(-0.05, 0.72); ax.set_ylim(-0.1, 0.92); grid(ax, 'both')
 
     ax = axes[1]
-    panel(ax, 'b', 'Connected triplets, simulated fields')
+    panel(ax, 'b', 'Connected triplets')
     rows = load('verify_triplets.json')
     order = ['monomer only, heterogeneous', 'monomer/dimer', 'monomer/dimer, heterogeneous',
              'with trimers', 'chains up to 5, heterogeneous']
@@ -161,12 +162,43 @@ def fig2():
             dots_ci(ax, x, r['m2'], *r['ci'], ORANGE, size=3.5)
             ax.plot([x - 0.08, x + 0.08], [r['oracle']] * 2, color=INK, linewidth=1.0, zorder=4)
     ax.axhline(0, color=MUTED, linewidth=0.6, zorder=0)
-    ax.set_xticks(range(len(order))); ax.set_xticklabels(names, fontsize=6)
+    ax.set_xticks(range(len(order))); ax.set_xticklabels(names, fontsize=6, rotation=40, ha='right')
     ax.set_ylabel(r'$m_2$ (95% CI)'); grid(ax)
     ax.plot([], [], 'o', color=ORANGE, markersize=3.5, label='estimate')
     ax.plot([], [], '-', color=INK, linewidth=1.0, label='true value')
     ax.legend(loc='upper left', handlelength=1.0)
-    ax.text(1.0, -0.2, '* uneven density', transform=ax.transAxes, ha='right', va='top', fontsize=6, color=INK2)
+    ax.text(1.0, -0.27, '* uneven density', transform=ax.transAxes, ha='right', va='top', fontsize=6, color=INK2)
+
+    pv = load('pairs-vs-triplets.json')
+    e = np.array(pv['edges']); coarse = np.arange(0, 61, 5.0)
+    ann = np.pi * np.diff(e ** 2)
+    ax = axes[2]
+    panel(ax, 'c', 'Same pair correlation...')
+    for model, col in (('dimers', BLUE), ('trimers', ORANGE)):
+        G = np.array([r['g'] for r in pv['rows'] if model in r['model']])
+        sel = [(e[:-1] >= lo) & (e[1:] <= hi) for lo, hi in zip(coarse[:-1], coarse[1:])]
+        gc = np.array([[(g[m] * ann[m]).sum() / ann[m].sum() for m in sel] for g in G])
+        mid = (coarse[:-1] + coarse[1:]) / 2
+        ax.fill_between(mid, gc.min(0), gc.max(0), color=col, alpha=0.12, linewidth=0)
+        ax.plot(mid, gc.mean(0), color=col, linewidth=1.5, marker='o', markersize=2.5,
+                label='dimers, 60%' if model == 'dimers' else 'triangles, 30%')
+    ax.axhline(1, color=MUTED, linewidth=0.6, zorder=0)
+    ax.set_xlim(0, 60); ax.set_ylim(0, 6.5); ax.set_xlabel('Distance (nm)'); ax.set_ylabel('Cross-label g(r)')
+    grid(ax, 'both'); ax.legend(loc='upper right', handlelength=1.0, fontsize=6)
+
+    ax = axes[3]
+    panel(ax, 'd', '...different triplets')
+    for i, (model, col) in enumerate((('dimers', BLUE), ('trimers', ORANGE))):
+        rr = [r for r in pv['rows'] if model in r['model']]
+        for j, r in enumerate(rr):
+            dots_ci(ax, i + (j - 1.5) * 0.12, r['m2'], *r['m2_ci'], col, size=3.2)
+        ax.plot([i - 0.25, i + 0.25], [rr[0]['expected_m2']] * 2, color=INK, linewidth=1.0, zorder=4)
+    ax.axhline(0, color=MUTED, linewidth=0.6, zorder=0)
+    ax.set_xticks([0, 1]); ax.set_xticklabels(['dimers', 'triangles']); ax.set_xlim(-0.5, 1.5)
+    ax.set_ylim(-0.04, 0.17); ax.set_ylabel(r'$m_2$ (95% CI)'); grid(ax)
+    ex = {m: np.mean([r['excess'] for r in pv['rows'] if m in r['model']]) for m in ('dimers', 'trimers')}
+    ax.text(0.02, 0.98, f"excess neighbours\n{ex['dimers']:.2f} vs {ex['trimers']:.2f}", transform=ax.transAxes,
+            va='top', fontsize=6, color=INK2)
     save(fig, 'fig2')
 
 
