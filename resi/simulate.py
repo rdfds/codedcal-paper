@@ -11,11 +11,14 @@ def smooth_field(rng, side, n_bumps=12, scale=1000.0, floor=0.3):
     return lambda p: floor + (1 - floor) * np.minimum(raw(p) / top, 1.0)
 
 
-def complexes(rng, side, density, fractions, spacing, intensity=None):
+def complexes(rng, side, density, fractions, spacing, intensity=None, shape='chain', bend=0.0):
     """Complex centres under complete spatial randomness (optionally thinned by a
     position-dependent `intensity` in [0, 1]); returns subunit positions and
-    complex ids. `fractions[m-1]` is the fraction of *complexes* of size m;
-    subunits of an m-mer lie on a line (chain) with the given spacing."""
+    complex ids. `fractions[m-1]` is the fraction of *complexes* of size m.
+    Subunits of an m-mer form a straight chain with the given spacing
+    (shape='chain'), a ring with that neighbour spacing ('ring', m >= 3), or a
+    compact cluster with Gaussian spread equal to the spacing ('blob'), or a
+    flexible chain whose successive bonds turn by N(0, bend) radians ('flexible')."""
     fractions = np.asarray(fractions, float) / np.sum(fractions)
     sizes = np.arange(1, len(fractions) + 1)
     mean_size = (fractions * sizes).sum()
@@ -28,9 +31,23 @@ def complexes(rng, side, density, fractions, spacing, intensity=None):
     theta = rng.uniform(0, np.pi, n_cx)
     pos, cid = [], []
     for k in range(n_cx):
-        offs = (np.arange(m[k]) - (m[k] - 1) / 2) * spacing
-        u = np.array([np.cos(theta[k]), np.sin(theta[k])])
-        pos.append(centre[k] + offs[:, None] * u)
+        if shape == 'chain' or m[k] < 3:
+            offs = (np.arange(m[k]) - (m[k] - 1) / 2) * spacing
+            u = np.array([np.cos(theta[k]), np.sin(theta[k])])
+            pos.append(centre[k] + offs[:, None] * u)
+        elif shape == 'ring':
+            a = 2 * theta[k] + 2 * np.pi * np.arange(m[k]) / m[k]
+            r = spacing / (2 * np.sin(np.pi / m[k]))
+            pos.append(centre[k] + r * np.column_stack([np.cos(a), np.sin(a)]))
+        elif shape == 'blob':
+            pos.append(centre[k] + rng.normal(0, spacing, (m[k], 2)))
+        elif shape == 'flexible':
+            turn = 2 * theta[k] + np.r_[0.0, np.cumsum(rng.normal(0, bend, m[k] - 2))]
+            steps = spacing * np.column_stack([np.cos(turn), np.sin(turn)])
+            chain = np.vstack([np.zeros(2), np.cumsum(steps, 0)])
+            pos.append(centre[k] + chain - chain.mean(0))
+        else:
+            raise ValueError(shape)
         cid.append(np.full(m[k], k))
     if not pos:
         return np.zeros((0, 2)), np.zeros(0, int)
