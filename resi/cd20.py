@@ -7,7 +7,8 @@ uncertainty can be estimated by resampling blocks.
 from pathlib import Path
 import numpy as np
 from scipy.spatial import cKDTree
-from labels import connected_triplets, label_moments, lens_integral
+from labels import (connected_triplet_angles, connected_triplets, label_moments, lens_angle_profile,
+                    lens_integral)
 
 VIEWS = ['fig4untreated', 'edf10rep1', 'edf10rep2', 'rtx_rep1', 'rtx_rep2', 'rtx_rep3']
 TREATED = {'fig4untreated': False, 'edf10rep1': False, 'edf10rep2': False,
@@ -167,10 +168,10 @@ def g_of_r(pooled, null_density, plateau_ratio, edges=EDGES):
     return pooled / (ann * null_density) / plateau_ratio
 
 
-def point_pair_g(xy, label, rng, n_shift=12, fraction=1.0):
+def point_pair_g(xy, label, rng, n_shift=12, fraction=1.0, block_size=BLOCK):
     """Cross-label correlation for one point per molecule (or any modest point set):
     block counts, shifted-label normalization, pooled and per-label-pair g."""
-    block = blocks(xy)
+    block = blocks(xy, block_size)
     N, n = block_pair_counts(xy, label, block=block)
     seed = int(rng.integers(1 << 31))
     obs = cross_annuli(xy, label, seed, fraction=fraction)
@@ -278,3 +279,24 @@ def triplet_m2(xy, label, res, rng, B=400, radius=TRIPLET_RADIUS, annulus=TRIPLE
     idx = rng.integers(0, len(groups), (B, len(groups)))
     boot = sums[idx].sum(1) / cnts[idx].sum(1) / (2 * p3)
     return float(q.mean() / (2 * p3)), np.percentile(boot, [2.5, 97.5]).tolist(), float(p3)
+
+
+ANGLE_EDGES = np.linspace(0, np.pi, 13)   # 15-degree bins
+
+
+def triplet_angles(xy, label, res, rng, B=400, radius=TRIPLET_RADIUS, annulus=TRIPLET_ANNULUS,
+                   angle_edges=ANGLE_EDGES):
+    """Mean per-molecule angle profile of connected three-label triplets (ordered
+    neighbour pairs) with a block-bootstrap distribution."""
+    k = int(label.max()) + 1
+    h = baseline_excess(res['pair_g'][:k, :k])
+    La = lens_angle_profile(EDGES, h, radius, angle_edges, rng)
+    for b in range(k):
+        La[b, b] = 0.0
+    q = connected_triplet_angles(xy, label, k, radius, annulus, La, angle_edges)
+    blk = res['block']
+    groups = [np.flatnonzero(blk == j) for j in range(blk.max() + 1)]
+    sums = np.array([q[g].sum(0) for g in groups]); cnts = np.array([len(g) for g in groups])
+    idx = rng.integers(0, len(groups), (B, len(groups)))
+    boot = sums[idx].sum(1) / cnts[idx].sum(1)[:, None]
+    return q.mean(0), boot
