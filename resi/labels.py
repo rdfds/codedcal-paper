@@ -128,6 +128,65 @@ def connected_triplets(xy, label, K, radius, annulus, L):
     return prod - pair
 
 
+def lens_angle_profile(edges, h, R, angle_edges, rng, n=400000):
+    """Angle-resolved two-disc integral of h(|r1 - r2|): for r1, r2 uniform in a
+    disc of radius R around the origin, A^2 E[h(|r1 - r2|) 1(angle(r1, r2) in bin)].
+    `h` has a leading label-pair shape (..., bins); returns (..., angle bins)."""
+    edges = np.asarray(edges, float)
+    A = np.pi * R ** 2
+    rad = R * np.sqrt(rng.random((2, n)))
+    phi = rng.uniform(0, 2 * np.pi, (2, n))
+    p = np.stack([rad * np.cos(phi), rad * np.sin(phi)], -1)          # (2, n, 2)
+    d = np.hypot(*(p[0] - p[1]).T)
+    ang = np.abs((phi[0] - phi[1] + np.pi) % (2 * np.pi) - np.pi)       # in [0, pi]
+    db = np.clip(np.digitize(d, edges) - 1, 0, len(edges) - 2)
+    ab = np.clip(np.digitize(ang, angle_edges) - 1, 0, len(angle_edges) - 2)
+    h = np.asarray(h)
+    flat = h.reshape(-1, h.shape[-1])
+    out = np.zeros((flat.shape[0], len(angle_edges) - 1))
+    for k, row in enumerate(flat):
+        out[k] = np.bincount(ab, weights=row[db], minlength=len(angle_edges) - 1) / n * A ** 2
+    return out.reshape(h.shape[:-1] + (len(angle_edges) - 1,))
+
+
+def connected_triplet_angles(xy, label, K, radius, annulus, L_angle, angle_edges):
+    """Angle-resolved connected triplets: for each centre i (label a) and each
+    ordered pair of neighbours (j, k) within `radius` with labels b != c, both != a,
+    the angle j-i-k is binned. Background terms (uniform in angle) and the
+    neighbour-neighbour pair term L_angle[b, c, bin] are subtracted as in
+    `connected_triplets`; summing the result over angle bins gives that statistic.
+    Returns the per-centre (n, bins) array."""
+    nb_bins = len(angle_edges) - 1
+    width = np.diff(angle_edges) / np.pi
+    A_in = np.pi * radius ** 2
+    A_ann = np.pi * (annulus[1] ** 2 - annulus[0] ** 2)
+    n_in = star_counts(xy, label, radius, K)
+    lam = (star_counts(xy, label, annulus[1], K) - star_counts(xy, label, annulus[0], K)) / A_ann
+    tree = cKDTree(xy)
+    nbrs = tree.query_ball_point(xy, radius)
+    out = np.zeros((len(xy), nb_bins))
+    for i, js in enumerate(nbrs):
+        a = label[i]
+        js = np.asarray([j for j in js if j != i and label[j] != a], int)
+        if len(js) >= 2:
+            v = xy[js] - xy[i]
+            th = np.arctan2(v[:, 1], v[:, 0])
+            lj = label[js]
+            jj, kk = np.meshgrid(np.arange(len(js)), np.arange(len(js)), indexing='ij')
+            ok = lj[jj] != lj[kk]
+            ang = np.abs((th[jj] - th[kk] + np.pi) % (2 * np.pi) - np.pi)[ok]
+            out[i] = np.histogram(ang, angle_edges)[0]
+        # background expectation, uniform in angle: sum_{b != c} (bg_c n_b + bg_b n_c - bg_b bg_c)
+        bg = lam[i] * A_in
+        bg[a] = 0
+        nn = n_in[i].copy(); nn[a] = 0
+        tot = 2 * (bg.sum() * nn.sum() - (bg * nn).sum()) - (bg.sum() ** 2 - (bg ** 2).sum())
+        lo = lam[i].copy(); lo[a] = 0
+        pair = np.einsum('b,bcm,c->m', lo, L_angle, lo) - np.einsum('b,bbm,b->m', lo, L_angle, lo)
+        out[i] -= tot * width + pair
+    return out
+
+
 # ---------------------------------------------------------------------------
 # Oracle quantities (molecule identities known); used only to verify the exact
 # identities in simulation.
