@@ -25,6 +25,8 @@ data of Reinhardt et al., *Nature* 617, 711–716 (2023).
 | `permanence_cd20.py` | Cross-round nearest neighbours at duplicate-molecule distances |
 | `design.py` | Distinct-label probabilities and fixed-budget information for K rounds |
 | `design_cd20.py`, `budget_cd20.py` | Round-length thinning, label merging, label-exchangeability permutation test and design curves on CD20 |
+| `npc.py`, `npc_validation.py` | Nup96 nuclear pores (32 copies) as ground truth: per-pore factorial moments from cross-label pairs and triples, corner-level estimates, simulation recovery |
+| `figures.py` | Main figures from saved results |
 | `results/` | JSON summaries and saved pair counts for every view |
 
 ## Reproduce
@@ -44,6 +46,9 @@ python triplets_cd20.py ../../resi-cd20.nosync
 python permanence_cd20.py ../../resi-cd20.nosync
 python design_cd20.py ../../resi-cd20.nosync
 python budget_cd20.py ../../resi-cd20.nosync
+python fetch_cd20.py ../../resi-cd20.nosync npc
+python npc_validation.py ../../resi-cd20.nosync
+python figures.py
 ```
 
 ## Main quantities
