@@ -24,7 +24,7 @@ NN_EDGES = np.arange(0, 64, 4.0)
 B = 400
 
 
-def load_npc(cache):
+def load_npc(cache, assign_nm=ASSIGN_NM):
     xy, lab, cen = [], [], {}
     for r in range(1, 5):
         d = np.load(Path(cache) / f'npc-resi-R{r}.npz')
@@ -37,7 +37,7 @@ def load_npc(cache):
     groups = np.array(sorted(cen))
     centres = np.array([[cen[g][0] / cen[g][2], cen[g][1] / cen[g][2]] for g in groups])
     xy, lab = np.concatenate(xy), np.concatenate(lab)
-    d, idx = cKDTree(centres).query(xy, distance_upper_bound=ASSIGN_NM)
+    d, idx = cKDTree(centres).query(xy, distance_upper_bound=assign_nm)
     ok = np.isfinite(d)
     return xy[ok], lab[ok], idx[ok], dict(molecules=int(len(xy)), assigned=int(ok.sum()), pores=int(len(groups)))
 
