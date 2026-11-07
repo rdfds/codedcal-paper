@@ -190,12 +190,16 @@ def bootstrap(fn, N, n, rng, B=200):
     return np.array(out)
 
 
-def registration_offsets(xy, label, radius=25.0, fraction=0.05, seed=0, n_labels=None):
-    """Mean cross-label displacement (b minus a) among close pairs, per label pair,
-    from a source subsample, with approximate standard errors and pair counts.
+def registration_offsets(xy, label, radius=25.0, fraction=0.05, seed=0, n_labels=None,
+                         iterations=50, tol=1e-3):
+    """Cross-label registration offset (b minus a) per label pair, from a source
+    subsample, with approximate standard errors and pair counts.
 
-    Between-molecule displacements are symmetric in expectation, so a nonzero mean
-    measures a relative registration offset between labels (imaging rounds).
+    Between-molecule displacements are symmetric about the true offset. Close-pair
+    displacements also include pairs that are near only by chance, roughly uniform
+    in a window: a window fixed at zero would average them to zero and shrink the
+    estimate. The window is therefore re-centred on the current estimate until it
+    stops moving (mean shift), where chance pairs are symmetric about the centre.
     """
     K = _n_labels(label, n_labels)
     rng = np.random.default_rng(seed)
@@ -205,18 +209,30 @@ def registration_offsets(xy, label, radius=25.0, fraction=0.05, seed=0, n_labels
     for a in range(K):
         src = pts[a][rng.random(len(pts[a])) < fraction]
         for b in range(a + 1, K):
-            nb = trees[b].query_ball_point(src, radius)
-            ii = np.repeat(np.arange(len(nb)), [len(x) for x in nb])
+            centre = np.zeros(2)
+            for _ in range(iterations):
+                nb = trees[b].query_ball_point(src + centre, radius)
+                ii = np.repeat(np.arange(len(nb)), [len(x) for x in nb])
+                if not len(ii):
+                    break
+                jj = np.concatenate([np.asarray(x, int) for x in nb])
+                dvec = pts[b][jj] - src[ii]
+                new = dvec.mean(0)
+                moved = np.hypot(*(new - centre))
+                centre = new
+                if moved < tol:
+                    break
             if not len(ii):
                 continue
-            jj = np.concatenate([np.asarray(x, int) for x in nb])
-            dvec = pts[b][jj] - src[ii]
-            out[a, b] = dvec.mean(0); out[b, a] = -out[a, b]
-            # approximate s.e. treating per-source mean displacements as independent
-            per = np.array([np.bincount(ii, weights=dvec[:, c], minlength=len(src)) for c in range(2)]).T
-            m = np.bincount(ii, minlength=len(src))
-            ok = m > 0
-            se[a, b] = se[b, a] = (per[ok] / m[ok, None]).std(0) / np.sqrt(ok.sum())
+            out[a, b] = centre; out[b, a] = -centre
+            # standard error from resampling spatial blocks of source points
+            blk = blocks(src)[ii]
+            nbk = blk.max() + 1
+            sums = np.column_stack([np.bincount(blk, weights=dvec[:, c], minlength=nbk) for c in range(2)])
+            cnts = np.bincount(blk, minlength=nbk).astype(float)
+            pick = rng.integers(0, nbk, (200, nbk))
+            boot = sums[pick].sum(1) / cnts[pick].sum(1)[:, None]
+            se[a, b] = se[b, a] = boot.std(0, ddof=1)
             cnt[a, b] = cnt[b, a] = len(ii)
     return out, se, cnt
 
