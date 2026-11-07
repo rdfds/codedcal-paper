@@ -268,22 +268,27 @@ def fig4():
         dots_ci(ax, i, val, val - half, val + half, BLUE if v in UNTREATED else ORANGE)
     ax.axhline(0, color=MUTED, linewidth=0.6, zorder=0)
     ax.set_xticks(range(6)); ax.set_xticklabels([SHORT[v] for v in views]); ax.set_xlim(-0.6, 5.6)
-    ax.set_ylim(-0.3, 0.45)
+    ax.set_ylim(-0.35, 0.45)
     ax.set_ylabel('Excess cross-round neighbours\nwithin 2 nm (% of queries)'); grid(ax)
 
     ax = fig.add_subplot(gs[0, 1])
-    panel(ax, 'b', 'Per-round registration shifts (no fiducials)')
-    der = load('cd20-derived.json')
-    for i, v in enumerate(views):
-        t = np.array(der[v]['round_translation_nm'])
+    panel(ax, 'b', 'Round registration shifts (no fiducials)')
+    reg = load('cd20-registration.json')
+    rviews = views + ['npc']
+    for i, v in enumerate(rviews):
+        t = np.array(reg[v]['round_translation_nm'])
+        ok = reg[v]['reliable']
         for r in range(4):
-            ax.plot(i + (r - 1.5) * 0.14, np.hypot(*t[r]), 'o', color=LABEL_COLORS[r], markersize=4.5,
-                    markeredgecolor='white', markeredgewidth=0.8)
+            ax.plot(i + (r - 1.5) * 0.14, np.hypot(*t[r]), 'o', color=LABEL_COLORS[r] if ok else GRID,
+                    markersize=4.5, markeredgecolor='white' if ok else MUTED, markeredgewidth=0.8)
     for r, col in enumerate(LABEL_COLORS):
         ax.plot([], [], 'o', color=col, markersize=4, label=f'R{r + 1}')
-    ax.set_xticks(range(6)); ax.set_xticklabels([SHORT[v] for v in views]); ax.set_xlim(-0.6, 5.6)
-    ax.set_ylim(0, 1.8); ax.set_ylabel('Shift magnitude (nm)'); grid(ax)
-    ax.legend(loc='upper left', ncol=4, handletextpad=0.2, columnspacing=0.8)
+    ax.plot([], [], 'o', color=GRID, markeredgecolor=MUTED, markersize=4, label='failed injection check')
+    ax.set_xticks(range(len(rviews))); ax.set_xticklabels([SHORT.get(v, 'NPC') for v in rviews])
+    ax.set_xlim(-0.6, len(rviews) - 0.4); ax.set_ylabel('Shift magnitude (nm)'); grid(ax)
+    top = max(np.max(np.hypot(*np.array(reg[v]['round_translation_nm']).T)) for v in rviews)
+    ax.set_ylim(0, top * 1.35)
+    ax.legend(loc='upper left', ncol=3, handletextpad=0.2, columnspacing=0.8, fontsize=6)
 
     bud = load('cd20-budget.json')
     phis = np.array(bud['phis'])
@@ -339,25 +344,25 @@ def fig5():
     ax.set_xlim(0, 62); grid(ax)
 
     ax = fig.add_subplot(gs[1])
-    panel(ax, 'b', 'Efficiency, 1,218 NPCs')
-    d = v['data']
+    panel(ax, 'b', 'Efficiency, two laboratories')
+    z = load('npc-zaza.json')
     routes = [('p_counts', 'counts / 32', INK2),
               ('p_pairs', 'pairs', BLUE),
               ('p_triples', 'triples', BLUE),
-              ('p_joint', 'pairs + triples,\nn free', BLUE),
               ('p_corner_pairs', 'corner partners', ORANGE),
               ('p_corner_triplets', 'corner pairs', ORANGE),
               ('p_corner_ratio', 'corner ratio', ORANGE)]
-    for i, (k, name, col) in enumerate(routes):
-        lo, hi = d['ci'][k]
-        ax.hlines(i, lo, hi, color=col, linewidth=1.2)
-        ax.plot(d[k], i, 'o', color=col, markersize=4.5, markeredgecolor='white', markeredgewidth=0.8, zorder=3)
-    ax.axvline(d['p_counts'], color=GRID, linewidth=0.8, zorder=0)
+    for j, (src, marker, off, fill) in enumerate(((v['data'], 'o', -0.15, 'full'), (z['data'], 's', 0.15, 'none'))):
+        for i, (k, name, col) in enumerate(routes):
+            lo, hi = src['ci'][k]
+            ax.hlines(i + off, lo, hi, color=col, linewidth=1.2)
+            ax.plot(src[k], i + off, marker, color=col, markersize=4.2, fillstyle=fill,
+                    markeredgecolor=col if fill == 'none' else 'white', markeredgewidth=0.8, zorder=3)
     ax.set_yticks(range(len(routes))); ax.set_yticklabels([r[1] for r in routes], fontsize=6)
     ax.invert_yaxis(); ax.set_xlim(0.2, 0.45); ax.set_xlabel('Efficiency p (95% CI)'); grid(ax, 'x')
-    ax.text(0.02, 0.98, f"joint copies per pore\nn = {d['n_joint']:.0f} "
-            f"({d['ci']['n_joint'][0]:.0f}–{d['ci']['n_joint'][1]:.0f});\nstructure: 32",
-            transform=ax.transAxes, ha='left', va='top', fontsize=6, color=INK2)
+    ax.plot([], [], 'o', color=INK2, markersize=4, label=f"Reinhardt 2023 ({v['info']['pores']:,} NPCs)")
+    ax.plot([], [], 's', color=INK2, markersize=4, fillstyle='none', label=f"Zaza 2025 ({z['info']['pores']:,} NPCs)")
+    ax.legend(loc='upper center', bbox_to_anchor=(0.45, -0.2), fontsize=6, handlelength=0.8, ncol=1)
 
     ax = fig.add_subplot(gs[2])
     panel(ax, 'c', 'Recovery in simulated NPCs')
