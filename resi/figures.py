@@ -16,6 +16,7 @@ FIG = HERE / 'figures'
 
 INK, INK2, MUTED, GRID = '#0b0b0b', '#52514e', '#8a8984', '#e4e3df'
 BLUE, ORANGE, AQUA, YELLOW = '#2a78d6', '#eb6834', '#1baf7a', '#eda100'
+MAGENTA, VIOLET = '#e87ba4', '#6250d6'
 LABEL_COLORS = [BLUE, ORANGE, AQUA, YELLOW]
 UNTREATED = ['fig4untreated', 'edf10rep1', 'edf10rep2']
 TREATED = ['rtx_rep1', 'rtx_rep2', 'rtx_rep3']
@@ -349,6 +350,95 @@ def fig5():
     save(fig, 'fig5')
 
 
+# ---------------------------------------------------------------- Figure 6
+def fig6():
+    v = load('cd20-shape.json')
+    e = np.rad2deg(np.array(v['angle_edges'])); c = (e[:-1] + e[1:]) / 2
+    fig = plt.figure(figsize=(180 * MM, 58 * MM))
+    gs = fig.add_gridspec(1, 3, width_ratios=[1, 1, 0.9], wspace=0.42)
+    shown = [('straight chains', BLUE), ('flexible chains, 60 deg', ORANGE), ('compact clusters', AQUA),
+             ('hexameric rings', VIOLET)]
+    names = {'straight chains': 'straight chains', 'flexible chains, 60 deg': 'flexible chains (60°)',
+             'compact clusters': 'compact clusters', 'hexameric rings': 'hexameric rings'}
+
+    ax = fig.add_subplot(gs[0])
+    panel(ax, 'a', 'Reference shapes (simulated)')
+    for k, col in shown:
+        ax.plot(c, v['models'][k], color=col, linewidth=1.5, label=names[k])
+    ax.set_xlim(0, 180); ax.set_xticks([0, 60, 120, 180]); ax.set_ylim(0, 0.2)
+    ax.set_xlabel('Angle between two partners (°)'); ax.set_ylabel('Share of connected triplets')
+    grid(ax, 'both'); ax.legend(loc='upper center', handlelength=1.2, fontsize=6)
+
+    ax = fig.add_subplot(gs[1])
+    panel(ax, 'b', 'Rituximab-treated CD20')
+    for k, col in shown[:3]:
+        ax.plot(c, v['models'][k], color=col, linewidth=1.0, alpha=0.5)
+    for i, view in enumerate(TREATED):
+        o = v['views'][view]
+        y, se = np.array(o['normalized']), np.array(o['normalized_se'])
+        ax.errorbar(c + (i - 1) * 2.5, y, yerr=1.96 * se, fmt='o', color=INK, markersize=2.8, linewidth=0.8,
+                    elinewidth=0.8, capsize=0, label=SHORT[view])
+    ax.set_xlim(0, 180); ax.set_xticks([0, 60, 120, 180]); ax.set_ylim(0, 0.2)
+    ax.set_xlabel('Angle between two partners (°)'); grid(ax, 'both')
+    ax.text(0.98, 0.97, 'black: R1-R3 (95% CI)\nlines: models as in a', transform=ax.transAxes, ha='right',
+            va='top', fontsize=6, color=INK2)
+
+    ax = fig.add_subplot(gs[2])
+    panel(ax, 'c', 'Linearity index')
+    views = UNTREATED[:2] + TREATED
+    for i, view in enumerate(views):
+        o = v['views'][view]
+        dots_ci(ax, i, o['linearity'], *o['linearity_ci'], BLUE if view in UNTREATED else ORANGE)
+    for k, col in shown:
+        y = v['model_linearity'][k]
+        ax.axhline(y, color=col, linewidth=0.8, zorder=0)
+        va = {'flexible chains, 60 deg': 'bottom', 'compact clusters': 'top'}.get(k, 'center')
+        ax.text(4.45, y, names[k], fontsize=5.5, color=INK2, va=va, ha='left')
+    ax.set_xticks(range(len(views))); ax.set_xticklabels([SHORT[x] for x in views]); ax.set_xlim(-0.5, 4.4)
+    ax.set_ylim(0, 0.55); ax.set_ylabel('Share of triplets above 150°'); grid(ax)
+    save(fig, 'fig6')
+
+
+# ---------------------------------------------------------------- Supplementary robustness
+def figS1():
+    r = load('robustness.json')
+    fig = plt.figure(figsize=(180 * MM, 58 * MM))
+    gs = fig.add_gridspec(1, 3, wspace=0.42)
+    views = UNTREATED + TREATED
+    for j, (stat, title, ylab, kfmt, opts) in enumerate((
+            ('excess', 'Excess neighbours vs radius', 'Excess labelled neighbours', 'r{:g}_b60-100', (20, 25, 30, 40)),
+            ('m2', 'Connected triplets vs radius', r'$m_2$', 'r{:g}_a100-250', (20, 25, 30, 40)))):
+        ax = fig.add_subplot(gs[j])
+        panel(ax, 'ab'[j], title)
+        for v in views:
+            col = BLUE if v in UNTREATED else ORANGE
+            y = [r['cd20'][v][stat][kfmt.format(x)][0] for x in opts]
+            lo = [r['cd20'][v][stat][kfmt.format(x)][1][0] for x in opts]
+            hi = [r['cd20'][v][stat][kfmt.format(x)][1][1] for x in opts]
+            ax.fill_between(opts, lo, hi, color=col, alpha=0.1, linewidth=0)
+            ax.plot(opts, y, color=col, linewidth=1.2, marker='o', markersize=3)
+            if v in TREATED:
+                ax.text(41, y[-1], SHORT[v], fontsize=6, color=INK2, va='center')
+        u_end = max(r['cd20'][v][stat][kfmt.format(opts[-1])][0] for v in UNTREATED)
+        ax.text(41, u_end, 'U1–U3', fontsize=6, color=INK2, va='bottom')
+        ax.set_xlabel('Radius (nm)'); ax.set_ylabel(ylab); ax.set_xticks(opts); ax.set_xlim(18, 44); grid(ax, 'both')
+        if stat == 'excess':
+            ax.axhline(0.5, color=MUTED, linewidth=0.6, zorder=0)
+            ax.text(31, 0.53, 'dimer maximum\n(50% labelling)', fontsize=5.5, color=INK2, va='bottom')
+    ax = fig.add_subplot(gs[2])
+    panel(ax, 'c', 'NPC efficiency vs analysis choices')
+    a = r['npc']['assignment']
+    for i, key in enumerate(('p_counts', 'p_pairs', 'p_triples')):
+        ax.plot([float(x) for x in a], [a[x][key] for x in a], marker='o', markersize=3, linewidth=1.2,
+                color=[INK2, BLUE, AQUA][i], label=['counts / 32', 'pairs', 'triples'][i])
+    cr = r['npc']['corner_range']
+    ax.axhspan(min(v[0] for v in cr.values()), max(v[1] for v in cr.values()), color=ORANGE, alpha=0.12, linewidth=0)
+    ax.text(72, 0.445, 'corner-level range over\ngeometry assumptions', fontsize=6, color=INK2, va='top')
+    ax.set_xlabel('Pore assignment radius (nm)'); ax.set_ylabel('Efficiency p'); ax.set_ylim(0.28, 0.48)
+    ax.set_xticks([70, 90, 110]); grid(ax, 'both'); ax.legend(loc='lower right', handlelength=1.2)
+    save(fig, 'figS1')
+
+
 if __name__ == '__main__':
-    fig1(); fig2(); fig3(); fig4(); fig5()
+    fig1(); fig2(); fig3(); fig4(); fig5(); fig6(); figS1()
     print('wrote', sorted(p.name for p in FIG.glob('*.png')))
