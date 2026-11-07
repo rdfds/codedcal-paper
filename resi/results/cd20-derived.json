@@ -69,24 +69,25 @@
   },
   "round_translation_nm": [
    [
-    -0.22,
-    0.47
+    -0.723,
+    1.207
    ],
    [
-    0.0,
-    0.36
+    -0.178,
+    1.341
    ],
    [
-    0.26,
-    0.27
+    0.755,
+    0.629
    ],
    [
-    -0.04,
-    -1.1
+    0.146,
+    -3.178
    ]
   ],
-  "max_round_shift_nm": 1.1,
-  "translation_fit_rms_nm": 0.328
+  "max_round_shift_nm": 3.18,
+  "translation_fit_rms_nm": 1.214,
+  "registration_reliable": true
  },
  "edf10rep1": {
   "treated": false,
@@ -158,24 +159,25 @@
   },
   "round_translation_nm": [
    [
-    0.1,
-    0.36
+    0.744,
+    3.001
    ],
    [
-    -0.02,
-    0.22
+    0.261,
+    1.075
    ],
    [
-    -0.08,
-    -0.26
+    -0.923,
+    -1.32
    ],
    [
-    0.0,
-    -0.32
+    -0.082,
+    -2.756
    ]
   ],
-  "max_round_shift_nm": 0.37,
-  "translation_fit_rms_nm": 0.098
+  "max_round_shift_nm": 3.09,
+  "translation_fit_rms_nm": 0.629,
+  "registration_reliable": true
  },
  "edf10rep2": {
   "treated": false,
@@ -247,24 +249,25 @@
   },
   "round_translation_nm": [
    [
-    0.44,
-    -0.59
+    1.974,
+    -3.998
    ],
    [
-    0.32,
-    -0.22
+    2.022,
+    -1.291
    ],
    [
-    -0.07,
-    -0.02
+    -0.791,
+    0.909
    ],
    [
-    -0.69,
-    0.84
+    -3.205,
+    4.379
    ]
   ],
-  "max_round_shift_nm": 1.09,
-  "translation_fit_rms_nm": 0.255
+  "max_round_shift_nm": 5.43,
+  "translation_fit_rms_nm": 1.231,
+  "registration_reliable": true
  },
  "rtx_rep1": {
   "treated": true,
@@ -336,24 +339,25 @@
   },
   "round_translation_nm": [
    [
-    -0.02,
-    -0.09
+    -0.145,
+    -0.482
    ],
    [
-    -0.57,
-    0.2
+    -1.617,
+    0.668
    ],
    [
-    0.07,
-    0.17
+    0.101,
+    0.814
    ],
    [
-    0.51,
-    -0.29
+    1.66,
+    -1.0
    ]
   ],
-  "max_round_shift_nm": 0.6,
-  "translation_fit_rms_nm": 0.128
+  "max_round_shift_nm": 1.94,
+  "translation_fit_rms_nm": 0.67,
+  "registration_reliable": false
  },
  "rtx_rep2": {
   "treated": true,
@@ -425,24 +429,25 @@
   },
   "round_translation_nm": [
    [
-    -0.45,
-    0.29
+    -0.91,
+    0.765
    ],
    [
-    0.12,
-    -0.04
+    0.013,
+    -0.089
    ],
    [
-    0.81,
-    -0.33
+    2.478,
+    -1.242
    ],
    [
-    -0.48,
-    0.08
+    -1.581,
+    0.565
    ]
   ],
-  "max_round_shift_nm": 0.88,
-  "translation_fit_rms_nm": 0.198
+  "max_round_shift_nm": 2.77,
+  "translation_fit_rms_nm": 0.736,
+  "registration_reliable": true
  },
  "rtx_rep3": {
   "treated": true,
@@ -514,23 +519,24 @@
   },
   "round_translation_nm": [
    [
-    -0.67,
-    -0.29
+    -2.468,
+    -0.996
    ],
    [
-    -0.29,
-    -0.41
+    -0.918,
+    -1.384
    ],
    [
-    1.31,
-    0.95
+    4.902,
+    3.853
    ],
    [
-    -0.34,
-    -0.24
+    -1.516,
+    -1.472
    ]
   ],
-  "max_round_shift_nm": 1.61,
-  "translation_fit_rms_nm": 0.126
+  "max_round_shift_nm": 6.24,
+  "translation_fit_rms_nm": 0.705,
+  "registration_reliable": true
  }
 }

@@ -39,11 +39,10 @@ def analyse(cache, view, seed=0):
     poisson_molecules = ns ** 2 / s_tot
     resi = C.load_resi(cache, view)
     resi_counts = np.array([len(r['xy']) for r in resi])
-    offsets, offset_se, close_pairs = C.registration_offsets(xy, lab)
 
     np.savez_compressed(OUT / f'cd20-{view}.npz', edges=C.EDGES, N=N, n=n,
                         null_density=null_density, plateau_ratio=plateau_ratio,
-                        g=g, gboot=gboot, pair_g=pair_g, S=S, offsets=offsets)
+                        g=g, gboot=gboot, pair_g=pair_g, S=S)
     lo, hi = np.percentile(gboot, [2.5, 97.5], axis=0)
     pick = lambda r: int(np.searchsorted(centres, r))
     return dict(
@@ -55,9 +54,6 @@ def analyse(cache, view, seed=0):
         poisson_molecules=poisson_molecules.round().astype(int).tolist(),
         resi_molecules=resi_counts.tolist(),
         locs_per_molecule_poisson=(s_tot / ns).round(1).tolist(),
-        registration_offset_nm={f'R{a+1}-R{b+1}': [np.round(offsets[a, b], 2).tolist(),
-                                                    np.round(offset_se[a, b], 2).tolist()]
-                                for a in range(C.K) for b in range(a + 1, C.K)},
         plateau_ratio=float(plateau_ratio),
     )
 

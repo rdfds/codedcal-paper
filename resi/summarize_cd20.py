@@ -1,7 +1,8 @@
 """Summaries from saved per-view pair counts (no recounting).
 
 - excess labelled neighbours within 30 nm (pooled, per label pair, merged labels)
-- per-round translations solved from pairwise cross-label offsets
+- per-round translations (from results/cd20-registration.json, which checks
+  each view by injecting a known shift)
 
 Usage: python summarize_cd20.py CACHE_DIR
 """
@@ -60,23 +61,9 @@ def ci(x):
     return [round(float(lo), 4), round(float(hi), 4)]
 
 
-def round_translations(offsets):
-    """Least-squares per-round translations t_r (sum t_r = 0) from pairwise
-    offsets o_ab = t_b - t_a. Returns translations and residual rms."""
-    rows, rhs = [], []
-    for a, b in itertools.combinations(range(C.K), 2):
-        r = np.zeros(C.K); r[b], r[a] = 1, -1
-        rows.append(r); rhs.append(offsets[a, b])
-    rows.append(np.ones(C.K)); rhs.append(np.zeros(2))
-    A, y = np.array(rows), np.array(rhs)
-    t, *_ = np.linalg.lstsq(A, y, rcond=None)
-    resid = A[:-1] @ t - y[:-1]
-    return t, float(np.sqrt((resid ** 2).sum(1).mean()))
-
-
 def main(cache):
     rng = np.random.default_rng(1)
-    summary = json.loads((OUT / 'cd20-summary.json').read_text())
+    registration = json.loads((OUT / 'cd20-registration.json').read_text())
     out = {}
     for view in C.VIEWS:
         d = np.load(OUT / f'cd20-{view}.npz')
@@ -98,13 +85,14 @@ def main(cache):
                 vals.append(stat(Nm, nm))
             merges[f'K={k}'] = [round(float(np.mean(vals)), 4), round(float(np.min(vals)), 4),
                                 round(float(np.max(vals)), 4), len(vals)]
-        t, rms = round_translations(d['offsets'])
+        reg = registration[view]
         out[view] = dict(treated=C.TREATED[view], local_density_per_um2=round(rho * 1e6, 1),
                          excess_neighbours_30nm=[round(pooled, 4), ci(pooled_b)],
                          excess_by_label_pair=pairs, excess_merged_labels=merges,
-                         round_translation_nm=np.round(t, 2).tolist(),
-                         max_round_shift_nm=round(float(np.max(np.hypot(*t.T))), 2),
-                         translation_fit_rms_nm=round(rms, 3))
+                         round_translation_nm=reg['round_translation_nm'],
+                         max_round_shift_nm=round(reg['max_round_shift_nm'], 2),
+                         translation_fit_rms_nm=round(reg['translation_fit_rms_nm'], 3),
+                         registration_reliable=reg['reliable'])
         print(view, json.dumps(out[view]), flush=True)
     (OUT / 'cd20-derived.json').write_text(json.dumps(out, indent=1))
 
